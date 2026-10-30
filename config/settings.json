@@ -1,0 +1,51 @@
+{
+  "home": {
+    "label": "Manassas, VA",
+    "lat": 38.7509,
+    "lon": -77.4753
+  },
+  "radius_miles": 50,
+  "usajobs": {
+    "location": "Manassas, Virginia",
+    "radius_miles": 50,
+    "include_remote": true
+  },
+  "virginia": {
+    "max_pages": 200
+  },
+  "neogov_agencies": [
+    {
+      "slug": "fairfaxcounty",
+      "name": "Fairfax County Government",
+      "level": "Local",
+      "default_location": "Fairfax, VA"
+    },
+    {
+      "slug": "pwcgov",
+      "name": "Prince William County Government",
+      "level": "Local",
+      "default_location": "Prince William County, VA"
+    },
+    {
+      "slug": "arlington",
+      "name": "Arlington County Government",
+      "level": "Local",
+      "default_location": "Arlington, VA"
+    },
+    {
+      "slug": "alexandriava",
+      "name": "City of Alexandria",
+      "level": "Local",
+      "default_location": "Alexandria, VA"
+    },
+    {
+      "slug": "loudoun",
+      "name": "Loudoun County Government",
+      "level": "Local",
+      "default_location": "Leesburg, VA"
+    }
+  ],
+  "ai_min_score": 50,
+  "ai_run_budget_usd": 25,
+  "ai_max_briefs_per_run": 150
+}

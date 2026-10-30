@@ -1,0 +1,45 @@
+{
+  "daniel": {
+    "tab": "Daniel",
+    "headline": "Public service jobs within commuting distance of Manassas, VA",
+    "profile": "Daniel lives in Manassas, Virginia. His most recent job was at IEM, a consulting firm that works on emergency management, disaster recovery and preparedness for government clients (his exact title and duties are not on file, so suggest how to frame that experience rather than inventing it). He knows U.S. politics and public policy extremely well and is outgoing and people-oriented: he builds relationships easily and is good with the public. He wants a government career: federal, Virginia state, or local government, or a legislative office. Treat him as a U.S. citizen with no prior federal service and no veterans' preference unless he says otherwise, and flag any posting that needs status, a clearance, or a specific degree or license.",
+    "home": {
+      "label": "Manassas, VA",
+      "lat": 38.7509,
+      "lon": -77.4753
+    },
+    "discovery": {
+      "enabled": true,
+      "max_new_jobs": 6,
+      "max_searches": 8,
+      "max_fetches": 10,
+      "goal": "Find government and legislative job openings for Daniel that are NOT on USAJOBS or the county/state job boards this site already scrapes. He must be able to commute from Manassas, VA (DC, Arlington, Alexandria, Fairfax, Prince William, Loudoun, Fauquier, Stafford), or work in a Virginia district office of a member of Congress.",
+      "search_groups": [
+        "U.S. House and Senate office jobs in Washington DC or Virginia district offices: staff assistant, legislative correspondent, legislative assistant, scheduler, caseworker, constituent services representative, field representative. New members elected on November 3, 2026 hire staff in November-January. Include committee staff roles that fit a policy generalist.",
+        "Virginia General Assembly 2027 session jobs (House Clerk's Office, Senate Clerk's Office, Division of Legislative Services, Joint Legislative Audit and Review Commission) and legislative aide jobs for Northern Virginia delegates and senators.",
+        "Northern Virginia local elected offices and civic jobs: aides or chiefs of staff to members of the Prince William, Fairfax, Loudoun or Arlington boards of supervisors, city council aides in Alexandria, Manassas, Fairfax City, Falls Church, and elections office / general registrar jobs in Northern Virginia.",
+        "Emergency management and public policy jobs at state, regional and DC government bodies that post on their own sites: Virginia Department of Emergency Management, DC Homeland Security and Emergency Management Agency, Metropolitan Washington Council of Governments, Northern Virginia Regional Commission, and similar."
+      ]
+    }
+  },
+  "jp": {
+    "tab": "J.P.",
+    "headline": "Openings a Korean national can apply to, matched to J.P.'s resume",
+    "profile": "J.P. (Jeong Pil) Choi is a Korean national based in Seoul. Native Korean and native-level English (high school in Canada, B.S. in Political Science & Philosophy from Case Western Reserve University, earlier studied Government & International Politics at George Mason University). 6+ years in capital markets: Hanwha Investment & Securities (Associate, Global Network Team: overseas subsidiary P&L/AUM monitoring for Vietnam, Indonesia, Singapore; quarterly FS reviews and IFRS work; HQ-subsidiary governance; reporting automation with Excel, PowerShell and the Claude API), Hana Securities (Associate, Global Strategy Office: US$21M strategic investment in Wedbush via RCPS; built the track record of a Singapore asset-management subsidiary, incl. a US$25M private debt fund commitment, an 8% stake in Indies Capital Partners, a US$16M co-investment fund, KRW 160B loan asset transfer; Vietnam capital increase), VI Asset Management (Analyst, global FoF: daily FICC/equity briefings, sub-fund monitoring, performance attribution, due diligence), J.P. Morgan Securities Seoul (Analyst, equity settlement and securities lending for offshore institutions), KBS World TV (English specialist), Korea JoongAng Daily (intern reporter, 63 English market articles). Passed Level II of the CFA Program; Level III candidate in the CFA Program. KOFIA Certified Investment Manager. Tools: Bloomberg, Capital IQ, Morningstar, Preqin, FnGuide, advanced Excel and financial modeling. Completed mandatory military service in the Republic of Korea Army (Sergeant).",
+    "cfa_rule": "When you mention J.P.'s CFA status, use only the exact phrases 'Passed Level II of the CFA Program' or 'Level III candidate in the CFA Program'. Never call him a CFA charterholder, never write 'CFA Level III' or 'CFA candidate' as a title, never use CFA as a noun, and never give an expected date for earning the charter.",
+    "discovery": {
+      "enabled": true,
+      "max_new_jobs": 6,
+      "max_searches": 8,
+      "max_fetches": 10,
+      "goal": "Find current openings J.P. can realistically get as a Korean national: (1) international financial institutions where nationality of any member country is accepted (World Bank Group incl. IFC and MIGA, IMF, IDB and IDB Invest in Washington DC; ADB, AIIB, EBRD and similar), (2) U.S. finance roles at employers that sponsor work visas, especially U.S. offices of Korean financial institutions and Korean companies (often E-2 treaty visa eligible) and global firms hiring for Korea or Asia coverage, (3) roles at global financial firms in Seoul, Singapore or Hong Kong that need bilingual Korean-English professionals. Target functions: cross-border investment and strategy, corporate development, investment analysis, fund and asset management (incl. private markets and fund of funds), investor relations, capital markets, Korea coverage, risk, and finance roles at associate to AVP level.",
+      "search_groups": [
+        "World Bank Group (incl. IFC and MIGA), IMF, and Inter-American Development Bank openings in Washington DC for investment officers, financial officers, analysts or operations roles open to nationals of member countries; also Asian Development Bank and AIIB.",
+        "U.S. offices of Korean financial institutions and investors hiring in New York, Los Angeles or elsewhere in the U.S.: Korea Investment Corporation, National Pension Service New York office, Mirae Asset, Hanwha, Samsung Asset Management, KB, Shinhan, Hana, Woori, KDB, NH Investment & Securities, Korea Investment & Securities.",
+        "Global banks, asset managers and private equity firms in Seoul hiring bilingual Korean-English associates or analysts (e.g., J.P. Morgan, Goldman Sachs, Morgan Stanley, BlackRock, Macquarie, KKR, Carlyle, Blackstone, Nomura, UBS, Citi, HSBC, Fidelity, Schroders, PIMCO).",
+        "Singapore and Hong Kong roles needing Korean language: Korea coverage, Asia investment, fund manager due diligence, investor relations for Korean LPs.",
+        "Finance, strategy and corporate development roles at U.S. subsidiaries of Korean companies (Samsung, Hyundai, SK, LG, Hanwha, CJ, Lotte) that sponsor visas."
+      ]
+    }
+  }
+}

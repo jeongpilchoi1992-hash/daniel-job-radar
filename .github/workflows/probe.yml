@@ -13,6 +13,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,6 +22,7 @@ jobs:
       - run: pip install requests
       - name: Probe endpoints
         env:
+          PYTHONUNBUFFERED: "1"
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
         run: python scripts/probe.py
