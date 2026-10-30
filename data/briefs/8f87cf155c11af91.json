@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior manager planning, budgeting, and overseeing maintenance and modernization projects for Marine Corps Community Services facilities, plus acting as a contracting officer's representative.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting requires four years of progressively responsible experience managing facility sustainment, repair, modernization, or capital improvement programs, including budgets, DD Form 1391-style packages, and supervising facility staff. Nothing on file shows Daniel has facilities or infrastructure investment program management experience. Daniel's IEM consulting, policy knowledge, and stakeholder skills help only if that work actually involved infrastructure recovery projects and funding.",
+ "eligibility": [
+  "Open to the public (hiring path: public); this is a Nonappropriated Fund (NF-05) position, so no prior federal status is required and it uses different rules than GS jobs.",
+  "Four years of progressively responsible experience managing facility sustainment, repair, restoration, modernization, capital improvement, or comparable infrastructure investment programs.",
+  "Must have experience leading or managing facility program staff across multiple locations, including assigning work and giving performance feedback.",
+  "Must be able to complete training for Level III COR responsibilities and travel as required. No security clearance is required."
+ ],
+ "keywords": [
+  "Facilities Sustainment, Restoration, and Modernization (FSRM)",
+  "deferred maintenance",
+  "facility condition assessment",
+  "multiyear investment strategies",
+  "prioritized project plans",
+  "DD Form 1391",
+  "Planning, Programming, Budgeting, and Execution (PPBE)",
+  "obligations and expenditures",
+  "spend plans",
+  "lifecycle costs",
+  "appropriated and non-appropriated funds",
+  "Contracting Officer Representative (COR)",
+  "executive briefings",
+  "decision packages",
+  "GoRPM"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work included managing infrastructure or facility repair projects, such as FEMA Public Assistance permanent work or capital recovery projects. If it did not, consider skipping this posting.",
+  "If you did support infrastructure recovery, frame it in the posting's language: project scoping, cost estimates, funding justifications, obligation tracking, and briefing government leadership. State dates and hours per week for each role.",
+  "Keep the resume to two pages and lead with your most relevant program-management and budget experience. Mirror exact terms like 'deferred maintenance,' 'spend plans,' and 'decision packages' only where they are true.",
+  "Since NAF jobs are filled as 'best qualified as determined by the selecting official,' make leadership of staff and senior-level briefings explicit in your resume.",
+  "Apply between October 30 and November 15, 2026. Better near-term targets for you may be GS-0301/0343 emergency management or program analyst roles, or legislative and constituent-services positions that match your policy and people skills."
+ ],
+ "resume_bullets": [
+  "Supported [government client] in developing [number] infrastructure recovery project scopes and cost estimates totaling [$ amount], preparing funding justifications for [agency] approval.",
+  "Tracked obligations and expenditures for a [$ amount] portfolio of [number] projects, reconciling data in [system] and recommending reprioritization to client leadership.",
+  "Prepared executive briefings and decision packages for [senior official/title] on project status, schedule risk, and funding requirements across [number] sites."
+ ],
+ "interview_questions": [
+  "Walk us through how you prioritized competing facility repair or modernization projects with limited funding.",
+  "Describe your experience preparing a DD Form 1391 or equivalent programming package.",
+  "How have you monitored contractor performance and validated invoices as a COR or in a similar role?",
+  "Tell us about a time you briefed senior leaders on a cost overrun or schedule slip and recommended corrective action."
+ ],
+ "watch_outs": [
+  "The specialized facilities and capital-program requirement is very likely a disqualifying gap based on your known background.",
+  "Supervisory experience managing facility program staff across multiple locations is required, not just desirable.",
+  "No telework is offered, the job requires travel, and it is located at Quantico, which is a manageable commute from Manassas."
+ ],
+ "job_id": "usajobs:891075600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

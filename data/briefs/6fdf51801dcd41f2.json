@@ -1,0 +1,55 @@
+{
+ "one_liner": "Licensed, bilingual counselor who runs court-ordered domestic violence intervention groups and manages a caseload of Spanish-speaking offenders under DC supervision.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-12 role requires an independent clinical license (LICSW, LPC, LMFT or similar), professional-level Spanish, and a year of GS-11-equivalent experience facilitating domestic violence or cognitive-behavioral interventions for high-risk offenders. Nothing on file shows Daniel has a license, Spanish fluency, or clinical offender-treatment experience. Daniel's emergency-management consulting and policy strengths don't map to these hard requirements.",
+ "eligibility": [
+  "Open to the public, federal transition (fed-transition) and veterans hiring paths, so Daniel can apply without federal status.",
+  "Selective Placement Factor 2: you must hold a current, unrestricted independent license (LISW, LICSW, LPC, LMFT or comparable) and upload a copy, or you lose consideration.",
+  "Selective Placement Factor 1: you must read, write and speak Spanish and English at a professional level, including written case documentation.",
+  "One year of specialized experience equivalent to GS-11 facilitating evidence-based DV or cognitive-behavioral interventions, managing complex DV cases and conducting advanced risk assessments.",
+  "Basic requirement: a behavioral or social science degree (or 24 semester hours), or equivalent experience, with transcripts required for any claimed education."
+ ],
+ "keywords": [
+  "Domestic Violence Intervention Program",
+  "cognitive-behavioral interventions",
+  "high-risk offenders",
+  "risk and needs assessments",
+  "victim safety",
+  "caseload",
+  "Community Supervision Officers",
+  "evidence-based practice",
+  "intervention model fidelity",
+  "interdisciplinary teams",
+  "community partners",
+  "quality-assurance reviews",
+  "Spanish-dominant participants",
+  "co-occurring issues",
+  "program effectiveness"
+ ],
+ "strategy": [
+  "Before investing time, confirm honestly whether you hold an independent clinical license and professional Spanish; if not, skip this posting, because both are pass/fail screens.",
+  "If you do qualify, state your license number, state and expiration on your two-page resume and upload the license copy before the November 11, 2026 deadline.",
+  "Frame any IEM work only where it is truthfully relevant, such as interagency coordination, community partner collaboration or program evaluation, and don't stretch it into clinical intervention experience.",
+  "Answer the questionnaire conservatively, since overstating qualifications can remove you, and prepare for the USA Hire assessment's cut score.",
+  "A better use of your time: target CSOSA, DOJ, FEMA or Virginia/NoVA posts in community outreach, program analysis, emergency management or legislative affairs, where your IEM and policy background fits."
+ ],
+ "resume_bullets": [
+  "Coordinated with [number] government and community partners on [disaster recovery/preparedness program] for [client agency], [hours/week], [dates].",
+  "Evaluated [program/process] outcomes and recommended improvements adopted by [client], resulting in [result you can verify].",
+  "Served as primary point of contact for [stakeholder group], resolving [type of issues] and maintaining relationships across [number] organizations."
+ ],
+ "interview_questions": [
+  "Describe how you facilitate a DV intervention group when a participant minimizes or denies the abuse.",
+  "How do you prioritize victim safety when a participant misses sessions?",
+  "Give an example of adapting a curriculum for Spanish-speaking participants while maintaining model fidelity.",
+  "Tell us about a high-risk case where your risk assessment changed the supervision plan."
+ ],
+ "watch_outs": [
+  "Hard licensure requirement: without a current independent clinical license, your application will be rejected automatically.",
+  "Professional-level Spanish is a selective factor and may be tested or verified.",
+  "Category rating gives veterans' preference eligibles selection priority, which lowers odds for non-veterans."
+ ],
+ "job_id": "usajobs:889574100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

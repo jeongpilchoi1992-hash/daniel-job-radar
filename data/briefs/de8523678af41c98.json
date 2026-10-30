@@ -1,0 +1,57 @@
+{
+ "one_liner": "Procurement and finance point person for the House Sergeant at Arms: purchase orders, vouchers, purchase cards, statements of work, and sole source justifications.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's political knowledge, nonpartisan tact, and relationship skills match the posting's Organizational Awareness, Congressional Awareness, and Stakeholder Management competencies. However, the core job requirements are hands-on procurement and finance work: requisitions, purchase orders, SOWs, sole source justifications, vouchers, and invoices. Nothing on file shows Daniel did that at IEM, so the fit depends on what that role actually involved.",
+ "eligibility": [
+  "Open to the public (hiring path: public); no federal status or time-in-grade required, and this is a House (Legislative Branch) at-will job, not competitive service.",
+  "Required experience: administrative processes, managing procurements (requisitions/purchase orders, Sole Source Justifications, Statements of Work), and supporting budget and finance processes (invoices, vouchers, expense reports, travel or purchase card programs).",
+  "Bachelor's degree in Business Administration, Accounting, or a related field 'or equivalent experience' is preferred, not required.",
+  "No clearance required, but employment depends on passing a criminal history records check."
+ ],
+ "keywords": [
+  "procurements",
+  "purchase orders",
+  "requisitions",
+  "Sole Source Justifications",
+  "Statements of Work",
+  "vouchers",
+  "invoices",
+  "staff reimbursements",
+  "purchase card program",
+  "financial analysis",
+  "compliance",
+  "budget principles",
+  "PeopleSoft",
+  "Hyperion",
+  "Contracting Officer's Representatives",
+  "nonpartisan"
+ ],
+ "strategy": [
+  "Apply through the House careers site (house.csod.com) with a resume and cover letter by 7:00 p.m. on November 4, 2026; that is a day earlier than the November 5 USAJOBS close date.",
+  "Before applying, list every procurement or finance task you actually did at IEM, such as drafting SOWs, tracking invoices, processing expense reports, or supporting government contract deliverables, and lead with those.",
+  "Frame your IEM consulting work from the contractor side. Show that you understand how government clients buy services (SOWs, task orders, invoicing against contracts), since you will now manage that process for the SAA.",
+  "Use the cover letter to address Organizational Awareness and Congressional Awareness directly: your knowledge of House structure and the Committee on House Administration, plus your ability to stay nonpartisan.",
+  "Show spreadsheet and financial-software skills plainly. If you lack PeopleSoft or Hyperion, name the comparable tools you have used.",
+  "Prepare STAR stories for the structured interview built around the listed competencies, such as Customer Orientation, Problem Solving, and Adaptability."
+ ],
+ "resume_bullets": [
+  "Supported [government client/program] at IEM by [drafting/reviewing] [number] Statements of Work and scopes of service totaling [$ amount], coordinating with [client stakeholders] for approval.",
+  "Processed and reconciled [number] invoices, expense reports, and reimbursements per [month/quarter], ensuring supporting documentation met [contract/client] requirements.",
+  "Built [Excel] trackers to monitor [open purchase orders/project budgets of $X], producing [weekly/monthly] reports for [audience]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would prepare a Sole Source Justification and get it approved.",
+  "Tell us about a time you caught an error or missing documentation in an invoice or reimbursement. What did you do?",
+  "How would you get purchase cardholders to follow policy when they push back?",
+  "How do you stay nonpartisan when working with offices on both sides of the aisle?"
+ ],
+ "watch_outs": [
+  "The core requirements are procurement and finance; without concrete IEM examples, your application may not advance to interview.",
+  "The real deadline is November 4, 2026 at 7:00 p.m. on the House site, not the USAJOBS close date.",
+  "The job is on-site only, with on-call duty and possible evenings and weekends, and requires a daily commute from Manassas to Capitol Hill.",
+  "Employment is at-will and FLSA-exempt, so there is no overtime pay for extended hours."
+ ],
+ "job_id": "usajobs:889831900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

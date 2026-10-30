@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior executive (SES) running GSA's nationwide federal real estate portfolio strategy: deciding which buildings to keep, sell, or invest in, and defending those choices to Congress and OMB.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires demonstrated senior leadership of a complex real property organization and management of large commercial real estate portfolios, and nothing on file shows Daniel has that background. Daniel's policy knowledge and skill with stakeholders match the Congressional and OMB communication duties, but the panel will screen first for executive-level real estate portfolio experience. Applying is worth considering only if Daniel's IEM work included senior leadership of real property or facilities programs.",
+ "eligibility": [
+  "Open to the public and to SES members. U.S. citizenship is required, and veterans' preference does not apply.",
+  "Your two-page resume must clearly show both Mandatory Technical Competencies: senior leadership of a complex real property organization managing large commercial real estate portfolios, and justifying and defending major real property decisions to Congress, industry, and agency officials.",
+  "Your resume must also show all five ECQs at the executive level. OPM's SIQRB must certify you before appointment because you are not current or former career SES or an SES CDP graduate.",
+  "You must obtain a Top Secret clearance before appointment (it is not needed to apply), pass a drug test, and file an OGE 278 financial disclosure.",
+  "The position is in Washington, DC, with telework eligibility but no remote option. Applications close November 2, 2026."
+ ],
+ "keywords": [
+  "portfolio management",
+  "asset management",
+  "real property portfolio",
+  "asset retention and disposition",
+  "investment prioritization",
+  "market analysis",
+  "tenant requirements assessment",
+  "performance measurement",
+  "strategic portfolio planning",
+  "data-driven analysis",
+  "Congressional committees",
+  "Office of Management and Budget",
+  "inter-agency",
+  "Leads change",
+  "cut wasteful spending"
+ ],
+ "strategy": [
+  "Before applying, check honestly whether you have led a real property, facilities, or asset portfolio at a senior level. If you have not, aim for GS-11 to GS-13 PBS roles instead, such as Portfolio Analyst or Asset Manager, to build that experience.",
+  "If you apply, frame your IEM work around government facilities, recovery infrastructure, or capital investment decisions you actually led, and state your scope plainly: team size, budget, and number of assets.",
+  "Write each ECQ as an accomplishment bullet inside the resume itself, because separate narratives will not be reviewed. Use your knowledge of the American system of government for ECQ 1.",
+  "Attend the information session on Monday, October 26 at 11:45 am EDT, and preview the vacancy questions on USAJOBS.",
+  "Keep the resume to two pages, with dates, hours per week, and quantified scope, and submit well before November 2, 2026."
+ ],
+ "resume_bullets": [
+  "Led [team size] staff managing [number] [facilities/assets] valued at [$ amount] for [government client], prioritizing investments using [data/analysis method].",
+  "Briefed [Congressional staff/agency officials/OMB] on [real property or recovery decision], securing [specific outcome].",
+  "Reduced [cost category] by [$/%] by redesigning [process/technology] across [scope]."
+ ],
+ "interview_questions": [
+  "Describe a time you recommended disposing of or retaining an asset. How did you defend that decision to skeptical stakeholders?",
+  "How would you use data to prioritize capital investments across a portfolio of 1,600 owned buildings?",
+  "Tell us about leading an organization through major change and holding people accountable.",
+  "How would you present a controversial portfolio plan to a Congressional committee?"
+ ],
+ "watch_outs": [
+  "Without proven executive leadership of a real estate portfolio, the application is very likely to be screened out.",
+  "SIQRB certification and the Top Secret clearance can delay a start date by months.",
+  "The two-page limit is strict, and the ECQs and MTCs must be clearly visible in it."
+ ],
+ "job_id": "usajobs:889067800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

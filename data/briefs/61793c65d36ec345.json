@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior team-lead contracting officer role at DISA, Fort Meade: leading contract specialists through solicitations, negotiations, awards and administration of IT contracts.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-14 requires a year of GS-13-equivalent contracting experience: planning acquisitions, soliciting, evaluating, negotiating and administering contracts. Daniel's consulting work at IEM may have touched government contracts, but nothing on file shows hands-on contracting at that level. Daniel's policy knowledge and people skills don't substitute for it.",
+ "eligibility": [
+  "Open to the public under DoD Direct Hire Authority (5 USC 9905); veterans' preference does not apply.",
+  "Bachelor's degree from an accredited institution is required for the 1102 series (the pre-2000 exemption won't apply to you).",
+  "One year of specialized experience equivalent to GS-13: planning acquisitions, writing acquisition documents, and soliciting, evaluating, negotiating and administering contracts. Education cannot substitute.",
+  "Must be able to obtain a Sensitive Compartmented Information (SCI) clearance.",
+  "Apply by emailing your resume to disa.meade.psd.mbx.pla-1102-applications@mail.mil, referencing \"Announcement 13069410\"."
+ ],
+ "keywords": [
+  "planning acquisitions",
+  "acquisition documentation",
+  "pre-solicitation documentation",
+  "solicitations",
+  "evaluation",
+  "award",
+  "negotiating",
+  "contract administration",
+  "full range of contract administration",
+  "procurement policies or regulations",
+  "contractor effectiveness",
+  "mission partners",
+  "program management",
+  "Leading People",
+  "Contracting/Procurement"
+ ],
+ "strategy": [
+  "Before applying, honestly inventory your IEM work: list any proposals, task orders, contract modifications, deliverables or negotiations you handled. Apply only if you can document a year of GS-13-level contracting work.",
+  "If your IEM role was contractor-side capture, proposal or contract management, frame it as working under FAR-based government contracts. Be clear that you were on the contractor side, not the government side.",
+  "State the specialized experience explicitly in the resume body, which the posting requires. Keep it within two pages with dates and hours per week.",
+  "If you're not qualified, target entry or developmental 1102 roles instead: GS-7/9 contract specialist positions, DoD acquisition intern programs, or Pathways. Those can lead to this level within a few years.",
+  "Leverage your relationship skills by emphasizing 'mission partner' engagement and communication, which are listed competencies."
+ ],
+ "resume_bullets": [
+  "Supported [government client] contract [number/type] at IEM by [preparing deliverables/managing modifications/tracking performance] for a [$ value] [emergency management/recovery] program, [hours/week].",
+  "Coordinated with [client program managers/contracting officers] on [scope, schedule, funding] for [number] task orders, ensuring compliance with [FAR/contract terms].",
+  "Led a team of [number] staff to deliver [work product] by [deadline], assigning tasks and tracking work plans."
+ ],
+ "interview_questions": [
+  "Walk us through a complex acquisition you planned from requirement through award.",
+  "How have you led a team of contract specialists under competing deadlines?",
+  "Describe a negotiation with a contractor and how you reached a fair and reasonable price.",
+  "How do you assess contractor performance and handle a non-performing contractor?"
+ ],
+ "watch_outs": [
+  "Specialized experience is strict and can't be waived or substituted with education. Overstating qualifications can get you removed from consideration.",
+  "A bachelor's degree is mandatory; confirm you have one from an accredited school.",
+  "SCI clearance is required, which means a lengthy background investigation.",
+  "Fort Meade is a long commute from Manassas; telework is available but the job is not remote."
+ ],
+ "job_id": "usajobs:889513300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

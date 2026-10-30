@@ -1,0 +1,57 @@
+{
+ "one_liner": "Analyze defense contractor cost and schedule performance (Earned Value Management) for Missile Defense Agency programs and brief leaders, DCMA, GAO and Congress.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This NH-3 role requires one year of GS-11-equivalent specialized experience in at least 2 of 3 highly technical areas: DoD Earned Value Management, Integrated Baseline Reviews and budget/acquisition policy, or cost and economic analysis. Daniel's IEM consulting and policy knowledge are relevant only if that work involved documented EVM, cost estimating, or federal budget and program analysis. The posting says no education can be substituted.",
+ "eligibility": [
+  "Open to the public (U.S. citizens), plus military spouses and veterans, under Direct Hire Authority, so there is no rating or ranking, but you must still meet minimum qualifications.",
+  "You need one year of specialized experience equivalent to NH-02/GS-11 that meets 2 of the 3 listed areas (EVM, IBR/budget/acquisition, cost/economic analysis).",
+  "Education cannot substitute for experience at this level.",
+  "You must be able to obtain and keep a Secret security clearance.",
+  "Duty locations are Redstone Arsenal, AL, or Dahlgren, VA, both on site with telework eligibility; the position is not remote."
+ ],
+ "keywords": [
+  "Earned Value Management (EVM)",
+  "Estimates at Completion (EACs)",
+  "Integrated Baseline Reviews (IBRs)",
+  "EV/schedule integration analysis",
+  "EV/budget integration analysis",
+  "Defense Contract Management Agency (DCMA)",
+  "qualitative and quantitative analysis",
+  "cost and economic analyses",
+  "funds execution",
+  "acquisition and life cycle management",
+  "Requests for Proposal (RFP)",
+  "gap analysis",
+  "GAO and Congress",
+  "special study teams",
+  "program management"
+ ],
+ "strategy": [
+  "Before applying, list exactly what you did at IEM, and apply only if you can honestly show a year of work on at least 2 of the 3 specialized areas, such as tracking contract cost and schedule performance, budget or funds execution, or cost analysis on government disaster or preparedness contracts.",
+  "If IEM work involved FEMA or other federal contract deliverables, describe it in plain terms: contract budgets, spend tracking, schedule variance, cost estimates, and reports to government clients.",
+  "Write a two-page resume that gives your title, dates, and hours per week for IEM, and include a short, clearly labeled specialized experience statement that mirrors the posting's wording.",
+  "Use your policy knowledge to support the duties about preparing reports for GAO and Congress and briefing senior leaders, but do not rely on it alone to qualify.",
+  "The posting opens Oct 29 and closes Nov 2, 2026, so have your resume finished in advance and submit by Oct 31.",
+  "If you don't qualify, look for GS-7/9 or NH-2 program analyst, budget analyst, or FEMA and Virginia emergency management roles that build EVM and budget experience."
+ ],
+ "resume_bullets": [
+  "Tracked cost and schedule performance on [number] government-funded [disaster recovery/preparedness] contracts worth $[amount], identifying variances and reporting findings to [client/leadership]; [hours per week], [dates].",
+  "Conducted qualitative and quantitative analysis of [program/budget data] to develop recommendations on [issue] for [federal/state client], briefed to [audience].",
+  "Prepared [number] reports and briefings for [government client/oversight body] on [funds execution/program status], coordinating input from [teams/contractors]."
+ ],
+ "interview_questions": [
+  "Explain how you would interpret a negative cost variance and a worsening Estimate at Completion on a contract.",
+  "Describe a time you analyzed complex budget or performance data and briefed a senior decision-maker.",
+  "What is the purpose of an Integrated Baseline Review, and how would you support one?",
+  "How would you build working relationships with contractors and DCMA while keeping your analysis independent?"
+ ],
+ "watch_outs": [
+  "Specialized EVM and DoD acquisition experience is required and education cannot substitute, so this is a significant qualification gap for you.",
+  "The application window is about four days, from Oct 29 to Nov 2, 2026.",
+  "The duty stations are in Huntsville, AL, or Dahlgren, VA; Dahlgren is roughly a 1 to 1.5 hour commute from Manassas.",
+  "A Secret clearance is required, which means a background investigation and possible delays before you start."
+ ],
+ "job_id": "usajobs:890819100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

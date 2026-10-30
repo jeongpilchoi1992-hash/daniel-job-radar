@@ -1,0 +1,56 @@
+{
+ "one_liner": "A senior Marine Corps contracting officer-track role at Quantico planning, negotiating, and administering complex FAR, CSO, and OTA contracts for major programs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This NH-3 role requires a year of GS-11-equivalent specialized experience in FAR-based contracting, Commercial Solution Openings, Other Transaction Authority, and cost and pricing evaluation. Nothing on file shows Daniel has done hands-on contracting or pricing work. Daniel's IEM consulting background and relationship skills only help if that job involved real procurement, proposal pricing, or contract administration duties.",
+ "eligibility": [
+  "Open to the public (hiring path: public), so Daniel can apply as a U.S. citizen without federal status.",
+  "At least one year of specialized experience equivalent to GS-11/NH-02 in FAR contracting (commercial and noncommercial), CSO, and OTA procedures; long-term pre-/post-award actions; and cost and pricing evaluation.",
+  "Sensitive Compartmented Information (SCI) clearance required, which means a lengthy background investigation and eligibility for SCI access.",
+  "This is a public notice flyer, not an application portal; you must follow the separate 'How to Apply' directions to be considered.",
+  "Resume is limited to 2 pages; DoD 1102 roles typically also carry acquisition certification and education requirements, so confirm these in the full announcement."
+ ],
+ "keywords": [
+  "Federal Acquisition Regulation",
+  "Commercial Solution Openings",
+  "Other Transaction Authority",
+  "pre-award",
+  "post-award",
+  "cost and pricing",
+  "market research",
+  "solicitations",
+  "performance standards",
+  "contract administration",
+  "contractor performance",
+  "negotiations",
+  "contracting strategies",
+  "contract types",
+  "working groups"
+ ],
+ "strategy": [
+  "Assess honestly whether your IEM role touched procurement, such as proposal pricing, cost volumes, task order management, subcontracts, or contractor-side compliance with FAR clauses. If it did not, treat this as a target for later and apply to GS-1102 trainee or Acquisition Development Program roles (GS-5/7/9) instead.",
+  "If you did support government contracts at IEM, frame the work from the contractor side. Describe the task orders, period-of-performance milestones, deliverables, and modifications you handled, using the posting's terms (post-award, contractor performance, cost).",
+  "State hours per week and month/year dates for each job so HR can verify one full year at the GS-11 equivalent level. Keep everything within 2 pages.",
+  "Find and follow the 'How to Apply' instructions linked from the flyer before the November 27, 2026 close date, since applications are not accepted through the flyer itself.",
+  "Be ready for SCI investigation paperwork (SF-86). List any foreign contacts, finances, and residence history accurately from the start."
+ ],
+ "resume_bullets": [
+  "Supported [number] government emergency-management task orders valued at [$ amount] for [client agency], tracking deliverables, milestones, and [modifications/funding issues] through post-award performance.",
+  "Prepared [cost volumes/pricing inputs/labor estimates] for [number] proposals responding to [agency] solicitations, coordinating with [team] to meet submission deadlines.",
+  "Coordinated with [client contracting officer representatives/program staff] in [number] working groups to resolve [delivery/scope] issues and recommend corrective actions."
+ ],
+ "interview_questions": [
+  "Walk us through how you would choose between a FAR-based contract, a Commercial Solution Opening, and an Other Transaction agreement for a prototype requirement.",
+  "Describe a time you evaluated cost or pricing data and what you concluded.",
+  "How have you handled a contractor missing a critical milestone?",
+  "How do you keep complex approvals on schedule when multiple stakeholders are involved?"
+ ],
+ "watch_outs": [
+  "The qualification bar is high: without documented FAR/OTA contracting and pricing experience, you will likely be rated not qualified.",
+  "The SCI clearance requirement can delay your start date for months.",
+  "This is an anticipated-vacancy flyer; positions may never be filled, and no Notice of Result letters will be sent.",
+  "The posting lists no promotion potential, so NH-3 is the ceiling for this role."
+ ],
+ "job_id": "usajobs:890237300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

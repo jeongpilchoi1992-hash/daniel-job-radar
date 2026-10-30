@@ -1,0 +1,56 @@
+{
+ "one_liner": "Navy civilian analyst who plans, schedules, budgets and coordinates submarine-launched ballistic missile test flights (DASO, CET/FCET) with the fleet and technical branches.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The specialized experience requirement is narrowly written: one year as a Flight Test Assistant providing technical, budgetary, contractual guidance and program oversight for missile testing, at GS-11 level. Daniel's emergency-management consulting and policy strengths support the coordination and stakeholder parts, but nothing on file shows weapons test and evaluation, TES/TEMP work, or SSBN fleet scheduling. The position also requires a Top Secret clearance.",
+ "eligibility": [
+  "Hiring path is public, so U.S. citizens may apply. However, this is a flyer for anticipated vacancies, not an actual job announcement.",
+  "You need at least one year of specialized experience equivalent to GS-11/NH-02 as a Flight Test Assistant providing technical, budgetary, contractual guidance and program oversight.",
+  "You must be able to obtain and keep a Top Secret clearance.",
+  "Your resume must be no more than 2 pages and must document qualifications in the Management and Program Analysis series.",
+  "The posting is open October 30 to November 9, 2026, and applications go through the 'How to Apply' instructions, not the flyer itself."
+ ],
+ "keywords": [
+  "Flight Test Assistant",
+  "program oversight",
+  "technical, budgetary, contractual guidance",
+  "scheduling, planning, and budgeting",
+  "operational test plan",
+  "Test and Evaluation Master Plan (TEMP)",
+  "Test and Evaluation Strategy (TES)",
+  "DASO",
+  "CET/FCET",
+  "operational forces",
+  "fleet planning meetings",
+  "managing risk",
+  "life cycle support",
+  "testing operations",
+  "coordination"
+ ],
+ "strategy": [
+  "Before investing time, be honest about the specialized experience: unless your IEM work included test/exercise program oversight with budget and contract duties, you likely won't qualify and should prioritize other postings.",
+  "If you did manage exercises (for example, HSEEP-style preparedness exercises), schedules, budgets or contract deliverables at IEM, frame that as test and exercise planning, program oversight and contractual guidance, using the posting's exact phrases.",
+  "On a 2-page resume, give each job start and end dates (month and year), hours per week, and concise bullets that mirror the duties and keywords.",
+  "Follow the flyer's 'How to Apply' directions exactly within the October 30 to November 9 window, because applications sent through the flyer itself are not accepted and you will get no result letter.",
+  "Treat this posting as a signal and target Navy, FEMA or DHS program analyst roles at GS-9/11, where your emergency-management and stakeholder strengths match better."
+ ],
+ "resume_bullets": [
+  "Coordinated [exercise/project name] for [government client], managing schedules, [budget $amount] and contractor deliverables across [number] agencies over [timeframe].",
+  "Provided program oversight and contractual guidance on [contract/task order], tracking cost, schedule and risk and briefing [client leadership] [frequency].",
+  "Developed and executed [plan type, e.g., exercise or recovery plan] in line with [federal guidance], serving as primary liaison to [operational stakeholders]."
+ ],
+ "interview_questions": [
+  "Describe a time you planned and executed a complex test or exercise with multiple external organizations.",
+  "How have you managed a program budget and resolved contract issues with a contractor?",
+  "How would you handle a schedule conflict between fleet operational commitments and test requirements?",
+  "How do you identify and mitigate risk across a program's life cycle?"
+ ],
+ "watch_outs": [
+  "The specialized experience is extremely specific to missile flight testing and is likely unmet by your background as currently known.",
+  "Top Secret clearance required; any foreign contacts, debts or past drug use can delay or block it.",
+  "This is an anticipated-vacancy flyer, so jobs may never be filled from it and you won't be notified of results.",
+  "The window is short (about 10 days), and there is no promotion potential beyond NH-3."
+ ],
+ "job_id": "usajobs:890877200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

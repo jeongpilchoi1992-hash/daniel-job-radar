@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Navy civilian manager overseeing all MWR and galley programs (fitness, lodging, golf, food service, facilities, budgets, contracts) across seven Naval District Washington installations.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires five years managing a large MWR or hospitality/recreation operation, five years running facility construction and maintenance projects with MILCON/O&M funding authority, and three years of acquisition or contract management. Daniel's emergency-management consulting and policy strengths do not map to these operational, financial and facilities requirements, so unless Daniel has unrecorded hospitality or facilities management history, the resume is unlikely to clear screening.",
+ "eligibility": [
+  "Open to the public (hiring path: public), so no federal status is needed; it is a Nonappropriated Fund (NAF) NF-5 position, not a GS competitive-service job.",
+  "Must show five years of progressively responsible experience managing daily operations of a large-scale MWR or similar multi-faceted community support program (hospitality, large fitness/recreation, industrial support services).",
+  "Must show five years managing facility maintenance, renovation or construction projects, including setting priorities and approving funding for MILCON or O&M projects.",
+  "Must show three years initiating acquisition requirements, managing contracts or overseeing contract administration.",
+  "Requires a Secret security clearance; no education requirement is listed."
+ ],
+ "keywords": [
+  "Morale, Welfare, and Recreation (MWR)",
+  "Appropriated Funds (APF) and Non-Appropriated Funds (NAF)",
+  "Military Construction (MILCON)",
+  "Operations & Maintenance",
+  "facilities management",
+  "contract administration",
+  "acquisition",
+  "audit readiness",
+  "revenue enhancement",
+  "cost containment",
+  "customer satisfaction surveys",
+  "corrective action plans",
+  "food safety",
+  "occupational safety and health (OSHA)",
+  "program oversight"
+ ],
+ "strategy": [
+  "Be honest about the gap: apply only if you can document all three experience requirements with dates; otherwise target entry or mid-level NAF or GS program analyst roles at CNIC or emergency-management roles at FEMA or Virginia VDEM.",
+  "If you apply, state for each relevant job the dates, hours per week and the specific years spent on operations management, facilities projects with funding decisions, and contract work, since screeners count years from the resume alone.",
+  "Frame IEM work only where it is true, for example contract deliverable management, government-client program support, budget tracking, or facility and disaster-recovery projects, using the posting's terms (acquisition, contract administration, O&M).",
+  "Keep the resume to two pages and mirror the posting's language, because this vacancy rates resumes against KSA criteria and has no questionnaire to compensate for weak phrasing.",
+  "Submit early. The window runs only Oct 27 to Nov 1, 2026, so have your resume finished before the posting opens."
+ ],
+ "resume_bullets": [
+  "Managed [number] government-client contract deliverables for [program/client] at IEM, tracking scope, schedule and vendor performance in support of contract administration valued at [$amount] ([dates], [hours]/week).",
+  "Coordinated [type of facility/recovery] projects with [agencies/stakeholders], setting priorities and recommending funding for [number] projects totaling [$amount].",
+  "Conducted [stakeholder outreach/customer surveys] for [number] [communities/clients], identifying deficiencies and developing corrective action plans that [result, if measured]."
+ ],
+ "interview_questions": [
+  "Describe how you have managed a multi-faceted program with both revenue-generating and mission-sustaining activities.",
+  "How have you prioritized and justified funding for facility renovation or construction projects?",
+  "Walk us through an acquisition or contract you initiated and administered from requirement to closeout.",
+  "How would you build relationships with seven installation commanding officers who have competing priorities?"
+ ],
+ "watch_outs": [
+  "The three multi-year specialized experience requirements (MWR/hospitality operations, MILCON/O&M facilities, contracting) are very likely to screen you out.",
+  "Very short application window (about five days) closing November 1, 2026.",
+  "Secret clearance required, and the role supervises staff and directs over 1,000 personnel, which signals a senior-level hire.",
+  "Location is listed only as Multiple Locations and the role is not remote; confirm where it sits within NDW relative to Manassas before applying."
+ ],
+ "job_id": "usajobs:890448800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

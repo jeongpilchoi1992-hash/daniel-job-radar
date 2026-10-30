@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive running a small nuclear-safety agency's risk management, internal controls, FOIA/Privacy, records, audit, security, COOP and facilities programs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires progressively responsible executive leadership, typically at GS-15 or equivalent, including managing through subordinate supervisors and mastery of federal agency risk strategies. Daniel's IEM consulting background in emergency management and strong policy knowledge touch on COOP and ECQ 1, but nothing on file shows executive-level supervision or federal risk-program leadership. Unless Daniel has held a senior leadership role not on file, this posting is not realistic now.",
+ "eligibility": [
+  "Open to the public (hiring paths include public and SES), so status is not required, but U.S. citizenship is.",
+  "Basic SES requirement: progressively responsible executive and supervisory experience, ideally managing employees through subordinate supervisors, typically at GS-14/15 or private-sector equivalent.",
+  "Two-page resume must show all five ECQs and both TQs. TQ 1 requires risk-strategy experience at a federal agency, and TQ 2 requires expert knowledge of federal financial, security, HR and IT operations.",
+  "Q Access Authorization (DOE-level clearance), continuous vetting, drug screening and OGE-278 financial disclosure are required.",
+  "If selected, OPM's Qualifications Review Board must certify the executive qualifications, followed by a 1-year SES probationary period."
+ ],
+ "keywords": [
+  "risk management",
+  "enterprise-wide view of risk",
+  "risk tolerances",
+  "internal controls program",
+  "corrective actions",
+  "FOIA Officer",
+  "Privacy Act Officer",
+  "Records Management",
+  "audit coordination",
+  "Security/COOP/Facilities",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "Commitment to the Rule of Law",
+  "subordinate supervisors"
+ ],
+ "strategy": [
+  "Be honest about whether you have supervised supervisors and managed budgets. If not, skip this posting and target GS-11/12/13 roles in risk, COOP, emergency management or FOIA/privacy at agencies like FEMA, DHS or DOE.",
+  "Treat this posting as a map of where a career can go. Note the ECQs and TQs now and start building documented leadership, budget and federal-compliance results.",
+  "If you do apply, frame IEM work in federal terms: specific client agencies, COOP or preparedness plans, risk assessments, and team size and contract value. Fit each ECQ and TQ into two pages with dates and hours per week.",
+  "Answer the self-assessment questionnaire truthfully. Claiming expert-level SES experience you lack will be caught at resume review or by the QRB.",
+  "Allow time for the USA Hire competency assessment, and submit well before the November 27, 2026 close (Thanksgiving week)."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] continuity of operations (COOP) and preparedness planning at IEM, developing [plans/assessments] covering [scope] and coordinating with [number] stakeholders.",
+  "Conducted [risk/hazard] assessments for [government client], identifying [number] vulnerabilities and recommending corrective actions adopted by [office].",
+  "Led a team of [number] on [project], managing a [$ amount] budget and delivering [result] [ahead of schedule/under budget]."
+ ],
+ "interview_questions": [
+  "Describe how you built an enterprise-wide risk assessment and set risk tolerances at a federal agency.",
+  "Tell us about a time you led people through change and held subordinate supervisors accountable.",
+  "How would you ensure FOIA and Privacy Act compliance in a small agency with limited staff?",
+  "Give an example of cutting wasteful spending or improving efficiency through process or technology."
+ ],
+ "watch_outs": [
+  "SES-level executive and supervisory experience is mandatory, and TQ 1 specifically requires experience at a federal agency. Your known background likely does not meet this.",
+  "A Q clearance, continuous vetting and public financial disclosure are required.",
+  "Applications close November 27, 2026 and require a USA Hire assessment, so do not wait until the last minute."
+ ],
+ "job_id": "usajobs:890618000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

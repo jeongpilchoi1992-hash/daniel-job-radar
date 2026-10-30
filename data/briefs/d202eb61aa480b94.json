@@ -1,0 +1,55 @@
+{
+ "one_liner": "Help a Marine Corps Exchange (MCX) buyer manage merchandise categories: vendor relations, pricing, promotions, purchase orders, inventory and sales analysis for base retail stores.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a retail buying role that requires two years of experience in retail buying, inventory management, merchandise planning or a related field. Daniel's known background is emergency-management consulting, policy knowledge and people skills, none of which maps directly to buying. Daniel's relationship-building and coordination strengths help with the vendor and store communication parts, but the core qualification is likely unmet unless the IEM role involved procurement, logistics or inventory work.",
+ "eligibility": [
+  "Open to the public (hiring path: public); no federal status, veterans' preference or clearance required.",
+  "Two years of experience in retail buying, inventory management, merchandise planning or a related field; relevant education may substitute.",
+  "Working knowledge of Microsoft Excel and PowerPoint.",
+  "This is a nonappropriated fund (NAF) NF-03 position with MCCS at Quantico, an easy commute from Manassas; it is on-site with no telework."
+ ],
+ "keywords": [
+  "inventory management",
+  "merchandise planning",
+  "retail buying",
+  "vendor relationships",
+  "purchase orders",
+  "open-to-buy",
+  "pricing",
+  "promotions",
+  "markdowns",
+  "replenishment",
+  "allocation",
+  "gross margin",
+  "sales analysis",
+  "negotiations",
+  "Excel"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work involved procurement, supply or commodity tracking, logistics, vendor or contractor coordination, or budget tracking. If it did not, this role likely won't qualify you.",
+  "If it did, describe that work in inventory and vendor terms, such as tracking supplies, coordinating vendors, or analyzing data in Excel. Use the posting's exact words wherever they are truthful.",
+  "Feature any retail, sales or customer-service jobs you have held, including part-time ones, with dates and hours per week. NAF screeners count related experience toward the two-year requirement.",
+  "Show your Excel skills concretely, for example pivot tables, tracking sheets or trend analysis, and mention PowerPoint briefings you have produced.",
+  "Keep the resume to two pages and apply between October 21 and November 4, 2026. Consider this a stepping stone into MCCS/NAF rather than your core policy career path."
+ ],
+ "resume_bullets": [
+  "Coordinated with [number] vendors/contractors on [pricing/delivery/terms] for [client/project], tracking orders and resolving issues to meet [deadline/requirement].",
+  "Analyzed [inventory/supply/sales] data in Excel to identify trends and recommend actions to [supervisor/client], supporting [outcome].",
+  "Served [number] customers per [day/week] at [employer], resolving problems promptly and communicating pricing and product information courteously."
+ ],
+ "interview_questions": [
+  "Tell us about your experience managing inventory or purchasing, and how you decided when to reorder.",
+  "How would you handle a vendor who could not deliver advertised merchandise on time?",
+  "How do you use Excel to analyze sales or performance data?",
+  "Describe a time you coordinated across several teams to execute a project."
+ ],
+ "watch_outs": [
+  "Daniel likely lacks the required two years of retail buying or inventory experience, and NAF screeners may reject the application outright.",
+  "The role has little connection to Daniel's policy and emergency-management interests, so weigh the opportunity cost.",
+  "NAF positions have different benefits and employment rules than GS positions, and NAF service may not count the same way toward later competitive-service jobs.",
+  "The role is fully on-site, involves some travel, and may require occasional lifting of up to 20 lbs."
+ ],
+ "job_id": "usajobs:889605800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

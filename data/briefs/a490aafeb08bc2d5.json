@@ -1,0 +1,55 @@
+{
+ "one_liner": "Run the FTC's disability employment program: decide reasonable accommodation requests, train managers, recruit people with disabilities, and file EEOC MD-715 disability reports.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The GS-13 requires one year of GS-12-equivalent specialized experience applying the ADA, ADAAA and Rehabilitation Act, resolving reasonable accommodation requests, and addressing EEO barriers. Nothing on file shows Daniel has done that work. Daniel's policy knowledge, people skills and IEM consulting background help with outreach and interagency representation, but they don't replace the core specialized experience, and education cannot substitute at this grade.",
+ "eligibility": [
+  "Open to the public: hiring paths include public, federal competitive, disability, military spouse and veterans, so no federal status is needed.",
+  "Specialized experience: you need at least 1 year at the GS-12 equivalent applying ADA/ADAAA/Rehabilitation Act to agency programs and resolving reasonable accommodation requests.",
+  "You also need skill developing and evaluating disability policies and training, plus knowledge of federal personnel practices to identify and address EEO barriers.",
+  "Education cannot substitute for experience at GS-13; no clearance is required."
+ ],
+ "keywords": [
+  "reasonable accommodation",
+  "Americans with Disabilities Act (ADA)",
+  "ADAAA",
+  "Rehabilitation Act",
+  "disability employment",
+  "Selective Placement Coordinator",
+  "EEOC Management Directive 715",
+  "EEO barriers",
+  "affirmative employment",
+  "federal personnel practices",
+  "technical assistance",
+  "community outreach",
+  "disabled veterans",
+  "tracking systems",
+  "policy guidance"
+ ],
+ "strategy": [
+  "Before applying, preview the assessment questionnaire at the link in the posting. Answer only at levels your resume proves, because the FTC states inflated answers can cost you consideration.",
+  "Check whether any IEM work involved ADA compliance, access and functional needs, or disability inclusion in emergency planning. If so, describe it in specific detail with dates and hours per week.",
+  "Keep the resume to two pages and put any disability-law, accommodation, training-delivery and EEO-related work at the top of the IEM entry.",
+  "Show your outreach strengths with concrete examples: briefing government clients, building community partnerships, and representing the firm at interagency meetings.",
+  "If you lack accommodation-decision experience, consider a lower-grade EEO or HR specialist role (GS-9/11) or a state or county ADA coordinator job to build qualifying experience.",
+  "The application window is October 29 to November 12, 2026; submit a few days early and confirm that all documents uploaded."
+ ],
+ "resume_bullets": [
+  "Advised [client agency] on [ADA/access and functional needs] requirements in [emergency plans/programs], applying [specific law or guidance] to [number] [plans/policies]; [hours/week], [dates].",
+  "Developed and delivered [number] training sessions on [topic] to [number] [managers/staff/stakeholders] at [organization], [result if documented].",
+  "Represented [IEM/client] at [interagency workgroup/conference], coordinating with [agencies/community organizations] on [disability-related or policy issue]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would evaluate a reasonable accommodation request from an applicant, from intake to decision.",
+  "How would you identify and address barriers to hiring people with disabilities using MD-715 data?",
+  "Describe a time you trained or persuaded managers to change how they handled a compliance requirement.",
+  "How would you build outreach partnerships to recruit candidates with disabilities and disabled veterans?"
+ ],
+ "watch_outs": [
+  "Specialized experience in disability law and accommodations is likely a gap, so you may be rated ineligible.",
+  "The role is at FTC headquarters in DC with telework but not remote, which means commuting from Manassas.",
+  "It is a short two-week window (October 29 to November 12, 2026)."
+ ],
+ "job_id": "usajobs:890580900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

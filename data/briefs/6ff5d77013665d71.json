@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior supervisor of a Coast Guard contracting branch buying enterprise IT and cybersecurity, signing contracts as a warranted Contracting Officer up to unlimited dollar value.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-14 role requires 4+ years in contracting, a year at GS-13-equivalent contracting work, FAC-C Professional or DAWIA Level III certification, and 24 business-related semester hours, all by the closing date. Nothing on file shows Daniel has warranted contracting, cost/price analysis, or supervisory acquisition experience; the IEM consulting background and policy knowledge don't substitute. Daniel should apply only if the IEM role actually involved years of federal contract management, otherwise target entry-level 1102 or emergency management roles instead.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) under direct hire authority, so you don't need federal status, but you must meet minimum qualifications by November 5, 2026.",
+  "Positive education requirement: a bachelor's degree with at least 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, management, marketing, or related fields, with transcripts submitted at application.",
+  "At least 4 years of contracting experience, including 1 full year of specialized experience at the GS-13 level (e.g., pre-/post-award, negotiation, cost and price analysis, multi-million-dollar contracts); education cannot substitute.",
+  "FAC-C Professional or DAWIA Level III equivalent certification is required, plus the ability to sit for a warrant board for an unlimited warrant.",
+  "The posting lists a Q Access Authorization and requires a DHS background investigation; you must also pass the USA Hire assessment cut score."
+ ],
+ "keywords": [
+  "cradle-to-grave contracting",
+  "pre-award and post-award",
+  "Contracting Officer",
+  "unlimited warrant",
+  "cost and price analysis",
+  "negotiation",
+  "contract modification",
+  "exercise of options",
+  "procurement planning",
+  "source selection",
+  "Enterprise IT and Cybersecurity",
+  "contract administration",
+  "past performance",
+  "FAC-C",
+  "supervises contracting staff"
+ ],
+ "strategy": [
+  "Before investing time, honestly check the gates: count your contracting years, confirm your 24 business credit hours on transcripts, and confirm whether you hold FAC-C Professional or DAWIA Level III. If any is missing, skip this one.",
+  "If your IEM role involved government contracts, frame it in procurement terms such as proposal pricing, contract administration, modifications, deliverable tracking, and compliance with FAR/client requirements, citing dollar values and contract types only if true.",
+  "Keep the two-page resume tight: for each job list dates, hours per week, and two to four bullets in your own words that show GS-13-level contracting work. Copied announcement text is disqualified.",
+  "Answer the questionnaire conservatively and consistently with the resume, since overstating can remove you, and prepare for the USA Hire timed assessment.",
+  "Upload unofficial transcripts and your certification document by the November 5, 2026 closing date. The window is only 10 days.",
+  "As a realistic alternative, search USAJOBS for GS-1102-07/09 contract specialist trainee or FEMA/emergency management roles where your IEM experience is directly relevant."
+ ],
+ "resume_bullets": [
+  "Managed [number] [contract type, e.g., FFP/T&M] contracts valued at $[amount] for [government client], handling [modifications/option exercises/deliverable acceptance] in compliance with [FAR/client requirements].",
+  "Performed cost and price analysis for [number] proposals totaling $[amount] supporting [emergency management/disaster recovery program], and led negotiations that [describe actual outcome].",
+  "Supervised [number] staff on [contracting/program] work, assigning workload, setting priorities, and conducting [performance reviews/training] [hours per week: X]."
+ ],
+ "interview_questions": [
+  "Walk us through a complex, high-dollar acquisition you managed from requirement through closeout.",
+  "How do you set workload priorities and handle a subordinate whose contract files repeatedly have errors?",
+  "Describe a negotiation where you used cost or price analysis to reach a fair and reasonable price.",
+  "How would you brief senior leadership on a high-visibility protest or politically sensitive procurement?"
+ ],
+ "watch_outs": [
+  "Hard minimums (4 years of contracting, FAC-C/DAWIA III, 24 business credits) are likely unmet based on what's on file, and they must be met by closing.",
+  "Q Access Authorization and a DHS background investigation are required.",
+  "The position is fully on-site in Alexandria with no telework, which means a daily commute from Manassas.",
+  "The 10-day application window (Oct 26–Nov 5, 2026) is short and requires transcripts and certification uploads."
+ ],
+ "job_id": "usajobs:889890200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

@@ -1,0 +1,57 @@
+{
+ "one_liner": "Full-time DC Army National Guard military technician who builds and manages logistics budgets at Joint Base Anacostia-Bolling, in uniform, while serving as a Guard member.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a dual-status military technician job that requires DC Army National Guard membership at E-5 to E-7, and nothing on file shows Daniel has military service. It also requires a year of finance and budget experience at the GS-09 level plus knowledge of National Guard budget processes, which Daniel's emergency-management consulting background is not known to cover. Unless Daniel is or will become a Guard NCO with budget experience, this posting is not a realistic target.",
+ "eligibility": [
+  "Limited to current and former uniformed service members (Active, Reserve, Guard) eligible for immediate DC Army National Guard membership; the posting states 'THIS IS NOT A CIVILIAN POSITION.'",
+  "Military rank must be E-5/SGT to E-7/SFC, in a compatible assignment, before placement; you must wear the uniform.",
+  "One year of specialized finance and budget experience equivalent to GS-09, or a degree in accounting, business, finance, economics, or a related field (submit transcripts if relying on education).",
+  "Must have or be able to obtain a Secret clearance within one year of appointment.",
+  "Resume must show month/year start and end dates for every job and be no more than two pages."
+ ],
+ "keywords": [
+  "budget formulation and justification",
+  "budget execution",
+  "planning, programming, budgeting",
+  "funds allocation",
+  "accounts management",
+  "internal controls",
+  "fiscal and budgetary policy",
+  "year end close out",
+  "Management Decision Packages (MDEP)",
+  "logistics resource management",
+  "multi-year budget estimates",
+  "National Guard Bureau (NGB)",
+  "budgetary data",
+  "program analysis",
+  "regulations"
+ ],
+ "strategy": [
+  "Before spending time on this application, confirm whether you have any military service. If you have none, talk to a DC Army National Guard recruiter about enlistment, since membership at E-5 or above is a precondition you cannot meet by applying.",
+  "If you are not pursuing Guard service, skip this posting. Look for open-to-public GS-0560/0501 or emergency-management (GS-0089) roles at FEMA or DHS, or Virginia and Northern Virginia local budget or emergency-management jobs, where your IEM experience translates directly.",
+  "If you do qualify militarily, write your IEM resume entry around any real budget work. Examples include grant or disaster-recovery cost tracking, client funding estimates, and reimbursement reviews, each with dates and hours per week.",
+  "Answer the self-assessment questionnaire conservatively and back each high rating with a specific resume line, because the posting says inflated ratings will be adjusted or excluded.",
+  "Do not copy the specialized-experience text; the posting says plagiarism means immediate disqualification. Keep the resume to two pages.",
+  "The announcement stays open until 2027-01-21, so there is time to resolve the membership question first."
+ ],
+ "resume_bullets": [
+  "Tracked and reconciled [type of funds, e.g., FEMA Public Assistance] costs totaling [$ amount] for [client], preparing [number] reports on obligations and remaining balances; IEM, [mm/yy]–[mm/yy], [hours]/week.",
+  "Reviewed [budget estimates/cost projections] against [federal regulation or grant guidance, e.g., 2 CFR 200] and advised [client role] on allowable costs and funding adjustments.",
+  "Briefed [audience] on [funding changes/program milestones], translating budget data into recommendations that [describe actual outcome]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would build and justify an annual budget estimate for a logistics program.",
+  "How would you handle a mid-year funding cut that affects program milestones?",
+  "Describe your experience with year-end close-out and with reallocating funds before they expire.",
+  "How have you explained budgetary regulations to a manager who is not a finance specialist?"
+ ],
+ "watch_outs": [
+  "Military membership is mandatory, at rank E-5 to E-7; this is not a civilian job, and nothing on file shows Daniel has served.",
+  "The specialized experience must be finance and budget work, ideally tied to National Guard or DoD processes; general emergency-management consulting likely will not count.",
+  "The job requires a Secret clearance, a uniform, on-site work with no telework, and a commute from Manassas to Joint Base Anacostia-Bolling.",
+  "Accepting the position ends any Selected Reserve incentive bonuses, possibly with recoupment of payments already made."
+ ],
+ "job_id": "usajobs:855224900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

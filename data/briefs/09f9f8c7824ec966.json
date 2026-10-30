@@ -1,0 +1,55 @@
+{
+ "one_liner": "Mid-senior analyst at Coast Guard headquarters helping run a major cutter/boat acquisition program: schedules, budgets, contracts, briefings, and congressional inquiries.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's policy knowledge, stakeholder skills, and government-client consulting at IEM fit the briefing, coordination, and congressional-response parts of this job. GS-13 still requires one full year of GS-12-equivalent specialized experience in program management, budget execution, schedules, and contract oversight. Unless Daniel's IEM role involved that level of program, budget, and contract work, Daniel may not meet the minimum qualifications.",
+ "eligibility": [
+  "Open to the public (direct hire); U.S. citizenship and Selective Service registration or exemption required.",
+  "One full year of specialized experience equivalent to GS-12, such as program reporting, Integrated Government Schedules, budget execution and analysis, COR duties, CPARS, and risk management; education cannot substitute.",
+  "Must pass a background investigation for a Public Trust position (no security clearance required).",
+  "All qualifications must be met by the closing date, November 7, 2026."
+ ],
+ "keywords": [
+  "acquisition",
+  "program planning documents",
+  "executive summaries",
+  "status reports",
+  "Integrated Government Schedules",
+  "leadership-ready briefings",
+  "standard operating procedures",
+  "Integrated Product Team",
+  "matrixed stakeholders",
+  "budget allocation and execution",
+  "forecasting commitments, obligations, and expenses",
+  "Contracting Officer's Representative",
+  "CPARS",
+  "risk-management process",
+  "inquiries from Congress"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work covered at least a year of program management, budget tracking, schedules, and client deliverables at a senior level. If it didn't, prioritize GS-9/11 analyst roles instead.",
+  "Frame your IEM experience from the government-program side: managing deliverables and schedules for federal or state clients, briefing client leadership, coordinating multiple agencies, and supporting contract and task-order execution.",
+  "Within the two-page limit, give each IEM role its title, dates, and hours per week. Write specific bullets in your own words, because text copied from the announcement is disregarded.",
+  "Highlight your policy knowledge as readiness to draft responses to congressional inquiries and to brief external stakeholders.",
+  "The questionnaire is not scored under direct hire, but answer it truthfully and make sure your resume supports every claim.",
+  "The application window is only Oct 29 to Nov 7, 2026, so have the resume finished before the posting opens."
+ ],
+ "resume_bullets": [
+  "Managed schedules and deliverables for [number] [emergency management/recovery] task orders for [client agency], coordinating [number] matrixed stakeholders and reporting milestones to client leadership [frequency]; [hours/week].",
+  "Prepared executive summaries, status reports, and briefings for [client senior officials] on a [$ value] [program name], supporting [specific decision or outcome].",
+  "Tracked budget execution and forecast obligations and expenses for [program/contract], maintaining [tool/database] and flagging [variance/risk] to [manager/client]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you briefed senior leadership on a complex program's status and risks.",
+  "How have you coordinated competing priorities among matrixed stakeholders to keep a schedule on track?",
+  "Describe your experience tracking budgets, obligations, or contract deliverables.",
+  "How would you research and respond to a congressional inquiry about a program's history and status?"
+ ],
+ "watch_outs": [
+  "The specialized-experience bar is high and acquisition- and budget-specific; consulting experience without budget, COR, or schedule work may be rated not qualified.",
+  "The roughly 9-day open window is easy to miss.",
+  "The job is in DC with telework but not remote, so expect a commute from Manassas on in-office days."
+ ],
+ "job_id": "usajobs:890768900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

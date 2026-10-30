@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Executive Service leader at FHWA who sets national policy on highway pavements, construction practices, and contract administration for the Federal-aid highway program.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES position that requires executive-level experience leading surface transportation policy on pavements, materials, infrastructure design, construction management, or contract administration. Daniel's emergency-management consulting background at IEM and strong policy knowledge do not show the executive leadership or highway engineering expertise that TQ 1 and the five ECQs demand. Daniel's time is better spent on GS-level policy, outreach, or emergency-management roles.",
+ "eligibility": [
+  "Open to the public and SES members; you must be a U.S. citizen or national.",
+  "You must show TQ 1: executive-level leadership in developing, implementing, or evaluating surface transportation laws, regulations, and policies on pavements, materials, construction, or contract administration.",
+  "You must demonstrate all five ECQs within a two-page resume. Separate narratives are not accepted.",
+  "The Key requirements say a Secret clearance is required, but the clearance field says Not Required. Confirm with HR, and expect a background check and fingerprinting.",
+  "If selected, your qualifications must be certified by OPM's SES Qualifications Review Board, and you would serve a one-year probationary period."
+ ],
+ "keywords": [
+  "Federal-aid highway program",
+  "pavement engineering policies",
+  "contract administration",
+  "construction practices",
+  "construction management",
+  "quality assurance",
+  "infrastructure design",
+  "consultant services",
+  "value engineering",
+  "geometric design",
+  "national policies, criteria, and standards",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "rule of law"
+ ],
+ "strategy": [
+  "Be honest with yourself: apply only if your IEM role included executive-level leadership of transportation or infrastructure policy, which is not on file.",
+  "If you apply, address every ECQ and TQ 1 inside two pages, with a short labeled accomplishment for each, because separate narratives are not reviewed.",
+  "Frame IEM work around contract administration, consultant services, and federal grant or program compliance (for example, FEMA Public Assistance infrastructure projects) only if you actually did that work.",
+  "Use ECQ 1 to show your deep knowledge of the American system of government and constitutional principles. This is your genuine strength.",
+  "Better use of effort: target GS-11/12/13 FHWA, FEMA, or DOT roles in program analysis, intergovernmental affairs, or public engagement, where your background is competitive.",
+  "The deadline is 11:59 PM Eastern on November 20, 2026. Prepare for a possible writing sample and a scenario-based presentation."
+ ],
+ "resume_bullets": [
+  "Led [team size/scope] on [infrastructure or recovery program] for [government client], managing [budget] and delivering [result] against client goals.",
+  "Advised [state/local agency] on [federal regulation or contract administration requirement], producing [policy, guidance, or process] adopted by [number] jurisdictions.",
+  "Identified [process inefficiency] in [program] and implemented [change], reducing [cost/time] by [amount]."
+ ],
+ "interview_questions": [
+  "Describe a time you led development of a national or statewide policy on infrastructure or construction standards.",
+  "How have you cut wasteful spending or improved efficiency in a program you led?",
+  "How would you hold staff accountable while leading an organization through change?",
+  "How would you oversee states' construction contracting under the Federal-aid highway program to ensure compliance?"
+ ],
+ "watch_outs": [
+  "This is an SES role requiring proven executive and highway technical leadership, so qualification is very unlikely without both.",
+  "The two-page limit is strictly enforced; content past page 2 will not be reviewed, or the resume may be disqualified.",
+  "The clearance requirement is contradictory in the posting, and the SES probationary period ends in termination unless the agency certifies your continued employment in writing."
+ ],
+ "job_id": "usajobs:886297300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

@@ -1,0 +1,55 @@
+{
+ "one_liner": "A uniformed U.S. Public Health Service officer job overseeing ICE Health Service Corps medical staffing contracts as Program Manager and Contracting Officer's Representative.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This posting is open only to current commissioned USPHS officers, and Daniel is not one, so Daniel cannot be considered. Even setting that aside, it requires an advanced degree, a USPHS category qualifying degree, COR Level I certification, and federal healthcare contract management experience, none of which are on file.",
+ "eligibility": [
+  "Only current USPHS commissioned officers may apply; Call to Active Duty (CAD) candidates are excluded, and the 'public' hiring-path label does not override this.",
+  "Requires a qualifying degree for the officer's category plus an advanced degree (e.g., MPH, M.A., M.S.) from an accredited institution.",
+  "Requires 3-5 years of professional experience in the officer's category, including at least 2 years in program management, administration, and evaluation.",
+  "Requires Contracting Officer Representative (COR) Level I certification at entry, with COR Level II/III required within 12 months.",
+  "Must maintain PHS basic readiness criteria; this is an O-5 (Commander) billet."
+ ],
+ "keywords": [
+  "Contracting Officer Representative",
+  "contract oversight",
+  "contractor performance monitoring",
+  "corrective action plans",
+  "Performance Work Statements",
+  "Statements of Work",
+  "Quality Assurance Surveillance Plans",
+  "Independent Government Cost Estimates",
+  "market research",
+  "IDIQ/Task Order",
+  "federal acquisition regulations (FAR)",
+  "budget execution",
+  "invoices and deliverables",
+  "stakeholder coordination",
+  "process improvement"
+ ],
+ "strategy": [
+  "Do not apply; the status restriction is absolute, and an application from a non-officer will be screened out at the minimum-qualifications check.",
+  "Use this posting as a map of contract-oversight skills: search USAJOBS for civilian GS-1101/0343/0340 program analyst or COR-support roles open to the public at DHS, FEMA, or ICE.",
+  "Frame your IEM work in these terms if it fits truthfully, such as supporting government client deliverables, performance reporting, and stakeholder coordination on emergency management contracts, viewed from the contractor side.",
+  "Consider earning FAC-COR Level I through the free FAI training, which is often open to the public, and look at entry-level acquisition roles (GS-1102) to build toward jobs like this one.",
+  "If you ever pursue USPHS commissioning, know that it requires a qualifying health-profession degree; with a policy background, that is likely not a practical route."
+ ],
+ "resume_bullets": [
+  "Supported [government client] emergency management contracts at IEM by preparing [deliverables/reports] and tracking milestones against the [Statement of Work/PWS] for [X] stakeholders.",
+  "Coordinated meetings between [federal/state/local agency] officials and project teams to resolve [issue type], keeping [project] on schedule and within its [$ budget].",
+  "Analyzed [performance data/metrics] for [program] and recommended process improvements adopted by [client/team]."
+ ],
+ "interview_questions": [
+  "Describe how you have monitored contractor performance and handled a deficiency.",
+  "How would you review an invoice for accuracy against contract terms and the FAR?",
+  "Tell us about a time you resolved a conflict among multiple stakeholders.",
+  "How do you align project milestones and risks with organizational priorities?"
+ ],
+ "watch_outs": [
+  "Status-only: the job is restricted to current USPHS officers, so Daniel is ineligible.",
+  "Requires an advanced degree and COR Level I certification at hire.",
+  "Location is negotiable after selection, and occasional travel is required."
+ ],
+ "job_id": "usajobs:887468200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

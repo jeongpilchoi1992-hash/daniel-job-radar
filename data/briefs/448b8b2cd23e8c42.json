@@ -1,0 +1,56 @@
+{
+ "one_liner": "An Air Force direct-hire 'landing page' for Social Science (0101) jobs; it routes you to the Air Force Civilian Service Direct Hire Job Board rather than describing one specific job.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's policy knowledge and emergency-management consulting at IEM could fit some 0101 social science work, but this posting has no actual duties, qualifications, or job details to match against. The 0101 series normally requires a social science degree or a qualifying mix of coursework and experience, and nothing on file confirms Daniel has that. Treat this as a pointer to the real postings on the Direct Hire Job Board.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority, so no prior federal status or veterans' preference is needed.",
+  "The posting lists no qualifications. Check whether the specific job on the Direct Hire Job Board requires a social science degree, or 24 semester hours of related coursework plus experience, which is typical for the 0101 series.",
+  "NH-1/4 is a pay-band range under the Acquisition Demonstration Project, and the grade you qualify for will depend on specialized experience shown in the actual announcement.",
+  "No security clearance is required according to this posting, but confirm this on the specific opportunity.",
+  "Location is negotiable after selection, with no telework or remote work, so expect to work on site wherever the job is placed."
+ ],
+ "keywords": [
+  "Social Science",
+  "Direct Hire Authority",
+  "Department of the Air Force",
+  "Air Force Civilian Service",
+  "emergency management",
+  "disaster recovery",
+  "preparedness",
+  "policy analysis",
+  "research",
+  "data analysis",
+  "program evaluation",
+  "stakeholder engagement",
+  "government clients",
+  "written reports",
+  "briefings"
+ ],
+ "strategy": [
+  "Before applying, open the Air Force Civilian Service Direct Hire Job Board link and find the actual 0101 opportunity, because this posting contains no duties to tailor to.",
+  "Confirm your college degree major and coursework; if you have 24+ semester hours in social sciences, list them clearly or attach transcripts.",
+  "Frame your IEM work in social-science terms: research, analysis of disaster recovery or preparedness data, writing reports, and working with government stakeholders. Use only the duties you actually performed.",
+  "Keep the resume to two pages, and for each job list start and end dates (month/year), hours per week, and brief specialized-experience bullets.",
+  "Because the posting stays open until March 2027 and direct hire can move fast, apply early and keep your USAJOBS profile and documents ready.",
+  "In parallel, apply to postings with clearer duties that fit you better, such as FEMA or state and local emergency management or legislative-office roles."
+ ],
+ "resume_bullets": [
+  "Analyzed [type of data/plans] for [government client type] on [disaster recovery/preparedness] projects at IEM, producing [reports/briefings] used to [decision or outcome].",
+  "Researched [policy/regulatory topic] and wrote [number] [memos/reports] summarizing findings for [audience], [hours/week], [dates].",
+  "Coordinated with [number/type] of federal, state, or local stakeholders to gather information and present recommendations on [topic]."
+ ],
+ "interview_questions": [
+  "Describe a research or analysis project you led from start to finish. What methods did you use?",
+  "How did your emergency-management consulting work involve social science research or analysis?",
+  "Tell us about a time you explained complex findings to a non-expert audience.",
+  "How do you handle working with stakeholders who have conflicting priorities?"
+ ],
+ "watch_outs": [
+  "This posting is a generic placeholder with no real duties or qualifications, so the real requirements are only on the linked job board.",
+  "The 0101 series usually has an education requirement, and you may not qualify without social science coursework.",
+  "The salary range is very broad and the location is unknown, and you would be expected to report on site wherever placed, possibly away from Northern Virginia."
+ ],
+ "job_id": "usajobs:862957800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

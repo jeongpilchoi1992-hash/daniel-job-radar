@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior supervisor at the White House Communications Agency (DISA) overseeing program analysis, acquisition, budget and personnel/admin functions through subordinate supervisors.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GG-14 supervisory role needs a year of experience equivalent to GS/GG-13 in program evaluation, acquisition, budget execution, or administrative management, plus SCI clearance eligibility. Daniel's IEM consulting background may touch program analysis for government clients, but nothing on file shows senior-level budget, acquisition, or supervisory experience. Daniel's policy knowledge and people skills are not what this posting screens for.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status required, but it is Cyber Excepted Service and does not convert to competitive service.",
+  "Specialized experience: one year at the GG/GS-13 equivalent evaluating complex programs and resource requirements, coordinating acquisition actions, overseeing budget execution, resolving funding issues, or managing administrative processes.",
+  "No education substitution at GG-14; experience must be shown in the resume body.",
+  "Must obtain and maintain a Top Secret/SCI clearance (White House Communications Agency), which likely means an extensive background investigation.",
+  "All qualifications must be met within 30 days after the November 2, 2026 closing date."
+ ],
+ "keywords": [
+  "program and management analyses",
+  "resource requirements",
+  "acquisition strategies",
+  "market research",
+  "interagency agreements",
+  "budget execution",
+  "resolving funding issues",
+  "operational risks and resource gaps",
+  "establishing priorities",
+  "monitoring milestones",
+  "performance management",
+  "subordinate supervisors",
+  "contractor personnel",
+  "Program/Project Management",
+  "travel budget"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work included at least a year of senior-level program evaluation, budget/funding tracking, or acquisition/contract support. If not, target GS-9 to GS-12 program analyst or emergency management roles (e.g., FEMA, Virginia VDEM, Prince William County OEM) instead.",
+  "If you apply, frame IEM work around government client programs: evaluating disaster recovery or preparedness programs, tracking grant or project funding, supporting task orders or contract deliverables, and leading teams. Use the posting's exact phrases.",
+  "Preview the questionnaire at the link in the posting and answer each item at the level your resume can prove. The agency explicitly checks for inflated answers.",
+  "Keep to two pages: for each job list dates, hours per week, and two or three specialized-experience bullets mapped to the qualifying experience statement.",
+  "Apply well before November 2, 2026; the window is only about 12 days after the October 21 opening."
+ ],
+ "resume_bullets": [
+  "Evaluated [number] [type of disaster recovery/preparedness] programs for [government client], identifying [resource gaps/operational risks] and recommending [specific improvements] adopted by [client].",
+  "Tracked budget execution of $[amount] in [grant/project/task order] funds for [client], resolving [type of funding issue] in coordination with [contracting/finance staff].",
+  "Led a team of [number] [staff/contractor] personnel, assigning work, setting priorities, and monitoring milestones to deliver [deliverable] by [deadline]."
+ ],
+ "interview_questions": [
+  "Describe a time you analyzed a complex program and found systemic issues or resource gaps. What did you recommend, and what happened?",
+  "How have you developed an acquisition strategy or conducted market research, and how did you work with contracting officers?",
+  "Tell us about resolving a funding shortfall or budget execution problem under deadline pressure.",
+  "How would you supervise a mixed civilian, military, and contractor workforce through subordinate supervisors, including handling performance issues?"
+ ],
+ "watch_outs": [
+  "Grade and supervisory level likely far exceed your documented experience; an over-reaching application risks a 'not qualified' rating.",
+  "Requires a TS/SCI clearance and White House support work, with a lengthy investigation.",
+  "Cyber Excepted Service does not give competitive-service status, which limits later transfer to other federal jobs.",
+  "Short application window (October 21 to November 2, 2026)."
+ ],
+ "job_id": "usajobs:889402800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

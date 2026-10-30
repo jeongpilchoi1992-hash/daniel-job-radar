@@ -1,0 +1,56 @@
+{
+ "one_liner": "A U.S. Public Health Service officer (O-5) who runs healthcare risk management, incident reviews and patient-safety audits for ICE detention health services.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This posting is open only to commissioned USPHS officers and Call to Active Duty candidates, and it requires a healthcare credential (RN, NP/PA, or a healthcare administration field), an advanced degree, and years of healthcare quality experience. Nothing on file shows Daniel has a healthcare degree, a license, or a USPHS commission. Daniel's emergency-management consulting and policy knowledge are related to the work but do not meet these baseline requirements.",
+ "eligibility": [
+  "Restricted: open only to USPHS Commissioned Corps officers and Call to Active Duty (CAD) candidates, not the general public, despite the 'public' hiring-path tag.",
+  "Must be a Registered Nurse, Nurse Practitioner/Physician Assistant, or in a Healthcare or Healthcare Administration related field, with a qualifying degree for the officer category.",
+  "Advanced degree (e.g., MPH, MA, MS) plus at least four years of relevant professional experience, including two years in public health program management, quality improvement, or risk management/compliance.",
+  "Certification in Healthcare Quality or Risk Management (CPHQ strongly recommended), or the ability to obtain it within one year.",
+  "Must maintain USPHS basic readiness, meet the physical demands (CPR, lifting, austere environments), and travel up to 30%."
+ ],
+ "keywords": [
+  "risk management",
+  "root cause analysis (RCA)",
+  "sentinel events",
+  "incident reporting",
+  "corrective action plan",
+  "CQI",
+  "patient safety",
+  "medical record audits",
+  "PBNDS",
+  "NCCHC",
+  "ACA",
+  "detention health care standards",
+  "data analysis for tracking, trending, and reporting",
+  "program development, review, implementation and evaluation",
+  "fiscal year planning reports"
+ ],
+ "strategy": [
+  "Confirm eligibility first. Unless you hold or are pursuing a USPHS commission with a qualifying healthcare degree, you cannot be selected, so don't spend time on this application.",
+  "If you ever want this kind of role, the path is long: a healthcare or health administration degree, an MPH or similar advanced degree, healthcare quality experience, and then a USPHS commission.",
+  "Redirect your effort to roles that fit what you have now, such as FEMA or DHS emergency management specialist, program analyst, or preparedness positions open to the public.",
+  "Also look at Virginia VDEM and Prince William County or Manassas emergency management jobs, and at legislative staff roles that use your policy knowledge and public-facing skills.",
+  "For those roles, frame your IEM work around specifics like [government clients served], [preparedness, recovery, or compliance tasks], and [deliverables], and list hours per week. Keep the resume within the two-page USAJOBS limit."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] emergency management and disaster recovery programs at IEM by [specific task, e.g., tracking compliance with grant or program requirements], working [hours/week] from [dates].",
+  "Analyzed [type of data, e.g., incident or recovery project data] to identify trends and drafted [reports or corrective recommendations] for [audience].",
+  "Coordinated with [number/type of stakeholders, e.g., state and local officials] to [specific outcome or activity], building working relationships across [organizations]."
+ ],
+ "interview_questions": [
+  "Describe how you conducted or supported a root cause analysis and turned the findings into a corrective action plan.",
+  "How would you monitor compliance with PBNDS, NCCHC, and ACA standards across facilities, including those not staffed by IHSC?",
+  "Tell us about a time you used data trends to drive a policy or practice change.",
+  "How do you handle sensitive inquiries raised by outside groups, such as NGOs, about detention conditions?"
+ ],
+ "watch_outs": [
+  "Status-only posting: USPHS officers and CAD candidates only. Daniel, as a civilian with no commission, is ineligible.",
+  "Requires a clinical or healthcare degree, an advanced degree, and risk management or quality certification, none of which are on file for Daniel.",
+  "The work involves heavy physical demands, austere detention settings, up to 30% travel, and possible 30-day TDYs.",
+  "The salary listing ($1–$150,000) is a placeholder; actual pay follows USPHS O-5 rank pay."
+ ],
+ "job_id": "usajobs:886157800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

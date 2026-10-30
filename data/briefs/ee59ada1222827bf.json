@@ -1,0 +1,56 @@
+{
+ "one_liner": "A two-year research faculty post at NDU's think tank: publish peer-reviewed work on military drones and autonomous systems, brief generals, and teach.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires a doctorate/ABD, or a master's plus five years of research focused specifically on unmanned and autonomous systems, along with a peer-reviewed publication record on the topic. Nothing on file shows Daniel has a graduate degree, publications, or autonomous-systems research, and the posting notes SCI clearance. Daniel's policy knowledge and people skills fit the engagement duties, but they do not meet the core requirements.",
+ "eligibility": [
+  "Open to the public (Title 10 excepted service), so no federal status is needed; the appointment is not-to-exceed 2 years, with possible extension.",
+  "Education: you need a doctorate or ABD in a relevant field (public policy, political science, IR, etc.), or a master's plus at least five years in a research position focused on unmanned and autonomous systems.",
+  "You need a record of high-quality, peer-reviewed articles, books, or policy reports on unmanned and autonomous systems.",
+  "You need experience presenting research findings to DoW senior leaders, federal audiences, and industry executives.",
+  "The posting lists a Sensitive Compartmented Information clearance, and a current TS/SCI is desired, so expect to need SCI eligibility."
+ ],
+ "keywords": [
+  "unmanned and autonomous systems",
+  "defense industrial base",
+  "applied research",
+  "peer-reviewed journal articles",
+  "policy reports",
+  "force design",
+  "defense planning",
+  "joint warfighting",
+  "research methodologies",
+  "primary and secondary sources",
+  "senior officials",
+  "policy memoranda",
+  "wargaming",
+  "tabletop exercises",
+  "Joint Professional Military Education"
+ ],
+ "strategy": [
+  "First, confirm honestly whether you hold a doctorate/ABD, or a master's with five years of autonomous-systems research; if not, skip this posting, because screeners apply the education rule strictly.",
+  "If you do qualify, list each publication on unmanned or autonomous systems with its full citation, and mark which ones are peer-reviewed.",
+  "Frame your IEM work only where it is true: research reports, tabletop exercises, or briefings for government clients. Do not stretch emergency management into defense autonomy.",
+  "Use the narrative assessment answers to give specific examples of briefing senior leaders and of policy impact, since the posting gives preference for demonstrated impact.",
+  "Keep the resume to two pages, with dates and hours per week, and apply before November 20, 2026.",
+  "A better use of your time is NDU or DoD policy, program analyst, or legislative roles that match your background, such as FEMA, Virginia VDEM, or county emergency management."
+ ],
+ "resume_bullets": [
+  "Researched and authored [number] [report type] on [topic] for [government client] at IEM, using primary and secondary sources to support [decision/plan].",
+  "Designed and facilitated [number] tabletop exercises for [agency/audience size], presenting findings to [senior official level].",
+  "Briefed [audience] on [policy issue], resulting in [documented outcome, if any]."
+ ],
+ "interview_questions": [
+  "Describe your research agenda on unmanned and autonomous systems for the next two years and its implications for the defense industrial base.",
+  "Tell us about a time your research influenced defense strategy or policy.",
+  "How would you brief a General Officer on a complex technical finding in ten minutes?",
+  "What graduate-level course could you teach, and how would you structure it?"
+ ],
+ "watch_outs": [
+  "The degree and publication requirements appear unmet based on what is on file.",
+  "An SCI clearance is involved, and you have no clearance on record.",
+  "The appointment is temporary, not-to-exceed 2 years, and there is no administrative support staff, so you would handle your own paperwork."
+ ],
+ "job_id": "usajobs:890864200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

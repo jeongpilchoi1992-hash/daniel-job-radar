@@ -1,0 +1,57 @@
+{
+ "one_liner": "A CIA Directorate of Analysis officer who researches foreign developments and writes objective assessments for U.S. policymakers; applications go through cia.gov/careers, not USAJOBS.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's strong command of politics and policy, communication skills, and government-client consulting at IEM fit the analyst attributes, especially the Politics or Leadership specialties. However, the posting centers on foreign affairs and U.S. strategic priorities, while Daniel's known strengths are domestic politics and emergency management. Daniel also must meet a bachelor's degree with a 3.0 GPA requirement and pass a lengthy TS/SCI background investigation, including a polygraph that is standard for CIA.",
+ "eligibility": [
+  "Open to the public (competitive and excepted paths listed); U.S. citizenship is required.",
+  "Bachelor's degree from an accredited institution with at least a 3.0 GPA on a 4.0 scale. Confirm Daniel's degree and GPA before applying.",
+  "Must be able to obtain a Sensitive Compartmented Information (SCI) clearance through a full background investigation.",
+  "Must show an understanding of foreign affairs and U.S. strategic priorities; this is a stated minimum qualification.",
+  "On-site work in the Washington, DC area: not telework-eligible and not remote."
+ ],
+ "keywords": [
+  "critical thinking",
+  "objective insight",
+  "foreign policy",
+  "foreign affairs",
+  "US strategic priorities",
+  "Politics",
+  "Leadership",
+  "written and verbal communication",
+  "commitment to objectivity",
+  "intellectual curiosity",
+  "sound judgement",
+  "interpersonal skills",
+  "initiative and collaboration",
+  "emerging technology",
+  "analysis"
+ ],
+ "strategy": [
+  "Apply through cia.gov/careers and pick a specific track, most likely Political or Leadership Analyst. The USAJOBS listing is only a pointer, so read that track's own requirements.",
+  "Frame the IEM work as analysis for government decision-makers. Describe researching complex situations, synthesizing information, and writing products for officials, but only include what Daniel actually did.",
+  "Build and show foreign-affairs credibility through coursework, a regional focus, languages, and any international-relations writing. Expect a writing sample or timed writing exercise, so practice short, bottom-line-up-front assessments.",
+  "Stress objectivity: separate political knowledge from personal opinion, and be ready to show you can analyze positions you disagree with.",
+  "Apply well before the January 31, 2027 close, since CIA hiring and clearance processing often take 6 to 18 months.",
+  "In parallel, apply to emergency-management roles at FEMA, the Virginia Department of Emergency Management (VDEM), and Prince William County, which are a stronger near-term fit."
+ ],
+ "resume_bullets": [
+  "Researched and analyzed [type of information, e.g., hazard data or policy documents] for [government client type], producing [number] written [reports/briefings] that informed [decision or plan].",
+  "Briefed [audience, e.g., state and local officials] on [topic], translating complex [technical/policy] findings into clear recommendations under [deadline/time constraint].",
+  "Coordinated with [number] stakeholders across [agencies/jurisdictions] to gather information and reconcile conflicting inputs for [project], [result you can verify]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would assess a foreign leader's likely response to a new U.S. policy.",
+  "Tell us about a time you had to set aside your own views to give an objective analysis.",
+  "Describe a complex written product you produced for a government client: your process, sources, and how you handled uncertainty.",
+  "Which world region or issue interests you most, and what are the key U.S. strategic priorities there?"
+ ],
+ "watch_outs": [
+  "The degree and 3.0 GPA requirement is firm; without them Daniel is likely ineligible.",
+  "The SCI background investigation and polygraph are lengthy and intrusive, and past drug use, finances, or foreign contacts can disqualify.",
+  "Daniel cannot publicly discuss the work, and partisan political activity is restricted, which may conflict with Daniel's interest in legislative or political roles.",
+  "The work is on-site only with no telework, which means a significant commute from Manassas to the DC area."
+ ],
+ "job_id": "usajobs:851782400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

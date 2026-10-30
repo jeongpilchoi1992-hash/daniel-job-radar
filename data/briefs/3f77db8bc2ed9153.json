@@ -1,0 +1,57 @@
+{
+ "one_liner": "Hands-on cyber incident responder in DHS's Cybersecurity Service: monitor networks, analyze logs and SIEM alerts, contain intrusions, and brief leaders. It fills a one-year talent pool.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a deeply technical cybersecurity role, and the posting says the track generally expects 5-15 years of cybersecurity work experience, including a proctored technical exam and a resume review requiring explicit cyber experience. Nothing on file shows Daniel has cybersecurity experience. Daniel's emergency-management consulting and communication strengths fit the incident-coordination and after-action reporting pieces, but those alone won't pass Phase II.",
+ "eligibility": [
+  "Open to the public (hiring path: public), so U.S. citizens without federal status may apply.",
+  "Technical Track generally expects 5-15 years of cybersecurity work experience, and the resume must explicitly outline cybersecurity experience after Phase II.",
+  "Requires eligibility for a Top Secret/SCI (Sensitive Compartmented Information) clearance.",
+  "No degree is required, but you must pass both Phase I online assessments and the proctored Phase II Mitigation and Response technical assessment at a designated center.",
+  "Duty location is listed as Multiple Locations and the job is not telework-eligible or remote, so confirm DC-area slots exist."
+ ],
+ "keywords": [
+  "incident response",
+  "incident handling",
+  "NIST stages of incident handling",
+  "Security Information and Event Management (SIEM)",
+  "indicators of compromise (IOCs)",
+  "intrusion detection system (IDS) logs",
+  "network traffic",
+  "threat assessments",
+  "root cause analysis",
+  "recovery action plans",
+  "after-action reports",
+  "situational visibility",
+  "tactics, techniques, and procedures (TTPs)",
+  "Endpoint Security Tools",
+  "stakeholder feedback"
+ ],
+ "strategy": [
+  "Be honest with yourself first: apply only if you have real, explainable hands-on cyber work (SOC, IT security, log analysis), because Phase II tests technical skill and the resume review checks explicit cybersecurity experience.",
+  "If you have no cyber background, treat this as a target for later. Instead, look at FEMA, CISA, or DHS emergency-management, preparedness, policy, or stakeholder-engagement roles that fit your IEM experience now.",
+  "If you do apply, frame your IEM work around incident coordination, continuity/recovery planning, after-action reports, and briefing government leaders. Use the posting's exact language, but only where it is accurate.",
+  "Phase I measures communication, analysis, and collaboration, not cyber knowledge, so take it in a quiet setting with audio and reserve the full 2 hours for the work simulation.",
+  "The window runs October 29 to November 13, 2026. Watch your email closely after applying, because the assessment deadlines are time-sensitive and Phase II must be scheduled at a proctored center.",
+  "Keep the resume to the two-page USAJOBS limit. List the dates and hours per week for each job, and put any cybersecurity duties first under each role."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [incident/disaster response] operations at IEM by coordinating [number] stakeholders and producing situational updates and after-action reports for [leadership level].",
+  "Developed [recovery action plans / continuity plans] for [client], integrating stakeholder feedback to identify vulnerabilities and recommend mitigation strategies.",
+  "[If applicable] Monitored and analyzed [log sources/SIEM tool] to identify indicators of compromise and escalated [number] incidents per NIST incident handling guidelines, [hours/week]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would handle a suspected intrusion from detection to recovery using NIST incident handling stages.",
+  "How would you brief a senior executive versus a SOC team on the same incident?",
+  "Describe a time you coordinated with multiple stakeholders under pressure during an incident or emergency.",
+  "Which SIEM or endpoint security tools have you used, and how?"
+ ],
+ "watch_outs": [
+  "The role requires substantial cybersecurity experience and a proctored technical exam, which is a major gap unless Daniel has unlisted cyber work.",
+  "The position requires a TS/SCI clearance, which means a lengthy background investigation.",
+  "There is no telework, and the location is Multiple Locations, so placement could be outside Northern Virginia.",
+  "Applying places you in a talent pool rather than guaranteeing a job, and the pay level is set by assessed experience."
+ ],
+ "job_id": "usajobs:890764400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

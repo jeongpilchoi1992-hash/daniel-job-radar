@@ -1,0 +1,55 @@
+{
+ "one_liner": "Run and improve the National Gallery of Art's warehouse asset and inventory system: tracking property, moving furniture and equipment, and handling disposal of excess items.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a narrow logistics and property-management role, and the specialized experience requires serving as a focal point for implementing a warehouse asset management system. Daniel's emergency-management consulting and policy strengths don't map to that unless the IEM work involved commodity tracking, logistics or inventory systems. Without that experience, or a master's degree you could use instead, Daniel likely won't qualify at GS-09.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status, clearance or veterans' preference needed.",
+  "One year of specialized experience at the GS-07 equivalent, serving as a focal point for implementing an asset management system for a warehouse operation, must be met by 11/02/2026.",
+  "Alternative: a master's degree, 2 full years of graduate education, a related LL.B./J.D., or a qualifying combination of education and experience.",
+  "Must pass a background investigation, be registered with Selective Service if male and born after 12/31/59, and may serve a probationary period."
+ ],
+ "keywords": [
+  "asset management system",
+  "warehouse operations",
+  "inventory management",
+  "property records",
+  "automated warehouse system",
+  "logistics business processes",
+  "logistics management systems",
+  "life cycle management",
+  "reutilization and disposal of excess equipment",
+  "applying technology to business processes",
+  "maintaining property and inventory systems",
+  "planning, scheduling and relocating equipment",
+  "developing procedures",
+  "customer requests"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether any IEM work involved disaster logistics, such as commodity or donations tracking, supply staging, equipment inventory, or logistics software. If none did, consider skipping this posting.",
+  "If you have a master's or qualifying graduate education, list it clearly, since it can qualify you for GS-09 without warehouse experience.",
+  "Preview the questionnaire and answer only at levels your resume supports; overstating can remove you from consideration.",
+  "Keep the resume to two pages, with month/year dates, hours per week, and a short bullet set that uses the posting's exact logistics terms.",
+  "Apply well before the 11/02/2026 close; the window is only two weeks.",
+  "For a better fit, target 0343 analyst, emergency management (0089), or legislative and public affairs roles at FEMA, Virginia VDEM, Prince William County, or congressional offices."
+ ],
+ "resume_bullets": [
+  "Tracked [type/quantity] of [equipment/supplies] for [client/disaster event] using [system name], maintaining accurate inventory records for [X] locations.",
+  "Analyzed [logistics/business] processes for [government client] and recommended [technology/procedure change], resulting in [result, if documented].",
+  "Coordinated with [stakeholders] to schedule and relocate [resources] during [project/response], handling [number] of requests per [period]."
+ ],
+ "interview_questions": [
+  "Describe a time you implemented or improved an inventory or asset tracking system. What was your role?",
+  "How would you decide which warehouse processes to change or automate?",
+  "Walk us through how you would handle disposal or reutilization of excess federal property.",
+  "How do you keep property records accurate when many customers are requesting moves and supplies?"
+ ],
+ "watch_outs": [
+  "The specialized experience is very specific (warehouse asset management system implementation), so Daniel is unlikely to qualify without it or a graduate degree.",
+  "Promotion potential is capped at GS-09, and the role doesn't use Daniel's policy and public-facing strengths.",
+  "Short two-week application window closing 11/02/2026.",
+  "Commuting from Manassas to downtown DC; telework is available, but the role is not remote and warehouse work likely requires on-site time."
+ ],
+ "job_id": "usajobs:889245000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

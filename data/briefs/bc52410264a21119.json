@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior Executive Service leader running governance, internal controls, compliance, records and administrative operations for VA's National Cemetery Administration (150+ cemeteries).",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES role that requires demonstrated executive leadership: leading people, managing budgets, and running enterprise internal controls (A-123, enterprise risk management) for a large organization. Nothing on file shows Daniel has held executive-level supervisory or budget authority. Daniel's strong policy knowledge fits ECQ 1, but consulting work at IEM alone is unlikely to satisfy the full ECQ and TQ bar or OPM QRB certification.",
+ "eligibility": [
+  "Open to the public (hiring paths: SES, public), so no federal status is required, but you must show all five ECQs and TQ1 within a two-page resume.",
+  "Separate ECQ or TQ narratives are not accepted, and resumes over two pages are disqualified.",
+  "Unless you are already a career SES member, an SESCDP graduate, or SES reinstatement eligible, the selectee must be certified by OPM's QRB and then serve a one-year probationary period.",
+  "The security clearance is listed as 'Other', so confirm the required background investigation with the HR contact on the posting.",
+  "Education is only required if you substitute it for experience; schools must be accredited by an accrediting institution recognized by the U.S. Department of Education."
+ ],
+ "keywords": [
+  "internal controls",
+  "A-123",
+  "enterprise risk management",
+  "governance",
+  "compliance framework",
+  "policy integration",
+  "regulatory compliance",
+  "administrative systems",
+  "records management",
+  "executive correspondence",
+  "workforce administration",
+  "stakeholders",
+  "cost-benefit analysis",
+  "Executive Core Qualifications",
+  "interagency partners"
+ ],
+ "strategy": [
+  "Be realistic: apply only if you have truly led staff, managed a budget, and owned compliance or governance outcomes at a senior level. Otherwise, target GS-12/13 management analyst, program analyst, or emergency management roles to build toward the SES.",
+  "If you apply, frame your IEM work around governance and compliance for government clients, such as FEMA grant compliance, audit readiness, or policy and process design, using only duties you actually performed.",
+  "Map at least one concrete accomplishment to each ECQ and TQ1 inside the two pages, using CCAR logic (Challenge, Context, Action, Result) compressed into one-line bullets.",
+  "Use your policy knowledge to meet ECQ 1 (Constitution, federalism, rule of law) and your relationship skills for the 'Represents NCA' and stakeholder duties.",
+  "Submit before November 13, 2026, and check the 'Required Documents' section for formatting rules. Include dates, hours per week, and titles for each job.",
+  "Put team size, budget dollars, and scope in every leadership bullet, because screeners look for executive-level scale."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team at IEM supporting [government client] on [disaster recovery/grant compliance program], establishing internal controls and compliance reviews that [result, e.g., reduced audit findings by X%].",
+  "Managed [$ amount] program budget for [client/project]; used cost-benefit analysis to reprioritize [activities], saving [amount/time].",
+  "Advised [senior client officials, e.g., state emergency management director] on policy integration and regulatory compliance for [federal program, e.g., FEMA Public Assistance], resulting in [outcome]."
+ ],
+ "interview_questions": [
+  "Describe how you have designed or led an internal control or enterprise risk management program, including A-123 work.",
+  "Tell us about a time you held an underperforming employee accountable and what resulted.",
+  "How would you advise the Under Secretary on a compliance risk that spans 150+ cemeteries?",
+  "Give an example of cutting costs or improving efficiency through process or technology changes."
+ ],
+ "watch_outs": [
+  "The SES bar is very high, and without executive supervisory and budget experience, Daniel is unlikely to be rated highly qualified.",
+  "The strict two-page limit means any resume over two pages is disqualified.",
+  "The application window is short (October 30 to November 13, 2026), and QRB certification adds months after selection.",
+  "The security clearance is listed as 'Other', so verify the background investigation requirement with HR."
+ ],
+ "job_id": "usajobs:890452300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior deputy managing acquisition strategy, contracting, and budget execution for the Navy's Conventional Prompt Strike hypersonic missile program office.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires at least a year of GS-13-equivalent specialized experience applying DoD 5000-series acquisition principles, analyzing cost, schedule, and contract data, or coordinating contracting and budget execution for acquisition programs. Daniel's emergency-management consulting at IEM and policy knowledge are unlikely to meet that bar unless that IEM work involved substantial federal program acquisition or financial management. The SCI clearance requirement adds another major hurdle.",
+ "eligibility": [
+  "Open to the public, so no federal status is needed, but this is a flyer for anticipated vacancies; follow the 'How to Apply' directions, since applications are not accepted through the flyer itself.",
+  "You need one year of specialized experience equivalent to NH-03/GS-13 using Navy/DoD acquisition-management principles (including DoD 5000-series), analyzing cost, schedule, technical, contract, and financial data, or coordinating acquisition, contracting, and budget execution.",
+  "The position requires Sensitive Compartmented Information (SCI) access, which means passing a Top Secret/SCI background investigation.",
+  "Your resume must be no more than 2 pages, and all qualifications must be met before you can be considered."
+ ],
+ "keywords": [
+  "acquisition strategies",
+  "acquisition plans",
+  "DoD 5000-series",
+  "Contracting Officer's Representative",
+  "source-selection documentation",
+  "contract modifications",
+  "contractor performance",
+  "procurement requests",
+  "budget execution",
+  "commitments, obligations, expenditures",
+  "cost, schedule, technical",
+  "financial risks",
+  "cross-functional issues",
+  "decision-quality information",
+  "program management"
+ ],
+ "strategy": [
+  "Before investing time, confirm honestly whether your IEM work included federal contract management, budget tracking, or program-level cost and schedule analysis at a senior level; if it did not, prioritize other roles.",
+  "If you supported FEMA or other federal contracts, frame that work in acquisition terms: contract deliverables, task orders, burn rates, obligations, and schedule tracking, using the posting's language.",
+  "State the hours per week and dates for each job, and make sure one year clearly maps to GS-13-level complexity, all within 2 pages.",
+  "Note that this is an anticipated-vacancy flyer; read the How to Apply section carefully and submit between Oct 29 and Nov 11, 2026.",
+  "A better path is to target GS-9 to GS-12 roles (emergency management specialist, program analyst, FEMA, or legislative and public affairs) that fit your policy and people strengths. Building DAU acquisition training could make roles like this realistic later."
+ ],
+ "resume_bullets": [
+  "Tracked [number] [federal client] contract/task order deliverables valued at [$amount], monitoring cost, schedule, and [funding/burn rate] and flagging [risks] to [program leadership].",
+  "Coordinated [planning/recovery] activities across [number] stakeholders for [agency client], producing [briefings/reports] that supported [decision or outcome].",
+  "Analyzed [obligations/expenditures/milestones] for [program], recommending [actions] that [result, if documented]."
+ ],
+ "interview_questions": [
+  "Describe your experience applying DoD 5000-series acquisition policy to a program.",
+  "How have you identified and resolved a cost or schedule risk on a contract?",
+  "Walk us through how you have coordinated contracting, budget, and engineering stakeholders on a complex issue.",
+  "How do you prepare decision-quality information for senior leadership?"
+ ],
+ "watch_outs": [
+  "Your background likely does not meet the GS-13-equivalent DoD acquisition specialized-experience requirement.",
+  "SCI access requires a lengthy background investigation that you must be able to obtain.",
+  "This is a flyer for possible vacancies only; there may be no hire, and no result letters will be sent.",
+  "Applying with inflated qualifications can lead to an ineligible rating, so describe your experience accurately."
+ ],
+ "job_id": "usajobs:890753900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

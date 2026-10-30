@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior supervisor at U.S. Cyber Command who builds university partnerships and turns cyber workforce gaps into academic curriculum and training requirements.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GG-14 supervisory role requires a year of specialized experience leading cyber workforce education programs, managing government–university partnerships, or conducting cyber workforce analyses, and education cannot substitute. Daniel's emergency-management consulting and policy knowledge are related but not cyber workforce or academic-partnership work. The Top Secret clearance requirement and supervisory level add further distance.",
+ "eligibility": [
+  "Hiring path is listed as public, but the posting says only applicants meeting specific employment authority categories may apply. You must select a category and upload proof documents, so confirm on USAJOBS which category you fit.",
+  "You need 1 year of specialized experience at senior level, and education cannot substitute. That means leading cyber workforce education or training, managing partnerships with colleges or universities, or running workforce analyses of competencies and talent levels.",
+  "A Top Secret clearance is required, and you would need to be able to obtain one.",
+  "This is a Cyber Excepted Service position. It is not subject to the two-page limit, and your full resume must be uploaded as \"Other Documents.\""
+ ],
+ "keywords": [
+  "academic engagement",
+  "strategic academic partnerships",
+  "curriculum requirements",
+  "professional development",
+  "cyber workforce development",
+  "training pipelines",
+  "workforce analyses",
+  "priority competencies",
+  "emerging technologies",
+  "projected staffing/talent levels",
+  "colleges, universities, or other educational institutions",
+  "cyberspace operations",
+  "supervision",
+  "plan, direct, and assign work",
+  "mission support"
+ ],
+ "strategy": [
+  "Be honest with yourself first. Apply only if your IEM work included leading training or education programs, working with universities, or doing workforce or competency analysis, ideally tied to cyber.",
+  "If you apply, frame your IEM experience around training and exercise program management, partner coordination with government and academic stakeholders, and any staffing or capability-gap analysis you did. Use the posting's exact phrases.",
+  "Because CES has no two-page limit, give each job dates, hours per week, and detailed duties that map line by line to the three specialized-experience areas. Also upload the full resume as \"Other Documents.\"",
+  "On the questionnaire, claim only the levels your resume clearly supports. The posting warns that inflated qualifications cost consideration.",
+  "The window is short, October 28 to November 3, 2026. Have your employment-authority proof documents ready before it opens.",
+  "Treat this as a long-term target. Lower-grade workforce development, training, or emergency-preparedness roles (for example FEMA, or Virginia or county emergency management) fit you better now."
+ ],
+ "resume_bullets": [
+  "Coordinated [training/exercise] programs for [number] [government client] stakeholders at IEM, identifying [preparedness/workforce] gaps and translating them into [training requirements/curriculum] for [audience].",
+  "Built and maintained partnerships with [agencies/universities/organizations] to deliver [program], managing [scope/schedule] over [time period].",
+  "Analyzed [workforce/capability] data to identify priority competencies for [client], producing [deliverable] used to [decision/outcome]."
+ ],
+ "interview_questions": [
+  "How have you turned an organization's operational workforce gaps into specific training or curriculum requirements?",
+  "Describe a partnership you managed between a government organization and an educational institution. What made it succeed?",
+  "How would you align academic initiatives with the future needs of the cyber workforce?",
+  "Tell us about supervising or directing the work of others, including handling changes in procedures."
+ ],
+ "watch_outs": [
+  "The specialized experience is cyber- and academia-specific with no education substitution, so you will likely be rated not qualified without that background.",
+  "A Top Secret clearance is required, and the role is supervisory at GG-14.",
+  "The application window is only one week, and the job is fully on-site at Fort Meade with no telework. That is a long commute from Manassas."
+ ],
+ "job_id": "usajobs:890448600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

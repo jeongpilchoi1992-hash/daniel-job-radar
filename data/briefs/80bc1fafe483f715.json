@@ -1,0 +1,57 @@
+{
+ "one_liner": "Run U.S. Cyber Command's internal publications and policy program: review draft instructions, train staff, track updates, and support legal discovery processes.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's policy knowledge and people skills suit the training, coordination, and stakeholder parts of this job. The core requirement, though, is one year of specialized experience managing a publications or directives program and reviewing issuances for compliance, and nothing on file shows that yet. A Top Secret clearance requirement adds another hurdle.",
+ "eligibility": [
+  "Who may apply lists 'public', but the text says only applicants meeting specific employment authority categories qualify, with proof documents; confirm which category Daniel fits as a U.S. citizen with no prior federal service.",
+  "One year of specialized experience is required: analyzing publications, policies, and directives for compliance, managing a publications program, coordinating reviews, and developing SOPs.",
+  "Education cannot substitute for experience; Daniel must qualify on experience alone.",
+  "A Top Secret clearance is required; Daniel must be able to obtain one.",
+  "This is a Cyber Excepted Service position, so the two-page resume limit does not apply; the full resume must be uploaded as 'Other Documents'."
+ ],
+ "keywords": [
+  "publications program",
+  "instructions, guides, manuals, and policy memoranda",
+  "review, analyze, and evaluate",
+  "accuracy, completeness, and compliance",
+  "administrative issuances",
+  "directives",
+  "coordinating publication reviews",
+  "organizational stakeholders",
+  "standard operating procedures (SOPs)",
+  "records accessibility",
+  "action officers",
+  "training",
+  "legal discovery",
+  "Staff Assist Visits",
+  "policy"
+ ],
+ "strategy": [
+  "Apply in the narrow window, October 29 to November 5, 2026. Build the resume in advance and upload the full version under 'Other Documents', since the two-page limit is waived here.",
+  "Frame the IEM work around any document tasks you actually did. Examples include reviewing or drafting emergency plans, SOPs, guidance, or after-action reports for compliance with FEMA or client policy, and managing document version control or libraries.",
+  "Mirror the specialized-experience language closely. Give a separate bullet each for reviewing documents for accuracy and compliance, maintaining current publications, coordinating stakeholder reviews, and building SOPs, with dates and hours per week.",
+  "Highlight your training and outreach strengths, since the job includes training action officers and conducting staff visits.",
+  "Answer the questionnaire honestly, rating yourself 'expert' only where the resume backs it up. The posting warns that inflated qualifications cost consideration.",
+  "Gather proof-of-eligibility documents for your employment authority category before the job opens."
+ ],
+ "resume_bullets": [
+  "Reviewed and edited [number] [emergency operations plans/SOPs/guidance documents] for [client] against [FEMA/state/client] requirements for accuracy, completeness, and compliance; [hours/week], [dates].",
+  "Maintained [document library/repository] of [number] plans and policies, tracking revision cycles to keep publications current and accessible to [audience].",
+  "Coordinated document reviews with [number] stakeholders across [agencies/offices] and trained [number] staff on [process/SOP], resulting in [result, if known]."
+ ],
+ "interview_questions": [
+  "Describe a time you reviewed a policy or procedural document for compliance. What did you find, and how did you resolve it?",
+  "How would you keep a large set of publications current when action officers miss update deadlines?",
+  "How would you train staff who see publications compliance as a low priority?",
+  "Tell us about developing or improving an SOP."
+ ],
+ "watch_outs": [
+  "The specialized experience is very specific to publications and directives management; if IEM work did not involve that, Daniel may be rated ineligible.",
+  "Top Secret clearance and Fort Meade location: about an hour or more from Manassas each way, with telework only partial.",
+  "The posting says 'public' but limits applicants to employment authority categories, so verify eligibility before investing time.",
+  "The application window is only one week."
+ ],
+ "job_id": "usajobs:890226100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

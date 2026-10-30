@@ -1,0 +1,51 @@
+{
+ "one_liner": "Supervisory case management role leading service coordinators who connect people with developmental disabilities and their families to Medicaid waiver and community services.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a senior clinical casework and supervisory position in developmental disabilities. Roles like this typically require a human services degree and DD case management experience, neither of which is on file for Daniel. Daniel's people skills, policy knowledge, and work with government clients are real assets, but they likely won't meet the clinical qualifications.",
+ "eligibility": [
+  "Verify the minimum qualifications in the full posting (text is truncated). Service Coordinator III roles usually require a human services degree plus several years of DD case management experience.",
+  "Check whether supervisory experience is required, since the posting calls this a supervisory position.",
+  "Confirm any Virginia DBHDS knowledge, skills and abilities expectations for DD case managers.",
+  "Open to the public (local government, no federal status needed). Grant-funded, so confirm funding duration."
+ ],
+ "keywords": [
+  "developmental disabilities",
+  "Service Coordinator",
+  "Senior Clinical Services Caseworker",
+  "supervisory",
+  "multidisciplinary team",
+  "quality of life",
+  "individuals with developmental disabilities",
+  "supporting their families",
+  "current and future needs",
+  "Community Services",
+  "grant-funded",
+  "case management"
+ ],
+ "strategy": [
+  "Read the full posting on governmentjobs.com before investing time. If a human services degree and DD case management experience are mandatory and you lack them, skip this one.",
+  "If you apply, frame your IEM work around community-facing coordination, such as working with [government clients/residents], coordinating services, or supporting vulnerable populations in disaster recovery, but only where accurate.",
+  "Highlight any supervision, team leadership, or training of others you actually did.",
+  "Consider entry-level Prince William County Community Services roles, or emergency management, policy analyst, or constituent services roles that fit your background better.",
+  "Apply before November 12, 2026, and answer supplemental questions with specific, verifiable examples."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of services/programs] for [number] [government clients/communities] during [disaster recovery/preparedness project], working with multidisciplinary teams of [roles].",
+  "Served as primary point of contact for [stakeholders/residents], resolving [type of issues] and documenting cases in [system].",
+  "Led or trained [number] staff on [process], improving [metric, if known]."
+ ],
+ "interview_questions": [
+  "Describe your experience with case management for individuals with developmental disabilities or Medicaid waivers.",
+  "How would you supervise and support caseworkers handling heavy caseloads?",
+  "Tell us about a time you helped a family make a difficult decision about services.",
+  "How do you ensure compliance with documentation and state regulations?"
+ ],
+ "watch_outs": [
+  "Likely requires a human services degree and clinical DD experience Daniel may not have.",
+  "Supervisory role at a senior clinical level, a big jump for someone without case management background.",
+  "Grant-funded, so the position may end if funding ends."
+ ],
+ "job_id": "neogov:pwcgov:5526737",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

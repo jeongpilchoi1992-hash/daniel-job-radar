@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior Executive Service leader directing DOE's nuclear fuel cycle R&D programs, budgets, technical staff, and negotiations with Congress, industry, and international partners.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This SES role requires executive-level mastery of nuclear fuel cycle RDD&D programs and facilities (TQ 1 and TQ 2), plus experience managing senior executives and defending federal budgets. Daniel's known background in emergency-management consulting at IEM and strong policy and people skills does not show any of that. Daniel's interest in politics and public policy is real but does not meet these minimum technical qualifications.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals); no federal status needed, but this is a career SES position requiring OPM QRB certification of the five ECQs before appointment.",
+  "Must show both Technical Qualifications in the resume: executive leadership of nuclear fuel cycle RDD&D programs (TQ 1) and extensive knowledge and leadership of fuel cycle facilities such as enrichment, conversion, and reprocessing (TQ 2).",
+  "Requires a Q Access Authorization (DOE clearance), drug testing, and an OGE financial disclosure filing.",
+  "No education requirement, but ECQs and TQs must fit within a two-page resume; separate narratives are not accepted."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Technical Qualifications",
+  "nuclear fuel cycle",
+  "research, development, demonstration, and deployment (RDD&D)",
+  "advanced fuels",
+  "waste management",
+  "safeguards",
+  "fuel supply chain",
+  "enrichment",
+  "fuel fabrication",
+  "regulatory frameworks",
+  "federal budgets",
+  "national laboratories",
+  "Driving Efficiency",
+  "Leading People"
+ ],
+ "strategy": [
+  "Be honest with yourself: unless you have executive nuclear fuel cycle leadership not on file, this application is very unlikely to pass the TQ screen. Consider skipping it.",
+  "Use the posting as a map of DOE Office of Nuclear Energy priorities and look for entry or mid-level policy, legislative affairs, or program analyst roles (GS-9 to GS-13) at DOE or NNSA where your policy knowledge fits.",
+  "If you apply anyway, map IEM work to the ECQs within two pages. For example, describe client government coordination as 'Leading People' or 'Achieving Results' only where it is true, with scope, dollars, and team size.",
+  "Address each TQ explicitly by name in the resume; reviewers will not credit qualifications that are not visible in those two pages.",
+  "The posting window is October 20 to November 4, 2026. Submit early and verify the uploaded resume is two pages in 10-point font or larger."
+ ],
+ "resume_bullets": [
+  "Supported [government client] emergency management and preparedness program at IEM as [title], coordinating [number] stakeholders across [federal/state/local agencies] to deliver [deliverable] on [timeline/budget].",
+  "Briefed [senior officials/client leadership] on [policy or recovery issue], translating complex [regulatory/technical] requirements into actionable recommendations adopted in [result].",
+  "Managed [budget amount] in [program/task order] resources at IEM, identifying [efficiency or cost savings] through [process improvement]."
+ ],
+ "interview_questions": [
+  "Describe your experience directing a large nuclear fuel cycle R&D portfolio and how you prioritized competing investments.",
+  "Tell us about a time you served as lead negotiator with Congress, national laboratories, or international partners.",
+  "How have you developed and defended a complex federal budget before OMB or Congress?",
+  "Give an example of leading an organization through major change while holding senior staff accountable."
+ ],
+ "watch_outs": [
+  "Minimum TQs require executive nuclear fuel cycle expertise that Daniel's known background does not show, so the resume is likely to be screened out.",
+  "A Q clearance is required; the offer can be withdrawn if it is not obtained.",
+  "The application window is short (October 20 to November 4, 2026), and anything past page two of the resume is ignored or may disqualify you."
+ ],
+ "job_id": "usajobs:889476600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

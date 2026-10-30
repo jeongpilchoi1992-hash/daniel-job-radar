@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior Army contracting officer-level specialist at the Columbia, MD annex (cyber mission) who plans acquisitions, negotiates prices and terms, and administers complex contracts.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GG-13 role requires a bachelor's degree plus one year of hands-on contracting experience: acquisition strategy, market research and solicitations, cost/price analysis, and complex negotiations. Unless your IEM work was directly in procurement or contract management, Daniel, your emergency-management consulting and policy strengths won't meet that specialized experience. The SCI clearance requirement adds another major hurdle.",
+ "eligibility": [
+  "Basic requirement: a bachelor's degree from an accredited institution (transcripts required). The pre-2000 DoD/military exemptions won't apply to you.",
+  "One year of specialized experience covering all four areas: implementing acquisition strategies, pre-award work (market research, solicitations), cost and price analysis, and participating in complex negotiations and contract administration.",
+  "Must be able to obtain and keep a Sensitive Compartmented Information (SCI) clearance, which typically involves a TS/SCI investigation and possibly a polygraph.",
+  "Hiring path is listed as public, but the 'Who May Apply' text says you must select an employment authority category and provide proof. Confirm which category you qualify under.",
+  "This is a DoD Cyber Excepted Service position, so it is not in the competitive service. Upload your full resume under 'Other Documents'; the two-page limit does not apply."
+ ],
+ "keywords": [
+  "acquisition strategies",
+  "contracting career field",
+  "market research",
+  "drafting solicitations",
+  "cost and price analysis",
+  "fair and reasonable pricing",
+  "complex negotiations",
+  "lead negotiator",
+  "post negotiation memoranda",
+  "contract administration",
+  "post-award contract performance management",
+  "requirements packages",
+  "business advisor",
+  "terms and conditions",
+  "contractor compliance"
+ ],
+ "strategy": [
+  "Before investing time, honestly inventory whether your IEM role involved procurement work, such as writing proposals against RFPs, pricing, subcontract management, or contract compliance. If it didn't touch all four specialized-experience areas, skip this posting.",
+  "If you did contract-side work at IEM (proposal pricing, subcontractor agreements, task-order management, FEMA/HUD grant or contract compliance), describe it using the posting's exact language. Give dates and hours per week for each role.",
+  "Answer the questionnaire truthfully. The posting warns that inflated qualifications lead to loss of consideration.",
+  "Have your transcripts and employment-authority proof documents ready. The window is only October 26 to November 2, 2026.",
+  "A better path into contracting would be entry-level GS-1102 roles (GS-7/9 interns, DAU-trained developmental programs, or Virginia/Prince William County procurement roles). These build toward this grade.",
+  "Your policy, people, and emergency-management strengths fit better in FEMA, Virginia VDEM, local emergency management, or legislative offices. Prioritize those postings."
+ ],
+ "resume_bullets": [
+  "Supported [number] government-client contracts/task orders valued at [$ amount] at IEM, tracking deliverables, invoices, and [contract terms/compliance requirements] to ensure adherence to terms and conditions.",
+  "Conducted market research and cost analysis for [proposal/subcontract type], developing pricing of [$ amount] that was [outcome, e.g., accepted by client]. ([hours/week], [dates])",
+  "Served as liaison between [client agency] and project teams on [disaster recovery/preparedness program], advising stakeholders on requirements and resolving [issue type]."
+ ],
+ "interview_questions": [
+  "Walk us through an acquisition strategy you developed and why you chose that contract type.",
+  "How do you determine a price is fair and reasonable when limited competition exists?",
+  "Describe a complex negotiation you led or participated in and what you achieved.",
+  "How do you handle a contractor that is failing to meet performance terms post-award?"
+ ],
+ "watch_outs": [
+  "Very short window: the posting is open only from October 26 to November 2, 2026.",
+  "SCI clearance is required, which means a lengthy investigation and possibly a polygraph.",
+  "The posting requires a bachelor's degree, and transcripts must be submitted.",
+  "The specialized experience is highly technical contracting work that your known background likely does not cover. There is also no promotion potential beyond GG-13."
+ ],
+ "job_id": "usajobs:890218100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

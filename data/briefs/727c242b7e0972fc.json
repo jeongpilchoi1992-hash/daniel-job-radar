@@ -1,0 +1,58 @@
+{
+ "one_liner": "Senior all-source intelligence analyst at DFC who researches classified and unclassified threats, writes intelligence products, and briefs senior leaders on counterintelligence risks.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting is open to the public, but it requires one year of GS-12-equivalent experience as a multi-source intelligence analyst with working knowledge of the national intelligence community. Nothing on file shows Daniel has done intelligence analysis. Daniel's IEM emergency-management consulting and policy knowledge are related but are unlikely to meet all three specialized-experience elements unless Daniel did actual threat or intelligence analysis there.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) and federal transition candidates; a separate Merit Promotion announcement (27-SID-ST-13099059-CH) is for status candidates, so Daniel should use this public one.",
+  "Requires one year of specialized experience at the GS-12 level covering ALL three elements: multi-source intelligence analysis and production, advanced analytical methods applied to multiple sources, and working knowledge of the national intelligence community's structure and operations.",
+  "Education cannot substitute at GS-13; no degree is required.",
+  "The position requires Sensitive Compartmented Information (SCI) access, which means a Top Secret background investigation and possibly a polygraph.",
+  "The application window is very short: October 29 to November 4, 2026."
+ ],
+ "keywords": [
+  "all-source research and analysis",
+  "multi-source intelligence analyst",
+  "classified and unclassified information",
+  "intelligence gaps",
+  "analytic judgments",
+  "written intelligence products",
+  "brief senior leaders",
+  "inter-agency stakeholders",
+  "counterintelligence risk mitigation",
+  "threat warning",
+  "structured analytic techniques",
+  "source evaluation",
+  "confidence statements",
+  "alternative hypotheses",
+  "pattern analysis",
+  "national intelligence communities"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work involved threat or hazard assessment, situational-awareness reporting, or analysis of multiple information sources for government clients. Apply only if you can truthfully document all three specialized-experience elements.",
+  "If you did that kind of work, frame it in analytic terms: the sources you synthesized (federal, state, and open-source reporting), the methods you used, the products you wrote, and who you briefed. Include hours per week and exact dates on a two-page resume.",
+  "Preview the questionnaire at apply.usastaffing.gov/ViewQuestionnaire/13099300 before starting, and answer conservatively, because overstating can get you removed from consideration.",
+  "State any existing clearance or prior background investigation prominently, since SCI eligibility weighs heavily.",
+  "Submit early given the six-day window, and save a resume version so you can reuse it for similar postings.",
+  "More realistically, target GS-9/11 emergency management, program analyst, or legislative/policy roles (FEMA, DHS, Virginia VDEM, Prince William County) where your IEM and policy background fits directly."
+ ],
+ "resume_bullets": [
+  "Analyzed [type of information, e.g., federal, state, and open-source reporting] from [number] sources to produce [product type] for [government client], informing [decision or outcome], [hours/week], [dates].",
+  "Briefed [audience, e.g., senior state/federal officials or interagency partners] on [hazard/threat topic], clearly distinguishing confirmed facts from assessments and identifying [information gaps].",
+  "Applied [analytic method, e.g., risk assessment, trend/pattern analysis] to [dataset or scenario] to support [preparedness/recovery planning] for [client]."
+ ],
+ "interview_questions": [
+  "Walk us through an analytic product you wrote: what sources did you use, and how did you communicate confidence and gaps?",
+  "How would you handle conflicting reporting from two credible sources?",
+  "Describe your understanding of the Intelligence Community's structure and how DFC might interact with it.",
+  "Tell us about briefing a senior leader who disagreed with your assessment."
+ ],
+ "watch_outs": [
+  "The specialized experience is narrow (an intelligence-analyst background), and nothing on file shows Daniel has it. Applying without it will likely end at the eligibility screen.",
+  "SCI clearance processing is lengthy and may involve a polygraph.",
+  "The six-day application window closes November 4, 2026.",
+  "The job is in-office in Washington, DC with telework eligibility, so expect a commute from Manassas."
+ ],
+ "job_id": "usajobs:890687900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

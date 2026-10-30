@@ -1,0 +1,58 @@
+{
+ "one_liner": "Coast Guard contracting professional who plans, negotiates, awards and administers contracts for its command, control, communications and IT (C5I) programs in Alexandria.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-1102 role requires a bachelor's degree (or 24 business-related semester hours) plus a full year of hands-on contracting work: negotiations, executing various contract types, and source selection. Daniel's policy knowledge and people skills help, and IEM work for government clients is adjacent, but unless Daniel actually wrote proposals, priced bids, or managed contract deliverables at IEM, Daniel likely won't meet GS-11 specialized experience, and GS-12 requires federal-sector GS-11 experience.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) under Expedited/Direct Hire Authority; no federal status needed, and you must be registered with or exempt from Selective Service.",
+  "Positive education requirement: a bachelor's degree in any field OR 24 semester hours in accounting, business, finance, law, contracts, economics, management, etc. Transcripts are due by the closing date.",
+  "GS-11: one full year of specialized experience equivalent to GS-09, such as leading negotiations, executing varied contract types, acquisition strategies, and source selection. Three years of related graduate education can substitute instead.",
+  "GS-12: one year at the GS-11 equivalent 'in the federal sector'. As a non-federal applicant, you should realistically target GS-11 only.",
+  "No clearance is required, but you must pass a DHS background investigation. You must also earn FAC-C Professional within 36 months and FAC P/PM-I within two years."
+ ],
+ "keywords": [
+  "acquisition strategies",
+  "market research",
+  "cradle to grave",
+  "evaluating proposals",
+  "source selection",
+  "negotiation positions",
+  "pre-negotiation",
+  "post negotiation memorandum",
+  "Determination and Findings",
+  "contract types",
+  "contract administration",
+  "contract modifications",
+  "cost and financial analysis",
+  "ensuring compliance with regulations",
+  "acquisition plans",
+  "business advice"
+ ],
+ "strategy": [
+  "Before applying, check honestly whether you did a full year (count hours per week) of contract-related work at IEM. Examples: proposal development, pricing, task-order management, subcontract oversight, or FAR/compliance work. If not, consider GS-1102 GS-7/9 or Pathways contracting trainee roles instead.",
+  "If you did, frame IEM from the contractor side. Describe supporting government contract deliverables, responding to RFPs, tracking modifications, and managing scope and budget against a contract. Use the posting's terms in your own words, because copied text is disqualified.",
+  "Keep the resume to two pages. For each job, list month/year dates and hours per week, then lead with contract-specific duties before stakeholder and policy work.",
+  "Upload your transcript by November 6, 2026, even if you hold a degree. It proves the education requirement; if you're relying on the 24-hour option, mark the qualifying courses.",
+  "Watch your email after you apply. The USA Hire competency assessments have a 48-hour deadline and a cut score. Treat them as pass/fail, and answer the questionnaire conservatively, since overstating experience can remove you.",
+  "Apply for GS-11 only, and tie in your emergency management background where it is truthful. For example, surge or disaster-response contracting shows you understand contingencies and risk."
+ ],
+ "resume_bullets": [
+  "Supported [number] government contracts/task orders valued at [$ amount] for [client agency] at IEM, tracking deliverables, budgets and [modifications] to ensure compliance with [FAR/contract terms].",
+  "Contributed to [number] proposals responding to [agency] solicitations, conducting [market research/pricing/compliance review] and coordinating [teams] to meet submission deadlines.",
+  "Served as primary liaison between [client officials] and project teams on [emergency management program], resolving [scope/cost/schedule issues] and documenting decisions for [contracting officer/program office]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would develop a pre-negotiation position for a complex proposal.",
+  "Describe your experience with different contract types (firm-fixed-price, cost-reimbursement, IDIQ) and when each fits.",
+  "Tell us about a time you advised a program or client on a compliance or risk issue and how it was resolved.",
+  "How would you build working relationships with project officers who want faster acquisitions than regulations allow?"
+ ],
+ "watch_outs": [
+  "The specialized experience bar is contracting-specific. General emergency management consulting or policy knowledge alone will not qualify you, and GS-12 effectively requires federal experience.",
+  "Short window: the posting is open October 26 to November 6, 2026, and the assessments must be finished within 48 hours.",
+  "This is an on-site role in Alexandria with no telework, so plan for a commute from Manassas.",
+  "You must earn the FAC-C Professional and FAC P/PM-I certifications on a deadline as a condition of the job."
+ ],
+ "job_id": "usajobs:889712500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

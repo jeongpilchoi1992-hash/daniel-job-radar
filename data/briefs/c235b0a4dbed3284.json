@@ -1,0 +1,56 @@
+{
+ "one_liner": "Civil litigator for DOJ in DC who investigates and sues companies and individuals under the False Claims Act to recover money for the government.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an attorney-only job requiring a J.D., active bar membership, and at least three years of post-J.D. legal experience, and nothing on file shows Daniel has any of these. Daniel's policy knowledge and IEM consulting background are relevant context for grant and contract fraud, but they cannot substitute for the law license. Unless Daniel is a licensed attorney, this posting is not a realistic target.",
+ "eligibility": [
+  "J.D. degree (or equivalent) is required.",
+  "Active bar membership in good standing in any U.S. jurisdiction is required.",
+  "Minimum three years of post-J.D. legal or other relevant experience, met by the closing date; significant litigation experience is preferred.",
+  "U.S. citizenship and a Top Secret clearance are required; the posting is open to the public and does not require federal status.",
+  "You must reside in DC or within 25 miles of it. Manassas appears to be roughly within that range, but confirm the distance under 28 U.S.C. 545."
+ ],
+ "keywords": [
+  "False Claims Act",
+  "qui tam",
+  "affirmative civil cases",
+  "health care fraud",
+  "procurement fraud",
+  "grant fraud",
+  "cybersecurity fraud",
+  "civil asset forfeiture",
+  "administrative subpoenas",
+  "interviewing witnesses",
+  "marshaling evidence",
+  "negotiating settlements",
+  "legal memoranda",
+  "depositions",
+  "litigation experience"
+ ],
+ "strategy": [
+  "Confirm whether you hold a J.D. and active bar license; if not, skip this posting and target non-attorney roles instead.",
+  "Look at the same office and at agency Offices of Inspector General for non-attorney roles that support fraud work, such as paralegal specialist (0950), investigator (1801/1810), or grants and program analyst positions.",
+  "FEMA grant compliance roles are another option, since experience with disaster-recovery grants at IEM translates well to grant-fraud oversight.",
+  "If you are an attorney, frame your IEM work around FEMA and HUD disaster-grant compliance, procurement rules, and government-contract oversight, because these map directly onto grant and procurement fraud cases.",
+  "Apply early because applicant lists are pulled November 1, 2026 and monthly after that; keep the resume to two pages with dates, hours per week, and bar admission details.",
+  "Answer the 20-minute questionnaire honestly and back up every claim with resume evidence, since an attorney panel reviews qualified applicants."
+ ],
+ "resume_bullets": [
+  "Supported [government client] disaster recovery programs at IEM by reviewing [grant/contract documentation] for compliance with [FEMA/HUD/federal procurement] requirements, covering [$ amount or number of projects].",
+  "Interviewed [stakeholders/applicants/officials] and compiled evidence into [reports/memos] used by [client] to resolve [eligibility or compliance issues].",
+  "[If an attorney] Litigated [number] civil matters in [court], including taking [number] depositions and negotiating [settlement outcomes]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would evaluate a new qui tam complaint alleging grant fraud.",
+  "Describe your litigation experience, including depositions, discovery, and trial work.",
+  "How do you manage multiple investigations at once while meeting court deadlines?",
+  "Tell us about a time you worked with law enforcement or a whistleblower to build a case."
+ ],
+ "watch_outs": [
+  "Hard requirements: a J.D., active bar membership, and three or more years of legal experience, none of which are on file for Daniel.",
+  "A Top Secret clearance is required, which means a lengthy background investigation.",
+  "The 25-mile residency rule means you would need to confirm Manassas qualifies or be willing to relocate."
+ ],
+ "job_id": "usajobs:887548100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

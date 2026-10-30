@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior legislative liaison for the Pentagon's Special Access Program office, handling Congressional Defense Committee inquiries and shaping SAP policy for top DoD leaders.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's political knowledge, relationship skills and public-sector consulting work at IEM line up with the liaison and stakeholder parts of this job. However, GS-15 requires one year of GS-14-equivalent experience, including developing and implementing special access program policies. It also requires SCI clearance eligibility. Nothing on file suggests Daniel has either, so this posting is mainly useful as a model of where a legislative-affairs career can lead.",
+ "eligibility": [
+  "Open to the public (hiring paths include public, vets, military spouses and transitioning feds), so no federal status is needed.",
+  "Specialized experience: one year at the GS-14 equivalent applying complex legislative and regulatory guidance to policy, developing and implementing special access program policies and procedures, and using qualitative and/or quantitative methods to assess program effectiveness.",
+  "Security clearance: Sensitive Compartmented Information (SCI). Expect a full background investigation, and confirm whether an existing clearance is expected.",
+  "Education cannot be substituted for experience. All qualifications must be met by the November 6, 2026 closing date and documented in a resume of two pages or less, with months and hours per week listed."
+ ],
+ "keywords": [
+  "Legislative Liaison",
+  "Congressional Defense Committees",
+  "Special Access Program (SAP)",
+  "policies and procedures",
+  "execution, management, and administration",
+  "program effectiveness",
+  "qualitative and/or quantitative methods",
+  "legislative and regulatory guidance",
+  "read-aheads",
+  "status reports",
+  "background papers",
+  "highly sensitive matters",
+  "Congressional & Intergovernmental Relations",
+  "Stakeholder Engagement, Discretion & Conflict Resolution",
+  "Strategic Thinking & Mission Alignment"
+ ],
+ "strategy": [
+  "Be honest with yourself about the SAP requirement first. If you have never developed or implemented special access program policy, you likely cannot truthfully claim the specialized experience, so treat this as a long shot.",
+  "Use your time before applying to target better-fitting roles. Good options include GS-9 to GS-12 congressional affairs or legislative analyst jobs, FEMA or DHS program analyst roles, Virginia state agency jobs, and Hill staff positions where your IEM and policy background are a stronger match.",
+  "If you do apply, frame your IEM work by its substance. Name your government clients, any interpretation of regulations such as the Stafford Act or FEMA guidance that you did, and any program assessments or briefing products you prepared.",
+  "Answer the questionnaire honestly. The posting warns that inflated qualifications can cost you consideration, and your answers must be backed up by your resume.",
+  "Keep the resume to two pages, list months and hours per week for every job, and submit well before the November 6, 2026 close."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [emergency management/recovery] programs at IEM by applying [federal regulation/guidance, e.g., Stafford Act] to [policy or implementation task], resulting in [outcome].",
+  "Prepared [number] [briefings/status reports/background papers] for [client senior officials] on [topic], coordinating input from [stakeholder groups] under [deadline].",
+  "Assessed effectiveness of [program] using [qualitative/quantitative method] and recommended [improvement], which [result]."
+ ],
+ "interview_questions": [
+  "Describe a time you managed a sensitive inquiry from a congressional office or senior official under a tight deadline.",
+  "How have you resolved conflicting policy positions among multiple organizations?",
+  "Walk us through how you'd prepare a read-ahead for the Deputy Secretary on a contested issue.",
+  "How do you balance responsiveness to Congress with protecting highly classified information?"
+ ],
+ "watch_outs": [
+  "The SCI clearance requirement and the SAP policy experience requirement likely disqualify you, so treat this as a long shot.",
+  "The application window is very short (October 29 to November 6, 2026).",
+  "The job is fully on-site at the Pentagon, with no telework or remote option.",
+  "There is a USA Hire assessment, and inflated questionnaire answers can remove you from consideration."
+ ],
+ "job_id": "usajobs:890639500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

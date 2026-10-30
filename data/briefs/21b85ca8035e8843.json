@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive at the Pentagon who leads the Defense Department budget for contingency operations, disaster assistance (including FEMA mission assignments), and international security cooperation programs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires proven senior-level leadership and expertise in military program budgeting, including defending budgets before OMB and congressional committees. Daniel's emergency-management consulting at IEM and strong grasp of U.S. government and policy touch the disaster-assistance and ECQ 1 themes. But nothing on file shows executive leadership, supervision, or federal budget formulation experience, which the TQs and ECQs demand.",
+ "eligibility": [
+  "Open to the public, including U.S. citizens without federal status, but this is a career SES position: you must show all five ECQs and both TQs within a strict two-page resume.",
+  "TQ 1 requires senior-level experience applying budget policy to complex military programs and defending budget solutions before OMB and congressional committees.",
+  "You must be able to obtain a Top Secret/SCI clearance, pass a drug test, and file an OGE-278 financial disclosure.",
+  "Financial Management Level 3 certification must be achieved within the allotted timeframe, and OPM's QRB must certify your executive qualifications before appointment."
+ ],
+ "keywords": [
+  "contingency operations",
+  "disaster assistance",
+  "mission assignments from the Federal Emergency Management Agency",
+  "Economy Act",
+  "budget formulation",
+  "Program and Budget Review",
+  "interagency memoranda of understanding",
+  "reimbursement",
+  "security cooperation",
+  "Office of Management and Budget",
+  "resource management",
+  "data analytics",
+  "cost-benefit analysis",
+  "Fiscal Responsibility",
+  "Strategic Thinking"
+ ],
+ "strategy": [
+  "Be realistic and don't sink major effort here unless your IEM role involved leading budgets or staff at a senior level. GS-11 to GS-14 budget analyst or FEMA program roles are far better entry points.",
+  "If you apply, frame your IEM work around FEMA Public Assistance, mission assignments, cost tracking, or reimbursement only if you actually did that work. Use the posting's exact terms (disaster assistance, reimbursement, interagency).",
+  "Weave ECQ evidence into the two-page resume, since separate narratives are rejected. For each ECQ, give one or two bullets with scope, dollars, and results, and use ECQ 1 to show your knowledge of the Constitution, separation of powers, and the federal budget process.",
+  "Keep the resume to two pages, with month/year dates and hours per week for each job. Anything over two pages is disqualified.",
+  "Submit before 11:59 PM Eastern on 11/06/2026, and save the posting for future reference. The window is only two weeks."
+ ],
+ "resume_bullets": [
+  "Supported [client agency, e.g., FEMA/state emergency management] disaster recovery program at IEM, tracking [$amount] in [Public Assistance/reimbursement] costs across [number] projects and reporting results to [senior official].",
+  "Analyzed [budget/cost data] using [tool] to identify [issue], recommending changes adopted by [client], which [result, e.g., reduced processing time by X%].",
+  "Briefed [audience, e.g., state officials/legislative staff] on [policy or funding issue], translating complex federal rules into actionable guidance for [number] stakeholders."
+ ],
+ "interview_questions": [
+  "Describe a time you developed and defended a budget position before OMB, Congress, or senior leadership.",
+  "How would you advise leadership on a FEMA mission assignment or Economy Act request with significant cost implications?",
+  "Tell us about leading a team through change and holding staff accountable for results.",
+  "How do you use data and cost-benefit analysis to cut unnecessary spending?"
+ ],
+ "watch_outs": [
+  "SES-level requirements (executive leadership plus military budget defense before OMB and Congress) likely exceed your documented experience.",
+  "TS/SCI clearance, FM Level 3 certification, and QRB certification add hurdles and time.",
+  "The two-page resume limit is strictly enforced, and over-length resumes are disqualified.",
+  "The application window runs only 10/23 to 11/06/2026."
+ ],
+ "job_id": "usajobs:889778300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

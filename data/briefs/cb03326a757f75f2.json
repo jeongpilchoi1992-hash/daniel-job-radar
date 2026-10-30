@@ -1,0 +1,54 @@
+{
+ "one_liner": "Licensed mental health counselor who directs a VA Vet Center, supervising clinicians, running outreach and budgets, and providing readjustment counseling to veterans.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-13 job has hard basic requirements: a CACREP-accredited master's or doctorate in clinical mental health counseling, plus a full, unrestricted license to practice independently as an LPMHC. Nothing on file shows Daniel has either. Daniel's emergency-management consulting, policy knowledge, and outreach skills match only the administrative and Congressional-liaison parts of the role, so you would not qualify as things stand.",
+ "eligibility": [
+  "Open to the public (U.S. citizens), but must meet Title 38 basic requirements; this is not a status-only posting.",
+  "Master's or doctoral degree in Clinical Mental Health Counseling or a related field from a CACREP-accredited program, with a transcript submitted with the application.",
+  "Full, current, unrestricted license to independently practice as a Licensed Professional Mental Health Counselor, including diagnosis and treatment.",
+  "At least one year of progressively complex experience equivalent to GS-12, showing advanced clinical practice skills and judgment.",
+  "Background investigation, seasonal flu vaccination requirement, REAL ID-compliant identification, and a 1- or 2-year trial period."
+ ],
+ "keywords": [
+  "Licensed Professional Mental Health Counselor",
+  "Vet Center Director",
+  "readjustment counseling",
+  "outreach",
+  "care coordination",
+  "program management",
+  "data driven quality assurance",
+  "productivity standards",
+  "multi-disciplinary team",
+  "fiscal, contractual, and operational obligations",
+  "Congressional representatives",
+  "policies and procedures",
+  "Mobile Vet Center",
+  "Community Access Points"
+ ],
+ "strategy": [
+  "Do not apply unless you hold a CACREP-accredited clinical counseling degree and an independent LPMHC license. Without both, HR will rate you ineligible no matter how strong your resume is.",
+  "Instead, search USAJOBS for Title 5 Vet Center roles open to the public, such as Outreach Specialist (often GS-0101) or Program Support Assistant, which use the same Vet Center outreach model without a clinical license.",
+  "Also target VA, FEMA, and HHS roles in congressional affairs or emergency management (GS-0301, GS-0089, GS-0343). There your IEM consulting and policy knowledge count directly toward specialized experience.",
+  "Frame your IEM work by the government clients served and the concrete tasks you did, such as preparedness planning, recovery program support, stakeholder briefings, or data reporting. Keep it to a few tight bullets that fit the two-page limit.",
+  "If a clinical VA career appeals long-term, research CACREP programs and Virginia LPC licensure, which requires supervised residency hours after the degree. Treat it as a multi-year path."
+ ],
+ "resume_bullets": [
+  "Supported [government client type] [preparedness/recovery] programs at IEM by [specific task, e.g., coordinating stakeholder meetings], working with [number] agency partners; [hours/week], [dates].",
+  "Prepared briefings and reports on [topic] for [client/officials], translating policy and program data into recommendations used for [purpose].",
+  "Conducted community outreach to [population] during [event/program], building relationships with [partner organizations] to connect residents with [services]."
+ ],
+ "interview_questions": [
+  "Describe how you would plan outreach to veterans in rural or underserved parts of a service area.",
+  "Tell us about a time you briefed elected officials or their staff on a program.",
+  "How have you used data to monitor program outcomes and improve performance?",
+  "Describe how you managed competing priorities across multiple sites or teams."
+ ],
+ "watch_outs": [
+  "Hard degree and license requirement: you cannot qualify without a CACREP clinical counseling degree and an independent LPMHC license.",
+  "Very short application window (October 28 to November 4, 2026), and a missing transcript disqualifies an application.",
+  "Not a remote job; it is on-site at a Vet Center with some nights and weekends, no relocation (PCS) pay, and no promotion potential beyond GS-13."
+ ],
+ "job_id": "usajobs:890585800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

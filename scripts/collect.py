@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import PartialResult, SourceSkipped, job_key, make_session, parse_date  # noqa: E402
 from boards import detect as detect_board  # noqa: E402
-from boards import board_id, fetch_board, posting_key, relevant, to_site_job  # noqa: E402
+from boards import board_id, fetch_board, infer_focus, posting_key, relevant, to_site_job  # noqa: E402
 from linkcheck import refresh as refresh_links  # noqa: E402
 from scoring import keywords_in, score_job, tags_for  # noqa: E402
 from sources import NeogovGate, fetch_neogov, fetch_usajobs, fetch_virginia, virginia_detail  # noqa: E402
@@ -129,6 +129,7 @@ def learn_sources(discovered_doc: dict, settings: dict, log) -> None:
         board = detect_board(job["url"])
         if board and board_id(board) not in boards:
             board["employer"] = job.get("org", "")
+            board["focus"] = infer_focus(job.get("level", ""), job.get("org", ""))
             boards[board_id(board)] = board
             log(f"[learn] new board for J.P.: {board_id(board)} ({board['employer']})")
     for extra in load_json(CONFIG / "boards.json", []):
@@ -156,7 +157,7 @@ def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, l
     for job in previous:
         prev_by_board.setdefault(job.get("source", ""), []).append(job)
     first_seen = {j["id"]: j.get("found_on") for j in previous}
-    discovered_urls = {j["url"] for j in jp_entry.get("jobs", [])}
+    discovered_keys = {posting_key(j["url"]) for j in jp_entry.get("jobs", [])}
     out: dict[str, dict] = {}
     live: dict[str, set[str]] = {}
     for board in jp_entry.get("boards", []):
@@ -173,9 +174,9 @@ def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, l
             live[bid] = {posting_key(item["url"]) for item in raw}
         kept = 0
         for item in raw:
-            if not relevant(item) or item["url"] in discovered_urls:
+            if not relevant(item, board.get("focus", "asia")) or posting_key(item["url"]) in discovered_keys:
                 continue
-            job = to_site_job(item, today.isoformat(), None)
+            job = to_site_job(item, today.isoformat(), None, board.get("focus", "asia"))
             job["found_on"] = first_seen.get(job["id"]) or today.isoformat()
             out[job["id"]] = job
             kept += 1

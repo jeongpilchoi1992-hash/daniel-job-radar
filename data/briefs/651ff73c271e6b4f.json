@@ -1,0 +1,56 @@
+{
+ "one_liner": "Policy advisor in Treasury's Federal Insurance Office researching and writing memos on insurance-sector legislation, regulation, and financial-market developments.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's policy knowledge, relationship skills, and consulting background fit the research-and-writing nature of this role. However, qualifying requires one year of GS-12/13-equivalent specialized experience in at least TWO insurance-specific areas: insurance analyses, insurance research or data, or insurance law and regulation. IEM work on emergency management and disaster recovery qualifies only if Daniel actually did substantive work on insurance topics, such as NFIP, disaster insurance gaps, or insurance coverage in recovery programs.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals); no federal status required.",
+  "GS-13 requires one year of specialized experience equivalent to GS-12 in at least TWO of: (A) helping develop insurance-sector analyses, (B) researching and summarizing insurance data, or (C) analysis using insurance laws or regulations.",
+  "GS-14 requires one year equivalent to GS-13 as primary author or analyst in at least two of the same insurance areas.",
+  "A Public Trust background investigation and a financial conflict-of-interest ethics review are required; no clearance is needed.",
+  "You must pass an online competency assessment and reach a cut-off score of 95 to be referred."
+ ],
+ "keywords": [
+  "Federal Insurance Office",
+  "U.S. insurance sector",
+  "written analyses",
+  "memoranda",
+  "research and summarize",
+  "insurance services",
+  "state or federal laws, regulations, or legislation",
+  "legislative and policy proposals",
+  "regulatory and policy developments",
+  "financial institutions",
+  "financial markets",
+  "financial stability",
+  "presentations and reports",
+  "maintaining contacts with other Federal or State agencies"
+ ],
+ "strategy": [
+  "Before applying, honestly inventory your IEM work for insurance content, such as NFIP, flood or catastrophe insurance, duplication-of-benefits reviews, insurance proceeds in FEMA Public Assistance or CDBG-DR, or resilience and insurance policy. Apply only if you can document two of the A/B/C criteria for a full year.",
+  "Target GS-13 rather than GS-14, since GS-14 requires primary authorship. Frame IEM deliverables as written analyses, memos, or briefs on the insurance-related policy issues you actually handled.",
+  "Fit the two-page resume by listing exact dates (MM/DD/YYYY) and hours per week for each job. Use one short bullet block per A/B/C criterion, mirroring the posting's language.",
+  "Answer the questionnaire truthfully at the level your resume proves. Overstatement can remove you, and a subject matter expert may review your file.",
+  "Prepare for the online assessment, which covers reasoning, reading comprehension, and attention to detail. Your interpersonal and influencing strengths help in the competency areas.",
+  "The posting is open only from October 26 to November 2, 2026, so have your resume ready before it opens."
+ ],
+ "resume_bullets": [
+  "Researched and summarized [insurance topic, e.g., NFIP coverage or insurance proceeds in disaster recovery] for [government client], producing [number] memos and briefings used by [audience] (40 hrs/week, [MM/DD/YYYY–MM/DD/YYYY]).",
+  "Analyzed [federal/state insurance statute or regulation] to advise [client] on [program decision, e.g., duplication-of-benefits determinations], affecting [scope].",
+  "Helped draft [report/presentation] on [insurance or resilience policy issue], coordinating input from [federal/state agencies] and presenting findings to [stakeholders]."
+ ],
+ "interview_questions": [
+  "Describe a written analysis you developed on an insurance or financial policy issue. What was your role and what was the outcome?",
+  "How do you monitor and quickly summarize new legislative or regulatory developments for senior leadership?",
+  "How does insurance interact with disaster recovery, and what policy challenges, such as protection gaps, do you see?",
+  "Tell us about maintaining working relationships with state or federal agency contacts while developing a policy proposal."
+ ],
+ "watch_outs": [
+  "The specialized experience is narrowly insurance-focused, and general emergency-management or policy experience will likely be rated not qualified.",
+  "The application window is only eight days.",
+  "The cut-off score of 95 and veterans' preference ranking make referral competitive for applicants without preference.",
+  "The financial ethics review may require divesting conflicting financial holdings, such as insurance company stock."
+ ],
+ "job_id": "usajobs:890232900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

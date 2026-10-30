@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior HUD IT-office role improving how HUD's contact centers serve the public: analyzing call/chat data, writing knowledge-management rules and SOPs, and pushing fixes with leadership.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The posting is open to the public, but GS-13 requires one full year of GS-12-level experience in contact center performance analysis, CX strategy/knowledge management governance, and cross-functional service improvement. Daniel's people skills and IEM government-client work are relevant only if that work actually involved contact centers, call/help lines, disaster assistance intake, or customer-service metrics. Without that, Daniel likely won't clear specialized experience.",
+ "eligibility": [
+  "Open to the public (U.S. citizens/nationals); a separate announcement ST-13053562-26-CF covers status candidates, so Daniel applies under this public one.",
+  "One year (52 weeks) of specialized experience equivalent to GS-12 covering all three areas: contact center data analysis, CX/knowledge management governance or SOPs across multiple channels, and cross-functional collaboration on customer service improvement.",
+  "Public Trust background investigation and suitability (Declaration for Federal Employment); no security clearance required.",
+  "No degree substitution is listed for GS-13, so qualification rests entirely on documented experience."
+ ],
+ "keywords": [
+  "Contact Center performance data",
+  "customer feedback",
+  "service metrics",
+  "customer satisfaction",
+  "customer experience strategies",
+  "knowledge management governance",
+  "standard operating procedures",
+  "service enhancements",
+  "multiple service channels",
+  "voice, email, chat, messaging, and in-person channels",
+  "actionable recommendations",
+  "stakeholders",
+  "cross-functional teams",
+  "continuous improvement",
+  "customer engagement"
+ ],
+ "strategy": [
+  "First check honestly whether your IEM work touched disaster survivor call centers, FEMA/state assistance hotlines, intake or case-management workflows, or service metrics. If so, lead with that; if not, this posting is a reach and you should prioritize GS-9/11 or state/local constituent-services roles.",
+  "Map each of the three 'AND' specialized-experience elements to a specific bullet on your two-page resume. Use the posting's exact phrasing and include month/day/year dates and hours per week.",
+  "Frame emergency-management consulting as service delivery to the public: surge communications, multi-channel survivor outreach, SOP and playbook development, and data-driven recommendations to government clients.",
+  "Prepare for the online competency assessment (reasoning, reading comprehension, interpersonal skills, etc.) by taking it in a quiet setting in one sitting. Answer truthfully, since overstating can remove you.",
+  "Apply between Oct 20 and Nov 2, 2026, and submit early. The window is only two weeks and the resume must stay within two pages."
+ ],
+ "resume_bullets": [
+  "Analyzed [contact center/hotline/case] performance data and customer feedback for [government client] across [voice, email, chat] channels; identified [trend] and recommended [operational improvement], resulting in [measured result].",
+  "Developed [number] standard operating procedures and knowledge articles governing [disaster assistance/intake process] for [client], improving consistency of responses across [channels/teams].",
+  "Collaborated with [client managers, program staff, cross-functional teams] to evaluate [service program] and resolve [type of] customer issues, supporting continuous improvement of [metric]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you used contact center or service data to recommend a change leadership adopted.",
+  "How would you build knowledge management governance so agents give consistent answers across phone, chat, and email?",
+  "Describe how you negotiated with resistant stakeholders to implement a cross-cutting process improvement.",
+  "What CX metrics would you track for a federal contact center, and why?"
+ ],
+ "watch_outs": [
+  "The specialized experience is narrow and stacked with 'AND' requirements, so without real contact center/CX work Daniel will likely be rated not qualified.",
+  "Duty station is assigned from listed locations and the role is not remote. Confirm a DC-area site is available before accepting.",
+  "The application window is short (closes Nov 2, 2026), and the posting may cap applications."
+ ],
+ "job_id": "usajobs:889162500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive Service leader running DHS S&T's research and development portfolio for cyber defense, critical infrastructure protection, and response and resilience technologies.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES role requiring proven executive leadership plus mastery of science and technology management and complex cyber or infrastructure programs, and nothing on file shows Daniel has led R&D portfolios, large budgets, or senior staff. Daniel's IEM emergency-management consulting background and strong civics knowledge touch TQ 2 (response and resilience) and ECQ 1, but those alone are unlikely to clear a subject-matter panel and OPM's Qualifications Review Board.",
+ "eligibility": [
+  "Open to the public (hiring paths include public and SES), so no federal status is needed, but veterans' preference does not apply.",
+  "Your two-page resume must show all five Executive Core Qualifications and both Technical Qualifications; separate narratives are not accepted.",
+  "Requires a Sensitive Compartmented Information (SCI) clearance, which means a TS/SCI background investigation if selected.",
+  "No education requirement, but the selectee must be certified by OPM's SES Qualifications Review Board and serve a one-year probationary period."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Technical Qualifications",
+  "research, development, test and evaluation",
+  "critical infrastructure",
+  "response and resilience",
+  "infrastructure and emerging risks",
+  "cyber technology and network defense",
+  "planning, programming, and budgeting",
+  "programmatic and technical assessments",
+  "technological gaps and shortfalls",
+  "transition",
+  "private sector",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results"
+ ],
+ "strategy": [
+  "Decide honestly whether you have executive-level evidence (leading teams, managing budgets, directing programs). If not, use this posting as a model and target GS-11 to GS-13 DHS, FEMA, or CISA resilience and preparedness roles instead.",
+  "If you apply, frame your IEM work around government resilience and preparedness programs: name the client agencies, your role, the scale of each project, and any technology or data tools you helped evaluate or implement.",
+  "Map each IEM accomplishment to a specific ECQ or TQ. For example, show stakeholder coordination for Leading People and Achieving Results, cost or process savings for Driving Efficiency, and your policy and civics depth for ECQ 1.",
+  "Use OPM's sample two-page SES resume (pages 16-17 of the Guide to SES Qualifications) as the template. List dates and hours per week, and use the CCAR format (challenge, context, action, result) in concise bullets.",
+  "Submit before November 16, 2026. Applications open October 30, so draft now and keep the resume to two pages, since content beyond page 2 is not reviewed."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] disaster [recovery/preparedness] program at IEM as [title], coordinating [number] federal, state, and private-sector stakeholders to deliver [deliverable] on [timeline/budget].",
+  "Identified [process or technology gap] in [client]'s response and resilience operations and recommended [solution], resulting in [measurable result you can verify].",
+  "Led [number]-person team on [project], managing a $[amount] budget and holding team members accountable to [goals/milestones]."
+ ],
+ "interview_questions": [
+  "Describe a time you led an organization through change and held people accountable for results.",
+  "How have you managed resources to cut waste or improve efficiency in a program?",
+  "How would you prioritize R&D investments across cyber, infrastructure, and resilience portfolios?",
+  "Give an example of coordinating with multiple agencies and the private sector to close a capability gap."
+ ],
+ "watch_outs": [
+  "SES level: the panel and QRB expect years of senior executive accomplishments, and junior or mid-level consulting experience will likely be rated not qualified.",
+  "Requires SCI clearance eligibility, so expect a lengthy TS/SCI investigation.",
+  "The two-page limit is strict; anything past page 2 is ignored or may disqualify you.",
+  "The role is heavily cyber and science and technology focused, which is outside your known emergency-management and policy strengths."
+ ],
+ "job_id": "usajobs:890995000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

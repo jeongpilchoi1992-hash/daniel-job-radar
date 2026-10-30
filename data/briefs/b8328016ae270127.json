@@ -1,0 +1,54 @@
+{
+ "one_liner": "Supervise a team of program analysts at NAVSEA, overseeing acquisition, cost, schedule and funding execution for complex naval and defense programs at senior (GS-14 equivalent) level.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This supervisory NH-4 role requires a year of GS-13-equivalent experience leading acquisition, contracting, or financial execution for complex defense or naval technical programs. Daniel's emergency-management consulting at IEM and policy knowledge don't map directly to shipbuilding or defense acquisition, and nothing on file shows supervisory or senior program-management experience. Unless Daniel's IEM work involved managing large federal contracts, task orders, or funding lines at a senior level, Daniel likely won't qualify.",
+ "eligibility": [
+  "Open to the public (U.S. citizens), so no federal status is needed, but this is a flyer for anticipated vacancies: you must follow its How to Apply instructions, and there may be no actual hires.",
+  "At least one year of specialized experience equivalent to NH-03/GS-13 leading acquisition, program-management, contracting, procurement, or financial-execution work for complex defense, naval, or similarly technical programs.",
+  "Must be able to obtain and keep a Secret security clearance.",
+  "Supervisory position: expect to need evidence of leading teams or supervising staff."
+ ],
+ "keywords": [
+  "acquisition",
+  "program management",
+  "contracting",
+  "procurement",
+  "financial execution",
+  "Statements of Work",
+  "independent Government cost estimates",
+  "funding documents",
+  "task orders",
+  "contract modifications",
+  "obligations, expenditures, burn rates",
+  "cost, schedule, funding, and contract-performance risks",
+  "senior leadership",
+  "cross-functional teams",
+  "program reviews"
+ ],
+ "strategy": [
+  "Before investing time, honestly check whether your IEM work included managing federal contract task orders, funding lines, deliverables, or budgets at a senior level. If it didn't, prioritize GS-0343 analyst roles at GS-9 to GS-12, especially at FEMA or DHS, where your background is a closer match.",
+  "If you apply, frame IEM work as government-contract program execution: name the client agencies, contract or task-order scale, deliverables, schedules, and any budget or burn-rate tracking you did.",
+  "Argue the \"similarly technical programs\" clause only if it's true, such as large federal disaster-recovery grant or contract programs with complex cost and schedule management.",
+  "Keep to two pages, and list hours per week, start and end dates (month/year), and supervisory duties for each job so HR can measure your year of specialized experience.",
+  "The posting window is October 30 to November 9, 2026, and the flyer itself takes no applications, so read and follow the How to Apply section exactly and early."
+ ],
+ "resume_bullets": [
+  "Managed [number] task orders/work packages valued at [$amount] for [federal client agency], tracking deliverables, schedule, and burn rate and reporting status to [client/senior leadership].",
+  "Led a cross-functional team of [number] staff supporting [disaster recovery/preparedness program], setting priorities, assigning work, and reviewing quality of deliverables.",
+  "Analyzed cost, schedule, and funding risks for [program] and recommended [specific action] to [client leadership], resulting in [verifiable outcome]."
+ ],
+ "interview_questions": [
+  "Describe a time you managed contract or funding execution on a complex program and spotted a cost or schedule risk early.",
+  "How have you supervised or led staff, including handling a performance problem?",
+  "Walk us through how you'd evaluate a program's effectiveness across its lifecycle.",
+  "How do you build working relationships with contracting, financial, and technical stakeholders who have competing priorities?"
+ ],
+ "watch_outs": [
+  "The specialized-experience requirement (defense or naval acquisition at GS-13 level, plus supervision) is likely beyond Daniel's documented background, so overstating it risks an ineligible finding.",
+  "This is a notice flyer for anticipated vacancies, not a guaranteed job, and no result letters will be sent.",
+  "A Secret clearance is required, and on-site work at the Washington Navy Yard means a long commute from Manassas on non-telework days."
+ ],
+ "job_id": "usajobs:890883500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

@@ -1,0 +1,55 @@
+{
+ "one_liner": "A senior uniformed USPHS officer (O-6) who travels to ICE detention health clinics to run day-to-day healthcare administration, staff, contracts and accreditation compliance.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting says plainly that it is only open to current U.S. Public Health Service Commissioned Corps officers, and it excludes Call to Active Duty candidates, so Daniel cannot apply as a civilian. It also requires several years of leadership, program and personnel management experience as a uniformed service officer, plus healthcare management expertise. Daniel's emergency-management consulting and policy strengths are relevant to the COOP and liaison duties, but they do not meet these threshold requirements.",
+ "eligibility": [
+  "Open only to current USPHS Commissioned Corps officers; USPHS Call to Active Duty (CAD) candidates are not eligible, and civilians cannot apply despite the 'public' hiring path label.",
+  "As a uniformed service officer, you need at least three years of leadership experience, two years of program management experience and two years of personnel management experience.",
+  "You must be eligible for a DHS Secret clearance and a U.S. Government Official Passport, and you must hold CPR/BLS certification.",
+  "You must earn Level II Contracting Officer Representative (COR) certification within 12 months of hire; a master's in healthcare administration or a related health field is preferred.",
+  "You must meet hazardous-duty physical demands, including jogging a quarter mile, lifting over 30 pounds and helping to evacuate detainees or staff."
+ ],
+ "keywords": [
+  "Responsible Health Authority",
+  "COOP planning",
+  "sentinel events",
+  "Government Technical Monitor",
+  "Federal Acquisition Regulations (FAR)",
+  "Prompt Payment Act",
+  "contracting officer representative (COR)",
+  "accreditation standards",
+  "NCCHC",
+  "PBNDS",
+  "local operating procedures",
+  "P-Card",
+  "taskings",
+  "Congressional",
+  "program management"
+ ],
+ "strategy": [
+  "Don't spend time on this application: you are not a USPHS officer, so HR will screen you out at the eligibility step.",
+  "Use this posting as a map of related civilian roles, such as ICE or DHS program analyst, emergency management specialist (0089), COOP planner or congressional/legislative affairs specialist jobs open to U.S. citizens.",
+  "For those roles, frame your IEM work around what you actually did, such as preparedness planning, disaster recovery support, client liaison or contract deliverables. Use specific dates and hours per week within the two-page USAJOBS limit.",
+  "Highlight your policy knowledge and public-facing strengths for postings that mention Congressional visits, stakeholder liaison or public inquiries.",
+  "Set USAJOBS saved searches filtered to 'U.S. citizens/public' and to Manassas or Northern Virginia, so you stop receiving status-only postings like this one."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [emergency preparedness/COOP] planning at IEM by [specific task], delivering [number] plans or products over [timeframe] ([hours] per week).",
+  "Served as liaison between [client agency] and [stakeholders], coordinating [meetings/requests] and resolving [type of issue] on deadline.",
+  "Tracked [contract deliverables/data requests] for [disaster recovery program], preparing [reports] for [audience]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you coordinated continuity or emergency planning across multiple organizations.",
+  "How would you prepare for a Congressional or media visit to a sensitive facility?",
+  "Describe how you have monitored contractor performance or deliverables.",
+  "How do you manage competing taskings with tight deadlines?"
+ ],
+ "watch_outs": [
+  "Status-only: this job is restricted to current USPHS commissioned officers, so Daniel is ineligible.",
+  "If you pursued similar work elsewhere, expect up to 50% travel, 24/7 on-call duty and hazardous duty in detention settings.",
+  "The salary field in the posting appears to be a placeholder ($1 to $150,000), so it does not show real pay information."
+ ],
+ "job_id": "usajobs:881632000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

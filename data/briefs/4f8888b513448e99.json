@@ -1,0 +1,58 @@
+{
+ "one_liner": "Administrative and operations backbone for an ICE ERO field office: budget, procurement, HR, space, property, travel, and running the vehicle fleet program.",
+ "fit_rating": "Good",
+ "fit_summary": "This is open to the public under Direct Hire Authority, so your lack of federal status and veterans' preference does not hurt you, and your IEM government-client work may map to coordination, reporting, and liaison duties. The fit depends on whether your IEM role involved hands-on administrative work such as budget, logistics, vendors, travel, or data analysis at a GS-09 (for GS-11) or GS-11 (for GS-12) level. Your policy knowledge matters less here than operational and administrative detail.",
+ "eligibility": [
+  "Open to the public (hiring paths: public and federal transition); Direct Hire Authority applies, so category rating and veterans' preference do not apply.",
+  "GS-11 requires one year of specialized experience equivalent to GS-09 in 3 or more of these areas: coordinating administrative projects, solving administrative problems, analyzing administrative data, preparing reports, or representing the office with vendors and support organizations.",
+  "GS-12 requires one year at the GS-11-equivalent level in 3 or more of these areas: independent evaluations, advising on management programs, making agreements and commitments, or liaison work. Alternatively, a Ph.D., 3 years of graduate study, or an LL.M. can qualify you for GS-11 only, with transcripts required.",
+  "Requires a Secret security clearance; expect a background investigation before you start.",
+  "You must meet all qualifications by the closing date of October 30, 2026; confirm the specific duty locations listed under Multiple Locations."
+ ],
+ "keywords": [
+  "administrative and management services",
+  "budget",
+  "procurement",
+  "logistics",
+  "property",
+  "space",
+  "travel",
+  "fleet management program",
+  "advise management",
+  "evaluation of administrative programs",
+  "analyzing administrative data",
+  "trends, patterns",
+  "preparing reports",
+  "representing the office in dealings with vendors",
+  "liaison functions",
+  "harmonious working relations"
+ ],
+ "strategy": [
+  "Apply in the opening window: it is only five days (October 26–30, 2026), and Direct Hire announcements can close early or fill fast, so have your resume ready beforehand.",
+  "Rewrite each IEM entry around the specialized experience list, giving 3 or more concrete examples for each grade you apply for (logistics, budget tracking, vendor coordination, data analysis, reports), all in your own words. The posting says copied text will not count.",
+  "Keep your resume to two pages. For each job, list the month/year dates, hours per week, and title, and frame IEM work in federal terms, such as 'supported state/local government clients' and 'coordinated deployment logistics.'",
+  "Apply at GS-11 only unless you can honestly show a full year of GS-11-level independent evaluation, advisory, and commitment-making work. Promotion potential to GS-12 exists anyway.",
+  "Answer the questionnaire honestly. Rate yourself 'expert' only where a resume bullet proves it, since the posting warns that overstatement can remove you from consideration.",
+  "Use your people skills under 'liaison' and 'representing the office' examples, but lead with administrative operations content rather than policy expertise."
+ ],
+ "resume_bullets": [
+  "Coordinated [logistics/travel/procurement] for [number] staff supporting [client agency] disaster [recovery/preparedness] operations, managing [budget amount] and tracking expenditures in [system]. ([hours] hrs/wk)",
+  "Analyzed [type of data, e.g., staffing or cost data] from [sources] to identify trends and prepared [reports/briefings] for [audience], leading to [verified outcome].",
+  "Served as primary liaison with [vendors/government counterparts], negotiating [agreements/schedules] and resolving [type of issue] to keep [project] on time."
+ ],
+ "interview_questions": [
+  "Tell us about a time you identified an inefficient administrative process and improved it.",
+  "Describe your experience managing a budget, procurement, or vendor relationship. What went wrong, and how did you handle it?",
+  "How would you prioritize competing requests from management in fleet, space, and HR at the same time?",
+  "Give an example of handling a stressful, fast-changing situation while maintaining attention to detail."
+ ],
+ "watch_outs": [
+  "The application window is very short (October 26–30, 2026) and the job is not telework- or remote-eligible; check which duty locations are actually near Manassas.",
+  "A Secret clearance and background investigation are required, which can delay your start date.",
+  "Fleet management and budget duties are central. If your IEM work was mostly planning or policy, you may struggle to show 3 or more specialized experience areas.",
+  "This is ICE Enforcement and Removal Operations; make sure you are comfortable with the mission and the politically visible environment."
+ ],
+ "job_id": "usajobs:890021200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

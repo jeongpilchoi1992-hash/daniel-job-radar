@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior State Department policy expert who shapes U.S. foreign policy on quantum technology threats and leads talks with foreign governments and interagency partners.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's policy knowledge and relationship skills are real assets, but this GS-14 role requires a year of GS-13-equivalent specialized experience in emerging technology policy plus expert knowledge of quantum computing, sensing, communications and post-quantum cryptography. Nothing on file shows technology-policy or quantum work, and emergency-management consulting at IEM is unlikely to substitute.",
+ "eligibility": [
+  "Open to the public (Direct Hire Authority), so no federal status or veterans' preference is needed.",
+  "Basic requirement: a degree in a listed field such as political science, international relations, history or economics (transcripts required by closing), OR 4 years of foreign-affairs-related experience.",
+  "Specialized experience: one year at the GS-13 equivalent developing emerging-technology policy recommendations, coordinating stakeholders on technology policy, and writing policy analysis or briefings for senior decision-makers.",
+  "Requires a Top Secret clearance; you must be able to obtain one."
+ ],
+ "keywords": [
+  "emerging technology",
+  "quantum technology policy",
+  "post-quantum cryptography",
+  "national security",
+  "policy recommendations",
+  "interagency",
+  "stakeholders",
+  "briefing materials",
+  "senior decision-makers",
+  "strategic assessments",
+  "policy frameworks",
+  "foreign governments",
+  "international partners",
+  "multi-source information",
+  "non-technical audiences"
+ ],
+ "strategy": [
+  "Be honest about the gap: apply only if your IEM work truly involved technology policy for government clients. Otherwise, use this posting as a target and look for GS-9 to GS-12 policy, program, or legislative roles.",
+  "If you apply, frame your IEM work in the posting's language, such as policy analysis for government clients, stakeholder coordination and briefings for senior officials, but only where it is accurate.",
+  "Keep the resume to two pages, because longer resumes are ruled ineligible. For each job, list the dates, hours per week and a short specialized-experience statement.",
+  "Answer the questionnaire conservatively, since answers not supported by your resume lead to rating adjustments. Set aside two uninterrupted hours for the timed ApplyGov assessments, whose scores stay on file for 180 days for other State postings.",
+  "Upload your degree transcripts before November 5, 2026. The window opens October 30, so prepare early."
+ ],
+ "resume_bullets": [
+  "Prepared [number] written policy analyses and briefing materials on [topic] for [senior government officials/client executives], supporting decisions on [outcome].",
+  "Coordinated with [number/type of] federal, state and local stakeholders on [policy/preparedness issue], building consensus on [deliverable].",
+  "Developed recommendations on [technology or resilience issue] for [client agency], translating technical findings for non-technical audiences."
+ ],
+ "interview_questions": [
+  "What are the national security implications of quantum computing for current encryption, and how should the U.S. respond diplomatically?",
+  "Describe a time you coordinated competing stakeholders to reach a policy recommendation.",
+  "How would you explain post-quantum cryptography migration to a non-technical ambassador?",
+  "Tell us about a briefing you prepared for a senior decision-maker and its outcome."
+ ],
+ "watch_outs": [
+  "Deep quantum and technology-policy expertise is central to the role, and nothing on file shows it.",
+  "The application window is only one week, from October 30 to November 5, 2026.",
+  "A Top Secret clearance is required, which brings a lengthy background investigation.",
+  "If you qualify through education, missing transcripts mean automatic loss of consideration."
+ ],
+ "job_id": "usajobs:890827700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

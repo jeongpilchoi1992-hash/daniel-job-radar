@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior manager at ODNI's National Counterintelligence and Security Center leading an interagency team that coordinates U.S. counterintelligence strategy, governance and senior-level briefings.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role demands expert knowledge of counterintelligence missions, authorities and Intelligence Community organizations, plus SCI eligibility, and Daniel's known background is emergency-management consulting and strong policy knowledge, not counterintelligence or IC leadership. Daniel's relationship-building and interagency coordination skills are relevant, but they are unlikely to clear the expert-level CI/IC bar for a senior leadership position. Lower-grade policy or preparedness roles would be far better targets.",
+ "eligibility": [
+  "Open to the public (excepted service), so Daniel may apply without federal status; current federal employees below GS-14 are ineligible.",
+  "Requires at least a bachelor's degree. Confirm Daniel holds one and can document it.",
+  "Requires a Sensitive Compartmented Information (TS/SCI) clearance with investigation and likely polygraph. Daniel has no known clearance.",
+  "The posting expects expert knowledge of counterintelligence missions, authorities and IC organizations, plus superior leadership of interagency working groups.",
+  "All applicants must answer four essay questions (200 words max each), written in their own words without consultant or AI help."
+ ],
+ "keywords": [
+  "counterintelligence",
+  "foreign intelligence threats",
+  "interagency partners",
+  "Intelligence Community (IC)",
+  "governance structures",
+  "legal and policy issues",
+  "lessons learned",
+  "senior policymakers",
+  "strategy development",
+  "briefings, reports, and presentations",
+  "build coalitions",
+  "interagency working groups",
+  "constrained resources",
+  "expert analysis and recommendations",
+  "national security posture"
+ ],
+ "strategy": [
+  "Decide honestly whether to spend effort here. Unless Daniel has real counterintelligence or IC work, treat this as a stretch application and put most energy into GS-11 to GS-13 policy, preparedness or legislative-affairs roles.",
+  "If you do apply, describe your IEM work in terms of interagency coordination: [federal/state/local clients], governance or working groups you supported, and briefings delivered to senior officials. Use the posting's exact language only where it is truthful.",
+  "Keep the resume to the two-page USAJOBS limit. For each job, list dates, hours per week, and one or two lines tying the work to strategy, governance, lessons learned and senior briefings.",
+  "Write the four essays yourself, each under 200 words, with concrete examples. The posting forbids consultant or AI drafting, so use these notes only as a checklist.",
+  "Submit before November 12, 2026, with your transcript or degree proof and every item under Required Documents. Upload nothing extra."
+ ],
+ "resume_bullets": [
+  "Coordinated [number] [federal/state/local] partner agencies on [preparedness/recovery project] for [client], leading [working group/meetings] that resolved [type of issue] by [date/outcome].",
+  "Prepared and delivered [number] briefings and reports for [senior official titles] on [topic], producing recommendations adopted in [plan/policy name].",
+  "Led [after-action review/lessons-learned assessment] for [exercise/event], identifying [number] improvements implemented under [budget/resource constraint]."
+ ],
+ "interview_questions": [
+  "Describe how you led an interagency group with competing authorities toward a shared decision.",
+  "How would you brief a senior policymaker on a complex threat with limited time?",
+  "Tell us about a time you implemented leadership direction that differed from your recommendation.",
+  "What do you know about NCSC's mission and the counterintelligence authorities of IC elements?"
+ ],
+ "watch_outs": [
+  "GS-15 with expert counterintelligence and IC requirements; Daniel's known background does not show this, so referral is unlikely.",
+  "TS/SCI clearance is required, with a lengthy investigation and possibly a polygraph.",
+  "No telework is offered. The job is on-site in Bethesda, a long commute from Manassas.",
+  "The application window is short (October 28 to November 12, 2026), and the essays are mandatory."
+ ],
+ "job_id": "usajobs:890520300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

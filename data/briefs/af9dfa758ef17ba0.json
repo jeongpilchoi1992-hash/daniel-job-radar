@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior federal buyer at CMS who writes solicitations, analyzes contractor prices, negotiates and administers health-program contracts under the FAR.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-13 job requires 4 years of contracting experience, including a year doing cost/price analysis, negotiation strategy and preparing contract documents at a GS-12 level. It also requires a bachelor's degree with 24 business-related semester hours and agency-mandated contracting training (FAC-C/DAU-type). Daniel's known IEM consulting work on emergency management and policy knowledge don't show that background, so Daniel likely won't qualify unless the IEM role actually involved hands-on government contracting.",
+ "eligibility": [
+  "Open to the public and to federal transition (fed-transition) applicants; no status or clearance required.",
+  "At least 52 weeks of specialized experience equivalent to GS-12 covering all three areas: cost and price analysis, negotiation strategies, and preparing all contract documents.",
+  "At least 4 years of experience in contracting or related positions, plus completion of agency-mandated training for GS-13 contracting levels.",
+  "Bachelor's degree with at least 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, industrial management, marketing, quantitative methods, or organization and management. Transcripts are required at application.",
+  "An online assessment with a cut score is required, in addition to the occupational questionnaire."
+ ],
+ "keywords": [
+  "Contract Specialist",
+  "pre-award and post award",
+  "contract administration",
+  "cost/price analysis",
+  "cost breakdowns",
+  "reasonableness",
+  "negotiation strategies",
+  "lead negotiations",
+  "most favorable terms and conditions",
+  "solicitation documents",
+  "Federal Acquisition Regulations (FAR)",
+  "HHS policies and provisions",
+  "contract documents",
+  "Influencing/Negotiating",
+  "Attention to Detail"
+ ],
+ "strategy": [
+  "First, inventory your IEM work honestly. Did you price proposals, review cost breakdowns, negotiate with government contracting officers, or draft contract/proposal documents? If none of that applies, skip this GS-13 and target GS-1102 entry roles (GS-7/9) or acquisition intern programs instead.",
+  "Check your transcript before investing time. Count semester hours in business, economics, law, finance, management and related fields; you need 24.",
+  "If you do apply, describe the contracting-related IEM work in your own words, with dates and hours per week, mapped to each of the three specialized-experience items. Copying the announcement text gets you rated ineligible.",
+  "Fit everything on two pages: put the contracting-relevant role first, and compress unrelated work to one line each.",
+  "Answer the occupational questionnaire only at the level your resume supports. Overstating gets you removed, and an SME may review your resume.",
+  "The posting is open until 2027-01-15, but submit early, then complete the online assessment promptly and upload transcripts."
+ ],
+ "resume_bullets": [
+  "Analyzed [number] cost proposals/cost breakdowns for [type of government client] contracts valued at [$ amount], assessing labor rates and other direct costs for reasonableness against [FAR/client requirements].",
+  "Developed negotiation positions and led discussions with [government client/subcontractors] on [scope/price/terms], resulting in [documented outcome].",
+  "Drafted [statements of work, solicitation sections, modifications, task orders] for [emergency management/disaster recovery] programs, ensuring compliance with [FAR clauses/client policies]."
+ ],
+ "interview_questions": [
+  "Walk us through how you perform a cost/price analysis and determine that a price is fair and reasonable.",
+  "Describe a negotiation you planned and led: what was your strategy, and what was the result?",
+  "How do you ensure a solicitation incorporates the required FAR and HHS provisions?",
+  "Tell us about managing a difficult contractor or stakeholder relationship during contract administration."
+ ],
+ "watch_outs": [
+  "The 4-year contracting experience and mandatory GS-13 contracting training requirements will likely disqualify you without a real acquisition background.",
+  "Missing transcripts at application means an automatic ineligible rating.",
+  "The location is listed as Multiple Locations with no remote option. Confirm a Baltimore/Woodlawn-area or DC-area duty station is commutable from Manassas, even with telework."
+ ],
+ "job_id": "usajobs:876499100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

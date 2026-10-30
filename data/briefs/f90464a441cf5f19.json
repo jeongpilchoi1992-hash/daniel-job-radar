@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior DOJ grants manager overseeing federal victim-services grants to Tribal communities: reviewing applications, monitoring compliance, and advising grantees.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-13 requires one year of specialized experience equivalent to GS-12 in managing complex grants, specifically related to crime victims and survivors. Daniel's IEM consulting work may include grants or disaster-recovery funding, but nothing on file shows victim-services grant management at that level. Daniel's policy knowledge and people skills fit the liaison side of the job, not the core qualification.",
+ "eligibility": [
+  "Open to the public (U.S. citizens under Delegated Examining) as well as status, veteran, and other special hiring paths, so Daniel can apply without prior federal service.",
+  "You need one year of specialized experience equivalent to GS-12: managing, monitoring, or pre-award work on complex grants or cooperative agreements related to victims or survivors of crime.",
+  "Education cannot substitute for experience, so you must qualify on experience alone.",
+  "You must complete the USA Hire online assessment within 48 hours after the 11/09/2026 closing date, or you will not be considered.",
+  "No security clearance is required."
+ ],
+ "keywords": [
+  "grants and/or cooperative agreement management",
+  "victims and/or survivors of crime",
+  "monitoring",
+  "compliance with regulatory, policy, and reporting requirements",
+  "risk assessments",
+  "technical assistance",
+  "pre-award process",
+  "grant solicitations",
+  "national, state, local, and tribal entities",
+  "data collected from multiple sites",
+  "Tribal governments",
+  "stakeholders",
+  "Program Evaluation & Performance Management",
+  "Financial Analysis & Budget Review",
+  "Policy Interpretation & Development"
+ ],
+ "strategy": [
+  "Before applying, list exactly what you did at IEM. Apply only if you personally managed grant or cooperative-agreement work, such as FEMA Public Assistance, HMGP, or CDBG-DR compliance, monitoring, cost review, or applicant technical assistance, at a senior level for a full year.",
+  "If IEM work touched survivors, such as disaster survivor assistance or case management, describe it honestly as survivor-related program work. Don't stretch it into crime-victim experience you didn't have.",
+  "On the two-page resume, give each IEM role dates, hours per week, and title. Lead with brief grant-lifecycle bullets that use the posting's language, such as pre-award, monitoring, risk assessment, technical assistance, and compliance.",
+  "Preview the questionnaire at the posting link and answer only at levels your resume proves; the posting warns that overstating can remove you from consideration.",
+  "Block time right after 11/09/2026 for the USA Hire assessment, which covers areas such as arithmetic, data analysis, reading, and writing. The score is reused for one year.",
+  "In parallel, target GS-1109-9/11 grants roles, FEMA or VDEM grants and recovery positions, and Northern Virginia local government grants coordinator jobs, where your background is a stronger match."
+ ],
+ "resume_bullets": [
+  "Grants Management Consultant [title], IEM, [MM/YYYY–MM/YYYY], [40] hrs/wk: Monitored [number] federal [FEMA PA/HMGP/other] grant projects totaling $[amount] for compliance with [2 CFR 200/program] regulatory and reporting requirements.",
+  "Provided technical assistance to [number] state, local, and [tribal, if true] applicants on eligibility, documentation, and cost review, resolving [type of] potential compliance findings.",
+  "Conducted risk assessments and reviewed subrecipient cost data across [number] sites, recommending [corrective actions/process changes] adopted by [client]."
+ ],
+ "interview_questions": [
+  "Describe a time you identified a compliance problem with a grantee and how you resolved it.",
+  "How would you approach a risk assessment for a multi-year, multi-site cooperative agreement?",
+  "What experience do you have working with Tribal governments or Tribal programs, and how would you build trust with them?",
+  "Walk us through how you'd review a grantee's budget modification request."
+ ],
+ "watch_outs": [
+  "Experience requirement: the specialized experience is narrow (victim/survivor-related grants at GS-12 level), and you'll likely be found ineligible without true grant-management duties.",
+  "Application window: the posting opens 10/29/2026 and closes 11/09/2026, and the assessment is due 48 hours after closing.",
+  "Commute: the job is DC-based and on-site with telework, so expect a regular commute from Manassas (VRE helps)."
+ ],
+ "job_id": "usajobs:890738100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

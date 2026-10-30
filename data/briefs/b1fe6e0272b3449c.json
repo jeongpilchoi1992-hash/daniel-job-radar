@@ -1,0 +1,56 @@
+{
+ "one_liner": "Deployable DoD contract administrator who oversees defense contractors' compliance, payments and closeouts, including 6-9 month deployments to austere war-zone locations.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-11 job requires a bachelor's degree plus one year of GS-09-level contracting experience (FAR/DFARS clauses, modifications, financing, deficiency reports), and graduate education cannot substitute at this grade. Daniel's IEM work with government clients may touch contracts, but unless it involved hands-on contract administration, it likely won't meet the specialized experience bar. The war-zone deployment requirement is also a major lifestyle commitment.",
+ "eligibility": [
+  "Open to the public and military spouses, so no federal status is needed; Direct Hire means veterans' preference and ranking don't apply.",
+  "Basic Contracting Requirement: a baccalaureate degree from an accredited institution is required, and you must submit transcripts (unofficial accepted).",
+  "One year of specialized experience equivalent to GS-09 in contract review, FAR/DFAR clauses, modifications, financing and contract deficiency reports; education cannot substitute at GS-11.",
+  "You must be able to obtain and maintain a Secret clearance.",
+  "You must be able to deploy for 6-9 months to forward operating austere locations in war zones."
+ ],
+ "keywords": [
+  "contract administration",
+  "FAR/DFAR clauses",
+  "statements of work",
+  "delivery schedules",
+  "contractor performance",
+  "contract modifications",
+  "contract financing",
+  "progress reports",
+  "contract data requirements",
+  "contract deficiency reports",
+  "contract closeout",
+  "funds reconciliation",
+  "waivers or deviations",
+  "electronic documentation",
+  "buying office"
+ ],
+ "strategy": [
+  "Before applying, confirm you have an accredited bachelor's degree and honestly inventory any IEM work that touched contracts, such as task orders, SOW deliverables, invoicing, or reporting to a government contracting officer's representative.",
+  "If IEM duties included tracking deliverables against a SOW, preparing progress reports, or reconciling billing, describe them with the posting's exact language and state dates and hours per week, all within the two-page USAJOBS limit.",
+  "Treat the contractor-side perspective as an asset: you understand how firms meet government contract data requirements and delivery schedules, but don't overstate authority you didn't have.",
+  "If your experience is thin, apply instead to GS-07 or GS-09 1102 trainee or Pathways recent-graduate postings, which use the degree alone, and use this listing as a target for later.",
+  "Apply between October 26 and November 9, 2026, upload transcripts, and read the DCMA deployment page so you can speak to deployment readiness."
+ ],
+ "resume_bullets": [
+  "Supported [government client] contract [number/type] by tracking [#] deliverables against the statement of work and delivery schedules, preparing [monthly] progress reports for the [COR/client] ([dates], [hours]/week).",
+  "Reviewed [invoices/funding documents] for compliance with contract terms and reconciled [$ amount] in [billing/funds], resolving [#] discrepancies through analysis of conflicting data.",
+  "Coordinated with [client contracting office] on [modification/scope change requests], drafting justifications that resulted in [outcome]."
+ ],
+ "interview_questions": [
+  "Describe a time you found a contractor or project not meeting contract requirements. What did you do?",
+  "How familiar are you with the FAR and DFARS, and how would you check a new contract for required clauses?",
+  "Why do you want a deployable position, and how have you prepared for a 6-9 month austere deployment?",
+  "Walk us through how you would approach closeout of a contract with unresolved funding or deliverables."
+ ],
+ "watch_outs": [
+  "Deployment to war zones for 6-9 months is mandatory, not optional.",
+  "Without real GS-09-level contracting experience you will likely be rated ineligible; policy knowledge and relationship skills do not count toward it.",
+  "The posting lists no promotion potential, and you must obtain a Secret clearance.",
+  "The application window is short, two weeks, closing November 9, 2026."
+ ],
+ "job_id": "usajobs:890205500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

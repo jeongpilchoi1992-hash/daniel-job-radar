@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior analyst building budget models, workforce cost estimates and financial-management plans as the federal Judiciary seeks authority to own and manage its own buildings.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's IEM consulting work for government clients and policy knowledge may touch briefings and stakeholder coordination, but this is a senior (about $169K+) budget and financial-management role. It requires a full year of specialized experience in ALL three areas: organizational change plans with cost/benefit analysis, executive-level analysis, and federal acquisition knowledge. Unless Daniel's IEM duties included federal budgeting, cost estimating or contract work, Daniel likely won't meet the minimum qualifications.",
+ "eligibility": [
+  "Open to the public as well as competitive and excepted federal employees; no status or veterans' preference is needed, but you must be a U.S. citizen for a competitive-status appointment.",
+  "You need at least 52 weeks of specialized experience covering ALL listed areas: organizational change plans (workforce analysis, organizational design, change management, risk and cost/benefit analysis), unstructured analysis and briefings for senior executives, and knowledge of federal acquisition (IT, real property and financial management services contracts, contractor staffing).",
+  "No degree is required, and no security clearance is required.",
+  "You must pass an FBI fingerprint check, a public trust suitability check and E-Verify, complete the OF-306, and serve a trial period as a first-time federal appointee.",
+  "Mandatory narrative responses are required; leaving them out costs you full consideration."
+ ],
+ "keywords": [
+  "budget formulation and execution",
+  "financial management",
+  "cost estimates",
+  "workforce analysis",
+  "organizational design",
+  "change management strategy",
+  "risk analysis",
+  "cost/benefit analysis",
+  "gap analysis",
+  "briefings",
+  "decision-making support for senior executives",
+  "federal government acquisition process",
+  "contractor staffing",
+  "real property",
+  "controls and accountability"
+ ],
+ "strategy": [
+  "Before applying, write down honestly what you did at IEM. Apply only if you can point to at least 52 weeks covering all three specialized-experience areas; the questionnaire ratings will be checked against your resume.",
+  "Frame IEM work by function, not firm. Name any federal clients (for example FEMA or other agencies), contract type, budget or cost-estimating tasks, staffing plans, and briefings delivered to government executives.",
+  "Use your two-page USAJOBS resume to give each job dates, hours per week and a brief specialized-experience statement that mirrors the three required areas. Use the posting's exact phrases, such as cost/benefit analysis and gap analysis.",
+  "Write the mandatory narratives with STAR examples tied to each required area. Answer the questionnaire only at the level your resume clearly supports.",
+  "Submit well before the November 3, 2026 deadline (the posting opens October 20).",
+  "If you don't qualify, use this posting to steer toward FEMA, emergency management or legislative/policy analyst roles at GS-9 to GS-12, or Prince William County and Virginia emergency management jobs."
+ ],
+ "resume_bullets": [
+  "Developed [cost/benefit or workforce cost estimates] for [federal/state client] [emergency management/recovery program], analyzing [staffing, contract and equipment costs] to support [decision/outcome] ([dates], [hours]/week).",
+  "Prepared and delivered [number] written analyses and briefings to [senior executives/agency officials] on [topic], supporting decisions on [organizational structure/resource allocation].",
+  "Supported federal contract [requirements development/deliverable management/invoice review] on [contract name/type], coordinating contractor staff and government stakeholders to [result]."
+ ],
+ "interview_questions": [
+  "Describe how you built a multi-year budget or cost model for an organizational change. What assumptions drove it?",
+  "How would you decide which functions should be done by government employees versus contractors?",
+  "Tell us about a time you briefed senior executives on a complex, unstructured problem with incomplete data.",
+  "Walk us through how you would run a gap analysis of the financial-management workload created by a new real property authority."
+ ],
+ "watch_outs": [
+  "The specialized experience requires ALL three areas, including federal acquisition knowledge. Self-rating higher than your resume supports will lower your rating or disqualify you.",
+  "The salary level signals a senior, budget-heavy role, and the 'highly desired' list includes 10+ years of federal financial management, which favors experienced federal budget analysts.",
+  "The job is in DC and not remote; telework is available, but expect a commute from Manassas.",
+  "The posting is open only October 20 to November 3, 2026, a two-week window."
+ ],
+ "job_id": "usajobs:887355600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

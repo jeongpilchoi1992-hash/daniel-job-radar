@@ -1,0 +1,57 @@
+{
+ "one_liner": "Entry/developmental analyst supporting DISA's Supply Chain Risk Management program: reviewing policies, coordinating SCRM requirements, and liaising with DoD's SCRM Threat Assessment Center.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's consulting work at IEM for government clients and strong policy knowledge could support the GG-07 or possibly GG-09 level if that work involved analyst support within a security or risk program. Daniel has no evident supply chain, IT, or information assurance background, so GG-11 is unlikely. The SCI clearance requirement is also a major hurdle.",
+ "eligibility": [
+  "Open to the public; U.S. citizens can apply without federal status, but this is a Cyber Excepted Service job that cannot be converted to the competitive service.",
+  "GG-07 requires one year of routine administrative or analyst support in an IT, logistics or security program. GG-09 requires assisting with a security, supply chain, or information assurance program.",
+  "Security clearance: you must be able to obtain Sensitive Compartmented Information (SCI) access, which involves an extensive background investigation.",
+  "Education can substitute for experience: one year of graduate study (or Superior Academic Achievement) for GG-07, or a Master's for GG-09. Transcripts must be submitted at application.",
+  "All qualifications must be met within 30 days after the October 30, 2026 closing date."
+ ],
+ "keywords": [
+  "Supply Chain Risk Management (SCRM)",
+  "program analyst",
+  "risk-mitigation program",
+  "security program",
+  "information assurance",
+  "analyze policies and procedures",
+  "recommend solutions",
+  "coordination",
+  "administrative services",
+  "point of contact",
+  "liaison",
+  "operational support",
+  "analyst support tasks",
+  "logistics",
+  "Threat Assessment Center"
+ ],
+ "strategy": [
+  "Apply at GG-07 and GG-09 only if your IEM duties honestly support them. Select only grades whose definitions your resume can prove, because inflated claims cost consideration.",
+  "Frame your IEM work in risk terms: preparedness assessments, hazard or vulnerability analysis, continuity planning, and coordination with government clients. Present these as 'risk-mitigation' and 'security program' analyst support, but only where accurate.",
+  "Highlight your policy analysis strength by describing any reviews of regulations, plans, or procedures where you identified gaps and recommended fixes. This mirrors the duty 'reviews and analyzes policies and procedures.'",
+  "Use your relationship skills as evidence of liaison and point-of-contact work, such as serving as the client-facing coordinator between agencies or stakeholders.",
+  "Keep the resume to two pages. For each job, list exact dates and hours per week, plus a brief line stating the qualifying experience in the posting's words.",
+  "Preview the questionnaire at the provided link before writing your resume, then answer it honestly. The window is only one week (Oct 23–30, 2026), so have your resume and any transcripts ready in advance."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [emergency preparedness/recovery] program as [title], analyzing [plans/policies/procedures] to identify gaps and recommend solutions adopted in [result, if known].",
+  "Served as point of contact and liaison between [number] [agency/stakeholder] partners, coordinating [requirements/deliverables/meetings] for a [risk-mitigation/security-related] program ([hours] hrs/week).",
+  "Performed analyst support tasks including [data collection/tracking/reporting/risk assessments] for [program], producing [deliverable type] for [audience]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you reviewed a policy or procedure, found a problem, and recommended a solution.",
+  "What do you understand about supply chain risk management, and why does it matter for DoD IT systems?",
+  "Describe how you have served as a liaison or central point of contact between organizations with different priorities.",
+  "How would you get up to speed quickly on a technical program area that is new to you?"
+ ],
+ "watch_outs": [
+  "SCI clearance is required. Expect a long investigation, and ensure nothing in your background would block access.",
+  "Cyber Excepted Service status does not convert to the competitive service, which limits future moves to non-CES federal jobs.",
+  "Fort Meade, MD is a long commute from Manassas. Telework is allowed, but the job is not remote.",
+  "The application window is only one week, and this is a technical domain where your experience may qualify only at GG-07."
+ ],
+ "job_id": "usajobs:890154400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

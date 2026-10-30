@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior federal Contracting Officer who supervises PBGC's procurement staff and runs complex contracts from planning through award, administration, and termination.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-14 role requires at least 4 years of contracting experience, including a year at GS-13 level planning and overseeing full-lifecycle acquisitions and supervising contract specialists, plus 24 semester hours in business-related fields. Nothing on file shows Daniel has done federal contracting or held a warrant. Daniel's IEM consulting work likely sat on the contractor side of government contracts, which is related but probably not qualifying, and Daniel's policy and people strengths don't map to the core requirement.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority, but veterans' preference does not apply and there is no questionnaire. You pass or fail on minimum qualifications alone.",
+  "You need one year of specialized experience equivalent to GS-13: leading acquisition planning, solicitation, source selection, negotiation, award, administration, closeout, and terminations, and supervising acquisition professionals.",
+  "You need 4 years of contracting or related experience plus completion of agency-mandated contracting training (FAC-C/DAWIA-type certification) for GS-13+ positions.",
+  "You need a bachelor's degree with at least 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, industrial management, marketing, quantitative methods, or organization and management.",
+  "The announcement closes after the first 75 applications or on November 3, 2026, whichever comes first."
+ ],
+ "keywords": [
+  "Contracting Officer",
+  "full procurement lifecycle",
+  "acquisition planning",
+  "solicitation",
+  "source selection",
+  "negotiation",
+  "contract award",
+  "post-award administration",
+  "contract closeout",
+  "terminations",
+  "Federal Acquisition Regulations",
+  "authoritative business advisor",
+  "services contracts",
+  "IT goods and services",
+  "supervise",
+  "technical direction"
+ ],
+ "strategy": [
+  "Be honest with yourself first. Unless your IEM role involved actually running contract actions (writing solicitations, negotiating, administering awards), you won't meet the GS-13-equivalent standard, and applying will likely end in an ineligible notice.",
+  "Pull your transcript and count your semester hours in business, economics, law, management, and similar fields. If you have fewer than 24, this series (GS-1102) is closed to you until you add coursework.",
+  "If acquisition interests you, target entry or developmental 1102 roles instead, such as GS-7/9 Contract Specialist, Acquisition Intern, or Pathways positions. Frame your IEM experience as supporting government clients' disaster-recovery contracts, proposals, or FEMA/HUD grant compliance, if that's accurate.",
+  "If you do apply, apply early because of the 75-application cap. Keep the resume within two pages, with dates, hours per week, dollar values, and contract types stated briefly for each role.",
+  "Given your policy and relationship strengths, also look at legislative affairs, program analyst, emergency management, and constituent services roles. Those openings fit you far better than supervisory procurement."
+ ],
+ "resume_bullets": [
+  "Supported [number] government client contracts valued at [$amount] for disaster recovery programs at IEM, helping with [proposal development/deliverable tracking/invoice and compliance review] under [FAR/2 CFR 200] requirements.",
+  "Coordinated with [client agency] contracting and program staff to resolve [type of contractual or scope issue], keeping [deliverable/project] on schedule through [specific action].",
+  "Led or coordinated a team of [number] staff on [project], assigning work, setting priorities, and reviewing products for [client]."
+ ],
+ "interview_questions": [
+  "Walk us through a complex acquisition you led from acquisition planning to award. What source selection method did you use, and why?",
+  "Describe a time you had to terminate or restructure a contract. How did you apply the FAR?",
+  "How do you manage workload and develop contract specialists with different experience levels?",
+  "How do you advise program managers who push for an approach that isn't compliant with procurement rules?"
+ ],
+ "watch_outs": [
+  "Senior supervisory contracting role with strict 1102 experience, training, and education requirements that Daniel almost certainly doesn't meet.",
+  "The posting closes early after 75 applications, so the window may be only days.",
+  "There is no promotion potential, and the job is in DC rather than remote, which means a commute from Manassas on non-telework days."
+ ],
+ "job_id": "usajobs:888799800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

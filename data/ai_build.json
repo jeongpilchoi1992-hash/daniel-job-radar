@@ -1,0 +1,13 @@
+{
+ "date": "2026-10-30",
+ "note": "One-time launch build. The twice-daily refresh makes no AI calls.",
+ "usd_total": 23.17,
+ "usd_by_task": {
+  "discovery:daniel": 1.3878,
+  "discovery:jp": 2.3318,
+  "discovery2:daniel": 2.8195,
+  "discovery2:jp": 3.8552,
+  "boards:jp": 1.2663,
+  "briefs:daniel": 11.5105
+ }
+}

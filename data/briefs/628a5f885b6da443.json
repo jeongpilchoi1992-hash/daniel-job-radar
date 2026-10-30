@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Executive Service director running DOJ's entire library system and museum, setting strategy, budgets, policy and modernization through two subordinate assistant directors.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel, this is an SES role that requires extensive executive leadership of complex library, museum, archival or knowledge-management organizations plus GS-1410 librarian qualifications, which nothing in your known background shows. Your IEM consulting and policy knowledge could touch ECQ1 and stakeholder work, but you likely cannot meet MTQ 1-3 or the librarian education standard. Treat this as a posting to skip unless you have unlisted library or museum leadership experience.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals); veterans' preference does not apply to the SES.",
+  "Must meet GS-1410 Librarian professional qualifications: library science education (an MLS/MLIS is generally expected) or an equivalent combination of education, training and experience.",
+  "Must show progressively responsible executive leadership directly related to all 3 MTQs, including leading subordinate managers in a library, museum, archival or knowledge-management organization.",
+  "Top Secret clearance and background investigation, drug screening, OGE 278 financial disclosure, and Selective Service registration if applicable.",
+  "If selected, you also need certification by an OPM Qualifications Review Board before appointment."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Mandatory Technical Qualifications",
+  "strategic direction",
+  "leading subordinate managers",
+  "knowledge-management",
+  "modernization",
+  "digitization",
+  "digital preservation",
+  "information access",
+  "resource stewardship",
+  "enterprise-level policies",
+  "budget requirements",
+  "internal controls",
+  "stakeholder relationships",
+  "Rule of Law"
+ ],
+ "strategy": [
+  "First, honestly check whether you have led library, museum, archival or knowledge-management programs with managers reporting to you; if not, skip this posting and save your effort.",
+  "Instead, target GS-0301, GS-0089 (emergency management), program analyst, or legislative and intergovernmental affairs roles at FEMA, DHS, or Virginia VDEM. These better match your IEM and policy background.",
+  "If you still apply, fit the ECQs and MTQs into a strict 2-page resume with dates and scope. Add concrete results only where they are true, such as size of budgets, teams and programs.",
+  "Frame IEM work around any knowledge-management, records, plan-library or digital information systems you built for government clients, if that actually happened.",
+  "Submit before 11:59pm EST on 11/11/2026, and include transcripts showing any library science coursework."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team delivering [knowledge-management/records/digitization project] for [government client], managing a $[budget] contract and achieving [result].",
+  "Developed [policy/plan/framework] adopted by [agency/jurisdiction], coordinating [number] stakeholder organizations to [outcome].",
+  "Directed modernization of [information system or document repository] for [client], improving [access/search/retrieval metric] by [amount]."
+ ],
+ "interview_questions": [
+  "Describe a time you set strategic direction for a complex information organization and led subordinate managers to deliver it.",
+  "How have you used digitization or new technology to improve access to collections or institutional knowledge?",
+  "Tell us about defending a budget and cutting waste while protecting mission priorities.",
+  "How would you balance resources between the Library and Museum programs?"
+ ],
+ "watch_outs": [
+  "Requires senior executive experience leading library or museum organizations, which you do not appear to have.",
+  "Librarian (GS-1410) qualification standard effectively expects an MLS/MLIS or equivalent.",
+  "Top Secret clearance, OGE 278 disclosure and OPM QRB review add time and scrutiny.",
+  "The resume is limited to 2 pages and must still cover 5 ECQs and 3 MTQs."
+ ],
+ "job_id": "usajobs:889634200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

@@ -1,0 +1,56 @@
+{
+ "one_liner": "Entry-level Air Force contracting trainee who prepares bids, quotes and proposals and helps monitor contracts, on a developmental track to GS-12.",
+ "fit_rating": "Stretch",
+ "fit_summary": "This is a Direct Hire program for current students and graduates whose degree was awarded within the last two years, and Daniel's student or graduation status isn't on file. Daniel's IEM consulting work with government clients may touch procurement, proposals or contract compliance. That would only count if the actual duties match the GS-05 specialized experience, and Daniel's policy and people skills are secondary here.",
+ "eligibility": [
+  "Direct Hire for post-secondary students and recent graduates: you must be enrolled full-time with at least one year completed, or have been awarded a degree no more than two years before appointment. Confirm Daniel qualifies before applying.",
+  "A bachelor's degree from an accredited institution is the basic requirement for non-military, non-DoD applicants.",
+  "You also need one of these: one year of GS-05-level specialized experience in contracting functions, or a bachelor's with Superior Academic Achievement (GPA 2.95+, upper third, or honor society), or one year of graduate study in the listed fields.",
+  "A Top Secret clearance is required. Expect to obtain it after selection, which means a background investigation."
+ ],
+ "keywords": [
+  "Contract Specialist",
+  "soliciting, evaluating, negotiating, and awarding contracts",
+  "administering contracts",
+  "compliance with the terms and conditions",
+  "Invitation for Bid (IFB)",
+  "Request for Quotation (RFQ)",
+  "Request for Proposal (RFP)",
+  "contract clauses",
+  "monitoring contract performance",
+  "cost/price proposals",
+  "acquisition strategies",
+  "procurement",
+  "Communication",
+  "Planning and Prioritization",
+  "Problem Solving"
+ ],
+ "strategy": [
+  "First confirm your graduation date or enrollment status. If your degree is older than two years and you aren't enrolled, this posting won't work for you, so look at other 1102 trainee jobs open to the public.",
+  "If qualifying on education, upload transcripts showing SAA (GPA 2.95+, or the honor society documentation) with your application.",
+  "Frame IEM work only where it is true, using posting language: helping prepare government proposals or RFP responses, tracking deliverables against contract terms, or supporting FEMA/state grant and contract compliance. State hours per week for each role.",
+  "After USAJOBS, you must also log in to afciviliancareers.com/paq-contracting and click Apply Now, then finish the HireVue assessment. Skipping either step removes you from consideration.",
+  "Keep the resume to two pages with no cover letter. Preview the questionnaire and answer honestly in line with what the resume shows.",
+  "Prepare for HireVue by practicing short, structured answers (situation, action, result) for communication, willingness to learn and prioritization."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [contract/task order] by tracking [deliverables/milestones] against contract terms and conditions, [hours/week], [dates].",
+  "Helped draft [proposal sections / RFP responses / pricing inputs] for [number] government solicitations in [emergency management/disaster recovery] at IEM.",
+  "Coordinated with [client agency staff/vendors] to resolve [type of issue], preparing correspondence and documentation for [purpose]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you had to follow detailed rules or procedures precisely.",
+  "How do you prioritize several deadlines at once?",
+  "Describe something complex you learned quickly on the job.",
+  "How would you explain a contract requirement to someone who disagrees with it?"
+ ],
+ "watch_outs": [
+  "This posting is limited to students and recent graduates (degree within two years), so it is not open to all applicants.",
+  "The Top Secret clearance requirement means a lengthy background investigation.",
+  "Locations are Air Force-wide and the role is not remote, so you may need to relocate away from Manassas.",
+  "GS-7 pay ($50,460–$65,599) is low for the DC area at the start, though the career ladder runs to GS-12."
+ ],
+ "job_id": "usajobs:888632500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

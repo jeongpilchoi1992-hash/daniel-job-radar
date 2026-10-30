@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior DOJ acquisition policy expert who writes and interprets FAR-based procurement policy and advises the Office of Acquisition Management director.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-14 contracting job requires at least 4 years of contracting experience, including one year at the GS-13 equivalent overseeing procurement programs and writing FAR-implementing policy, plus 24 semester hours in business-related fields. Daniel's policy knowledge and emergency-management consulting background don't show that hands-on acquisition work. Unless your IEM role was actually in federal contract management or acquisition policy, you likely won't pass the basic qualification screen.",
+ "eligibility": [
+  "Open to the public (direct hire), so you do not need federal status, a clearance, or veterans' preference.",
+  "Basic qualification A: at least 4 years of contracting or related experience, with 1 year equivalent to GS-13 overseeing procurement activities AND advising on or developing FAR-implementing acquisition policy.",
+  "Basic qualification B: a 4-year bachelor's degree that includes at least 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, industrial management, marketing, quantitative methods, or organization and management. Transcripts are required.",
+  "You must pass the USA Hire online assessment at or above the cut score.",
+  "FAC-C Level III is preferred, though it is not required at appointment."
+ ],
+ "keywords": [
+  "Federal Acquisition Regulation (FAR)",
+  "agency FAR supplement",
+  "acquisition policy",
+  "procurement systems",
+  "overseeing procurement activities",
+  "Office of Management and Budget initiatives",
+  "acquisition workforce programs",
+  "government-wide initiatives",
+  "alternative courses of action",
+  "senior management",
+  "policies and procedures",
+  "strategic acquisition priorities",
+  "FAC-C",
+  "contracting"
+ ],
+ "strategy": [
+  "Before applying, check honestly whether your IEM work involved federal contracts (proposals, contract administration, FAR compliance, task-order management) for at least 4 years. If it didn't, skip this posting.",
+  "If it did, describe in your own words any work interpreting FAR clauses, managing contract deliverables, or advising clients on procurement rules. Don't copy the specialized-experience statement; HR will rule you ineligible if you repeat it verbatim.",
+  "Pull your transcripts now and count your business, economics, law, or management credits to confirm you have 24 semester hours.",
+  "Apply within 14 days of the July 27, 2026 opening to make the initial cut-off. Later applications are considered only if more vacancies come up.",
+  "Keep the resume to two pages, and list hours per week and month/year dates for each job.",
+  "Better near-term targets are GS-1102 entry roles (GS-7/9), FEMA or Virginia VDEM positions, emergency management jobs in Prince William County, or legislative staff roles that use your policy and relationship skills."
+ ],
+ "resume_bullets": [
+  "Supported [government client] on [contract/task order type] valued at [$X], ensuring deliverables complied with [FAR part/clause] over [timeframe].",
+  "Advised [client/team] on [procurement or grant policy topic], preparing [memos/briefings] that presented alternative courses of action to [senior officials].",
+  "Coordinated with [number] stakeholders across [agencies/jurisdictions] to [disaster recovery outcome], tracking [cost/compliance metric]."
+ ],
+ "interview_questions": [
+  "Describe a time you developed or revised an acquisition policy to implement a FAR change or an OMB initiative.",
+  "How would you brief senior leadership on competing procurement options?",
+  "How do you stay current on FAR overhauls and government-wide acquisition initiatives?",
+  "Tell us about overseeing a procurement program with compliance problems."
+ ],
+ "watch_outs": [
+  "Daniel likely does not meet the 4-year contracting or GS-13-equivalent specialized experience requirement, and the posting enforces it strictly.",
+  "The posting requires a degree with 24 business-related credit hours, verified by transcripts.",
+  "The job is in DC with only partial telework, so expect a commute from Manassas (VRE is an option)."
+ ],
+ "job_id": "usajobs:878090300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

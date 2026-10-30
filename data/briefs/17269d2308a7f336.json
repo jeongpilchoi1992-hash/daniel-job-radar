@@ -1,0 +1,56 @@
+{
+ "one_liner": "Mid-to-senior Army acquisition manager at Fort Belvoir who runs special operations weapon/equipment programs through development, production, fielding and modification.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting requires a year of specialized experience leading Army system acquisition programs at the NH-02/GS-11 level, with no education substitution. Daniel's IEM consulting background is in emergency management and disaster programs, and Daniel's strengths in policy and relationships don't map to defense systems acquisition. Unless Daniel's IEM work directly supported DoD/Army acquisition programs, Daniel is unlikely to qualify.",
+ "eligibility": [
+  "Open to all U.S. citizens through Direct Hire Authority; no federal status is needed.",
+  "You need one year of specialized experience equivalent to NH-02/GS-11 leading Army system acquisition programs through development, production, fielding and major modifications, analyzing technical and financial data.",
+  "You must qualify on experience alone; education cannot substitute.",
+  "A Top Secret clearance is required. Plan on a background investigation, and possibly needing to hold or obtain one.",
+  "Applicants must meet all eligibility requirements within 30 days of the closing date. Acquisition positions often also carry DAU/DAWIA certification expectations, so confirm in the full announcement."
+ ],
+ "keywords": [
+  "Assistant Program Manager",
+  "systems acquisition program",
+  "advanced development, production and fielding",
+  "modification, retrofit, or rebuild",
+  "project milestones",
+  "workarounds",
+  "schedule problems",
+  "technical management",
+  "financial objectives",
+  "matrix support",
+  "user requirements",
+  "system product improvement plans",
+  "design development objectives",
+  "analyzing technical and financial data",
+  "program performance"
+ ],
+ "strategy": [
+  "Before investing time, honestly check whether any IEM work involved managing or supporting Army/DoD system acquisition. If it did not, answer the questionnaire truthfully and treat this as a low-probability application.",
+  "If you supported government program management at IEM, such as schedules, budgets, milestones or contractor deliverables, describe it concretely with dates and hours per week in the two-page resume format.",
+  "Answer questionnaire items only at the level the resume proves. The posting explicitly warns that inflated qualifications cost consideration.",
+  "The window is only October 26-30, 2026, so have the resume ready beforehand and submit early.",
+  "In parallel, target better-fit roles such as FEMA emergency management or program specialist jobs (GS-0089/0301/0343), Virginia VDEM, Prince William County emergency management, or legislative staff positions."
+ ],
+ "resume_bullets": [
+  "Managed [number] milestones for [client agency] [emergency management/recovery] program at IEM, tracking schedule and budget of $[amount] and developing workarounds when [describe schedule issue].",
+  "Analyzed [technical/financial] data for [program name] to assess program performance and briefed [client/leadership] on anticipated problems and corrective actions ([hours]/week, [dates]).",
+  "Coordinated requirements among [number] federal, state and local stakeholders to align [plan/system] capabilities with user needs for [client]."
+ ],
+ "interview_questions": [
+  "Describe a program you managed through development and fielding, and how you kept milestones on track.",
+  "How have you used cost and technical data to identify and resolve a program problem?",
+  "How do you manage matrix support from organizations you don't control?",
+  "How do you ensure a system's capabilities stay aligned with user requirements during modifications?"
+ ],
+ "watch_outs": [
+  "You likely don't meet the Army acquisition specialized experience requirement, and education can't substitute.",
+  "A Top Secret clearance is required, which means an extensive investigation and possible delays.",
+  "The application window is only 5 days (October 26-30, 2026).",
+  "There is no promotion potential, and the role likely carries acquisition certification expectations."
+ ],
+ "job_id": "usajobs:890190900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

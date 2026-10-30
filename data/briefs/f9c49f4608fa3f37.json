@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior executive (SES) who leads GSA's real estate strategy for client agencies, shaping office space solutions and representing PBS to Congress, OMB and agency leaders.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service role that requires demonstrated senior leadership in federal real property acquisition (lease, purchase, construction) and executive-level management of people and budgets. Daniel's policy knowledge, relationship skills and IEM consulting background match the stakeholder-engagement side, but nothing on file shows senior executive leadership or real estate experience. It is very unlikely to pass the SES panel and OPM QRB review.",
+ "eligibility": [
+  "Open to all U.S. citizens (public and SES hiring paths), so no federal status is needed.",
+  "Your two-page resume must clearly show all three Mandatory Technical Competencies, including senior leadership in acquiring real property by lease, purchase or construction for client agencies.",
+  "Your resume must also demonstrate all five Executive Core Qualifications. Separate narratives will not be reviewed.",
+  "The role requires a Top Secret clearance before appointment, though you do not need one to apply. It also requires a drug test, an OGE 278 financial disclosure, and OPM QRB certification of your executive qualifications."
+ ],
+ "keywords": [
+  "Senior Executive Service",
+  "strategic liaison",
+  "client agencies",
+  "real estate requirements",
+  "acquisition by lease, purchase or construction",
+  "space solutions",
+  "risk assessment framework",
+  "performance measures and metrics",
+  "Congressional committees",
+  "Office of Management and Budget",
+  "negotiate complex inter-agency issues",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "Rule of Law"
+ ],
+ "strategy": [
+  "Be honest with yourself about level: apply only if your IEM role involved managing teams, budgets and government client programs at a senior level. Otherwise, target GS-11 to GS-13 program analyst, emergency management or GSA customer relationship roles.",
+  "If you do apply, write the two-page resume so every bullet maps to an MTC or ECQ. Use the posting's exact phrases and state team size, budget and client agencies concisely.",
+  "Present your IEM work as government client strategy, emphasizing how you understood agency objectives, operational constraints and budgets for disaster recovery or preparedness clients.",
+  "Highlight briefings and persuasion aimed at federal, state or congressional stakeholders to support the third MTC and the Rule of Law ECQ.",
+  "Attend the November 9, 2026 information session at 1:00 pm ET, preview the posted interview questions, and submit before November 12, 2026.",
+  "Use the session to network with PBS staff and ask about lower-graded Office of Client Strategy roles, which would fit you far better."
+ ],
+ "resume_bullets": [
+  "Served as [title] at IEM, supporting [client agency] on [disaster recovery/preparedness program]; aligned solutions with the client's operational and budgetary constraints across a [$ amount] portfolio.",
+  "Briefed and persuaded [number/type of senior officials, e.g., state emergency directors, congressional staff] on [strategy/recommendation], resulting in [outcome].",
+  "Led a team of [number] staff to [deliverable], tracking performance measures and metrics that [result]."
+ ],
+ "interview_questions": [
+  "Describe a time you developed a tailored solution for a client agency under tight budget and operational constraints.",
+  "How have you defended a team's strategy before Congress, OMB or other senior decision makers?",
+  "Give an example of driving efficiency by cutting waste or streamlining a process.",
+  "Tell us about leading people through change and holding staff accountable."
+ ],
+ "watch_outs": [
+  "The SES level and real property MTCs almost certainly exceed your documented experience, so the application carries a high risk of being found ineligible.",
+  "The application window is short (October 27 to November 12, 2026), and the resume cannot exceed two pages.",
+  "Appointment requires a Top Secret clearance, a public financial disclosure, and a one-year SES probationary period.",
+  "The location is listed as multiple and may not be in the DC area."
+ ],
+ "job_id": "usajobs:890440200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

@@ -1,0 +1,56 @@
+{
+ "one_liner": "Plan and supervise worldwide deployment logistics for U.S. Cyber Command's Cyber Mission Force using joint military planning systems, at Fort Meade.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GG-13 role needs one year of directly applicable military deployment and logistics experience, such as using JOPES (Joint Planning Execution System), tracking airlift data and coordinating with joint operational planners. Daniel's emergency-management consulting at IEM may involve some planning and coordination, but it is unlikely to match joint military deployment work. Daniel's policy knowledge and people skills are real strengths, but they are not what this posting screens for.",
+ "eligibility": [
+  "Hiring path is listed as public, but the text says only applicants in specific employment authority categories may apply, with proof required. Confirm which category fits you before applying.",
+  "You need one year of directly applicable experience, such as executing deployment tasks per SOPs, monitoring tracking data, recording logistical data and coordinating movement updates with joint planners.",
+  "Education cannot substitute for experience; you must qualify on experience alone.",
+  "A Sensitive Compartmented Information (SCI) clearance is required. This means a Top Secret background investigation, and you do not hold a clearance now.",
+  "This is a Cyber Excepted Service position with a three-year probationary period and no competitive status. You must sign a conditions-of-employment statement."
+ ],
+ "keywords": [
+  "deployment and redeployment operations",
+  "Joint Planning Execution System",
+  "airlift tracking",
+  "command and control",
+  "deployment schedules",
+  "operational plans",
+  "joint logistics",
+  "readiness objectives",
+  "joint exercises",
+  "training scenarios",
+  "Joint Operations Center",
+  "standard operating procedures (SOPs)",
+  "tracking data",
+  "logistical data",
+  "movement updates"
+ ],
+ "strategy": [
+  "Before spending time on this, honestly check whether any IEM work involved deployment, mobilization, resource movement or logistics tracking. If not, consider GS-9/11 FEMA, state VDEM or county emergency management roles instead.",
+  "If you did support logistics, such as staging resources, tracking personnel or supply movement in disaster response, or mission-assignment tracking, describe it in this posting's language: SOPs, tracking data, logistical planning data, coordination with operational planners.",
+  "Because CES is exempt from the two-page limit, upload a full, detailed resume under 'Other Documents.' For each role, include dates, hours per week, and specific systems and tasks.",
+  "Answer the questionnaire strictly from experience you can document in your resume. The posting warns that inflated qualifications cost consideration.",
+  "The application window is October 29 to November 12, 2026. Have your proof-of-eligibility documents ready early."
+ ],
+ "resume_bullets": [
+  "Executed [type of resource/personnel] deployment tasks per established SOPs for [government client] during [disaster/exercise], tracking [number] movements in [system/tool].",
+  "Monitored and recorded logistical tracking data to support [client] leadership's operational decisions and [short/long-term] planning for [mission/event].",
+  "Coordinated with [federal/state/local] operational planners and [EOC/operations center] to deliver movement and resource status updates during [exercise or response]."
+ ],
+ "interview_questions": [
+  "Describe your experience with JOPES or similar deployment-tracking systems.",
+  "How have you built a deployment or movement schedule and adjusted it when requirements changed?",
+  "How did you assess whether available logistics resources could support a proposed operation?",
+  "Tell us about coordinating with multiple operational partners during a real-time response or exercise."
+ ],
+ "watch_outs": [
+  "The GG-13 level with no education substitution makes it unlikely that emergency-management consulting alone will qualify.",
+  "The SCI clearance requirement means a long investigation and a conditional offer until you are cleared.",
+  "Fort Meade, Maryland is a long commute from Manassas, though telework is listed.",
+  "Employment-authority categories are restrictive; confirm you fit one before applying."
+ ],
+ "job_id": "usajobs:890710400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

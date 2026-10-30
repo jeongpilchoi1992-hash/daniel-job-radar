@@ -1,0 +1,55 @@
+{
+ "one_liner": "Budget and financial analyst for the Chief of Naval Operations' office, tracking program spending, analyzing variances, and briefing senior Navy leaders on budget execution.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a specialized budget/financial management role, and qualifying at GS-12 requires a year of experience doing budget execution review, internal controls, and funds-use advice at roughly GS-11 level. Daniel's IEM consulting background could count only if the work involved disaster-grant financials, cost tracking, or budget analysis, and nothing on file shows that yet. Daniel's policy knowledge and people skills are real strengths, but they don't substitute for the required financial experience.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority, so no federal status is needed, but this is a flyer only: you must follow its separate 'How to Apply' instructions, and there may be no actual vacancies.",
+  "GS-12 requires one year of specialized experience equivalent to GS-11, including execution review and analysis of programs, briefing senior managers on program variances, and helping with internal controls and use of funds.",
+  "GS-13 requires one year at GS-12 level as a senior liaison for budget, accounting, or financial management policy who directs program execution review.",
+  "You must be able to obtain a Secret clearance.",
+  "Resume is limited to 2 pages; all qualifications must be met before you are considered."
+ ],
+ "keywords": [
+  "budget administration",
+  "program execution",
+  "execution review, analysis and appraisal",
+  "program variances",
+  "briefs for senior managers",
+  "internal controls",
+  "use of funds",
+  "budgetary policies and practices",
+  "legal and regulatory controls",
+  "costs and benefits",
+  "financial management",
+  "fiscal",
+  "accounting",
+  "operating and support programs"
+ ],
+ "strategy": [
+  "Before applying, honestly inventory your IEM work for any budget, cost, grant (e.g., FEMA Public Assistance/HMGP), reimbursement, or spend-tracking duties; if there were none, put your effort into better-fitting roles.",
+  "If you did financial work at IEM, describe it in the posting's language: execution review, variance analysis, recommendations to fix variances, and internal controls over use of funds.",
+  "State dates, hours per week, and the level of responsibility for each role, and keep it within 2 pages, because HR qualifies you on the resume alone.",
+  "Target GS-12 rather than GS-13 unless you have clearly served as a senior budget liaison.",
+  "Act quickly: the flyer window runs Oct 28 to Nov 4, 2026, and you must follow the separate How to Apply directions exactly.",
+  "As a better-matched alternative, look at GS-0301 emergency management or program analyst roles, FEMA positions, Virginia VDEM jobs, or legislative staff jobs that use your policy and relationship strengths."
+ ],
+ "resume_bullets": [
+  "Analyzed [budget/grant] execution for [client agency] disaster recovery programs totaling $[amount], identifying [number] variances and recommending corrective actions to [audience].",
+  "Prepared briefings for [senior client officials] on program execution status, cost drivers, and options to [result you can document].",
+  "Supported internal controls for [federal grant/reimbursement] funds by [specific task, e.g., reviewing cost documentation against 2 CFR 200], ensuring [outcome]."
+ ],
+ "interview_questions": [
+  "Walk us through how you have tracked budget execution and handled a significant variance.",
+  "How would you brief a senior leader who has little time on a funding shortfall?",
+  "What internal controls have you applied to make sure funds were used properly?",
+  "How do you stay current on appropriations, continuing resolutions, and fiscal law constraints?"
+ ],
+ "watch_outs": [
+  "Specialized financial management experience is mandatory, and policy or emergency-management experience alone will likely leave you rated not qualified.",
+  "The application window is only one week, and this is a flyer for anticipated vacancies with no result letters.",
+  "A Secret clearance is required, and the commute from Manassas to the Navy Yard is long, though telework is available."
+ ],
+ "job_id": "usajobs:890396300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

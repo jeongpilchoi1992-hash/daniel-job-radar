@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Treasury policy job writing and implementing strategies against money laundering, terrorist financing, and sanctions evasion, briefing senior officials and engaging foreign governments.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's policy knowledge, people skills, and government-client consulting at IEM are relevant, but the posting requires one year of GS-12 or GS-13 level experience in ALL listed areas, including monitoring AML/CFT developments and creating policies on illicit financial threats. Emergency-management consulting does not obviously cover AML/CFT, so unless Daniel's IEM work touched financial crimes, sanctions, or related national-security finance, Daniel likely will not qualify.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals) under Direct-Hire authority, so no federal status is needed and rating/ranking and veterans' preference do not apply.",
+  "GS-13 requires one year of GS-12-equivalent experience in ALL four areas: monitoring illicit finance/AML/CFT, creating illicit-finance policies or strategies, communicating research and analysis, and engaging the public, international organizations, or foreign governments.",
+  "GS-14 requires one year of GS-13-equivalent experience, including independently creating illicit-finance policies and making recommendations to senior decision makers.",
+  "The position requires a Sensitive Compartmented Information (SCI) clearance and a background investigation, plus a Confidential Financial Disclosure and ethics/conflict-of-interest review.",
+  "All qualifications must be met by the closing date, November 11, 2026."
+ ],
+ "keywords": [
+  "anti-money laundering (AML)",
+  "countering the financing of terrorism (CFT)",
+  "illicit finance",
+  "sanctions evasion",
+  "proliferation financing",
+  "anti-kleptocracy",
+  "policy recommendations",
+  "senior decision makers",
+  "policy papers",
+  "briefing materials",
+  "Congressionally mandated reports",
+  "interagency partners",
+  "foreign government officials",
+  "private sector",
+  "legislative or policy initiatives"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether any IEM work involved financial crimes, fraud, grant or disaster-fund integrity, sanctions, or national-security finance. If none of it did, a 'not qualified' determination is likely, so treat this as a stretch application.",
+  "If IEM work included disaster-recovery fraud prevention, improper-payment controls, or financial-risk analysis for government clients, frame it explicitly as monitoring illicit financial activity and developing mitigation strategies, using the posting's wording.",
+  "On the two-page resume, write one tight bullet for each of the four specialized-experience elements. Include month/day/year dates and hours per week for every job.",
+  "Answer the questionnaire truthfully and back every 'expert' or 'performed independently' answer with resume text, because unsupported claims lead to disqualification.",
+  "Complete the four optional 200-word essays to show mission alignment and your policy, congressional, and stakeholder-engagement strengths. Opt in to sharing your application with other Treasury bureaus.",
+  "Apply by November 11, 2026. Also consider better-fit roles, such as FEMA or DHS emergency-management positions, Virginia VDEM, Prince William County emergency management, or congressional staff jobs."
+ ],
+ "resume_bullets": [
+  "Monitored [specific financial-risk or fraud trends] for [government client] and produced [number] analytic briefs recommending [policy/strategy actions] to [senior official level] ([dates], [hours]/week).",
+  "Drafted [policy papers/briefing materials/reports] on [topic] for [client agency] leadership, coordinating input from [number] federal, state, and local stakeholders.",
+  "Engaged [public audiences/officials/partner organizations] on [policy issue] through [meetings/presentations], resulting in [factual outcome]."
+ ],
+ "interview_questions": [
+  "Describe a time you developed a policy or strategy to counter a financial or security threat. What was your role, and what happened?",
+  "How would you brief a senior Treasury official on a complex AML/CFT development in five minutes?",
+  "Tell us about representing your organization to outside stakeholders who disagreed with your position.",
+  "How do you stay current on illicit-finance developments such as sanctions evasion or kleptocracy?"
+ ],
+ "watch_outs": [
+  "The specialized experience requires AML/CFT and illicit-finance policy work in ALL listed areas, which emergency-management consulting likely does not meet.",
+  "The position requires SCI clearance eligibility, financial disclosure, and ethics review, which add time and scrutiny.",
+  "This is a senior GS-13/14 position with no lower-grade entry, so a lack of directly comparable experience will screen you out."
+ ],
+ "job_id": "usajobs:889592300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

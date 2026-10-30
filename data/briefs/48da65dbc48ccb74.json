@@ -1,0 +1,56 @@
+{
+ "one_liner": "Part-time (max 1,040 hours/year) DoD project manager overseeing schedules, resources, dashboards and contractors for a portfolio of acquisition training courses.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's consulting background at IEM and strong communication and stakeholder skills are relevant to briefing leaders and managing teams. However, the posting requires a PMP or equivalent certification, a bachelor's degree, and deep scheduling experience (Integrated Master Schedules, critical path, earned value, MS Project or Clarity PPM). None of these are on file for Daniel. Unless Daniel holds a PMP and has done hands-on project scheduling at IEM, this is unlikely to clear minimum qualifications.",
+ "eligibility": [
+  "Open to the public; no federal status needed, and as excepted service (Schedule A) Daniel can apply directly.",
+  "Required: PMP certification from PMI or an equivalent project management certification. Plan to upload proof.",
+  "Bachelor's degree required for both bands. Band A (AD-11) asks for up to four years of experience in the functional area, and Band B (AD-12) requires at least six years plus a degree in an appropriate discipline.",
+  "Specialized experience must show managing multiple projects and portfolios, IMS and critical path scheduling, resource forecasting, KPI dashboards, and supervising contractors or teams.",
+  "The security clearance is listed as 'Other'; confirm the requirement with HR, since DoD roles typically need at least a background investigation."
+ ],
+ "keywords": [
+  "Integrated Master Schedules (IMS)",
+  "critical path analysis",
+  "milestone tracking",
+  "dependency management",
+  "schedule risk analysis",
+  "Microsoft Project",
+  "Clarity PPM",
+  "portfolio management",
+  "resource forecasting",
+  "capacity management",
+  "workload balancing",
+  "KPI reporting",
+  "executive dashboards",
+  "earned value metrics",
+  "process improvement"
+ ],
+ "strategy": [
+  "First confirm you hold a PMP or equivalent certification and a bachelor's degree. If not, skip this posting and target project-coordinator or program-analyst roles while working toward a CAPM or PMP.",
+  "Frame IEM work by project. For each engagement, state the government client type, your role, team size, schedules or milestones you tracked, and tools used, using only what you actually did.",
+  "Translate disaster-recovery and preparedness work into portfolio language, such as managing multiple concurrent deliverables, tracking milestones for government clients, and preparing status reports and briefings for client leadership.",
+  "On the two-page resume, list for each job the month/year dates, hours per week, and title. Keep a specialized-experience paragraph that mirrors the posting's keywords exactly.",
+  "Apply only for the band you can document (likely AD-11). Submit by November 9, 2026, with transcripts and your PMP certificate attached."
+ ],
+ "resume_bullets": [
+  "Managed [number] concurrent [emergency management/disaster recovery] projects for [government client type] at IEM, tracking milestones and dependencies in [tool, e.g., Microsoft Project] for a [$ value] portfolio.",
+  "Developed [weekly/monthly] KPI dashboards and executive briefings for [client leadership level], reporting schedule adherence and risks and recommending corrective actions that [result].",
+  "Coordinated [number] staff and [number] subcontractors across [functions], balancing workload and forecasting resource needs for [project/deliverable]."
+ ],
+ "interview_questions": [
+  "Walk us through how you built and maintained an Integrated Master Schedule and handled a critical path slip.",
+  "How have you forecast resources and balanced workload across competing projects in a matrixed environment?",
+  "Describe a dashboard or executive briefing you created and how leadership used it.",
+  "How have you held contractors accountable for performance and deliverables?"
+ ],
+ "watch_outs": [
+  "The PMP or equivalent certification is mandatory. Without it, the application will likely be screened out at minimum qualifications.",
+  "This is an intermittent role capped at 1,040 hours per year, so hours and income may be unpredictable, and it has no promotion potential.",
+  "The location is negotiable and telework is allowed but remote work is not, so confirm the duty station is commutable from Manassas.",
+  "Heavy technical scheduling requirements (IMS, earned value, Clarity PPM) go well beyond general consulting or policy experience."
+ ],
+ "job_id": "usajobs:890101000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

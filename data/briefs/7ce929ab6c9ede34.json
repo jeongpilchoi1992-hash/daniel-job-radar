@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior project/portfolio manager overseeing production schedules, resources, contractors, and metrics for DoD acquisition training courses at Fort Belvoir.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a GS-15-equivalent role requiring a bachelor's degree, eight years of portfolio/project management experience, a PMP (or equivalent), and expert IMS/critical-path scheduling skills. Daniel's known strengths are policy knowledge, public engagement, and emergency-management consulting at IEM, but nothing on file shows PMP certification, supervisory experience, or deep scheduling-tool expertise. Unless Daniel's IEM role was heavily project-control focused and long-tenured, this is unlikely to qualify.",
+ "eligibility": [
+  "Open to the public (excepted service, Title 10 §1746); no federal status needed.",
+  "Required: PMP certification from PMI or an equivalent project management certification.",
+  "Band C requires a bachelor's degree in an appropriate discipline plus at least eight years of experience in the functional area; submit transcripts if education is used to qualify.",
+  "Specialized experience must cover multi-project portfolio management, IMS/critical path scheduling, resource forecasting, KPI dashboards, and supervising personnel and contractors.",
+  "Security clearance listed as 'Other'; confirm investigation requirements before applying."
+ ],
+ "keywords": [
+  "Integrated Master Schedules (IMS)",
+  "critical path analysis",
+  "schedule risk analysis",
+  "milestone tracking",
+  "dependency management",
+  "Microsoft Project",
+  "Clarity PPM",
+  "resource forecasting",
+  "capacity management",
+  "workload balancing",
+  "KPI reporting",
+  "executive dashboards",
+  "earned value metrics",
+  "contractor performance",
+  "process improvement",
+  "executive briefings"
+ ],
+ "strategy": [
+  "First confirm you hold a PMP or equivalent and eight years of relevant project management experience; if not, don't spend effort here, and instead target GS-9/11 program or emergency management analyst roles where your IEM experience fits.",
+  "If applying, describe IEM work strictly in project-control terms: portfolios managed, schedules built, tools used (MS Project, etc.), staff/contractors led, and metrics reported, with dates and hours per week.",
+  "Mirror the specialized experience language line by line, since evaluation is pass/fail on minimum qualifications followed by 'best meets mission requirements.'",
+  "Keep the resume to two pages: lead with certifications (PMP, any COR or data analytics), then the most relevant positions, stated concisely.",
+  "Upload transcripts and the PMP certificate, and submit before November 5, 2026; the window is only two weeks."
+ ],
+ "resume_bullets": [
+  "Managed a portfolio of [number] concurrent [emergency management/recovery] projects for [client type], building and maintaining Integrated Master Schedules in [Microsoft Project/tool] with critical path and dependency tracking.",
+  "Developed KPI dashboards and executive briefings on schedule adherence, resource utilization, and budget execution for [client leadership level], informing [decision made].",
+  "Led a cross-functional team of [number] staff and [number] subcontractors, balancing workload and forecasting resource needs across [number] task orders."
+ ],
+ "interview_questions": [
+  "Walk us through how you built and maintained an Integrated Master Schedule for a complex, multi-team portfolio.",
+  "Describe a time you identified a critical path risk or resource conflict and what corrective action you recommended.",
+  "How have you overseen contractor performance and held teams accountable for deliverables?",
+  "Tell us about a briefing you gave to senior executives and how you tailored the data to support a decision."
+ ],
+ "watch_outs": [
+  "PMP or equivalent certification is mandatory; without it, the application will likely be screened out.",
+  "Senior level (GS-15 equivalent) requiring eight years of specialized experience and supervisory experience that may exceed your background.",
+  "Short application window: October 22 to November 5, 2026.",
+  "The role is about learning production project controls, not policy or public engagement, so it underuses your strongest skills."
+ ],
+ "job_id": "usajobs:889774300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

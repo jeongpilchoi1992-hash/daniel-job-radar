@@ -1,0 +1,56 @@
+{
+ "one_liner": "Retail floor supervisor at the Quantico Marine Corps Exchange (MCX), hitting sales goals, leading sales associates, running merchandising and customer service.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting requires experience working in a sales/selling environment plus advanced selling and merchandising skills, and nothing on file shows Daniel has retail sales experience. Daniel's people skills and public-facing strengths transfer, but the role has no link to Daniel's policy and emergency-management career goals, and the pay is low for that background.",
+ "eligibility": [
+  "Open to the public: this is a nonappropriated fund (NAF) MCCS job, not a status-only competitive-service position, so no prior federal service is needed.",
+  "Required: a bachelor's degree in a related field, OR an equivalent combination of education and experience, OR three years of practical experience, plus experience working in a sales/selling environment.",
+  "Preferred: one year of supervisory experience in a sales/selling environment.",
+  "Must be a U.S. citizen, at least 21, and able to obtain and maintain a Tier 3 background investigation.",
+  "DD Form 2760 (domestic violence conviction certification) is required only if the role involves firearms or ammunition."
+ ],
+ "keywords": [
+  "sales management",
+  "customer-focused environment",
+  "sales goals",
+  "supervising sales and merchandising activities",
+  "staffing, scheduling, training",
+  "sales programs, promotions, product launches, and special events",
+  "exceptional customer service",
+  "resolving customer concerns",
+  "merchandise presentation and visual standards",
+  "planograms",
+  "add-on sales",
+  "reduce loss and theft",
+  "coaching, counseling, mentoring",
+  "service recovery",
+  "holding teams accountable to results"
+ ],
+ "strategy": [
+  "First decide whether this role fits your goals; if you want MCCS/Quantico exposure as a stepping stone, apply, but put most of your effort into policy, emergency-management, and legislative postings.",
+  "Apply only if you actually have retail or sales experience (student jobs count); list it with dates and hours per week, because sales experience is a stated requirement.",
+  "Frame your IEM work around client relationship management, business development, events, or team coordination, but only where it is accurate and you can describe it in concrete terms.",
+  "Mirror the posting's language (sales goals, customer service, scheduling, training, service recovery) in a two-page USAJOBS resume, since this evaluation is resume-based with no questionnaire.",
+  "Note that the announcement stays open until 2026-11-14 but may be filled before then, so apply early after it opens on 2026-08-31."
+ ],
+ "resume_bullets": [
+  "Supervised [number] sales associates at [store/employer], handling scheduling, training, and coaching to meet [weekly/monthly] sales goals of [$amount]. ([dates], [hours]/week)",
+  "Built and maintained relationships with [number/type] government clients at IEM, resolving client concerns and supporting [proposals/events/deliverables] to [outcome].",
+  "Executed promotions and special events at [employer], maintaining merchandise presentation and planogram standards and driving add-on sales of [result if known]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you exceeded a sales goal. What did you do differently?",
+  "How would you handle an upset customer who wants a refund outside policy?",
+  "How do you coach an employee who is consistently missing sales targets?",
+  "How do you reduce loss and theft on the sales floor?"
+ ],
+ "watch_outs": [
+  "Experience in a sales environment is required, and none is documented for you.",
+  "Pay is $19.53–$22.00/hour with no promotion potential, and the role is retail rather than a public-policy or emergency-management career path.",
+  "Expect on-site retail hours (likely evenings and weekends), key-holder opening and closing duties, stocking, and lifting up to 20 lbs; no telework is offered.",
+  "Tier 3 background investigation required."
+ ],
+ "job_id": "usajobs:882907300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

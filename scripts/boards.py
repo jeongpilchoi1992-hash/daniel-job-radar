@@ -22,13 +22,29 @@ FINANCE_TITLE = re.compile(
     re.I,
 )
 SKIP_TITLE = re.compile(r"intern\b|internship|software|engineer|developer|nurse|driver|warehouse|technician|"
-                        r"recruiter|sales (rep|representative)|customer service|administrative assistant|receptionist", re.I)
-REGION = re.compile(
-    r"washington|district of columbia|\bdc\b|new york|\bny\b|united states|\busa\b|\bus\b|remote|"
-    r"seoul|korea|singapore|hong kong|virginia|maryland|new jersey|los angeles|san francisco|chicago|boston",
-    re.I,
-)
+                        r"recruiter|sales (rep|representative)|customer service|administrative assistant|receptionist|"
+                        r"information technology|technology (operations|support|infrastructure|analyst|specialist|risk|audit)|\bcyber|\bIT\b|"
+                        r"data (engineer|scientist)|\bQA\b|\bKYC\b|\bAML\b|anti-money|"
+                        r"payroll|facilities|executive assistant|secretary|office manager", re.I)
+# Finance titles that count at U.S. subsidiaries of Korean companies (mostly non-finance employers).
+US_FINANCE_TITLE = re.compile(r"financ|treasury|invest|fp&a|corporate development|m&a|strateg|capital|portfolio|"
+                              r"\brisk\b|credit|economist", re.I)
 KOREA_HINT = re.compile(r"korea|korean|seoul", re.I)
+ASIA_HUB = re.compile(r"seoul|korea|singapore|hong kong", re.I)
+IFI_HINT = re.compile(r"international organi[sz]ation|multilateral|development bank|\bIMF\b|monetary fund|world bank|\bIFC\b|"
+                      r"\bMIGA\b|\bIDB\b|\bADB\b|\bAIIB\b|\bEBRD\b|climate fund|green growth", re.I)
+KOREAN_US_HINT = re.compile(r"u\.?s\.? (subsidiary|office|affiliate|branch)|korean.{0,40}(u\.?s\.?|america)", re.I)
+
+# What a board is read for (board["focus"]):
+#   asia      global firms: finance roles in Seoul, Singapore or Hong Kong, or any role tied to Korea
+#   korea_us  U.S. subsidiaries of Korean companies (visa-friendly): finance roles anywhere
+#   ifi       international financial institutions: finance and economics roles anywhere
+WORKDAY_SEARCHES = {
+    "asia": ["Korea", "Korean", "Seoul"],
+    "korea_us": ["finance", "financial", "treasury", "investment", "strategy"],
+    "ifi": [],
+}
+WORKDAY_FULL_READ = 400  # boards up to this size are read in full; bigger ones are searched
 
 
 def detect(url: str) -> dict | None:
@@ -49,6 +65,16 @@ def detect(url: str) -> dict | None:
     if host == "jobs.ashbyhq.com" and parts:
         return {"type": "ashby", "org": parts[0]}
     return None
+
+
+def infer_focus(level: str, org: str) -> str:
+    """Pick a board's focus from the AI-found posting that revealed it."""
+    text = f"{level} {org}"
+    if IFI_HINT.search(text):
+        return "ifi"
+    if KOREAN_US_HINT.search(text):
+        return "korea_us"
+    return "asia"
 
 
 def board_id(board: dict) -> str:
@@ -129,25 +155,53 @@ def _fetch_simple(session, board: dict, employer: str) -> list[dict]:
 
 
 def _workday(session, board: dict, employer: str, log) -> tuple[list[dict], bool]:
+    """Small boards are read in full; big ones are searched for the roles that fit the board's focus."""
     base = f"https://{board['host']}/wday/cxs/{board['tenant']}/{board['site']}"
-    out: list[dict] = []
-    total = 0
-    for offset in range(0, 600, 20):
-        resp = session.post(f"{base}/jobs", json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": ""}, timeout=60)
+    focus = board.get("focus") or "asia"
+    found: dict[str, dict] = {}
+
+    def page(search: str, offset: int) -> dict:
+        resp = session.post(f"{base}/jobs", json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": search}, timeout=60)
         resp.raise_for_status()
-        data = resp.json()
-        postings = data.get("jobPostings") or []
-        if offset == 0:
-            total = int(data.get("total") or 0)
+        return resp.json()
+
+    def add(postings: list[dict], korea_search: bool) -> None:
         for p in postings:
             path = p.get("externalPath") or ""
-            url = f"https://{board['host']}/en-US/{board['site']}{path}"
-            out.append(_job(board, employer, p.get("title"), p.get("locationsText"), url, "", " ".join(p.get("bulletFields") or []),
-                            posted_text=p.get("postedOn") or ""))
-        if not postings or offset + 20 >= total:
-            break
-        time.sleep(0.5)
-    return out, len(out) >= total
+            if not path:
+                continue
+            if path not in found:
+                url = f"https://{board['host']}/en-US/{board['site']}{path}"
+                found[path] = _job(board, employer, p.get("title"), p.get("locationsText"), url, "",
+                                   " ".join(p.get("bulletFields") or []), posted_text=p.get("postedOn") or "")
+            if korea_search:
+                found[path]["korea_search"] = True
+
+    first = page("", 0)
+    total = int(first.get("total") or 0)
+    searches = WORKDAY_SEARCHES.get(focus) or []
+    if total <= WORKDAY_FULL_READ or not searches:
+        add(first.get("jobPostings") or [], False)
+        for offset in range(20, min(total, 600), 20):
+            time.sleep(0.5)
+            postings = page("", offset).get("jobPostings") or []
+            if not postings:
+                break
+            add(postings, False)
+        return list(found.values()), len(found) >= total
+    for query in searches:
+        hits = None
+        for offset in range(0, 100, 20):
+            time.sleep(0.5)
+            data = page(query, offset)
+            if hits is None:
+                hits = int(data.get("total") or 0)
+            postings = data.get("jobPostings") or []
+            add(postings, focus == "asia")
+            if not postings or offset + 20 >= hits:
+                break
+    log(f"[board] {board_id(board)}: {total} postings on the board, searched for {', '.join(searches)}")
+    return list(found.values()), False
 
 
 def _job(board: dict, employer: str, title, location, url, posted: str, text: str, posted_text: str = "") -> dict:
@@ -163,11 +217,17 @@ def _job(board: dict, employer: str, title, location, url, posted: str, text: st
     }
 
 
-def relevant(job: dict) -> bool:
+def relevant(job: dict, focus: str = "asia") -> bool:
     title = job["title"]
-    if not title or not job["url"] or SKIP_TITLE.search(title) or not FINANCE_TITLE.search(title):
+    if not title or not job["url"] or SKIP_TITLE.search(title):
         return False
-    return not job["location"] or bool(REGION.search(job["location"]))
+    if focus == "korea_us":
+        return bool(US_FINANCE_TITLE.search(title))
+    if not FINANCE_TITLE.search(title):
+        return False
+    if focus == "ifi" or job.get("korea_search") or KOREA_HINT.search(f"{title} {job['location']}"):
+        return True
+    return bool(ASIA_HUB.search(job["location"]))
 
 
 def score(job: dict) -> int:
@@ -191,8 +251,21 @@ def score(job: dict) -> int:
     return max(0, min(100, s))
 
 
-def to_site_job(job: dict, today_iso: str, first_seen: str | None) -> dict:
-    segment = "Korea / Asia focus" if KOREA_HINT.search(job["title"] + " " + job["location"]) else "Employer job board"
+def jp_segment(location: str, about: str, focus: str = "") -> str:
+    """One of a few filter chips for J.P.'s tab; `about` is the employer name plus any AI label."""
+    if focus == "ifi" or IFI_HINT.search(about):
+        return "International organization"
+    if re.search(r"seoul|korea|incheon|songdo|busan", location, re.I):
+        return "Seoul / Korea"
+    if re.search(r"hong kong|singapore", location, re.I):
+        return "Hong Kong / Singapore"
+    if focus == "korea_us" or KOREAN_US_HINT.search(about):
+        return "Korean company in the U.S."
+    return "U.S. and other"
+
+
+def to_site_job(job: dict, today_iso: str, first_seen: str | None, focus: str = "asia") -> dict:
+    segment = jp_segment(job["location"], job["org"], focus)
     return {
         "id": f"board:{job_key(job['url'])}",
         "source": f"board:{job['board']}",

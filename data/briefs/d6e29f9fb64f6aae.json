@@ -1,0 +1,56 @@
+{
+ "one_liner": "Analyze and report on development outcomes of DFC's overseas investments (energy, health, agriculture, infrastructure, finance) using survey data, site visits, and dashboards.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The GS-13 requires a year of GS-12-level experience monitoring project impact in emerging markets and managing large development-impact datasets. Daniel's IEM background is domestic emergency management and disaster recovery, and nothing on file shows international development or large-dataset analysis. Daniel's policy knowledge and people skills help, but they don't meet the specialized experience bar unless the IEM work included international or data-heavy monitoring.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); a separate Merit Promotion announcement (27-ODP-ST-13092917-BN) is for federal status candidates, which Daniel does not need.",
+  "One year of specialized experience equivalent to GS-12 in all of these: monitoring, measuring and managing project impact in emerging markets in agriculture, energy, health, infrastructure or financial services; and analyzing and managing large sets of development impact-related data.",
+  "Education cannot substitute at GS-13; no degree is required.",
+  "No security clearance is required; the position is in Washington, DC, is telework-eligible but not remote, and requires occasional travel including site visits."
+ ],
+ "keywords": [
+  "development impact monitoring",
+  "impact monitoring plan",
+  "site visits",
+  "emerging markets",
+  "development outcomes",
+  "development objectives and targets",
+  "portfolio performance",
+  "Development Outcomes Surveys",
+  "large sets of development impact-related data",
+  "data storytelling",
+  "dashboards, reports, and narratives",
+  "infrastructure",
+  "energy",
+  "Impact Performance Assessment",
+  "Data Management"
+ ],
+ "strategy": [
+  "Before applying, check honestly whether any IEM work involved international projects, emerging markets, or donor-funded programs (e.g., USAID, World Bank, territories recovery). Without that, you likely cannot truthfully meet the specialized experience.",
+  "If the IEM work included performance tracking of recovery or grant programs (e.g., FEMA Public Assistance or HUD CDBG-DR), frame it with the posting's language: monitoring outcomes against objectives and targets, site visits, and analyzing large program datasets. State hours per week and dates.",
+  "Preview the questionnaire at the provided link and answer only at levels your resume documents. The Rule of Many scoring penalizes overstatement, and screeners verify answers against the resume.",
+  "Keep the resume to two pages and lead with the data and monitoring work; put policy knowledge and stakeholder skills second.",
+  "Apply between Oct 19 and Oct 30, 2026; the window is only 12 days, so have the resume ready beforehand.",
+  "In parallel, target GS-9/11 program analyst roles at FEMA, or Virginia VDEM and Northern Virginia local emergency management jobs, where your IEM experience fits directly."
+ ],
+ "resume_bullets": [
+  "Monitored performance of [number] [disaster recovery/preparedness] projects for [client agency] against initial objectives and targets, conducting [number] site visits and integrating findings into [monitoring reports/assessments]. ([hours]/week, [dates])",
+  "Managed and analyzed datasets of [size/number of records] on [program outcomes] using [Excel/Tableau/Power BI/SQL], producing dashboards and narrative reports for [audience].",
+  "Identified performance patterns across a portfolio of [number] [projects/grants] and recommended [specific course corrections] to [client leadership], resulting in [result, if documented]."
+ ],
+ "interview_questions": [
+  "Describe how you assessed a project's performance against its original development objectives when the data were incomplete or inconsistent.",
+  "Tell us about a time you designed or managed a survey or data collection effort; how did you ensure data quality?",
+  "How would you use data storytelling to explain mixed impact results to investment officers who are not data specialists?",
+  "What experience do you have working with projects or partners in emerging markets?"
+ ],
+ "watch_outs": [
+  "The emerging-markets and development-data specialized experience requirement is the main barrier; domestic emergency management alone likely won't qualify.",
+  "The application window is short (Oct 19–30, 2026).",
+  "The position is in DC and not remote, so Daniel would face a commute from Manassas on non-telework days, plus occasional travel that may be international.",
+  "Promotion potential is capped at GS-13."
+ ],
+ "job_id": "usajobs:889238900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

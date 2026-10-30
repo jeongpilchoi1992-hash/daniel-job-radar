@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior manager leading the USITC division that researches and reports on international trade and competitiveness in machinery, transportation equipment, and IT products.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role requires a full year of GS-14-equivalent experience in trade and industry competitiveness research, including supervising analysts and quality-reviewing statistical products. Daniel's policy knowledge, relationship skills, and emergency-management consulting at IEM fit the stakeholder and briefing duties, but nothing on file shows trade analysis, economic modeling, or supervisory leadership at this level. Apply only if your IEM work truly included leading research teams and directing analytic products.",
+ "eligibility": [
+  "Open to the public (hiring paths: public, veterans, federal transition), so no prior federal status is needed.",
+  "At least one year of specialized experience equivalent to GS-14, demonstrating four of six areas (a)-(f), such as trade/competitiveness research proposals, oversight of research teams, supply-and-demand analysis, supervising staff, quality review of statistical products, and interagency representation.",
+  "Education cannot substitute for experience at GS-15.",
+  "Must be able to obtain and keep a Secret security clearance.",
+  "Must complete the online questionnaire and the USA Hire Competency Based Assessment; the application window runs Oct 29 to Nov 11, 2026."
+ ],
+ "keywords": [
+  "international trade",
+  "industry competitiveness",
+  "research and analysis",
+  "advanced technology and machinery",
+  "quantitative information",
+  "statistical data",
+  "quality control",
+  "oversight of project teams",
+  "supply and demand",
+  "regulatory and standards matters",
+  "briefs senior-level officials",
+  "cooperative agreements",
+  "stakeholders",
+  "performance management",
+  "strategic planning"
+ ],
+ "strategy": [
+  "Map your IEM experience honestly against areas (a)-(f) before applying, and proceed only if you can clearly document at least four with a year at senior level. Supervision (d), quality review (e), and representation (f) are the likeliest matches from consulting work.",
+  "Frame the IEM work in the posting's language. For example, describe leading project teams, setting analytic methods and scope, reviewing deliverables for quality, and representing the firm before federal, state, or local agency clients.",
+  "Keep the resume to two pages, with month/year dates and hours per week for each job. Give each job one compact specialized-experience section that names the (a)-(f) areas directly.",
+  "Answer the questionnaire conservatively. USITC states it will adjust or exclude you if your ratings exceed what the resume supports.",
+  "Prepare for the USA Hire assessment, which takes several hours. Complete it promptly after applying, because missing it disqualifies you.",
+  "Consider USITC or Commerce trade analyst roles at GS-9 to GS-12 as a more realistic entry point into trade-policy work."
+ ],
+ "resume_bullets": [
+  "Led a team of [number] analysts on [project/client], setting research scope and methods and delivering [type of report] to [federal/state agency] officials.",
+  "Reviewed written and quantitative deliverables from [number] staff for accuracy and quality control before release to [client], making final calls on [scope/content decisions].",
+  "Represented IEM before [agencies/stakeholders] to secure cooperation and negotiate [agreements/task orders] on [special project], briefing senior officials on findings."
+ ],
+ "interview_questions": [
+  "Describe how you planned and led a research or analytic project from proposal to final report.",
+  "How do you review a team's statistical and written products for quality, and how do you handle substandard work?",
+  "Tell us about a time you represented your organization to another agency to secure cooperation or negotiate an agreement.",
+  "How would you use supply-and-demand and regulatory factors to assess the competitiveness of a U.S. industry?"
+ ],
+ "watch_outs": [
+  "Senior-level qualification bar: without demonstrable GS-14-equivalent trade research and supervisory experience, you will likely be rated ineligible.",
+  "Short two-week window (Oct 29 to Nov 11, 2026) that also requires a separate online assessment.",
+  "Secret clearance required, which means a background investigation before you can start.",
+  "No promotion potential and a technical economics focus, which may not use your political and public-engagement strengths."
+ ],
+ "job_id": "usajobs:890904900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

@@ -254,7 +254,7 @@
       job.work_authorization ? `<span class="badge" title="${esc(job.work_authorization)}">Work authorization: ${esc(job.work_authorization.slice(0, 60))}${job.work_authorization.length > 60 ? "…" : ""}</span>` : "",
       job.from_board ? "" : job.verified_on ? `<span class="badge">Link checked ${esc(fmtDate(job.verified_on))}</span>` : `<span class="badge warn">Link not verified yet</span>`,
     ].join("");
-    const meta = [job.location, job.salary_text].filter(Boolean).map((m) => `<span>${esc(m)}</span>`).join("");
+    const meta = [job.location, job.employer_type, job.salary_text].filter(Boolean).map((m) => `<span>${esc(m)}</span>`).join("");
     return `<li class="job">
       <div class="job-head">
         <div>

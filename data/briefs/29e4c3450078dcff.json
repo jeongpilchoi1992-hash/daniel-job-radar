@@ -1,0 +1,55 @@
+{
+ "one_liner": "An HR/personnel officer job at ICE Health Service Corps, filled only by a current U.S. Public Health Service Commissioned Corps officer at O-5 rank.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting says it is only open to current USPHS officers, and Call to Active Duty candidates are excluded, so Daniel cannot apply as a civilian. Daniel's people skills and stakeholder work would suit the liaison duties, but the eligibility barrier is absolute. The useful move is to look for civilian HR or emergency-management roles at ICE, DHS, or FEMA instead.",
+ "eligibility": [
+  "Only current USPHS Commissioned Corps officers may apply; USPHS Call to Active Duty (CAD) candidates are not eligible, despite the 'public' hiring-path label.",
+  "O-5 billet (CC-5): you must already hold or be eligible for the O-5 rank in the Commissioned Corps.",
+  "A qualifying degree for the officer's category is required; a master's in HR, health administration, or a related field is preferred.",
+  "Five years of relevant experience is preferred, including two years in civil service and/or USPHS staffing, recruitment, or personnel management.",
+  "Security clearance is listed as 'Other'; suitability and background screening are expected."
+ ],
+ "keywords": [
+  "personnel management",
+  "human capital",
+  "recruitment",
+  "staffing",
+  "workforce planning",
+  "onboarding",
+  "classification",
+  "performance management",
+  "position descriptions",
+  "standard operating procedures",
+  "liaison",
+  "stakeholders",
+  "personnel databases",
+  "SharePoint",
+  "customer-service"
+ ],
+ "strategy": [
+  "Do not apply. The posting explicitly limits this job to current USPHS officers, and an application from a civilian will be screened out.",
+  "Set USAJOBS saved searches for civilian roles that are open to the public at ICE, DHS, and FEMA, such as HR Specialist (0201), Emergency Management Specialist (0089), and Program Analyst (0343).",
+  "Frame your IEM experience around government-client work: stakeholder coordination, preparedness or recovery program support, and policy interpretation. Fill in your actual title and duties.",
+  "Build a two-page federal resume that lists hours per week and dates for each role. Mirror each target posting's specialized-experience language, using the keyword list above as a model.",
+  "Consider Virginia state jobs (VDEM, Department of Human Resource Management) and local Prince William County or Manassas emergency-management and HR roles. These often weigh your relationship-building and public-facing skills more heavily."
+ ],
+ "resume_bullets": [
+  "Coordinated with [number] [federal/state/local] government client stakeholders on [disaster recovery/preparedness] programs at IEM, serving as primary liaison for [specific deliverable] ([hours] hrs/week).",
+  "Interpreted [FEMA/federal] policies and guidance to advise [client type] on [requirement], producing [reports/SOPs/guidance documents] used by [audience].",
+  "Supported [staffing/onboarding/training] activities for [number] [personnel/responders] on [project], tracking data in [system] to meet [deadline/standard]."
+ ],
+ "interview_questions": [
+  "Describe a time you explained a complex policy or requirement to someone unfamiliar with it.",
+  "How do you manage competing priorities from several stakeholders?",
+  "Tell us about building a working relationship with an office outside your own unit.",
+  "How have you used data to make a recommendation?"
+ ],
+ "watch_outs": [
+  "The job is limited to current USPHS officers, and Daniel is ineligible.",
+  "The application window is short, Oct 19–Nov 2, 2026.",
+  "There is no telework, the location is negotiable after selection, and travel may be required."
+ ],
+ "job_id": "usajobs:889291100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

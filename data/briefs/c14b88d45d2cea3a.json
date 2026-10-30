@@ -1,0 +1,57 @@
+{
+ "one_liner": "Second-in-command of ICE Health Service Corps' national communications team, a uniformed U.S. Public Health Service officer billet at the O-6 (Captain) level.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel is effectively ineligible. The posting is open only to current commissioned USPHS officers at the O-6 billet level, and Call to Active Duty candidates are excluded. Daniel's policy knowledge, public-facing skills and emergency-management consulting background are relevant to crisis communications, but they cannot substitute for USPHS commission status.",
+ "eligibility": [
+  "Only current USPHS commissioned officers may apply; USPHS Call to Active Duty (CAD) candidates are not eligible, despite the 'public' hiring-path label.",
+  "Qualifying degree for the officer's category plus an advanced degree (M.A. or M.S.) from an accredited institution.",
+  "At least five years of professional experience relevant to the officer's category, including at least three years of leadership, management, or administration.",
+  "Clinical license holders must maintain currency and may be called on for clinical duties in times of critical need.",
+  "Security clearance listed as 'Other'; confirm the investigation requirement with the agency."
+ ],
+ "keywords": [
+  "strategic communications",
+  "integrated, multi-channel communications strategies",
+  "executive communications",
+  "talking points",
+  "crisis communications",
+  "issues management",
+  "stakeholder engagement",
+  "audience-focused messaging",
+  "web content",
+  "social media coordination",
+  "accessibility standards",
+  "workflow processes",
+  "supervisory review",
+  "media relations",
+  "communications effectiveness"
+ ],
+ "strategy": [
+  "Do not apply. Without a USPHS commission, your application will be screened out at the minimum-qualification step.",
+  "Use this posting as a target profile instead: search USAJOBS for GS-1035 Public Affairs Specialist and GS-0301 communications roles at FEMA, DHS, and HHS that are open to the public.",
+  "Frame your IEM work around government-client communications, such as preparedness messaging, stakeholder coordination, and disaster recovery outreach, using only duties you actually performed.",
+  "Build a two-page federal resume that lists hours per week and dates for each role and mirrors posting language like 'crisis communications' and 'stakeholder engagement'.",
+  "Also consider Northern Virginia local emergency management and public information officer roles, such as Prince William County and the City of Manassas, which suit your public-facing strengths.",
+  "Only pursue USPHS as a long-term option if you hold or plan to earn a qualifying degree; commissioning is a separate, lengthy process."
+ ],
+ "resume_bullets": [
+  "Developed [type of products, e.g., preparedness messaging or briefing materials] for [government client] supporting [disaster or program], working [hours/week] from [dates].",
+  "Coordinated with [number/type of stakeholders, e.g., state and local officials] to deliver [deliverable] during [response or recovery phase], resulting in [verifiable result].",
+  "Translated complex [policy or program] information into plain-language [talking points/web content/fact sheets] for [audience]."
+ ],
+ "interview_questions": [
+  "Describe a time you advised leadership on messaging during a crisis.",
+  "How do you translate complex program data into content for different audiences?",
+  "How do you manage communications intake and competing deadlines across a team?",
+  "How have you coached staff to improve their writing and editing?"
+ ],
+ "watch_outs": [
+  "The position is restricted to current USPHS officers, so you are not eligible.",
+  "It requires an advanced degree and three years of leadership experience, which are not on file for you.",
+  "Duty hours may fall outside core business hours, including evenings and weekends.",
+  "Location is negotiable after selection, and the job is telework-eligible but not remote."
+ ],
+ "job_id": "usajobs:887341200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

@@ -1,0 +1,51 @@
+{
+ "one_liner": "A supervisory role leading a Loudoun County mental health case management team that connects residents and families with recovery-oriented services and supports.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a clinical-human-services team lead role, and such jobs typically require a human services degree, case management experience, and often Virginia DBHDS Qualified Mental Health Professional (QMHP) credentials. The posting excerpt does not list requirements, and nothing on file shows Daniel has case management or behavioral health experience. Daniel's people skills and public-sector consulting background are relevant but probably not enough on their own.",
+ "eligibility": [
+  "The posting excerpt states no minimum qualifications. Open the full listing to check required education, which is likely a human services degree for this type of role.",
+  "Confirm whether QMHP or similar Virginia behavioral health credentials are required or preferred.",
+  "Check how many years of case management or supervisory experience are required.",
+  "No status limits are stated, and Loudoun County jobs are generally open to the public."
+ ],
+ "keywords": [
+  "Case Management",
+  "Team Coordinator",
+  "person-centered",
+  "recovery-oriented",
+  "services and supports",
+  "individuals and their families",
+  "Mental Health",
+  "Substance Abuse",
+  "Developmental Services",
+  "diverse",
+  "team"
+ ],
+ "strategy": [
+  "Read the full posting's minimum qualifications before applying. If a human services degree or QMHP credential is required and you lack it, spend your effort elsewhere.",
+  "Consider entry-level Loudoun or Prince William County roles such as case manager aide, eligibility worker, or community outreach. These are more realistic paths into human services.",
+  "If you apply, frame your IEM work around [specific duties] that involved coordinating services for affected populations, working with stakeholders, or disaster recovery case support, but only if you actually did that work.",
+  "Emphasize your relationship-building, public-facing communication, and any team coordination or scheduling you handled.",
+  "The posting has no stated closing date, so apply early. County jobs that are open until filled can close without notice.",
+  "Complete every supplemental question on the GovernmentJobs application in full, because screeners score those answers."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of services or support] for [number] [clients/communities] affected by [disaster/event] as part of IEM's work for [government client].",
+  "Built and maintained working relationships with [number] [agency/community] stakeholders to [specific outcome you can document].",
+  "Led or supported [team size] staff in [task], tracking [cases/deliverables] using [system/tool]."
+ ],
+ "interview_questions": [
+  "Describe your experience with case management or connecting people to services.",
+  "How would you supervise and support case managers who carry heavy caseloads?",
+  "What does person-centered, recovery-oriented care mean to you?",
+  "Tell us about a time you handled a person in crisis or a difficult interaction with a member of the public."
+ ],
+ "watch_outs": [
+  "The role likely requires a human services degree, QMHP credentials, and supervisory case management experience, none of which are on file for you.",
+  "The closing date is not stated, so the posting may close without notice.",
+  "The commute from Manassas to Leesburg is significant, and no telework is indicated."
+ ],
+ "job_id": "neogov:loudoun:5420812",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

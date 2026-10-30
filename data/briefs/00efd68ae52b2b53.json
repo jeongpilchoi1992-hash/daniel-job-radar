@@ -1,0 +1,56 @@
+{
+ "one_liner": "Entry-level Air Force contracting trainee who plans purchases, writes solicitations, evaluates bids and administers contracts, with promotion potential to GS-12.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This posting is filled under DoD Direct-Hire Authority for current students and recent graduates (degree within two years) and requires a master's degree or two years of graduate study plus a year of GS-7-level contracting experience. Nothing on file shows Daniel has a graduate degree, a recent degree, or federal contracting knowledge. Daniel's IEM consulting background could help only if Daniel worked directly on government contracts or proposals.",
+ "eligibility": [
+  "Direct-Hire Authority for post-secondary students and recent graduates only: you must be enrolled full-time with at least one year completed, or have been awarded a degree no more than two years before appointment.",
+  "Basic requirement: a master's degree, current Armed Forces membership, or qualifying prior DoD contracting service.",
+  "Also required: two full years of graduate education, a master's, or an LL.B./J.D. (submit transcripts), plus one year of specialized experience equivalent to GS-07 in federal contracting methods, laws and regulations.",
+  "Top Secret clearance required; you must be able to obtain and keep it.",
+  "You must also apply through afciviliancareers.com/paq-contracting and complete the HireVue assessment."
+ ],
+ "keywords": [
+  "contracting methods",
+  "contract types",
+  "Federal contracting laws, regulations, policies, and procedures",
+  "plans acquisitions",
+  "develops solicitations",
+  "evaluates responses",
+  "award recommendations",
+  "contract administration",
+  "monitors contract performance",
+  "sole source",
+  "competitive",
+  "market conditions",
+  "contractor responsibility",
+  "proposal responsiveness",
+  "requirements"
+ ],
+ "strategy": [
+  "First confirm eligibility: do you hold a master's (or two years of graduate study), and was a degree awarded within the last two years? If not, skip this posting and target non-DHA 1102 trainee roles or emergency management and policy jobs instead.",
+  "If you qualify, frame your IEM experience around any government contract work you did, such as helping clients with FEMA grants, procurement, scopes of work, task orders, proposals or deliverable tracking. Describe it in FAR and contracting terms only where it is accurate.",
+  "Keep the resume to two pages, and list dates, hours per week and contracting-related duties for each job so HR can verify GS-07-equivalent specialized experience.",
+  "Complete all three pieces: the USAJOBS questionnaire, the AFCC portal 'Apply Now' step, and HireVue. Answer the questionnaire honestly, since overstating experience fails at resume review.",
+  "The posting runs to 2027-09-30 but is likely reviewed in cycles, so apply early and upload transcripts with the application."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] on [contract/task order type] by drafting [scopes of work/requirements documents], tracking [number] deliverables against contract terms over [period].",
+  "Conducted [market research/cost analysis] on [services or commodities] to help [client] define requirements and evaluate [vendor/proposal] responsiveness.",
+  "Coordinated with [government program staff/contracting officers] to resolve [invoice, performance or modification] issues on a [$amount] disaster recovery contract, [hours/week]."
+ ],
+ "interview_questions": [
+  "Describe a time you had to learn a complex set of rules or regulations quickly. How did you approach it?",
+  "Tell us about a situation where you balanced competing deadlines from multiple stakeholders.",
+  "How would you handle a program office that wants a sole-source award without adequate justification?",
+  "What do you know about the difference between fixed-price and cost-reimbursement contracts?"
+ ],
+ "watch_outs": [
+  "This posting is restricted to students and recent graduates and requires graduate education. Without both, Daniel will be screened out.",
+  "A Top Secret clearance means a lengthy background investigation before you can start.",
+  "The location is 'Multiple Locations' Air Force-wide, so you may need to relocate away from Northern Virginia.",
+  "Contracting is technical procurement work rather than policy or public-facing work, so it may not match Daniel's strengths in politics and relationship-building."
+ ],
+ "job_id": "usajobs:888633100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

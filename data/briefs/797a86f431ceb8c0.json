@@ -1,0 +1,55 @@
+{
+ "one_liner": "Supervise the Capitol Police logistics team that handles supplies, equipment, inventory, moving, special-event support and emergency logistics so officers can do their law-enforcement jobs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's IEM consulting background in emergency management and preparedness touches the emergency-operations side of this job, and Daniel's interest in the legislative branch and skill with people fit the agency. However, the job requires 52 weeks of specialized experience at the GS-11/12 equivalent, and that experience must cover hands-on logistics program work like storing and issuing commodities and equipment, forecasting resources, and supervising or training logistics staff. Nothing on file shows that depth of logistics or supervisory experience, so Daniel should apply only if the IEM work truly included it.",
+ "eligibility": [
+  "Open to the public; U.S. citizenship required, and no federal status or veterans' preference is needed.",
+  "CP-10 requires 52 weeks of experience equivalent to GS-11 covering logistics policy, overseeing storage, issue and disposal of commodities and equipment (including arms, ammunition and explosives), resource forecasting, and training logistics specialists.",
+  "CP-11 requires 52 weeks of experience equivalent to GS-12 covering directing a logistics program, writing SOPs and justifications, budget and strategic planning, briefing senior leadership, and leading subordinate staff.",
+  "Education cannot substitute for experience at this series and grade.",
+  "You must pass a full field background investigation and pre-employment evaluation and complete a one-year probationary period; no security clearance is required."
+ ],
+ "keywords": [
+  "logistics management program",
+  "logistical resources",
+  "identifying, forecasting and/or allocating",
+  "inventory management",
+  "property disposal",
+  "commodity distribution",
+  "emergency operation logistical functions",
+  "special events",
+  "standard operating procedures",
+  "budget and strategic planning for mission support",
+  "logistics readiness",
+  "briefings",
+  "subordinate staff",
+  "procurement",
+  "transportation"
+ ],
+ "strategy": [
+  "Before applying, honestly list what you actually did at IEM, then match it against each numbered specialized-experience element; if you can't show logistics and supervisory work for at least 52 weeks, focus on lower-graded USCP or FEMA logistics or emergency-management roles instead.",
+  "If IEM work included disaster logistics (staging supplies, sheltering and feeding, commodity points of distribution, resource requests), describe it in the posting's terms: 'forecasting and allocating logistical resources' and 'emergency operation logistical functions.'",
+  "On a two-page USAJOBS resume, give each job its exact dates, hours per week, and title, plus 4-6 bullets that mirror the specialized-experience language; frame consulting work by naming the government client and saying you performed the work, not just advised on it.",
+  "The posting asks for KSA narratives, so prepare short examples in the Situation-Action-Result format; answer the questionnaire truthfully, because 'expert' ratings must be backed up by the resume.",
+  "Apply for CP-10 only unless you can document GS-12-level program leadership, and submit before November 5, 2026, with any required documents attached."
+ ],
+ "resume_bullets": [
+  "Forecasted and allocated [type of resources, e.g., commodities, generators, staff] for [client agency] during [disaster or exercise], coordinating with [number] partner organizations to meet [operational need].",
+  "Drafted [number] standard operating procedures and planning documents on [logistics or emergency operations topic] for [client], adopted by [office or level].",
+  "Led and trained [number] [staff or contractor] personnel on [process] supporting [mission], and briefed [senior leadership level] on readiness gaps and recommendations."
+ ],
+ "interview_questions": [
+  "Describe a time you forecasted and allocated logistical resources for a major event or emergency. How did you set priorities?",
+  "How have you supervised or trained staff, and how did you handle an employee complaint or performance problem?",
+  "Tell us about a logistics policy or SOP you wrote and how you put it into practice.",
+  "How would you brief executive leadership on a readiness deficiency and your recommended fix?"
+ ],
+ "watch_outs": [
+  "The specialized-experience bar is high and specific, including arms, ammunition and explosives storage and supervision, so you are likely to be found not qualified without direct logistics management experience.",
+  "This is a supervisory job with grievance and hiring duties, a full-time on-site schedule with no telework, and a commute from Manassas to Capitol Hill.",
+  "The application window is short (October 22 to November 5, 2026), and the full field background investigation can take months."
+ ],
+ "job_id": "usajobs:889832600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior supervisory contracting officer role advising Marine Corps leaders on major defense acquisitions, setting procurement policy, and managing a contracting staff.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This NH-4 role requires at least one year of GS-13/NH-03-equivalent specialized experience with expert knowledge of FAR/DFARS and Navy contracting policy, plus supervisory experience. Daniel's emergency-management consulting background at IEM is government-facing but not, as far as is known, hands-on federal contracting or procurement policy work. Unless Daniel's IEM role involved senior contract management and supervision, Daniel is unlikely to qualify.",
+ "eligibility": [
+  "Open to the public, but this is a notice flyer for anticipated vacancies; you must follow the separate 'How to Apply' instructions, and there may be no actual hires.",
+  "At least one year of specialized experience equivalent to GS-13/NH-03, including expert knowledge of federal, DoD, and Navy contracting statutes, regulations, and contract types, plus supervising a staff.",
+  "Bachelor's degree from an accredited institution is required under the DoD GS-1102 standard; confirm you have one and keep transcripts ready.",
+  "Secret security clearance is required; you must be able to obtain and maintain it."
+ ],
+ "keywords": [
+  "contracting and procurement",
+  "major acquisitions",
+  "strategic plans, policies, and procedures",
+  "complex, high value acquisitions",
+  "contract requirements",
+  "government regulations",
+  "procurement procedures",
+  "cost and pricing data",
+  "multiyear acquisitions",
+  "advanced technology systems",
+  "technical services",
+  "acquisition strategies",
+  "briefings",
+  "senior government officials",
+  "supervise employees"
+ ],
+ "strategy": [
+  "Be honest with yourself about whether your IEM work included real contract administration, proposal pricing, or procurement policy; if not, skip this posting and target GS-1102 entry or developmental roles (GS-7/9 Contract Specialist interns) or emergency-management and program roles.",
+  "If you did work on government contracts at IEM, frame it from the government-client side: contract types, task orders, cost and pricing, compliance with FAR clauses, and deliverables managed, with hours per week and dates.",
+  "Highlight any supervisory duties explicitly (staff count, assigning work, evaluations), since supervision is a mandatory specialized-experience element.",
+  "Showcase your communication strengths through concrete examples of briefing senior government officials or client leadership, which maps to the oral and written presentation requirement.",
+  "Keep the resume to two pages, mirror the posting's phrases, and submit by 11/30/2026 via the flyer's 'How to Apply' directions with transcripts attached."
+ ],
+ "resume_bullets": [
+  "Supported [government client] on [contract/task order type] valued at [$ amount], tracking deliverables, budgets, and compliance with [FAR/agency] requirements over [time period, hours/week].",
+  "Delivered [number] briefings to [senior government officials/client leadership] on [topic, e.g., recovery program status or procurement strategy], producing written recommendations adopted by [result if known].",
+  "Supervised [number] [professional/technical] staff, assigning work, setting priorities, and providing training to deliver [project] on schedule."
+ ],
+ "interview_questions": [
+  "Describe a complex, high-value acquisition you managed and how you selected the contract type.",
+  "How have you analyzed cost and pricing data to reach a fair and reasonable price determination?",
+  "Tell us about a time you briefed senior leaders on a contentious contracting issue.",
+  "How do you handle a performance problem or complaint within your team?"
+ ],
+ "watch_outs": [
+  "This is a flyer for anticipated vacancies; no Notice of Result letters are sent, and there may be no hires.",
+  "Senior specialized contracting experience and supervision are hard requirements; an emergency-management consulting background alone is unlikely to qualify.",
+  "A bachelor's degree and Secret clearance are required."
+ ],
+ "job_id": "usajobs:890679600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

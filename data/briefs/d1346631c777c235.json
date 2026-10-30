@@ -1,0 +1,57 @@
+{
+ "one_liner": "Social science researcher at DoD who designs and runs surveys and focus groups on military personnel issues like retention and suicide prevention, then analyzes and briefs results.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a technical research job that needs graduate-level statistics (9 semester hours), a qualifying degree or equivalent for the 0101, 0180, or 1530 series, and a year of survey design and multivariate analysis experience at the GS-11 or GS-12 level. Daniel's policy knowledge and people skills help with stakeholder coordination and briefings. Nothing on file shows graduate statistics training or hands-on survey analysis, so Daniel likely does not meet the minimum qualifications unless the IEM role involved that work.",
+ "eligibility": [
+  "Open to the public and to military spouses (hiring paths: public, mspouse); no federal status needed.",
+  "Mandatory: graduate-level statistical training, including 9 semester hours in statistics at the graduate level, documented with transcripts by the closing date.",
+  "GS-12 requires one year of specialized experience at GS-11 equivalent: assisting with survey and focus group design, administration, and analysis using regression and multivariate techniques. GS-13 requires the GS-12 equivalent.",
+  "Must meet a series requirement: a 0101 social science degree or equivalent, a 0180 psychology major, or 1530 statistics coursework. Substituting education for specialized experience is not allowed.",
+  "Requires the ability to obtain and hold a Secret clearance."
+ ],
+ "keywords": [
+  "survey instruments",
+  "focus group protocols",
+  "research design",
+  "data collection",
+  "regression",
+  "factor analysis",
+  "structural equation modeling",
+  "qualitative analysis",
+  "large-scale, probability-based sample surveys",
+  "military personnel policy",
+  "retention",
+  "stakeholders",
+  "research briefings",
+  "technical, methodological and research reports",
+  "literature and policy reviews"
+ ],
+ "strategy": [
+  "First confirm two things: whether you have 9 graduate semester hours in statistics, and whether your degree fits the 0101, 0180, or 1530 series. If the answer to either is no, skip this posting and save your effort for policy analyst, program analyst, or emergency management roles.",
+  "If you do qualify, apply at GS-12 unless you clearly led survey research projects for a full year.",
+  "Describe IEM work only as you actually did it. Emphasize any preparedness surveys, after-action interviews, focus groups, or data analysis you performed, and state the methods and software you used.",
+  "On a two-page resume, give each job its dates and hours per week, then 3-5 bullets that mirror the specialized experience wording, such as survey design, multivariate analysis, and report writing.",
+  "Upload transcripts that show graduate statistics coursework before the November 9, 2026 deadline. The posting states that missing transcripts make you ineligible.",
+  "Highlight your briefing and stakeholder-liaison strengths as a secondary asset, not as the core qualification."
+ ],
+ "resume_bullets": [
+  "Designed and administered [number]-item survey/focus group protocol for [government client] on [preparedness topic], collecting responses from [number] participants and analyzing results using [regression/descriptive methods] in [software].",
+  "Wrote [type] research and after-action reports synthesizing findings for [client leadership], and briefed results to [audience] at [number] meetings.",
+  "Served as liaison to [number] government stakeholders to define research questions, data specifications, and project schedules for [project]."
+ ],
+ "interview_questions": [
+  "Walk us through a survey or focus group study you designed from research question to final report.",
+  "When would you use factor analysis or SEM rather than regression, and how have you applied either?",
+  "How would you approach focus groups on a sensitive topic like sexual assault or suicide prevention?",
+  "How do you explain complex statistical findings to senior leaders who are not technical?"
+ ],
+ "watch_outs": [
+  "Hard requirement of graduate statistics coursework plus transcripts; without it you will be rated ineligible.",
+  "Short application window: October 30 to November 9, 2026.",
+  "Secret clearance required, and the job is not remote (telework-eligible only, based in Alexandria).",
+  "Job is research methods-heavy rather than policy or public-facing, which may not match your strengths."
+ ],
+ "job_id": "usajobs:890984700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

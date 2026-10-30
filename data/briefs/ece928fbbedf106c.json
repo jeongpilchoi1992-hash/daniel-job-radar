@@ -1,0 +1,55 @@
+{
+ "one_liner": "An umbrella CIA posting for operational jobs (Case Officer, Staff Operations Officer, Targeting Officer and similar) that collect foreign intelligence for U.S. policymakers.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's outgoing, relationship-building style and deep knowledge of U.S. policy match the posting's emphasis on interpersonal skills and on 'establishing strong personal relationships,' and the IEM consulting work points to experience with government clients. However, CIA operational hiring is highly selective, requires a bachelor's degree and an SCI-level background investigation including a polygraph, and calls for interest in foreign languages and cultures, which is not on file for Daniel.",
+ "eligibility": [
+  "Open to the public and to federal employees (fed-excepted, public, fed-competitive), so no prior federal status is needed.",
+  "You must be a U.S. citizen and pass a background investigation for a Sensitive Compartmented Information (SCI) clearance, which includes polygraph and medical screening.",
+  "A bachelor's degree from an accredited institution is required, or you must be within one year of earning it; a 3.0 GPA is preferred and confirming your degree status is essential.",
+  "No specialized experience at a lower grade is listed, but placement between GS-9 and GS-12 will depend on your education and experience."
+ ],
+ "keywords": [
+  "foreign intelligence",
+  "U.S. Government policymakers",
+  "strong interpersonal and communication skills",
+  "establish strong personal relationships",
+  "think on your feet",
+  "creative yet practical solutions",
+  "ability to deal with ambiguity",
+  "stress tolerance",
+  "teamwork",
+  "independent thinking",
+  "multi-task",
+  "time management",
+  "initiative",
+  "results oriented",
+  "foreign languages"
+ ],
+ "strategy": [
+  "Apply through cia.gov/careers, as the posting directs, and pick one or two specific roles (Staff Operations Officer and Collection Management Officer are realistic for a policy-minded civilian). The window runs from September 1, 2026 to January 31, 2027, but apply early because clearance processing can take a year or more.",
+  "Frame your IEM work around coordinating with government clients and stakeholders under time pressure and ambiguity, such as during disaster response or preparedness projects. Describe only duties you actually performed.",
+  "Use your policy knowledge to show you understand how intelligence supports U.S. Government policymakers. Pair it with concrete examples of building relationships with people from different backgrounds.",
+  "Highlight any foreign language study, travel, or cross-cultural experience, even informal, since the desired qualifications call for it.",
+  "Keep the resume to two pages with dates and hours per week, and mirror the listed attributes. Be scrupulously honest on all forms, because the polygraph and background check verify everything.",
+  "Tell no one beyond close family that you have applied, since CIA asks applicants to be discreet. Avoid any drug use: recent illegal drug use, including marijuana within the past 12 months, is disqualifying."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of deliverable] for [government client type] on [emergency management/disaster recovery project] at IEM, working with [number] stakeholders under [time constraint].",
+  "Built working relationships with [federal/state/local officials] to gather information and resolve [specific problem], resulting in [outcome you can verify].",
+  "Analyzed [policy/program data] and briefed [audience] in written and verbal form, adapting quickly when [unexpected change] occurred."
+ ],
+ "interview_questions": [
+  "Tell us about a time you built trust with someone quickly to get information or cooperation you needed.",
+  "Describe a situation with incomplete information where you had to think on your feet. What did you do?",
+  "Why the CIA, and why an operational career rather than an analytic one?",
+  "How have you handled high-stress or ambiguous situations in your consulting work?"
+ ],
+ "watch_outs": [
+  "A bachelor's degree is a hard requirement; if Daniel has not completed one or is not within a year of finishing, Daniel is not eligible.",
+  "The SCI clearance and polygraph process is lengthy and intrusive, and finances, foreign contacts, and drug history all receive close scrutiny.",
+  "No telework is allowed, so the job requires a daily commute from Manassas to the Washington area, and some operational roles involve overseas assignments or relocation."
+ ],
+ "job_id": "usajobs:839089400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

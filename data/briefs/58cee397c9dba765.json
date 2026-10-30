@@ -1,0 +1,54 @@
+{
+ "one_liner": "Experienced DOJ litigator who tracks down, seizes, and forfeits assets from fraudsters and collects court judgments for the United States in federal court.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This job requires a J.D., an active bar license, and at least 2.5 years of post-J.D. legal experience including litigation. Nothing on file shows Daniel has a law degree or bar membership, so Daniel likely does not qualify. Daniel's policy knowledge and IEM consulting background do not substitute for attorney experience.",
+ "eligibility": [
+  "Open to the public (U.S. citizens), so no federal status is needed.",
+  "Requires a J.D. or equivalent from an accredited school, plus active bar membership in good standing in any U.S. state, territory, or DC.",
+  "GS-14 requires 2.5 years of post-J.D. legal experience, including 1 year of specialized experience at GS-13 level, such as drafting pleadings or conducting civil or criminal litigation. GS-15 requires 4 years, including 1 year at GS-14 level.",
+  "Requires the ability to obtain a Secret security clearance."
+ ],
+ "keywords": [
+  "Asset Recovery",
+  "asset forfeiture",
+  "financial investigations",
+  "restitution orders",
+  "writs of garnishment",
+  "writs of execution",
+  "liens",
+  "post-judgment remedies",
+  "civil discovery",
+  "depositions",
+  "U.S. District Court",
+  "pleadings, briefs, and other court documents",
+  "legal analysis",
+  "law enforcement agencies",
+  "enforcement of judgments"
+ ],
+ "strategy": [
+  "First confirm whether you hold a J.D. and an active bar license. If you don't, skip this posting because HR will screen you out regardless of other strengths.",
+  "If you are a licensed attorney, apply through the DOJ Legal Careers page linked in the posting. Reviews start on or before June 22, 2026, so submit early even though the posting stays open until November 30.",
+  "If you have legal experience, state your post-J.D. dates, hours per week, and litigation duties briefly so everything fits the two-page USAJOBS resume limit.",
+  "If you are not an attorney, use your IEM experience to target related non-attorney roles instead. Good options include FEMA or DOJ grant and program analyst jobs, Virginia Department of Emergency Management positions, Prince William County emergency management, or legislative aide roles that fit your policy knowledge.",
+  "For non-legal fraud-related roles, frame your IEM work around coordinating with government clients and supporting disaster recovery programs. Mention any oversight of taxpayer-funded recovery funds only if you actually did that work."
+ ],
+ "resume_bullets": [
+  "Supported [federal/state/local client] disaster recovery programs at IEM by [specific duty], coordinating with [number] agency stakeholders over [time period].",
+  "Analyzed [policy/program/regulation] and prepared recommendations for [client leadership], resulting in [verified outcome].",
+  "(Only if you are an attorney) Drafted [number] pleadings and briefs and litigated [type] matters in [court] from [dates], at [hours] per week."
+ ],
+ "interview_questions": [
+  "Describe a case where you traced and recovered assets or enforced a judgment. What tools did you use?",
+  "How do you coordinate with law enforcement and criminal prosecutors while handling a parallel civil enforcement action?",
+  "Walk us through how you would handle a contested writ of garnishment in federal court.",
+  "Tell us about a time you advised senior managers on a complex legal issue."
+ ],
+ "watch_outs": [
+  "A J.D. and active bar license are mandatory, and neither is on file for Daniel.",
+  "The job requires a Secret clearance and up to 7% travel.",
+  "Early applicants have an advantage because reviews are rolling, even with the long open period."
+ ],
+ "job_id": "usajobs:873775300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

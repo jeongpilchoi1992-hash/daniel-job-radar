@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior ODNI manager coordinating and deconflicting offensive counterintelligence operations across intelligence agencies and briefing senior officials on foreign intelligence threats.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role expects deep, hands-on offensive counterintelligence experience, mastery of IC policies like EO 12333 and ICD 750, and eligibility for SCI access. Daniel's emergency-management consulting and policy knowledge are relevant to interagency coordination but not to counterintelligence operations. Unless Daniel has CI or intelligence experience not on file, an application is very unlikely to be referred.",
+ "eligibility": [
+  "Open to the public and to current federal employees at GS-15 or GS-14; employees at GS-13 and below are screened out. As a non-federal applicant, Daniel may apply.",
+  "Requires Sensitive Compartmented Information (SCI) clearance eligibility, which means a full background investigation and possibly a polygraph.",
+  "Minimum education is a bachelor's degree, so Daniel must confirm a completed bachelor's degree.",
+  "Senior-level qualifications include interagency CI coordination, knowledge of the OFCO/A executor community, and expert knowledge of the intelligence cycle.",
+  "Four required free-response essays of 200 words maximum each, written without a consultant or AI."
+ ],
+ "keywords": [
+  "counterintelligence",
+  "offensive counterintelligence operations/activities (OFCO/A)",
+  "interagency coordination",
+  "deconfliction",
+  "mission integration",
+  "intelligence cycle",
+  "EO 12333",
+  "ICD 750",
+  "National Counterintelligence Strategy",
+  "National Security Council",
+  "Congressional engagements",
+  "interagency working groups",
+  "build coalitions",
+  "briefings to senior officials",
+  "strategy development"
+ ],
+ "strategy": [
+  "Before investing time, check honestly whether you have any intelligence, CI, or security work behind you. If you do not, consider GS-9 to GS-12 ODNI, DHS, or FEMA roles that build toward this kind of work.",
+  "If you apply, frame your IEM work as interagency coordination for government clients. Focus on any work with multiple agencies, working groups, preparedness plans, or briefings to senior officials, and describe only what you actually did.",
+  "Keep the resume to two pages. For each job, list dates, hours per week, and concise bullets that use posting terms like interagency coordination, strategy development, and briefings.",
+  "Write the four essays in your own words; AI help is prohibited. Use real examples, such as carrying out a client decision you disagreed with and improving a process at IEM.",
+  "The posting is open October 29 to November 13, 2026. Submit several days early and include only the documents listed under Required Documents."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of work] among [number] federal, state, and local stakeholders for [client agency], supporting [plan/initiative] for emergency preparedness or recovery.",
+  "Drafted and briefed [reports/briefings] for [senior official audience] on [topic], translating complex policy and operational issues into recommendations.",
+  "Facilitated [working group/meeting series] of [number] participants to align priorities and resolve conflicts on [project], resulting in [verifiable outcome]."
+ ],
+ "interview_questions": [
+  "Describe your experience coordinating or deconflicting operations across multiple agencies with competing priorities.",
+  "How do EO 12333 and ICD 750 shape the authorities of counterintelligence elements?",
+  "Tell us about a time you led an interagency working group to a shared outcome.",
+  "How would you brief a senior IC official on stalled collaboration between agencies?"
+ ],
+ "watch_outs": [
+  "The core requirement is 5-10 years of offensive CI operations, which Daniel does not appear to have, so referral is unlikely.",
+  "SCI clearance processing is lengthy and intrusive, and the role requires full-time onsite work in Bethesda with no telework, a long commute from Manassas.",
+  "There is a short application window of October 29 to November 13, 2026, and the essays must be written in Daniel's own words without AI or consultant help."
+ ],
+ "job_id": "usajobs:890510300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

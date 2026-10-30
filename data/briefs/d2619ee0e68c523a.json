@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior press ombudsman for Stars and Stripes who protects its editorial independence, investigates censorship and fairness complaints, and writes public columns on journalism issues.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting requires extensive journalism experience and over 10 years as a senior editorial leader, and nothing on file shows Daniel has a journalism background. Daniel's policy knowledge, people skills and familiarity with Congress match some preferred qualifications, but those cannot replace the core requirement.",
+ "eligibility": [
+  "Open to the public (NAF position); outside applicants are considered after NAF priority groups such as Business Based Action and current or former NAF employees.",
+  "Must have extensive experience as a journalist plus over 10 years as a senior editorial leader.",
+  "Must have one year of experience equivalent to at least the next lower grade level.",
+  "No security clearance is required, but international travel is required."
+ ],
+ "keywords": [
+  "Ombudsman",
+  "First Amendment",
+  "free flow of news and information",
+  "censorship",
+  "news management",
+  "fairness, accuracy, timeliness and balance",
+  "investigates allegations",
+  "corrective actions",
+  "editorial integrity",
+  "senior editorial leader",
+  "evaluate opposing viewpoints",
+  "impartially",
+  "digital content and social media",
+  "U.S. Congress committees and processes",
+  "DoD and the military services"
+ ],
+ "strategy": [
+  "Be honest with yourself first: apply only if you have real journalism or editorial leadership experience that is not on file, because the questionnaire answers are checked against your resume.",
+  "If you lack that background, put your effort into better-matched roles such as FEMA or Virginia VDEM program and outreach jobs, constituent services or legislative staff positions, and local government public engagement roles.",
+  "If you do apply, describe IEM work only where it truly involved writing, reviewing or publishing content, impartial fact-finding, or investigating stakeholder complaints, and use the posting's exact language.",
+  "Fit everything on two pages: give dates and hours per week for each job, and include full contact information for your references as the posting requests.",
+  "Submit well before the November 9, 2026 close, and answer every questionnaire item conservatively."
+ ],
+ "resume_bullets": [
+  "Wrote and edited [type of publication/reports] on [emergency management topics] for [government client], ensuring accuracy and balance across [number] review cycles.",
+  "Investigated and resolved [number] stakeholder concerns about [program/process], evaluating opposing viewpoints and recommending corrective actions adopted by [client/leadership].",
+  "Briefed [audience, e.g., state/federal officials] on [policy issue], communicating complex findings clearly in writing and in [number] presentations."
+ ],
+ "interview_questions": [
+  "Describe a time you investigated a complaint about fairness or accuracy and what you recommended.",
+  "How would you handle a DoD official pressuring editors to change or kill a story?",
+  "How do you stay impartial when evaluating opposing viewpoints from editors and readers?",
+  "How have digital and social media changed how audiences judge news credibility?"
+ ],
+ "watch_outs": [
+  "The core requirement of 10+ years in senior editorial leadership is very likely unmet based on what is on file.",
+  "International travel is required, and the summary says the job is in Washington, DC even though it is listed as remote, so confirm the duty arrangement.",
+  "Outside applicants rank behind NAF priority groups, and the position has no promotion potential and pays no incentives."
+ ],
+ "job_id": "usajobs:889078500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

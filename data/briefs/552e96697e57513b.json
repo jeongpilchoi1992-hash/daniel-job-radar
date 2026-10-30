@@ -1,0 +1,55 @@
+{
+ "one_liner": "Back-office federal grants work at CMS: reviewing applications, checking compliance with grant rules, monitoring awards, and advising program staff on grants policy.",
+ "fit_rating": "Stretch",
+ "fit_summary": "This is a Delegated Examining (public) announcement, so Daniel can apply without federal status. The catch is that qualification hinges on a year of specific grants experience: finding deficiencies in grant applications, researching grant regulations, and monitoring grants or cooperative agreements. Daniel's IEM work may qualify if it involved FEMA or HUD grant programs (for example Public Assistance, Hazard Mitigation, or CDBG-DR), but that is unconfirmed, and Daniel's policy knowledge and people skills alone won't meet the bar.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) under Delegated Examining Authority; no federal status, clearance, or veterans' preference needed.",
+  "GS-09: one year (52 weeks) of GS-07-equivalent experience covering all three items: identifying deficiencies in grant documentation, researching grants regulations and policies, and monitoring grants or cooperative agreements. A related master's degree can substitute, with transcripts.",
+  "GS-11: one year of GS-09-equivalent experience providing guidance on grants policy to program staff or awardees, analyzing budgets with the grant community, and researching grants policies to resolve awardee issues. A related Ph.D. or 3 years of graduate study can substitute.",
+  "Every qualification must be met by the closing date, and you must complete the occupational questionnaire and an online assessment."
+ ],
+ "keywords": [
+  "grants and cooperative agreements",
+  "grant documentation",
+  "identifying deficiencies",
+  "applications and proposals",
+  "regulations and policies",
+  "monitoring grants",
+  "technical assistance",
+  "program offices",
+  "review, award, and administration",
+  "compliance",
+  "grant documents and correspondence",
+  "interpreting grants policy",
+  "awardees",
+  "analyzing budgets",
+  "Attention to Detail"
+ ],
+ "strategy": [
+  "First confirm what you actually did at IEM. If you supported FEMA PA/HMGP, CDBG-DR, or similar federal grant programs, describe that work in grants terms: reviewing applicant project documentation, checking eligibility against 2 CFR 200 or the Stafford Act, tracking subrecipient compliance, and helping applicants fix deficiencies.",
+  "Apply at GS-09 unless you can document a full year of GS-09-level budget analysis and policy guidance to awardees. Select both grades only if each one is honestly supported.",
+  "Keep the resume to two pages, and list month/year dates and hours per week for each job. Write all three GS-09 specialized-experience elements in your own words with concrete examples, because the posting warns that copied text gets an ineligible rating.",
+  "Answer the questionnaire honestly at the level your resume backs up. Every 'expert' answer needs a matching resume bullet, or you risk being removed from consideration.",
+  "Prepare for the online assessment, which tests general competencies such as reading comprehension, attention to detail, and customer service. Your people skills fit the customer-service and interpersonal parts well.",
+  "The window runs to 2027-02-01, but announcements like this can pull candidate lists early, so apply soon after it opens on 2026-07-31."
+ ],
+ "resume_bullets": [
+  "Reviewed [number] [grant program, e.g., FEMA Public Assistance] applications and project worksheets for [client], identifying documentation deficiencies and working with applicants to resolve them before submission.",
+  "Researched [regulations, e.g., 2 CFR 200 / Stafford Act / program guidance] to determine eligibility and allowable costs, and briefed [audience] on the findings.",
+  "Monitored [number] subrecipient awards totaling [$amount], tracking [milestones/reporting/closeout] and flagging compliance issues to [client program office]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you found a deficiency in an application or proposal. How did you handle it with the applicant?",
+  "How do you research and apply federal grants regulations, such as the Uniform Guidance, when a question comes up that you don't know the answer to?",
+  "Describe how you monitored an award or project for compliance and what you did when something was off track.",
+  "How would you explain a denied cost or a policy requirement to a frustrated awardee?"
+ ],
+ "watch_outs": [
+  "You must meet all three specialized-experience elements. Emergency-management consulting without hands-on grants work will likely be rated ineligible.",
+  "This is technical, detail-heavy compliance work rather than policy or outreach work, so make sure it fits your career interests before applying.",
+  "The location is listed as 'Multiple Locations' and the job is not remote. Confirm the duty station (CMS is headquartered in Baltimore/Woodlawn, a long commute from Manassas) and what the telework schedule looks like."
+ ],
+ "job_id": "usajobs:878750700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

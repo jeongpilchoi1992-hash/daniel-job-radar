@@ -23,11 +23,38 @@ CLOSED_PATTERNS = re.compile(
 )
 
 
+def _workday_status(session, url: str) -> tuple[str, str] | None:
+    """Workday pages are rendered by JavaScript, so ask the board's public API about the posting instead."""
+    board = detect(url)
+    m = re.search(r"/job/.+$", urlparse(url).path)
+    if not board or board["type"] != "workday" or not m:
+        return None
+    base = f"https://{board['host']}/wday/cxs/{board['tenant']}/{board['site']}"
+    try:
+        resp = session.get(base + m.group(0), headers={"Accept": "application/json"}, timeout=(10, 40))
+        if resp.status_code == 404:
+            probe = session.post(f"{base}/jobs", json={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""}, timeout=(10, 40))
+            return ("dead", "no longer on the employer's job board") if probe.ok else ("unverified", "job board did not answer")
+        if resp.status_code >= 400:
+            return "unverified", f"HTTP {resp.status_code}"
+        info = resp.json().get("jobPostingInfo") or {}
+    except Exception as exc:  # noqa: BLE001 - network problems should not delete a job
+        return "unverified", f"fetch failed: {type(exc).__name__}"
+    if not info:
+        return "dead", "no longer on the employer's job board"
+    if info.get("canApply") is False:
+        return "dead", "applications closed"
+    return "ok", "listed on the employer's job board"
+
+
 def verify(session, job: dict, today: date) -> tuple[str, str]:
     """Return (status, note): status is 'ok', 'unverified' (blocked/unknown) or 'dead'."""
     closes = parse_date(job.get("closes"))
     if closes and closes < today:
         return "dead", "deadline passed"
+    workday = _workday_status(session, job["url"])
+    if workday:
+        return workday
     try:
         resp = session.get(job["url"], timeout=(10, 40), allow_redirects=True)
     except Exception as exc:  # noqa: BLE001 - network problems should not delete a job

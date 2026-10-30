@@ -1,0 +1,57 @@
+{
+ "one_liner": "Entry-level Air Force trainee analyst who helps study organizations, staffing, processes and budgets, on a developmental track toward GS-12 in Manpower and Organization.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's consulting work for government clients at IEM, plus strong communication and relationship skills, fits the interviewing, fact-gathering and cooperation-building parts of this job. However, this is a Direct-Hire notice for current students and recent graduates (degree awarded within two years of appointment), and Daniel's education details are not on file. Eligibility hinges on degree date and Superior Academic Achievement or graduate study.",
+ "eligibility": [
+  "Limited to post-secondary students and recent graduates: your degree must have been awarded no more than two years before appointment (longer only for veterans with 4+ years of obligated service).",
+  "GS-7 qualification: 1 full year of graduate education, a bachelor's with Superior Academic Achievement (upper third of class, 2.95+ overall GPA or 3.45+ in major, or national honor society), or 1 year of specialized experience equivalent to GS-5.",
+  "Transcripts must be submitted with the application if you qualify on education; honor society or class-standing claims need documentation.",
+  "Secret security clearance required (you need not hold one already, but you must be able to obtain it).",
+  "Not remote or telework-eligible; locations are Air Force installations nationwide, so confirm one near Manassas (e.g., Pentagon/JBAB) is listed."
+ ],
+ "keywords": [
+  "Manpower and Organization",
+  "management engineering",
+  "organizational structure",
+  "workforce staffing/utilization",
+  "process improvement",
+  "maximize resource utilization",
+  "work measurement",
+  "manpower requirements",
+  "management surveys",
+  "research projects",
+  "program cost monitoring",
+  "annual fiscal planning",
+  "conducting interviews with supervisors and employees",
+  "analyze facts, draw conclusions, devise solutions",
+  "tact, courtesy, and diplomacy"
+ ],
+ "strategy": [
+  "First confirm your degree award date and GPA or class standing. If you graduated more than two years before a likely start date, skip this notice and target open-to-public GS-7/9 management or program analyst postings instead.",
+  "Frame your IEM work in the posting's language, using only duties you actually performed. Examples: gathering information from government client staff, analyzing processes or plans, supporting recovery or preparedness program tracking, and writing findings and recommendations.",
+  "Keep the resume to two pages. For each job, list start and end dates (month/year) and hours per week, plus 3-5 bullets that mirror the KSAs.",
+  "Upload unofficial transcripts and any honor-society or class-rank proof. Missing documents make you ineligible even under direct hire.",
+  "Prepare for HireVue video interviews and assessments that measure communication, problem solving, planning, cognitive ability and conscientiousness. Practice timed STAR answers on camera.",
+  "The notice is open all year (Oct 2026 to Sep 2027), but selections happen as vacancies arise, so apply early and select every DC-area installation."
+ ],
+ "resume_bullets": [
+  "Interviewed [number/type] of government client staff at IEM to document [processes/plans/functions] and summarized findings in [report/briefing] for [client agency].",
+  "Analyzed [data type, e.g., recovery program costs or staffing figures] to identify [trends/gaps] and recommended [specific change] adopted by [team/client] (state result only if documented).",
+  "Coordinated with [number] stakeholders across [agencies/offices] to deliver [project/deliverable] on [schedule/budget], using tact and diplomacy to resolve [specific issue]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you gathered information from people to understand how an organization or process worked.",
+  "Describe a problem you analyzed, the data you used, and the solution you recommended.",
+  "How do you prioritize competing deadlines when supporting several senior staff?",
+  "Why the Air Force Manpower and Organization career field, and how will you approach learning DoD management engineering methods?"
+ ],
+ "watch_outs": [
+  "The recent-graduate rule (degree within two years of appointment) may disqualify you outright, so verify it before investing time.",
+  "This is a public notice that may not lead to a selection; keep applying to other federal, Virginia state and county roles in parallel.",
+  "There is no telework, a Secret clearance and a trial/probationary period are required, and some locations may be far from Manassas.",
+  "The work is mainly internal analytical work, not public-facing or policy work, so make sure it aligns with your interest in politics and public engagement."
+ ],
+ "job_id": "usajobs:886753300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

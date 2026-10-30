@@ -40,8 +40,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
-          # Temporary, for the launch build: also write data/ai_input.json (posting text for the AI briefs).
-          EXPORT_AI_INPUT: ${{ github.ref == 'refs/heads/claude/job-radar-v1' }}
+          # Temporary, for the launch build: a commit tagged [export-ai-input] also writes data/ai_input.json.
+          EXPORT_AI_INPUT: ${{ github.ref == 'refs/heads/claude/job-radar-v1' && contains(github.event.head_commit.message, '[export-ai-input]') }}
         run: python scripts/collect.py
 
       - name: Commit data

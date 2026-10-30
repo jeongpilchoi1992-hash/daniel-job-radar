@@ -1,0 +1,55 @@
+{
+ "one_liner": "In-person project manager for USPTO office space: floor plans, renovation surveys, cost estimates, GSA work authorizations, and overseeing contractors as COR at the Alexandria campus.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a facilities and real-property project management job, and qualifying requires one full year of GS-12-level experience in construction/renovation site surveys, space planning, and long-range space cost analysis. Daniel's IEM emergency-management consulting and policy and people skills do not obviously match unless the IEM work involved facility projects, construction oversight, or space planning. Daniel's interpersonal strengths help in interviews but will not get Daniel past the specialized-experience screen.",
+ "eligibility": [
+  "Open to the public (hiring paths include public and fed-transition), so no federal status is needed.",
+  "Need one full year (52 weeks) of specialized experience equivalent to GS-12 covering all four areas: construction/renovation surveys and site inspections, space-efficiency project planning, project management from initiation to completion, and cost analysis for long-range space plans.",
+  "Education cannot substitute for experience at GS-13.",
+  "Security clearance is listed as 'Other', so expect a background investigation; confirm the details on the full announcement.",
+  "Applications are accepted only from Oct 20 to Nov 10, 2026, and you must meet all qualifications by the closing date."
+ ],
+ "keywords": [
+  "Project Manager",
+  "small-to-large projects from initiation to completion",
+  "surveys and site inspections",
+  "construction and renovation projects",
+  "efficient use of space",
+  "construction management",
+  "site organization",
+  "customer coordination",
+  "cost analysis",
+  "budget projections",
+  "long-range space or expansion plans",
+  "floor plans",
+  "GSA reimbursable work authorizations",
+  "Contracting Officer's Representative (COR)",
+  "real property"
+ ],
+ "strategy": [
+  "First, check honestly whether you have a full year at roughly GS-12 level doing facility, construction, or space projects. If you don't, skip this posting rather than overstating; the posting warns that inflated answers lead to removal.",
+  "If your IEM work included facility assessments, recovery construction oversight, site inspections, or project cost estimating, describe it in the posting's exact language and give dates and hours per week.",
+  "Preview the questionnaire (link in the posting) before applying, and answer only at the level your resume clearly supports.",
+  "Keep the resume to two pages, putting a short specialized-experience section for this job at the top of your IEM entry.",
+  "Use this posting to identify better-fit targets, such as FEMA or state VDEM program and outreach roles, 0301 program analyst roles, or legislative and constituent-services jobs that use your policy and relationship skills."
+ ],
+ "resume_bullets": [
+  "Managed [number] [type of facility/recovery] projects from initiation to completion for [client agency], coordinating schedules, contractors, and customers; projects valued at [$ amount].",
+  "Conducted [number] site inspections and surveys of [facilities/damaged structures] to assess [specific items], documenting findings in [report type] for [audience].",
+  "Prepared cost analyses and budget projections for [project/program], supporting [client]'s long-range planning decisions on [topic]."
+ ],
+ "interview_questions": [
+  "Walk us through a space or renovation project you managed from start to finish.",
+  "How would you resolve a layout conflict when a division expands but no additional space is available?",
+  "Describe how you verified a contractor's work and invoices before approving payment.",
+  "How do you build a cost estimate for a new space or expansion request?"
+ ],
+ "watch_outs": [
+  "The specialized-experience requirement is technical facilities/construction work that Daniel's known background likely doesn't meet, and no education substitution is allowed.",
+  "The job is essentially on site, with only about 52 hours of telework per year; it is a reasonable commute from Manassas, but plan for daily travel.",
+  "COR duties normally require COR certification training, which you could complete after hire."
+ ],
+ "job_id": "usajobs:889458200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

@@ -1,0 +1,54 @@
+{
+ "one_liner": "Rehiring retired, already-trained federal criminal investigators to protect congressional leadership and Members of Congress on a term appointment of up to 4 years.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a reemployed-annuitant role for retired law enforcement agents. It requires completed FLETC CITP, USCP BATP, or equivalent agent training, plus five years in the 1811 criminal investigator series. Nothing on file suggests Daniel has either, so Daniel would not meet the minimum qualifications despite strong policy knowledge and people skills.",
+ "eligibility": [
+  "Reemployed annuitant position: intended for retirees, with a dual compensation offset waiver for approved rehires; the hiring path is listed as public, but the qualifications effectively limit it to former federal agents.",
+  "Must have completed FLETC CITP, USCP BATP, or an equivalent FBI, DEA, or USPIS program, and must include the certificate or transcript with the application.",
+  "Must have at least five years of 1811-series experience at the time of application; this is waived only for prior USCP employees.",
+  "Must be under 58 at appointment and be a U.S. citizen with a valid REAL ID driver's license.",
+  "Must obtain and maintain a Top Secret/SCI clearance and pass a polygraph, medical exam, psychological exam, and full field background investigation."
+ ],
+ "keywords": [
+  "protective functions",
+  "advance security surveys",
+  "congressional leadership",
+  "personal security",
+  "protective coverage",
+  "Members of Congress",
+  "risk mitigation",
+  "threat assessment",
+  "security arrangements",
+  "domestic and international travel",
+  "congressional events",
+  "Sergeant at Arms",
+  "1811 series",
+  "Criminal Investigator Training Program"
+ ],
+ "strategy": [
+  "Do not apply to this posting; without CITP or BATP credentials and 1811 experience, the application will be screened out automatically.",
+  "Look instead at USCP civilian roles that fit your background, such as emergency management, continuity, or intelligence and threat analysis support; the Sergeant at Arms offices also post preparedness jobs.",
+  "If a sworn career appeals to you, watch for entry-level USCP Police Officer announcements, which train new hires and later open paths to the Special Agent role.",
+  "Frame your IEM work around preparedness planning, coordination with government clients, and event or risk planning, using your actual title and duties.",
+  "Pursue legislative-branch roles such as congressional staff positions or House and Senate emergency preparedness offices, where your policy knowledge and relationship skills are direct strengths.",
+  "Keep any federal resume to two pages and state dates, hours per week, and specialized experience briefly."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] emergency preparedness efforts at IEM by [specific duty, e.g., drafting plans or coordinating exercises] for [scope/population].",
+  "Coordinated with [number/type] federal, state, and local stakeholders to [task], resulting in [actual outcome]."
+ ],
+ "interview_questions": [
+  "Describe your experience planning security or preparedness for a large event.",
+  "How would you coordinate with multiple agencies during a fast-moving incident?",
+  "Tell us about a time you handled a difficult member of the public or a VIP.",
+  "Why do you want to support Congress specifically?"
+ ],
+ "watch_outs": [
+  "Daniel does not meet the hard minimums (FLETC CITP or equivalent training and five years of 1811 experience).",
+  "The job requires TS/SCI clearance and a polygraph, involves 24/7 shift work with nights, weekends, and holidays, and has no telework.",
+  "Travel for hiring assessments is at the applicant's own expense."
+ ],
+ "job_id": "usajobs:887097800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

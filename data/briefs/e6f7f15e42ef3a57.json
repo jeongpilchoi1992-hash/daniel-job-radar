@@ -1,0 +1,54 @@
+{
+ "one_liner": "Run Alexandria's city rental assistance programs day to day: income eligibility, tenant and landlord relationships, compliance, and reporting for low-to-moderate income households.",
+ "fit_rating": "Good",
+ "fit_summary": "Your IEM consulting work likely touched disaster recovery and housing assistance for government clients, and your policy knowledge and public-facing strengths fit a role that serves residents and informs City housing policy. The gap is direct rental assistance administration (income certification, subsidy rules), so frame any eligibility, case, or grant-compliance work you did as transferable.",
+ "eligibility": [
+  "Local government job open to the public; no federal status, clearance, or veterans' preference needed based on the excerpt.",
+  "Minimum education and experience requirements are cut off in the excerpt. Read the full posting on governmentjobs.com for any degree or years of housing or program experience required.",
+  "Check whether certifications are required or preferred, such as tax credit or housing quality inspection credentials. The excerpt does not say.",
+  "Confirm any driver's license requirement and the in-person work expectation. Remote work is listed as not available."
+ ],
+ "keywords": [
+  "rental assistance programs",
+  "day-to-day administration",
+  "income",
+  "low-to-moderate income",
+  "subsidized housing",
+  "permanent supportive housing",
+  "housing stability",
+  "self-sufficiency",
+  "housing policy",
+  "affordable housing",
+  "housing-related programs and services",
+  "Office of Housing",
+  "City Manager and City Council",
+  "recommendations"
+ ],
+ "strategy": [
+  "Pull the full posting and mirror its minimum qualifications and duties line by line. The excerpt cuts off at 'including income...', which likely refers to income eligibility and recertification.",
+  "Frame your IEM work in program terms. Describe any disaster housing, individual assistance, applicant eligibility review, documentation, or compliance support you did for government clients, using your actual title and duties.",
+  "Highlight your people skills as tenant, landlord, and nonprofit partner relationship management and clear communication with residents in stressful situations.",
+  "Use your policy knowledge to show you understand HUD and local affordable housing context. Learn the basics of Alexandria's housing master plan and income limits (AMI) before applying.",
+  "Answer every supplemental question in full with specific examples. Do not write 'see resume'; local HR often scores those answers. The two-page federal limit does not apply here, but keep the resume tight and relevant.",
+  "Apply well before the November 26, 2026 close, which falls on Thanksgiving. Submit by mid-November."
+ ],
+ "resume_bullets": [
+  "Supported [government client] in administering [disaster recovery/housing assistance program], reviewing [number] applicant files for eligibility and documentation compliance.",
+  "Served as liaison between [client agency] and [residents/landlords/partners], resolving [type of issues] and improving [process or turnaround] by [result, if known].",
+  "Prepared [reports/briefings] on [program metrics or policy topics] for [agency leadership], informing decisions on [topic]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would verify income eligibility for an applicant whose documentation is incomplete.",
+  "Tell us about a time you handled an upset resident or client while still following program rules.",
+  "How would you balance timely assistance with compliance and audit requirements?",
+  "What do you know about Alexandria's affordable housing challenges, and how does rental assistance fit into them?"
+ ],
+ "watch_outs": [
+  "The deadline is November 26, 2026, which is Thanksgiving. Submit early in case of system or HR delays.",
+  "Experience or degree requirements were not visible in the excerpt. A required number of years of housing program experience could be a hurdle.",
+  "The commute from Manassas to Alexandria is significant, and remote work is not offered."
+ ],
+ "job_id": "neogov:alexandria:5534058",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

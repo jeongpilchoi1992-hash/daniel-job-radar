@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior Program Security Officer at the Pentagon overseeing information, personnel, and physical security compliance for Air Force Special Access Programs across multiple acquisition portfolios.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GG-15 role requires senior-level, hands-on expertise in SAP security policy, SAPF accreditation, and DoD/IC program security, plus SCI eligibility. Nothing on file shows Daniel has security-program experience or a clearance, and emergency-management consulting and policy knowledge do not substitute for it. Daniel should apply only with substantial documented SAP security work that is not currently on file.",
+ "eligibility": [
+  "Open to the public (excepted service, DCIPS), so no federal status is needed, but veterans' preference applies to eligible applicants.",
+  "Your resume must show GS-15-equivalent experience: extensive SAP information, industrial, and personnel security knowledge, plus DoD, Air Force, and Intelligence Community program management policy.",
+  "The position is Special Sensitive and requires SCI eligibility or Top Secret SAP access, a non-disclosure agreement, and drug testing.",
+  "You need a valid driver's license and must earn the DoD Security Fundamentals Professional Certification (SFPC) within 2 years of starting."
+ ],
+ "keywords": [
+  "Special Access Programs (SAP)",
+  "Program Security Officer (PSO)",
+  "Access Management Control Plan (AMCP)",
+  "Security Classification Guidance (SCGs)",
+  "Special Access Program Facilities (SAPF)",
+  "Personnel Security Program",
+  "Physical Security Program",
+  "Information Systems Security Program",
+  "industrial security",
+  "research and technology protection",
+  "security education and motivation programs",
+  "Intelligence Community",
+  "classified mission requirements",
+  "policy interpretation and guidance",
+  "high-ranking officials"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work involved any classified, SAP, personnel, or physical security program duties. If it did not, skip this posting and target GS-9 to GS-12 emergency management or program analyst roles at FEMA, DHS, or Virginia VDEM.",
+  "If you do have relevant security work, describe it in your two-page resume using the posting's exact terms (SAP, SAPF, AMCP, personnel security), with dates and hours per week for each job.",
+  "Answer the questionnaire conservatively and only claim expert levels your resume clearly supports. Contradictions between your answers and resume produce a 'not qualified' rating.",
+  "Frame your strengths in relationship-building and briefing senior officials against KSA 6, but recognize this does not cover the core technical KSAs.",
+  "The posting is open October 30 to November 12, 2026, so submit early and confirm all documents upload correctly."
+ ],
+ "resume_bullets": [
+  "Supported [government client] on [emergency management/preparedness program] as [your title], coordinating [number] stakeholders and producing [plans/policy guidance] for [audience] ([hours]/week, [dates]).",
+  "Interpreted [federal policy/regulation] and advised [client officials] on compliance, resulting in [outcome you can document].",
+  "Briefed [senior officials/agency leadership] orally and in writing on [topic], informing decisions on [program/area]."
+ ],
+ "interview_questions": [
+  "Describe how you have directed a SAP personnel, physical, or information security program across multiple program offices.",
+  "How would you handle a PEO pushing back on an AMCP or SCG requirement?",
+  "Walk us through SAPF accreditation and the documentation you would require.",
+  "How do you design security education programs for government and contractor PSOs?"
+ ],
+ "watch_outs": [
+  "SCI or TS/SAP eligibility is required, and you have no clearance on file.",
+  "This is a GS-15-equivalent senior expert role, and your known background does not show the required specialized SAP security experience.",
+  "SFPC certification is mandatory within 2 years, and the position carries drug testing and key-position designation."
+ ],
+ "job_id": "usajobs:890801700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

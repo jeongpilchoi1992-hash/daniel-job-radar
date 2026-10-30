@@ -1,0 +1,55 @@
+{
+ "one_liner": "A standing Library of Congress resume database for applicants with certified severe disabilities, used to fill jobs noncompetitively in any series or grade over two years.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This program is open only to applicants who can submit a certification of a severe disability, and nothing on file indicates Daniel has one. If Daniel does qualify, the fit is good: the Library's Congressional Liaison, Social Science Analyst, Public Affairs and Program Analyst roles match Daniel's policy knowledge, people skills and IEM government-client experience.",
+ "eligibility": [
+  "Limited to applicants with a targeted or severe disability, documented by a certificate from a State Vocational Rehabilitation Office, a college disability or career services office, or the VA.",
+  "The disability certification must be dated within 3 years of the closing date (Nov 25, 2026) and submitted with the application, or the application will not be considered.",
+  "Each vacancy requires qualifications under the OPM qualification standards for its series and grade, meaning progressively responsible experience at the needed level.",
+  "Some series require specific degrees or training, and transcripts and certifications must be uploaded at the time of application.",
+  "Security clearance is listed as 'Other', so a background investigation will likely be required."
+ ],
+ "keywords": [
+  "Selective Placement Program",
+  "Congressional Liaison",
+  "Communication and Public Affairs",
+  "Social Science Analyst",
+  "Management or Program Analyst",
+  "Foreign Affairs Specialist",
+  "progressively responsible experience",
+  "knowledge, skills, and abilities",
+  "duties and responsibilities",
+  "hours worked per week",
+  "Administrative Management and Support",
+  "Library of Congress",
+  "competencies"
+ ],
+ "strategy": [
+  "First confirm eligibility: apply only if you have, or can obtain, a severe-disability certification (for example, through Virginia's DARS vocational rehabilitation office) dated within 3 years. If not, skip this posting and target open Library of Congress or congressional vacancies instead.",
+  "Because this is a two-year resume database, tailor the resume toward 2-3 target series (Congressional Liaison, Public Affairs, Program Analyst) so that managers pulling lists can quickly see the match.",
+  "Frame the IEM role by its actual duties: government client relationships, stakeholder coordination, policy or program analysis, and preparedness or recovery program support. Include dates, hours per week and concrete scope for each.",
+  "The posting allows longer resumes, but keep the main resume concise (two pages is safest under OPM's rule) and put detail in clear duty statements rather than long narratives.",
+  "Upload all documents at once: the disability certificate, the resume, and any transcripts. Contact spp@loc.gov or 202-707-6024 with any questions about certification.",
+  "Apply early rather than near the November 2026 close, since lists can be pulled at any time."
+ ],
+ "resume_bullets": [
+  "Served as [title] at IEM, supporting [federal/state/local agency] clients on [emergency management/disaster recovery program], coordinating with [number/type] of stakeholders ([hours] hrs/week).",
+  "Researched and analyzed [policy/regulation/program topic] and produced [briefs/reports] used by [client or leadership] to [decision or action].",
+  "Built working relationships with [elected officials/agency staff/public groups] by [method], resulting in [outcome you can verify]."
+ ],
+ "interview_questions": [
+  "Describe a time you explained a complex policy issue to a non-expert audience.",
+  "How have you managed relationships with government clients or stakeholders who had competing priorities?",
+  "Tell us about a research or analysis project you led from start to finish.",
+  "Why do you want to work at the Library of Congress, and in which service unit?"
+ ],
+ "watch_outs": [
+  "Disability certification is mandatory; without it, Daniel cannot be considered under this program.",
+  "This is a resume database, not a specific job, so there may be no contact for months.",
+  "The program confers no promotion eligibility, and the positions are on-site with no telework.",
+  "Some target series may require specific degrees, so check the OPM standard for each series before claiming qualification."
+ ],
+ "job_id": "usajobs:850999700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

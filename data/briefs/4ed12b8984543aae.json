@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Executive Service leader running the Forest Service's national wildland fire workforce, employee well-being, budget, procurement, and data systems programs from DC.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a career SES role that requires proven executive-level leadership of large organizations, budgets, and people, plus wildland fire management expertise (TQ1). Daniel's emergency-management consulting background at IEM and strong policy knowledge are relevant, but nothing on file shows executive-level supervision or wildland fire operations. A QRB is unlikely to certify that background against the ECQs.",
+ "eligibility": [
+  "Open to the public (hiring paths: fed-competitive, ses, public), so no federal status is needed to apply.",
+  "Your resume alone must demonstrate all five ECQs and both TQs, including wildland fire management and dealing with Congress and the media. Applicants who don't show them are ruled ineligible.",
+  "Selectees must be certified by OPM's SES Qualifications Review Board before appointment, then serve a one-year probationary period.",
+  "A Top Secret clearance is listed. It is likely obtained after selection, but you must be able to pass a background investigation.",
+  "No education requirement."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "wildland fire management",
+  "fire workforce",
+  "employee well-being",
+  "business management",
+  "national budgeting",
+  "financial planning",
+  "contract management",
+  "procurement strategies",
+  "stewardship of federal funds",
+  "cooperative agreements",
+  "partnerships",
+  "data analytics",
+  "Driving Efficiency",
+  "Congress, senior government officials"
+ ],
+ "strategy": [
+  "Be realistic. Unless your IEM work included directing large teams or multimillion-dollar programs, use this posting to learn what SES boards expect rather than as a primary target.",
+  "If you apply, keep to the strict 2-page limit (0.8-inch margins, 11-point font) and label your accomplishments by ECQ. Do not submit separate ECQ or TQ narratives.",
+  "Frame your IEM experience around government-client disaster recovery and preparedness programs. Quantify any budgets, staff, jurisdictions, or federal funds you managed, using only true figures.",
+  "Use your policy and relationship strengths for ECQ1 (Knowledge of the American System of Government) and TQ2 (Congress, media, officials). Give concrete examples of stakeholder engagement.",
+  "Apply between Oct 16 and Nov 6, 2026, and complete the USA Staffing questionnaire. In parallel, target GS-11/12/13 FEMA, emergency management, or program analyst roles and Virginia or NoVA emergency management jobs where you're competitive."
+ ],
+ "resume_bullets": [
+  "Supported [government client] disaster recovery program totaling [$ amount], coordinating [number] federal, state, and local stakeholders to [specific outcome].",
+  "Led [team size] staff on [preparedness/recovery project], improving [process/metric] by [result] through [technology or process upgrade].",
+  "Briefed [senior officials/elected officials/media] on [policy issue], resulting in [decision or outcome]."
+ ],
+ "interview_questions": [
+  "Describe a time you led a large, geographically distributed organization through change and held people accountable.",
+  "How have you cut wasteful spending or improved efficiency in a budget you controlled?",
+  "How would you represent the Forest Service's wildland fire priorities before Congress and the media?",
+  "What experience do you have with wildland fire operations or policy?"
+ ],
+ "watch_outs": [
+  "SES level: the QRB requires demonstrated executive experience, which your record likely doesn't yet show.",
+  "TQ1 requires wildland fire management expertise that isn't in your background.",
+  "A Top Secret clearance is required, and the position is based onsite in DC with telework eligibility, not remote.",
+  "Resumes longer than 2 pages may be disqualified."
+ ],
+ "job_id": "usajobs:888951500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

@@ -1,0 +1,56 @@
+{
+ "one_liner": "Hands-on mechanic repairing and maintaining U.S. Capitol Police fleet vehicles and installing police emergency equipment like lights, sirens and radios.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a skilled trades job requiring a year of hands-on automotive repair experience and current ASE certifications in five areas, none of which appear in your background. Your emergency-management consulting, policy knowledge and people skills don't substitute, and the posting says there is no education substitution. Only apply if you actually hold the ASE certifications and mechanic experience; otherwise target USCP or legislative-branch roles in administration, outreach or emergency preparedness.",
+ "eligibility": [
+  "Open to the public; U.S. citizenship required, no federal status needed.",
+  "One year (52 weeks) of specialized automotive repair experience equivalent to CP-06/GS-08 (overhauling components, brake/engine/valve adjustments, diagnostics, HVAC servicing).",
+  "Current ASE certifications in all five areas (Suspension and Steering, Brakes, Electrical/Electronic Systems, Heating and Air Conditioning, Engine Performance), and copies must be attached or the application is incomplete.",
+  "No education substitution for experience at this grade.",
+  "Must pass a full field background investigation and a one-year probationary period."
+ ],
+ "keywords": [
+  "fleet vehicles",
+  "preventive maintenance",
+  "police emergency equipment",
+  "diagnosing",
+  "troubleshooting",
+  "repair diagnoses",
+  "overhauling major components",
+  "replacing defective parts",
+  "adjusting brakes",
+  "electrical and ignition",
+  "heating and air conditioning",
+  "steering and suspension",
+  "engines and transmissions",
+  "fuel and injection systems",
+  "test equipment"
+ ],
+ "strategy": [
+  "Be honest first: if you lack ASE certifications in all five areas and a year of hands-on repair work, don't apply, because the questionnaire and documents will screen you out.",
+  "Instead, use this posting as a lead to watch USCP and other Legislative Branch openings in administration, community outreach, emergency preparedness or operations planning, where your IEM experience fits.",
+  "Frame your IEM work around concrete duties you actually did, such as preparedness planning, government client coordination and disaster recovery support, for those better-fit roles.",
+  "If you do have mechanic experience, list each job with dates, hours per week and specific repair tasks using the posting's terms, within the two-page USAJOBS limit.",
+  "Upload all five current ASE certificates and address the KSAs in narrative responses before the November 5, 2026 close."
+ ],
+ "resume_bullets": [
+  "[Only if true] Diagnosed and repaired [vehicle types] brake, steering and suspension systems using [test equipment], completing [number] repairs per [week/month]; [hours] hrs/week, [dates].",
+  "[Only if true] Performed preventive maintenance and service inspections on a fleet of [number] vehicles, including installing [emergency lighting/radios/sirens].",
+  "[For better-fit roles] Coordinated [preparedness/recovery task] with [government client type] at IEM, supporting [specific program or deliverable]; [hours] hrs/week, [dates]."
+ ],
+ "interview_questions": [
+  "Walk us through how you diagnose an intermittent electrical fault on a fleet vehicle.",
+  "Describe your experience installing and troubleshooting emergency lights, sirens and radios.",
+  "How do you prioritize repairs when several mission-critical vehicles are down at once?",
+  "How do you check completed work for quality and safety?"
+ ],
+ "watch_outs": [
+  "ASE certifications in all five areas are mandatory and must be attached, a hard disqualifier without them.",
+  "Two-week application window (Oct 22 to Nov 5, 2026).",
+  "On-site DC work with no telework, so expect a commute from Manassas.",
+  "Full field background investigation and one-year probation."
+ ],
+ "job_id": "usajobs:889832700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

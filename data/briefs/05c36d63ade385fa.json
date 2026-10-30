@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior Executive at the Pentagon leading the Air Force's roughly $60B manpower program: policy, organizational structure, requirements, and PPBE programming for Total Force end strength.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires expert, executive-level manpower resource management at HQ Air Force level or above, plus deep PPBE and NDAA knowledge. Your emergency-management consulting and policy knowledge don't map to these mandatory technical qualifications, and failing either TQ eliminates a candidate. Apply only if your IEM work included senior DoD manpower or PPBE leadership, which isn't on file.",
+ "eligibility": [
+  "Open to the public under SES hiring paths, so no federal status is required, but this is a career SES appointment requiring executive-level experience.",
+  "Mandatory TQ1: expert manpower resource management at HQ Air Force level or above, including PPBE, NDAA, the National Defense Strategy review process, and the Air Force Manpower Resource Allocation Process.",
+  "Mandatory TQ2: executive-level experience formulating manpower policy within the Department of War (DoD) or an organization of equivalent size, leading department- and national-level decisions.",
+  "Requires a Sensitive Compartmented Information (SCI) clearance, which you are not known to hold.",
+  "A bachelor's degree is desired and an advanced technical or management degree is highly desired; neither is strictly required."
+ ],
+ "keywords": [
+  "manpower resource management",
+  "Planning, Programming, and Budget Execution (PPBE)",
+  "manpower requirements",
+  "organizational structures",
+  "manpower requirement sizing methodologies",
+  "National Defense Authorization Act",
+  "National Defense Strategy",
+  "Total Force",
+  "end strengths",
+  "Air Force Manpower Resource Allocation Process",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "Enterprise Perspective",
+  "rule of law"
+ ],
+ "strategy": [
+  "Be honest with yourself first: unless you led DoD manpower or PPBE programs at an executive level, put your effort into GS-9 to GS-12 analyst roles (for example, management and program analyst or emergency management specialist at FEMA or DHS) where your IEM background fits.",
+  "If you do apply, write every bullet to show TQ1 and TQ2 directly with specific, recent (within 10 years) accomplishments, budgets, and scope, because the panel screens the resume alone.",
+  "Embed the five ECQs and the Enterprise Perspective in your accomplishments rather than writing separate narratives, and keep the resume to two pages.",
+  "Frame your IEM work around government-client resource planning, organizational design, and budget or program support, using only what you actually did.",
+  "Seek review from a current SES member, as the Air Force encourages, and submit well before the November 2, 2026 deadline."
+ ],
+ "resume_bullets": [
+  "Led [team size] staff in developing [resource/staffing] requirements for [government client], aligning [number] positions and $[budget] to mission needs and adopted by [decision-maker].",
+  "Advised [agency] executives on [policy/program] during [disaster/preparedness effort], coordinating [number] federal, state, and local partners to deliver [specific outcome]."
+ ],
+ "interview_questions": [
+  "Describe how you have developed, defended, or amended a program and budget through PPBE.",
+  "Tell us about a time you built a manpower requirements methodology and drove its adoption across an enterprise.",
+  "How have you led an organization through change while holding people accountable?",
+  "How would you balance active duty and civilian end strength against wartime requirements?"
+ ],
+ "watch_outs": [
+  "The mandatory TQs require senior DoD manpower experience you likely lack, and the panel eliminates anyone who doesn't meet them.",
+  "An SCI clearance is required, and there is no telework at the Pentagon.",
+  "The application window is short (October 19 to November 2, 2026), and SES packages take significant time to prepare."
+ ],
+ "job_id": "usajobs:889070300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}
