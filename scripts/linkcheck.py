@@ -21,8 +21,8 @@ from common import parse_date
 # "applications are accepted until the position has been filled".
 _LEAD = r"(?:^|[.!?|:]\s*|\bsorry,?\s*)"  # a status line starts a sentence; "after the posting has closed" does not
 CLOSED_PATTERNS = re.compile(
-    rf"{_LEAD}(?:the |this )?(?:job )?(?:posting|vacancy|job|position) (?:has )?(?:expired|closed)\b|"
-    r"\bthis (?:job )?(?:posting|vacancy|job|position) (?:has )?(?:expired|closed)\b|"
+    rf"{_LEAD}(?:the |this )?(?:job )?(?:posting|vacancy|job|position|announcement) (?:has )?(?:expired|closed)\b|"
+    r"\bthis (?:job )?(?:posting|vacancy|job|position|announcement) (?:has )?(?:expired|closed)\b|"
     rf"{_LEAD}(?:the|this) (?:job|position|posting|vacancy|requisition|opportunity) (?:you are looking for |you requested )?"
     r"(?:is|has been) (?:no longer|closed|filled|removed|expired)|"
     r"\bthis (?:job|position|posting|vacancy|requisition|opportunity) (?:is|has been) (?:no longer|closed|filled|removed|expired)|"

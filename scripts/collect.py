@@ -226,12 +226,13 @@ def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[d
 
 def drop_ai_duplicates(jobs: list[dict], ai_found: list[dict], log) -> list[dict]:
     """Show a posting once: the AI-found copy (with its brief) wins over the same posting from a daily source."""
-    keys = {(urlparse(j["url"]).netloc.lower(), posting_key(j["url"])) for j in ai_found}
+    # Hosts are compared without ports: the USAJOBS feed links www.usajobs.gov:443.
+    keys = {(urlparse(j["url"]).hostname, posting_key(j["url"])) for j in ai_found}
     # The AI search sometimes linked a page inside a posting (its announcement), so a posting also matches its sub-pages.
-    paths = [(urlparse(j["url"]).netloc.lower(), urlparse(j["url"]).path.rstrip("/") + "/") for j in ai_found]
+    paths = [(urlparse(j["url"]).hostname, urlparse(j["url"]).path.rstrip("/") + "/") for j in ai_found]
     kept = []
     for job in jobs:
-        host = urlparse(job["url"]).netloc.lower()
+        host = urlparse(job["url"]).hostname
         path = urlparse(job["url"]).path.rstrip("/") + "/"
         if (host, posting_key(job["url"])) in keys or any(h == host and p.startswith(path) and path.count("/") > 2 for h, p in paths):
             continue
