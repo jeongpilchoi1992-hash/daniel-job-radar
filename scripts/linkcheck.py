@@ -75,16 +75,16 @@ def verify(session, job: dict, today: date) -> tuple[str, str]:
 def refresh(session, name: str, jobs: list[dict], today: date, log, live_boards: dict[str, set[str]] | None = None) -> list[dict]:
     """Re-verify every AI-found posting and drop dead or stale ones.
 
-    live_boards maps a job board to the postings it lists today (only for boards
-    read in full), so a posting that left its employer's board is removed even
-    when its page still loads.
+    live_boards maps a job board (or a host such as the Senate's job board) to the
+    postings it lists today, only for boards read in full, so a posting that left
+    its board is removed even when its page still loads.
     """
     kept = []
     unreachable: set[str] = set()
     for job in jobs:
         board = detect(job["url"])
-        listed = (live_boards or {}).get(board_id(board)) if board else None
         host = urlparse(job["url"]).netloc.lower()
+        listed = (live_boards or {}).get(board_id(board) if board else host)
         if listed is not None and posting_key(job["url"]) not in listed:
             status, note = "dead", "no longer listed on the employer's job board"
         elif host in unreachable:

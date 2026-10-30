@@ -11,7 +11,44 @@
     "include_remote": true
   },
   "virginia": {
-    "max_pages": 200
+    "cities": [
+      "Alexandria",
+      "Arlington",
+      "Berryville",
+      "Centreville",
+      "Chantilly",
+      "Culpeper",
+      "Culpeper County",
+      "Dumfries",
+      "Fairfax",
+      "Fairfax County",
+      "Falls Church",
+      "Fauquier County",
+      "Frederick County",
+      "Fredericksburg",
+      "Front Royal",
+      "King George",
+      "Leesburg",
+      "Loudoun County",
+      "Manassas",
+      "Manassas Park",
+      "Prince William",
+      "Spotsylvania",
+      "Spotsylvania Courthouse",
+      "Stafford",
+      "Stafford County",
+      "Sterling, VA",
+      "Warrenton",
+      "Washington",
+      "Winchester",
+      "Woodbridge",
+      "Woodbridge, Virginia",
+      "Remote"
+    ],
+    "delay_seconds": 65,
+    "blocked_wait_seconds": 330,
+    "blocked_retries": 2,
+    "max_pages": 20
   },
   "neogov_agencies": [
     {
@@ -33,12 +70,6 @@
       "default_location": "Manassas, VA"
     },
     {
-      "slug": "arlington",
-      "name": "Arlington County Government",
-      "level": "Local",
-      "default_location": "Arlington, VA"
-    },
-    {
       "slug": "alexandria",
       "name": "City of Alexandria",
       "level": "Local",
@@ -49,6 +80,54 @@
       "name": "Loudoun County Government",
       "level": "Local",
       "default_location": "Leesburg, VA"
+    },
+    {
+      "slug": "stafford",
+      "name": "Stafford County",
+      "level": "Local",
+      "default_location": "Stafford, VA"
+    },
+    {
+      "slug": "fairfaxva",
+      "name": "City of Fairfax",
+      "level": "Local",
+      "default_location": "Fairfax, VA"
+    },
+    {
+      "slug": "leesburgva",
+      "name": "Town of Leesburg",
+      "level": "Local",
+      "default_location": "Leesburg, VA"
+    },
+    {
+      "slug": "vienna",
+      "name": "Town of Vienna",
+      "level": "Local",
+      "default_location": "Vienna, VA"
+    },
+    {
+      "slug": "culpeper",
+      "name": "Culpeper County",
+      "level": "Local",
+      "default_location": "Culpeper, VA"
+    },
+    {
+      "slug": "frontroyalva",
+      "name": "Town of Front Royal",
+      "level": "Local",
+      "default_location": "Front Royal, VA"
+    },
+    {
+      "slug": "fcva",
+      "name": "Frederick County, VA",
+      "level": "Local",
+      "default_location": "Winchester, VA"
+    },
+    {
+      "slug": "fairfaxwater",
+      "name": "Fairfax Water",
+      "level": "Local",
+      "default_location": "Fairfax, VA"
     }
   ],
   "ai_min_score": 50,

@@ -12,12 +12,17 @@ Closed postings drop off automatically, and every job links to its official post
 | Source | What it covers | How |
 | --- | --- | --- |
 | USAJOBS Search API | Federal jobs within 50 miles of Manassas, plus remote federal jobs | Official API (free key) |
-| jobs.virginia.gov | Commonwealth of Virginia agencies | Public search pages, filtered by distance |
-| governmentjobs.com | Fairfax, Prince William, Manassas, Arlington, Alexandria, Loudoun, and any county or city board learned from the launch search | Public listing pages |
+| U.S. Senate Employment Office | Senate member, committee and officer jobs in DC and nearby (internships left out) | Public job board |
+| U.S. House career sites | Member, committee and House officer jobs in DC and nearby | Public career-site search |
+| DC Council | Council jobs | Public RSS feed |
+| jobs.virginia.gov | Commonwealth of Virginia agencies in nearby cities, plus remote state jobs | Public search pages, filtered to nearby cities |
+| governmentjobs.com | Fairfax County, City of Fairfax, Fairfax Water, Prince William, Manassas, Alexandria, Loudoun, Leesburg, Vienna, Stafford, Culpeper, Front Royal, Frederick County, and any county or city board learned from the launch search | Public listing pages |
 | Employer job boards (Workday, Greenhouse, Lever, SmartRecruiters, Ashby) | Finance roles at employers found by the launch search for J.P. | Public job-board APIs |
 | Launch-day AI search | Congressional, General Assembly and other postings no feed covers; J.P.'s international and Korea-focused roles | Claude with web search, run once at launch |
 
 governmentjobs.com sometimes stops answering cloud servers part way through a run. When that happens, the site keeps each county's earlier listings until their closing dates and fills in the rest on the next run.
+
+jobs.virginia.gov challenges clients that send more than about six requests in five minutes, so the refresh asks only for nearby cities, reads 50 jobs per page, and waits about a minute between pages (roughly ten minutes per run). Arlington County moved its hiring to its own site, which blocks automated visitors, so Arlington County jobs appear only when the launch search found them.
 
 ## AI use and cost
 
@@ -31,4 +36,4 @@ For jobs without a stored brief, the site's "Ask Claude" button opens claude.ai 
 2. Settings → Pages → Source: **GitHub Actions**.
 3. The workflow runs at 6:15 AM and 6:15 PM Eastern, on every push to `main`, and on demand from the Actions tab.
 
-Settings live in `config/settings.json` (home location, radius, county job boards) and `config/boards.json` (extra employer job boards for J.P.'s tab, optional).
+Settings live in `config/settings.json` (home location, radius, nearby Virginia cities, county job boards) and `config/boards.json` (extra employer job boards for J.P.'s tab, optional).

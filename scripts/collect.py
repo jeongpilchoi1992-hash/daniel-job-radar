@@ -15,6 +15,7 @@ import time
 import traceback
 from datetime import date, datetime
 from pathlib import Path
+from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -22,9 +23,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import PartialResult, SourceSkipped, job_key, make_session, parse_date  # noqa: E402
 from boards import detect as detect_board  # noqa: E402
 from boards import board_id, fetch_board, infer_focus, posting_key, relevant, to_site_job  # noqa: E402
+from legislature import LISTED, fetch_dc_council, fetch_house, fetch_senate  # noqa: E402
 from linkcheck import refresh as refresh_links  # noqa: E402
 from scoring import keywords_in, score_job, tags_for  # noqa: E402
-from sources import NeogovGate, fetch_neogov, fetch_usajobs, fetch_virginia, virginia_detail  # noqa: E402
+from sources import NeogovGate, fetch_neogov, fetch_usajobs, fetch_virginia  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -58,6 +60,9 @@ def collect_daniel(session, settings: dict, today: date, previous: dict[str, dic
     home = (settings["home"]["lat"], settings["home"]["lon"])
     radius = int(settings.get("radius_miles", 50))
     plans = [("usajobs", "USAJOBS (federal)", lambda: fetch_usajobs(session, settings.get("usajobs", {}), home))]
+    plans.append(("senate", "U.S. Senate", lambda: fetch_senate(session, home, radius)))
+    plans.append(("house", "U.S. House of Representatives", lambda: fetch_house(session, home, radius)))
+    plans.append(("dccouncil", "Council of the District of Columbia", lambda: fetch_dc_council(session, home, radius)))
     plans.append(("virginia", "Commonwealth of Virginia", lambda: fetch_virginia(session, settings.get("virginia", {}), home, radius)))
     configured = {a["slug"] for a in settings.get("neogov_agencies", [])}
     agencies = settings.get("neogov_agencies", []) + [a for a in learned_agencies if a["slug"] not in configured]
@@ -185,6 +190,25 @@ def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, l
     return sorted(out.values(), key=lambda j: -j["match"]["score"]), live
 
 
+def _norm_title(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (title or "").lower()).strip()
+
+
+def drop_ai_duplicates(jobs: list[dict], ai_found: list[dict], log) -> list[dict]:
+    """Show a posting once: the AI-found copy (with its brief) wins over the same posting from a daily source."""
+    keys = {(urlparse(j["url"]).netloc.lower(), posting_key(j["url"])) for j in ai_found}
+    titles = [_norm_title(j["title"]) for j in ai_found if urlparse(j["url"]).netloc.lower().endswith("dccouncil.gov")]
+    kept = []
+    for job in jobs:
+        host = urlparse(job["url"]).netloc.lower()
+        if (host, posting_key(job["url"])) in keys or (host.endswith("dccouncil.gov") and any(t.startswith(_norm_title(job["title"])) for t in titles)):
+            continue
+        kept.append(job)
+    if len(kept) < len(jobs):
+        log(f"[dedupe] {len(jobs) - len(kept)} postings already shown as AI-found jobs")
+    return kept
+
+
 def export_ai_input(jobs: list[dict], details: dict[str, str], briefs_dir: Path, discovered_doc: dict, session, limit: int = 300) -> None:
     """One-time launch step: hand the best matches (with full posting text) to the AI build."""
     pool = [
@@ -196,13 +220,8 @@ def export_ai_input(jobs: list[dict], details: dict[str, str], briefs_dir: Path,
     pool.sort(key=lambda j: (-j["match"]["score"], j.get("closes") or "9999"))
     out = []
     for job in pool[:limit]:
-        detail = details.get(job["id"], "")
-        if job["source"] == "virginia" and not detail:
-            try:
-                detail = virginia_detail(session, job["url"])
-            except Exception as exc:  # noqa: BLE001
-                log(f"  detail fetch failed for {job['url']}: {exc}")
-        out.append({"job": job, "detail": detail})
+        # jobs.virginia.gov rate-limits hard, so Virginia briefs use the listing details only.
+        out.append({"job": job, "detail": details.get(job["id"], "")})
     doc = {
         "generated_at": datetime.now(ET).isoformat(timespec="minutes"),
         "candidates": out,
@@ -237,7 +256,8 @@ def main() -> int:
     for name in ("daniel", "jp"):
         entry = discovered_doc[name]
         log(f"[verify:{name}] {len(entry['jobs'])} AI-found postings")
-        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, live_boards)
+        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, {**live_boards, **LISTED})
+    jobs = drop_ai_duplicates(jobs, discovered_doc["daniel"]["jobs"], log)
 
     # ---- Remove briefs for jobs that are gone
     live = {job_key(j["id"]) for j in jobs}

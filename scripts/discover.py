@@ -66,8 +66,10 @@ def run_discovery(client, budget, name: str, profile: dict, focus: str, known: l
     )
     rules = [
         f"Today's date is {today.isoformat()}.",
-        "Use web_search to find specific job postings, then use web_fetch to open each promising posting and confirm it is still open.",
-        "Only submit postings you confirmed are open (posting page loaded, no 'closed/filled/expired' notice, deadline not passed).",
+        ("Use web_search to find specific job postings, then use web_fetch to open each promising posting and confirm it is still open."
+         if int(cfg.get("max_fetches", 10)) > 0 else
+         "Use web_search to find specific job postings and read the posting pages it returns to confirm each one is still open."),
+        "Only submit postings you confirmed are open (posting page loaded, no 'closed/filled/expired' notice, deadline not passed). Every link is re-checked automatically afterwards, so never guess a URL.",
         "Prefer the employer's own career site or ATS link (Workday, Greenhouse, Lever, iCIMS, Taleo, SuccessFactors, Oracle, Cornerstone, governmentjobs.com) over aggregators. Never submit a generic careers home page or a search results page.",
         "Skip any URL in the already-known list below; the goal is new openings.",
         f"Submit at most {int(cfg.get('max_new_jobs', 10))} jobs, best fit first. Fewer is fine; quality over quantity.",

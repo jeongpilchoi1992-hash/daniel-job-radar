@@ -236,6 +236,9 @@ def fetch_neogov(gate: NeogovGate, agency: dict, home: tuple[float, float], radi
             m = re.search(r'id="job-postings-number"[^>]*>\s*([\d,]+)', resp.text)
             total = int(m.group(1).replace(",", "")) if m else None
         batch, raw = _parse_neogov_html(resp.text, agency, home, radius, today)
+        if page == 1 and not raw and "jobs-not-found-container" in resp.text:
+            print(f"  neogov {slug}: the agency's page says it has no jobs at this time")
+            return []
         if page == 1 and not raw and total is None:
             title = re.search(r"<title>([^<]{0,120})", resp.text)
             raise RuntimeError(
@@ -346,39 +349,94 @@ def _parse_neogov_html(html_text: str, agency: dict, home, radius, today: date) 
 
 # --------------------------------------------------------------------------- Commonwealth of Virginia
 
-VA_SEARCH = "https://www.jobs.virginia.gov/jobs/search?page={page}"
+VA_SEARCH = "https://www.jobs.virginia.gov/jobs/search"
+VA_PER_PAGE = 50  # the most the site serves per page
+
+
+class VirginiaBlocked(Exception):
+    """jobs.virginia.gov answered with its bot challenge instead of results."""
+
+
+def _va_page(session, cities: list[str], page: int, cfg: dict) -> str:
+    """One page of results, waiting out the site's rate limit if it kicks in."""
+    params = [("cities[]", c) for c in cities] + [("per_page", VA_PER_PAGE), ("page", page)]
+    for attempt in range(int(cfg.get("blocked_retries", 2)) + 1):
+        resp = session.get(VA_SEARCH, params=params, timeout=60)
+        if resp.status_code == 200 and "x-amzn-waf-action" not in resp.headers:
+            return resp.text
+        if resp.status_code not in (202, 403, 429) and "x-amzn-waf-action" not in resp.headers:
+            resp.raise_for_status()
+        if attempt < int(cfg.get("blocked_retries", 2)):
+            wait = int(cfg.get("blocked_wait_seconds", 330))
+            print(f"  virginia: rate limit on page {page} (HTTP {resp.status_code}); waiting {wait}s")
+            time.sleep(wait)
+    raise VirginiaBlocked(f"still rate-limited on page {page}")
+
+
+def _va_near_cities(html_text: str, home, radius: int) -> set[str]:
+    """Location filters (checkboxes on every results page) within the radius, plus remote work."""
+    soup = BeautifulSoup(html_text, "html.parser")
+    near = set()
+    for box in soup.select("input[name='cities[]']"):
+        name = (box.get("value") or "").strip()
+        coords = lookup(name)
+        if re.fullmatch(r"remote", name, re.I) or (coords and haversine_miles(home, coords) <= radius + 0.5):
+            near.add(name)
+    return near
 
 
 def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -> list[dict]:
+    """State jobs in the cities near home.
+
+    The site challenges clients that send more than about six requests in five
+    minutes, so pages are fetched slowly (about ten pages a run).
+    """
     jobs: dict[str, dict] = {}
-    max_pages = int(cfg.get("max_pages", 200))
-    total_rows = 0
-    seen: set[str] = set()
-    for page in range(1, max_pages + 1):
-        try:
-            resp = session.get(VA_SEARCH.format(page=page), timeout=60)
-            resp.raise_for_status()
-        except Exception as exc:
-            if jobs:
-                raise PartialResult(list(jobs.values()), f"Stopped at page {page}: {type(exc).__name__}") from exc
-            raise
-        rows = [r for r in _parse_virginia_rows(resp.text) if r["id"] not in seen]
-        if not rows:
-            break
-        total_rows += len(rows)
-        for row in rows:
-            seen.add(row["id"])
-            places = [c for c in (lookup(part) for part in row["location"].split(";")) if c]
-            if not places:
-                continue
-            distance = round(min(haversine_miles(home, c) for c in places), 1)
-            if distance > radius + 0.5:
-                continue
-            jobs[row["id"]] = {**row, "distance_mi": distance}
-        if page % 25 == 0:
-            print(f"  virginia: page {page}, {total_rows} rows so far")
-        time.sleep(0.7)
-    print(f"  virginia: scanned {total_rows} statewide rows on {page} pages, {len(jobs)} within {radius} mi")
+    delay = int(cfg.get("delay_seconds", 65))
+    cities = list(cfg.get("cities") or [])
+    queue = [cities]
+    requests_made = 0
+    while queue:
+        group = queue.pop(0)
+        page, page_size = 1, VA_PER_PAGE
+        # Without a city list the first page only serves to read the site's location filters.
+        last_page = int(cfg.get("max_pages", 20)) if group else 1
+        while page <= last_page:
+            if requests_made:
+                time.sleep(delay)
+            try:
+                html_text = _va_page(session, group, page, cfg)
+            except Exception as exc:
+                if jobs:
+                    raise PartialResult(list(jobs.values()), f"Stopped at page {page}: {exc}") from exc
+                raise
+            requests_made += 1
+            if requests_made == 1:
+                extra = sorted(_va_near_cities(html_text, home, radius) - set(cities))
+                if extra:
+                    print(f"  virginia: new nearby locations in the site's filter (add to settings): {extra}")
+                    queue.append(extra)
+            rows = _parse_virginia_rows(html_text)
+            new = [r for r in rows if r["id"] not in jobs]
+            for row in new:
+                places = [c for c in (lookup(part) for part in row["location"].split(";")) if c]
+                if places:
+                    row["distance_mi"] = round(min(haversine_miles(home, c) for c in places), 1)
+                    if row["distance_mi"] > radius + 0.5:
+                        continue
+                elif re.search(r"\bremote\b", row["location"], re.I):
+                    row["distance_mi"], row["remote"] = None, True
+                else:
+                    continue
+                jobs[row["id"]] = row
+            total = re.search(r"of\s*<b>\s*([\d,]+)\s*</b>\s*in total", html_text)
+            total = int(total.group(1).replace(",", "")) if total else 0
+            if page == 1:
+                page_size = len(rows) or VA_PER_PAGE
+            if not rows or not new or (total and page * page_size >= total) or (not total and len(rows) < page_size):
+                break
+            page += 1
+    print(f"  virginia: {len(jobs)} jobs near home from {requests_made} pages ({len(cities)} nearby locations)")
     return list(jobs.values())
 
 
@@ -455,14 +513,3 @@ def _virginia_title(link, href: str) -> str:
     slug = re.sub(r"-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", "", slug)
     slug = re.sub(r"-(virginia-)?united-states$", "", slug)
     return slug.replace("-", " ").strip().capitalize() or title
-
-
-def virginia_detail(session, url: str) -> str:
-    """Fetch a state posting's description (used only for jobs that get an AI brief)."""
-    resp = session.get(url, timeout=60)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-    for tag in soup(["script", "style", "nav", "header", "footer"]):
-        tag.decompose()
-    main = soup.find("main") or soup.body or soup
-    return shorten(main.get_text("\n", strip=True), 12000)
