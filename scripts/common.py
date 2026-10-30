@@ -38,7 +38,10 @@ def make_session(quick: bool = False) -> requests.Session:
         backoff_factor=2,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=("GET", "HEAD"),
-        respect_retry_after_header=True,
+        # A server's Retry-After can ask for hours; short backoffs keep the run inside its time limit.
+        respect_retry_after_header=False,
+        # After the retries, hand back the last response so callers can read its status.
+        raise_on_status=False,
     )
     adapter = HTTPAdapter(max_retries=retry)
     session.mount("https://", adapter)
@@ -116,25 +119,42 @@ def money(value) -> float | None:
         return None
 
 
+_AMOUNT = re.compile(r"\$\s?(\d[\d,]*(?:\.\d+)?)(\s*[kK]\b)?")
+_BARE_AMOUNT = re.compile(r"\b\d{2,3},\d{3}(?:\.\d+)?\b")
+_PERIOD = re.compile(
+    r"(?P<year>annual(?:ly)?|yearly|per (?:year|annum)|a year|/\s*(?:yr|year)\b)"
+    r"|(?P<hour>hourly|per hour|an hour|/\s*(?:hr|hour)\b)"
+    r"|(?P<month>monthly|per month|a month|/\s*mo(?:nth)?\b)"
+    r"|(?P<biweek>bi-?weekly|per pay period)"
+    r"|(?P<week>weekly|per week|a week|/\s*wk\b)"
+    r"|(?P<day>daily|per day|a day)",
+    re.I,
+)
+
+
 def salary_range(text: str | None) -> tuple[float | None, float | None, str | None]:
-    """Pull min/max and a period from free text like '$54,000 - $63,500' or '$17.00 per hour'."""
+    """Pull min/max and a period from free text like '$54,000 - $63,500 Annually' or '$17.00 per hour'.
+
+    The period comes from the unit word after the amounts ('FT Hourly W BN - $46,160 - $80,780 Annually' is
+    yearly), then from a unit word anywhere, then from the size of the amounts. Periods: hour, day, week,
+    biweek, month, year.
+    """
     if not text:
         return None, None, None
-    amounts = [money(a) for a in re.findall(r"\$\s?\d[\d,]*(?:\.\d+)?", text)]
-    amounts = [a for a in amounts if a]
+    found = list(_AMOUNT.finditer(text))
+    amounts = [money(m.group(1)) * (1000 if m.group(2) else 1) for m in found if money(m.group(1))]
     if not amounts:
-        amounts = [money(a) for a in re.findall(r"\b\d{2,3},\d{3}(?:\.\d+)?\b", text)]
-        amounts = [a for a in amounts if a]
-    period = None
-    low = text.lower()
-    if "hour" in low or "/hr" in low:
-        period = "hour"
-    elif "year" in low or "annual" in low:
-        period = "year"
-    elif amounts and max(amounts) > 1000:
-        period = "year"
-    elif amounts:
-        period = "hour"
+        found = list(_BARE_AMOUNT.finditer(text))
+        amounts = [a for a in (money(m.group(0)) for m in found) if a]
+    unit = (_PERIOD.search(text, found[-1].end()) if found else None) or _PERIOD.search(text)
+    period = unit.lastgroup if unit else None
     if not amounts:
         return None, None, period
+    top = max(amounts)
+    if period == "hour" and top >= 1000:
+        period = "year"
+    elif period in ("year", "month", "biweek", "week") and top <= 300:
+        period = "hour"
+    elif period is None:
+        period = "year" if top >= 1000 else "hour" if top <= 300 else None
     return min(amounts), max(amounts), period

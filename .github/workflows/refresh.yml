@@ -2,20 +2,17 @@ name: Refresh jobs and deploy
 
 on:
   schedule:
-    # 6:15 AM and 6:15 PM Eastern (EDT). Free public sources only.
+    # 10:15 and 22:15 UTC: 6:15 AM and PM Eastern in summer, 5:15 in winter. Free public sources only.
     - cron: "15 10,22 * * *"
   push:
-    # The claude/job-radar-v1 entry is temporary: it lets the launch build run before merging.
-    branches: [main, claude/job-radar-v1]
+    branches: [main]
     paths-ignore:
       - "data/**"
       - "README.md"
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: refresh-${{ github.ref }}
@@ -25,11 +22,15 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    permissions:
+      contents: write
     steps:
       # Start from the branch head, not the triggering commit, so a queued run sees the previous run's data.
+      # The push token is handed only to the commit step, not to the collector and its packages.
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
+          persist-credentials: false
 
       - uses: actions/setup-python@v5
         with:
@@ -43,14 +44,15 @@ jobs:
           PYTHONUNBUFFERED: "1"
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
-          # Temporary, for the launch build: a commit tagged [export-ai-input] also writes data/ai_input.json.
-          EXPORT_AI_INPUT: ${{ github.ref == 'refs/heads/claude/job-radar-v1' && contains(github.event.head_commit.message, '[export-ai-input]') }}
         run: python scripts/collect.py
 
       - name: Commit data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git add data
           if git diff --cached --quiet; then
             echo "No data changes"
@@ -83,6 +85,10 @@ jobs:
     needs: refresh
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

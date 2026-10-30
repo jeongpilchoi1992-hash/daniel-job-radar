@@ -18,9 +18,17 @@
 
   // ---------- dates and money
 
+  // The viewer's date in Virginia, so deadlines stay right even when a refresh is late.
   function todayISO() {
-    return state.data?.today || new Date().toISOString().slice(0, 10);
+    try {
+      return new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date());
+    } catch (err) {
+      return new Date().toISOString().slice(0, 10);
+    }
   }
+  const stillOpen = (job) => !job.closes || job.closes >= todayISO();
+  // When a job appeared: its posting date if the source gives one, otherwise the day this site first saw it.
+  const sinceDate = (job) => job.posted || job.first_seen || job.found_on || "";
   function daysBetween(a, b) {
     return Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000);
   }
@@ -36,6 +44,8 @@
     const title = job.closes_text ? "As listed on the county job board" : `Closing date ${closes}`;
     return `<span class="badge ${cls}" title="${esc(title)}">${esc(label)}</span>`;
   }
+  const PERIOD_LABEL = { hour: "/hr", day: "/day", week: "/wk", biweek: " every 2 wks", month: "/mo", year: "/yr" };
+  const PER_YEAR = { hour: 2080, day: 260, week: 52, biweek: 26, month: 12, year: 1 };
   function fmtMoney(n) {
     if (n == null) return "";
     return n >= 1000 ? "$" + Math.round(n).toLocaleString("en-US") : "$" + n.toFixed(2);
@@ -45,7 +55,11 @@
     const lo = fmtMoney(job.salary_min);
     const hi = fmtMoney(job.salary_max);
     const range = lo && hi && lo !== hi ? `${lo} – ${hi}` : lo || hi;
-    return range + (job.salary_period === "hour" ? "/hr" : job.salary_period === "year" ? "/yr" : "");
+    return range + (PERIOD_LABEL[job.salary_period] || "");
+  }
+  // A year of pay, for sorting by pay.
+  function yearlyPay(job) {
+    return (job.salary_max || job.salary_min || 0) * (PER_YEAR[job.salary_period] || 1);
   }
   function fmtDate(iso) {
     if (!iso) return "";
@@ -65,7 +79,12 @@
       return;
     }
     const d = state.data;
-    $("#updated").textContent = "Updated " + new Date(d.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    const updated = new Date(d.generated_at);
+    $("#updated").textContent = "Updated " + updated.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    if (Date.now() - updated.getTime() > 36 * 3600 * 1000) {
+      $("#updated").textContent += " · the twice-daily refresh is behind, so some postings may have closed";
+      $("#updated").classList.add("stale");
+    }
     buildTopicChips();
     buildJpChips();
     renderDaniel();
@@ -78,17 +97,25 @@
     if (hash === "jp") selectTab("jp");
   }
 
+  const LEGISLATIVE = /senate|house|congress|council|legislat|general assembly/i;
   function danielJobs() {
     const d = state.data.daniel;
-    const ai = (d.discovered || []).map((j) => ({ ...j, aiFound: true, open_to_public: true, distance_mi: null }));
-    return d.jobs.concat(ai);
+    const ai = (d.discovered || []).map((j) => ({
+      ...j,
+      aiFound: true,
+      open_to_public: true,
+      distance_mi: null,
+      level: LEGISLATIVE.test(j.level || "") ? "Legislative" : j.level,
+      match: { ...j.match, tags: j.topics || [] },
+    }));
+    return d.jobs.concat(ai).filter(stillOpen);
   }
 
   // ---------- Daniel tab
 
   function buildTopicChips() {
     const counts = new Map();
-    for (const job of state.data.daniel.jobs) for (const t of job.match?.tags || []) counts.set(t, (counts.get(t) || 0) + 1);
+    for (const job of danielJobs()) for (const t of job.match?.tags || []) counts.set(t, (counts.get(t) || 0) + 1);
     const order = [...counts.entries()].filter(([t]) => t !== "Other").sort((a, b) => b[1] - a[1]);
     $("#topics").innerHTML = order
       .map(([t, n]) => `<button class="chip" aria-pressed="false" data-topic="${esc(t)}">${esc(t)} <span aria-hidden="true">· ${n}</span></button>`)
@@ -119,8 +146,8 @@
     const by = {
       match: (a, b) => (b.match?.score || 0) - (a.match?.score || 0) || (a.closes || "9999").localeCompare(b.closes || "9999"),
       closing: (a, b) => (a.closes || "9999").localeCompare(b.closes || "9999"),
-      new: (a, b) => (b.first_seen || b.found_on || "").localeCompare(a.first_seen || a.found_on || ""),
-      pay: (a, b) => (b.salary_max || b.salary_min || 0) * (b.salary_period === "hour" ? 2080 : 1) - (a.salary_max || a.salary_min || 0) * (a.salary_period === "hour" ? 2080 : 1),
+      new: (a, b) => sinceDate(b).localeCompare(sinceDate(a)),
+      pay: (a, b) => yearlyPay(b) - yearlyPay(a),
       near: (a, b) => (a.distance_mi ?? 999) - (b.distance_mi ?? 999),
     }[sort];
     return jobs.sort(by);
@@ -131,7 +158,7 @@
     const jobs = filteredDaniel();
     const today = todayISO();
     const closingSoon = all.filter((j) => j.closes && daysBetween(today, j.closes) <= 7).length;
-    const fresh = all.filter((j) => (j.first_seen || j.found_on) && daysBetween(j.first_seen || j.found_on, today) <= 1).length;
+    const fresh = all.filter((j) => sinceDate(j) && daysBetween(sinceDate(j), today) <= 1).length;
     const briefs = all.filter((j) => j.brief || j.aiFound).length;
     $("#daniel-stats").innerHTML = [
       [all.length, "open jobs"],
@@ -159,7 +186,7 @@
 
   function danielCard(job) {
     const today = todayISO();
-    const isNew = (job.first_seen || job.found_on) && daysBetween(job.first_seen || job.found_on, today) <= 1;
+    const isNew = sinceDate(job) && daysBetween(sinceDate(job), today) <= 1;
     const where = job.remote ? "Remote" : job.distance_mi != null ? `${job.location} · ${job.distance_mi} mi` : job.location;
     const badges = [
       isNew ? `<span class="badge new">New</span>` : "",
@@ -193,7 +220,12 @@
   function renderSources() {
     const rows = (state.data.daniel.sources || []).map((s) => {
       const cls = s.status === "error" ? "bad" : s.status === "skipped" || s.status === "partial" ? "warn" : "";
-      const label = s.status === "ok" ? `${s.count}` : s.status === "skipped" ? "paused" : s.status === "partial" ? `${s.count} (partly updated)` : `${s.count} (from earlier run)`;
+      const label =
+        s.status === "ok" ? `${s.count}`
+        : s.status === "skipped" ? "paused"
+        : s.status === "partial" ? `${s.count} (partly updated)`
+        : s.count ? `${s.count} (from earlier run)`
+        : "unavailable";
       return `<li title="${esc(s.message)}"><span>${esc(s.name)}</span><span class="${cls}">${esc(label)}</span></li>`;
     });
     const ai = state.data.daniel.discovered || [];
@@ -207,7 +239,7 @@
     const jp = state.data.jp;
     const found = jp.discovered || [];
     const urls = new Set(found.map((j) => j.url));
-    return found.concat((jp.board_jobs || []).filter((j) => !urls.has(j.url)));
+    return found.concat((jp.board_jobs || []).filter((j) => !urls.has(j.url))).filter(stillOpen);
   }
 
   function buildJpChips() {
@@ -228,7 +260,8 @@
     const jobs = all
       .filter((j) => !state.jpSegments.size || state.jpSegments.has(j.level))
       .filter((j) => !q || q.split(/\s+/).every((w) => [j.title, j.org, j.location, j.summary].join(" ").toLowerCase().includes(w)))
-      .sort((a, b) => (b.match?.score || 0) - (a.match?.score || 0));
+      // AI-checked picks (scored for interview odds) first, then board roles (scored by keywords).
+      .sort((a, b) => !!a.from_board - !!b.from_board || (b.match?.score || 0) - (a.match?.score || 0));
     $("#jp-stats").innerHTML = [
       [all.length, "open roles"],
       [all.filter((j) => j.found_on && daysBetween(j.found_on, todayISO()) <= 2).length, "new in last 3 days"],
@@ -261,7 +294,7 @@
           <h3><a href="${esc(safeUrl(job.url))}" target="_blank" rel="noopener">${esc(job.title)}</a></h3>
           <div class="org">${esc(job.org)}</div>
         </div>
-        ${scoreBox(job.match?.score, "fit")}
+        ${job.from_board ? scoreBox(job.match?.score, "keywords") : scoreBox(job.match?.score, "fit")}
       </div>
       <div class="meta">${meta}</div>
       <div class="badges">${badges}</div>
@@ -294,17 +327,21 @@
     const who = tabRef === "jp" ? "jp" : "daniel";
     const body = $("#brief-body");
     const head = `<h2 id="brief-title">${esc(job.title)}</h2><div class="org">${esc(job.org)} · ${esc(job.location || "")}</div><div class="badges" style="margin-top:8px">${closingBadge(job)}</div>`;
-    const foot = `<div class="brief-foot">
+    const footer = (kws) => `<div class="brief-foot">
         <a class="btn primary" href="${esc(safeUrl(job.apply_url || job.url))}" target="_blank" rel="noopener">Apply / view posting ↗</a>
         <a class="btn ai" href="${esc(askClaudeUrl(job, who))}" target="_blank" rel="noopener">Ask Claude a follow-up ↗</a>
-        <button class="btn" data-copy>Copy keywords</button>
+        ${kws.length ? `<button class="btn" data-copy>Copy keywords</button>` : ""}
       </div>`;
-    $("#brief").showModal();
+    // A brief that finishes loading after the reader moved on must not replace the newer one.
+    const seq = (state.briefSeq = (state.briefSeq || 0) + 1);
+    state.briefOpenedAt = Date.now();
+    if (!$("#brief").open) $("#brief").showModal();
 
     let keywords = [];
     if (job.aiFound || (who === "jp" && !job.from_board)) {
       const b = job.brief || {};
       keywords = b.keywords || [];
+      const foot = footer(keywords);
       body.innerHTML = `${head}
         <div class="fit"><b>Fit ${esc(job.match?.score ?? "")}/100</b><span>${esc(b.fit_summary || job.summary || "")}</span></div>
         ${job.work_authorization ? `<h3>Work authorization</h3><p>${esc(job.work_authorization)}</p>` : ""}
@@ -324,12 +361,14 @@
         } catch {
           b = null;
         }
+        if (seq !== state.briefSeq || !$("#brief").open) return;
       }
       if (!b) {
-        body.innerHTML = `${head}<p class="note">Could not load the brief. Try again after the next refresh.</p>${foot}`;
+        body.innerHTML = `${head}<p class="note">Could not load the brief. Try again after the next refresh.</p>${footer([])}`;
         return;
       }
       keywords = b.keywords || [];
+      const foot = footer(keywords);
       body.innerHTML = `${head}
         <p class="oneliner">${esc(b.one_liner)}</p>
         <div class="fit"><b>${esc(b.fit_rating)} fit</b><span>${esc(b.fit_summary)}</span></div>
@@ -343,6 +382,7 @@
         ${foot}`;
     } else {
       keywords = job.keywords_auto || [];
+      const foot = footer(keywords);
       const note = job.from_board
         ? `This role was picked up from ${esc(job.org || "the employer")}'s own job board, which is checked every day. “Ask Claude a follow-up” opens Claude with the posting ready for a tailored brief.`
         : "Pre-written AI briefs cover the strongest matches from the launch-day AI run. For this job, “Ask Claude a follow-up” opens Claude with the posting ready for an instant brief.";
@@ -404,8 +444,14 @@
     state.shown += PAGE;
     renderDaniel();
   });
+  // Close on a backdrop click, but not on the second click of a double-click that opened it, or when a text
+  // selection that started inside the dialog ends outside it.
+  let downOnBackdrop = false;
+  $("#brief").addEventListener("pointerdown", (e) => {
+    downOnBackdrop = e.target === $("#brief");
+  });
   $("#brief").addEventListener("click", (e) => {
-    if (e.target === $("#brief")) $("#brief").close();
+    if (e.target === $("#brief") && downOnBackdrop && Date.now() - (state.briefOpenedAt || 0) > 400) $("#brief").close();
   });
 
   load();

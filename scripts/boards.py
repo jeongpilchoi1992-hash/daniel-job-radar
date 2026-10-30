@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import re
 import time
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from common import job_key, shorten, strip_html
 
@@ -45,6 +45,7 @@ WORKDAY_SEARCHES = {
     "ifi": [],
 }
 WORKDAY_FULL_READ = 400  # boards up to this size are read in full; bigger ones are searched
+REQ_ID = re.compile(r"(?:\d{1,4}[-_])?[A-Z]{0,4}[-_]?\d{3,}(?:[-_]\d+)*(?:[-_][A-Z]{1,4})?", re.I)  # requisition numbers like JR043128 or 26-R8965
 
 
 def detect(url: str) -> dict | None:
@@ -87,7 +88,13 @@ def posting_key(url: str) -> str:
     m = re.search(r"gh_jid=(\d+)", parsed.query)
     if m:
         return m.group(1)
-    parts = [p for p in parsed.path.split("/") if p and p not in ("apply", "application")]
+    path = unquote(parsed.path)
+    if parsed.netloc.endswith("myworkdayjobs.com"):
+        # .../job/<place>/<Title>_<requisition id>[/apply/...]: the requisition id survives title edits.
+        m = re.search(r"/job/(?:.*/)?[^/]*?_([^/_]+)/?(?:/apply\b.*)?$", path)
+        if m:
+            return m.group(1).lower()
+    parts = [p for p in path.split("/") if p and p not in ("apply", "application")]
     if not parts:
         return url.lower()
     if parsed.netloc.endswith("greenhouse.io"):
@@ -105,7 +112,29 @@ def fetch_board(session, board: dict, employer: str, log) -> tuple[list[dict], b
     kind = board["type"]
     if kind == "workday":
         return _workday(session, board, employer, log)
+    if kind == "smartrecruiters":
+        return _smartrecruiters(session, board, employer)
     return _fetch_simple(session, board, employer), True
+
+
+def _smartrecruiters(session, board: dict, employer: str) -> tuple[list[dict], bool]:
+    out: dict[str, dict] = {}
+    total = 0
+    for offset in range(0, 5000, 100):
+        resp = session.get(f"https://api.smartrecruiters.com/v1/companies/{board['company']}/postings",
+                           params={"limit": 100, "offset": offset}, timeout=60)
+        resp.raise_for_status()
+        data = resp.json()
+        total = int(data.get("totalFound") or 0)
+        content = data.get("content") or []
+        for j in content:
+            loc = j.get("location") or {}
+            url = f"https://jobs.smartrecruiters.com/{board['company']}/{j.get('id')}"
+            out[url] = _job(board, employer, j.get("name"), ", ".join(x for x in [loc.get("city"), loc.get("country")] if x), url,
+                            (j.get("releasedDate") or "")[:10], "")
+        if not content or offset + 100 >= total:
+            break
+    return list(out.values()), len(out) >= total
 
 
 def _fetch_simple(session, board: dict, employer: str) -> list[dict]:
@@ -127,21 +156,6 @@ def _fetch_simple(session, board: dict, employer: str) -> list[dict]:
             posted = time.strftime("%Y-%m-%d", time.gmtime(created / 1000)) if isinstance(created, (int, float)) else ""
             out.append(_job(board, employer, j.get("text"), (j.get("categories") or {}).get("location"), j.get("hostedUrl"),
                             posted, j.get("descriptionPlain") or ""))
-        return out
-    if kind == "smartrecruiters":
-        out = []
-        for offset in range(0, 1000, 100):
-            resp = session.get(f"https://api.smartrecruiters.com/v1/companies/{board['company']}/postings",
-                               params={"limit": 100, "offset": offset}, timeout=60)
-            resp.raise_for_status()
-            data = resp.json()
-            for j in data.get("content", []):
-                loc = j.get("location") or {}
-                url = f"https://jobs.smartrecruiters.com/{board['company']}/{j.get('id')}"
-                out.append(_job(board, employer, j.get("name"), ", ".join(x for x in [loc.get("city"), loc.get("country")] if x), url,
-                                (j.get("releasedDate") or "")[:10], ""))
-            if offset + 100 >= int(data.get("totalFound") or 0):
-                break
         return out
     if kind == "ashby":
         resp = session.get(f"https://api.ashbyhq.com/posting-api/job-board/{board['org']}", timeout=60)
@@ -172,8 +186,10 @@ def _workday(session, board: dict, employer: str, log) -> tuple[list[dict], bool
                 continue
             if path not in found:
                 url = f"https://{board['host']}/en-US/{board['site']}{path}"
+                # bulletFields usually hold just the requisition number, which is no use as a summary.
+                bullets = [b for b in p.get("bulletFields") or [] if not REQ_ID.fullmatch(b.strip())]
                 found[path] = _job(board, employer, p.get("title"), p.get("locationsText"), url, "",
-                                   " ".join(p.get("bulletFields") or []), posted_text=p.get("postedOn") or "")
+                                   " ".join(bullets), posted_text=p.get("postedOn") or "")
             if korea_search:
                 found[path]["korea_search"] = True
 

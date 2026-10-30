@@ -48,7 +48,8 @@
     "delay_seconds": 65,
     "blocked_wait_seconds": 330,
     "blocked_retries": 2,
-    "max_pages": 20
+    "max_pages": 20,
+    "budget_minutes": 30
   },
   "neogov_agencies": [
     {
@@ -129,8 +130,5 @@
       "level": "Local",
       "default_location": "Fairfax, VA"
     }
-  ],
-  "ai_min_score": 50,
-  "ai_run_budget_usd": 35,
-  "ai_max_briefs_per_run": 250
+  ]
 }

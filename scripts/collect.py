@@ -8,7 +8,6 @@ AI-found link, and write data/jobs.json. Nothing here calls an AI service.
 from __future__ import annotations
 
 import json
-import os
 import re
 import sys
 import time
@@ -25,6 +24,7 @@ from boards import detect as detect_board  # noqa: E402
 from boards import board_id, fetch_board, infer_focus, posting_key, relevant, to_site_job  # noqa: E402
 from legislature import LISTED, fetch_dc_council, fetch_house, fetch_senate  # noqa: E402
 from linkcheck import refresh as refresh_links  # noqa: E402
+from places import haversine_miles, lookup  # noqa: E402
 from scoring import keywords_in, score_job, tags_for  # noqa: E402
 from sources import NeogovGate, fetch_neogov, fetch_usajobs, fetch_virginia  # noqa: E402
 
@@ -34,6 +34,15 @@ CONFIG = ROOT / "config"
 ET = ZoneInfo("America/New_York")
 
 STALE_DAYS = 10  # keep a failed source's jobs at most this long after we last saw them
+# The workflow job stops at 90 minutes; after this many, board reads and link checks are skipped (and their
+# postings left as they were) so the run still saves its data.
+RUN_BUDGET_MINUTES = 70
+STARTED = time.monotonic()
+
+
+def out_of_time() -> bool:
+    return time.monotonic() - STARTED > RUN_BUDGET_MINUTES * 60
+BRIEF_GRACE_DAYS = 30  # keep a launch brief this long after its job was last listed (unless its deadline passed)
 
 
 def log(message: str) -> None:
@@ -41,10 +50,13 @@ def log(message: str) -> None:
 
 
 def load_json(path: Path, default):
+    """A missing file gives the default; a malformed one stops the run before anything is overwritten."""
     try:
         return json.loads(path.read_text())
-    except (FileNotFoundError, json.JSONDecodeError):
+    except FileNotFoundError:
         return default
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"{path} is not valid JSON ({exc}); fix it and run again.") from exc
 
 
 def brief_path(briefs_dir: Path, job_id: str) -> Path:
@@ -91,6 +103,11 @@ def collect_daniel(session, settings: dict, today: date, previous: dict[str, dic
             if "stopped answering" not in str(exc):
                 traceback.print_exc()
 
+        before = sum(1 for j in previous.values() if j.get("source") == source_id)
+        if complete and fresh is not None and before >= 10 and len(fresh) < before / 2:
+            # A source that suddenly lists far fewer jobs is more likely broken than emptied overnight.
+            complete = False
+            status.update(status="partial", message=f"Listed {len(fresh)} jobs after {before} last run; keeping the earlier ones.")
         for job in fresh or []:
             if not still_open(job, today) or not job.get("title"):
                 continue
@@ -126,8 +143,11 @@ def collect_daniel(session, settings: dict, today: date, previous: dict[str, dic
     return list(jobs.values()), statuses, details
 
 
-def learn_sources(discovered_doc: dict, settings: dict, log) -> None:
-    """Remember job boards behind AI-found postings (kept even after those postings close)."""
+def learn_sources(discovered_doc: dict, settings: dict, log) -> list[dict]:
+    """Remember job boards behind AI-found postings (kept even after those postings close).
+
+    Returns this run's employer boards: the learned ones plus config/boards.json, which is read fresh every run
+    (and never copied into data/discovered.json, so edits and deletions there take effect)."""
     jp = discovered_doc["jp"]
     boards = {board_id(b): b for b in jp.get("boards", [])}
     for job in jp.get("jobs", []):
@@ -137,9 +157,9 @@ def learn_sources(discovered_doc: dict, settings: dict, log) -> None:
             board["focus"] = infer_focus(job.get("level", ""), job.get("org", ""))
             boards[board_id(board)] = board
             log(f"[learn] new board for J.P.: {board_id(board)} ({board['employer']})")
-    for extra in load_json(CONFIG / "boards.json", []):
-        boards.setdefault(board_id(extra), extra)
     jp["boards"] = list(boards.values())
+    for extra in load_json(CONFIG / "boards.json", []):
+        boards[board_id(extra)] = extra
 
     daniel = discovered_doc["daniel"]
     known = {a["slug"] for a in settings.get("neogov_agencies", [])} | {a["slug"] for a in daniel.get("neogov_agencies", [])}
@@ -149,12 +169,18 @@ def learn_sources(discovered_doc: dict, settings: dict, log) -> None:
         if m and m.group(1).lower() not in known:
             slug = m.group(1).lower()
             known.add(slug)
+            where = lookup(job.get("location", ""))
+            home = (settings["home"]["lat"], settings["home"]["lon"])
+            if not where or haversine_miles(home, where) > settings.get("radius_miles", 50) + 0.5:
+                log(f"[learn] skipped job board {slug}: {job.get('location')!r} is not a known place within range")
+                continue
             learned.append({"slug": slug, "name": job.get("org") or slug, "level": "Local", "default_location": job.get("location", "")})
             log(f"[learn] new county/city job board for Daniel: {slug} ({job.get('org')})")
     daniel["neogov_agencies"] = learned
+    return list(boards.values())
 
 
-def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, log) -> tuple[list[dict], dict[str, set[str]]]:
+def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[dict], today: date, log) -> tuple[list[dict], dict[str, set[str]]]:
     """Read every known employer board (free public APIs) and keep finance roles that fit J.P.
 
     Also returns, for each board read in full, the postings it lists today."""
@@ -162,27 +188,35 @@ def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, l
     for job in previous:
         prev_by_board.setdefault(job.get("source", ""), []).append(job)
     first_seen = {j["id"]: j.get("found_on") for j in previous}
+    today_iso = today.isoformat()
     discovered_keys = {posting_key(j["url"]) for j in jp_entry.get("jobs", [])}
     out: dict[str, dict] = {}
     live: dict[str, set[str]] = {}
-    for board in jp_entry.get("boards", []):
+    for board in boards:
         bid = board_id(board)
+        if out_of_time():
+            log(f"[board] {bid} skipped: out of time this run")
+            for job in prev_by_board.get(f"board:{bid}", []):
+                out[job["id"]] = job
+            continue
         try:
             raw, complete = fetch_board(session, board, board.get("employer", ""), log)
         except Exception as exc:  # noqa: BLE001 - keep yesterday's list for a failing board
             log(f"[board] {bid} failed: {type(exc).__name__}: {str(exc)[:200]}")
             for job in prev_by_board.get(f"board:{bid}", []):
-                if (today - (parse_date(job.get("found_on")) or today)).days <= 30:
+                last_seen = parse_date(job.get("last_seen") or job.get("found_on")) or today
+                if (today - last_seen).days <= STALE_DAYS:
                     out[job["id"]] = job
             continue
-        if complete:
+        if complete and raw:
             live[bid] = {posting_key(item["url"]) for item in raw}
         kept = 0
         for item in raw:
             if not relevant(item, board.get("focus", "asia")) or posting_key(item["url"]) in discovered_keys:
                 continue
-            job = to_site_job(item, today.isoformat(), None, board.get("focus", "asia"))
-            job["found_on"] = first_seen.get(job["id"]) or today.isoformat()
+            job = to_site_job(item, today_iso, None, board.get("focus", "asia"))
+            job["found_on"] = first_seen.get(job["id"]) or today_iso
+            job["last_seen"] = today_iso
             out[job["id"]] = job
             kept += 1
         log(f"[board] {bid}: {len(raw)} postings, {kept} relevant")
@@ -190,45 +224,21 @@ def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, l
     return sorted(out.values(), key=lambda j: -j["match"]["score"]), live
 
 
-def _norm_title(title: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", (title or "").lower()).strip()
-
-
 def drop_ai_duplicates(jobs: list[dict], ai_found: list[dict], log) -> list[dict]:
     """Show a posting once: the AI-found copy (with its brief) wins over the same posting from a daily source."""
     keys = {(urlparse(j["url"]).netloc.lower(), posting_key(j["url"])) for j in ai_found}
-    titles = [_norm_title(j["title"]) for j in ai_found if urlparse(j["url"]).netloc.lower().endswith("dccouncil.gov")]
+    # The AI search sometimes linked a page inside a posting (its announcement), so a posting also matches its sub-pages.
+    paths = [(urlparse(j["url"]).netloc.lower(), urlparse(j["url"]).path.rstrip("/") + "/") for j in ai_found]
     kept = []
     for job in jobs:
         host = urlparse(job["url"]).netloc.lower()
-        if (host, posting_key(job["url"])) in keys or (host.endswith("dccouncil.gov") and any(t.startswith(_norm_title(job["title"])) for t in titles)):
+        path = urlparse(job["url"]).path.rstrip("/") + "/"
+        if (host, posting_key(job["url"])) in keys or any(h == host and p.startswith(path) and path.count("/") > 2 for h, p in paths):
             continue
         kept.append(job)
     if len(kept) < len(jobs):
         log(f"[dedupe] {len(jobs) - len(kept)} postings already shown as AI-found jobs")
     return kept
-
-
-def export_ai_input(jobs: list[dict], details: dict[str, str], briefs_dir: Path, discovered_doc: dict, session, limit: int = 300) -> None:
-    """One-time launch step: hand the best matches (with full posting text) to the AI build."""
-    pool = [
-        j for j in jobs
-        if not brief_path(briefs_dir, j["id"]).exists()
-        and j.get("open_to_public") is not False
-        and j["match"]["score"] >= 50
-    ]
-    pool.sort(key=lambda j: (-j["match"]["score"], j.get("closes") or "9999"))
-    out = []
-    for job in pool[:limit]:
-        # jobs.virginia.gov rate-limits hard, so Virginia briefs use the listing details only.
-        out.append({"job": job, "detail": details.get(job["id"], "")})
-    doc = {
-        "generated_at": datetime.now(ET).isoformat(timespec="minutes"),
-        "candidates": out,
-        "known_urls": {name: [j["url"] for j in discovered_doc[name].get("jobs", [])] for name in ("daniel", "jp")},
-    }
-    (DATA / "ai_input.json").write_text(json.dumps(doc, ensure_ascii=False) + "\n")
-    log(f"[export] wrote {len(out)} brief candidates for the launch AI build")
 
 
 def main() -> int:
@@ -244,29 +254,34 @@ def main() -> int:
     for name in ("daniel", "jp"):
         discovered_doc.setdefault(name, {"jobs": [], "last_run": None})
 
-    jobs, statuses, details = collect_daniel(session, settings, today, previous, discovered_doc["daniel"].get("neogov_agencies", []))
-
-    if os.environ.get("EXPORT_AI_INPUT", "").lower() == "true":
-        export_ai_input(jobs, details, briefs_dir, discovered_doc, session)
+    jobs, statuses, _ = collect_daniel(session, settings, today, previous, discovered_doc["daniel"].get("neogov_agencies", []))
 
     # ---- Free daily sources learned from AI-found postings, then re-check every AI-found link
-    learn_sources(discovered_doc, settings, log)
-    board_jobs, live_boards = collect_boards(session, discovered_doc["jp"], previous_doc.get("jp", {}).get("board_jobs", []), today, log)
+    boards = learn_sources(discovered_doc, settings, log)
+    board_jobs, live_boards = collect_boards(session, boards, discovered_doc["jp"], previous_doc.get("jp", {}).get("board_jobs", []), today, log)
     checker = make_session(quick=True)
     for name in ("daniel", "jp"):
         entry = discovered_doc[name]
         log(f"[verify:{name}] {len(entry['jobs'])} AI-found postings")
-        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, {**live_boards, **LISTED})
+        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, {**live_boards, **LISTED}, out_of_time)
     jobs = drop_ai_duplicates(jobs, discovered_doc["daniel"]["jobs"], log)
 
-    # ---- Remove briefs for jobs that are gone
-    live = {job_key(j["id"]) for j in jobs}
+    # ---- Remove briefs for jobs that are gone. Briefs came from the one-time launch build and cannot be made
+    # again, so one whose job drops out of the list is kept until its deadline passes or BRIEF_GRACE_DAYS go by.
+    ledger = load_json(DATA / "briefs_seen.json", {})
+    for job in jobs:
+        if brief_path(briefs_dir, job["id"]).exists():
+            ledger[job_key(job["id"])] = {"last_seen": today.isoformat(), "closes": job.get("closes")}
     removed = 0
-    if briefs_dir.exists():
-        for path in briefs_dir.glob("*.json"):
-            if path.stem not in live:
-                path.unlink()
-                removed += 1
+    for path in sorted(briefs_dir.glob("*.json")) if briefs_dir.exists() else []:
+        seen = ledger.setdefault(path.stem, {"last_seen": today.isoformat(), "closes": None})
+        closes = parse_date(seen.get("closes"))
+        last_seen = parse_date(seen.get("last_seen")) or today
+        if (closes and closes < today) or (today - last_seen).days > BRIEF_GRACE_DAYS:
+            path.unlink()
+            removed += 1
+    ledger = {k: v for k, v in sorted(ledger.items()) if (briefs_dir / f"{k}.json").exists()}
+    (DATA / "briefs_seen.json").write_text(json.dumps(ledger, indent=0) + "\n")
     for job in jobs:
         job["brief"] = job_key(job["id"]) if brief_path(briefs_dir, job["id"]).exists() else None
     log(f"[cleanup] removed {removed} briefs for closed jobs")
@@ -274,6 +289,9 @@ def main() -> int:
     # ---- Write the site data
     discovered_daniel = discovered_doc["daniel"]["jobs"]
     discovered_jp = discovered_doc["jp"]["jobs"]
+    for job in discovered_daniel:
+        # The same topic tags as the daily jobs, so the site's topic filters include AI-found postings.
+        job["topics"] = tags_for(f"{job.get('title', '')} {job.get('summary', '')}", [])
     jobs.sort(key=lambda j: (-j["match"]["score"], j.get("closes") or "9999"))
     now = datetime.now(ET).isoformat(timespec="minutes")
     doc = {
@@ -291,7 +309,7 @@ def main() -> int:
         "jp": {
             "discovered": discovered_jp,
             "board_jobs": board_jobs,
-            "boards": len(discovered_doc["jp"].get("boards", [])),
+            "boards": len(boards),
             "discovery_last_run": discovered_doc["jp"].get("last_run"),
         },
     }

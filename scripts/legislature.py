@@ -15,7 +15,7 @@ from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 
 from boards import posting_key
-from common import salary_range, shorten, strip_html
+from common import PartialResult, salary_range, shorten, strip_html
 from places import haversine_miles, lookup
 
 LISTED: dict[str, set[str]] = {}
@@ -107,9 +107,10 @@ def fetch_senate(session, home, radius: int) -> list[dict]:
                    salary_text=cells.get("salary", ""), summary=f"U.S. Senate opening with {office}.")
         if job:
             jobs.append(job)
-    if total and len(cards) >= total:
-        LISTED["careers.employment.senate.gov"] = listed
     print(f"  senate: {len(cards)} of {total} postings read, {len(jobs)} near home (internships left out)")
+    if not total or len(cards) < total:
+        raise PartialResult(jobs, f"Read {len(cards)} of the {total or 'unknown number of'} postings the board lists.")
+    LISTED["careers.employment.senate.gov"] = listed
     return jobs
 
 
@@ -143,7 +144,7 @@ def fetch_house(session, home, radius: int) -> list[dict]:
     for site, org in HOUSE_SITES.items():
         token = _csod_token(session, site)
         seen = 0
-        for page in range(1, 11):
+        for page in range(1, 21):
             body = {
                 "careerSiteId": site, "careerSitePageId": site, "pageNumber": page, "pageSize": 50,
                 "cultureId": 1, "searchText": "", "cultureName": "en-US", "states": [], "countryCodes": [],
@@ -171,11 +172,14 @@ def fetch_house(session, home, radius: int) -> list[dict]:
             seen += len(reqs)
             total = int(data.get("totalCount") or 0)
             if not reqs or seen >= total:
-                complete = complete and seen >= total
+                complete = complete and seen >= total and (total > 0 or not reqs)
                 break
-    if complete:
-        LISTED["house.csodfed.com"] = listed
+        else:
+            complete = False  # stopped at the page limit
     print(f"  house: {len(listed)} postings on {len(HOUSE_SITES)} career sites, {len(jobs)} near home (internships left out)")
+    if not complete:
+        raise PartialResult(list(jobs.values()), "A House career site listed more postings than were read.")
+    LISTED["house.csodfed.com"] = listed
     return list(jobs.values())
 
 

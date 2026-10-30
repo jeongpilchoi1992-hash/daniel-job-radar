@@ -24,6 +24,8 @@ from places import haversine_miles, lookup
 # --------------------------------------------------------------------------- USAJOBS
 
 USAJOBS_URL = "https://data.usajobs.gov/api/search"
+# USAJOBS RateIntervalCode values; anything else (fee basis, without compensation) is read from its description.
+USAJOBS_PERIODS = {"PA": "year", "PH": "hour", "PD": "day", "PW": "week", "BW": "biweek", "PM": "month"}
 
 
 def _first(items, key=None, default=None):
@@ -90,8 +92,8 @@ def _usajobs_job(item: dict, home, radius: int) -> dict | None:
 
     pay = _first(d.get("PositionRemuneration")) or {}
     pay_min, pay_max = _num(pay.get("MinimumRange")), _num(pay.get("MaximumRange"))
-    interval = (pay.get("Description") or pay.get("RateIntervalCode") or "").lower()
-    period = "hour" if "hour" in interval or interval == "ph" else "year"
+    interval = (pay.get("RateIntervalCode") or "").upper()
+    period = USAJOBS_PERIODS.get(interval) or salary_range(f"${pay_max or 0} {pay.get('Description') or ''}")[2]
 
     plan = _first(d.get("JobGrade"), "Code", "") or ""
     low, high = det.get("LowGrade"), det.get("HighGrade")
@@ -189,8 +191,8 @@ class NeogovGate:
 
     def __init__(self):
         self.session = requests.Session()
-        retry = Retry(total=1, connect=0, read=1, status=1, backoff_factor=1,
-                      status_forcelist=(429, 502, 503, 504), allowed_methods=("GET",))
+        retry = Retry(total=1, connect=0, read=1, status=1, backoff_factor=1, status_forcelist=(429, 502, 503, 504),
+                      allowed_methods=("GET",), respect_retry_after_header=False, raise_on_status=False)
         self.session.mount("https://", HTTPAdapter(pool_connections=1, pool_maxsize=1, max_retries=retry))
         self.session.headers.update({
             "User-Agent": BROWSER_UA,
@@ -251,13 +253,17 @@ def fetch_neogov(gate: NeogovGate, agency: dict, home: tuple[float, float], radi
         if not raw or (total is not None and seen_raw >= total):
             break
     print(f"  neogov {slug}: {seen_raw} postings listed (site says {total}), {len(jobs)} within {radius} mi")
+    if total is not None and seen_raw < total:
+        raise PartialResult(list(jobs.values()), f"Read {seen_raw} of the {total} postings the site lists.")
     return list(jobs.values())
 
 
 def _neogov_base(agency: dict, title: str, location: str, home, radius) -> dict | None:
     coords = lookup(location) or lookup(agency.get("default_location", ""))
-    distance = round(haversine_miles(home, coords), 1) if coords else None
-    if distance is not None and distance > radius + 0.5:
+    if not coords:
+        return None
+    distance = round(haversine_miles(home, coords), 1)
+    if distance > radius + 0.5:
         return None
     return {
         "source": f"neogov:{agency['slug']}",
@@ -357,20 +363,22 @@ class VirginiaBlocked(Exception):
     """jobs.virginia.gov answered with its bot challenge instead of results."""
 
 
-def _va_page(session, cities: list[str], page: int, cfg: dict) -> str:
-    """One page of results, waiting out the site's rate limit if it kicks in."""
+def _va_page(session, cities: list[str], page: int, cfg: dict, deadline: float) -> str:
+    """One page of results, waiting out the site's rate limit if it kicks in and the time budget allows."""
     params = [("cities[]", c) for c in cities] + [("per_page", VA_PER_PAGE), ("page", page)]
-    for attempt in range(int(cfg.get("blocked_retries", 2)) + 1):
+    retries = int(cfg.get("blocked_retries", 2))
+    wait = int(cfg.get("blocked_wait_seconds", 330))
+    for attempt in range(retries + 1):
         resp = session.get(VA_SEARCH, params=params, timeout=60)
         if resp.status_code == 200 and "x-amzn-waf-action" not in resp.headers:
             return resp.text
         if resp.status_code not in (202, 403, 429) and "x-amzn-waf-action" not in resp.headers:
             resp.raise_for_status()
-        if attempt < int(cfg.get("blocked_retries", 2)):
-            wait = int(cfg.get("blocked_wait_seconds", 330))
-            print(f"  virginia: rate limit on page {page} (HTTP {resp.status_code}); waiting {wait}s")
-            time.sleep(wait)
-    raise VirginiaBlocked(f"still rate-limited on page {page}")
+        if attempt == retries or time.monotonic() + wait > deadline:
+            break
+        print(f"  virginia: rate limit on page {page} (HTTP {resp.status_code}); waiting {wait}s")
+        time.sleep(wait)
+    raise VirginiaBlocked(f"rate-limited on page {page}")
 
 
 def _va_near_cities(html_text: str, home, radius: int) -> set[str]:
@@ -379,7 +387,7 @@ def _va_near_cities(html_text: str, home, radius: int) -> set[str]:
     near = set()
     for box in soup.select("input[name='cities[]']"):
         name = (box.get("value") or "").strip()
-        coords = lookup(name)
+        coords = lookup(name, "VA")
         if re.fullmatch(r"remote", name, re.I) or (coords and haversine_miles(home, coords) <= radius + 0.5):
             near.add(name)
     return near
@@ -396,6 +404,10 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
     cities = list(cfg.get("cities") or [])
     queue = [cities]
     requests_made = 0
+    short = []  # city groups the site said had more rows than were read
+    budget = int(cfg.get("budget_minutes", 30))
+    deadline = time.monotonic() + budget * 60
+    unknown = set()  # row locations no place lookup knows
     while queue:
         group = queue.pop(0)
         page, page_size = 1, VA_PER_PAGE
@@ -404,8 +416,11 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
         while page <= last_page:
             if requests_made:
                 time.sleep(delay)
+            if time.monotonic() > deadline:
+                short.append(f"stopped at page {page} after {budget} minutes")
+                break
             try:
-                html_text = _va_page(session, group, page, cfg)
+                html_text = _va_page(session, group, page, cfg, deadline)
             except Exception as exc:
                 if jobs:
                     raise PartialResult(list(jobs.values()), f"Stopped at page {page}: {exc}") from exc
@@ -419,7 +434,7 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
             rows = _parse_virginia_rows(html_text)
             new = [r for r in rows if r["id"] not in jobs]
             for row in new:
-                places = [c for c in (lookup(part) for part in row["location"].split(";")) if c]
+                places = [c for c in (lookup(part, "VA") for part in row["location"].split(";")) if c]
                 if places:
                     row["distance_mi"] = round(min(haversine_miles(home, c) for c in places), 1)
                     if row["distance_mi"] > radius + 0.5:
@@ -427,6 +442,7 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
                 elif re.search(r"\bremote\b", row["location"], re.I):
                     row["distance_mi"], row["remote"] = None, True
                 else:
+                    unknown.add(row["location"])
                     continue
                 jobs[row["id"]] = row
             total = re.search(r"of\s*<b>\s*([\d,]+)\s*</b>\s*in total", html_text)
@@ -434,9 +450,19 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
             if page == 1:
                 page_size = len(rows) or VA_PER_PAGE
             if not rows or not new or (total and page * page_size >= total) or (not total and len(rows) < page_size):
+                if total and (page - 1) * page_size + len(rows) < total:
+                    short.append(f"{len(group) or 'no'} cities: read {(page - 1) * page_size + len(new)} of {total} rows by page {page}")
                 break
             page += 1
+            if page > last_page and group and total > (page - 1) * page_size:
+                short.append(f"{len(group)} cities: stopped at the {last_page}-page limit, {total} rows listed")
+    if unknown:
+        print(f"  virginia: left out rows in places the lookup does not know: {sorted(unknown)[:20]}")
     print(f"  virginia: {len(jobs)} jobs near home from {requests_made} pages ({len(cities)} nearby locations)")
+    if not jobs:
+        raise RuntimeError("No Virginia jobs found near home; the search page layout may have changed.")
+    if short:
+        raise PartialResult(list(jobs.values()), "Not every result page was read: " + "; ".join(short))
     return list(jobs.values())
 
 

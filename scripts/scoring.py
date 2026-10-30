@@ -8,7 +8,13 @@ from __future__ import annotations
 
 import re
 
-# (tag, title/description patterns, federal series codes)
+# Election registrars, not museum or university registrars.
+REGISTRAR = r"(general|voter|election)s? registrar|registrar of voters"
+# Disaster recovery, not "peer recovery", "cost recovery" or "data recovery".
+RECOVERY = r"(disaster|emergency|incident|community|long-term) recovery|recovery (planner|planning|programs?|operations|support function)"
+
+# (tag, title/description patterns, federal series codes). Patterns are matched against the title and summary,
+# so anchor short words: "election" is inside "selection" and "media" inside "immediately".
 TOPICS: list[tuple[str, list[str], list[str]]] = [
     (
         "Policy & Legislative",
@@ -19,8 +25,8 @@ TOPICS: list[tuple[str, list[str], list[str]]] = [
     ),
     (
         "Emergency Management",
-        [r"emergenc", r"disaster", r"\bfema\b", r"recovery", r"mitigation", r"preparedness", r"resilien",
-         r"homeland security", r"continuity", r"hazard", r"response (coordinator|specialist)", r"\bcore\b"],
+        [r"emergenc", r"disaster", r"\bfema\b", RECOVERY, r"hazard mitigation", r"preparedness", r"resilien",
+         r"continuity of (operations|government)", r"all-hazards?", r"response (coordinator|specialist)"],
         ["0089", "0080"],
     ),
     (
@@ -33,13 +39,13 @@ TOPICS: list[tuple[str, list[str], list[str]]] = [
     (
         "Communications & Outreach",
         [r"communicat", r"public (affairs|information|relations)", r"outreach", r"community (engagement|relations|liaison)",
-         r"constituent", r"\bpress\b", r"media", r"external affairs", r"spokes", r"engagement", r"\bliaison\b",
+         r"constituent", r"\bpress\b", r"\bmedia\b|multimedia", r"external affairs", r"spokes", r"engagement", r"\bliaison\b",
          r"ombuds", r"customer (service|experience)"],
         ["1035", "1001", "1082", "1083"],
     ),
     (
         "Elections & Civic",
-        [r"election", r"\bvoter", r"registrar", r"civic", r"census", r"redistrict", r"clerk to the board"],
+        [r"\belection", r"\bvoter", REGISTRAR, r"civic", r"census", r"redistrict", r"clerk to the board"],
         [],
     ),
     (
@@ -63,11 +69,11 @@ TOPICS: list[tuple[str, list[str], list[str]]] = [
 # Strong signals for Daniel's interests (politics/policy, people skills, emergency management background).
 BOOST_PATTERNS = [
     (r"legislat|government(al)? (affairs|relations)|intergovernmental|congression|policy (analyst|advisor|specialist)", 30),
-    (r"emergency management|disaster|\bfema\b|preparedness|recovery|mitigation|resilien", 28),
-    (r"election|voter|registrar", 26),
+    (rf"emergency management|disaster|\bfema\b|preparedness|{RECOVERY}|hazard mitigation|resilien", 28),
+    (rf"\belection|\bvoter|{REGISTRAR}", 26),
     (r"constituent|community (engagement|relations|liaison)|outreach|public affairs|public information|external affairs", 24),
     (r"program (analyst|specialist|manager|coordinator)|management (and program )?analyst|policy", 18),
-    (r"grants?|budget analyst|contract specialist", 10),
+    (r"\bgrants?\b|budget analyst|contract specialist", 10),
     (r"\baide\b|chief of staff|special assistant|liaison|coordinator", 10),
 ]
 
