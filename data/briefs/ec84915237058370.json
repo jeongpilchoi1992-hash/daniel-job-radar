@@ -1,0 +1,52 @@
+{
+ "one_liner": "A part-time role at George Mason University helping run hiring searches: posting jobs, screening applicants, scheduling interviews and coordinating with search committees.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's outgoing, relationship-building style and comfort with the public suit a recruiting and coordination role, and consulting work at IEM likely involved client coordination and deadlines. The posting has no description, so the fit can't be judged against stated qualifications, and a part-time university HR role is only loosely tied to Daniel's policy interests.",
+ "eligibility": [
+  "Open to the public as a Virginia state (university) position; no federal status, clearance or veterans' preference is indicated, but confirm on the full posting.",
+  "No education, license or experience requirements are listed here, so read the full posting on jobs.virginia.gov or GMU's careers site before applying.",
+  "The role is part-time and on-site in Fairfax (not remote), so confirm hours, schedule and whether benefits apply.",
+  "No closing date is stated (open until filled), so earlier applicants may be reviewed first."
+ ],
+ "keywords": [
+  "Recruiter",
+  "Search Coordinator",
+  "Part-Time",
+  "recruitment",
+  "search committee",
+  "candidate screening",
+  "interview scheduling",
+  "coordination",
+  "George Mason University",
+  "Commonwealth of Virginia",
+  "customer service",
+  "communication"
+ ],
+ "strategy": [
+  "Pull the full position description (GMU often posts it at jobs.gmu.edu) before writing anything, and mirror its exact duty and qualification language, because the summary here has no description.",
+  "Describe your IEM experience by the coordination tasks you actually did, such as scheduling, stakeholder outreach, managing deadlines or supporting government clients, and use recruiting-adjacent wording like 'coordinated' and 'communicated with stakeholders.'",
+  "Lead with your people skills: building relationships, representing an organization to the public, and keeping several parties informed during a process.",
+  "Write a brief cover letter explaining why you want this role. Present it as an entry point into Virginia public-sector work and campus engagement, and note that you live nearby in Manassas.",
+  "Apply soon since there is no deadline, and check whether the Virginia portal requires you to complete its application fields fully rather than only uploading a resume.",
+  "Use Virginia state resume norms rather than the federal two-page format, though a concise one-to-two-page resume still works well."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of project/deliverable] for [government client type] at IEM, managing schedules and communications among [number] stakeholders to meet [deadline/milestone].",
+  "Served as point of contact for [clients/partners/public], responding to [volume] inquiries and maintaining relationships that supported [outcome you can verify].",
+  "Tracked [documents/tasks/applicants] using [tool, e.g., Excel/SharePoint], keeping records accurate and confidential for [team/process]."
+ ],
+ "interview_questions": [
+  "How would you manage several faculty or staff searches at once with competing deadlines?",
+  "Tell us about a time you kept multiple stakeholders informed and aligned on a process.",
+  "How would you handle confidential applicant information and questions from candidates about their status?",
+  "What did you do at IEM, and how does it prepare you for coordinating searches?"
+ ],
+ "watch_outs": [
+  "No salary, hours or job description were provided, so verify pay, schedule and benefits for this part-time role before investing time.",
+  "Part-time wage positions often lack full state benefits and may not provide a stable path to a full-time role.",
+  "The role is HR-focused rather than policy-focused, so weigh whether it builds toward your public policy goals."
+ ],
+ "job_id": "virginia:part-time-recruiter-search-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

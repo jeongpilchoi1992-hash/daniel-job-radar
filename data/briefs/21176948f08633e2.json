@@ -1,0 +1,56 @@
+{
+ "one_liner": "Staff role at George Mason University coordinating the Bachelor's/Accelerated Master's program: advising students, processing admissions and progression, and liaising with departments.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's people skills, public-facing ease, and coordination experience at IEM transfer well to a student-facing coordinator role. However, this is higher-education academic administration rather than policy or emergency management. No posting description is available to confirm the requirements, so the fit is uncertain and the role is somewhat off Daniel's stated government-career path.",
+ "eligibility": [
+  "The posting text is unavailable, so open the jobs.virginia.gov/GMU listing and confirm the minimum qualifications before applying.",
+  "Check for a degree requirement; academic coordinator roles commonly require a bachelor's degree, and some prefer a master's or higher-ed advising experience.",
+  "Confirm the position type (classified staff, administrative/professional faculty, or wage), since GMU uses different categories with different benefits.",
+  "The location is Fairfax, VA, and remote work is listed as not available, so plan on an on-site commute from Manassas."
+ ],
+ "keywords": [
+  "Bachelor's/Accelerated Master's",
+  "BAM",
+  "academic coordinator",
+  "student advising",
+  "program coordination",
+  "admissions",
+  "degree progression",
+  "graduate programs",
+  "stakeholder communication",
+  "academic policies",
+  "student records",
+  "customer service",
+  "event coordination",
+  "data tracking",
+  "George Mason University"
+ ],
+ "strategy": [
+  "Before tailoring anything, pull the full posting from the GMU Jobs site; the keywords above are inferred from the title, so replace them with the posting's actual language.",
+  "Frame the IEM work as program coordination for public-sector clients: managing timelines, tracking deliverables, and communicating with multiple stakeholders.",
+  "Emphasize relationship-building and public-facing communication, since coordinators work daily with students, faculty, and graduate admissions.",
+  "Use the cover letter to explain why you want to work in higher education, and tie your policy knowledge to understanding institutional rules and processes.",
+  "Virginia state and GMU applications are not limited to two pages, but a focused 1–2 page resume plus a tailored cover letter is still advisable.",
+  "The role is open until filled, so apply quickly."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of project/deliverable] for [number] government clients at IEM, managing schedules and communications among [stakeholder groups].",
+  "Tracked [records/data/tasks] using [tool], ensuring accurate and timely completion of [deliverable] by [deadline].",
+  "Served as a point of contact for [audience], answering questions about [program/policy/process] and resolving [type of issue]."
+ ],
+ "interview_questions": [
+  "How would you explain accelerated master's program requirements to an undergraduate student who is unsure whether to apply?",
+  "Describe a time you managed many deadlines and stakeholders at once.",
+  "How would you handle a student who is upset about an admissions or policy decision?",
+  "Why are you interested in higher education administration rather than continuing in consulting?"
+ ],
+ "watch_outs": [
+  "The posting description, salary, and closing date are unavailable, so verify all requirements before investing heavily in the application.",
+  "There may be a degree requirement or a preference for higher-ed advising experience.",
+  "The role diverges from Daniel's policy and government-service goals, so consider whether it builds toward the career Daniel wants.",
+  "Remote work is not available, so expect a regular commute from Manassas to Fairfax."
+ ],
+ "job_id": "virginia:bachelor-s-accelerated-master-s-bam-academic-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

@@ -1,0 +1,56 @@
+{
+ "one_liner": "Likely a George Mason University staff role administering graduate student funding such as assistantships, fellowships, tuition awards and related paperwork; the full description isn't available to confirm.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's people skills and consulting experience with government clients could carry over to coordinating funding processes and advising students. However, this is a university administrative role, likely in a graduate school or academic unit, and not obviously tied to Daniel's emergency-management or policy interests. Without the posting text, the specific requirements, such as financial aid, budgeting, or Banner experience, can't be checked.",
+ "eligibility": [
+  "Read the full posting on jobs.virginia.gov or GMU's careers site (jobs.gmu.edu); no qualifications, salary, or who-may-apply details were available here.",
+  "Check whether a bachelor's degree or specific higher-ed or financial administration experience is required or preferred.",
+  "Confirm the position type (classified, administrative faculty, or wage) and whether a background check applies.",
+  "Position is on-site in Fairfax with no remote option listed, which is a reasonable commute from Manassas."
+ ],
+ "keywords": [
+  "Graduate Funding Coordinator",
+  "graduate assistantships",
+  "fellowships",
+  "tuition waivers",
+  "funding packages",
+  "stipends",
+  "student records",
+  "budget tracking",
+  "reconciliation",
+  "compliance",
+  "customer service",
+  "faculty and staff",
+  "data management",
+  "communication",
+  "policies and procedures"
+ ],
+ "strategy": [
+  "Pull the full description first, then mirror its exact wording; the keywords above are inferred from the title and must be checked against the real posting.",
+  "Frame your IEM work around the transferable pieces: managing deliverables for government clients, tracking funds or grant-related documentation, following federal or state compliance rules, and coordinating many stakeholders.",
+  "Highlight your strength with people: advising, explaining complex rules clearly, and working with diverse groups, since students and faculty will be your main contacts.",
+  "If your IEM work touched FEMA Public Assistance or grant reimbursement, emphasize it; that is strong evidence you can handle funding rules and documentation.",
+  "The posting is open until filled, so apply quickly; state and GMU resumes aren't held to the federal two-page rule, but keep yours tight and include a short cover letter.",
+  "Decide honestly whether a university funding role advances your public-sector goals; it is a state job and can build Virginia state service, but it isn't a policy role."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of deliverable/documentation] for [number] government clients at IEM, ensuring compliance with [federal/state program, e.g., FEMA guidance] and meeting [deadline/standard].",
+  "Tracked and reconciled [funding/reimbursement/budget] records totaling [amount] using [system/tool], resolving [number/type] discrepancies with client staff.",
+  "Served as primary point of contact for [stakeholder group], answering questions on [process/policy] and maintaining strong working relationships across [number] agencies or offices."
+ ],
+ "interview_questions": [
+  "Tell us about a time you managed many deadlines and documents with little room for error.",
+  "How would you explain a funding decision or policy to a frustrated graduate student?",
+  "Describe your experience with budgets, spreadsheets, or tracking financial data.",
+  "Why are you interested in working in higher education administration?"
+ ],
+ "watch_outs": [
+  "No description, salary, or requirements were available, so fit can't be confirmed until you read the actual posting.",
+  "The role may prefer higher-ed experience or student information systems such as Banner, which you may lack.",
+  "Open until filled means it could close without notice, so apply soon.",
+  "The work may be largely administrative and detail-focused, with less public-facing or policy work than you want."
+ ],
+ "job_id": "virginia:graduate-funding-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

@@ -1,0 +1,53 @@
+{
+ "one_liner": "A project coordinator role at George Mason University (a Virginia state agency) in Fairfax, likely organizing schedules, stakeholders, and deliverables for a university project or office.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's consulting background at IEM serving government clients, plus strong relationship-building and public-facing skills, fits a general coordination role well. Because no job description, salary, or requirements were provided, the true fit can't be confirmed until Daniel reads the full posting.",
+ "eligibility": [
+  "Open the full posting at the jobs.virginia.gov link to confirm minimum qualifications, since none are listed in the information provided.",
+  "Check whether a bachelor's degree or a set number of years of project coordination experience is required.",
+  "Confirm whether a background check is required, which is common for George Mason staff positions.",
+  "Note the closing date: it is listed as open until filled or not stated, so the posting could close without warning."
+ ],
+ "keywords": [
+  "Project Coordinator",
+  "project coordination",
+  "stakeholders",
+  "timelines",
+  "deliverables",
+  "scheduling",
+  "communication",
+  "budget tracking",
+  "reporting",
+  "meeting coordination",
+  "collaboration",
+  "project management",
+  "documentation"
+ ],
+ "strategy": [
+  "Pull the full description from the posting URL before writing anything, and mirror its exact duty language, because the keywords here are generic placeholders based only on the title.",
+  "Frame the IEM work around coordination: managing tasks, deadlines, client communication, and multi-party teams on government emergency-management or recovery projects, using only duties you actually performed.",
+  "Highlight your people skills as stakeholder management, for example working with faculty, staff, students, and outside partners.",
+  "Virginia state applications are scored on the application form itself, so fill out every work history field fully rather than relying only on an attached resume.",
+  "Apply quickly because there is no firm deadline, and prepare a short cover letter linking your public-policy knowledge to work at a public university.",
+  "The two-page federal resume limit doesn't apply here, but a concise one-to-two-page resume is still wise."
+ ],
+ "resume_bullets": [
+  "Coordinated [number] concurrent [emergency management/disaster recovery] project tasks for [government client type], tracking timelines and deliverables to meet [deadline/milestone].",
+  "Served as point of contact for [number] client and partner stakeholders, organizing meetings, preparing [reports/briefings], and following up on action items.",
+  "Maintained project documentation and status reports in [tool, e.g., SharePoint/Excel] for [team size] team members and [client]."
+ ],
+ "interview_questions": [
+  "Tell us about a project you coordinated with multiple stakeholders and competing deadlines.",
+  "How do you keep a project on track when a key contributor misses a deadline?",
+  "What tools do you use to track tasks, schedules, and documentation?",
+  "Why do you want to work at George Mason University?"
+ ],
+ "watch_outs": [
+  "The posting provided no description, salary, or qualifications, so verify everything at the source before investing time.",
+  "Because the role is open until filled, it could close at any time, so apply early.",
+  "Daniel lives in Manassas and the role is on-site in Fairfax, so check the campus location and commute; telework status is unknown."
+ ],
+ "job_id": "virginia:project-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

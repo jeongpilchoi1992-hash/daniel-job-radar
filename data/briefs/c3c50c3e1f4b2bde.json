@@ -1,0 +1,55 @@
+{
+ "one_liner": "A program coordinator role for George Mason University's ICAP program in Fairfax; the posting gives no duties, so confirm what ICAP is before applying.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Without a description, fit can't be judged well. Daniel's consulting background with government clients at IEM, plus strong people and relationship skills, suits a general coordinator role. If ICAP turns out to be an academic, student-services, or research program unrelated to policy or emergency management, the fit is weaker.",
+ "eligibility": [
+  "Open the full posting on jobs.virginia.gov or GMU's careers site to confirm who may apply. The summary lists no restrictions.",
+  "Check the required qualifications on the full posting for any degree requirement. Many GMU coordinator roles ask for a bachelor's degree or equivalent experience.",
+  "Confirm whether the job is a classified state, administrative/professional faculty, or wage position. This affects pay, benefits, and how the application is reviewed.",
+  "Expect a background check, which is standard for GMU hires."
+ ],
+ "keywords": [
+  "Program Coordinator",
+  "program coordination",
+  "stakeholder engagement",
+  "communication",
+  "outreach",
+  "event planning",
+  "scheduling",
+  "reporting",
+  "project management",
+  "customer service",
+  "collaboration",
+  "data tracking",
+  "budget support",
+  "George Mason University"
+ ],
+ "strategy": [
+  "Before tailoring anything, get the full description from the jobs.virginia.gov link or GMU's Jobs at Mason site. Find out what ICAP stands for and what the role does.",
+  "Frame the IEM work as program and project coordination for government clients. Describe deliverables, deadlines, stakeholder meetings, and reports in concrete terms, without overstating your title.",
+  "Lead with your relationship-building and public-facing strengths: coordinating partners, running meetings, and answering inquiries.",
+  "If ICAP touches policy, public service, or civic engagement, tie in your knowledge of U.S. politics and policy in a short cover letter.",
+  "State resumes are not limited to two pages, but keep yours focused (one to two pages) and mirror the posting's exact wording. Because the job is open until filled, apply quickly.",
+  "The Manassas-to-Fairfax commute is reasonable. Still, ask about on-site expectations, since the posting lists the job as not remote."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of deliverable/project] for [number] government clients in emergency management at IEM, managing timelines, documentation, and stakeholder communication to meet [deadline/result].",
+  "Served as a point of contact for [client/agency stakeholders], organizing [number] meetings, briefings, or workshops and tracking action items to completion.",
+  "Prepared [reports/plans/trackers] summarizing [program data/status] for [audience], improving [specific outcome, if known]."
+ ],
+ "interview_questions": [
+  "What do you know about ICAP, and why does this role interest you?",
+  "Tell us about a time you juggled several deadlines and stakeholders on a project.",
+  "How would you handle a frustrated student, partner, or member of the public?",
+  "What tools have you used to track program activities and report progress?"
+ ],
+ "watch_outs": [
+  "The posting has no description or salary, so you can't verify fit or pay until you see the full listing.",
+  "It is open until filled, so it could close without notice. Apply soon.",
+  "A degree may be required. Confirm this on the full posting.",
+  "If ICAP is a specialized academic or research program, it may be less related to your policy and emergency-management interests."
+ ],
+ "job_id": "virginia:icap-program-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

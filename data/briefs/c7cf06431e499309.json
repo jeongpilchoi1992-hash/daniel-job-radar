@@ -1,0 +1,50 @@
+{
+ "one_liner": "Communications role in the Senate Sergeant at Arms office, likely coordinating media access, credentialing, or press relations; the posting text gives almost no detail.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's political and policy knowledge, ease with people, and consulting work for government clients at IEM suit a Senate media-facing role. The posting text is nearly empty, so the fit can't be confirmed until you read the full announcement at the URL. Senate jobs are not competitive-service, so having no federal status is not a barrier.",
+ "eligibility": [
+  "The posting text here does not state who may apply, so open the full announcement at careers.employment.senate.gov and confirm any citizenship or other requirements.",
+  "Grade, salary, and specific experience requirements are not stated here; check the full posting for minimum qualifications such as years of media or communications experience.",
+  "Check the full posting for any education or degree requirement before applying.",
+  "Check for a background investigation or clearance requirement, which is common for Sergeant at Arms roles; none is stated in the text provided."
+ ],
+ "keywords": [
+  "Media Relations",
+  "Coordinator",
+  "Senate",
+  "Sergeant at Arms",
+  "press",
+  "media",
+  "communications",
+  "stakeholder",
+  "public",
+  "coordination",
+  "relationship"
+ ],
+ "strategy": [
+  "Before tailoring anything, read the full announcement at the URL. The provided text lists no duties, so build your keywords from the real posting.",
+  "Present the IEM role as communications and stakeholder coordination for government clients. Use only duties you actually performed, such as briefings, public-facing materials, or coordinating with agency partners.",
+  "Highlight your knowledge of Congress and the Senate's institutional workings, including press galleries, member offices, and committee processes, and show you understand nonpartisan service.",
+  "Since this is a legislative-branch job, follow the Senate portal's format rather than the USAJOBS two-page rule. Still keep the resume concise and include a targeted cover letter if one is allowed.",
+  "The job is open until filled, so apply quickly; Senate postings often close without notice once enough applicants are in."
+ ],
+ "resume_bullets": [
+  "Coordinated communications with [number/type of] government clients on emergency management and preparedness projects at IEM, preparing [briefings/materials] for [audience].",
+  "Built working relationships with [federal/state/local] stakeholders to [deliver outcome], supporting [project name or scope].",
+  "Drafted [press materials/public messaging/reports] on [topic] for [audience], meeting [deadline or volume]."
+ ],
+ "interview_questions": [
+  "How would you handle a reporter's request for access or information during a fast-moving security situation on the Capitol campus?",
+  "Tell us about a time you had to stay neutral while working with stakeholders who held competing interests.",
+  "How does your emergency-management consulting experience prepare you for media coordination in the Senate?",
+  "How do you keep track of many simultaneous media requests and deadlines?"
+ ],
+ "watch_outs": [
+  "The posting text has almost no detail on duties, pay, or requirements, so verify everything on the full announcement before investing time.",
+  "Sergeant at Arms roles often require a background check and may involve irregular hours during session or major events.",
+  "Commuting from Manassas to Capitol Hill is long, and no telework is indicated."
+ ],
+ "job_id": "senate:media-relations-coordinator-770-washington-district-of-columbia-1267",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:52-04:00"
+}

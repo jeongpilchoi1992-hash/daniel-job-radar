@@ -1,0 +1,46 @@
+{
+ "one_liner": "Senior program manager at the Senate Sergeant at Arms running the program that provides home security systems for U.S. Senators, likely including vendor and stakeholder coordination.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's emergency-management consulting at IEM, policy knowledge, and relationship skills fit the protective, high-touch Senate setting well. However, a 'Senior' program manager title usually expects several years of directly managing security or technology programs, and Daniel's exact IEM role is unknown. The posting text gives almost no detail, so the fit can't be confirmed until you read the full announcement.",
+ "eligibility": [
+  "Who may apply is not stated in the text provided; Senate SAA jobs are legislative-branch hires outside USAJOBS and OPM rules, so check the full posting on the Senate employment site.",
+  "Required years of program management experience and any security-systems background are not stated; confirm the minimum qualifications before applying.",
+  "A background investigation or security clearance is likely for an SAA security program; verify what the posting requires.",
+  "Education or certification requirements (e.g., a bachelor's degree or PMP) are not stated; check the full announcement."
+ ],
+ "keywords": [
+  "Senior Program Manager",
+  "Residential Security System Program",
+  "Senate Sergeant at Arms",
+  "program management",
+  "security",
+  "U.S. Senate"
+ ],
+ "strategy": [
+  "Open the full posting at the URL and copy its exact duty and qualification language; the text provided here is only one line, so the keyword list must be expanded from the real announcement.",
+  "Frame your IEM work around program delivery for government clients: scope, schedules, budgets, vendors, stakeholders, and preparedness or protective planning. Use your real title and duties.",
+  "Emphasize discretion and client service with high-profile principals, since Senators and their families are the end users. Your people skills and political knowledge are a genuine differentiator here.",
+  "The two-page OPM limit does not formally apply to Senate jobs, but a concise, tailored resume and a short cover letter tying emergency management to residential security will read best.",
+  "The closing date is open until filled or not stated, so apply promptly; Senate postings can close without notice once enough applicants are in."
+ ],
+ "resume_bullets": [
+  "Managed [number] [emergency management/preparedness] projects for [federal/state/local] government clients at IEM, coordinating schedules, budgets of [$amount], and deliverables across [number] stakeholders.",
+  "Served as primary client liaison to [agency/official type], resolving issues and briefing leadership on [topic], resulting in [actual outcome].",
+  "Coordinated vendors and contractors for [project], tracking performance against [metrics/contract requirements] and [result]."
+ ],
+ "interview_questions": [
+  "Describe a program you managed end to end: scope, budget, vendors, and how you measured success.",
+  "How would you handle a Senator's office that is unhappy with the installation schedule for a home security system?",
+  "How has your emergency management and preparedness experience prepared you to manage a protective security program?",
+  "How do you protect sensitive information about high-profile clients?"
+ ],
+ "watch_outs": [
+  "The posting text is nearly empty: salary, qualifications, and eligibility are unknown, so verify everything on the full announcement.",
+  "The 'Senior' title may require more direct program management or physical/electronic security experience than you currently have.",
+  "A background check or clearance is likely required, and Senate staff are at-will employees outside the competitive service.",
+  "The job is on-site in DC with no remote option, so plan for a commute from Manassas (VRE or I-66)."
+ ],
+ "job_id": "senate:senior-program-manager-residential-security-system-program-5454-washington-district-of-columbia-1273",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

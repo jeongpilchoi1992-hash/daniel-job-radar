@@ -1,0 +1,55 @@
+{
+ "one_liner": "Plans and coordinates public health emergency preparedness and response for the Virginia Department of Health's local health district covering Fauquier County.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's emergency management consulting work at IEM aligns directly with a preparedness coordinator role, and Daniel's relationship-building and public-facing strengths suit the community partner coordination these jobs typically involve. The main unknowns are whether Daniel's IEM duties were hands-on planning or exercise work, and whether the posting wants public health or certification background. The posting text was unavailable, so this rating rests on the title alone.",
+ "eligibility": [
+  "The posting text was unavailable, so open the full listing on jobs.virginia.gov and confirm the minimum qualifications, any preferred education such as a degree in emergency management or public health, and any required certifications.",
+  "Check whether Virginia Emergency Management or FEMA training is required or expected, such as ICS-100/200/700/800 or the Professional Development Series.",
+  "Confirm whether a valid driver's license, a background check, or after-hours on-call availability is a condition of employment.",
+  "Virginia state jobs are generally open to the public, so no federal status or veterans' preference is needed, but verify that no special restrictions apply."
+ ],
+ "keywords": [
+  "Local Health Emergency Coordinator",
+  "emergency preparedness",
+  "public health emergency",
+  "response planning",
+  "Virginia Department of Health",
+  "Fauquier County",
+  "coordination",
+  "community partners",
+  "emergency management",
+  "disaster recovery",
+  "exercises",
+  "training",
+  "Incident Command System",
+  "continuity of operations",
+  "stakeholder engagement"
+ ],
+ "strategy": [
+  "Pull the full posting and mirror its knowledge, skills, and abilities (KSA) wording exactly. Virginia's PeopleAdmin screeners score against the posted qualifications.",
+  "Frame the IEM experience concretely around plans written, exercises supported, government clients served, and the disaster programs you worked on. Name the clients' jurisdictions where you are permitted to.",
+  "Lead with stakeholder and partner coordination, using your relationship skills with hospitals, schools, emergency services, and local officials as the selling point.",
+  "List any NIMS/ICS or FEMA independent-study (IS) courses you hold. If you have none, complete IS-100, 200, 700, and 800 online before applying; they are free.",
+  "Fill out every field of the state application fully rather than writing \"see resume,\" because Virginia HR screens the application itself. Apply well before the November 13, 2026 close, since state postings can close early.",
+  "Emphasize that you live in Manassas, close to Fauquier, which supports your availability for local response."
+ ],
+ "resume_bullets": [
+  "Supported [government client] in developing [emergency operations/recovery/preparedness] plans covering [scope], coordinating input from [number/type] stakeholder agencies.",
+  "Planned and facilitated [tabletop/functional] exercises for [client] involving [number] participants, and documented after-action findings and improvement plans.",
+  "Served as primary liaison between [client agency] and [partners], managing [communications/tasks] during [disaster or project] for [duration]."
+ ],
+ "interview_questions": [
+  "Describe a time you coordinated multiple agencies or partners toward a preparedness goal. What was your role?",
+  "How would you build relationships with hospitals, EMS, and local emergency managers in a rural-suburban county like Fauquier?",
+  "Walk us through how you would plan and evaluate a public health emergency exercise.",
+  "How would you handle communicating risk to the public during an outbreak or disaster?"
+ ],
+ "watch_outs": [
+  "The posting text was unavailable, so verify any degree, certification, or public health experience requirements before investing time in the application.",
+  "Roles like this often include after-hours on-call duty and response deployments, so confirm the expectations.",
+  "The commute from Manassas to Fauquier is manageable, but the posting lists no remote work and no confirmed telework."
+ ],
+ "job_id": "virginia:local-health-emergency-coordinator-fauquier-county-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:52-04:00"
+}

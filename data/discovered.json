@@ -264,11 +264,11 @@
     "title": "Library Technician (Collections Specialist), VAR003479",
     "org": "Library of Congress",
     "location": "Washington, DC",
-    "url": "https://jobs.diglib.org/job/library-technician-collections-specialist-vacancyvar003479/",
-    "apply_url": "https://jobs.diglib.org/job/library-technician-collections-specialist-vacancyvar003479/",
+    "url": "https://www.usajobs.gov/job/890771200",
+    "apply_url": "https://www.usajobs.gov/job/890771200",
     "posted": "2026-10-29",
     "closes": "2026-11-30",
-    "salary_text": "",
+    "salary_text": "$70,623 - $91,815 per year (GS-9)",
     "work_authorization": "Not stated in search results; Library of Congress positions generally require U.S. citizenship and a background check",
     "summary": "This is a support job handling collections at the Library of Congress, a legislative-branch agency. It is currently open and could get Daniel into the agency that houses CRS. It does not use Daniel's political and policy strengths, so it only makes sense as a stepping stone into the legislative branch.",
     "match": {
@@ -307,8 +307,8 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
+    "verified_on": null,
+    "check": "link moved to the employer's own posting"
    },
    {
     "id": "ai:daniel:a42d7c78a80374be",
@@ -363,57 +363,6 @@
     "unverified_runs": 0,
     "verified_on": "2026-10-30",
     "check": "link checked"
-   },
-   {
-    "id": "ai:daniel:573a6ce1097754df",
-    "source": "ai:daniel",
-    "level": "Regional transit authority",
-    "title": "Transportation Support Associate",
-    "org": "OmniRide / PRTC",
-    "location": "Woodbridge, VA",
-    "url": "https://www.transittalent.com/job_listing_mail.cfm?JobID=149756",
-    "apply_url": "https://www.transittalent.com/job_listing_mail.cfm?JobID=149756",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "This is a customer service job at a public transit agency: handling complaints, scheduling paratransit and off-route trips, and giving information to the public. It's an easy entry point that fits Daniel's comfort with the public, about 20 minutes from Manassas. It does not use Daniel's policy background.",
-    "match": {
-     "score": 45,
-     "tags": [
-      "Regional transit authority"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This is a customer service job at a public transit agency: handling complaints, scheduling paratransit and off-route trips, and giving information to the public. It's an easy entry point that fits Daniel's comfort with the public, about 20 minutes from Manassas. It does not use Daniel's policy background.",
-     "keywords": [
-      "customer service",
-      "customer complaints",
-      "paratransit",
-      "scheduling trips",
-      "providing information to the public",
-      "data entry",
-      "records",
-      "correspondence",
-      "dealing courteously with the public",
-      "escalation"
-     ],
-     "strategy": [
-      "Present the IEM job as client service and working through problems for government programs.",
-      "Give examples of calming upset members of the public and resolving complaints.",
-      "Treat this as a way into PRTC and later move toward outreach or government relations roles.",
-      "Confirm the job is still open on omniride.com before applying."
-     ],
-     "watch_outs": [
-      "This listing is on TransitTalent with no posting date in the results, so it may be old. Check it.",
-      "Intermediate-level work with probably modest pay; below Daniel's level if Daniel has several years at IEM.",
-      "No policy or legislative content."
-     ],
-     "evidence": "OmniRide ... is seeking a professional to fill the position of Transportation Support Associate"
-    },
-    "found_on": "2026-10-30",
-    "unverified_runs": 2,
-    "check": "HTTP 403"
    },
    {
     "id": "ai:daniel:0e8860c9b7d9dbd0",
@@ -628,64 +577,6 @@
  "jp": {
   "jobs": [
    {
-    "id": "ai:jp:bebdd45bda2b6565",
-    "source": "ai:jp",
-    "level": "International organization",
-    "title": "IDB Invest - Investment Officer Infrastructure & Energy",
-    "org": "IDB Invest (Inter-American Development Bank Group)",
-    "location": "Not stated on the listing page (IDB Invest; probably Washington DC or a Latin America/Caribbean country office)",
-    "url": "https://talendo.ch/en/unternehmen/inter-american-development-bank/140884-idb-invest-investment-officer-infrastructure-energy",
-    "apply_url": "https://talendo.ch/en/unternehmen/inter-american-development-bank/140884-idb-invest-investment-officer-infrastructure-energy",
-    "posted": "2026-10-11",
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "This is a front-line Investment Officer job at IDB Invest. The role covers originating, screening, structuring and documenting loans, equity and mezzanine deals in Latin American and Caribbean infrastructure and energy. J.P. Choi brings real cross-border deal experience from Hana Securities (the US$21M RCPS investment in Wedbush, private debt fund commitments, co-investment funds) and strong financial modeling. However, the posting asks for several years as an investment officer in project finance, and J.P. has no LAC or infrastructure track record, so this is a stretch.",
-    "match": {
-     "score": 12,
-     "tags": [
-      "International organization"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This is a front-line Investment Officer job at IDB Invest. The role covers originating, screening, structuring and documenting loans, equity and mezzanine deals in Latin American and Caribbean infrastructure and energy. J.P. Choi brings real cross-border deal experience from Hana Securities (the US$21M RCPS investment in Wedbush, private debt fund commitments, co-investment funds) and strong financial modeling. However, the posting asks for several years as an investment officer in project finance, and J.P. has no LAC or infrastructure track record, so this is a stretch.",
-     "keywords": [
-      "origination",
-      "structuring",
-      "project finance",
-      "equity and mezzanine",
-      "lending, investment, and advisory opportunities",
-      "scenario and sensitivity analyses",
-      "transaction documentation",
-      "Portfolio Management",
-      "mobilize private capital",
-      "bankable projects",
-      "regulatory frameworks",
-      "development impact"
-     ],
-     "strategy": [
-      "Before applying, find the official listing on jobs.iadb.org and confirm the closing date, duty station and grade. This link is an aggregator mirror.",
-      "Present the Hana Securities deals (US$21M Wedbush RCPS, US$25M private debt fund commitment, US$16M co-investment fund, KRW 160B loan asset transfer) as origination, structuring and documentation work, with clear numbers.",
-      "Show scenario and sensitivity analysis skills by naming specific models J.P. built for subsidiary capital increases (Vietnam) and investment committee papers.",
-      "Mention Korea's IDB membership and the Korea–IDB co-financing and Korea Infrastructure Development Co-Financing Facility links. Position J.P. as a bridge to Korean sponsors and investors in LAC infrastructure.",
-      "Use this application to get into the IDB talent pool, and also watch for IDB Invest Analyst or portfolio roles that match J.P.'s experience level better."
-     ],
-     "watch_outs": [
-      "The posting requires several years as an investment officer in project finance, with equity and mezzanine work. J.P.'s experience is in strategic and fund investments, not project finance.",
-      "The posting values Spanish or Portuguese for the LAC region, and J.P. has neither.",
-      "The deadline is not shown on the aggregator page. IDB postings usually close about 3 weeks after posting, so this one may close in early November 2026. Apply right away.",
-      "The page is a third-party mirror, not the IDB's own careers site. Check the official requisition before applying.",
-      "IDB staff jobs require citizenship of a member country (Korea is a member), but this listing does not say so explicitly. Confirm on the official page."
-     ],
-     "evidence": "Published at 2026-10-11."
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "International organization",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
     "id": "ai:jp:10e5d45a3f1964bd",
     "source": "ai:jp",
     "level": "Hong Kong / Singapore",
@@ -695,7 +586,7 @@
     "url": "https://www.robertwalters.com.hk/financialservices/jobs/investmentmanagement/1909853-equity-sales-korean-speaking.html",
     "apply_url": "https://www.robertwalters.com.hk/financialservices/jobs/investmentmanagement/1909853-equity-sales-korean-speaking.html",
     "posted": null,
-    "closes": null,
+    "closes": "2026-11-02",
     "salary_text": "",
     "work_authorization": "Not stated",
     "summary": "A foreign investment banking group is hiring a Korean-speaking equity salesperson in Hong Kong as part of an expansion. The job covers Korean asset managers, hedge funds and pension funds. J.P.'s native Korean and English, J.P. Morgan Seoul work for offshore institutions and daily FICC/equity market briefings are relevant. However, J.P. has never worked in front-office equity sales, so this is a stretch.",
@@ -798,11 +689,11 @@
     "title": "[CJ America] Financial Analyst - Los Angeles (Treasury)",
     "org": "CJ America, Inc. (CJ Group)",
     "location": "Los Angeles, CA, United States",
-    "url": "https://freehire.me/jobs/cj-america-financial-analyst-los-angeles-cj-group-r6sfewdq",
-    "apply_url": "https://freehire.me/jobs/cj-america-financial-analyst-los-angeles-cj-group-r6sfewdq",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9eafec87-31d3-41e1-b5f0-9f5838ba88b7&ccId=19000101_000001&jobId=9201855153452_1&lang=en_US",
+    "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=9eafec87-31d3-41e1-b5f0-9f5838ba88b7&ccId=19000101_000001&jobId=9201855153452_1&lang=en_US",
     "posted": "2026-10-21",
     "closes": null,
-    "salary_text": "",
+    "salary_text": "$65,000–$75,000 a year",
     "work_authorization": "Not stated",
     "summary": "This treasury analyst role at CJ America's U.S. holding entity covers cash and liquidity management, cash flow forecasting, banking operations, debt and credit facility administration, FX support and treasury reporting, working with subsidiaries and affiliates. J.P.'s HQ–subsidiary monitoring at Hanwha, FICC briefings at VI Asset Management and capital increase work at Hana Securities are a good match for coordinating with affiliates and banks. The role is non-exempt and more junior than J.P.'s experience.",
     "match": {
@@ -842,8 +733,8 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (CJ)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
+    "verified_on": null,
+    "check": "link moved to the employer's own posting"
    },
    {
     "id": "ai:jp:bcfe77e218b588dc",
@@ -852,8 +743,8 @@
     "title": "Sr. Financial Analyst",
     "org": "SK hynix America",
     "location": "San Jose, CA, United States (onsite)",
-    "url": "https://zapply.jobs/jobs/3d031c41-ccee-4163-9d76-b160bc1979f9/",
-    "apply_url": "https://zapply.jobs/jobs/3d031c41-ccee-4163-9d76-b160bc1979f9/",
+    "url": "https://job-boards.greenhouse.io/skhynixamerica/jobs/5465559008",
+    "apply_url": "https://job-boards.greenhouse.io/skhynixamerica/jobs/5465559008",
     "posted": "2026-10-28",
     "closes": null,
     "salary_text": "$85,000–$120,000 USD",
@@ -895,8 +786,8 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (SK)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
+    "verified_on": null,
+    "check": "link moved to the employer's own posting"
    },
    {
     "id": "ai:jp:0e584c5a7d7de1aa",
@@ -905,8 +796,8 @@
     "title": "Analyst II, Strategy & Planning",
     "org": "Mobis Parts America, LLC (Hyundai MOBIS)",
     "location": "Fountain Valley, CA (Headquarters), United States",
-    "url": "https://www.glassdoor.com/job-listing/jv?jl=1010223746435",
-    "apply_url": "https://www.glassdoor.com/job-listing/jv?jl=1010223746435",
+    "url": "https://mobis.csod.com/ux/ats/careersite/2/home/requisition/1701?c=mobis",
+    "apply_url": "https://mobis.csod.com/ux/ats/careersite/2/home/requisition/1701?c=mobis",
     "posted": null,
     "closes": null,
     "salary_text": "",
@@ -947,8 +838,9 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hyundai)",
-    "unverified_runs": 2,
-    "check": "HTTP 403"
+    "unverified_runs": 0,
+    "check": "link moved to the employer's own posting",
+    "verified_on": null
    },
    {
     "id": "ai:jp:1e2e34154598e9f1",
@@ -1118,8 +1010,8 @@
     "title": "Asset Management - Korea Institutional Business - Client Advisor - Vice President",
     "org": "JPMorganChase",
     "location": "Seoul, South Korea",
-    "url": "https://jobs.alpfa.org/job/asset-management-korea-institutional-business-client-advisor-vice-president/82008564/",
-    "apply_url": "https://jobs.alpfa.org/job/asset-management-korea-institutional-business-client-advisor-vice-president/82008564/",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210658248",
+    "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210658248",
     "posted": null,
     "closes": null,
     "salary_text": "",
@@ -1159,8 +1051,9 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea institutional coverage",
-    "unverified_runs": 2,
-    "check": "HTTP 403"
+    "unverified_runs": 0,
+    "check": "link moved to the employer's own posting",
+    "verified_on": null
    },
    {
     "id": "ai:jp:dc526508bae7d584",
@@ -1220,11 +1113,11 @@
     "title": "Senior Finance Manager (consolidated U.S. reporting & HQ group reporting)",
     "org": "Hanwha Defense USA",
     "location": "Rosslyn (Arlington), VA, USA – on-site",
-    "url": "https://hanwhadefenseusa.com/careers",
-    "apply_url": "https://hanwhadefenseusa.com/careers",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e5360e53-0e72-41c4-b1bf-01f1613310c6&ccId=19000101_000003&type=MP&lang=en_US&jobId=564931",
+    "apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e5360e53-0e72-41c4-b1bf-01f1613310c6&ccId=19000101_000003&type=MP&lang=en_US&jobId=564931",
     "posted": "2026-09-14",
     "closes": null,
-    "salary_text": "",
+    "salary_text": "$100,000–$200,000 a year",
     "work_authorization": "Not stated (Korean-owned employer; E-2 treaty visa may be possible but is not mentioned)",
     "summary": "This is Hanwha's U.S. defense subsidiary. The role leads consolidated financial reporting for the U.S. entity and handles group-level reporting to the overseas HQ in Korea. J.P.'s Hanwha Investment & Securities work on HQ-subsidiary governance, quarterly financial statement reviews and IFRS fits the HQ-reporting side closely. The stretches are seniority, U.S. GAAP/defense accounting, and the fact that J.P. has worked in capital markets rather than as a corporate controller.",
     "match": {
@@ -1265,58 +1158,8 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean company (Hanwha)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
-    "id": "ai:jp:00390b7f97fabe71",
-    "source": "ai:jp",
-    "level": "Korean company in the U.S.",
-    "title": "Finance Analyst I",
-    "org": "LG Energy Solution Michigan, Inc.",
-    "location": "Holland, MI, USA",
-    "url": "https://www.glassdoor.com/job-listing/finance-analyst-i-lg-energy-solution-michigan-JV_KO0,17_KE18,45.htm?jl=1009987732152",
-    "apply_url": "https://www.glassdoor.com/job-listing/finance-analyst-i-lg-energy-solution-michigan-JV_KO0,17_KE18,45.htm?jl=1009987732152",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "This finance analyst role at LG Energy Solution's Michigan battery plant covers monthly and quarterly statements, variance analysis and performance modeling, with Korean/English bilingual preferred. J.P. is overqualified for the level but matches the language and modeling needs. It could be a way into a U.S. role at a Korean manufacturer near Detroit.",
-    "match": {
-     "score": 22,
-     "tags": [
-      "Korean company in the U.S."
-     ]
-    },
-    "brief": {
-     "fit_summary": "This finance analyst role at LG Energy Solution's Michigan battery plant covers monthly and quarterly statements, variance analysis and performance modeling, with Korean/English bilingual preferred. J.P. is overqualified for the level but matches the language and modeling needs. It could be a way into a U.S. role at a Korean manufacturer near Detroit.",
-     "keywords": [
-      "monthly and quarterly financial statements",
-      "variance analysis",
-      "financial modeling",
-      "profitability analysis",
-      "performance measurement",
-      "strategic initiatives",
-      "SAP",
-      "Korean/English bilingual",
-      "reporting"
-     ],
-     "strategy": [
-      "Look for the same requisition on LGES Michigan's own careers site and apply there.",
-      "Highlight quarterly financial statement reviews and variance analysis from the Hanwha subsidiary-monitoring work.",
-      "Ask about sponsorship or E-2 status up front, since entry-level roles often don't sponsor."
-     ],
-     "watch_outs": [
-      "Glassdoor aggregator listing about 260 days old, so it may be expired.",
-      "Entry level and well below J.P.'s experience and likely pay.",
-      "Manufacturing/SAP focus; Holland, MI is about 3 hours from Detroit."
-     ],
-     "evidence": "Analyst I, Finance ... Korean/English bilingual preferred"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "U.S. subsidiary of Korean company (LG)",
-    "unverified_runs": 2,
-    "check": "HTTP 403"
+    "verified_on": null,
+    "check": "link moved to the employer's own posting"
    },
    {
     "id": "ai:jp:56e87a4f86c08e95",
@@ -1472,167 +1315,6 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Korean sovereign wealth fund – U.S. office",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
-    "id": "ai:jp:0d699dfaacab806a",
-    "source": "ai:jp",
-    "level": "Korean company in the U.S.",
-    "title": "Treasury Officer (Korean Speaking)",
-    "org": "Woori America Bank",
-    "location": "330 5th Avenue, New York, NY 10001",
-    "url": "https://www.indeed.com/viewjob?jk=be5a690dc5882a57",
-    "apply_url": "https://www.indeed.com/viewjob?jk=be5a690dc5882a57",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated in this posting (other Woori America Bank postings ask whether applicants are a Green Card holder or U.S. citizen)",
-    "summary": "A treasury role at Woori Bank's U.S. subsidiary in Manhattan: managing daily liquidity, executing Fed Funds trades, and handling the bank's investment portfolio. It wants 2+ years in treasury, funding or investment work plus Korean-English fluency. J.P.'s FICC briefings at VI Asset Management, capital-markets work and bilingual skills match well, but J.P. has never run a bank treasury desk directly.",
-    "match": {
-     "score": 40,
-     "tags": [
-      "Korean company in the U.S."
-     ]
-    },
-    "brief": {
-     "fit_summary": "A treasury role at Woori Bank's U.S. subsidiary in Manhattan: managing daily liquidity, executing Fed Funds trades, and handling the bank's investment portfolio. It wants 2+ years in treasury, funding or investment work plus Korean-English fluency. J.P.'s FICC briefings at VI Asset Management, capital-markets work and bilingual skills match well, but J.P. has never run a bank treasury desk directly.",
-     "keywords": [
-      "Treasury",
-      "liquidity position",
-      "Federal Funds",
-      "Fed Fund buy/sell",
-      "funding",
-      "investment portfolio",
-      "cash management",
-      "bilingual English and Korean",
-      "ALM",
-      "interest rate risk",
-      "regulatory reporting"
-     ],
-     "strategy": [
-      "Open with the daily FICC and rates briefings J.P. wrote at VI Asset Management, framed as monitoring markets for liquidity and investment decisions",
-      "Use the KRW 160B loan asset transfer and the RCPS investment at Hana Securities as examples of balance-sheet and funding transactions",
-      "Mention the reporting automation J.P. built (Excel, PowerShell, Claude API) as a way to speed up daily liquidity reports",
-      "Ask HR early whether Woori America Bank would sponsor an E-2 or H-1B visa, and note that J.P. already has HQ-to-overseas-subsidiary experience",
-      "Apply through Indeed, and also email a Korean cover letter to Woori America Bank HR"
-     ],
-     "watch_outs": [
-      "The search tool showed this listing as about 322 days old, so it may be closed",
-      "Other Woori America Bank postings screen for Green Card or U.S. citizenship, so visa sponsorship is uncertain",
-      "The pay band at a community-bank subsidiary may be well below what securities firms pay",
-      "This link is an Indeed listing; no posting on the employer's own site came up"
-     ],
-     "evidence": "Treasury Officer (Korean Speaking) — Full-time — Monitor and manage the Bank's liquidity position on a daily basis"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "U.S. subsidiary of Korean bank",
-    "unverified_runs": 2,
-    "check": "HTTP 401"
-   },
-   {
-    "id": "ai:jp:9e82a3bed6271d44",
-    "source": "ai:jp",
-    "level": "Korean company in the U.S.",
-    "title": "Open roles at Hanwha Asset Management USA (job board: fixed income NY / alternatives SF)",
-    "org": "Hanwha Asset Management USA Ltd.",
-    "location": "New York, NY / San Francisco, CA",
-    "url": "https://hanwha-asset-management-usa-ltd.careerplug.com/jobs",
-    "apply_url": "https://hanwha-asset-management-usa-ltd.careerplug.com/jobs",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "This is Hanwha Asset Management USA's job board: a fixed-income team in New York and private equity / venture capital in San Francisco. Search results also showed a 'Senior VC Investor' opening in San Francisco paying $200K–$250K. J.P. has a strong link through Hanwha Group (Hanwha Investment & Securities, Global Network Team), and J.P.'s fund-of-funds and private-markets work fits, but the board may not have an associate-level opening right now.",
-    "match": {
-     "score": 30,
-     "tags": [
-      "Korean company in the U.S."
-     ]
-    },
-    "brief": {
-     "fit_summary": "This is Hanwha Asset Management USA's job board: a fixed-income team in New York and private equity / venture capital in San Francisco. Search results also showed a 'Senior VC Investor' opening in San Francisco paying $200K–$250K. J.P. has a strong link through Hanwha Group (Hanwha Investment & Securities, Global Network Team), and J.P.'s fund-of-funds and private-markets work fits, but the board may not have an associate-level opening right now.",
-     "keywords": [
-      "fixed income",
-      "portfolio management tools",
-      "private equity",
-      "venture capital",
-      "alternative assets",
-      "fund of funds",
-      "Hanwha Financial",
-      "credit analysis",
-      "Bloomberg",
-      "Preqin"
-     ],
-     "strategy": [
-      "Ask a Hanwha Investment & Securities colleague for a referral to the USA asset-management team",
-      "Show J.P.'s work monitoring overseas subsidiaries' P&L and AUM as experience with exactly the HQ–subsidiary reporting this affiliate deals with",
-      "For the San Francisco alternatives team, lead with the US$25M private debt fund commitment, the 8% stake in Indies Capital, and the US$16M co-investment fund",
-      "If nothing at J.P.'s level is posted, send an expression of interest anyway"
-     ],
-     "watch_outs": [
-      "This is a job-board page, not a single posting; whatever is open may not match J.P.'s level",
-      "The visible Senior VC Investor role is probably too senior",
-      "The search tool dated the page to about 569 days ago",
-      "Visa sponsorship is not stated, though an E-2 visa may be possible for a Korean-owned affiliate"
-     ],
-     "evidence": "HANWHA ASSET MANAGEMENT USA LTD job board (CareerPlug) listing current openings"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "U.S. affiliate of Korean asset manager",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
-    "id": "ai:jp:9c4f57f187fddf97",
-    "source": "ai:jp",
-    "level": "Korean company in the U.S.",
-    "title": "Careers at Hana Bank USA (current openings incl. compliance/transaction monitoring and banking roles)",
-    "org": "Hana Bank USA, N.A.",
-    "location": "New York / Flushing, NY",
-    "url": "https://www.hanabank.us/about-us/our-story/careers",
-    "apply_url": "https://www.hanabank.us/about-us/our-story/careers",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "Hana Bank USA's own careers page. It lists current roles, including a Universal Banker in Flushing and a compliance role covering the bank's transaction monitoring and QA review. J.P. worked in Hana Financial Group's Global Strategy Office, which helps with networking, but the listed roles are retail or compliance operations and sit below J.P.'s investment/strategy level.",
-    "match": {
-     "score": 20,
-     "tags": [
-      "Korean company in the U.S."
-     ]
-    },
-    "brief": {
-     "fit_summary": "Hana Bank USA's own careers page. It lists current roles, including a Universal Banker in Flushing and a compliance role covering the bank's transaction monitoring and QA review. J.P. worked in Hana Financial Group's Global Strategy Office, which helps with networking, but the listed roles are retail or compliance operations and sit below J.P.'s investment/strategy level.",
-     "keywords": [
-      "transaction monitoring",
-      "Quality Assurance",
-      "BSA/AML",
-      "compliance",
-      "regulatory requirements",
-      "relationship building",
-      "deposit growth",
-      "bilingual Korean English",
-      "attention to detail",
-      "community bank"
-     ],
-     "strategy": [
-      "Email careers@hanabank.us with a cover letter that mentions J.P.'s time at Hana Securities' Global Strategy Office",
-      "Ask former Hana Group colleagues whether the U.S. bank has strategy, credit or treasury openings that are not posted",
-      "If applying for the compliance/QA role, cite J.P.'s HQ–subsidiary governance and control work at Hanwha"
-     ],
-     "watch_outs": [
-      "Most listed roles are retail branch jobs or junior compliance jobs and fit J.P. poorly",
-      "This is a careers page, not a single posting",
-      "Visa sponsorship is not mentioned"
-     ],
-     "evidence": "Join Our Team & Build Your Career... To apply, please submit your resume and a cover letter to: careers@hanabank.us"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "U.S. subsidiary of Korean bank",
     "unverified_runs": 0,
     "verified_on": "2026-10-30",
     "check": "link checked"
@@ -1801,116 +1483,6 @@
     "check": "listed on the employer's job board"
    },
    {
-    "id": "ai:jp:0bdd5cfe2e673b18",
-    "source": "ai:jp",
-    "level": "International organization",
-    "title": "Investment Officer – Credit Guarantee and Investment Facility (CGIF)",
-    "org": "Credit Guarantee and Investment Facility (ADB-administered trust fund)",
-    "location": "Manila, Philippines (CGIF HQ; confirm on posting)",
-    "url": "https://www.adb.org/work-with-us/careers/other-opportunities",
-    "apply_url": "https://www.adb.org/work-with-us/careers/other-opportunities",
-    "posted": "2026-10-09",
-    "closes": "2026-11-10",
-    "salary_text": "",
-    "work_authorization": "Not stated in snippet. CGIF is a trust fund set up by ADB and the governments of the 10 ASEAN countries plus China, Japan and Korea, so Korean nationals should be eligible. Confirm nationality rules on the full posting.",
-    "summary": "CGIF guarantees local-currency corporate bonds across ASEAN+3, and the Investment Officer role covers credit and guarantee transactions. J.P.'s capital-markets work in Korea and Southeast Asia (Vietnam, Indonesia and Singapore subsidiaries, private debt fund commitment, loan asset transfer) and Korean nationality as a contributor country make this the closest match found. J.P. lacks direct bond-guarantee underwriting and credit-rating experience, which is the main stretch.",
-    "match": {
-     "score": 45,
-     "tags": [
-      "International organization"
-     ]
-    },
-    "brief": {
-     "fit_summary": "CGIF guarantees local-currency corporate bonds across ASEAN+3, and the Investment Officer role covers credit and guarantee transactions. J.P.'s capital-markets work in Korea and Southeast Asia (Vietnam, Indonesia and Singapore subsidiaries, private debt fund commitment, loan asset transfer) and Korean nationality as a contributor country make this the closest match found. J.P. lacks direct bond-guarantee underwriting and credit-rating experience, which is the main stretch.",
-     "keywords": [
-      "credit guarantee",
-      "local currency bond",
-      "credit analysis",
-      "due diligence",
-      "financial modeling",
-      "ASEAN+3",
-      "portfolio monitoring",
-      "IFRS",
-      "risk assessment",
-      "capital markets",
-      "investment committee",
-      "Korea"
-     ],
-     "strategy": [
-      "Present the KRW 160B loan asset transfer and the US$25M private debt fund commitment as credit and structuring experience.",
-      "Highlight IFRS-based quarterly reviews of the Vietnam, Indonesia and Singapore subsidiaries as evidence of credit monitoring across ASEAN markets.",
-      "Mention knowledge of the Korean bond market and coverage of Korean investors and issuers, since Korea is a CGIF contributor.",
-      "Write that J.P. has 'Passed Level II of the CFA Program' and is a 'Level III candidate in the CFA Program'. Pair this with the KOFIA Certified Investment Manager credential.",
-      "Apply well before 10 November 2026 and tailor the CV to credit and guarantee language."
-     ],
-     "watch_outs": [
-      "The link points to ADB's opportunity highlights page, not a dedicated posting; use it to reach the CGIF application.",
-      "CGIF investment officers usually need deep credit-underwriting and bond-structuring experience, which J.P. lacks.",
-      "The grade, salary and minimum years of experience did not appear in the search results."
-     ],
-     "evidence": "Investment Officer | 9 October 2026 | 10 November 2026"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Asian development finance / ADB-affiliated trust fund",
-    "unverified_runs": 2,
-    "check": "HTTP 403"
-   },
-   {
-    "id": "ai:jp:fd4fded4aa81a914",
-    "source": "ai:jp",
-    "level": "International organization",
-    "title": "Investment and Partnership Lead, Green Trust Fund Unit",
-    "org": "Global Green Growth Institute (GGGI)",
-    "location": "Seoul, Republic of Korea",
-    "url": "https://www.impactpool.org/jobs/1226746",
-    "apply_url": "https://www.impactpool.org/jobs/1226746",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated; posting lists English and Korean as languages",
-    "summary": "This Seoul-based lead role runs investment quality management across the Korea Green New Deal Trust Fund (KGNDTF) project portfolio and builds partnerships that bring private capital into green growth projects. J.P.'s bilingual Korean-English profile, portfolio monitoring and investment governance work at Hanwha and Hana fit well. However, G10 is a senior grade, and J.P. has no climate or infrastructure investment background.",
-    "match": {
-     "score": 30,
-     "tags": [
-      "International organization"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This Seoul-based lead role runs investment quality management across the Korea Green New Deal Trust Fund (KGNDTF) project portfolio and builds partnerships that bring private capital into green growth projects. J.P.'s bilingual Korean-English profile, portfolio monitoring and investment governance work at Hanwha and Hana fit well. However, G10 is a senior grade, and J.P. has no climate or infrastructure investment background.",
-     "keywords": [
-      "investment quality management",
-      "KGNDTF",
-      "Green Trust Fund",
-      "partnerships",
-      "private capital mobilization",
-      "climate finance",
-      "green growth",
-      "sustainable infrastructure",
-      "emerging markets",
-      "project portfolio",
-      "Korean",
-      "English"
-     ],
-     "strategy": [
-      "Frame the Hanwha HQ-subsidiary governance and quarterly reviews as portfolio quality management.",
-      "Use Hana's Singapore asset-management deals (Indies Capital stake, co-investment fund) to show partnership-building and private capital mobilization.",
-      "Present J.P.'s native Korean and English as an asset for working with the Korean government as the trust fund's funder.",
-      "Add any climate or ESG fund screening J.P. did at VI Asset Management."
-     ],
-     "watch_outs": [
-      "G10 is a lead-level grade and may need more years of experience, including in climate finance, than J.P. has.",
-      "This is an aggregator link (Impactpool), and the posting and closing dates were not visible in the results.",
-      "J.P. has little direct green or infrastructure project experience."
-     ],
-     "evidence": "GGGI - Global Green Growth Institute Seoul G10 level Speaks English, Korean"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Korea-based international organization",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
     "id": "ai:jp:be858ef165fdeee4",
     "source": "ai:jp",
     "level": "International organization",
@@ -1959,155 +1531,6 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Korea-based international climate fund",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
-    "id": "ai:jp:a35ae50d4bf0a49e",
-    "source": "ai:jp",
-    "level": "International organization",
-    "title": "Climate Finance Investment Specialist",
-    "org": "Green Climate Fund (GCF)",
-    "location": "Songdo, Incheon, South Korea",
-    "url": "https://www.ngojobspot.org/jobs/climate-finance-investment-specialist-songdo-south-korea-1787169450659/",
-    "apply_url": "https://www.ngojobspot.org/jobs/climate-finance-investment-specialist-songdo-south-korea-1787169450659/",
-    "posted": "2026-08-20",
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "An aggregator lists a full-time GCF role in Songdo that structures blended-finance investments for clean energy infrastructure. J.P.'s strategic investment and fund commitment experience is relevant, but J.P. has no blended-finance or energy project experience. This listing could not be confirmed on GCF's own job site.",
-    "match": {
-     "score": 20,
-     "tags": [
-      "International organization"
-     ]
-    },
-    "brief": {
-     "fit_summary": "An aggregator lists a full-time GCF role in Songdo that structures blended-finance investments for clean energy infrastructure. J.P.'s strategic investment and fund commitment experience is relevant, but J.P. has no blended-finance or energy project experience. This listing could not be confirmed on GCF's own job site.",
-     "keywords": [
-      "blended finance",
-      "clean energy infrastructure",
-      "investment structuring",
-      "climate finance",
-      "due diligence",
-      "financial modeling",
-      "private sector investment",
-      "development finance"
-     ],
-     "strategy": [
-      "Check that the role exists on jobs.greenclimate.fund before investing time in an application.",
-      "Use the US$21M RCPS investment in Wedbush and the US$16M co-investment fund to show structuring experience.",
-      "Present J.P.'s Seoul base and fluent Korean as practical advantages at GCF's Songdo headquarters."
-     ],
-     "watch_outs": [
-      "This is only an aggregator listing. The content is generic and may not match a real GCF posting.",
-      "GCF investment specialists usually need direct climate or infrastructure deal experience."
-     ],
-     "evidence": "Structure multi-million dollar blended finance investments for clean energy infrastructure projects."
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Korea-based international climate fund",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
-    "id": "ai:jp:827e50a03772c5bb",
-    "source": "ai:jp",
-    "level": "International organization",
-    "title": "Climate Investment Management Consultant (Asia and the Pacific Region)",
-    "org": "Green Climate Fund (GCF)",
-    "location": "Songdo, Incheon, South Korea",
-    "url": "https://www.impactpool.org/jobs/1213319",
-    "apply_url": "https://www.impactpool.org/jobs/1213319",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "This consultant supports due diligence, project management and post-approval execution of private sector investment proposals in GCF's Asia-Pacific department. The investment monitoring and due diligence work matches J.P.'s background. However, the role asks for at least 9 years assessing private sector investments, which is more than J.P. has.",
-    "match": {
-     "score": 15,
-     "tags": [
-      "International organization"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This consultant supports due diligence, project management and post-approval execution of private sector investment proposals in GCF's Asia-Pacific department. The investment monitoring and due diligence work matches J.P.'s background. However, the role asks for at least 9 years assessing private sector investments, which is more than J.P. has.",
-     "keywords": [
-      "private sector investments",
-      "due diligence",
-      "portfolio monitoring",
-      "loans",
-      "guarantees",
-      "equity",
-      "DAPAC",
-      "project management",
-      "multilateral development banks"
-     ],
-     "strategy": [
-      "Show J.P.'s experience with loans, equity and fund products using the Hana deals (RCPS, private debt fund, equity stake).",
-      "Highlight the due diligence and sub-fund monitoring at VI Asset Management.",
-      "Apply only if the listing is still open."
-     ],
-     "watch_outs": [
-      "It requires at least 9 years of experience, versus J.P.'s 6+.",
-      "The listing appeared about 168 days ago and may be closed.",
-      "This is a consultancy, not a staff role."
-     ],
-     "evidence": "At least 9 years of experience in assessing private sector investments"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Korea-based international climate fund",
-    "unverified_runs": 0,
-    "verified_on": "2026-10-30",
-    "check": "link checked"
-   },
-   {
-    "id": "ai:jp:3463363c13adec11",
-    "source": "ai:jp",
-    "level": "International organization",
-    "title": "Investment Specialist (High-Level Private Sector Advisory Group Secretariat)",
-    "org": "Asian Development Bank (ADB)",
-    "location": "Manila, Philippines",
-    "url": "https://impactpool.org/jobs/1230054",
-    "apply_url": "https://impactpool.org/jobs/1230054",
-    "posted": "2026-08-06",
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "ADB recruits nationals of member countries; Korea is a member. The snippet did not state this explicitly.",
-    "summary": "The specialist would be the analytical backbone of the Private Sector Operations Department's High-Level Private Sector Advisory Group Secretariat in Manila. It asks for 6+ years in development finance, investment operations, investment analysis or advisory work. J.P.'s strategy-office and HQ-subsidiary coordination work fits the analytical and coordination side.",
-    "match": {
-     "score": 20,
-     "tags": [
-      "International organization"
-     ]
-    },
-    "brief": {
-     "fit_summary": "The specialist would be the analytical backbone of the Private Sector Operations Department's High-Level Private Sector Advisory Group Secretariat in Manila. It asks for 6+ years in development finance, investment operations, investment analysis or advisory work. J.P.'s strategy-office and HQ-subsidiary coordination work fits the analytical and coordination side.",
-     "keywords": [
-      "private sector development",
-      "development finance",
-      "investment operations",
-      "investment analysis",
-      "advisory group secretariat",
-      "stakeholder coordination",
-      "analytical support",
-      "PSOD"
-     ],
-     "strategy": [
-      "Present the Global Strategy Office role at Hana as executive-level analytical and secretariat-style support.",
-      "Use the Korea JoongAng Daily and KBS World experience as evidence of strong English writing for briefing papers.",
-      "Show a meeting-to-meeting coordination record with the Wedbush and Indies Capital deals."
-     ],
-     "watch_outs": [
-      "It was posted in early August 2026, and ADB's usual 2–3 week window means it has probably closed.",
-      "This is an aggregator link."
-     ],
-     "evidence": "At least 6 years of relevant professional experience, preferably in development finance institutions, investment operations"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Asian multilateral development bank",
     "unverified_runs": 0,
     "verified_on": "2026-10-30",
     "check": "link checked"

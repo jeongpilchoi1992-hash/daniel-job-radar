@@ -1,0 +1,55 @@
+{
+ "one_liner": "A George Mason University staff role likely focused on university policy administration and risk management; exact duties are not stated in the posting data provided.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's consulting work at IEM on emergency management and preparedness for government clients aligns with the 'risk' side of the title, and strong public-policy knowledge fits the 'policy' side. The rating is tentative because no job description, qualifications, or salary were available, so confirm duties on the full posting before investing heavily.",
+ "eligibility": [
+  "Open the full posting at jobs.virginia.gov or GMU's jobs site to confirm minimum and preferred qualifications, since none were provided here.",
+  "Check for any degree or certification requirement (e.g., risk management credentials such as ARM or CPCU, or a bachelor's degree), which would need flagging.",
+  "Confirm work authorization and background-check requirements, which are standard for Virginia state university positions.",
+  "Verify whether the role is classified staff, faculty/administrative, or wage, since that affects benefits and the hiring process."
+ ],
+ "keywords": [
+  "policy",
+  "risk",
+  "risk management",
+  "risk assessment",
+  "policy development",
+  "compliance",
+  "university policy",
+  "emergency management",
+  "preparedness",
+  "mitigation",
+  "stakeholder",
+  "Commonwealth of Virginia",
+  "regulations",
+  "insurance",
+  "business continuity"
+ ],
+ "strategy": [
+  "Pull the full description first and mirror its exact duty language; the keywords above are inferred from the title and should be replaced with the posting's own terms.",
+  "Frame IEM experience around risk identification, preparedness planning, and supporting government clients, using your actual title and duties rather than general firm descriptions.",
+  "Emphasize policy skills such as researching, drafting, interpreting, or explaining rules and procedures, and tie your public-policy knowledge to institutional policy work.",
+  "Highlight relationship-building with campus-like stakeholders (departments, leadership, outside agencies), since university risk and policy roles depend on cross-office coordination.",
+  "Virginia state applications are often screened on the application itself, so complete every work-history field in full rather than writing 'see resume'; a state resume is not bound by the federal two-page rule.",
+  "Apply quickly because the closing date is 'open until filled,' and include a short cover letter connecting emergency-management consulting to institutional risk."
+ ],
+ "resume_bullets": [
+  "Supported [government client type] in [preparedness/recovery/risk assessment] projects at IEM, [specific task you performed] to help clients [outcome or deliverable, e.g., meet FEMA requirements].",
+  "Researched and summarized [policies, regulations, or guidance] for [audience], producing [number/type of deliverables] used to [purpose].",
+  "Coordinated with [number/types of stakeholders] to [plan, train, or respond], maintaining relationships that [result you can verify]."
+ ],
+ "interview_questions": [
+  "Tell us about your work at IEM and how it relates to managing institutional risk.",
+  "How would you approach drafting or revising a university-wide policy with many stakeholders?",
+  "Describe a time you identified a risk and helped an organization mitigate it.",
+  "How do you explain complex rules or requirements to people who resist them?"
+ ],
+ "watch_outs": [
+  "No description, salary, or qualifications were available, so the fit and keywords are inferred from the title only.",
+  "The role may require insurance, claims, or enterprise risk experience, or a certification you may not have; check before applying.",
+  "With no closing date, the posting could close without notice once enough applicants are received."
+ ],
+ "job_id": "virginia:policy-and-risk-specialist-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

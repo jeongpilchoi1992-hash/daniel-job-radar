@@ -1,0 +1,50 @@
+{
+ "one_liner": "Research and write analysis on China's technology and innovation policy and its U.S. economic and security implications for a congressional commission.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's strong grasp of U.S. politics and policy and consulting experience with government clients are relevant, but nothing on file shows China, technology, or trade-policy expertise, which this team almost certainly prioritizes. The posting text provided is nearly empty, so the actual requirements must be confirmed before investing heavily.",
+ "eligibility": [
+  "Read the full posting at the Senate careers link; the summary here lists no qualifications, education, grade, or salary.",
+  "Legislative branch hiring does not use USAJOBS status rules or veterans' preference the same way, so no-federal-service status is likely not a barrier, but confirm.",
+  "Check whether a degree (often a master's for analyst roles), Mandarin, or China-focused research experience is required or preferred.",
+  "Check whether a security clearance or the ability to obtain one is required, given the commission's national security focus."
+ ],
+ "keywords": [
+  "Policy Analyst",
+  "Senior Policy Analyst",
+  "Technology and Innovation",
+  "U.S.-China",
+  "economic and security",
+  "Commission",
+  "research",
+  "analysis",
+  "Congress",
+  "U.S. Senate"
+ ],
+ "strategy": [
+  "Pull the full posting from the URL and add its exact required skills to this keyword list before writing anything.",
+  "Frame your IEM work as government-client research, analysis, and written deliverables; describe your actual products (reports, briefings, plans) with your real title and scope.",
+  "Lead with policy knowledge: show you understand how Congress, commissions, and executive agencies interact, and cite any writing on technology, supply chains, or critical infrastructure resilience from your emergency-management work.",
+  "Prepare a strong writing sample on a U.S.-China technology issue (e.g., semiconductors, export controls), since commissions weigh analytic writing heavily.",
+  "Because the role is open until filled, apply quickly; legislative postings can close without notice.",
+  "If you lack China expertise, treat this as a reach and also target junior research or staff assistant roles at commissions and committees."
+ ],
+ "resume_bullets": [
+  "Produced [number] written analyses/reports for [federal/state/local government client] on [emergency management or recovery topic], informing [decision or program].",
+  "Briefed [audience, e.g., agency officials] on [policy or regulatory issue], translating complex [technical/policy] information into clear recommendations.",
+  "Coordinated with [number] stakeholders across [agencies/jurisdictions] to [deliverable], meeting [deadline or requirement]."
+ ],
+ "interview_questions": [
+  "What do you see as the most significant U.S.-China technology competition issue for Congress right now, and why?",
+  "Walk us through a research product you wrote: your sources, method, and conclusions.",
+  "How would you write for a bipartisan commission whose commissioners hold differing views?",
+  "How does your emergency-management consulting experience translate to economic and security policy analysis?"
+ ],
+ "watch_outs": [
+  "The posting text supplied is almost blank; grade, salary, requirements, and closing date are unknown until you read the full announcement.",
+  "Likely strong preference for China, technology, or trade-policy subject expertise and possibly Mandarin, which is not in your background on file.",
+  "Possible clearance requirement and a daily commute from Manassas to downtown DC with no remote option listed."
+ ],
+ "job_id": "senate:policy-analyst-senior-policy-analyst-for-the-technology-and-innovation-team-washington-district-of-columbia-1250",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

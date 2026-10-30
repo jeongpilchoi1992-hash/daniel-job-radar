@@ -1,0 +1,55 @@
+{
+ "one_liner": "A program management role at George Mason University (a Virginia state agency) overseeing federally funded or federal-facing programs; exact duties are not stated in the listing.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's consulting work at IEM for government clients and strong grasp of federal policy likely fit a role managing federal programs, and Fairfax is a short commute from Manassas. The posting has no description, so the rating depends on confirming whether the job centers on grants and compliance, federal relations, or research administration.",
+ "eligibility": [
+  "Open the full posting on jobs.virginia.gov or GMU's jobs site (jobs.gmu.edu) to confirm minimum qualifications; none are listed in the summary provided.",
+  "Check whether a bachelor's or advanced degree, or a set number of years of program management experience, is required.",
+  "Confirm whether the role is a state classified, university (administrative/professional faculty), or grant-funded restricted position. This affects pay, benefits and job security.",
+  "No federal status, clearance or residency requirement is stated. Verify this in the full posting, since federal-program roles sometimes involve sponsor requirements."
+ ],
+ "keywords": [
+  "program manager",
+  "federal programs",
+  "program management",
+  "federal agencies",
+  "stakeholder engagement",
+  "compliance",
+  "budget",
+  "reporting",
+  "project planning",
+  "government clients",
+  "coordination",
+  "policy",
+  "grants",
+  "deliverables",
+  "communication"
+ ],
+ "strategy": [
+  "Get the full position description from GMU before applying, then rebuild this keyword list from its exact wording. The keywords above are inferred from the title only.",
+  "Frame the IEM experience around federal and government client work, such as project coordination, deliverables, client relationships, and any FEMA or HUD funding context you actually handled. Do not overstate your role.",
+  "Present your policy knowledge as understanding of how federal programs are authorized, funded and overseen, and tie it to managing a federally connected portfolio.",
+  "Highlight relationship-building with faculty, agencies and external partners, since university program managers coordinate many stakeholders.",
+  "Apply soon. 'Open until filled' postings often review applications as they arrive. Submit a tailored cover letter and use a resume format that suits a state or university application; the two-page federal limit doesn't apply, but brevity still helps.",
+  "Search LinkedIn or the GMU website to identify the hiring office, such as Government Relations, the Office of Sponsored Programs, or a specific center, and tailor your materials to it."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of project] for [federal/state/local government client] at IEM, managing [number] deliverables on schedule within a [$ amount/timeframe] contract.",
+  "Built working relationships with [client agency staff/stakeholders] to [gather requirements/resolve issues/brief leadership], supporting [emergency management, recovery or preparedness] programs.",
+  "Tracked and reported [program metrics/compliance items/budget data] for [program name], producing [reports/briefings] for [audience] every [frequency]."
+ ],
+ "interview_questions": [
+  "Tell us about a program or project you managed from start to finish. How did you keep it on schedule and within budget?",
+  "What experience do you have with federal funding, regulations or reporting requirements?",
+  "How do you build and maintain relationships with stakeholders who have competing priorities?",
+  "How would you keep up with federal policy changes that could affect our programs?"
+ ],
+ "watch_outs": [
+  "The posting has no description, salary or closing date, so you can't yet confirm duties, pay or minimum qualifications. Verify them before investing heavily in the application.",
+  "The role may be grant-funded or restricted, which can make continued employment depend on funding.",
+  "The title is senior, so the posting may require several years of direct program management experience or a specific degree."
+ ],
+ "job_id": "virginia:program-manager-federal-programs-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}
