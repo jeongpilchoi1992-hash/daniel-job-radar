@@ -180,10 +180,12 @@ def learn_sources(discovered_doc: dict, settings: dict, log) -> list[dict]:
     return list(boards.values())
 
 
-def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[dict], today: date, log) -> tuple[list[dict], dict[str, set[str]]]:
+def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[dict], today: date,
+                   log) -> tuple[list[dict], dict[str, set[str]], dict[str, set[str]]]:
     """Read every known employer board (free public APIs) and keep finance roles that fit J.P.
 
-    Also returns, for each board read in full, the postings it lists today."""
+    Also returns the postings each board lists today: for boards read in full (so a posting missing there has
+    closed), and for every board read this run, including big boards that were only searched."""
     prev_by_board: dict[str, list[dict]] = {}
     for job in previous:
         prev_by_board.setdefault(job.get("source", ""), []).append(job)
@@ -192,6 +194,7 @@ def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[d
     discovered_keys = {posting_key(j["url"]) for j in jp_entry.get("jobs", [])}
     out: dict[str, dict] = {}
     live: dict[str, set[str]] = {}
+    seen: dict[str, set[str]] = {}
     for board in boards:
         bid = board_id(board)
         if out_of_time():
@@ -208,8 +211,9 @@ def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[d
                 if (today - last_seen).days <= STALE_DAYS:
                     out[job["id"]] = job
             continue
+        seen[bid] = {posting_key(item["url"]) for item in raw}
         if complete and raw:
-            live[bid] = {posting_key(item["url"]) for item in raw}
+            live[bid] = seen[bid]
         kept = 0
         for item in raw:
             if not relevant(item, board.get("focus", "asia")) or posting_key(item["url"]) in discovered_keys:
@@ -221,7 +225,7 @@ def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[d
             kept += 1
         log(f"[board] {bid}: {len(raw)} postings, {kept} relevant")
         time.sleep(1)
-    return sorted(out.values(), key=lambda j: -j["match"]["score"]), live
+    return sorted(out.values(), key=lambda j: -j["match"]["score"]), live, seen
 
 
 def drop_ai_duplicates(jobs: list[dict], ai_found: list[dict], log) -> list[dict]:
@@ -259,12 +263,12 @@ def main() -> int:
 
     # ---- Free daily sources learned from AI-found postings, then re-check every AI-found link
     boards = learn_sources(discovered_doc, settings, log)
-    board_jobs, live_boards = collect_boards(session, boards, discovered_doc["jp"], previous_doc.get("jp", {}).get("board_jobs", []), today, log)
+    board_jobs, live_boards, seen_on_boards = collect_boards(session, boards, discovered_doc["jp"], previous_doc.get("jp", {}).get("board_jobs", []), today, log)
     checker = make_session(quick=True)
     for name in ("daniel", "jp"):
         entry = discovered_doc[name]
         log(f"[verify:{name}] {len(entry['jobs'])} AI-found postings")
-        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, {**live_boards, **LISTED}, out_of_time)
+        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, {**live_boards, **LISTED}, out_of_time, seen_on_boards)
     jobs = drop_ai_duplicates(jobs, discovered_doc["daniel"]["jobs"], log)
 
     # ---- Remove briefs for jobs that are gone. Briefs came from the one-time launch build and cannot be made

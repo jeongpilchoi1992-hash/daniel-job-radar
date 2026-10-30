@@ -71,12 +71,13 @@ def _workday_status(session, url: str) -> tuple[str, str] | None:
 def verify(session, job: dict, today: date, listed: bool = False) -> tuple[str, str]:
     """Return (status, note): status is 'ok', 'unverified' (blocked/unknown) or 'dead'.
 
-    listed=True means the posting is on its employer's board, read in full this run, so its page text is not
-    used to call it closed.
+    listed=True means the posting is on its employer's job board this run, so it is open until its deadline.
     """
     closes = parse_date(job.get("closes"))
     if closes and closes < today:
         return "dead", "deadline passed"
+    if listed:
+        return "ok", "listed on the employer's job board"
     workday = _workday_status(session, job["url"])
     if workday:
         return workday
@@ -88,8 +89,6 @@ def verify(session, job: dict, today: date, listed: bool = False) -> tuple[str, 
         return "dead", f"HTTP {resp.status_code}"
     if resp.status_code >= 400:
         return "unverified", f"HTTP {resp.status_code}"
-    if listed:
-        return "ok", "listed on the employer's job board"
     if CLOSED_PATTERNS.search(_status_text(resp.text)):
         return "dead", "page says closed"
     # Redirected to a generic careers page: the posting is gone.
@@ -99,12 +98,14 @@ def verify(session, job: dict, today: date, listed: bool = False) -> tuple[str, 
 
 
 def refresh(session, name: str, jobs: list[dict], today: date, log, live_boards: dict[str, set[str]] | None = None,
-            out_of_time=lambda: False) -> list[dict]:
+            out_of_time=lambda: False, seen_on_boards: dict[str, set[str]] | None = None) -> list[dict]:
     """Re-verify every AI-found posting and drop dead or stale ones.
 
     live_boards maps a job board (or a host such as the Senate's job board) to the
     postings it lists today, only for boards read in full, so a posting that left
-    its board is removed even when its page still loads.
+    its board is removed even when its page still loads. seen_on_boards adds the
+    postings found on boards that were only searched: finding one there shows it
+    is open, but missing from a search proves nothing.
     """
     kept = []
     unreachable: set[str] = set()
@@ -115,7 +116,9 @@ def refresh(session, name: str, jobs: list[dict], today: date, log, live_boards:
         board = detect(job["url"])
         host = urlparse(job["url"]).netloc.lower()
         listed = (live_boards or {}).get(board_id(board) if board else host)
-        on_board = listed is not None and posting_key(job["url"]) in listed
+        seen = (seen_on_boards or {}).get(board_id(board)) if board else None
+        key = posting_key(job["url"])
+        on_board = (listed is not None and key in listed) or (seen is not None and key in seen)
         if listed is not None and not on_board:
             status, note = "dead", "no longer listed on the employer's job board"
         elif host in unreachable:
