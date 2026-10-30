@@ -676,7 +676,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Investment bank – Korea institutional coverage (Hong Kong)",
-    "unverified_runs": 3,
+    "unverified_runs": 4,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -731,7 +731,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hanwha)",
-    "unverified_runs": 3,
+    "unverified_runs": 4,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -1058,7 +1058,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Insurer – alternative investments (Seoul)",
-    "unverified_runs": 3,
+    "unverified_runs": 4,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -1163,7 +1163,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client service",
-    "unverified_runs": 3,
+    "unverified_runs": 4,
     "check": "HTTP 403",
     "dead_runs": 0
    },
