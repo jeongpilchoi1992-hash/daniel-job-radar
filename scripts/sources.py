@@ -237,7 +237,11 @@ def fetch_neogov(gate: NeogovGate, agency: dict, home: tuple[float, float], radi
             total = int(m.group(1).replace(",", "")) if m else None
         batch, raw = _parse_neogov_html(resp.text, agency, home, radius, today)
         if page == 1 and not raw and total is None:
-            raise RuntimeError(f"No job listing found for agency '{slug}' (the agency name may have changed).")
+            title = re.search(r"<title>([^<]{0,120})", resp.text)
+            raise RuntimeError(
+                f"No job listing found for agency '{slug}' (the agency name may have changed). "
+                f"Got {resp.url} ({len(resp.text)} bytes, title {title.group(1).strip() if title else 'none'!r})."
+            )
         seen_raw += raw
         for job in batch:
             jobs.setdefault(job["id"], job)
@@ -371,10 +375,10 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
             if distance > radius + 0.5:
                 continue
             jobs[row["id"]] = {**row, "distance_mi": distance}
-        if "page=%d" % (page + 1) not in resp.text:
-            break
+        if page % 25 == 0:
+            print(f"  virginia: page {page}, {total_rows} rows so far")
         time.sleep(0.7)
-    print(f"  virginia: scanned {total_rows} statewide rows, {len(jobs)} within {radius} mi")
+    print(f"  virginia: scanned {total_rows} statewide rows on {page} pages, {len(jobs)} within {radius} mi")
     return list(jobs.values())
 
 
@@ -394,14 +398,17 @@ def _parse_virginia_rows(html_text: str) -> list[dict]:
 
     for tr in table.select("tbody tr"):
         tds = tr.find_all("td")
-        link = tr.find("a", href=True)
+        job_url = tr.get("data-job-url") or ""
+        link = (tr.select_one("a[id^=link_job_title][href]")
+                or next((a for a in tr.select("a[href]") if job_url and a["href"] == job_url), None)
+                or tr.find("a", href=re.compile(r"/jobs/(?!search)")))
         if not tds or not link:
             continue
         cells = ["; ".join(li.get_text(" ", strip=True) for li in td.find_all("li")) or td.get_text(" ", strip=True) for td in tds]
-        href = urljoin("https://www.jobs.virginia.gov", link["href"])
+        href = urljoin("https://www.jobs.virginia.gov", job_url or link["href"])
         if "/jobs/search" in href:
             continue
-        title = link.get_text(" ", strip=True)
+        title = _virginia_title(link, href)
         hiring = col(cells, "hiring", 6)
         sal_min, sal_max, period = salary_range(hiring)
         out.append({
@@ -434,6 +441,20 @@ def _parse_virginia_rows(html_text: str) -> list[dict]:
             "_detail": "",
         })
     return out
+
+
+def _virginia_title(link, href: str) -> str:
+    """Link text, or the aria-label / URL slug when the site shows a placeholder like 'shareInfoText'."""
+    title = link.get_text(" ", strip=True)
+    if title and not re.fullmatch(r"[a-z]+[A-Z]\w*", title):
+        return title
+    label = re.sub(r"^Title:\s*", "", link.get("aria-label") or "").strip()
+    if label and not re.fullmatch(r"[a-z]+[A-Z]\w*", label):
+        return label
+    slug = href.rstrip("/").rsplit("/", 1)[-1]
+    slug = re.sub(r"-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", "", slug)
+    slug = re.sub(r"-(virginia-)?united-states$", "", slug)
+    return slug.replace("-", " ").strip().capitalize() or title
 
 
 def virginia_detail(session, url: str) -> str:

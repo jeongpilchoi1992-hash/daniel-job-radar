@@ -40,10 +40,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
-          # One-time launch build only: a commit tagged [ai-build] writes the AI briefs and searches.
-          # This block is removed right after that run, so later refreshes never use AI credit.
-          RUN_AI: ${{ contains(github.event.head_commit.message, '[ai-build]') }}
-          ANTHROPIC_API_KEY: ${{ contains(github.event.head_commit.message, '[ai-build]') && secrets.ANTHROPIC_API_KEY || '' }}
+          # Temporary, for the launch build: also write data/ai_input.json (posting text for the AI briefs).
+          EXPORT_AI_INPUT: ${{ github.ref == 'refs/heads/claude/job-radar-v1' }}
         run: python scripts/collect.py
 
       - name: Commit data

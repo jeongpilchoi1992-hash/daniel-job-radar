@@ -1,9 +1,8 @@
-"""Refresh the job data behind the site.
+"""Refresh the job data behind the site, using free public sources only.
 
-Steps: collect postings from every source, drop closed ones, score them, and
-write data/jobs.json. Only when RUN_AI=true (a manual workflow run) does it
-also call Claude: AI briefs for the best matches and AI web searches for both
-tabs. Links found by AI search are re-checked on every run either way.
+Steps: collect postings from every source, drop closed ones, score them, read
+the employer job boards learned from the launch-day AI search, re-check every
+AI-found link, and write data/jobs.json. Nothing here calls an AI service.
 """
 
 from __future__ import annotations
@@ -20,10 +19,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from ai import Budget, make_client, model_name  # noqa: E402
 from common import PartialResult, SourceSkipped, job_key, make_session, parse_date  # noqa: E402
-from discover import run_discovery  # noqa: E402
-from insights import brief_path, generate_briefs  # noqa: E402
 from boards import detect as detect_board  # noqa: E402
 from boards import board_id, fetch_board, posting_key, relevant, to_site_job  # noqa: E402
 from linkcheck import refresh as refresh_links  # noqa: E402
@@ -47,6 +43,10 @@ def load_json(path: Path, default):
         return json.loads(path.read_text())
     except (FileNotFoundError, json.JSONDecodeError):
         return default
+
+
+def brief_path(briefs_dir: Path, job_id: str) -> Path:
+    return briefs_dir / f"{job_key(job_id)}.json"
 
 
 def still_open(job: dict, today: date) -> bool:
@@ -184,23 +184,36 @@ def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, l
     return sorted(out.values(), key=lambda j: -j["match"]["score"]), live
 
 
-def pick_brief_candidates(jobs: list[dict], details: dict[str, str], briefs_dir: Path, settings: dict) -> list[dict]:
-    min_score = int(os.environ.get("AI_MIN_SCORE") or settings.get("ai_min_score", 50))
+def export_ai_input(jobs: list[dict], details: dict[str, str], briefs_dir: Path, discovered_doc: dict, session, limit: int = 300) -> None:
+    """One-time launch step: hand the best matches (with full posting text) to the AI build."""
     pool = [
         j for j in jobs
         if not brief_path(briefs_dir, j["id"]).exists()
-        and j["id"] in details
         and j.get("open_to_public") is not False
-        and j["match"]["score"] >= min_score
+        and j["match"]["score"] >= 50
     ]
     pool.sort(key=lambda j: (-j["match"]["score"], j.get("closes") or "9999"))
-    return pool
+    out = []
+    for job in pool[:limit]:
+        detail = details.get(job["id"], "")
+        if job["source"] == "virginia" and not detail:
+            try:
+                detail = virginia_detail(session, job["url"])
+            except Exception as exc:  # noqa: BLE001
+                log(f"  detail fetch failed for {job['url']}: {exc}")
+        out.append({"job": job, "detail": detail})
+    doc = {
+        "generated_at": datetime.now(ET).isoformat(timespec="minutes"),
+        "candidates": out,
+        "known_urls": {name: [j["url"] for j in discovered_doc[name].get("jobs", [])] for name in ("daniel", "jp")},
+    }
+    (DATA / "ai_input.json").write_text(json.dumps(doc, ensure_ascii=False) + "\n")
+    log(f"[export] wrote {len(out)} brief candidates for the launch AI build")
 
 
 def main() -> int:
     today = datetime.now(ET).date()
     settings = load_json(CONFIG / "settings.json", {})
-    profiles = load_json(CONFIG / "profiles.json", {})
     DATA.mkdir(exist_ok=True)
     briefs_dir = DATA / "briefs"
     session = make_session()
@@ -213,46 +226,8 @@ def main() -> int:
 
     jobs, statuses, details = collect_daniel(session, settings, today, previous, discovered_doc["daniel"].get("neogov_agencies", []))
 
-    # ---- AI work runs only when someone starts the workflow with "run_ai" checked.
-    # Scheduled refreshes never call the Anthropic API.
-    run_ai = os.environ.get("RUN_AI", "").lower() == "true"
-    client = make_client() if run_ai else None
-    budget = Budget(DATA / "usage.json", float(os.environ.get("AI_BUDGET_USD") or settings.get("ai_run_budget_usd", 25)))
-    if run_ai and client is None:
-        log("RUN_AI is set but ANTHROPIC_API_KEY is missing; skipping AI work.")
-    if client is None:
-        log("[ai] off for this run (scheduled refreshes use free sources only)")
-    else:
-        max_briefs = int(os.environ.get("AI_MAX_BRIEFS") or settings.get("ai_max_briefs_per_run", 150))
-        candidates = pick_brief_candidates(jobs, details, briefs_dir, settings)[:max_briefs]
-        for job in candidates:
-            if job["source"] == "virginia" and not details.get(job["id"]):
-                try:
-                    details[job["id"]] = virginia_detail(session, job["url"])
-                except Exception as exc:  # noqa: BLE001
-                    log(f"  detail fetch failed for {job['url']}: {exc}")
-        log(f"[briefs] {len(candidates)} jobs queued (model {model_name()}, budget left ${budget.remaining:.2f})")
-        generate_briefs(client, budget, profiles["daniel"]["profile"], [(j, details.get(j["id"], "")) for j in candidates], briefs_dir, log)
-
-    # ---- AI search for both tabs (one focused search per search group)
-    for name in ("daniel", "jp"):
-        entry = discovered_doc[name]
-        found = {j["id"]: j for j in entry.get("jobs", [])}
-        cfg = profiles[name]["discovery"]
-        if client is not None and cfg.get("enabled"):
-            for focus in cfg.get("search_groups", []):
-                log(f"[discovery:{name}] {focus[:80]}")
-                try:
-                    for job in run_discovery(client, budget, name, profiles[name], focus, list(found.values()), today, log):
-                        found.setdefault(job["id"], job)
-                except Exception as exc:  # noqa: BLE001 - keep going with the other groups
-                    log(f"  discovery {name} failed: {type(exc).__name__}: {str(exc)[:300]}")
-                    traceback.print_exc()
-            entry["last_run"] = today.isoformat()
-        entry["jobs"] = list(found.values())
-    budget.save()
-    if client is not None:
-        log(f"[ai] this run spent about ${budget.spent:.2f} ({budget.by_task})")
+    if os.environ.get("EXPORT_AI_INPUT", "").lower() == "true":
+        export_ai_input(jobs, details, briefs_dir, discovered_doc, session)
 
     # ---- Free daily sources learned from AI-found postings, then re-check every AI-found link
     learn_sources(discovered_doc, settings, log)
@@ -283,11 +258,7 @@ def main() -> int:
     doc = {
         "generated_at": now,
         "today": today.isoformat(),
-        "ai": {
-            "model": model_name(),
-            "briefs": sum(1 for j in jobs if j.get("brief")),
-            "month_spend_usd": budget.month_total(),
-        },
+        "ai": {"briefs": sum(1 for j in jobs if j.get("brief"))},
         "daniel": {
             "home": settings["home"],
             "radius_miles": settings.get("radius_miles", 50),
@@ -305,7 +276,7 @@ def main() -> int:
     }
     (DATA / "jobs.json").write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")) + "\n")
     (DATA / "discovered.json").write_text(json.dumps(discovered_doc, ensure_ascii=False, indent=1) + "\n")
-    log(f"[done] {len(jobs)} gov jobs, {len(discovered_daniel)} + {len(discovered_jp)} AI-found jobs; AI spend this month ${budget.spent:.2f}")
+    log(f"[done] {len(jobs)} gov jobs, {len(discovered_daniel)} + {len(discovered_jp)} AI-found jobs, {len(board_jobs)} employer-board jobs")
     return 0
 
 
