@@ -412,7 +412,7 @@
      "evidence": "OmniRide ... is seeking a professional to fill the position of Transportation Support Associate"
     },
     "found_on": "2026-10-30",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -734,7 +734,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Investment bank – Korea institutional coverage (Hong Kong)",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -788,7 +788,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hanwha)",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -947,7 +947,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hyundai)",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -1108,7 +1108,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Insurer – alternative investments (Seoul)",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -1159,7 +1159,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea institutional coverage",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -1210,7 +1210,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client service",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -1315,7 +1315,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean company (LG)",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
@@ -1528,7 +1528,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean bank",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 401"
    },
    {
@@ -1852,7 +1852,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Asian development finance / ADB-affiliated trust fund",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "check": "HTTP 403"
    },
    {
