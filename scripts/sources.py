@@ -10,12 +10,15 @@ from __future__ import annotations
 import os
 import re
 import time
-import xml.etree.ElementTree as ET
+from datetime import date, timedelta
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-from common import SourceSkipped, parse_date, salary_range, shorten, strip_html
+from common import BROWSER_UA, PartialResult, SourceSkipped, parse_date, salary_range, shorten, strip_html
 from places import haversine_miles, lookup
 
 # --------------------------------------------------------------------------- USAJOBS
@@ -172,47 +175,76 @@ def _iso(value) -> str | None:
 
 # --------------------------------------------------------------------------- NEOGOV (governmentjobs.com)
 
-NEOGOV_NS = {"joblisting": "http://www.neogov.com/namespaces/JobListing"}
-NEOGOV_FEEDS = [
-    "https://www.governmentjobs.com/SearchEngine/JobsFeed?agency={slug}",
-    "https://agency.governmentjobs.com/jobfeed.cfm?agency={slug}",
-]
 NEOGOV_LIST = "https://www.governmentjobs.com/careers/home/index?agency={slug}&sort=PostingDate&isDescendingSort=true&page={page}"
 
 
-def fetch_neogov(session, agency: dict, home: tuple[float, float], radius: int) -> list[dict]:
-    slug = agency["slug"]
-    errors = []
-    for template in NEOGOV_FEEDS:
-        url = template.format(slug=slug)
-        try:
-            resp = session.get(url, timeout=60)
-        except Exception as exc:  # noqa: BLE001 - try the next strategy
-            errors.append(f"{url}: {exc}")
-            continue
-        if resp.ok and "<rss" in resp.text[:2000]:
-            jobs = _parse_neogov_rss(resp.text, agency, home, radius)
-            print(f"  neogov {slug}: feed {url} -> {len(jobs)} jobs")
-            return jobs
-        errors.append(f"{url}: HTTP {resp.status_code}")
+class NeogovGate:
+    """One shared connection to governmentjobs.com for the whole run.
 
-    jobs: list[dict] = []
-    for page in range(1, 30):
-        url = NEOGOV_LIST.format(slug=slug, page=page)
-        resp = session.get(url, headers={"X-Requested-With": "XMLHttpRequest"}, timeout=60)
-        if not resp.ok:
-            errors.append(f"{url}: HTTP {resp.status_code}")
+    The site stops accepting new connections from cloud runners after a few
+    requests, so every page goes over one keep-alive connection with short gaps,
+    and the first refused connection ends NEOGOV for the run. Listings from
+    agencies we could not reach are kept from earlier runs until they close.
+    """
+
+    def __init__(self):
+        self.session = requests.Session()
+        retry = Retry(total=1, connect=0, read=1, status=1, backoff_factor=1,
+                      status_forcelist=(429, 502, 503, 504), allowed_methods=("GET",))
+        self.session.mount("https://", HTTPAdapter(pool_connections=1, pool_maxsize=1, max_retries=retry))
+        self.session.headers.update({
+            "User-Agent": BROWSER_UA,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        })
+        self.blocked = ""
+        self.count = 0
+
+    def get(self, url: str, **kwargs):
+        if self.blocked:
+            raise RuntimeError(self.blocked)
+        try:
+            resp = self.session.get(url, timeout=(8, 40), **kwargs)
+        except (requests.ConnectionError, requests.Timeout) as exc:
+            self.blocked = f"governmentjobs.com stopped answering after {self.count} pages this run ({type(exc).__name__})."
+            raise RuntimeError(self.blocked) from exc
+        self.count += 1
+        if self.count == 1:
+            keep = ("server", "connection", "keep-alive", "via", "x-cache", "x-iinfo", "cf-ray")
+            print("  neogov response headers:", {k: v for k, v in resp.headers.items() if k.lower() in keep})
+        time.sleep(0.4)
+        return resp
+
+
+def fetch_neogov(gate: NeogovGate, agency: dict, home: tuple[float, float], radius: int, today: date) -> list[dict]:
+    slug = agency["slug"]
+    jobs: dict[str, dict] = {}
+    total = None
+    seen_raw = 0
+    for page in range(1, 41):
+        try:
+            resp = gate.get(NEOGOV_LIST.format(slug=slug, page=page), headers={
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": f"https://www.governmentjobs.com/careers/{slug}",
+            })
+            resp.raise_for_status()
+        except Exception as exc:
+            if jobs:
+                raise PartialResult(list(jobs.values()), f"Read {page - 1} of the listing pages. {exc}") from exc
+            raise
+        if total is None:
+            m = re.search(r'id="job-postings-number"[^>]*>\s*([\d,]+)', resp.text)
+            total = int(m.group(1).replace(",", "")) if m else None
+        batch, raw = _parse_neogov_html(resp.text, agency, home, radius, today)
+        if page == 1 and not raw and total is None:
+            raise RuntimeError(f"No job listing found for agency '{slug}' (the agency name may have changed).")
+        seen_raw += raw
+        for job in batch:
+            jobs.setdefault(job["id"], job)
+        if not raw or (total is not None and seen_raw >= total):
             break
-        batch = _parse_neogov_html(resp.text, agency, home, radius)
-        new = [j for j in batch if j["id"] not in {x["id"] for x in jobs}]
-        if not new:
-            break
-        jobs.extend(new)
-        time.sleep(1)
-    if not jobs and errors:
-        raise RuntimeError("; ".join(errors[-3:]))
-    print(f"  neogov {slug}: html list -> {len(jobs)} jobs")
-    return jobs
+    print(f"  neogov {slug}: {seen_raw} postings listed (site says {total}), {len(jobs)} within {radius} mi")
+    return list(jobs.values())
 
 
 def _neogov_base(agency: dict, title: str, location: str, home, radius) -> dict | None:
@@ -237,88 +269,75 @@ def _neogov_base(agency: dict, title: str, location: str, home, radius) -> dict 
     }
 
 
-def _parse_neogov_rss(xml_text: str, agency: dict, home, radius) -> list[dict]:
-    root = ET.fromstring(xml_text.encode("utf-8"))
-    jobs = []
-    for item in root.iter("item"):
-        def tag(name: str) -> str:
-            el = item.find(f"joblisting:{name}", NEOGOV_NS)
-            return (el.text or "").strip() if el is not None and el.text else ""
-
-        title = (item.findtext("title") or "").strip()
-        location = ", ".join(x for x in [tag("location"), tag("state")] if x)
-        base = _neogov_base(agency, title, location, home, radius)
-        if not base or not title:
-            continue
-        job_id = tag("jobId") or (item.findtext("guid") or item.findtext("link") or title)
-        link = (item.findtext("link") or "").strip()
-        closes_raw = tag("advertiseToDateTime")
-        sal_min, sal_max = _num(tag("minimumSalary")), _num(tag("maximumSalary"))
-        interval = tag("salaryInterval").lower()
-        description = strip_html(item.findtext("description") or "")
-        categories = [c.findtext("Category") or "" for c in item.iter("category")]
-        base.update({
-            "id": f"neogov:{agency['slug']}:{job_id}",
-            "department": tag("department"),
-            "salary_min": sal_min,
-            "salary_max": sal_max,
-            "salary_period": "hour" if "hour" in interval else ("year" if sal_min or sal_max else None),
-            "schedule": tag("jobType"),
-            "appointment": "",
-            "posted": _iso(tag("advertiseFromDate") or item.findtext("pubDate")),
-            "closes": None if re.search(r"continuous", closes_raw, re.I) else _iso(closes_raw),
-            "url": link,
-            "apply_url": link,
-            "summary": shorten(description, 420),
-            "categories": [c for c in categories if c],
-            "_detail": description,
-        })
-        jobs.append(base)
-    return jobs
+_REL = re.compile(r"(today|tomorrow|yesterday|(?:in )?(\d+|an?) (hour|day|week|month|year)s?(?: ago)?)", re.I)
 
 
-def _parse_neogov_html(html_text: str, agency: dict, home, radius) -> list[dict]:
+def _relative(text: str, today: date, future: bool) -> tuple[date | None, date | None]:
+    """'Posted 6 days ago' / 'Closes in 1 week' -> (earliest, latest) possible date."""
+    m = _REL.search(text or "")
+    if not m:
+        return None, None
+    word = m.group(1).lower()
+    if word == "today":
+        return today, today
+    if word in ("tomorrow", "yesterday"):
+        d = today + timedelta(days=1 if word == "tomorrow" else -1)
+        return d, d
+    n = 1 if m.group(2).lower() in ("a", "an") else int(m.group(2))
+    unit = m.group(3).lower()
+    span = {"hour": (0, 0), "day": (n, n), "week": (7 * n, 7 * n + 6), "month": (30 * n, 30 * n + 29), "year": (365 * n, 365 * n + 364)}[unit]
+    if future:
+        return today + timedelta(days=span[0]), today + timedelta(days=span[1])
+    return today - timedelta(days=span[1]), today - timedelta(days=span[0])
+
+
+def _parse_neogov_html(html_text: str, agency: dict, home, radius, today: date) -> tuple[list[dict], int]:
     soup = BeautifulSoup(html_text, "html.parser")
+    items = soup.select("li.list-item[data-job-id]") or soup.select("li.list-item")
     jobs = []
-    for li in soup.select("li.list-item"):
+    for li in items:
         link = li.select_one("a.item-details-link") or li.find("a", href=re.compile(r"/jobs/\d+"))
         if not link:
             continue
         href = urljoin("https://www.governmentjobs.com", link.get("href", "").split("?")[0])
-        m = re.search(r"/jobs/(\d+)", href)
+        job_no = li.get("data-job-id") or (re.search(r"/jobs/(\d+)", href) or [None, None])[1]
         title = link.get_text(" ", strip=True)
         meta = [x.get_text(" ", strip=True) for x in li.select("ul.list-meta li")]
-        location = meta[0] if meta else ""
-        base = _neogov_base(agency, title, location, home, radius)
-        if not base or not m:
-            continue
         pay_text = next((x for x in meta if "$" in x), "")
+        department = next((x.split(":", 1)[1].strip() for x in meta if x.lower().startswith("department:")), "") or link.get("data-department-name", "")
+        category = next((x.split(":", 1)[1].strip() for x in meta if x.lower().startswith("category:")), "")
+        location = next((x for x in meta if "$" not in x and ":" not in x), "")
+        base = _neogov_base(agency, title, location, home, radius)
+        if not base or not job_no:
+            continue
         sal_min, sal_max, period = salary_range(pay_text)
-        text = li.get_text(" ", strip=True)
-        closes = None
-        cm = re.search(r"(?:Closing|Closes|Deadline)[^0-9A-Za-z]*(\w+ \d{1,2},? \d{4}|\d{1,2}/\d{1,2}/\d{4})", text, re.I)
-        if cm:
-            closes = _iso(cm.group(1))
-        desc = li.select_one(".list-entry, .list-description")
+        starts = li.select_one(".list-entry-starts")
+        ends = li.select_one(".list-entry-ends")
+        ends_text = ends.get_text(" ", strip=True) if ends else ""
+        posted = _relative(starts.get_text(" ", strip=True) if starts else "", today, future=False)[0]
+        closes = None if re.search(r"continuous|until filled", ends_text, re.I) else _relative(ends_text, today, future=True)[1]
+        desc = li.select_one(".list-entry")
         summary = desc.get_text(" ", strip=True) if desc else ""
+        schedule = "Full-time" if re.match(r"\s*FT\b", pay_text) else "Part-time" if re.match(r"\s*PT\b", pay_text) else ""
         base.update({
-            "id": f"neogov:{agency['slug']}:{m.group(1)}",
-            "department": next((x for x in meta[2:] if "$" not in x), ""),
+            "id": f"neogov:{agency['slug']}:{job_no}",
+            "department": department,
             "salary_min": sal_min,
             "salary_max": sal_max,
             "salary_period": period,
-            "schedule": pay_text.split(" - ")[0] if " - " in pay_text else "",
+            "schedule": schedule,
             "appointment": "",
-            "posted": None,
-            "closes": closes,
+            "posted": posted.isoformat() if posted else None,
+            "closes": closes.isoformat() if closes else None,
+            "closes_text": ends_text,
             "url": href,
             "apply_url": href,
             "summary": shorten(summary, 420),
-            "categories": [],
-            "_detail": summary,
+            "categories": [category] if category else [],
+            "_detail": "\n".join(x for x in [f"Department: {department}" if department else "", pay_text, f"Category: {category}" if category else "", summary] if x),
         })
         jobs.append(base)
-    return jobs
+    return jobs, len(items)
 
 
 # --------------------------------------------------------------------------- Commonwealth of Virginia
@@ -330,22 +349,29 @@ def fetch_virginia(session, cfg: dict, home: tuple[float, float], radius: int) -
     jobs: dict[str, dict] = {}
     max_pages = int(cfg.get("max_pages", 200))
     total_rows = 0
+    seen: set[str] = set()
     for page in range(1, max_pages + 1):
-        resp = session.get(VA_SEARCH.format(page=page), timeout=60)
-        resp.raise_for_status()
-        rows = _parse_virginia_rows(resp.text)
+        try:
+            resp = session.get(VA_SEARCH.format(page=page), timeout=60)
+            resp.raise_for_status()
+        except Exception as exc:
+            if jobs:
+                raise PartialResult(list(jobs.values()), f"Stopped at page {page}: {type(exc).__name__}") from exc
+            raise
+        rows = [r for r in _parse_virginia_rows(resp.text) if r["id"] not in seen]
         if not rows:
             break
         total_rows += len(rows)
         for row in rows:
-            coords = lookup(row["location"])
-            if not coords:
+            seen.add(row["id"])
+            places = [c for c in (lookup(part) for part in row["location"].split(";")) if c]
+            if not places:
                 continue
-            distance = round(haversine_miles(home, coords), 1)
+            distance = round(min(haversine_miles(home, c) for c in places), 1)
             if distance > radius + 0.5:
                 continue
             jobs[row["id"]] = {**row, "distance_mi": distance}
-        if "page=%d" % (page + 1) not in resp.text and "page=%d\"" % (page + 1) not in resp.text:
+        if "page=%d" % (page + 1) not in resp.text:
             break
         time.sleep(0.7)
     print(f"  virginia: scanned {total_rows} statewide rows, {len(jobs)} within {radius} mi")
@@ -371,7 +397,7 @@ def _parse_virginia_rows(html_text: str) -> list[dict]:
         link = tr.find("a", href=True)
         if not tds or not link:
             continue
-        cells = [td.get_text(" ", strip=True) for td in tds]
+        cells = ["; ".join(li.get_text(" ", strip=True) for li in td.find_all("li")) or td.get_text(" ", strip=True) for td in tds]
         href = urljoin("https://www.jobs.virginia.gov", link["href"])
         if "/jobs/search" in href:
             continue
@@ -404,7 +430,7 @@ def _parse_virginia_rows(html_text: str) -> list[dict]:
             "apply_url": href,
             "summary": "",
             "series": [],
-            "categories": [c.strip() for c in col(cells, "category", 1).split(",") if c.strip()],
+            "categories": [c.strip() for c in col(cells, "category", 1).split(";") if c.strip()],
             "_detail": "",
         })
     return out

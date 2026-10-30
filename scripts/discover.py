@@ -55,15 +55,6 @@ SUBMIT_TOOL = {
     },
 }
 
-CLOSED_PATTERNS = re.compile(
-    r"no longer (accepting|available|open)|position has been filled|job (posting )?(has )?(expired|closed)|"
-    r"this (job|position|posting|vacancy) (is|has been) (closed|filled|removed)|"
-    r"applications? (are|is) (now )?closed|posting (has )?closed|job not found|page not found|"
-    r"this job is no longer|we couldn't find (that|this) job",
-    re.I,
-)
-
-
 def run_discovery(client, budget, name: str, profile: dict, focus: str, known: list[dict], today: date, log) -> list[dict]:
     """One focused search session; returns normalized jobs (unverified)."""
     cfg = profile["discovery"]
@@ -82,6 +73,7 @@ def run_discovery(client, budget, name: str, profile: dict, focus: str, known: l
         f"Submit at most {int(cfg.get('max_new_jobs', 10))} jobs, best fit first. Fewer is fine; quality over quantity.",
         "For each job give 8-12 resume keywords copied from the posting's own language, 3-5 concrete application strategy tips tailored to this person, and honest watch-outs (eligibility, visa, required degree or license, seniority gap).",
         "Finish by calling the submit_jobs tool exactly once. Do not write the job list as plain text.",
+        "Refer to the candidate by name; do not use gendered pronouns for the candidate.",
     ]
     if profile.get("cfa_rule"):
         rules.append(profile["cfa_rule"])
@@ -125,7 +117,7 @@ def run_discovery(client, budget, name: str, profile: dict, focus: str, known: l
                 submitted = block.input
         if submitted is not None or response.stop_reason != "pause_turn":
             break
-        messages = [messages[0], {"role": "assistant", "content": response.content}]
+        messages.append({"role": "assistant", "content": response.content})
 
     if submitted is None and response is not None:
         submitted = _json_fallback(text_of(response))
@@ -173,57 +165,3 @@ def _normalize(name: str, j: dict, today: date) -> dict:
         },
         "found_on": today.isoformat(),
     }
-
-
-def verify(session, job: dict, today: date) -> tuple[str, str]:
-    """Return (status, note): status is 'ok', 'unverified' (blocked/unknown) or 'dead'."""
-    closes = parse_date(job.get("closes"))
-    if closes and closes < today:
-        return "dead", "deadline passed"
-    try:
-        resp = session.get(job["url"], timeout=40, allow_redirects=True)
-    except Exception as exc:  # noqa: BLE001 - network problems should not delete a job
-        return "unverified", f"fetch failed: {type(exc).__name__}"
-    if resp.status_code in (404, 410):
-        return "dead", f"HTTP {resp.status_code}"
-    if resp.status_code >= 400:
-        return "unverified", f"HTTP {resp.status_code}"
-    body = resp.text[:400000]
-    if CLOSED_PATTERNS.search(body):
-        return "dead", "page says closed"
-    # Redirected to a generic careers page: the posting is gone.
-    if resp.history and re.search(r"/(careers|jobs)/?(\?.*)?$", resp.url) and not re.search(r"/(careers|jobs)/?(\?.*)?$", job["url"]):
-        return "dead", "redirected to careers home"
-    return "ok", "link checked"
-
-
-def refresh(session, name: str, existing: list[dict], fresh: list[dict], today: date, log) -> list[dict]:
-    """Merge new discoveries with existing ones, re-verify everything, drop dead or stale postings."""
-    by_id = {j["id"]: j for j in existing}
-    for job in fresh:
-        if job["id"] not in by_id:
-            by_id[job["id"]] = job
-    kept = []
-    for job in by_id.values():
-        status, note = verify(session, job, today)
-        found = parse_date(job.get("found_on")) or today
-        age = (today - found).days
-        if status == "dead":
-            log(f"  {name}: removed {job['title'][:60]!r} ({note})")
-            continue
-        if status == "unverified":
-            job["unverified_runs"] = job.get("unverified_runs", 0) + 1
-            if job["unverified_runs"] >= 6 or age > 21:
-                log(f"  {name}: removed {job['title'][:60]!r} (could not verify: {note})")
-                continue
-        else:
-            job["unverified_runs"] = 0
-            job["verified_on"] = today.isoformat()
-        if not job.get("closes") and age > 45:
-            log(f"  {name}: removed {job['title'][:60]!r} (older than 45 days, no deadline)")
-            continue
-        job["check"] = note
-        kept.append(job)
-    return kept
-
-

@@ -10,7 +10,9 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
+import time
 import traceback
 from datetime import date, datetime
 from pathlib import Path
@@ -19,12 +21,14 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from ai import Budget, make_client, model_name  # noqa: E402
-from common import SourceSkipped, job_key, make_session, parse_date  # noqa: E402
-from discover import refresh as refresh_discovered  # noqa: E402
+from common import PartialResult, SourceSkipped, job_key, make_session, parse_date  # noqa: E402
 from discover import run_discovery  # noqa: E402
 from insights import brief_path, generate_briefs  # noqa: E402
+from boards import detect as detect_board  # noqa: E402
+from boards import board_id, fetch_board, posting_key, relevant, to_site_job  # noqa: E402
+from linkcheck import refresh as refresh_links  # noqa: E402
 from scoring import keywords_in, score_job, tags_for  # noqa: E402
-from sources import fetch_neogov, fetch_usajobs, fetch_virginia, virginia_detail  # noqa: E402
+from sources import NeogovGate, fetch_neogov, fetch_usajobs, fetch_virginia, virginia_detail  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -50,13 +54,18 @@ def still_open(job: dict, today: date) -> bool:
     return closes is None or closes >= today
 
 
-def collect_daniel(session, settings: dict, today: date, previous: dict[str, dict]) -> tuple[list[dict], list[dict], dict[str, str]]:
+def collect_daniel(session, settings: dict, today: date, previous: dict[str, dict], learned_agencies: list[dict]) -> tuple[list[dict], list[dict], dict[str, str]]:
     home = (settings["home"]["lat"], settings["home"]["lon"])
     radius = int(settings.get("radius_miles", 50))
     plans = [("usajobs", "USAJOBS (federal)", lambda: fetch_usajobs(session, settings.get("usajobs", {}), home))]
     plans.append(("virginia", "Commonwealth of Virginia", lambda: fetch_virginia(session, settings.get("virginia", {}), home, radius)))
-    for agency in settings.get("neogov_agencies", []):
-        plans.append((f"neogov:{agency['slug']}", agency["name"], lambda a=agency: fetch_neogov(session, a, home, radius)))
+    configured = {a["slug"] for a in settings.get("neogov_agencies", [])}
+    agencies = settings.get("neogov_agencies", []) + [a for a in learned_agencies if a["slug"] not in configured]
+    # governmentjobs.com may cut us off part way, so each run starts with a different agency.
+    shift = (today.toordinal() * 2 + (datetime.now(ET).hour >= 12)) % max(len(agencies), 1)
+    gate = NeogovGate()
+    for agency in agencies[shift:] + agencies[:shift]:
+        plans.append((f"neogov:{agency['slug']}", agency["name"], lambda a=agency: fetch_neogov(gate, a, home, radius, today)))
 
     jobs: dict[str, dict] = {}
     details: dict[str, str] = {}
@@ -64,39 +73,43 @@ def collect_daniel(session, settings: dict, today: date, previous: dict[str, dic
     for source_id, label, fetch in plans:
         log(f"[{source_id}] {label}")
         status = {"id": source_id, "name": label, "status": "ok", "count": 0, "message": ""}
-        fresh = None
+        fresh, complete = None, True
         try:
             fresh = fetch()
+        except PartialResult as exc:
+            fresh, complete = exc.jobs, False
+            status.update(status="partial", message=str(exc)[:300])
         except SourceSkipped as exc:
             status.update(status="skipped", message=str(exc))
         except Exception as exc:  # noqa: BLE001 - one broken source must not stop the run
             status.update(status="error", message=f"{type(exc).__name__}: {str(exc)[:300]}")
-            traceback.print_exc()
+            if "stopped answering" not in str(exc):
+                traceback.print_exc()
 
-        if fresh is not None:
-            for job in fresh:
-                if not still_open(job, today) or not job.get("title"):
-                    continue
-                detail = job.pop("_detail", "") or ""
-                old = previous.get(job["id"], {})
-                job["first_seen"] = old.get("first_seen") or today.isoformat()
-                job["last_seen"] = today.isoformat()
-                jobs[job["id"]] = job
-                details[job["id"]] = detail
-                status["count"] += 1
-        else:
+        for job in fresh or []:
+            if not still_open(job, today) or not job.get("title"):
+                continue
+            detail = job.pop("_detail", "") or ""
+            old = previous.get(job["id"], {})
+            job["first_seen"] = old.get("first_seen") or today.isoformat()
+            job["last_seen"] = today.isoformat()
+            jobs[job["id"]] = job
+            details[job["id"]] = detail
+            status["count"] += 1
+        if fresh is None or not complete:
+            # Keep what this source showed recently, until the posting closes.
             kept = 0
             for job in previous.values():
-                if job.get("source") != source_id or not still_open(job, today):
+                if job.get("source") != source_id or job["id"] in jobs or not still_open(job, today):
                     continue
                 last_seen = parse_date(job.get("last_seen")) or today
                 if (today - last_seen).days > STALE_DAYS:
                     continue
                 jobs[job["id"]] = job
                 kept += 1
-            status["count"] = kept
+            status["count"] += kept
             if kept:
-                status["message"] = (status["message"] + f" Showing {kept} jobs from the last successful run.").strip()
+                status["message"] = (status["message"] + f" Also showing {kept} jobs from earlier runs.").strip()
         log(f"  -> {status['status']} {status['count']} jobs {status['message'][:160]}")
         statuses.append(status)
 
@@ -106,6 +119,69 @@ def collect_daniel(session, settings: dict, today: date, previous: dict[str, dic
         if job["id"] in details:
             job["keywords_auto"] = keywords_in(text)
     return list(jobs.values()), statuses, details
+
+
+def learn_sources(discovered_doc: dict, settings: dict, log) -> None:
+    """Remember job boards behind AI-found postings (kept even after those postings close)."""
+    jp = discovered_doc["jp"]
+    boards = {board_id(b): b for b in jp.get("boards", [])}
+    for job in jp.get("jobs", []):
+        board = detect_board(job["url"])
+        if board and board_id(board) not in boards:
+            board["employer"] = job.get("org", "")
+            boards[board_id(board)] = board
+            log(f"[learn] new board for J.P.: {board_id(board)} ({board['employer']})")
+    for extra in load_json(CONFIG / "boards.json", []):
+        boards.setdefault(board_id(extra), extra)
+    jp["boards"] = list(boards.values())
+
+    daniel = discovered_doc["daniel"]
+    known = {a["slug"] for a in settings.get("neogov_agencies", [])} | {a["slug"] for a in daniel.get("neogov_agencies", [])}
+    learned = list(daniel.get("neogov_agencies", []))
+    for job in daniel.get("jobs", []):
+        m = re.search(r"governmentjobs\.com/careers/([a-z0-9]+)/", job.get("url", ""), re.I)
+        if m and m.group(1).lower() not in known:
+            slug = m.group(1).lower()
+            known.add(slug)
+            learned.append({"slug": slug, "name": job.get("org") or slug, "level": "Local", "default_location": job.get("location", "")})
+            log(f"[learn] new county/city job board for Daniel: {slug} ({job.get('org')})")
+    daniel["neogov_agencies"] = learned
+
+
+def collect_boards(session, jp_entry: dict, previous: list[dict], today: date, log) -> tuple[list[dict], dict[str, set[str]]]:
+    """Read every known employer board (free public APIs) and keep finance roles that fit J.P.
+
+    Also returns, for each board read in full, the postings it lists today."""
+    prev_by_board: dict[str, list[dict]] = {}
+    for job in previous:
+        prev_by_board.setdefault(job.get("source", ""), []).append(job)
+    first_seen = {j["id"]: j.get("found_on") for j in previous}
+    discovered_urls = {j["url"] for j in jp_entry.get("jobs", [])}
+    out: dict[str, dict] = {}
+    live: dict[str, set[str]] = {}
+    for board in jp_entry.get("boards", []):
+        bid = board_id(board)
+        try:
+            raw, complete = fetch_board(session, board, board.get("employer", ""), log)
+        except Exception as exc:  # noqa: BLE001 - keep yesterday's list for a failing board
+            log(f"[board] {bid} failed: {type(exc).__name__}: {str(exc)[:200]}")
+            for job in prev_by_board.get(f"board:{bid}", []):
+                if (today - (parse_date(job.get("found_on")) or today)).days <= 30:
+                    out[job["id"]] = job
+            continue
+        if complete:
+            live[bid] = {posting_key(item["url"]) for item in raw}
+        kept = 0
+        for item in raw:
+            if not relevant(item) or item["url"] in discovered_urls:
+                continue
+            job = to_site_job(item, today.isoformat(), None)
+            job["found_on"] = first_seen.get(job["id"]) or today.isoformat()
+            out[job["id"]] = job
+            kept += 1
+        log(f"[board] {bid}: {len(raw)} postings, {kept} relevant")
+        time.sleep(1)
+    return sorted(out.values(), key=lambda j: -j["match"]["score"]), live
 
 
 def pick_brief_candidates(jobs: list[dict], details: dict[str, str], briefs_dir: Path, settings: dict) -> list[dict]:
@@ -131,8 +207,11 @@ def main() -> int:
 
     previous_doc = load_json(DATA / "jobs.json", {})
     previous = {j["id"]: j for j in previous_doc.get("daniel", {}).get("jobs", [])}
+    discovered_doc = load_json(DATA / "discovered.json", {})
+    for name in ("daniel", "jp"):
+        discovered_doc.setdefault(name, {"jobs": [], "last_run": None})
 
-    jobs, statuses, details = collect_daniel(session, settings, today, previous)
+    jobs, statuses, details = collect_daniel(session, settings, today, previous, discovered_doc["daniel"].get("neogov_agencies", []))
 
     # ---- AI work runs only when someone starts the workflow with "run_ai" checked.
     # Scheduled refreshes never call the Anthropic API.
@@ -155,27 +234,34 @@ def main() -> int:
         log(f"[briefs] {len(candidates)} jobs queued (model {model_name()}, budget left ${budget.remaining:.2f})")
         generate_briefs(client, budget, profiles["daniel"]["profile"], [(j, details.get(j["id"], "")) for j in candidates], briefs_dir, log)
 
-    # ---- AI discovery for both tabs (one focused search per search group); links are re-checked every run
-    discovered_doc = load_json(DATA / "discovered.json", {})
+    # ---- AI search for both tabs (one focused search per search group)
     for name in ("daniel", "jp"):
-        entry = discovered_doc.get(name, {"jobs": [], "last_run": None})
-        fresh: list[dict] = []
+        entry = discovered_doc[name]
+        found = {j["id"]: j for j in entry.get("jobs", [])}
         cfg = profiles[name]["discovery"]
         if client is not None and cfg.get("enabled"):
             for focus in cfg.get("search_groups", []):
                 log(f"[discovery:{name}] {focus[:80]}")
                 try:
-                    fresh += run_discovery(client, budget, name, profiles[name], focus, entry.get("jobs", []) + fresh, today, log)
+                    for job in run_discovery(client, budget, name, profiles[name], focus, list(found.values()), today, log):
+                        found.setdefault(job["id"], job)
                 except Exception as exc:  # noqa: BLE001 - keep going with the other groups
                     log(f"  discovery {name} failed: {type(exc).__name__}: {str(exc)[:300]}")
                     traceback.print_exc()
             entry["last_run"] = today.isoformat()
-        log(f"[verify:{name}] {len(entry.get('jobs', []))} known + {len(fresh)} new")
-        entry["jobs"] = refresh_discovered(session, name, entry.get("jobs", []), fresh, today, log)
-        discovered_doc[name] = entry
+        entry["jobs"] = list(found.values())
     budget.save()
     if client is not None:
         log(f"[ai] this run spent about ${budget.spent:.2f} ({budget.by_task})")
+
+    # ---- Free daily sources learned from AI-found postings, then re-check every AI-found link
+    learn_sources(discovered_doc, settings, log)
+    board_jobs, live_boards = collect_boards(session, discovered_doc["jp"], previous_doc.get("jp", {}).get("board_jobs", []), today, log)
+    checker = make_session(quick=True)
+    for name in ("daniel", "jp"):
+        entry = discovered_doc[name]
+        log(f"[verify:{name}] {len(entry['jobs'])} AI-found postings")
+        entry["jobs"] = refresh_links(checker, name, entry["jobs"], today, log, live_boards)
 
     # ---- Remove briefs for jobs that are gone
     live = {job_key(j["id"]) for j in jobs}
@@ -212,6 +298,8 @@ def main() -> int:
         },
         "jp": {
             "discovered": discovered_jp,
+            "board_jobs": board_jobs,
+            "boards": len(discovered_doc["jp"].get("boards", [])),
             "discovery_last_run": discovered_doc["jp"].get("last_run"),
         },
     }

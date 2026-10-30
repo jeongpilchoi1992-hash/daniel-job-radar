@@ -21,10 +21,20 @@ class SourceSkipped(Exception):
     """A source was not run on purpose (for example, a missing API key)."""
 
 
-def make_session() -> requests.Session:
+class PartialResult(Exception):
+    """A source stopped part of the way through; the jobs it did return are still good."""
+
+    def __init__(self, jobs: list[dict], message: str):
+        super().__init__(message)
+        self.jobs = jobs
+
+
+def make_session(quick: bool = False) -> requests.Session:
+    """A session with polite retries; quick=True gives up fast on unreachable hosts."""
     session = requests.Session()
     retry = Retry(
-        total=4,
+        total=1 if quick else 4,
+        connect=0 if quick else None,
         backoff_factor=2,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=("GET", "HEAD"),

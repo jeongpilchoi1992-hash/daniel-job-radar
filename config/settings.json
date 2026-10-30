@@ -27,13 +27,19 @@
       "default_location": "Prince William County, VA"
     },
     {
+      "slug": "manassas",
+      "name": "City of Manassas",
+      "level": "Local",
+      "default_location": "Manassas, VA"
+    },
+    {
       "slug": "arlington",
       "name": "Arlington County Government",
       "level": "Local",
       "default_location": "Arlington, VA"
     },
     {
-      "slug": "alexandriava",
+      "slug": "alexandria",
       "name": "City of Alexandria",
       "level": "Local",
       "default_location": "Alexandria, VA"
@@ -46,6 +52,6 @@
     }
   ],
   "ai_min_score": 50,
-  "ai_run_budget_usd": 25,
-  "ai_max_briefs_per_run": 150
+  "ai_run_budget_usd": 35,
+  "ai_max_briefs_per_run": 250
 }

@@ -24,12 +24,17 @@
   function daysBetween(a, b) {
     return Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000);
   }
-  function closingBadge(closes) {
+  function closingBadge(job) {
+    if (job.from_board && !job.closes) return `<span class="badge">Posted on the employer's site</span>`;
+    const closes = job.closes;
     if (!closes) return `<span class="badge">Open until filled</span>`;
     const left = daysBetween(todayISO(), closes);
-    const label = left <= 0 ? "Closes today" : left === 1 ? "Closes tomorrow" : `Closes in ${left} days`;
+    // County listings only say "Closes in 1 week"; show that while it is current, otherwise our estimate.
+    const listed = job.closes_text && job.last_seen === todayISO();
+    const label = listed ? job.closes_text : left <= 0 ? "Closes today" : left === 1 ? "Closes tomorrow" : `Closes in ${job.closes_text ? "about " : ""}${left} days`;
     const cls = left <= 3 ? "bad" : left <= 7 ? "warn" : "";
-    return `<span class="badge ${cls}" title="Closing date ${esc(closes)}">${label}</span>`;
+    const title = job.closes_text ? "As listed on the county job board" : `Closing date ${closes}`;
+    return `<span class="badge ${cls}" title="${esc(title)}">${esc(label)}</span>`;
   }
   function fmtMoney(n) {
     if (n == null) return "";
@@ -61,12 +66,14 @@
     }
     const d = state.data;
     $("#updated").textContent = "Updated " + new Date(d.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
-    if (d.ai && !d.ai.enabled && d.ai.note) $("#ai-note").textContent = d.ai.note;
     buildTopicChips();
     buildJpChips();
     renderDaniel();
     renderJp();
     renderSources();
+    const aiDate = [d.daniel.discovery_last_run, d.jp.discovery_last_run].filter(Boolean).sort().pop();
+    if (aiDate)
+      $("#ai-note").textContent = `AI briefs and AI web searches were made once on ${fmtDate(aiDate)}; the twice-daily refresh uses free public sources only.`;
     const hash = location.hash.replace("#", "");
     if (hash === "jp") selectTab("jp");
   }
@@ -157,7 +164,7 @@
     const badges = [
       isNew ? `<span class="badge new">New</span>` : "",
       job.aiFound ? `<span class="badge ok">Found by AI search</span>` : `<span class="badge">${esc(job.level)}</span>`,
-      closingBadge(job.closes),
+      closingBadge(job),
       job.open_to_public === false ? `<span class="badge bad" title="${esc(job.who_may_apply)}">Not open to the public</span>` : "",
       job.telework ? `<span class="badge">Telework eligible</span>` : "",
       job.clearance ? `<span class="badge warn">Clearance: ${esc(job.clearance)}</span>` : "",
@@ -185,8 +192,8 @@
 
   function renderSources() {
     const rows = (state.data.daniel.sources || []).map((s) => {
-      const cls = s.status === "error" ? "bad" : s.status === "skipped" ? "warn" : "";
-      const label = s.status === "ok" ? `${s.count}` : s.status === "skipped" ? "paused" : `${s.count} (stale)`;
+      const cls = s.status === "error" ? "bad" : s.status === "skipped" || s.status === "partial" ? "warn" : "";
+      const label = s.status === "ok" ? `${s.count}` : s.status === "skipped" ? "paused" : s.status === "partial" ? `${s.count} (partly updated)` : `${s.count} (from earlier run)`;
       return `<li title="${esc(s.message)}"><span>${esc(s.name)}</span><span class="${cls}">${esc(label)}</span></li>`;
     });
     const ai = state.data.daniel.discovered || [];
@@ -196,9 +203,16 @@
 
   // ---------- J.P. tab
 
+  function jpJobs() {
+    const jp = state.data.jp;
+    const found = jp.discovered || [];
+    const urls = new Set(found.map((j) => j.url));
+    return found.concat((jp.board_jobs || []).filter((j) => !urls.has(j.url)));
+  }
+
   function buildJpChips() {
     const counts = new Map();
-    for (const job of state.data.jp.discovered || []) counts.set(job.level, (counts.get(job.level) || 0) + 1);
+    for (const job of jpJobs()) counts.set(job.level, (counts.get(job.level) || 0) + 1);
     $("#jp-segments").innerHTML = [...counts.entries()]
       .sort((a, b) => b[1] - a[1])
       .map(([t, n]) => `<button class="chip" aria-pressed="false" data-segment="${esc(t)}">${esc(t)} <span aria-hidden="true">· ${n}</span></button>`)
@@ -210,32 +224,35 @@
   function renderJp() {
     const jp = state.data.jp;
     const q = $("#jp-q").value.trim().toLowerCase();
-    const jobs = (jp.discovered || [])
+    const all = jpJobs();
+    const jobs = all
       .filter((j) => !state.jpSegments.size || state.jpSegments.has(j.level))
-      .filter((j) => !q || [j.title, j.org, j.location, j.summary].join(" ").toLowerCase().includes(q))
+      .filter((j) => !q || q.split(/\s+/).every((w) => [j.title, j.org, j.location, j.summary].join(" ").toLowerCase().includes(w)))
       .sort((a, b) => (b.match?.score || 0) - (a.match?.score || 0));
-    const all = jp.discovered || [];
     $("#jp-stats").innerHTML = [
-      [all.length, "verified openings"],
-      [all.filter((j) => daysBetween(j.found_on, todayISO()) <= 2).length, "found in last 3 days"],
-      [jp.discovery_last_run ? fmtDate(jp.discovery_last_run) : "—", "last AI search"],
+      [all.length, "open roles"],
+      [all.filter((j) => j.found_on && daysBetween(j.found_on, todayISO()) <= 2).length, "new in last 3 days"],
+      [jp.boards || 0, "employer job boards checked daily"],
     ]
       .map(([n, l]) => `<div class="stat"><b>${esc(n)}</b><span>${l}</span></div>`)
       .join("");
     const list = $("#jp-jobs");
     if (!all.length) {
-      list.innerHTML = `<li class="empty">The first AI search has not run yet. It runs every other day; results appear here with fit notes and verified links.</li>`;
+      list.innerHTML = `<li class="empty">No openings yet. Results appear here after the first data refresh.</li>`;
       return;
     }
     list.innerHTML = jobs.length ? jobs.map(jpCard).join("") : `<li class="empty">No openings match this filter.</li>`;
   }
 
   function jpCard(job) {
+    const today = todayISO();
+    const isNew = job.found_on && daysBetween(job.found_on, today) <= 1;
     const badges = [
-      `<span class="badge ok">${esc(job.level)}</span>`,
-      closingBadge(job.closes),
+      isNew ? `<span class="badge new">New</span>` : "",
+      `<span class="badge ${job.from_board ? "" : "ok"}">${esc(job.level)}</span>`,
+      closingBadge(job),
       job.work_authorization ? `<span class="badge" title="${esc(job.work_authorization)}">Work authorization: ${esc(job.work_authorization.slice(0, 60))}${job.work_authorization.length > 60 ? "…" : ""}</span>` : "",
-      job.verified_on ? `<span class="badge">Link checked ${esc(fmtDate(job.verified_on))}</span>` : `<span class="badge warn">Link not verified yet</span>`,
+      job.from_board ? "" : job.verified_on ? `<span class="badge">Link checked ${esc(fmtDate(job.verified_on))}</span>` : `<span class="badge warn">Link not verified yet</span>`,
     ].join("");
     const meta = [job.location, job.salary_text].filter(Boolean).map((m) => `<span>${esc(m)}</span>`).join("");
     return `<li class="job">
@@ -250,7 +267,7 @@
       <div class="badges">${badges}</div>
       ${job.summary ? `<p class="summary">${esc(job.summary)}</p>` : ""}
       <div class="actions">
-        <button class="btn primary" data-brief="${esc(job.id)}" data-tabref="jp">AI brief: strategy & keywords</button>
+        <button class="btn ${job.from_board ? "ai" : "primary"}" data-brief="${esc(job.id)}" data-tabref="jp">${job.from_board ? "Quick look + ask Claude" : "AI brief: strategy & keywords"}</button>
         <a class="btn" href="${esc(safeUrl(job.url))}" target="_blank" rel="noopener">Apply / view posting ↗</a>
       </div>
     </li>`;
@@ -271,12 +288,12 @@
   const kwBox = (items) => `<div class="kwbox">${(items || []).map((k) => `<span>${esc(k)}</span>`).join("")}</div>`;
 
   async function openBrief(id, tabRef) {
-    const pool = tabRef === "jp" ? state.data.jp.discovered || [] : danielJobs();
+    const pool = tabRef === "jp" ? jpJobs() : danielJobs();
     const job = pool.find((j) => j.id === id);
     if (!job) return;
     const who = tabRef === "jp" ? "jp" : "daniel";
     const body = $("#brief-body");
-    const head = `<h2 id="brief-title">${esc(job.title)}</h2><div class="org">${esc(job.org)} · ${esc(job.location || "")}</div><div class="badges" style="margin-top:8px">${closingBadge(job.closes)}</div>`;
+    const head = `<h2 id="brief-title">${esc(job.title)}</h2><div class="org">${esc(job.org)} · ${esc(job.location || "")}</div><div class="badges" style="margin-top:8px">${closingBadge(job)}</div>`;
     const foot = `<div class="brief-foot">
         <a class="btn primary" href="${esc(safeUrl(job.apply_url || job.url))}" target="_blank" rel="noopener">Apply / view posting ↗</a>
         <a class="btn ai" href="${esc(askClaudeUrl(job, who))}" target="_blank" rel="noopener">Ask Claude a follow-up ↗</a>
@@ -285,7 +302,7 @@
     $("#brief").showModal();
 
     let keywords = [];
-    if (job.aiFound || who === "jp") {
+    if (job.aiFound || (who === "jp" && !job.from_board)) {
       const b = job.brief || {};
       keywords = b.keywords || [];
       body.innerHTML = `${head}
@@ -326,10 +343,13 @@
         ${foot}`;
     } else {
       keywords = job.keywords_auto || [];
+      const note = job.from_board
+        ? `This role was picked up from ${esc(job.org || "the employer")}'s own job board, which is checked every day. “Ask Claude a follow-up” opens Claude with the posting ready for a tailored brief.`
+        : "Pre-written AI briefs cover the strongest matches from the launch-day AI run. For this job, “Ask Claude a follow-up” opens Claude with the posting ready for an instant brief.";
       body.innerHTML = `${head}
         <p class="oneliner">${esc(job.summary || "")}</p>
-        <h3>Keywords spotted in this posting</h3>${keywords.length ? kwBox(keywords) : "<p>No standard keywords found in the listing text.</p>"}
-        <p class="note">A full AI brief is generated automatically for the strongest matches (open to the public, good topic fit). For this one, use “Ask Claude” for an instant brief.</p>
+        ${keywords.length || !job.from_board ? `<h3>Keywords spotted in this posting</h3>${keywords.length ? kwBox(keywords) : "<p>No standard keywords found in the listing text.</p>"}` : ""}
+        <p class="note">${note}</p>
         ${foot}`;
     }
     const copy = body.querySelector("[data-copy]");

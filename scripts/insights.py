@@ -52,12 +52,12 @@ Guidelines:
 - one_liner: what this job actually is, in plain English (max 25 words).
 - fit_rating and fit_summary (2-3 sentences): how well the candidate's known background fits, and why.
 - eligibility: 2-5 must-check items taken from the posting (who may apply, specialized experience at the next-lower grade, education, clearance, residency, licenses, time-in-grade). Say plainly if the posting is limited to current federal employees or other special groups.
-- keywords: 10-15 exact words or phrases from the posting that should appear in his resume (federal screeners and HR systems match on them).
-- strategy: 4-6 concrete steps for this application (how to frame his consulting and emergency-management experience, what to emphasize, questionnaire tips, deadlines, documents).
-- resume_bullets: 2-3 example resume bullets he can adapt, with [brackets] where he must fill in his own facts. Do not invent results.
+- keywords: 10-15 exact words or phrases from the posting that should appear in the candidate's resume (federal screeners and HR systems match on them).
+- strategy: 4-6 concrete steps for this application (how to frame the candidate's consulting and emergency-management experience, what to emphasize, questionnaire tips, deadlines, documents).
+- resume_bullets: 2-3 example resume bullets the candidate can adapt, with [brackets] for facts the candidate must fill in. Do not invent results.
 - interview_questions: 3-4 likely questions.
 - watch_outs: 1-4 risks (closing soon, status-only, travel, shift work, degree requirement, low pay, etc.). Empty list if none.
-Keep every item to one or two sentences."""
+Keep every item to one or two sentences. Refer to the candidate by name or as "you"; do not use gendered pronouns for the candidate."""
 
 
 def brief_path(out_dir: Path, job_id: str) -> Path:
