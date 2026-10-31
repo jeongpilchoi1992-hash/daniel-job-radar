@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senate museum registrar who runs the paperwork, inventory, storage, movement and loans of art and historical objects in the U.S. Senate Collection.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel, this role requires a master's degree in art or American history, museum studies, or a related field plus five to eight years of professional museum registration experience. Nothing on file shows either one. Your Senate knowledge and people skills help only at the margins, and your IEM disaster work touches just one of the listed knowledge areas.",
+ "eligibility": [
+  "Open to the public; no federal status, clearance, or veterans' preference required.",
+  "Master's degree in art or American history, museum studies, or a related field is a minimum qualification.",
+  "Five to eight years of professional museum registration experience is required.",
+  "Physical requirements include lifting 25-50 pounds, climbing ladders and scaffolding, and crawling into spaces; physical presence in the office is required.",
+  "You must apply through the Senate Career Page (https://sen.gov/YO0NL), not just USAJOBS."
+ ],
+ "keywords": [
+  "museum registration",
+  "collections management",
+  "registration and loan program",
+  "incoming and outgoing loan program",
+  "acquisition, inventory, safe storage, handling",
+  "U.S. Senate Collection",
+  "Senate Commission on Art",
+  "American Alliance of Museums",
+  "disaster response practices",
+  "information retrieval systems",
+  "electronic documentation technology",
+  "legal and ethical issues involving art and historic objects",
+  "Foreign Gifts and Decorations Act",
+  "tact and diplomacy",
+  "manage and coordinate multiple projects"
+ ],
+ "strategy": [
+  "Apply only if you actually hold a qualifying master's degree and multi-year museum registration experience. Otherwise, put your time into Senate jobs that fit better.",
+  "Watch the Senate Career Page and the Secretary of the Senate for roles that use your strengths: constituent services, staff assistant, outreach, Senate Sergeant at Arms emergency preparedness, or Capitol Visitor Center positions.",
+  "If you do qualify, tie your IEM work to 'disaster response practices related to art, historic objects, and archival records.' Describe the specific planning, recovery, or continuity tasks you did, without overstating them.",
+  "Show your knowledge of the Senate as an institution, which the posting lists as a preferred qualification.",
+  "Submit the full Senate application before November 17, 2026. Keep the resume concise and include degree details and dates for your museum experience."
+ ],
+ "resume_bullets": [
+  "Supported [client type] emergency preparedness and recovery projects at IEM by [developing plans / coordinating stakeholders / documenting procedures], covering [scope].",
+  "Coordinated [number] concurrent projects for government clients, tracking [deliverables/data] in [database or system] to meet [deadline/standard].",
+  "Briefed [audience] on [policy or procedure topic], building working relationships with [number/type] of stakeholders."
+ ],
+ "interview_questions": [
+  "Walk us through how you would process an incoming loan from accession to installation.",
+  "How do you apply American Alliance of Museums standards to storage and handling decisions?",
+  "Describe a disaster response or salvage plan you developed for collections or records.",
+  "What do you know about the Senate Commission on Art and the Senate Collection?"
+ ],
+ "watch_outs": [
+  "The degree and museum registration experience requirements are hard minimums that Daniel likely does not meet.",
+  "The job requires physical work (lifting, ladders, scaffolding) and in-office presence despite the telework flag.",
+  "The application is filed off-site on the Senate Career Page and closes November 17, 2026."
+ ],
+ "job_id": "usajobs:890419400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

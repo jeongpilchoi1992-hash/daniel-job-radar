@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior data and process-improvement analyst for the Capitol's safety office: tracks safety metrics and KPIs, runs Six Sigma projects, briefs executives, and oversees contractors as a COR.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a GS-13 technical analytics role requiring 52 weeks of GS-12-equivalent experience in statistical, trend, root-cause and predictive analysis, plus Six Sigma and COR work. Daniel's communication, relationship and policy strengths match the oral and written communication KSAs. Nothing on file shows senior-level quantitative analytics, so qualifying depends on whether Daniel's IEM work involved substantial data analysis and performance measurement.",
+ "eligibility": [
+  "Open to the public (hiring path: public), and U.S. citizens are eligible, so no federal status is needed.",
+  "GS-13 requires at least 52 weeks of specialized experience equivalent to GS-12. That means professional use of statistical, comparative, trend, diagnostic, root cause and predictive methods to analyze organizational and mission performance.",
+  "You must meet the OPM qualification standards by the closing date of November 16, 2026.",
+  "No security clearance is required, and the role is telework-eligible but not remote (Washington, DC)."
+ ],
+ "keywords": [
+  "data and trend analyses",
+  "key performance indicators",
+  "process improvement",
+  "Six Sigma",
+  "root cause",
+  "predictive methods",
+  "data governance",
+  "data management",
+  "enterprise risk",
+  "data calls",
+  "reports and visualizations",
+  "narrative storytelling with data",
+  "program effectiveness",
+  "Contracting Officer's Representative (COR)",
+  "OSHA"
+ ],
+ "strategy": [
+  "First, honestly inventory your IEM work. Look for data collection, metrics tracking, after-action or performance analysis, dashboards, and risk or hazard data. Apply only if you can document about a year of senior-level analytical work.",
+  "Frame IEM experience in posting language. For example, 'analyzed disaster recovery program performance data to identify trends and root causes for government clients,' stated only where true, with hours per week and dates.",
+  "Within the two-page limit, put specialized experience first. Name the tools you used (Excel, Power BI, Tableau, SQL, statistics) and any Six Sigma or Lean training, and briefly note briefings delivered to government senior leaders.",
+  "Preview the self-assessment questions on Data Analytics, Oral Communication and Written Communication. Answer 'expert' only where a resume bullet proves it, because inflated answers that the resume doesn't support get screened out.",
+  "Apply between Oct 28 and Nov 16, 2026, and submit well before midnight Eastern on the closing day. Check the announcement for any required documents, such as transcripts if you claim education.",
+  "If you don't qualify, consider lower-grade analyst roles (GS-9/11) or communications and legislative-affairs roles that better match your policy and people strengths."
+ ],
+ "resume_bullets": [
+  "Collected and analyzed [type of program/recovery data] for [client agency] using [tool]; identified [trend/root cause] that informed [decision/action] ([hours]/week, [dates]).",
+  "Built and maintained [number] key performance indicators and [dashboards/reports] tracking [program effectiveness metric] for [audience], briefing [senior leaders/stakeholders] [frequency].",
+  "Led [process improvement effort] on [process], applying [Six Sigma/Lean/other method] to reduce [measure] from [X] to [Y]."
+ ],
+ "interview_questions": [
+  "Describe a time you used trend or root-cause analysis to identify a problem and recommend a fix. What data and methods did you use?",
+  "How would you design KPIs to measure the effectiveness of a workplace safety program?",
+  "Tell us about translating complex data findings for a senior leader or non-technical audience.",
+  "Have you overseen contractor deliverables or served in a COR-type role? How did you handle disputes over performance?"
+ ],
+ "watch_outs": [
+  "This is high-grade technical analytics work, so without documented statistical or predictive analysis experience you are unlikely to pass qualification screening.",
+  "The duties include COR responsibilities and OSHA compliance knowledge; COR certification may be expected or required after hire.",
+  "The commute from Manassas to Capitol Hill is long, though telework eligibility may help."
+ ],
+ "job_id": "usajobs:890923900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

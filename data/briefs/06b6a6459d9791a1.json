@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior executive-level manager who leads the Defense Contract Audit Agency's data, analytics, and AI strategy and supervises four GS-14 branch chiefs at Fort Belvoir.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role requires a year of GS-14-equivalent experience setting enterprise data/AI strategy, directing technology portfolios through subordinate supervisors, or advising executives as a principal. Daniel's known background (emergency-management consulting at IEM, policy knowledge, relationship-building) does not show that level of technical leadership or supervision of supervisors. The stakeholder-engagement option is the only plausible angle, and it still demands executive-level, high-profile representation.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status or veterans' preference needed, but preference-eligible veterans get priority within categories.",
+  "One year of specialized experience equivalent to GS-14 is required; education cannot substitute.",
+  "Requires eligibility for a Sensitive Compartmented Information (SCI) clearance, which means a Top Secret-level background investigation.",
+  "Reemployed annuitants are not eligible for this vacancy."
+ ],
+ "keywords": [
+  "enterprise-wide digital, data, or artificial intelligence strategies",
+  "governance frameworks",
+  "program portfolio",
+  "performance metrics",
+  "life-cycle risks",
+  "subordinate supervisors",
+  "executive-level stakeholder engagement",
+  "coalition building",
+  "cultural adoption of digital capabilities",
+  "principal advisor",
+  "change management",
+  "multi-million dollar program budgets",
+  "data literacy",
+  "pilot programs",
+  "Data, Analytics, and AI Strategy"
+ ],
+ "strategy": [
+  "Before investing time, honestly check whether any IEM work involved directing technology or data programs, managing other managers, or advising government executives; if not, skip this and target GS-9 to GS-12 emergency management or program analyst roles.",
+  "If you apply, frame IEM experience around the third specialized-experience option: describe [specific government clients], the seniority of the officials you advised, and any agreements you negotiated or adoption efforts you led.",
+  "State dates, hours per week, title, and scope briefly so the whole resume fits OPM's two-page USAJOBS limit, with GS-14-level responsibility clear in the first lines of each job.",
+  "Preview the questionnaire at the linked USA Staffing URL and answer only at levels you can document; the posting warns inflated ratings will be lowered.",
+  "Prepare for the USA Hire assessment and apply between October 29 and November 12, 2026, well before the deadline."
+ ],
+ "resume_bullets": [
+  "Advised [title/level of client officials] at [agency/jurisdiction] on [disaster recovery or preparedness program], presenting recommendations to [executive body or panel] that informed [decision or policy].",
+  "Built coalitions among [number] federal, state, and local stakeholders to negotiate [agreement or plan], driving adoption of [tool, process, or digital system] across [scope].",
+  "Managed [budget amount] in [program/task order] resources, tracking [performance metrics] and adjusting staff and funding as [client priorities] changed."
+ ],
+ "interview_questions": [
+  "Describe how you developed and gained buy-in for an enterprise-wide data or AI strategy.",
+  "How have you managed subordinate supervisors and handled performance issues in a multi-branch organization?",
+  "Tell us about a time you overcame workforce resistance to adopting new technology.",
+  "How do you weigh legal, cybersecurity, and mission risk when recommending scaling an AI pilot?"
+ ],
+ "watch_outs": [
+  "The GS-14-equivalent specialized experience bar is very high and Daniel's known background likely won't meet it.",
+  "SCI clearance is required, which adds a lengthy investigation and possible delays.",
+  "No telework and fully on-site at Fort Belvoir, a commute from Manassas that is manageable but daily.",
+  "Short two-week window (October 29 to November 12, 2026) plus a USA Hire assessment to complete."
+ ],
+ "job_id": "usajobs:890925400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

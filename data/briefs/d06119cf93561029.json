@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior technical leader running Fairfax County's enterprise GIS: geospatial databases, systems, applications and modernization projects supporting county operations, public safety and emergency response.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a senior IT/GIS program management role that calls for deep technical leadership over geospatial infrastructure, database integration and system architecture. Daniel's known strengths are policy knowledge, relationship-building and emergency-management consulting at IEM, with no GIS or IT architecture background on file. Unless Daniel has hands-on GIS or enterprise systems experience not on file, the emergency-response link alone is unlikely to clear the screen.",
+ "eligibility": [
+  "The excerpt does not state who may apply; Fairfax County local government jobs are typically open to the public, but confirm on the full posting.",
+  "Check the full posting's minimum qualifications, likely a combination of education (such as a bachelor's in IT, GIS, computer science or related) and progressively responsible IT/program management experience.",
+  "Check for preferred or required GIS certifications (for example GISP) or Esri platform experience in the full posting text, which is truncated here.",
+  "Check whether the posting requires a background check or other pre-employment conditions; the excerpt does not say."
+ ],
+ "keywords": [
+  "GIS Enterprise Program Manager",
+  "enterprise-wide geospatial infrastructure",
+  "geospatial",
+  "data, systems, applications, and services",
+  "architectural modernizations",
+  "database integrations",
+  "system and application upgrades",
+  "public safety",
+  "emergency response",
+  "critical county operations",
+  "technical leader",
+  "Information Technology",
+  "program management",
+  "Innovation Division"
+ ],
+ "strategy": [
+  "Read the full posting on governmentjobs.com before investing time; the excerpt is cut off and the minimum qualifications decide whether applying is worthwhile.",
+  "Apply only if you have real GIS, database or IT systems experience from IEM or elsewhere, and if so, name the specific tools, systems and data you managed.",
+  "Frame IEM work around how emergency managers and government clients used geospatial data, maps or dashboards for preparedness and response, but only where you actually did that work.",
+  "Answer the supplemental questions with concrete, verifiable detail, because county HR screens on them against minimum qualifications.",
+  "Submit well before the November 12, 2026 close; postings opening October 24 give only about three weeks.",
+  "Consider applying to more suitable Fairfax County roles at the same time, such as emergency management, public affairs, community outreach or legislative liaison positions."
+ ],
+ "resume_bullets": [
+  "Supported [government client type] emergency management programs at IEM by [coordinating/analyzing] [type of geospatial or operational data] used for [preparedness/response/recovery] decisions.",
+  "Served as liaison between technical teams and [number] government stakeholders on [project], translating requirements for [system/application] used in [public safety/emergency response].",
+  "Managed [project name] covering [scope, budget or timeline], delivering [specific outcome] for [client]."
+ ],
+ "interview_questions": [
+  "Describe your experience leading an enterprise GIS program, including the platforms and databases you managed.",
+  "How would you plan and carry out a major architectural modernization of a county's geospatial systems with minimal disruption to public safety operations?",
+  "How have you worked with department stakeholders who have competing priorities for shared data and applications?",
+  "Give an example of using geospatial data to support emergency response or critical operations."
+ ],
+ "watch_outs": [
+  "The role appears to require senior technical GIS and IT architecture expertise that is not in Daniel's known background.",
+  "The excerpt is truncated, so minimum qualifications, education requirements and any certifications are not confirmed here.",
+  "The application window is short, running from October 24 to November 12, 2026.",
+  "Telework is not stated and the role is listed as not remote; plan on commuting from Manassas to Fairfax."
+ ],
+ "job_id": "neogov:fairfaxcounty:5520820",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

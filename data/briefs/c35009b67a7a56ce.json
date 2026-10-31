@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Forest Service national program manager who writes wildfire prevention planning policy and guides regional and field units on prevention plans, education, and enforcement.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's IEM consulting background in emergency management and preparedness for government clients is relevant to planning and interagency coordination, and the policy and relationship skills fit the advisory side of the job. However, the posting requires prior wildland firefighting experience as a selective placement factor, plus one year of wildfire-prevention-specific specialized experience at the GW-12 level. Nothing on file shows either, and there is no education substitution.",
+ "eligibility": [
+  "Open to the public, including U.S. citizens with no prior federal service, under Direct-Hire Authority; veterans' preference does not apply.",
+  "Selective placement factor: prior wildland firefighting experience is required (secondary firefighter retirement position).",
+  "Specialized experience: one year equivalent to GW-12 in wildfire prevention program management, planning or assessments, modeling, or program of work and budget. No education substitution is allowed.",
+  "Conditions include drug testing, a background check, possibly passing the Work Capacity Test, willingness to live or work in remote locations, and a 1-year probationary period."
+ ],
+ "keywords": [
+  "wildfire prevention planning",
+  "program management",
+  "program leadership and consultation",
+  "strategic wildfire prevention planning",
+  "wildland fire risk",
+  "assessments",
+  "interagency",
+  "wildfire prevention plan development",
+  "Geographic Area",
+  "field units",
+  "education, engineering, enforcement",
+  "annual program of work",
+  "budget allocations",
+  "severity requests",
+  "specialized software and modeling"
+ ],
+ "strategy": [
+  "Before applying, confirm whether you have any wildland firefighting experience, paid or volunteer (for example, a red card or fire crew work); without it you will be screened out regardless of other strengths.",
+  "If you qualify, frame your IEM work around [specific wildfire, hazard mitigation, or risk assessment projects], interagency coordination, and plan development for government clients, using the posting's exact wording.",
+  "Show GW-12-level scope on your two-page resume: dates, hours per week, the size of the programs you supported, budgets, and whether you led or advised. Do not inflate, because the posting warns that inflated qualifications lead to ineligibility.",
+  "Answer the USA Staffing questionnaire honestly and make sure each claimed level is backed by a resume bullet; the resume is checked before referral.",
+  "Apply between Oct 29 and Nov 12, 2026. Contact Melissa Jenkins to ask how strictly the firefighting requirement applies and whether location is truly negotiable.",
+  "If you don't qualify, consider entry-level FEMA, state VDEM, or Prince William County emergency management roles that fit your IEM background better."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of preparedness/mitigation plan] development for [government client] with [number] federal, state, and local stakeholders, delivering [deliverable] on [timeline].",
+  "Conducted [hazard/risk] assessments for [jurisdiction or program], using [software/modeling tool] to evaluate mitigation strategies and inform [client decision].",
+  "Supported program of work and budget planning of [$ amount] for [program], tracking allocations and preparing [reports/requests]; [hours/week], [dates]."
+ ],
+ "interview_questions": [
+  "Describe your wildland firefighting experience and how it informs prevention planning.",
+  "How have you coordinated a plan across national, regional, and field-level stakeholders with competing priorities?",
+  "How would you evaluate whether a unit's wildfire prevention education and enforcement efforts are effective?",
+  "Walk us through how you have built an annual program of work and budget."
+ ],
+ "watch_outs": [
+  "Prior wildland firefighting experience is mandatory; your known background does not show it.",
+  "The specialized experience must be wildfire-prevention specific at GW-12 level, which general emergency management consulting may not meet.",
+  "The Work Capacity Test, remote-location condition, and drug testing may apply, and there is no promotion potential.",
+  "The application window is short: Oct 29 to Nov 12, 2026."
+ ],
+ "job_id": "usajobs:890808100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

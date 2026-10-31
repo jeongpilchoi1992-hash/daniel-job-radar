@@ -1,0 +1,53 @@
+{
+ "one_liner": "A placeholder USAJOBS listing pointing to the Air Force Civilian Service Direct Hire Job Board, where actual Business and Industry (1100-series) openings are posted.",
+ "fit_rating": "Stretch",
+ "fit_summary": "This is not a real vacancy you can apply to directly. It redirects to the Air Force Direct Hire Job Board, and the listing contains no duties, qualifications, or series details to match against. Your emergency-management consulting and public-policy background could fit some 1100-series roles there, such as contracting, program analysis, or industrial property, but fit depends entirely on the specific opening you find.",
+ "eligibility": [
+  "Open to the public: Direct Hire Authority lets applicants with no prior federal status apply, so you are eligible without status or veterans' preference.",
+  "Security clearance is listed as Not Required here, but individual job board postings may require one, so check each.",
+  "Qualifications and specialized experience are not stated; each Direct Hire Job Board posting will set its own requirements, and some 1102 contracting roles have education or credit-hour rules.",
+  "NH pay bands (acquisition demo) cover a wide range, so confirm which band and level each actual opening offers."
+ ],
+ "keywords": [
+  "Direct Hire Authorities",
+  "DHA",
+  "Business and Industry",
+  "Department of the Air Force",
+  "Air Force Civilian Service",
+  "Direct Hire Job Board",
+  "applicants from the public",
+  "no prior federal status",
+  "fast-track",
+  "government clients",
+  "emergency management",
+  "disaster recovery",
+  "preparedness"
+ ],
+ "strategy": [
+  "Do not stop at this listing: open the Air Force Civilian Service Direct Hire Job Board link and find specific 1100-series openings, such as 1101 business specialist, 1102 contract specialist, or program analyst roles, and read each announcement's requirements.",
+  "Frame your IEM work around business-side tasks you actually did, such as supporting government client contracts, deliverables, stakeholder coordination, or program reporting, rather than emergency management alone.",
+  "Highlight your policy knowledge and relationship-building as stakeholder engagement, briefing, and customer liaison skills, which business and industry roles value.",
+  "Build a two-page federal resume with month/year dates, hours per week, and duties phrased in each posting's exact wording.",
+  "Since this listing runs until March 2027, set USAJOBS saved searches for Air Force direct hire 1100-series roles and apply early, because direct hire positions can fill fast.",
+  "Also weigh FEMA, DHS, or Virginia VDEM postings, which map more directly to your IEM experience."
+ ],
+ "resume_bullets": [
+  "Supported [number] government client engagements at IEM in [emergency management/disaster recovery] programs, coordinating [deliverables/schedules/budgets] with [federal/state/local] stakeholders ([hours] hrs/week).",
+  "Prepared [reports/briefings/analyses] on [topic] for [client agency], translating policy and program requirements into actionable recommendations used for [purpose].",
+  "Served as primary liaison to [number] client and community stakeholders, resolving [issue type] and maintaining relationships that supported [outcome you can verify]."
+ ],
+ "interview_questions": [
+  "Tell us about your work at IEM and how it relates to supporting a government program or contract.",
+  "Describe a time you built a working relationship with a difficult stakeholder to get a task done.",
+  "How would you apply your knowledge of federal policy and regulations to this Air Force role?",
+  "Walk us through how you manage competing deadlines and keep work documented accurately."
+ ],
+ "watch_outs": [
+  "This is an informational shell posting with no duties or qualifications; applying here alone may not lead anywhere, so apply to specific job board openings.",
+  "The listed salary range ($22,584–$164,301) spans all NH bands, so actual pay depends on the specific role and band.",
+  "Location is negotiable but telework and remote work are not allowed, so you may need to relocate or commute to an Air Force installation."
+ ],
+ "job_id": "usajobs:863078300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

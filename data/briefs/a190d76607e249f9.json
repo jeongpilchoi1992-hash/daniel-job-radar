@@ -1,0 +1,48 @@
+{
+ "one_liner": "A Senate staff role advising a senator or committee on health legislation and policy, likely drafting bills, briefing members, and meeting stakeholders.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting text is almost empty, but \"Health Counsel\" titles in Senate offices usually expect a law degree (JD) and substantial health policy experience. Daniel's strong policy knowledge and relationship skills are relevant, but nothing on file shows health-specific policy or legal background. Emergency-management consulting at IEM could connect only if Daniel worked on public health preparedness.",
+ "eligibility": [
+  "The posting gives no eligibility details; open the full listing at the URL to confirm requirements before applying.",
+  "\"Counsel\" titles typically require a JD and bar membership. Verify this, because Daniel has no known law degree.",
+  "Senate offices are not covered by USAJOBS rules or the two-page OPM limit, and federal status is not required. Follow the office's own instructions instead.",
+  "Check whether the office is a personal office (which may prefer ties to the home state) or a committee (which may prefer a specific party affiliation)."
+ ],
+ "keywords": [
+  "health policy",
+  "legislative",
+  "policy advisor",
+  "counsel",
+  "Senate",
+  "stakeholders",
+  "briefing memos",
+  "legislation",
+  "public health"
+ ],
+ "strategy": [
+  "Read the full posting on the Senate employment site first. The snippet here contains almost no detail, so confirm the requirements (especially a JD) before you invest time.",
+  "If you worked on public health emergency preparedness, pandemic response, or health-related disaster recovery at IEM, lead with that experience and describe it concretely.",
+  "Write a one-page, Hill-style resume plus a short cover letter that shows your command of policy, your stakeholder relationships, and your writing ability. Prepare a writing sample such as a policy memo.",
+  "If a JD is required, treat this as a networking target instead. Ask for informational conversations with health staffers and look for Legislative Assistant or Legislative Correspondent roles that cover health.",
+  "Apply quickly, because roles marked \"open until filled\" can close without notice."
+ ],
+ "resume_bullets": [
+  "Advised [government client type] on [preparedness/recovery policy topic] at IEM, producing [number] briefings or memos for [audience].",
+  "Coordinated with [number/type] federal, state, and local stakeholders to [specific outcome you can verify].",
+  "Analyzed [legislation/regulation/funding program, e.g., Stafford Act or public health grants] to support [client decision or deliverable]."
+ ],
+ "interview_questions": [
+  "What health policy issue matters most this Congress, and where should the senator stand on it?",
+  "Walk us through how you would brief the senator on a bill in 15 minutes.",
+  "How would you handle conflicting asks from stakeholders and constituent advocates?",
+  "Tell us about a policy document you wrote and how it was used."
+ ],
+ "watch_outs": [
+  "The \"Counsel\" title likely means a JD and health law or policy experience are required, which Daniel probably lacks.",
+  "The posting gives almost no information: salary, office, and deadline are all unknown.",
+  "Hill jobs offer limited job security, long hours, and a commute from Manassas to DC."
+ ],
+ "job_id": "senate:health-counsel-policy-advisor-washington-district-of-columbia-1269",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

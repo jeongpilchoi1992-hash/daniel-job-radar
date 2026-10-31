@@ -1,0 +1,57 @@
+{
+ "one_liner": "Entry-level CIA operations officer trained to recruit and handle foreign sources overseas, spending most of a career on multi-year assignments abroad.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's relationship-building, comfort with people, and deep knowledge of U.S. policy match the core of this role, which centers on building rapport and assessing character and motivation. But the job means a career mostly overseas, a Top Secret/SCI background investigation with polygraph, a 5-year contract term, and worldwide medical clearance, which is a different path than the domestic government career Daniel described. It is also unclear whether Daniel holds the required bachelor's degree.",
+ "eligibility": [
+  "U.S. citizenship and the ability to pass a CIA background investigation for Sensitive Compartmented Information (SCI) access are required.",
+  "A bachelor's degree from an accredited institution is required (or within one year of earning one); a 3.0 GPA is preferred, and foreign degrees need a credential evaluation.",
+  "You must be medically clearable for worldwide deployment and meet the listed physical tasks, such as driving day and night and traversing uneven terrain.",
+  "Placement depends on experience: Clandestine Service Trainee (CST) with three or more years of professional experience, or Professional Trainee (PT) with less.",
+  "You must sign a 5-year Contract Term Agreement; the posting is open to the public, so federal status is not needed."
+ ],
+ "keywords": [
+  "spot, assess, develop, recruit, and handle",
+  "build relationships based on rapport and trust",
+  "sound judgment",
+  "integrity",
+  "assess character and motivation",
+  "strong interpersonal and communication skills",
+  "action- and results-oriented",
+  "work effectively as part of a team and independently",
+  "flexibility, adaptability",
+  "think on your feet",
+  "creative yet practical solutions",
+  "make reasoned decisions under time constraints",
+  "foreign policy and national security",
+  "counterterrorism",
+  "foreign languages"
+ ],
+ "strategy": [
+  "Decide first whether a mostly overseas, multi-year-assignment career fits your goals. If you prefer a domestic, policy, or legislative role, put your energy elsewhere or look at other CIA directorates.",
+  "Apply through cia.gov/careers as the posting directs, not by relying only on USAJOBS. The window runs Sept 1, 2026 to Jan 31, 2027, but apply early because the security process can take a year or more.",
+  "Frame your IEM work around client relationship management, working with government stakeholders, judgment under deadline pressure during disasters, and adapting to fast-changing situations. Stick to what you actually did.",
+  "Count your years of professional experience carefully to see whether you qualify for CST (3+ years) or PT, and state your dates clearly.",
+  "Highlight any foreign language study, international travel, or cultural exposure, plus your policy knowledge as it relates to national security issues.",
+  "Keep a clean, honest record of your history for the SF-86, including residences, foreign contacts, drug use, and finances. Avoid publicizing your application or discussing it on social media."
+ ],
+ "resume_bullets": [
+  "Built and maintained working relationships with [number/type of] government client stakeholders at IEM, earning trust to [describe outcome you can verify] on [emergency management/recovery project].",
+  "Made reasoned decisions under time constraints during [specific disaster response or exercise], coordinating [number] team members and partners to deliver [deliverable] by [deadline].",
+  "Researched and briefed [audience] on [policy/national security topic], translating complex information into clear written and verbal products used for [purpose]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you built trust with someone quickly who was initially skeptical or guarded.",
+  "Describe a situation where you had to make a decision with incomplete information under time pressure.",
+  "How do you assess what motivates another person? Give an example.",
+  "How would you and your family handle years of overseas assignments and erratic schedules?"
+ ],
+ "watch_outs": [
+  "The security clearance process with polygraph is long and invasive, and past drug use, finances, or foreign ties can disqualify you or delay you.",
+  "Most of the career is spent overseas, with no telework and a 5-year contract term. That is a major lifestyle commitment.",
+  "A bachelor's degree is mandatory; confirm Daniel has one or will finish within a year.",
+  "Applications and status are confidential, so keep the process discreet and expect little feedback."
+ ],
+ "job_id": "usajobs:756734700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

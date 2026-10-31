@@ -1,0 +1,54 @@
+{
+ "one_liner": "Part-time, grant-funded city social services job doing community outreach on substance-use prevention and recovery resources, plus case coordination and service planning.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's outreach skills, comfort with the public, policy knowledge, and Manassas residency fit the outreach and community-event side well. The case-management duties (writing service plans, presenting cases to funding teams) usually call for human services education or casework experience, which isn't on file, and a Specialist II title suggests some prior experience is expected.",
+ "eligibility": [
+  "The minimum qualifications are cut off in the posting text. Read the full posting for required education (often a degree in social work, human services, or a related field) and years of experience.",
+  "Specialist II level may require prior family services or case management experience. Confirm whether consulting or emergency-management work counts.",
+  "Expect background checks, possibly including a Virginia Child Protective Services registry check and a driver's license requirement. Verify these in the full posting.",
+  "No federal status, veterans' preference, or clearance is indicated. This is open local government hiring through GovernmentJobs."
+ ],
+ "keywords": [
+  "outreach",
+  "harm reduction",
+  "preventative and recovery resources",
+  "community events",
+  "coordinating",
+  "interprets laws, policies, and regulations",
+  "service plans",
+  "family and team meetings",
+  "funding team meetings",
+  "presents cases",
+  "appropriate services",
+  "Social Services",
+  "grant funded"
+ ],
+ "strategy": [
+  "Apply right away, because the posting is open until filled and may close at any time. Its listed opening date is 2026-09-30, so check that the application link is live.",
+  "Frame your IEM work around the community-facing parts of disaster recovery and preparedness, such as connecting residents to resources, coordinating with agencies, and interpreting program rules. Describe only work you actually did.",
+  "Lead with outreach, public engagement, and relationship-building. Show that you're available for evenings and weekends.",
+  "Use your policy knowledge to show you can interpret laws, policies, and regulations, for example FEMA or state program guidelines, if you applied them in your work.",
+  "Complete every supplemental question in detail, matching the posting's wording. GovernmentJobs screeners often score these answers, and local applications are not bound by the two-page federal limit.",
+  "Consider brief harm reduction training (for example, naloxone/REVIVE! training through Virginia) to show interest in the subject area."
+ ],
+ "resume_bullets": [
+  "Conducted outreach to [number/type] community members and stakeholders on [disaster recovery/preparedness] resources for [client agency] at IEM, connecting them to [programs/services].",
+  "Interpreted [federal/state program regulations, e.g., FEMA guidance] to help [clients/agency staff] determine eligibility for [services], supporting [outcome].",
+  "Coordinated and scheduled [meetings/briefings] with [teams/agencies] and presented [findings/cases/recommendations] to [audience] to decide on [next steps/funding]."
+ ],
+ "interview_questions": [
+  "How would you approach someone who is actively using substances and is reluctant to engage with services?",
+  "Describe a time you explained complex rules or eligibility requirements to a member of the public.",
+  "How do you organize documentation and service plans when handling multiple cases or tasks?",
+  "What does harm reduction mean to you, and how does it fit with recovery services?"
+ ],
+ "watch_outs": [
+  "The job is part-time and grant-funded, so expect limited or no benefits and possible elimination when the grant ends.",
+  "Evenings and weekends are required for community events.",
+  "Required education or casework experience may screen you out. Verify the minimum qualifications first.",
+  "The posting can close at any time without notice."
+ ],
+ "job_id": "neogov:manassas:5450896",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

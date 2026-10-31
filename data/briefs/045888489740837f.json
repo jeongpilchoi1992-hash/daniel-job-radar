@@ -1,0 +1,57 @@
+{
+ "one_liner": "Run an Air Force base's sexual assault prevention and response program: track cases, train responders and personnel, coordinate victim support, and advise the Wing Commander.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's people skills, policy knowledge, and emergency-management consulting background are relevant to coordination and training, but the posting requires a behavioral/social science basic requirement and a year of GS-09-level specialized experience in victim advocacy, social services, or sexual assault prevention/response. Nothing on file shows that experience, so Daniel likely won't qualify unless there is unlisted advocacy, crisis, or social-science background.",
+ "eligibility": [
+  "Open to the public (hiring path: public); U.S. citizenship expected, with no federal status required.",
+  "Basic requirement: a behavioral or social science degree (or related field), an equivalent education/experience combination, or four years of experience showing equivalent knowledge; transcripts required if education is used.",
+  "GS-11: one year of specialized experience at GS-09 level in victim advocacy, social services, or sexual assault prevention/response; GS-12: one year at GS-11 level overseeing interpersonal-violence prevention/response programs.",
+  "Must be able to obtain and maintain a Secret clearance.",
+  "On-site at multiple Air Force installations with no telework; confirm which locations are near Manassas (e.g., Joint Base Andrews)."
+ ],
+ "keywords": [
+  "Sexual Assault Prevention and Response (SAPR)",
+  "victim advocacy",
+  "prevention education and training",
+  "first responders",
+  "crisis intervention",
+  "situational assessment",
+  "safety planning",
+  "law enforcement and criminal investigative units",
+  "interpersonal violence",
+  "social service delivery systems",
+  "tact and diplomacy",
+  "DSAID",
+  "policy updates and program changes",
+  "develop plans, programs, guidelines, and budgets",
+  "effective working relationships"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether you have any victim-advocacy, crisis-line, social-services, or survivor-support work, paid or volunteer; the posting credits volunteer and part-time experience if hours per week are listed.",
+  "If your degree is political science or another social science, upload transcripts to meet the basic requirement, and confirm the major counts as 'behavioral or social science or related.'",
+  "Frame your IEM work around program coordination, training delivery, stakeholder and interagency coordination, and support for affected populations, using your actual title and duties; avoid claiming victim-advocacy expertise you don't have.",
+  "Answer the questionnaire conservatively: every 'expert' rating must be backed by a resume bullet, or you'll be rated not qualified.",
+  "Keep the resume to two pages, with month/year dates and hours per week for each role, and mirror the KSA wording; the posting closes 2026-12-18 but may pull applicant lists early, so apply soon.",
+  "Use this as a learning target: a role such as SAPR victim advocate (GS-09) or volunteer advocacy work with a local Northern Virginia crisis center could build qualifying experience; meanwhile, prioritize emergency-management or legislative roles that fit you better."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of] preparedness/recovery training for [number] [government client staff/first responders] at [client], updating materials to reflect [policy/program changes].",
+  "Served as liaison among [agencies, e.g., state EM, law enforcement, local officials] to establish [protocols/notification procedures] for [program], working [hours] per week.",
+  "Supported [population, e.g., disaster survivors] by [assessing needs/connecting to services] through [program], assisting [number] individuals over [period]."
+ ],
+ "interview_questions": [
+  "Describe how you would respond in the first hours after being notified of a sexual assault report, including restricted versus unrestricted reporting.",
+  "How would you build working relationships with OSI, Security Forces, legal, and medical to ensure 24-hour victim advocate notification?",
+  "Tell me about a time you trained a skeptical audience on a sensitive topic.",
+  "How would you advise a Wing Commander whose prevention program metrics are declining?"
+ ],
+ "watch_outs": [
+  "The specialized experience requirement (victim advocacy/SAPR) is the main barrier, and consulting experience alone likely won't meet it.",
+  "A Secret clearance is required, and the role involves on-call or crisis duties typical of SAPR work.",
+  "It is on-site only, at multiple locations, so check the duty station before accepting.",
+  "Transcripts must accompany the application if education is used, and the questionnaire must match the resume exactly."
+ ],
+ "job_id": "usajobs:852969100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

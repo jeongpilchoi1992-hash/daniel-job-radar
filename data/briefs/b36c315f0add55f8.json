@@ -1,0 +1,57 @@
+{
+ "one_liner": "Civilian Space Force operator in a Dahlgren command center who tasks sensors and maintains orbit data on satellites and space debris.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a technical space-operations role centered on orbit determination, differential corrections, and orbital mechanics, none of which appear in Daniel's known background. Daniel's IEM consulting work, policy knowledge, and communication skills match only the coordination, doctrine, and briefing parts of the job. Unless Daniel has unlisted math, physics, or space-operations experience, qualifying beyond the lowest grade band is unlikely.",
+ "eligibility": [
+  "Open to the public through Direct Hire (hiring path: public), so no federal status is needed; apply through the link in the posting, not by email.",
+  "Requires eligibility for a Sensitive Compartmented Information (SCI) clearance, which means a TS/SCI background investigation.",
+  "The NH-02 band spans GS-05 to GS-11 equivalents, and the 0301 experience standard (Administrative and Management Positions) sets your entry level. GS-05 requires a 4-year degree or 3 years of general experience; higher levels need specialized experience.",
+  "The 0301 series has no separate occupational requirement, but the listed KSAs (orbital mechanics, orbit determination) are what the evaluation is based on.",
+  "Duty location is on-site in Dahlgren, VA, about 1.25 hours from Manassas; telework eligibility will be limited for classified C2 work."
+ ],
+ "keywords": [
+  "Space Domain Awareness (SDA)",
+  "orbit determination",
+  "differential corrections",
+  "statistical estimation techniques",
+  "orbital mechanics",
+  "command and control (C2)",
+  "space sensors",
+  "data sharing",
+  "research, analyze, interpret, and present data",
+  "coordinate with other organizations",
+  "set priorities, plan, coordinate, and organize work",
+  "doctrine, regulations, policies",
+  "Near-Earth and Deep-Space",
+  "monitor progress and evaluate outcomes",
+  "communicate effectively"
+ ],
+ "strategy": [
+  "Apply only if you have, or can quickly show, real quantitative or technical grounding, such as coursework in math, physics, or statistics, or data-analysis work. Without it, focus on USSF or DoD program, policy, or emergency-management roles that fit better.",
+  "Frame your IEM work around KSAs 3, 5, and 7: coordinating across government organizations, applying federal doctrine and policy (for example, FEMA/NIMS-type frameworks if accurate), and briefing data to leadership.",
+  "State any data analysis, operations-center, or watch-floor support you did at IEM, such as EOC activations. These are the closest analogs to C2 work.",
+  "Keep the resume to two pages, with month/year dates and hours per week for each job. Mirror the posting's keywords exactly.",
+  "The window is only one week (Oct 23-30, 2026), so have your resume and transcripts ready before it opens. Request the lowest grade you honestly qualify for (likely the GS-05/07 equivalent).",
+  "Be ready to commit to a TS/SCI investigation, and list any foreign contacts or financial issues accurately."
+ ],
+ "resume_bullets": [
+  "Coordinated with [number] federal, state, and local agencies on [disaster recovery/preparedness project] for [client], tracking milestones and resolving issues to meet [deadline/requirement].",
+  "Researched, analyzed, and presented [type of data] to [client leadership/stakeholders], producing [report/briefing] that informed [decision].",
+  "Applied [FEMA doctrine, regulations, or policy guidance] to [task], ensuring compliance with [requirement] across [scope]."
+ ],
+ "interview_questions": [
+  "Explain what you know about orbital mechanics or how orbit determination works.",
+  "Describe a time you analyzed complex data and presented findings to leadership.",
+  "How do you set priorities and coordinate with outside organizations under time pressure?",
+  "How would you handle working shifts in a classified command and control environment?"
+ ],
+ "watch_outs": [
+  "The core duties require technical orbital-analysis skills that your known background does not show, so the application is likely to be screened out without them.",
+  "TS/SCI clearance is required; processing can delay your start and affects your eligibility.",
+  "C2 centers often run 24/7 shift schedules, so expect nights and weekends even though the posting doesn't say so. The posting also lists no promotion potential beyond the NH-02 band.",
+  "The application window is only seven days."
+ ],
+ "job_id": "usajobs:890095900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

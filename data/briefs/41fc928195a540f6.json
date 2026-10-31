@@ -1,0 +1,53 @@
+{
+ "one_liner": "Senior USPHS Commissioned Corps nurse/clinician billet leading ICE Health Service Corps medical escort missions by air, land, and sea, supervising flight nurses.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This billet is open only to current U.S. Public Health Service commissioned officers and requires an RN, PA-C, or NP license, more than 6 years of acute care experience, and prior ISOU program management. Nothing on file shows Daniel has any of these, so Daniel cannot qualify despite relevant emergency-management consulting and strong interagency relationship skills.",
+ "eligibility": [
+  "Open only to current USPHS Commissioned Corps officers; Call to Active Duty candidates are excluded. The 'public' hiring-path tag on USAJOBS is misleading.",
+  "Must be a clinical professional (RN, PA-C, or NP) with more than 6 years in ER, ICU, or another acute care setting.",
+  "Requires at least 2 years as ISOU program manager or 1 year as ISOU SC, plus at least 2 years of supervisory experience.",
+  "Must attain and maintain a DHS Secret clearance, an official passport, ICE credentials, CPR/BLS/ACLS, and pass an FAA Class III flight physical and a swim test."
+ ],
+ "keywords": [
+  "emergency management",
+  "program planning, development, and evaluation",
+  "quality improvement",
+  "risk assessments",
+  "represents to other Federal and non-Federal agencies",
+  "State and local health agencies",
+  "public health preparedness",
+  "interagency coordination",
+  "oral presentations",
+  "DHS components",
+  "NGOs",
+  "monthly reports",
+  "policies and guidelines",
+  "austere operations"
+ ],
+ "strategy": [
+  "Do not apply to this posting. You are not a USPHS officer or licensed clinician, and HR will screen you out at the eligibility step.",
+  "Use this posting's language to find civilian DHS roles that fit you, such as FEMA emergency management specialist (GS-0089), program analyst (GS-0343), or intergovernmental affairs positions open to the public.",
+  "Frame your IEM work around government clients served, the disaster recovery or preparedness programs you supported, and any stakeholder coordination you did, using the terms 'Federal, State and local' and 'interagency coordination.'",
+  "Keep your federal resume to two pages and list dates, hours per week, and a brief statement of specialized experience for each job.",
+  "Save a USAJOBS search for FEMA and DHS jobs open to 'U.S. citizens' within commuting distance of Manassas or with remote options. Also check Virginia VDEM and the Prince William County and Fairfax County emergency management offices."
+ ],
+ "resume_bullets": [
+  "Supported [client agency, e.g., state or FEMA] disaster [recovery/preparedness] program at IEM, coordinating with [number/type] Federal, State, and local stakeholders to [specific task].",
+  "Prepared and delivered [briefings/reports] on [topic] to [audience], informing [decision or program outcome].",
+  "Conducted [risk assessments/program evaluations] for [program], identifying [number] areas for improvement and drafting recommendations adopted by [client]."
+ ],
+ "interview_questions": [
+  "Describe a time you coordinated among multiple government agencies under time pressure.",
+  "How have you evaluated a program's effectiveness and reported metrics to leadership?",
+  "Tell us about delivering difficult information to a public or stakeholder audience.",
+  "How do you adapt when mission priorities change suddenly?"
+ ],
+ "watch_outs": [
+  "Eligibility is limited to current USPHS commissioned officers, so this posting is closed to Daniel.",
+  "It requires a clinical license, acute care experience, and ISOU-specific experience that Daniel lacks.",
+  "The role is hazardous duty with up to 50% travel, 24/7 deployability, and possible leave cancellation."
+ ],
+ "job_id": "usajobs:887869600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

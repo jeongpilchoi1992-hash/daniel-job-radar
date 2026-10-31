@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior manager at DLA overseeing a large defense IT/business-systems modernization portfolio (DAI), supervising GS-13/14 staff and briefing SES leaders.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role requires one year of experience equivalent to GS-14, specifically leading IT acquisition portfolios: budget, source selection, contract negotiation, and supervising senior analysts. Daniel's policy knowledge, people skills and IEM consulting background match the briefing and stakeholder parts, but nothing on file shows senior IT acquisition or supervisory experience at that level. Unless Daniel's IEM role was a senior program or portfolio lead, a GS-12/13 analyst role is a more realistic target.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority; veterans' preference and rule of three do not apply, but you must still meet basic qualifications.",
+  "One year of specialized experience equivalent to GS-14: leading portfolio teams, expert guidance on budget, acquisition strategy, source selection, contract negotiation, and delivering SES-level briefings.",
+  "No education substitution is allowed; qualification is by experience only.",
+  "Secret clearance required, and it is a Mission Essential position."
+ ],
+ "keywords": [
+  "portfolio",
+  "modernization roadmaps",
+  "Financial Improvement and Audit Readiness",
+  "acquisition strategy",
+  "source selection",
+  "contract negotiation",
+  "program management",
+  "executive decision packages",
+  "congressional responses",
+  "Senior Executive Service (SES)",
+  "workforce planning",
+  "cross-functional teams",
+  "information technology acquisition lifecycle",
+  "strategic communications",
+  "enterprise business capabilities"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work included supervising staff, managing contract budgets, or shaping acquisition and source selection decisions at a senior level; if not, save effort for GS-12/13 program analyst roles.",
+  "If you apply, describe your IEM role in federal terms: name the government clients, programs, your exact scope, team size you led, dollar values managed, and hours per week, all within the two-page limit.",
+  "Emphasize the strengths you can prove: executive briefings, white papers, congressional or policy responses, and stakeholder consensus-building with government clients.",
+  "Prepare for the online competency assessments (judgment, reading, reasoning, and interaction), which test accountability, influencing/negotiating, and decision making; practice situational-judgment items.",
+  "The window is only Oct 23–30, 2026, so have your two-page resume and any transcripts or references ready before it opens."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team supporting [federal/state client] [program name]; managed [budget $] and coordinated deliverables across [number] cross-functional workstreams.",
+  "Prepared and delivered [number] executive briefings and decision memorandums to [client senior leaders/title], translating complex [emergency management/technical] issues into actionable recommendations.",
+  "Supported acquisition and contract activities for [client], including [proposal development/requirements definition/source selection support] for contracts valued at [$]."
+ ],
+ "interview_questions": [
+  "Describe a time you led a portfolio of projects with competing priorities and limited resources.",
+  "How have you guided an IT acquisition from requirements through contract award and deployment?",
+  "Tell us about briefing a senior executive on a complex issue. What did you recommend, and what happened?",
+  "How do you handle an underperforming senior analyst while keeping the team high-performing?"
+ ],
+ "watch_outs": [
+  "The GS-14-equivalent experience bar in IT acquisition and supervision is likely beyond your documented background.",
+  "Secret clearance is required, which means a background investigation and possible delays.",
+  "The application window is only one week (Oct 23–30, 2026).",
+  "This is a Mission Essential position, so you may need to report on-site during disasters or crises despite telework eligibility."
+ ],
+ "job_id": "usajobs:890015500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

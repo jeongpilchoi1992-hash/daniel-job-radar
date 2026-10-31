@@ -1,0 +1,56 @@
+{
+ "one_liner": "CIA intelligence analyst who researches foreign governments' politics and stability and writes and briefs assessments for U.S. policymakers.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's strong knowledge of politics and public policy, writing for government clients at IEM, and comfort presenting are relevant, but the role centers on foreign politics and regional expertise, not U.S. domestic policy or emergency management. The posting also lists a bachelor's or master's in International Affairs or Political Science with at least a 3.0 GPA, which Daniel's file does not confirm.",
+ "eligibility": [
+  "Open to the public; U.S. citizenship is required, so no federal status is needed.",
+  "Education: bachelor's or master's degree in International Affairs or Political Science with at least a 3.0 GPA on a 4-point scale. Confirm your major and GPA.",
+  "You must pass CIA's background investigation, including polygraph and medical screening, and obtain a Top Secret-level clearance after the offer even though the listing says clearance is 'Not Required' to apply.",
+  "Apply through cia.gov/careers, which the posting points to, not a standard USAJOBS questionnaire. Grade (GS-8 to GS-15) depends on your education and experience."
+ ],
+ "keywords": [
+  "Political Analyst",
+  "written and oral assessments",
+  "foreign policy",
+  "stability",
+  "U.S. national security",
+  "critical thinking",
+  "problem-solving",
+  "decisionmaking processes",
+  "research experience in international affairs",
+  "clear, concise text",
+  "verbal presentation skills",
+  "regional or functional expertise",
+  "foreign language capability",
+  "team environment",
+  "policymakers"
+ ],
+ "strategy": [
+  "Apply early. The window runs from 2026-09-01 to 2027-01-31, and CIA processing including the background investigation often takes many months.",
+  "Frame your IEM work as analysis for government decision-makers: researching risks, synthesizing information, and writing or briefing clear products for officials. Use your actual title and duties.",
+  "Pick one region or international issue you can credibly claim, such as coursework, a thesis, travel, or a language, and feature it prominently, because CIA prizes regional expertise.",
+  "Prepare a short analytic writing sample (2-3 pages, bottom line up front) on a foreign political issue. CIA analytic hiring commonly includes writing exercises.",
+  "Keep the resume to two pages with dates, hours per week, degree, major, and GPA clearly listed, plus any languages and foreign travel.",
+  "Avoid political advocacy in your materials. Present your political knowledge as objective, nonpartisan analysis."
+ ],
+ "resume_bullets": [
+  "Researched and synthesized [type of data/sources] on [hazard, recovery, or policy issue] for [government client], producing [number] written assessments for [audience, e.g., state emergency management officials].",
+  "Briefed [audience] on [topic], translating complex [policy/risk] information into clear recommendations that informed [decision or plan].",
+  "Collaborated with [number]-person cross-functional team and [agency] stakeholders to deliver [product] under [deadline/constraint]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would assess the political stability of a foreign country you follow.",
+  "Tell us about a time you had to write a concise product on a complex topic for a busy decision-maker.",
+  "How do you keep personal political views out of objective analysis?",
+  "Why intelligence analysis, and why this region or issue?"
+ ],
+ "watch_outs": [
+  "The degree field (International Affairs or Political Science) and 3.0 GPA may be hard requirements, so verify before investing time.",
+  "The lengthy security process requires full honesty about drug use, finances, foreign contacts, and online activity.",
+  "The job is fully on-site with no telework and has a long commute from Manassas, plus possible foreign travel.",
+  "Your domestic-politics strength needs a foreign or international angle to be competitive."
+ ],
+ "job_id": "usajobs:851633800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

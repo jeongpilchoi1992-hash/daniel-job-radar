@@ -1,0 +1,56 @@
+{
+ "one_liner": "A George Mason University staff role recruiting prospective graduate students through outreach, info sessions, events, and applicant follow-up.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's outgoing, relationship-building style and comfort with the public match the core of a recruitment coordinator role, and consulting work for government clients shows professional client-facing experience. The posting has no description, so it's unclear whether GMU wants prior higher-ed admissions or CRM experience, which Daniel may lack. It's also a university staff job rather than a policy or emergency-management role, so Daniel should weigh how well it fits a government career goal.",
+ "eligibility": [
+  "The full posting text isn't available; open the jobs.virginia.gov link or GMU's careers site (jobs.gmu.edu) to confirm the minimum qualifications.",
+  "Check whether a bachelor's degree is required, which is typical for university recruitment coordinator roles.",
+  "Confirm the closing date; it is listed as open until filled or not stated, so the posting could close without notice.",
+  "Check for a background check requirement and whether in-person presence on the Fairfax campus is expected; telework is not stated."
+ ],
+ "keywords": [
+  "Graduate Recruitment",
+  "recruitment",
+  "prospective students",
+  "outreach",
+  "information sessions",
+  "events",
+  "admissions",
+  "enrollment",
+  "CRM",
+  "communication",
+  "relationship building",
+  "customer service",
+  "coordination",
+  "presentations",
+  "data tracking"
+ ],
+ "strategy": [
+  "Before applying, read the full description at the posting URL or on jobs.gmu.edu and replace these generic keywords with the exact phrases it uses.",
+  "Frame your IEM experience around stakeholder engagement, such as coordinating with government clients, organizing meetings or trainings, and communicating with diverse audiences, using only duties you actually performed.",
+  "Lead with people skills backed by concrete examples: events you staffed, presentations you gave, and relationships you built and maintained.",
+  "Mention any connection to GMU or its policy programs (for example, the Schar School); your policy knowledge helps you speak credibly to prospective MPP or MPA students.",
+  "Write a short cover letter if allowed, and apply quickly because open-until-filled postings can close early.",
+  "State-system and university applications don't fall under the federal two-page rule, but keep the resume tight anyway, around 1-2 pages."
+ ],
+ "resume_bullets": [
+  "Coordinated [number] meetings, workshops, or trainings for [government client type] stakeholders at IEM, managing logistics, invitations, and follow-up communications.",
+  "Built and maintained working relationships with [number] client contacts across [agencies or jurisdictions], serving as a point of contact for [type of requests].",
+  "Tracked [deliverables, contacts, or data] using [tool, e.g., Excel or SharePoint] to keep [project] on schedule."
+ ],
+ "interview_questions": [
+  "Why do you want to work in graduate recruitment at George Mason?",
+  "Describe how you would plan and run an information session or recruitment event for prospective graduate students.",
+  "Tell us about a time you built a relationship with someone who was initially hesitant or difficult.",
+  "How would you track and follow up with a large pool of prospective applicants?"
+ ],
+ "watch_outs": [
+  "There is no posting description, so the qualifications, duties, and salary are unknown; verify them before investing time in the application.",
+  "The role likely involves evening and weekend events and possibly recruitment travel.",
+  "This is higher-ed admissions work rather than policy or emergency management, so consider how it fits your long-term goals.",
+  "The closing date isn't stated, so apply promptly."
+ ],
+ "job_id": "virginia:graduate-recruitment-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

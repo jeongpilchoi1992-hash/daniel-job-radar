@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior program manager running the Architect of the Capitol's Customer Experience Program, using metrics and cross-office projects to improve service for Congress, tenants and Capitol visitors.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's people skills, comfort with the public and deep knowledge of Congress fit the Capitol Hill setting well. GS-14 requires one full year of experience equivalent to GS-13 in leading a customer service framework for a large organization. Daniel's known background in emergency-management consulting does not show that senior customer-experience program leadership.",
+ "eligibility": [
+  "Open to the public; as a U.S. citizen you meet the AOC citizenship requirement, and no federal status is needed.",
+  "You need one full year of specialized experience at the GS-13 equivalent in managing customer service frameworks, systems and strategies for a large organization, creating CX policies and processes, measuring program effectiveness, and running customer-focused training.",
+  "There is no education substitution, so experience alone must qualify you at GS-14.",
+  "You must pass a drug test, and the clearance is listed as 'Other' (confirm the suitability or background check with HR).",
+  "All qualifications must be met by the closing date of November 10, 2026."
+ ],
+ "keywords": [
+  "customer service framework",
+  "customer experience",
+  "Customer Experience Program",
+  "program manager",
+  "senior analyst",
+  "subject matter expert",
+  "metrics",
+  "analytics",
+  "cross-functional",
+  "interdisciplinary teams",
+  "customer pain points",
+  "policies, processes and procedures",
+  "measuring the effectiveness",
+  "training techniques",
+  "liaison"
+ ],
+ "strategy": [
+  "Preview the self-assessment questions first. Rate yourself 'expert' only where your resume shows specific, matching evidence, because HR checks answers against the resume.",
+  "Frame your IEM work around government clients as customers. Highlight any stakeholder engagement, client feedback, survivor or applicant service processes, after-action metrics, or training delivery, but only if you actually did them.",
+  "On a two-page resume, list for each job the dates (month/year), hours per week, and title. Mirror the four specialized-experience statements in plain language with scale, such as organization size, number of users served, and metrics tracked.",
+  "Use the optional cover letter to connect your knowledge of Congress and member offices to serving Members and staffs, while keeping the focus on CX program evidence.",
+  "If you can't honestly document a year of GS-13-level CX leadership, apply anyway only as a stretch. In parallel, target GS-9 to GS-12 analyst or constituent and visitor services roles at AOC, the House, the Senate or Library of Congress.",
+  "Submit well before 11:59 pm ET on November 10, 2026, and confirm that every required document uploaded."
+ ],
+ "resume_bullets": [
+  "Served as [title] at IEM supporting [government client] on [program]; managed client relationships with [number] stakeholders and resolved [type] service issues, improving [metric] by [amount].",
+  "Developed [process/procedure/SOP] to collect and analyze [customer/stakeholder feedback data] using [tools]; briefed [audience] on trends and recommended changes adopted in [result].",
+  "Designed and delivered [number] interactive training sessions for [audience size/type] on [topic], using [methods] to raise [participation/retention measure]."
+ ],
+ "interview_questions": [
+  "Describe a time you built or improved a customer service process across several offices. What did you measure?",
+  "How would you identify pain points for congressional offices and building tenants?",
+  "Tell us about a time you persuaded leaders in other departments to adopt a change you had no authority over.",
+  "How would you turn customer feedback data into a recommendation for senior management?"
+ ],
+ "watch_outs": [
+  "GS-14 is a senior level, and specialized experience likely exceeds your documented background, so there is a real risk of being rated not qualified.",
+  "The specialized experience is specific to customer experience, and emergency-management experience alone won't count unless it clearly shows CX framework leadership.",
+  "There is a short 18-day window (October 23 to November 10, 2026), a drug test, and an on-site DC commute from Manassas, though telework is available."
+ ],
+ "job_id": "usajobs:889997800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

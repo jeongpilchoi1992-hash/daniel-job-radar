@@ -1,0 +1,44 @@
+{
+ "one_liner": "Not a real job: an informational USAJOBS listing that points to the Air Force Civilian Service Direct Hire Job Board, where actual openings are posted.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This posting has no duties, qualifications, or questionnaire, so there is nothing specific to match Daniel against and likely no way to be selected from it directly. The real value is the Direct Hire Job Board it links to. Direct Hire Authority is open to the public and suits a candidate with no federal status, so Daniel should look there for emergency management, program analyst, or public affairs openings.",
+ "eligibility": [
+  "Hiring path is listed as 'public,' so U.S. citizens without prior federal status can use Direct Hire Authority roles.",
+  "Security clearance is listed as 'Not Required' here, but each actual job on the Direct Hire Job Board will state its own clearance requirement.",
+  "Grade NH-1/4 (an acquisition demonstration pay band) and the salary range of $22,584-$164,301 are placeholders; real qualifications and specialized experience will be in each linked posting.",
+  "The location is 'Negotiable After Selection,' so check each real opening's duty station."
+ ],
+ "keywords": [
+  "Direct Hire Authorities",
+  "DHA",
+  "Air Force Civilian Service",
+  "Direct Hire Job Board",
+  "fast-track",
+  "no prior federal status"
+ ],
+ "strategy": [
+  "Don't spend a full tailored application on this generic listing. Follow the link to the Air Force Civilian Service Direct Hire Job Board and apply to specific openings instead.",
+  "On the board, search for series that match your background: 0089 Emergency Management, 0301 Miscellaneous Administration and Program, 0343 Program/Management Analyst, and 1035 Public Affairs. Favor roles near Manassas, such as the Pentagon or Joint Base Andrews.",
+  "Frame your IEM work as direct support to government clients in preparedness, response, and recovery planning. Use whatever duties you actually performed, such as plans, exercises, stakeholder coordination, or grant/recovery program support.",
+  "Build a two-page federal resume with month/year dates and hours per week, and mirror each real posting's specialized experience language.",
+  "Set a recurring check on the board and on USAJOBS saved searches; this listing stays open until 2027-03-26, but individual DHA openings can close quickly."
+ ],
+ "resume_bullets": [
+  "Supported [government client type] emergency preparedness and recovery programs at IEM by [specific duty, e.g., drafting plans or coordinating stakeholders], serving [number] agencies or jurisdictions; [hours/week], [MM/YYYY-MM/YYYY].",
+  "Coordinated with [federal/state/local officials] to [task, e.g., organize exercises or track recovery funding], producing [deliverable] used by [audience]."
+ ],
+ "interview_questions": [
+  "Tell us about your experience supporting government clients in emergency management at IEM.",
+  "Describe a time you built a working relationship with a difficult stakeholder to get something done.",
+  "How would you explain a complex policy or regulation to a non-expert audience?",
+  "Why do you want to move from consulting into civilian service with the Air Force?"
+ ],
+ "watch_outs": [
+  "This is a placeholder listing with no duties or questionnaire; applying to it alone may not lead to any job offer.",
+  "The real openings may require a clearance, a specific degree, or relocation; check each one individually.",
+  "Telework is listed as not eligible and remote as no, so expect onsite work at whatever installation you're selected for."
+ ],
+ "job_id": "usajobs:862946100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

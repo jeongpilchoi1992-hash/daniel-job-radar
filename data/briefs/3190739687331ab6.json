@@ -1,0 +1,54 @@
+{
+ "one_liner": "Lateral-entry Capitol Police Special Agent doing dignitary protection or criminal/threat investigations for Members of Congress; open only to current, trained law enforcement officers.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel, this posting requires completed FLETC CITP (or FBI/DEA/USPIS equivalent) training, current law enforcement employment outside USCP, and at least 9 months of post-training law enforcement experience. Nothing on file shows you have any of these, so you would not meet the minimum qualifications despite your strong policy knowledge and people skills. Your emergency-management consulting and political interest fit USCP's mission, but this lateral role isn't the entry point.",
+ "eligibility": [
+  "Must have completed FLETC Criminal Investigator Training Program (CITP) or the FBI, DEA or U.S. Postal Inspection Service equivalent, with the certificate or transcript attached to the application.",
+  "Must be a current law enforcement officer employed outside USCP, with 9 months of post-training law enforcement experience at application and 52 weeks at appointment.",
+  "U.S. citizen, age 21 to 39 at appointment (older only with prior federal LEO retirement coverage shown on an SF-50), high school diploma or GED, REAL ID driver's license with a clean one-year driving record.",
+  "Must obtain a Top Secret/SCI clearance and pass polygraph, psychological, medical, credit, criminal and full field background checks."
+ ],
+ "keywords": [
+  "Dignitary Protection",
+  "protective intelligence",
+  "threat assessment",
+  "advance security surveys",
+  "liaison with local, state, and Federal law enforcement agencies",
+  "reports of investigation",
+  "investigative assessments",
+  "Title 18",
+  "D.C. Code",
+  "surveillance detection",
+  "risk mitigation",
+  "coordination of security arrangements",
+  "congressional events",
+  "fact-finding"
+ ],
+ "strategy": [
+  "Do not apply to this lateral posting unless you actually hold CITP-equivalent training and current sworn law enforcement status; an application without the FLETC certificate will be screened out.",
+  "If you want USCP, look for the entry-level USCP Police Officer announcement, which typically trains new hires, and verify you meet its age, fitness and background rules.",
+  "Consider non-sworn USCP or Legislative Branch roles (emergency management, preparedness, protective intelligence analysis, or Sergeant at Arms offices) where your IEM experience translates directly.",
+  "Frame your IEM work around [specific clients], [exercises, plans or recovery programs you supported], and stakeholder coordination, using posting terms like risk mitigation and coordination of security arrangements, kept within the two-page USAJOBS limit.",
+  "If a sworn federal agent career is the long-term goal, research agencies that hire and send new agents to FLETC CITP, then return to lateral postings like this after gaining experience."
+ ],
+ "resume_bullets": [
+  "Coordinated [emergency preparedness/recovery tasks] for [government client] with [number] federal, state and local stakeholders, supporting risk mitigation planning for [event or program]; [hours per week], [dates].",
+  "Prepared [type of reports or assessments, e.g., after-action reports, hazard assessments] for [client], translating findings into recommendations adopted by [office or outcome, if known].",
+  "Served as liaison between [client agency] and [partner agencies or public groups] during [exercise or disaster response], resolving [type of issues] under tight deadlines."
+ ],
+ "interview_questions": [
+  "Describe how you would plan an advance security survey for a Member traveling to an unfamiliar city.",
+  "Tell us about a time you coordinated with multiple agencies under pressure; what was your role and the result?",
+  "How would you handle an unusual-interest contact toward a Member of Congress from a member of the public?",
+  "How do you stay politically neutral while protecting officials from both parties?"
+ ],
+ "watch_outs": [
+  "You appear not to meet the mandatory CITP training and current law enforcement requirements, which are hard screens, not preferences.",
+  "Requires TS/SCI, polygraph and a full background; any omission is disqualifying, and assessment travel is at your own expense.",
+  "24/7 shift work including nights, weekends and holidays, no telework, and a firm entry age limit of 39.",
+  "Window is short (October 1–31, 2026) and requires the FLETC transcript up front, which can take time to obtain."
+ ],
+ "job_id": "usajobs:887097700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

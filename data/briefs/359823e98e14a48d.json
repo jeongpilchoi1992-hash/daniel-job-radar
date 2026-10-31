@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior Executive who runs the Education Department's small business office, setting goals and policy so small and disadvantaged firms win more ED contracts.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES position requiring demonstrated executive leadership (all five ECQs) plus hands-on experience leading a small business utilization or federal acquisition program and applying the FAR. Daniel's policy knowledge, relationship skills, and government-contractor consulting experience at IEM are relevant context, but nothing on file shows executive-level leadership or FAR/small business program management. Unless Daniel's IEM role involved substantial federal contracting leadership, the resume is unlikely to pass the ECQ/TQ panel and OPM's Qualifications Review Board.",
+ "eligibility": [
+  "Open to the public (hiring paths include public and SES), so no federal status is needed; U.S. citizenship is required.",
+  "The two-page resume itself must show all five ECQs and both TQs; failing to address any one means disqualification, and separate narratives are not accepted.",
+  "TQ 1 requires demonstrated experience leading a small business utilization or federal acquisition program, and TQ 2 requires applying the FAR and small business contracting rules.",
+  "You must obtain a Public Trust clearance, file an OGE-278 financial disclosure, and receive OPM QRB approval before appointment.",
+  "The application window runs from October 23 to November 6, 2026."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Small Business Program Leadership",
+  "Federal Acquisition Regulation (FAR)",
+  "small business participation",
+  "socioeconomic goals",
+  "Small Business Administration (SBA)",
+  "subcontracting",
+  "procurement strategies",
+  "acquisition strategies",
+  "measurable performance goals",
+  "data-based metrics",
+  "stakeholders",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "compliance"
+ ],
+ "strategy": [
+  "Before investing time, check honestly whether your IEM work included leading people and managing federal contracts, proposals, or subcontracting plans. If it didn't, treat this as a target for later and look at GS-1102 contract specialist or GS-0301 program analyst roles to build FAR experience.",
+  "If you do apply, frame IEM as work on federal and state emergency-management contracts. Include any work on small business subcontracting plans, teaming with small firms, FEMA or HUD contract compliance, or proposal pricing, describing only what you actually did.",
+  "Write each bullet so it visibly maps to a specific ECQ or TQ, using the posting's language (for example, 'Driving Efficiency' or 'measurable performance goals'). Reviewers stop reading at page 2, so put the strongest ECQ/TQ evidence on page 1.",
+  "Use ECQ 1 to show your deep knowledge of the American system of government and public policy, backed by concrete examples of work rather than general interest.",
+  "Quantify everything you can: team size you led, budget or contract dollars managed, and percentages of goals met. Use 10-point font or larger, and include dates and hours per week for each job.",
+  "Submit well before November 6, 2026, and confirm that the uploaded resume renders at exactly two pages."
+ ],
+ "resume_bullets": [
+  "Led a team of [number] on [client] [disaster recovery/preparedness] contracts valued at $[amount], tracking deliverables against [metric] and achieving [result].",
+  "Coordinated with [federal/state agency] officials and [number] subcontractors, including [small/disadvantaged] firms, to ensure compliance with [FAR clause/contract requirements] on [project].",
+  "Analyzed [legislation/policy] affecting [program] and briefed [senior leaders/clients] on recommended actions, which led to [outcome]."
+ ],
+ "interview_questions": [
+  "How have you used the FAR to develop an acquisition strategy that increased small business participation?",
+  "Describe how you would negotiate annual socioeconomic goals with SBA and with ED's two procurement offices.",
+  "Tell us about a time you led a team through change and held people accountable for results.",
+  "How would you use data-based metrics to show whether OSDBU is meeting its targets?"
+ ],
+ "watch_outs": [
+  "SES-level requirements, including executive leadership and direct small business or acquisition program experience, likely exceed your documented background, and OPM QRB approval is an added hurdle.",
+  "The two-week application window is short, and any ECQ or TQ left unaddressed means automatic disqualification.",
+  "The job is based in DC with telework eligibility, but it is not remote, the position may be detailed to another agency, and relocation is not paid."
+ ],
+ "job_id": "usajobs:890015800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

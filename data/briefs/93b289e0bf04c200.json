@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior supervisor running a Defense Department weapons/systems acquisition program office at the Pentagon, managing staff and briefing senior military leaders.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This NH-4 role requires a year of experience equivalent to GS-13 directing multi-disciplined military, civilian and contractor staff on acquisition programs, plus supervising at least 25% of the time. Daniel's IEM consulting background and policy knowledge are relevant to government work, but nothing on file shows DoD acquisition program management or supervisory experience at that level. Unless Daniel's IEM role involved leading teams on federal contracts, this is likely out of reach now.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority, so no federal status or veterans' preference is needed; check the 'Learn more about this agency' section for the eligibilities actually being considered.",
+  "One year of specialized experience equivalent to NH-03/GS-13 directing military, civilian and contractor staff, briefing acquisition program status, and advising contractors on requirements and policy.",
+  "Must meet the OPM 1101 General Business and Industry basic qualification standard.",
+  "The security clearance is listed as 'Other'; confirm in the full announcement what investigation or clearance applies, since a Pentagon acquisition role likely needs one.",
+  "Supervisory duties of at least 25% of the time; DoD acquisition workforce certification may also be expected, so verify in the full announcement."
+ ],
+ "keywords": [
+  "acquisition program",
+  "program management",
+  "DoD funded acquisition efforts",
+  "supervisory personnel management",
+  "multi-disciplined staff of military, civilian, and contractors",
+  "setting and adjusting short or long-term priorities",
+  "preparing schedule",
+  "presentations on acquisition program status",
+  "represents the program office",
+  "contracting officer",
+  "scope of work",
+  "contracting plans, budgets",
+  "requirements and policy matters",
+  "mentor, motivate, appraise",
+  "systems acquisition process"
+ ],
+ "strategy": [
+  "Before applying, confirm whether your IEM role involved leading people, managing contract deliverables, budgets or schedules, or briefing government clients; if it did not, treat this as a target for later and apply now to GS-9 to GS-12 program analyst or emergency management specialist roles.",
+  "If you did lead teams at IEM, frame that work as program management in support of government-funded efforts: staff you directed, schedules you set, client briefings you gave, and how you coordinated with contracting officers or government COR/PMs.",
+  "Mirror the specialized experience language in your resume using the posting's own words, and state the hours per week and start/end dates (month/year) for each job. Keep it within the two-page USAJOBS limit.",
+  "Answer the questionnaire honestly at the level your resume proves; the posting warns that answers not supported by your documents result in 'not qualified.'",
+  "The window runs from July 30 to November 27, 2026, but direct-hire postings can close early or use cutoffs, so submit early and include any transcripts or certifications."
+ ],
+ "resume_bullets": [
+  "Led a team of [number] [analysts/planners/contractor staff] supporting [government client] on [program name], setting priorities and preparing schedules to deliver [deliverable] within [budget/timeframe].",
+  "Briefed [senior client officials, e.g., state emergency management director/FEMA leadership] on program status, issues, and recommended solutions for [program], resulting in [decision/outcome].",
+  "Coordinated with the government contracting officer/COR on [scope changes/deliverables/budget] for a [$ amount] [contract type], ensuring compliance with [requirements/policy]."
+ ],
+ "interview_questions": [
+  "Describe a time you directed a mixed team of government and contractor staff toward a program milestone.",
+  "How do you present bad news about cost, schedule or performance to senior leaders?",
+  "Walk us through how you have worked with a contracting officer on a scope change or contract modification.",
+  "How do you mentor, appraise and handle performance issues among the people you supervise?"
+ ],
+ "watch_outs": [
+  "Experience mismatch: this role requires GS-13-level acquisition and supervisory experience, and rating uses cut points with a Best Qualified group, so marginal applicants are unlikely to be referred.",
+  "A clearance or investigation is likely needed and acquisition certification may be expected; verify both before spending significant time on this application.",
+  "No promotion potential beyond NH-4, and occasional travel is listed."
+ ],
+ "job_id": "usajobs:878580000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

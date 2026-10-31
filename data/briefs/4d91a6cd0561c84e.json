@@ -1,0 +1,55 @@
+{
+ "one_liner": "Space Force analyst in Dahlgren who tracks satellites and orbital debris, computes precise orbits from sensor data, and briefs military leaders on space objects.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a highly technical operations role that calls for expert knowledge of orbital mechanics, precision orbit determination, and space sensor data analysis. Daniel's strengths are policy, public engagement, and emergency-management consulting, and nothing on file shows technical space or operations research experience. Daniel's policy knowledge and coordination skills help only at the margins.",
+ "eligibility": [
+  "Open to the public under Direct Hire, so you do not need federal status; you apply through the posting's Direct Hire link.",
+  "You must be able to obtain and keep a Top Secret clearance with SCI eligibility and access to Special Access Programs (SAP), and sign a non-disclosure agreement.",
+  "Qualifying is based on OPM's 0301 Administrative and Management experience standards at the GS-12/13 equivalent level, which typically means at least a year of experience at about the next-lower level.",
+  "This is a Testing Designated Position, so you will be subject to random drug testing."
+ ],
+ "keywords": [
+  "Space Domain Awareness (SDA)",
+  "orbital mechanics",
+  "precision orbit determination",
+  "manual differential corrections",
+  "statistical estimation techniques",
+  "space sensor data analysis",
+  "operations research",
+  "command and control (C2)",
+  "Near-Earth and Deep-Space",
+  "sensor limitations and tasking procedures",
+  "present findings to senior leadership",
+  "coordinate with other organizations",
+  "doctrine, regulations, policies",
+  "classified information",
+  "develop innovative solutions"
+ ],
+ "strategy": [
+  "Apply only if you have real quantitative, orbital, or sensor-analysis experience the file doesn't show. Otherwise, put your effort into policy, emergency-management, or legislative roles that fit better.",
+  "If you apply, describe your IEM work in 0301 terms: analyzing data for government clients, coordinating across agencies, and briefing senior officials. State hours per week and dates briefly, and keep the resume to two pages.",
+  "Highlight any work at IEM on DoD or national-level policy and doctrine, along with any experience handling sensitive information.",
+  "Do not overstate technical skills; clearance investigators and technical interviewers will check them.",
+  "The window is short (Oct 27 to Nov 3, 2026), so have your resume ready before it opens and submit early through the Direct Hire link."
+ ],
+ "resume_bullets": [
+  "[Title], IEM, [MM/YYYY–MM/YYYY], [hours]/week: Analyzed [type of data] for [government client] and presented findings and recommendations to [senior officials].",
+  "Coordinated with [number] federal, state, and local organizations on [preparedness/recovery project], prioritizing tasks and tracking progress to meet [deliverable/deadline].",
+  "Interpreted [federal policy/doctrine, e.g., Stafford Act or FEMA guidance] to shape [plan or product] for [client]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would perform a manual differential correction on an orbit that isn't converging.",
+  "How do sensor limitations differ for Near-Earth and Deep-Space objects, and how do they affect tasking?",
+  "Tell us about a time you presented complex analysis to senior leadership under time pressure.",
+  "How have you protected sensitive or classified information in past work?"
+ ],
+ "watch_outs": [
+  "The role requires deep orbital mechanics and operations research expertise, which Daniel's background does not show.",
+  "You must be able to obtain a TS/SCI clearance with SAP access, which brings a long investigation and continuing obligations.",
+  "The job is in Dahlgren, roughly 1.5 hours from Manassas, and may involve overtime, military or commercial air travel, and work in a C2 center.",
+  "The application window is only one week."
+ ],
+ "job_id": "usajobs:890492800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

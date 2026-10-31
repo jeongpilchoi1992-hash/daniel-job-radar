@@ -1,0 +1,57 @@
+{
+ "one_liner": "Coast Guard civilian who plans, delivers, and evaluates base-level prevention programs on suicide, sexual assault/harassment, substance misuse, and family violence, advising commanders with data.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's people skills, policy knowledge, and government-consulting background at IEM fit the consulting, outreach, and briefing parts of this role. However, the job has a positive behavioral/social science education requirement plus a full year of GS-11-level specialized experience in behavioral health or prevention program evaluation, which emergency-management consulting likely does not show unless Daniel's IEM work touched on resilience, behavioral health, or program evaluation.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) under Direct Hire Authority; no federal status needed, and veterans' preference does not apply.",
+  "Positive education requirement: a degree in a behavioral or social science (or related field), an equivalent combination, or four years of relevant experience. Transcripts are required with the application.",
+  "GS-12 requires one full year of specialized experience at the GS-11 level in behavioral health concepts and prevention program evaluation, and GS-13 requires one year at the GS-12 level. Education cannot substitute at these grades.",
+  "A Secret clearance and a background investigation are required, along with Selective Service registration if applicable.",
+  "Work is on-site at Coast Guard bases in multiple locations with no telework, so confirm which bases are hiring and whether any are near Manassas."
+ ],
+ "keywords": [
+  "Integrated Primary Prevention",
+  "risk and protective factors",
+  "program evaluation",
+  "planning, coordinating, implementing and monitoring",
+  "consultation, training, education, outreach",
+  "analytical techniques and statistical methods",
+  "Command Climate Assessment",
+  "readiness outcomes",
+  "consolidating data from diverse sources",
+  "point papers, briefs",
+  "behavioral health",
+  "suicide, sexual harassment, sexual assault, substance misuse",
+  "program effectiveness",
+  "resilience",
+  "advise leaders"
+ ],
+ "strategy": [
+  "First check your transcript: if your degree is in political science, public policy, psychology, sociology, or a similar field, it likely counts as a social science. If it is in another field, count your social-science credit hours before investing time in this application.",
+  "Frame your IEM work around the parts that overlap with prevention: assessing community risk, planning and evaluating programs, measuring outcomes, training and outreach, and advising government leaders. Include behavioral-health or resilience content (for example, disaster mental health or community resilience) only if you actually did that work.",
+  "Write results-focused bullets in your own words, because duty statements copied from the announcement are disregarded. Keep the resume to two pages and list dates, hours per week, and grade-equivalent responsibility for each job.",
+  "Apply for GS-12 only, since GS-13 requires expert-level prevention experience. Applying before an early cut-off date (11/15/2026 or 12/15/2026) gets you referred sooner.",
+  "Upload unofficial transcripts and watch your email for the USA Hire assessment invitation. It must be completed within its window (3 days, or 48 hours if sent after the close), and it tests competencies like interpersonal skills and influencing.",
+  "If you don't qualify yet, consider GS-0301 emergency management or program analyst roles at FEMA or DHS, or Virginia VDEM jobs, which match your background better. You could also build volunteer prevention experience, which counts toward qualifications."
+ ],
+ "resume_bullets": [
+  "Planned and coordinated [type of preparedness/recovery program] for [government client], advising [level of officials] on risk factors and recommended mitigation measures at [hours/week].",
+  "Evaluated program effectiveness for [client/program] by consolidating data from [sources] and applying [analytical method], producing [briefs/point papers] that informed [decision].",
+  "Delivered [number] training and outreach sessions to [audience/size] on [topic], building partnerships with [internal/external stakeholders]."
+ ],
+ "interview_questions": [
+  "How would you use risk and protective factors to design prevention activities for a unit with rising substance-misuse concerns?",
+  "Describe a time you evaluated whether a program was working. What data did you use, and what changed as a result?",
+  "How would you brief a commanding officer who is skeptical of Command Climate Assessment results?",
+  "Tell us about building collaboration with outside partners to deliver a program."
+ ],
+ "watch_outs": [
+  "The degree/education requirement and the year of behavioral-science specialized experience are hard screens, and emergency-management experience alone probably won't meet them.",
+  "The Secret clearance and background investigation lengthen time to hire.",
+  "The job is on-site at specific Coast Guard bases with no telework and some travel, so your location may require relocation.",
+  "The topics are sensitive (suicide, sexual assault, abuse), and the role demands comfort with this subject matter."
+ ],
+ "job_id": "usajobs:889062600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

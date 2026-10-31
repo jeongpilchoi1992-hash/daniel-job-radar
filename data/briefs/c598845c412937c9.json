@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior executive-level chief at ODNI's counterintelligence center who coordinates and deconflicts offensive counterintelligence operations across the intelligence community.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role has hard mandatory requirements Daniel does not appear to meet: graduation from a U.S. government counterintelligence Special Agent credentialing course, at least 15 years of experience conducting, managing and leading offensive counterintelligence operations, and eligibility for an SCI clearance. Daniel's emergency-management consulting background at IEM and policy knowledge are valuable, but they do not substitute for these requirements, so applying is not a good use of effort.",
+ "eligibility": [
+  "Open to the public and to current federal employees at GS-14 or GS-15 (current feds at GS-13 and below are not eligible); excepted service position.",
+  "Mandatory: graduate of a U.S. government counterintelligence Special Agent credentialing course.",
+  "Mandatory: at least 15 years of experience conducting, managing and leading offensive counterintelligence operations/activities (OFCO/A).",
+  "Requires a Sensitive Compartmented Information (SCI) clearance.",
+  "Bachelor's degree is the lowest acceptable education level."
+ ],
+ "keywords": [
+  "offensive counterintelligence operations/activities (OFCO/A)",
+  "coordination and deconfliction",
+  "interagency counterintelligence task forces/working groups",
+  "EO 12333",
+  "ICD 750",
+  "NSPM-23",
+  "National Counterintelligence Strategy",
+  "intelligence mission management",
+  "intelligence cycle",
+  "mission integration",
+  "build coalitions",
+  "briefings to senior IC officials",
+  "strategy development",
+  "manage human, financial, and information resources"
+ ],
+ "strategy": [
+  "Do not apply to this posting. Without the CI Special Agent credential and 15 years of OFCO/A experience, your application will be screened out at the basic qualification stage.",
+  "Redirect toward entry and mid-level roles that match your profile, such as FEMA or DHS GS-9/11/12 program specialist, emergency management specialist, or intergovernmental affairs roles, plus Virginia VDEM and Prince William County emergency management jobs.",
+  "Consider congressional or Virginia General Assembly staff roles, where your policy knowledge and relationship-building skills are direct qualifications.",
+  "If intelligence work interests you, look for ODNI, DHS I&A, or FEMA positions at entry or mid level that sponsor clearances, and build toward national security experience over time.",
+  "For any federal application, frame your IEM work around specific government clients, preparedness or recovery programs, and stakeholder coordination. Keep the resume to two pages, with dates and hours per week."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of preparedness/recovery activity] for [government client] with [number] federal, state, and local stakeholders at IEM, supporting [specific program outcome].",
+  "Drafted [reports/plans/briefings] on [emergency management topic] for [client leadership level], translating policy requirements into actionable guidance.",
+  "Facilitated [meetings/working groups/public sessions] with [audience] to [purpose], maintaining relationships across [agencies/jurisdictions]."
+ ],
+ "interview_questions": [
+  "Describe your experience leading the coordination and deconfliction of offensive counterintelligence operations across IC elements.",
+  "How have you applied EO 12333 and ICD 750 in managing counterintelligence activities?",
+  "Tell us about a time you implemented leadership direction that differed from your own recommendation.",
+  "How would you brief senior IC officials on the progress and challenges of interagency collaboration?"
+ ],
+ "watch_outs": [
+  "The CI Special Agent credential and 15 years of OFCO/A experience are mandatory; missing either one disqualifies you.",
+  "An SCI clearance is required. The position offers no telework, and the duty station is Bethesda, a long commute from Manassas.",
+  "Essay responses must be your own words; the posting prohibits using consultants or AI to write them."
+ ],
+ "job_id": "usajobs:888687500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

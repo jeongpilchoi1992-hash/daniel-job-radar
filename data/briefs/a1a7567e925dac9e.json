@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior NGA contracting officer-track role: plan, negotiate, award, and administer complex DoD contracts under the FAR, on-site in Springfield with TS/SCI.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a senior (IA-04, full-performance) contracting job that requires demonstrated experience leading source selections, cost/price analysis, negotiations, and administering FFP, T&M, cost-reimbursement, and IDIQ contracts, plus mentoring junior contract staff. Daniel's IEM consulting background is on the contractor/client-service side of emergency management, and nothing on file shows hands-on federal contracting or FAR work. Unless Daniel's IEM role involved proposal pricing, contract management, or acquisition support, Daniel likely won't meet the mandatory criteria.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status required, and Daniel's lack of veterans' preference is not disqualifying.",
+  "Must meet ALL Mandatory Qualification Criteria with specific examples and results: acquisition strategy/market research, leading source selections or major sole-source buys, FAR knowledge, multiple contract types, complex contract administration, and mentoring junior contract professionals.",
+  "Education: a bachelor's degree from an accredited institution is mandatory (see the DoD Qualification Standard for Contracting Positions for limited exceptions); confirm Daniel holds one.",
+  "Must be able to obtain and keep a TS/SCI clearance, pass a counterintelligence polygraph and drug test, and file an annual SF-714 financial disclosure.",
+  "Must obtain DAWIA Contracting certification within 36 months, then complete 80 continuous learning hours every two years."
+ ],
+ "keywords": [
+  "acquisition strategy",
+  "market research",
+  "solicitations",
+  "source selections",
+  "sole source procurements",
+  "cost or price analysis",
+  "negotiations",
+  "Federal Acquisition Regulation (FAR)",
+  "Firm Fixed Price (FFP)",
+  "Time and Materials (T&M)",
+  "Cost-Reimbursement",
+  "Indefinite Delivery Indefinite Quantity (IDIQ)",
+  "Contracting Officer's Representative",
+  "modifications",
+  "contract administration"
+ ],
+ "strategy": [
+  "Before applying, honestly inventory your IEM work: did you price proposals, manage task orders, track deliverables against a statement of work, or support contract modifications or closeout? If not, this posting is not realistic yet.",
+  "If you have relevant work, frame it from the contractor side with the exact posting terms (e.g., contract type, FAR clauses, modifications, performance reporting), and state contract values, dates, and hours per week.",
+  "You must use the NGA resume builder and stay within 2 pages, so address each mandatory criterion with one tight example and its result rather than general duties.",
+  "Attach a short cover letter (optional but recommended) that maps your experience to each mandatory criterion and notes your willingness to undergo the polygraph and TS/SCI process.",
+  "Because this is an open-continuous pool with no immediate vacancy, apply once you are qualified and keep your resume updated; consider entry-level 1102 Contract Specialist roles (GS-7/9, DoD developmental or intern programs) or emergency-management and policy roles at FEMA, VDEM, or Prince William County as a better near-term path."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [contract type, e.g., T&M/FFP] contract valued at [$X] by [tracking deliverables/preparing modification requests/reporting performance] to the Contracting Officer's Representative, resulting in [result].",
+  "Conducted market research and developed [pricing/cost inputs/proposal sections] for [number] emergency-management solicitations, contributing to [award/outcome].",
+  "Coordinated with [number] client stakeholders to define requirements for [disaster recovery/preparedness project], producing [statement of work/deliverable] that [result]."
+ ],
+ "interview_questions": [
+  "Walk us through a source selection or sole-source procurement you led, including how you did the price analysis and negotiation.",
+  "How do you decide which contract type (FFP, T&M, cost-reimbursement, IDIQ) fits a customer requirement?",
+  "Describe a high-impact problem on a contract you administered and how you resolved it with the COR and contractor.",
+  "How have you coached or mentored junior contracting staff?"
+ ],
+ "watch_outs": [
+  "Senior-level mandatory criteria assume years of direct federal contracting experience Daniel does not appear to have.",
+  "Bachelor's degree is mandatory; confirm Daniel holds one from an accredited institution.",
+  "TS/SCI with polygraph, annual financial disclosure, fully on-site work in Springfield (no telework), and a recruitment-incentive service agreement with repayment risk.",
+  "Open-continuous pool: there is no immediate opening, and applications are reviewed only when needs arise, so expect long or no response."
+ ],
+ "job_id": "usajobs:889209900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

@@ -1,0 +1,55 @@
+{
+ "one_liner": "A federal contracting job for the St. Lawrence Seaway agency: you plan purchases, write solicitations, analyze prices, negotiate, and manage contracts through closeout under the FAR.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's IEM consulting background puts Daniel on the vendor side of government contracts, but this job requires one year of hands-on federal-style contracting work: market research, solicitations, price/cost analysis, negotiations, and contract administration. Unless Daniel's IEM role actually included proposal pricing, subcontract management, or contract administration, Daniel likely won't pass Phase I at GS-09. A relevant master's degree is the other route. Daniel's policy knowledge and people skills help with negotiation and program-office liaison but are not qualifying on their own.",
+ "eligibility": [
+  "Open to U.S. citizens and nationals through Direct Hire (public and fed-transition paths), so no federal status or veterans' preference is needed.",
+  "Mandatory education for the 1102 series: a bachelor's degree in any field OR 24 semester hours in accounting, business, finance, law, economics, or a similar field. Transcripts are required.",
+  "GS-09 requires one year of specialized experience equivalent to GS-07 performing pre-award and post-award contracting functions. As an alternative, you can qualify with a master's degree or 2 years of graduate study in a listed field such as business, law, or economics.",
+  "GS-11 requires one year of experience equivalent to GS-09, independently handling contracting across methods and contract types, or Ph.D.-level graduate education.",
+  "You must pass a background investigation and accept a government travel card for required travel. Males born after 12/31/1959 must be registered with Selective Service."
+ ],
+ "keywords": [
+  "pre-award and post-award",
+  "acquisition planning",
+  "market research",
+  "price/cost analysis",
+  "negotiations",
+  "contract administration",
+  "contract closeout",
+  "Federal Acquisition Regulation (FAR)",
+  "solicitation",
+  "contract modifications",
+  "firm-fixed-price",
+  "time-and-materials",
+  "cost-reimbursement",
+  "Statement of Work (SOW)",
+  "Performance Work Statement (PWS)"
+ ],
+ "strategy": [
+  "Before you apply, honestly inventory your IEM duties. Did you price proposals, track task orders, manage subcontracts or deliverables against a SOW/PWS, process modifications, or support closeout? Only that work counts as specialized experience here.",
+  "Apply at GS-09 only. Write a two-page resume where each relevant job lists title, MM/YYYY dates, and hours per week, then describes the contracting tasks you performed in the posting's exact wording.",
+  "Make sure the questionnaire narratives match your resume line by line. Begin each one with title, organization, dates, full- or part-time status, and weekly hours, because HR disqualifies claims the resume doesn't support.",
+  "Upload your transcripts by the closing date, 11:59 PM EST on 12/31/2026. Apply well before the holidays, since a missing transcript means automatic ineligibility.",
+  "If you don't yet qualify, treat this as a target role. Look into DAU or FAC-C coursework, or entry-level GS-05/07 1102 roles, contract-specialist trainee programs, or Virginia state procurement (VCA) jobs, and build a year of qualifying experience."
+ ],
+ "resume_bullets": [
+  "Supported [number] government contracts/task orders valued at [$ amount] for [client agency], tracking deliverables against the [SOW/PWS] and coordinating [modifications/option exercises] with the client contracting officer.",
+  "Developed cost/price proposals for [type of procurement] responses, analyzing [labor rates/cost elements] to support [firm-fixed-price/time-and-materials/cost-reimbursement] pricing.",
+  "Conducted market research and drafted [requirements/vendor comparisons] for [project], presenting recommendations to [stakeholders] and negotiating [terms/schedules] with [vendors/subcontractors]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would take a requirements package from a program office to a solicitation.",
+  "How do you determine price reasonableness when only one offer is received?",
+  "Describe a negotiation where you had to resolve differences on price, schedule, or terms.",
+  "When would you choose a time-and-materials contract over firm-fixed-price, and what FAR limitations apply?"
+ ],
+ "watch_outs": [
+  "Consulting work done on behalf of a contractor qualifies only if it involved actual contracting functions; general emergency-management project work will likely be rated ineligible.",
+  "Only two pages of your resume are reviewed, and cover letters and links are ignored, so put the specialized experience up front.",
+  "The location is listed as 'Multiple Locations' and the job is telework-eligible but not remote. Confirm whether there is a duty station near Manassas or the DC area, and expect some travel."
+ ],
+ "job_id": "usajobs:890487500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

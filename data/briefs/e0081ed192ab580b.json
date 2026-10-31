@@ -1,0 +1,56 @@
+{
+ "one_liner": "A senior supervisory health-administration role at ICE's Health Service Corps, overseeing detention health operations, accreditation compliance and contracts, filled only by commissioned USPHS officers.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This billet is open only to current U.S. Public Health Service commissioned officers at the O-6 level, and Call to Active Duty candidates are excluded, so Daniel is not eligible as a civilian. It also requires five years each of leadership, program management and personnel management as a uniformed service officer, plus correctional health experience. Daniel's emergency-management consulting background touches on the COOP and emergency response duties, but it cannot overcome the eligibility barrier.",
+ "eligibility": [
+  "Only current USPHS commissioned officers may apply; USPHS Call to Active Duty candidates are not eligible, and civilians cannot apply despite the 'public' hiring path tag.",
+  "The billet is O-6 (CC-6), and it requires five years each of leadership, program/services management and personnel management experience as a uniformed service officer.",
+  "Correctional health experience is required; a master's degree in healthcare administration or a related health field is preferred.",
+  "You must be able to obtain and keep a DHS Secret clearance, earn Level II COR certification within 12 months, and hold CPR/BLS certification.",
+  "You must meet physical demands, including jogging or fast-walking 1/4 mile, lifting over 30 pounds, and performing CPR."
+ ],
+ "keywords": [
+  "Continuity of Operations Plan (COOP)",
+  "Emergency Response Group (ERG)",
+  "Incident Responders Group (IRG)",
+  "accreditation standards",
+  "Federal Acquisition Regulations (FAR)",
+  "Prompt Payment Act",
+  "Contracting Officer Representative (COR)",
+  "Government Technical Monitor",
+  "invoice verification",
+  "performance improvement",
+  "Sit Reps",
+  "Executive Dashboard",
+  "Strategic Action Plan",
+  "Taskings",
+  "liaison"
+ ],
+ "strategy": [
+  "Do not apply to this posting. Your application would be screened out because you are not a current USPHS officer.",
+  "Use the posting's language (COOP, ERG, Sit Reps, taskings, stakeholder liaison) to frame your IEM work on your two-page resume for civilian roles such as FEMA or DHS emergency management specialist, program analyst or COR-track positions.",
+  "Search USAJOBS for 'open to the public' FEMA, ICE or DHS positions in the GS-9 to GS-12 range, depending on your actual experience. Also check Virginia VDEM and Prince William County or Manassas emergency management jobs closer to home.",
+  "Describe your IEM work in terms of client agencies supported, preparedness or recovery deliverables, and hours per week, filling in only facts you can verify.",
+  "Consider earning a FAC-COR Level I certification and completing FEMA IS-100/200/700/800 courses. Both are low-cost credentials that match the keywords in this posting."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] [preparedness/recovery] program at IEM, coordinating [number] stakeholders and preparing [Sit Reps/status reports] for [audience]; [hours] hrs/week, [dates].",
+  "Contributed to [COOP/emergency operations plan] development for [client], reviewing [policies/procedures] for compliance with [standard] and recommending [changes].",
+  "Served as liaison between [client] and [vendors/partners], tracking [deliverables/invoices] against [contract requirements] to resolve [issue type]."
+ ],
+ "interview_questions": [
+  "Describe a time you ensured a program complied with complex policies or accreditation standards.",
+  "How have you supported continuity of operations or emergency response planning?",
+  "Tell us about managing competing tasking deadlines across multiple stakeholders.",
+  "How do you identify and resolve discrepancies in contractor performance or invoices?"
+ ],
+ "watch_outs": [
+  "This posting is restricted to USPHS officers only, so you are ineligible.",
+  "It requires correctional health experience and five years of uniformed-officer management experience.",
+  "It involves up to 30% travel, 24/7 availability and physical demands.",
+  "The listed salary data ($1 to $150,000) is unreliable because uniformed service pay follows the commissioned corps pay scale."
+ ],
+ "job_id": "usajobs:887342700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

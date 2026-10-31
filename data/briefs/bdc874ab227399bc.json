@@ -1,0 +1,54 @@
+{
+ "one_liner": "A senior uniformed U.S. Public Health Service officer (O-6) supervising ICE Health Service Corps clinical staff who deploy to immigration detention health facilities.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This posting is open only to current commissioned USPHS officers at the O-6 level, and Daniel is not a USPHS officer, so Daniel cannot be considered regardless of experience. It also requires a master's degree, three years of public health program management, and eight years of supervisory and program leadership, none of which is on file for Daniel.",
+ "eligibility": [
+  "Only current USPHS Commissioned Corps officers may apply; USPHS Call to Active Duty (CAD) candidates are not eligible, and the 'public' hiring path label does not override this.",
+  "O-6 (CC-6) billet: must hold or qualify for the rank of Captain in the USPHS.",
+  "Master's degree or higher from an accredited institution plus at least four years of relevant professional experience, including three years managing, administering, and evaluating public health programs.",
+  "Minimum eight years of extensive leadership, supervisory, and program or project management experience.",
+  "Must maintain USPHS readiness and duty requirements; clinical licensure may be called on during critical needs."
+ ],
+ "keywords": [
+  "Medical Asset Support Team",
+  "IHSC",
+  "multidisciplinary",
+  "deployment",
+  "operational readiness",
+  "stakeholder communication",
+  "standard operating procedures",
+  "quality assurance",
+  "performance evaluations",
+  "Congressional inquiries",
+  "taskers",
+  "public health programs",
+  "program management",
+  "strategic planning",
+  "SharePoint"
+ ],
+ "strategy": [
+  "Do not apply. Daniel is ineligible because the posting is restricted to current USPHS officers, and an ineligible application wastes effort.",
+  "Instead, look for related civilian DHS/ICE or FEMA openings open to the public, such as Program Analyst, Emergency Management Specialist, or Congressional/Public Affairs Specialist, where IEM consulting experience counts.",
+  "Frame IEM work as federal-adjacent specialized experience: name the government clients, the program areas (recovery, preparedness), and the hours per week, all within the two-page USAJOBS resume limit.",
+  "Use Daniel's policy knowledge and people skills to target congressional liaison, intergovernmental affairs, or stakeholder engagement roles, which match strengths like handling Congressional inquiries.",
+  "Also check Prince William County, City of Manassas, and Virginia VDEM emergency management postings, which do not require federal status."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [disaster recovery/preparedness] program at IEM by [specific task], coordinating with [number/type] of federal, state, and local stakeholders ([hours] hrs/week, [dates]).",
+  "Drafted [reports/briefings/SOPs] on [topic] for [client leadership], used to [purpose] within [timeframe]."
+ ],
+ "interview_questions": [
+  "Describe a time you coordinated people or resources during a rapidly changing emergency or mission requirement.",
+  "How have you handled a sensitive inquiry from a stakeholder, elected official, or congressional office?",
+  "Tell us about developing or updating a policy or standard operating procedure.",
+  "How do you build working relationships across agencies with competing priorities?"
+ ],
+ "watch_outs": [
+  "Status-only: limited to current USPHS officers, so Daniel is ineligible.",
+  "Requires a master's degree and eight or more years of supervisory and program leadership, which Daniel's record does not show.",
+  "Travel and possible clinical duty during critical needs; location is negotiable after selection."
+ ],
+ "job_id": "usajobs:887343000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

@@ -1,0 +1,57 @@
+{
+ "one_liner": "A senior attorney job at the Bureau of Prisons' Washington headquarters, advising leaders on correctional law, sentencing, First Step Act implementation, and proposed legislation.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This job requires a J.D. and active bar membership in any U.S. jurisdiction, and nothing on file shows Daniel has either. Daniel's policy knowledge and government-client consulting at IEM are relevant to the legislative-review part of the work. At GS-14/15, though, this is a practicing-attorney role, and without a law license Daniel cannot qualify.",
+ "eligibility": [
+  "Required: a J.D. degree and active membership in the bar of any U.S. jurisdiction. Confirm Daniel holds both before applying.",
+  "Open to the public as an excepted-service attorney appointment (hiring paths listed: excepted, public, Peace Corps), so prior federal status is not needed.",
+  "U.S. citizenship and Selective Service registration (if applicable) are required.",
+  "Clearance is listed as 'Other'; see the Special Conditions of Employment, which likely include a background investigation.",
+  "Grade (GS-14 or 15) is set by the experience your resume and transcripts document. The posting prefers correctional law or litigation experience."
+ ],
+ "keywords": [
+  "Correctional Law",
+  "Criminal Law",
+  "Prisoners' Rights",
+  "First Step Act of 2018",
+  "federal sentencing",
+  "compassionate release / Reduction in Sentence",
+  "Special Administrative Measures",
+  "proposed legislation",
+  "legal advice",
+  "statutes and regulations",
+  "constitutional provisions",
+  "federal or civil litigation",
+  "senior leaders",
+  "Executive Branch agencies",
+  "internal policies"
+ ],
+ "strategy": [
+  "First confirm the hard requirement: if you do not have a J.D. and active bar membership, skip this posting, because Direct Hire still requires the basic qualification.",
+  "If you are a licensed attorney, state your bar jurisdiction, admission date, and active status at the top of your two-page resume.",
+  "Frame IEM work as advising government clients on statutes, regulations, and policy, using [your actual duties]. Highlight any legislative or policy analysis.",
+  "Spend most of the resume on legal experience (litigation, legal research, policy and legislative drafting), with hours per week and dates stated briefly.",
+  "Apply between Oct 25 and Nov 3, 2026, a 10-day window. Upload your transcripts and any bar certificate the announcement requests.",
+  "If you are not an attorney, search USAJOBS for BOP or DOJ legislative affairs, policy analyst (0101/0301), or emergency management (0089) roles instead."
+ ],
+ "resume_bullets": [
+  "Advised [client/agency] on interpretation and compliance with [federal/state statutes and regulations], producing [memos/policy recommendations] for senior leaders.",
+  "Reviewed and analyzed [number] pieces of proposed legislation and internal policies for [organization], identifying impacts on [program/operations].",
+  "Coordinated with [federal/state/local] officials across [number] agencies to resolve [statutory/operational] issues during [project/disaster recovery effort]."
+ ],
+ "interview_questions": [
+  "How would you approach analyzing proposed legislation that affects BOP operations?",
+  "Describe your experience with federal sentencing, the First Step Act, or prisoners' rights issues.",
+  "Tell us about a time you gave legal advice to senior leaders who disagreed with your conclusion.",
+  "How do you manage tight deadlines across multiple agencies and stakeholders?"
+ ],
+ "watch_outs": [
+  "The J.D. and active bar membership are mandatory, and nothing on file shows Daniel meets them.",
+  "The application window is short (Oct 25 to Nov 3, 2026).",
+  "The job is on-site in Washington, DC with no telework, which means a daily commute from Manassas.",
+  "At GS-14/15, competitive applicants will likely have years of legal practice."
+ ],
+ "job_id": "usajobs:890182100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

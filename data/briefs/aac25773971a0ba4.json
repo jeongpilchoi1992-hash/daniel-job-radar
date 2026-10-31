@@ -1,0 +1,48 @@
+{
+ "one_liner": "Not a real job: an Air Force placeholder announcement pointing you to its Direct Hire Job Board, where actual Business and Industry (1100-series) openings are posted.",
+ "fit_rating": "Stretch",
+ "fit_summary": "This listing has no duties, grade-specific qualifications, or evaluation criteria, so fit can't be judged and applying here likely won't produce a referral. Daniel's IEM consulting background in emergency management and government clients could suit some 1100-series roles like contracting, program analysis, or industrial property work. That depends entirely on the specific Direct Hire Job Board posting Daniel targets.",
+ "eligibility": [
+  "Hiring path is listed as 'public,' and Direct Hire Authority is described as open to applicants with no prior federal status, so no status or veterans' preference is needed.",
+  "Security clearance is listed as 'Not Required' here, but individual Direct Hire Job Board postings may differ; check each one.",
+  "Specialized experience, education, and grade requirements are not stated; they will be on the specific job you pick from the Direct Hire Job Board.",
+  "Some 1100-series jobs (for example, 1102 Contracting) have positive education requirements, such as 24 business credit hours or a degree; verify before applying."
+ ],
+ "keywords": [
+  "Direct Hire Authorities",
+  "DHA",
+  "Business and Industry",
+  "Air Force Civilian Service",
+  "Direct Hire Job Board",
+  "qualified applicants",
+  "non-traditional method of recruitment",
+  "no prior federal status"
+ ],
+ "strategy": [
+  "Treat this as a signpost: open the Direct Hire Job Board link and find a specific Business and Industry posting with a clear grade, duties, and location near Manassas (for example, Pentagon or Joint Base Andrews).",
+  "Before applying, confirm your IEM title, dates, hours per week, and duties so you can match them to the target posting's specialized experience at the next-lower grade.",
+  "Frame the IEM work as government-client program support: contract deliverables, stakeholder coordination with federal, state, or local agencies, and disaster recovery or preparedness planning, whichever you actually did.",
+  "Keep the resume to two pages and mirror the exact specialized-experience and duty language from the target posting.",
+  "Answer any questionnaire honestly at the highest level you can back up with a specific resume line, since direct hire still screens on minimum qualifications.",
+  "This announcement stays open until 2027-03-30, but individual board postings may close fast or cap applicants, so apply soon after finding a match."
+ ],
+ "resume_bullets": [
+  "Supported [federal/state/local client agency] on [emergency management/disaster recovery program] as [title] at IEM, [dates], [hours]/week, coordinating [deliverables/tasks] with [number] stakeholders.",
+  "Analyzed [program data/costs/requirements] for [client] and prepared [reports/briefings] used to [decision or outcome you can verify].",
+  "Served as liaison between [client officials/public/vendors] and project team, resolving [type of issue] and maintaining [schedule/budget/compliance] for [project]."
+ ],
+ "interview_questions": [
+  "Tell us about your work at IEM and how it relates to supporting a government program.",
+  "Describe a time you managed competing demands from multiple stakeholders.",
+  "How have you ensured accuracy and compliance in deliverables for a government client?",
+  "Why do you want to move from consulting into a civilian Air Force role?"
+ ],
+ "watch_outs": [
+  "This is a generic placeholder with no duties or qualifications; applying only here may not get you considered for a real job.",
+  "The grade range is GS-1/15 and the location is 'negotiable,' so confirm grade, pay, and duty station on the specific posting; telework and remote work are listed as not available.",
+  "Some 1100-series jobs need specific college coursework, and some Air Force roles may need a clearance or a drug test even though this listing says none."
+ ],
+ "job_id": "usajobs:863317800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

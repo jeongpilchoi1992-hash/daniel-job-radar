@@ -1,0 +1,54 @@
+{
+ "one_liner": "A paid spring internship supporting the Library of Congress's COIL international exchange programs, covering outreach, event logistics, participant correspondence, data entry and reports.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Your policy knowledge, people skills and government-client consulting work at IEM fit the outreach, stakeholder and congressional-liaison side of this role well. The hard gate is education: applicants must currently be pursuing a bachelor's or master's degree, with at least junior standing for undergraduates, and nothing on file shows you are enrolled. If you are not enrolled, you cannot qualify.",
+ "eligibility": [
+  "Must be currently pursuing a bachelor's or master's degree at an accredited school; undergraduates need junior-level standing (third year or above) when they apply.",
+  "Open to the public; requires U.S. citizenship or other eligibility under Title VII, Sec. 704 of the Consolidated Appropriations Act of 2022.",
+  "Must pass a background investigation and maintain Public Trust eligibility.",
+  "This is an Excepted Service internship with no competitive status and no promotion potential."
+ ],
+ "keywords": [
+  "Congressional Office for International Leadership",
+  "international exchange programs",
+  "outreach and orientation support",
+  "Congressional staff",
+  "external stakeholders",
+  "program alumni",
+  "program outcomes",
+  "written summaries and reports",
+  "correspondence",
+  "client management system",
+  "Excel",
+  "interpret policy",
+  "interpersonal skills",
+  "attention to detail",
+  "quick-paced environment"
+ ],
+ "strategy": [
+  "First confirm you are enrolled in a degree program and can document it, such as with a transcript or enrollment letter. If you are not, skip this posting and look for entry-level Legislative Branch or state jobs instead.",
+  "Describe your IEM work in terms of government-client coordination, stakeholder communication, logistics for meetings or exercises, and report drafting. Use only duties you actually performed, with dates and hours per week.",
+  "Show your policy knowledge and Capitol Hill familiarity as an ability to work with Congressional staff. Mention any Hill, campaign or advocacy contacts, since Legislative Branch experience is preferred.",
+  "Selection is resume-based with interviews, not a questionnaire, so keep to two pages and mirror the posting's duty language closely.",
+  "Apply between Oct 23 and Nov 6, 2026, and plan for an in-person commute from Manassas, since the role has no telework."
+ ],
+ "resume_bullets": [
+  "Coordinated [meetings/exercises/events] for [number] government client stakeholders at IEM, managing schedules, materials and follow-up communication.",
+  "Drafted [summaries/reports/correspondence] documenting [topic, participation or outcomes] for [client/supervisor], following established formats.",
+  "Entered and tracked [type of data] in [Excel/system name] to produce [reports] for [audience], ensuring accuracy under tight deadlines."
+ ],
+ "interview_questions": [
+  "Tell us about a time you juggled several unrelated tasks under deadline. How did you keep accuracy high?",
+  "How would you communicate with a congressional staffer about program details while knowing when to refer questions to senior staff?",
+  "Describe an event or program you helped coordinate, including a problem you spotted and how you handled it.",
+  "Why are you interested in international exchange and COIL's mission of connecting emerging leaders with Congress?"
+ ],
+ "watch_outs": [
+  "The degree-enrollment requirement is disqualifying if you are not currently a student.",
+  "This is a temporary spring internship with no promotion potential and no competitive status, so it will not convert into a career position.",
+  "No telework is allowed, which means a daily commute from Manassas to DC."
+ ],
+ "job_id": "usajobs:889918000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

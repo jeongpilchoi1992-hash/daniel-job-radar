@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior UX researcher/designer at Treasury's Fiscal Service, shaping how agencies and states use the Do Not Pay payment-integrity tools and portals.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-13 role requires a year of GS-12-level specialized experience in user research, prototypes, journey maps, and design artifacts, plus working with product owners and technical teams. Nothing on file shows UX or digital design work, so Daniel likely won't qualify unless the IEM job included real user research or human-centered design. Daniel's people skills and policy knowledge help, but they don't replace the required UX experience.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals) and to CTAP/ICTAP-eligible federal employees; no federal status needed.",
+  "You need one year of specialized experience equal to GS-12 covering all three areas: user research and insights, design artifacts such as prototypes and journey maps, and testing solutions with product and technical teams.",
+  "You must pass the USA Hire online assessment cut score and reach a score of 90 or higher to be referred.",
+  "You must pass a background investigation; no security clearance is required."
+ ],
+ "keywords": [
+  "user research",
+  "human-centered design",
+  "customer insights",
+  "usability",
+  "accessibility",
+  "Section 508",
+  "prototypes",
+  "journey maps",
+  "design artifacts",
+  "customer experience",
+  "product owners",
+  "evidence-based improvements",
+  "UX standards and guidelines",
+  "workflows and pain points",
+  "stakeholder"
+ ],
+ "strategy": [
+  "Before applying, write down what you actually did at IEM. Apply only if you can honestly show a year of user research and design work, such as interviewing government users or mapping client workflows into service journeys.",
+  "If you qualify, describe the IEM work in UX terms: stakeholder interviews, workflow analysis, journey or process maps, and tested improvements. Use the posting's exact wording, and fit everything into the two-page limit with month/day/year dates and hours per week.",
+  "Preview the questionnaire at the linked URL before you apply. Answer it strictly; overstating 'expert' levels can get you removed and won't hold up against your resume.",
+  "Prepare for the USA Hire assessment, which covers reasoning, reading comprehension, and interpersonal skills. Set aside an uninterrupted block of time, because the window is only Oct 27 to Nov 2, 2026.",
+  "If you don't qualify, use this posting as a signal. Look for Treasury or other agency roles in stakeholder engagement, public affairs, or emergency management at GS-9/11, which fit your background better.",
+  "Opt in to sharing your application with other Treasury bureaus so you could be considered for related openings."
+ ],
+ "resume_bullets": [
+  "Conducted [number] interviews and workshops with [government client type] staff to map [process, e.g., disaster assistance intake] workflows and pain points; translated findings into [specific recommendations] adopted by [client].",
+  "Created [journey maps/prototypes/process diagrams] for [project] in collaboration with [product/technical team], informing [decision or change] for [user group].",
+  "Worked with [technical and business partners] to test [tool or process] with [number] users and refined [feature/content], resulting in [result you can verify]."
+ ],
+ "interview_questions": [
+  "Walk us through a user research project you planned and led. How did your findings change the product?",
+  "How would you research the onboarding pain points of state agencies integrating with an API or portal?",
+  "How do you make sure a design meets Section 508 accessibility requirements?",
+  "Describe a time you had to persuade product owners or engineers to act on user insights they initially resisted."
+ ],
+ "watch_outs": [
+  "The application window is very short (Oct 27 to Nov 2, 2026); missing the assessment means you're out.",
+  "This is a senior UX specialist role. Without documented UX research and design work, you'll likely be rated ineligible.",
+  "Hiring restrictions mean extra approvals may delay or block an offer even after you're selected.",
+  "The location is listed as 'Multiple Locations' and the job is not remote. Confirm a duty station within commuting distance of Manassas before investing effort."
+ ],
+ "job_id": "usajobs:890271600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

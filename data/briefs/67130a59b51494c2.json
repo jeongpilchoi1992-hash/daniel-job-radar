@@ -1,0 +1,47 @@
+{
+ "one_liner": "Not a specific job: an Air Force placeholder listing that points public applicants to its Direct Hire Authority job board, where actual openings are posted.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The listing has no real duties, qualifications or grade, so there is nothing concrete to match Daniel against. The upside is that Direct Hire Authority is open to the public with no federal status needed. Daniel's IEM emergency-management consulting and people skills could fit Air Force administrative, program or emergency-management roles, but only once a specific opening is found on the job board.",
+ "eligibility": [
+  "Hiring path is listed as 'public', so U.S. citizens with no prior federal status, like Daniel, may apply.",
+  "No security clearance is required for this listing, but individual Direct Hire jobs may require one; check each real posting.",
+  "Specialized experience, education and grade requirements are not stated here. They will appear only in the specific Direct Hire job announcements.",
+  "NH-1/4 is an acquisition demonstration pay band covering roughly $22,584–$164,301. Your actual level depends on the specific job and your qualifications."
+ ],
+ "keywords": [
+  "Direct Hire Authorities",
+  "DHA",
+  "General Administrative",
+  "Department of the Air Force",
+  "Air Force Civilian Service",
+  "Direct Hire Job Board",
+  "fast-track",
+  "public"
+ ],
+ "strategy": [
+  "Treat this as a gateway, not a job. Follow the link to the Air Force Civilian Service Direct Hire Job Board and look for specific openings in emergency management (0089), management/program analysis (0343) or miscellaneous administration (0301).",
+  "Prioritize openings at nearby installations such as the Pentagon and Joint Base Andrews, since the location here is only 'negotiable after selection'.",
+  "Frame your IEM work in federal language: name the government clients, the emergency-management or recovery functions you supported (planning, grants, stakeholder coordination, exercises), and the hours per week. Keep it within the two-page USAJOBS limit.",
+  "Once you pick a real posting, copy its specialized-experience wording and questionnaire terms into your resume. Answer questionnaire items at the highest level you can back up with resume evidence.",
+  "If you apply to this placeholder at all, keep a two-page federal resume ready and saved in USAJOBS. Also set saved searches, because Direct Hire jobs can open and fill quickly."
+ ],
+ "resume_bullets": [
+  "Supported [government client] emergency management and disaster recovery efforts as [title] at IEM, [hours] hrs/week, coordinating [function, e.g., recovery grant processing] for [number] [stakeholders/applicants].",
+  "Built working relationships with [federal/state/local] officials and community stakeholders to [specific outcome], communicating program requirements and policy in plain language.",
+  "Prepared [reports/briefings/plans] on [preparedness/recovery topic] for [audience], applying knowledge of [relevant law or policy, e.g., Stafford Act/FEMA guidance] where it applies."
+ ],
+ "interview_questions": [
+  "Tell us about your role at IEM and how it supported government clients.",
+  "Describe a time you coordinated with multiple stakeholders who had competing priorities.",
+  "How do you keep track of policy or regulatory changes that affect your work?",
+  "Why do you want to work for the Department of the Air Force?"
+ ],
+ "watch_outs": [
+  "This announcement has no real duties or qualifications, and its year-long open window suggests a placeholder or pipeline listing. Applying here alone may never lead to a referral.",
+  "The location is not fixed, telework and remote work are not allowed, and there is no promotion potential, so a selection could mean relocating away from Manassas.",
+  "The wide pay band ($22,584–$164,301) gives no signal of the actual level; confirm the grade on any specific offer."
+ ],
+ "job_id": "usajobs:863041400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

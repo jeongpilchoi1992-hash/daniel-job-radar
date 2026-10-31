@@ -1,0 +1,54 @@
+{
+ "one_liner": "Nonappropriated-fund (NAF) contract specialist for Stars and Stripes in DC, running procurements from solicitation through award and administration, and possibly serving as contracting officer.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a technical procurement job, and the posting names 3 years of government contracting experience and NAF contracting experience as what makes a candidate \"Best Qualified.\" Daniel's IEM consulting background is with government clients but is not documented as contracting work. Daniel's policy and people strengths don't map well to soliciting, evaluating bids and negotiating contracts, so this is only worth pursuing if Daniel actually handled proposals, procurements or contract administration at IEM.",
+ "eligibility": [
+  "Open to the public (NAF hiring path); no federal status is required, and no clearance is required.",
+  "NAF priority categories (business-based action, current or former NAF/APF employees, outside veterans and spouses/parents) are considered first, and Daniel likely has none of these.",
+  "\"Highly Preferred\" or \"Best Qualified\" screens: 3 years of government contracting experience and any NAF contracting experience.",
+  "Resume must be two pages or less and should include full contact information for professional and personal references."
+ ],
+ "keywords": [
+  "contracting and procurement functions",
+  "contracting officer",
+  "soliciting, awarding and administering",
+  "NAF contracts",
+  "contracting strategy",
+  "purchase descriptions",
+  "bidders' lists",
+  "solicitation documents",
+  "analysis of offers and bids",
+  "negotiates terms and conditions",
+  "contract administration",
+  "termination action",
+  "procurement of supplies and services",
+  "SOP",
+  "government contracting"
+ ],
+ "strategy": [
+  "First confirm whether your IEM role involved contracting work, such as proposal development, subcontract management, task-order tracking, invoicing or client contract deliverables. If it didn't, consider skipping this posting in favor of program, outreach or legislative roles.",
+  "If it did, frame the IEM work from the contract side, for example supporting government contracts, reading SOWs and pricing, and coordinating with client contracting officers. State the dates, hours per week and contract types briefly.",
+  "Answer the two screening questions (3 years of government contracting, NAF experience) honestly. The posting warns that overstated answers will be checked against your resume.",
+  "Fit everything into two pages and add the requested reference contact details. Apply well before the November 16, 2026 close.",
+  "If you want a procurement career, consider starting with entry-level 1102 trainee or acquisition intern programs such as GS-5/7 roles or DAU-linked pipelines, which this NF-04 role is not."
+ ],
+ "resume_bullets": [
+  "Supported [number] government client contracts valued at [$amount] for IEM, tracking deliverables, modifications and compliance with [FAR/agency] requirements over [dates, hours/week].",
+  "Drafted [proposal sections / statements of work / pricing inputs] for [number] solicitations from [agency type], coordinating with [contracting officers/teams] to meet submission deadlines.",
+  "Negotiated or clarified [terms, scope, schedules] with [vendors/subcontractors/clients], resolving [issue] and [result you can verify]."
+ ],
+ "interview_questions": [
+  "Walk us through a procurement you handled from requirement to award.",
+  "How do you evaluate offers and decide which is most advantageous?",
+  "How would you develop an SOP for a small NAF contracting office?",
+  "Describe a contract negotiation or dispute and how you resolved it."
+ ],
+ "watch_outs": [
+  "The core preferences call for 3 years of contracting plus NAF experience, which Daniel likely lacks.",
+  "NAF priority groups are considered before outside non-veteran applicants.",
+  "There is no telework and no promotion potential, the commute from Manassas to DC is daily, and incentives will not be paid."
+ ],
+ "job_id": "usajobs:889576400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

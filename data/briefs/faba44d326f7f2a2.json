@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior VA contracting officer-level specialist who writes, negotiates and administers $30M–$100M architect-engineer and construction contracts for veterans' facilities under the FAR and VAAR.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-14 role requires an active FAC-C (Professional), 4+ years of contracting experience including a year of GS-13-equivalent A-E/construction contract negotiation, and a bachelor's degree with 24 business-related semester hours. Nothing on file shows Daniel holds the FAC-C or has led federal construction contract actions, so Daniel would be screened out at the selective placement factor unless that certification and experience exist.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) and federal transition candidates; status is not required.",
+  "Selective Placement Factor: active FAC-C (Professional) at the time of application, or you are found ineligible.",
+  "GS-1102 requirements: 4 years of contracting or related experience plus a 4-year degree with at least 24 semester hours in accounting, business, finance, law, contracts, economics, management or related fields (transcript required).",
+  "One year of specialized experience at the GS-13 level leading A-E and construction contract negotiations and applying FAR/VAAR, pricing arrangements and procurement law; no education substitution at GS-14.",
+  "Financial disclosure report, background investigation, online assessment and a 1-year probationary period."
+ ],
+ "keywords": [
+  "Federal Acquisition Regulation (FAR)",
+  "Veterans Affairs Acquisition Regulation (VAAR)",
+  "FAC-C (Professional)",
+  "architect-engineer and construction contract",
+  "request for proposals (RFP)",
+  "request for quotes (RFQ)",
+  "source selection procedures",
+  "pre-solicitation",
+  "post-award",
+  "contract negotiation",
+  "small business practices",
+  "Competition in Contracting Act (CICA)",
+  "Fixed-Price Incentive Firm (FPIF)",
+  "life-cycle costing",
+  "business advisor"
+ ],
+ "strategy": [
+  "Before investing time, confirm whether you hold an active FAC-C (Professional); if not, skip this posting because it is a hard screen-out.",
+  "If you lack the certification, aim for entry or developmental 1102 roles (GS-7/9 Contract Specialist, VA or DHS acquisition intern programs) or contracting-adjacent roles in emergency management grants and program analysis.",
+  "If IEM work involved supporting government procurements, proposals, FEMA Public Assistance cost documentation or contractor oversight, record it in your notes with dates, hours per week and dollar values; it may count as 'related' experience for lower grades.",
+  "For any 1102 application, keep the resume to two pages and mirror the posting's terms (FAR, RFP, source selection, small business) only where you genuinely did that work.",
+  "Apply early: applicants are referred in the order received, and the window is only October 30 to November 5, 2026.",
+  "Have your transcript showing the 24 business-related semester hours ready, since 1102 roles at every grade require it."
+ ],
+ "resume_bullets": [
+  "Supported [government client] procurement for [type of emergency management/recovery services] valued at [$ amount], preparing [RFP sections, cost estimates, or evaluation documentation] in compliance with [FAR/applicable rules] ([dates], [hours/week]).",
+  "Reviewed [number] contractor invoices and cost documentation totaling [$ amount] for [disaster recovery program], verifying [funding eligibility/allowability] and flagging [issues] for [client/agency].",
+  "Served as primary liaison between [client agency] and [contractors/stakeholders] on [project], coordinating [meetings, deliverables, schedules] across [number] parties."
+ ],
+ "interview_questions": [
+  "Walk us through how you planned and led negotiations on a complex architect-engineer or construction contract.",
+  "When would you choose an FPIF or CPIF arrangement over firm-fixed-price, and how would you justify it?",
+  "Describe a time you resolved a contracting issue not clearly addressed by the FAR or agency guidance.",
+  "How do you advise a program customer who wants a requirement that conflicts with small business or competition rules?"
+ ],
+ "watch_outs": [
+  "Active FAC-C (Professional) is required at application; without it you are automatically ineligible.",
+  "Seven-day window (closes November 5, 2026) with referral in order received, so late applicants may never be reviewed.",
+  "Not remote: ad hoc telework only, location set by vacancy, with recurring construction site inspections and a financial disclosure requirement.",
+  "GS-14 assumes years of senior contracting experience; your policy and people skills alone will not meet the specialized experience."
+ ],
+ "job_id": "usajobs:890989900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

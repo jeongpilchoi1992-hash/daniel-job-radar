@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive Service leader running the U.S. Mint's coin and collectibles (numismatic) sales, marketing, revenue and customer strategy, managing managers in Washington, DC.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES role requiring proven executive-level leadership of sales, marketing and business development for a large, geographically dispersed organization, led through subordinate managers (TQ 1 and TQ 2). Nothing on file shows Daniel has executive sales/marketing or multi-layer supervisory experience; the IEM consulting background and policy knowledge help mainly with ECQ 1. Unless Daniel has led a large sales or marketing organization, this application is unlikely to pass the minimum-qualifications screen.",
+ "eligibility": [
+  "Open to the public (hiring paths include public, SES, competitive and excepted); must be a U.S. citizen or U.S. national.",
+  "Your resume (2 pages maximum) must show all five ECQs and both TQs; there is no separate narrative, and pages beyond 2 are not reviewed or may be disqualified.",
+  "TQ 1 requires executive-level experience leading sales, marketing and business development through subordinate managers for a large, complex, geographically dispersed organization.",
+  "If you are selected for a first career SES appointment, you will need OPM QRB certification, which includes an ECQ-based structured interview. You will also face a one-year probationary period, a background investigation, and an annual OGE-278e financial disclosure."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "numismatic",
+  "sales and marketing strategy",
+  "revenue objectives",
+  "customer engagement",
+  "business development",
+  "strategic partnerships",
+  "market trends",
+  "subordinate managers",
+  "succession planning",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "rule of law",
+  "organizational performance"
+ ],
+ "strategy": [
+  "Before investing time, honestly check whether you have led sales, marketing or business development at an executive level through other managers. If not, skip this posting and target GS-11/12/13 program, outreach, or legislative/intergovernmental affairs roles at FEMA, DHS, Treasury, or Virginia agencies.",
+  "If you have relevant experience from IEM, frame any business development, capture/proposal, or client-growth work with government clients as sales and partnership work. Quantify contract value, revenue, team size, and the number of managers you led, all of which must be accurate.",
+  "Use ECQ 1 to show your knowledge of the American system of government and public policy, ideally tied to concrete work serving public-sector clients.",
+  "Fit all five ECQs and both TQs into two pages using compact Challenge-Context-Action-Result style bullets. For each job, list dates, hours per week, supervisory span, and budget size.",
+  "Apply between October 20 and November 3, 2026, and upload the resume as a PDF, confirming the 2-page limit before you submit."
+ ],
+ "resume_bullets": [
+  "Led [business development/capture] for [type of government emergency-management contracts] at IEM, winning [number] awards worth [$ value] by building relationships with [client agencies].",
+  "Directed a team of [number] staff including [number] managers across [locations] to deliver [program/service], meeting [performance goal] within a [$ budget].",
+  "Identified [market/client trend] and developed a [partnership/outreach strategy] that increased [customer engagement metric] by [verified %]."
+ ],
+ "interview_questions": [
+  "Describe a time you set strategic direction for a sales or marketing organization and led through subordinate managers to hit revenue targets.",
+  "How have you cut wasteful spending or improved efficiency through process or technology changes?",
+  "Tell us about holding a manager accountable for poor performance while leading the organization through change.",
+  "How would you expand customer engagement for a government product line like the Mint's numismatic portfolio?"
+ ],
+ "watch_outs": [
+  "The executive sales and marketing TQs are likely unmet by your known background, so this is a major disqualification risk.",
+  "The role has no telework, and the daily commute from Manassas to DC is long.",
+  "The closing window is short (October 20 to November 3, 2026), and the 2-page resume limit is strictly enforced.",
+  "SES appointment brings a probationary period, QRB certification, and public financial disclosure requirements."
+ ],
+ "job_id": "usajobs:889407800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

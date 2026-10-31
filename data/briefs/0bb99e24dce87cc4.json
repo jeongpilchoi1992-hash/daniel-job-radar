@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior DOJ manager supervising a cybersecurity branch: leading information security programs, IT budgets, contractor oversight, continuity of operations and long-range IT strategy.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 job requires one year of GS-14-equivalent experience leading information security programs and managing multi-organization IT program execution and budgets, and education cannot substitute. Daniel's IEM emergency-management consulting may touch Continuity of Operations, but nothing on file shows senior IT security or IT program management experience. Daniel's policy knowledge and people skills are real assets, but they don't map to the specialized experience HR will screen for.",
+ "eligibility": [
+  "Open to the public and the federal transition path, so Daniel can apply without status; veterans' preference does not apply.",
+  "You must show 1 year of specialized experience equivalent to GS-14: leading development of information security programs (guidance, procedures, tools) AND managing IT program execution and resources across multiple organizations, including financial management or cost-benefit analysis.",
+  "You must also meet the OPM 2210 IT Management basic qualification for GS-12 and above. No education substitution is allowed at GS-15.",
+  "Requires a Sensitive Compartmented Information (SCI) clearance, which means a TS/SCI-level background investigation.",
+  "All qualifications must be met by the closing date, 11/05/2026."
+ ],
+ "keywords": [
+  "information security programs",
+  "IT program execution",
+  "resource management",
+  "cost-benefit analysis",
+  "financial management",
+  "Continuity of Operations",
+  "Contracting Officers Representative",
+  "contractor performance",
+  "FAR",
+  "FITARA",
+  "IT strategic plans",
+  "vulnerabilities",
+  "Vulnerabilities Assessment",
+  "Enterprise Architecture",
+  "Information Technology Program Management"
+ ],
+ "strategy": [
+  "Be honest with yourself first: apply only if your IEM work truly included leading security or IT programs and budgets at a senior level. Otherwise, use this posting to identify target entry points, such as GS-9 to GS-12 emergency management, continuity, or program analyst roles.",
+  "If you do apply, describe your IEM role in your own words with concrete scope: number of clients and organizations, budget dollars, contract deliverables managed, and any COOP or continuity planning you led. Do not copy the specialized experience statement, because HR will rate you ineligible for that.",
+  "Answer the questionnaire (previewable at the USA Staffing link) conservatively. Every 'expert' answer must be backed by a specific resume line, or you risk an ineligible rating.",
+  "Keep the resume to two pages, listing dates, hours per week, title, and brief specialized-experience bullets for each job.",
+  "The window runs 10/30 to 11/05/2026, and the USA Hire assessment is due within 48 hours of close, so block time that week to complete it.",
+  "Better-fit next step: search USAJOBS, Virginia (VDEM), and Prince William County for emergency management, continuity, legislative or policy roles, where your IEM and policy background is directly relevant."
+ ],
+ "resume_bullets": [
+  "Supported [number] government clients with Continuity of Operations and preparedness planning at IEM, coordinating [deliverables] across [number] agencies or organizations.",
+  "Monitored contract deliverables, schedules and costs for [project name/value $X], ensuring compliance with [client/federal requirements] and reporting status to [audience].",
+  "Identified gaps in [plans/procedures/systems] and recommended corrective actions adopted by [client], resulting in [result, if documented]."
+ ],
+ "interview_questions": [
+  "Describe an information security program you built or improved. What guidance, procedures or tools did you create?",
+  "How have you justified an IT budget and ensured oversight and audit controls?",
+  "Tell us about holding a contractor accountable for performance under FAR or FITARA requirements.",
+  "How would you lead a branch through a Continuity of Operations activation?"
+ ],
+ "watch_outs": [
+  "The specialized experience requirement is senior and technical. Without documented IT security and program management leadership, you will likely be found ineligible.",
+  "An SCI clearance is required, and the background investigation can be lengthy.",
+  "The application window is only about one week, and the USA Hire assessment has a cut score and a 48-hour deadline.",
+  "This is a supervisory GS-15 role, so it may require a supervisory probationary period, and it involves commuting from Manassas to DC despite telework eligibility."
+ ],
+ "job_id": "usajobs:890885000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

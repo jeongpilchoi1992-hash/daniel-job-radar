@@ -1,0 +1,57 @@
+{
+ "one_liner": "Analyst at OMB's regulatory office (OIRA) who reviews agency regulations and paperwork requests and writes recommendations for White House decision makers.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's policy knowledge, relationship skills, and government-client consulting at IEM line up with the analysis, coordination, and agency-relationship parts of this job. The hurdle is proving one year of specialized experience analyzing regulatory or policy proposals and developing recommendations. GS-9 is the realistic target unless Daniel's IEM work included substantial policy or regulatory analysis.",
+ "eligibility": [
+  "Open to the public (hiring paths: public and federal transition), so no prior federal status is required.",
+  "Specialized experience: GS-9 needs one year equivalent to GS-7 assisting with analyzing or reviewing regulatory or policy proposals and assisting with developing materials that present recommendations. GS-11 and GS-12 require higher-level analysis and recommendation work.",
+  "Education can substitute: a related master's degree or 2 years of graduate study qualifies for GS-9, and a related Ph.D. or LL.M. qualifies for GS-11. Otherwise there is no education requirement.",
+  "You must be able to obtain a Top Secret clearance.",
+  "All qualifications must be met by the closing date, November 6, 2026."
+ ],
+ "keywords": [
+  "regulatory or policy proposals",
+  "policy analysis frameworks",
+  "economic, legal, or policy analysis",
+  "Paperwork Reduction Act",
+  "information collection requests",
+  "Executive Order 12866",
+  "written products",
+  "oral presentations",
+  "high-level decision makers",
+  "recommendations",
+  "quantitative or qualitative data",
+  "develops relationships",
+  "Communication",
+  "Planning and Evaluating",
+  "Strategic Thinking"
+ ],
+ "strategy": [
+  "Apply at GS-9, and also select GS-11 if your IEM work involved independently synthesizing policy and drafting recommendations reviewed by senior staff.",
+  "Frame IEM work as policy analysis for government clients, such as reviewing FEMA or Stafford Act guidance, preparedness plans, or recovery program rules. Describe only work you actually did.",
+  "Front-load the specialized experience. SMEs read only the first two pages starting at work experience, so put IEM first and give dates, hours per week, and title for every job.",
+  "Write the experience in your own words with concrete context. The posting warns that copying announcement language can make you ineligible.",
+  "Preview the questionnaire at the posted link, and rate yourself only at levels your resume clearly supports, since overrating can disqualify you.",
+  "Submit by November 6, 2026, and include transcripts if you are relying on graduate education."
+ ],
+ "resume_bullets": [
+  "Analyzed [federal/state emergency management policy or regulation, e.g., FEMA Public Assistance guidance] for [client agency] using [policy/cost/legal] framework. Identified [number] issues and drafted recommendations reviewed by [senior staff/client leadership].",
+  "Developed [briefings/memos/slide decks] summarizing policy options and recommendations on [topic] for [audience]. Presented findings to [number] stakeholders at [meeting/forum].",
+  "Collected and synthesized [quantitative/qualitative data, e.g., damage assessments or survey results] from [sources] to support [plan/policy/program] development for [client]."
+ ],
+ "interview_questions": [
+  "Describe a time you analyzed a policy or regulatory proposal. What framework did you use, and what did you recommend?",
+  "How would you write a one-page recommendation for a senior official who has conflicting input from two agencies?",
+  "Tell us about building a working relationship with a client or agency expert who disagreed with your analysis.",
+  "What do you know about OIRA's role under Executive Order 12866 and the Paperwork Reduction Act?"
+ ],
+ "watch_outs": [
+  "The application window is short: October 26 to November 6, 2026.",
+  "A Top Secret clearance is required, and the investigation may delay your start date.",
+  "The resume review counts only two pages and only specialized experience, so vague consulting descriptions may fail screening.",
+  "The position is in Washington, DC, with telework possible but not remote, which means a commute from Manassas."
+ ],
+ "job_id": "usajobs:889267000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

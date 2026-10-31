@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Air Force headquarters analyst at the Pentagon managing manpower studies, resource allocation and PPBES-linked budget and program evaluation work.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-13 role requires a year of GS-12-equivalent experience in financial management policy, manpower requirements and PPBES, which goes well beyond what is on file for you. Your IEM consulting work for government clients and your policy knowledge help, but unless that work involved budget, manpower or resource-allocation analysis at a senior level, you are unlikely to clear the specialized experience screen.",
+ "eligibility": [
+  "The hiring path is listed as public, so U.S. citizens without federal status may apply.",
+  "You need one year of specialized experience equivalent to GS-12 in developing and implementing management policy and tools to educate, train and build awareness of financial management workforce products and services.",
+  "You must be able to obtain and keep a Top Secret clearance.",
+  "The posting lists no degree requirement; qualification rests on experience under the OPM 0343 standard."
+ ],
+ "keywords": [
+  "Program Analyst",
+  "resource allocation",
+  "financial management",
+  "management policy",
+  "manpower requirements",
+  "manpower programming",
+  "manpower studies",
+  "Planning, Programming, and Budgeting Executing System (PPBES)",
+  "management engineering",
+  "organization principles",
+  "competitive sourcing",
+  "program evaluation",
+  "briefings and reports",
+  "liaison",
+  "legal and regulatory requirements"
+ ],
+ "strategy": [
+  "Check your actual IEM duties against the specialized experience statement before you apply. Only apply if you can honestly cite a year of work developing financial or management policy, training tools, or resource and staffing analysis.",
+  "Frame your IEM experience as program analysis for government clients, such as grant or recovery funding tracking, staffing models for emergency operations, or policy and guidance development, but only where that is true.",
+  "On your two-page resume, list the IEM employer, month/year dates and hours per week, plus 3-5 bullets that use the posting's terms (resource allocation, manpower, briefings, regulatory compliance).",
+  "Answer the questionnaire conservatively, because every 'expert' claim must be backed by your resume or you will be rated not qualified.",
+  "The window runs October 28 to November 3, 2026, so have your resume and any transcripts ready before it opens.",
+  "As a more realistic path, target GS-9/11 0343 Program Analyst or FEMA and Virginia VDEM emergency-management analyst roles, where your IEM background maps directly."
+ ],
+ "resume_bullets": [
+  "Analyzed [type of program/funding data] for [government client] to support allocation of [$ amount/resources], and prepared briefings and reports for [audience]. ([X] hrs/week)",
+  "Developed [guidance/training materials/tools] to educate [number/type of stakeholders] on [financial or program management process], ensuring compliance with [regulation, e.g., Stafford Act/2 CFR 200].",
+  "Served as liaison between [client agency offices] and [technical teams] to coordinate [project], tracking milestones and staffing needs across [scope]."
+ ],
+ "interview_questions": [
+  "Describe how you have conducted a manpower or staffing study and what methodology you used.",
+  "How does the PPBES process connect program requirements to resource allocation?",
+  "Tell us about a time you briefed senior leadership on an analysis and its recommendations.",
+  "How have you built working relationships with management officials to move an initiative forward?"
+ ],
+ "watch_outs": [
+  "The application window is only about one week (October 28 to November 3, 2026).",
+  "A Top Secret clearance is required, which brings a lengthy investigation and possible delays in onboarding.",
+  "The GS-12-equivalent specialized experience in financial management and manpower is narrow, so you risk being rated not qualified.",
+  "The job is on-site at the Pentagon, with telework possible but not remote, which means a significant commute from Manassas."
+ ],
+ "job_id": "usajobs:890410900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

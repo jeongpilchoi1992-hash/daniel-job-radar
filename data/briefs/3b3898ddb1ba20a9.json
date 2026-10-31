@@ -1,0 +1,56 @@
+{
+ "one_liner": "Pentagon analyst for the Air Force's nuclear enterprise: assessing risks, drafting official correspondence, running leadership taskings, and recommending policy actions across mission partners.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's policy knowledge, people skills, and IEM consulting work for government clients fit the coordination, correspondence, and relationship parts of this job. However, the posting requires one year of GS-12-equivalent specialized experience developing and implementing policies that support nuclear programs, and it calls for a Top Secret clearance. Nothing on file shows nuclear deterrence, nuclear policy, or quantitative modeling experience, so Daniel is unlikely to qualify unless IEM work touched nuclear or radiological programs.",
+ "eligibility": [
+  "Open to the public, so no federal status is needed and Daniel can apply.",
+  "Specialized experience: at least one year at the GS-12 level or equivalent developing and implementing policies that support nuclear programs, including recommending actions on issues that affect the programs' mission.",
+  "Top Secret clearance is required; expect a full background investigation if selected.",
+  "The posting's wording is ambiguous: it says the GS-12-equivalent experience was gained 'in the federal service' but also credits 'other pay systems.' Confirm with the HR contact whether private-sector consulting counts.",
+  "Duty station is the Pentagon in Arlington, telework-eligible but not remote; promotion potential is GS-13."
+ ],
+ "keywords": [
+  "management analyst",
+  "nuclear enterprise",
+  "risk operation assessments",
+  "courses of action",
+  "mission partners",
+  "official correspondence",
+  "taskings",
+  "nuclear deterrence",
+  "nuclear planning, policy",
+  "capability requirements",
+  "operations research",
+  "quantitative techniques",
+  "recommendations for appropriate actions",
+  "packages",
+  "multiple levels of leadership"
+ ],
+ "strategy": [
+  "Before applying, check honestly whether any IEM work involved nuclear or radiological programs, such as REP (Radiological Emergency Preparedness), nuclear power plant offsite planning, or radiological or nuclear response planning. Without that, you will likely be rated not qualified.",
+  "If you have that experience, describe it in posting language. For example: 'developed and implemented policies/plans supporting [radiological/nuclear] programs' and 'provided recommendations for appropriate actions' to government clients.",
+  "Fit everything within two pages. For the IEM role, list start and end dates (month/year), hours per week, and the client agency type, and lead with policy development, official correspondence, and multi-agency coordination.",
+  "Answer the questionnaire strictly to what your resume proves. The posting warns that inflated answers lead to score adjustment or a 'not qualified' rating.",
+  "The window is short (Oct 29 to Nov 4, 2026), so submit early. If you don't qualify, treat this as a model and target GS-9 to GS-12 0343 analyst or FEMA, DHS, and Virginia VDEM emergency-management roles, where IEM experience maps directly."
+ ],
+ "resume_bullets": [
+  "Developed and implemented [emergency preparedness/radiological] policies and plans for [client agency], providing recommendations for appropriate actions on issues affecting program mission; [hours/week], [dates].",
+  "Prepared official correspondence, briefing packages, and responses for [number] levels of client leadership, coordinating input across [number] mission partners under [deadline/time constraint].",
+  "Conducted [risk/capability] assessments using [method/tool], analyzing data and recommending courses of action adopted by [client] to [result, if documented]."
+ ],
+ "interview_questions": [
+  "Describe your experience developing or implementing policy that supported a nuclear or radiological program.",
+  "How would you coordinate a tasking response that needs input from several mission partners with conflicting equities?",
+  "Walk us through an analysis where you used quantitative methods to compare alternative solutions for leadership.",
+  "Tell us about drafting correspondence for senior decision-makers on a tight deadline."
+ ],
+ "watch_outs": [
+  "The nuclear-specific specialized experience requirement is the biggest barrier and likely disqualifying without nuclear program work.",
+  "A Top Secret clearance is required, which means a lengthy investigation; any clearance issues would end your candidacy.",
+  "The open period is very short, just six days (Oct 29 to Nov 4, 2026).",
+  "The GS-13 level expects a full year of GS-12-equivalent experience, which is senior for a first federal job."
+ ],
+ "job_id": "usajobs:890501700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

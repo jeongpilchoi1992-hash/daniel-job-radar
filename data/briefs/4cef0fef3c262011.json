@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Executive deputy running Air Force modernization strategy, force design, wargaming, and operational requirements at the Pentagon, acting as the A5/7 three-star's deputy.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES role requiring superior, recent executive leadership of enterprise-level Air Force capability development and expert knowledge of weapon system programs (TQ1/TQ2), plus an SCI clearance. Daniel's consulting background in emergency management and strong policy knowledge do not show the defense requirements, acquisition, or executive leadership experience the panel will screen for, so failing the mandatory TQs is very likely.",
+ "eligibility": [
+  "Open to the public and SES candidates (hiring paths: ses, public), so federal status is not required.",
+  "Mandatory Technical Qualifications TQ1 and TQ2 must be clearly shown in the resume; failure on either eliminates the candidate.",
+  "Must demonstrate all five Executive Core Qualifications, plus DoD Enterprise Perspective, through executive-level accomplishments.",
+  "Sensitive Compartmented Information (SCI) clearance is required; the position also supervises Special Access Required program requirements.",
+  "Bachelor's degree desired; master's or technical/management advanced degree highly desired (not mandatory)."
+ ],
+ "keywords": [
+  "enterprise-level strategy",
+  "capability development",
+  "operational requirements",
+  "modernization",
+  "force design",
+  "wargaming",
+  "Mission Need Analysis",
+  "requirements development",
+  "Joint Requirements Oversight Council",
+  "SPPBE",
+  "acquisition",
+  "cross-functional teams",
+  "Enterprise Perspective",
+  "Leading People",
+  "Driving Efficiency"
+ ],
+ "strategy": [
+  "Be honest with yourself: unless you personally led defense capability development or Air Force requirements work, this posting is not worth the effort of an SES package; use it as a target for a long-term career path instead.",
+  "If you still apply, write a resume-based SES package that maps each accomplishment to a TQ or ECQ, using recent (under 10 years) examples with scope, budget, and team size in [brackets] you can verify.",
+  "Frame your IEM work in terms of government client strategy, interagency coordination, and preparedness planning, but do not stretch it into weapon systems or requirements experience you do not have.",
+  "Better near-term moves: target GS-9 to GS-12 program analyst, emergency management specialist (FEMA, DHS, Virginia VDEM, Prince William County), or legislative staff roles where your policy knowledge and relationship skills match.",
+  "The window runs October 23 to November 6, 2026; if applying, start drafting early and seek review from a current SES member, as the Air Force suggests."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of emergency management/preparedness project] for [government client] at IEM, working with [number] federal, state, and local stakeholders to deliver [specific deliverable] by [date].",
+  "Built consensus among [agency/stakeholder groups] on [policy or planning issue], briefing [senior official level] and producing [plan/report] adopted by [client].",
+  "Managed [scope: budget $ / team size / timeline] for [project], identifying [efficiency or process improvement] that resulted in [verified outcome]."
+ ],
+ "interview_questions": [
+  "Describe a time you led enterprise-level strategy and drove capability requirements through Joint or DAF senior leadership.",
+  "How have you built consensus on a contentious modernization or resourcing decision across the Services, OSW, or industry?",
+  "Give an example of driving efficiency by cutting wasteful spending or upgrading processes in an organization you led.",
+  "How would you prioritize competing MAJCOM modernization needs within the SPPBE process?"
+ ],
+ "watch_outs": [
+  "Mandatory TQs require expert Air Force weapon system and requirements experience; without it the application will be screened out.",
+  "SCI clearance required, and you have no clearance on file.",
+  "No telework and some travel; long Pentagon hours are typical for SES deputies.",
+  "Very short two-week application window (closes November 6, 2026)."
+ ],
+ "job_id": "usajobs:890066700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

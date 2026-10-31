@@ -1,0 +1,56 @@
+{
+ "one_liner": "Federal contract specialist at CMS who writes solicitations, negotiates contracts, analyzes prices and administers awards under the FAR for HHS programs.",
+ "fit_rating": "Stretch",
+ "fit_summary": "This GS-11 role requires one year of GS-09-level experience preparing acquisition documents (solicitations, market research, J&As, awards) and reviewing them for regulatory compliance. Daniel's work at IEM may have touched government contracts or proposals, but unless that experience involved real procurement document preparation and review, Daniel likely won't qualify. The negotiation and relationship skills fit well, but they can't substitute for the specialized experience.",
+ "eligibility": [
+  "Open to the public (hiring paths: public and federal transition), so no federal status is needed; no clearance is required.",
+  "You need at least 52 weeks of specialized experience equivalent to GS-09: preparing acquisition documents AND reviewing them for compliance with terms or regulations. Alternatively, a Ph.D., LL.M., or 3 years of graduate study in a listed field can substitute.",
+  "Basic 1102 education requirement: a bachelor's degree in any field OR 24 semester hours in accounting, business, finance, law, contracts, economics, or related fields. Transcripts must be uploaded with the application or you'll be rated ineligible.",
+  "You must pass an online assessment that has a cut score."
+ ],
+ "keywords": [
+  "Contract Specialist",
+  "Federal Acquisition Regulations (FAR)",
+  "solicitations",
+  "market research",
+  "justifications & approvals",
+  "award documents",
+  "price/cost analysis",
+  "pre/post-award",
+  "contract administration",
+  "negotiations",
+  "contracting officer representatives (CORs)",
+  "program officials",
+  "terms and conditions",
+  "procurement process",
+  "Influencing/Negotiating"
+ ],
+ "strategy": [
+  "Before applying, write down exactly what you did at IEM involving contracts: proposals, task orders, subcontracts, compliance reviews, or invoicing against federal or FEMA awards. Apply only if you can honestly document a year of preparing AND reviewing acquisition documents.",
+  "Frame consulting work from the contractor side using acquisition language. Examples: responding to RFPs, analyzing solicitations and statements of work, building cost or price proposals, and checking deliverables against contract terms. Include hours per week and dates for each role.",
+  "Use the two-page limit for specifics, not copied posting text. The announcement explicitly says copy-pasting gets you rated ineligible, so describe your actual tasks in your own words.",
+  "Answer the questionnaire honestly at the level your resume supports, because an SME may verify your responses. Upload your transcripts, and prepare for the competency assessment (reading comprehension, reasoning).",
+  "If you don't qualify at GS-11, look for GS-1102-07/09 or Pathways/developmental acquisition intern postings. Those fit your degree and people skills and lead to the same career, with promotion potential here up to GS-12.",
+  "The posting is open until January 15, 2027, but apply early, since long-open announcements may pull candidates periodically."
+ ],
+ "resume_bullets": [
+  "Prepared [cost/technical proposal sections] in response to [number] federal and state solicitations for [emergency management/disaster recovery] services. Analyzed the SOW, evaluation criteria, and FAR clauses to ensure compliance ([hours/week], [dates]).",
+  "Reviewed [task orders/subcontracts/invoices] against contract terms and conditions for [client agency/program], identifying [issues] and coordinating corrections with [client contracting staff/program managers].",
+  "Negotiated [scope/pricing/schedule] with [stakeholders] on [project], resolving resistance and documenting agreements to support [award/modification]."
+ ],
+ "interview_questions": [
+  "Describe a time you prepared or reviewed a contract or solicitation document. What regulations or terms did you check against?",
+  "How would you handle a program official who wants a requirement rushed in a way that conflicts with the FAR?",
+  "Walk us through how you would approach a price or cost analysis on a proposal.",
+  "Tell us about a negotiation where the other side resisted. What did you do?"
+ ],
+ "watch_outs": [
+  "The specialized experience requirement is strict and acquisition-specific. Policy knowledge and emergency-management consulting alone won't qualify you, and overstating your experience can remove you from consideration.",
+  "Transcripts are mandatory at application, and missing them means automatic ineligibility.",
+  "The location is listed as multiple locations, and the position is telework-eligible but not remote, so confirm the duty station (likely Baltimore/Woodlawn, MD) and the commute from Manassas.",
+  "This is a technical procurement role, and it is less public-facing than the policy or legislative work you may prefer."
+ ],
+ "job_id": "usajobs:876500300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

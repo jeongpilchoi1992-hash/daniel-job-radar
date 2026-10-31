@@ -1,0 +1,57 @@
+{
+ "one_liner": "Watch live drone and aircraft video around the clock for NGA, spot and describe activity, and write fast intelligence reports for military and policy customers.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The mandatory criteria require hands-on full-motion video (FMV) imagery analysis and knowledge of imagery tasking, processing, exploitation and analysis, and nothing on file shows Daniel has done that. Daniel's policy knowledge, disaster-related consulting at IEM and people skills match some desirable criteria, such as disaster impact and customer work. They do not substitute for the FMV experience the Qualifications Review Board will screen for first.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status needed, and this is a 2-year TERM appointment extendable up to 5 years.",
+  "You must meet ALL Mandatory Qualification Criteria, starting with experience providing FMV imagery analysis and knowledge of national or commercial imagery systems.",
+  "Education: a bachelor's in a listed field such as Political Science, International Affairs or Geography; or 24 semester hours in those fields plus imagery-intelligence experience totaling 4 years; or 4 years of imagery analysis experience.",
+  "You must be able to obtain a Top Secret/SCI clearance and pass a counterintelligence polygraph and drug test.",
+  "Physical requirements include color vision, 20/20 near acuity (corrected is fine), stereopsis and hand steadiness."
+ ],
+ "keywords": [
+  "full-motion video (FMV)",
+  "imagery analysis",
+  "GEOINT exploitation",
+  "tasking, processing, exploitation, and analysis",
+  "national or commercial imagery systems",
+  "routine and non-routine products",
+  "identify, characterize, and/or describe activities, objects, or features",
+  "multi-INT research",
+  "tasking strategies",
+  "natural and man-made disasters",
+  "mission partners",
+  "24/7 operations",
+  "time critical",
+  "comparative analysis",
+  "multiple projects simultaneously"
+ ],
+ "strategy": [
+  "Be honest with yourself first: if you have never analyzed FMV or satellite imagery, you will likely fail the mandatory screen, so treat this as a learning target rather than a primary application.",
+  "If any IEM work involved imagery, such as aerial or satellite damage assessment, GIS maps or drone footage after disasters, describe it concretely using the posting's language (identify, characterize, describe features; products meeting customer requirements).",
+  "Confirm your degree field; Political Science, History or International Affairs qualifies under option A, so list the degree and school clearly.",
+  "Use the NGA resume builder and keep it to 2 pages, with dates, hours per week and one specific example with a result for each mandatory criterion.",
+  "Since the announcement is open continuously through 2027-09-30, apply only once the resume genuinely shows FMV or imagery work.",
+  "Add a short cover letter, which NGA recommends, tying your disaster-response and policy background to the mission of analyzing disaster impacts for policymakers."
+ ],
+ "resume_bullets": [
+  "Analyzed [aerial/satellite imagery or drone video] following [disaster name] for [government client], identifying [damaged structures/infrastructure features] and producing [maps/reports] used by [customer] to [decision].",
+  "Produced [number] routine and non-routine products ([reports/briefings/maps]) meeting [federal/state/local client] requirements under [time-critical deadlines], while managing [number] projects simultaneously.",
+  "Coordinated with [mission partners/agency stakeholders] during [activation/exercise] to deliver [product] within [timeframe], at [hours] per week."
+ ],
+ "interview_questions": [
+  "Walk us through a time you used imagery to identify or characterize activity or features. What did you see and what did you report?",
+  "How do you stay accurate and write clearly during a time-critical event on a long overnight shift?",
+  "Describe a product you tailored for a demanding customer. How did you learn what they actually needed?",
+  "How have you handled several urgent tasks at once while working with partners from other organizations?"
+ ],
+ "watch_outs": [
+  "The mandatory FMV and imagery-systems experience is likely missing from your background, which makes rejection at the first screen probable.",
+  "The job requires rotational 24/7 shift work with no telework, and McLean is a substantial commute from Manassas.",
+  "A TS/SCI clearance with polygraph can take many months, and the term appointment is not guaranteed past 2 years (conversion requires a successful rating).",
+  "This is an open-continuous pool, so applications are reviewed only when needs arise and you may wait a long time with no response."
+ ],
+ "job_id": "usajobs:887312900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

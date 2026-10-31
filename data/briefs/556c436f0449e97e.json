@@ -1,0 +1,42 @@
+{
+ "one_liner": "Staff role in a DC Councilmember's or Council office helping residents resolve problems with DC government services and tracking constituent requests.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's people skills, ease with the public, and deep knowledge of politics and policy match the typical core of constituent services work, and IEM consulting for government clients shows familiarity with how public agencies operate. The posting text available is almost empty, so duties, requirements, and pay can't be confirmed, and Daniel's lack of DC-specific knowledge may be a gap.",
+ "eligibility": [
+  "The posting text on file states only dates and gives no requirements, so read the full listing at the URL for education, experience, and any DC residency preference before applying.",
+  "The dates conflict: the facts list opening 2026-10-20 while the text says 10/6/26, and it closes 'Open Until Filled,' so treat it as active now and apply early.",
+  "No grade, salary, or who-may-apply information was provided, and this is a legislative branch (DC Council) job, not federal, so USAJOBS status rules and the two-page federal resume rule do not apply.",
+  "Check whether the office expects or prefers DC residency, since Daniel lives in Manassas, VA."
+ ],
+ "keywords": [
+  "Constituent Services Coordinator",
+  "constituent services",
+  "Council of the District of Columbia"
+ ],
+ "strategy": [
+  "Pull the full posting from dccouncil.gov and mirror its exact duty and qualification language; the only confirmed keywords so far are the title and organization.",
+  "Frame IEM experience around government-client service: coordinating with agency stakeholders, tracking requests or deliverables, and communicating with officials or the public, describing only what you actually did.",
+  "Lead with relationship-building and public-facing skills, and show policy knowledge by connecting it to DC issues such as housing, DPW, DMV, and 311 services.",
+  "Learn the DC Council structure, the specific Councilmember or ward if named, and key DC agencies so you can speak to local problems in a cover letter and interview.",
+  "Since it is open until filled, submit a tailored resume and a short cover letter within days, and follow up politely with the office."
+ ],
+ "resume_bullets": [
+  "Served as [title] at IEM, supporting [government client type] on [emergency management/recovery project], coordinating with [number] agency and community stakeholders to [outcome you can verify].",
+  "Responded to and tracked [number/type] of client or public inquiries using [system/tool], resolving issues by connecting stakeholders with [agency/program] resources.",
+  "Prepared [briefings/reports/outreach materials] translating [policy/program] details into plain language for [audience]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you helped someone navigate a frustrating government process. What did you do?",
+  "How would you handle an upset resident whose issue falls outside the Council's direct authority?",
+  "What DC issues do you think matter most to residents right now?",
+  "How do you track and follow up on many open cases at once?"
+ ],
+ "watch_outs": [
+  "The posting details on file are nearly blank (no salary, duties, or requirements), so verify everything at the source.",
+  "Open-until-filled roles can close without notice, so apply quickly.",
+  "Council staff roles are often at-will and tied to a Councilmember's tenure, and a Manassas-to-DC commute is long; check for any residency expectations."
+ ],
+ "job_id": "dccouncil:constituent-services-coordinator",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

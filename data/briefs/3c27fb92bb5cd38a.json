@@ -1,0 +1,57 @@
+{
+ "one_liner": "Federal contracting officer-track job buying IT products and services for DISA: soliciting, evaluating, negotiating, pricing and administering Defense contracts at Fort Meade.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's people skills and government-client consulting at IEM help with negotiation and stakeholder work, but this job hinges on hands-on procurement experience (pre/post-award work, price/cost analysis, or drafting market research reports or PWSs). If Daniel's IEM role touched proposals, pricing, statements of work or contract administration, the GS-9 level is reachable; GS-11/12 likely is not.",
+ "eligibility": [
+  "Open to the public under DoD Direct Hire Authority (5 U.S.C. 9905); no federal status is needed and veterans' preference does not apply.",
+  "A bachelor's degree from an accredited institution is mandatory for the 1102 series; confirm Daniel has one.",
+  "GS-9 requires one year of specialized experience at GS-7 level: pre- or post-award procurement functions, price or cost analysis for contract actions, or drafting procurement documents such as market research reports or performance work statements. Alternatively, a master's degree or two years of graduate study in a listed field such as business, law, economics or accounting substitutes.",
+  "GS-11 requires one year awarding or administering federal contracts or doing price/cost analysis, and GS-12 requires experience in all phases of federal procurement.",
+  "A Secret clearance is required; expect a background investigation after selection."
+ ],
+ "keywords": [
+  "pre-award",
+  "post-award",
+  "procurement",
+  "price or cost analysis",
+  "market research reports",
+  "performance work statements",
+  "competitive proposals",
+  "fixed price",
+  "cost-type contracts",
+  "negotiation",
+  "contractor responsibility",
+  "modifications",
+  "IT products, systems and services",
+  "Attention to Detail",
+  "Influencing/Negotiating"
+ ],
+ "strategy": [
+  "Target GS-9 and be honest with yourself about GS-11/12: those grades require you to have actually awarded or administered federal contracts.",
+  "Mine your IEM work for procurement-adjacent tasks, such as writing proposals or cost volumes, contributing to SOWs or PWSs, researching the market, tracking deliverables, or handling task-order modifications. Describe that work from the contractor side in the posting's terms, and only claim what you did.",
+  "State the specialized experience explicitly in the body of the resume, since the posting requires it there. Within the two-page limit, include month/year dates and hours per week for each job.",
+  "Show the four competencies (Attention to Detail, Influencing/Negotiating, Decision Making, Reasoning) with brief concrete examples from client work.",
+  "Follow the application instructions exactly: email the resume to disa.meade.psd.mbx.psd-1102-applications@mail.mil with \"Announcement 12997520\" in the subject line. Do not send transcripts.",
+  "The announcement is open from 2026-07-09 to 2027-01-08 and direct hire moves quickly, so apply early rather than waiting for the close date."
+ ],
+ "resume_bullets": [
+  "Drafted [number] sections of [performance work statements/statements of work/proposal technical volumes] for [federal/state client] emergency management contracts valued at [$amount], ensuring requirements were clear, measurable and compliant with [FAR/client guidance].",
+  "Prepared [cost estimates/labor-rate pricing/budget analyses] for [number] [proposals/task orders], comparing [labor categories/rates/market data] to support [contract action or negotiation outcome].",
+  "Monitored contract deliverables and performance for [client] on a [$amount] [contract type] contract, coordinating [modifications/invoices/reports] with [contracting officer/COR/program staff] over [period]."
+ ],
+ "interview_questions": [
+  "Walk us through a procurement document you drafted, such as a market research report or PWS, and how you made sure it was accurate.",
+  "How would you evaluate whether a contractor's proposed price is fair and reasonable?",
+  "Describe a time you negotiated with or influenced stakeholders who had competing interests.",
+  "What is the difference between fixed-price and cost-type contracts, and when is each appropriate?"
+ ],
+ "watch_outs": [
+  "A bachelor's degree is required with no workaround for new entrants; without one, Daniel cannot qualify.",
+  "Pure policy, outreach or emergency-planning work will not count as specialized experience, so Daniel needs real procurement or pricing duties to qualify.",
+  "The job is at Fort Meade, MD, a long commute from Manassas; telework is available but the role is not remote.",
+  "A Secret clearance is required, and the role involves technical IT acquisition and cost analysis that may suit Daniel's public-facing strengths less than policy or legislative roles."
+ ],
+ "job_id": "usajobs:875675300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

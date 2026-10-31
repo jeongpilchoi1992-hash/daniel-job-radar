@@ -1,0 +1,57 @@
+{
+ "one_liner": "Buy classified and unclassified IT services for DISA as a federal contracting officer's specialist: plan acquisitions, issue solicitations, evaluate proposals, negotiate, award and administer contracts.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a technical GS-1102 contracting job that requires at least a year of hands-on procurement work (pre-/post-award actions, cost/price analysis, or writing PWS/acquisition plans), plus a bachelor's degree and SCI eligibility. Daniel's IEM consulting and policy knowledge help with the client-advisor side, but unless Daniel actually did proposal pricing, contract administration, or procurement documentation at IEM, the specialized experience requirement likely isn't met. Any real proposal, pricing, or contract-management work at IEM is the only path to qualifying, most plausibly at GS-11.",
+ "eligibility": [
+  "Open to the public under DoD Direct Hire Authority (5 USC 9905); no status needed, and veterans' preference does not apply.",
+  "Bachelor's degree from an accredited institution is mandatory, and you must upload transcripts with the application or you are disqualified.",
+  "GS-11 requires one year of experience equivalent to GS-09 in basic pre-award/post-award procurement functions or routine price/cost analysis. Alternatively, three years of graduate education in business, law, economics, or a similar field can substitute at GS-11 only.",
+  "The position requires Sensitive Compartmented Information (SCI) access, which means a Top Secret background investigation.",
+  "Higher grades need more: GS-12 requires independently awarding contracts or writing PWS/market research/acquisition plans/J&As, and GS-13 requires cradle-to-grave Federal procurement experience."
+ ],
+ "keywords": [
+  "pre-award and post-award",
+  "price or cost analysis",
+  "acquisition planning",
+  "acquisition packages",
+  "solicitations",
+  "evaluate proposals",
+  "fair and reasonable",
+  "source selections",
+  "negotiations",
+  "contract administration",
+  "Performance Work Statements",
+  "Market Research Reports",
+  "mission partners",
+  "business advisor",
+  "information technology services"
+ ],
+ "strategy": [
+  "Apply at GS-11 only. Daniel likely lacks the independent award authority needed for GS-12 or GS-13.",
+  "Inventory IEM work honestly for anything contract-related: proposal pricing, labor-category costing, task order management, invoicing and deliverable tracking, subcontractor oversight, or drafting SOW/PWS language for government clients. Describe that work in the posting's terms.",
+  "State the specialized experience inside the resume body, as the posting requires. Keep it within two pages, with dates, hours per week, and the GS-09-level procurement duties stated plainly.",
+  "Present the client-facing consulting work as 'business advisor to mission partners' and the government-client work as familiarity with the Federal acquisition lifecycle. Do not claim warrants or awards Daniel didn't make.",
+  "Upload college transcripts with the application. The posting closes 12/2/2026, and direct-hire announcements can close early or cut off at an applicant cap, so apply early.",
+  "If Daniel doesn't qualify, look for GS-1102 trainee or intern programs (DoD acquisition development programs, DAU-linked entry roles) at GS-7/9, or for 0301/0089 emergency-management roles that match the IEM background better."
+ ],
+ "resume_bullets": [
+  "Supported [number] [federal/state/local] government contracts valued at [$amount] at IEM, tracking deliverables, invoices, and modifications for post-award contract administration [hours/week].",
+  "Developed cost proposals and labor-category pricing for [number] responses to government solicitations, performing price analysis to [describe outcome you can document].",
+  "Drafted [SOW/PWS/market research] sections for [client] [type of project] requirements, coordinating with program staff on acquisition planning and schedules."
+ ],
+ "interview_questions": [
+  "Walk us through how you would determine whether a proposed price is fair and reasonable.",
+  "Describe a time you advised a client on a requirement that was unclear or kept changing. How did you get to a usable package on schedule?",
+  "What experience do you have with the FAR/DFARS, and how have you applied policy to an acquisition decision?",
+  "How would you handle a mission partner pressuring you to skip a procurement step to meet a deadline?"
+ ],
+ "watch_outs": [
+  "Specialized procurement experience cannot be waived, and Daniel's known background may not meet it.",
+  "The SCI clearance requirement means a lengthy Top Secret investigation.",
+  "Missing transcripts means automatic disqualification.",
+  "Fort Meade is roughly a 60+ mile commute from Manassas. Telework is offered but not full remote."
+ ],
+ "job_id": "usajobs:883196200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

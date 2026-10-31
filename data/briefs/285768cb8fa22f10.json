@@ -1,0 +1,54 @@
+{
+ "one_liner": "A Virginia Tech staff role in Arlington managing workforce development programs: likely training partnerships, participant outreach, budgets, and reporting. Confirm details in the full posting.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's consulting work with government clients at IEM, public policy knowledge, and people skills fit the stakeholder and partnership side of a workforce development program. No duties are listed, and workforce development and program management experience are not on file, so the fit can't be confirmed until Daniel reads the full posting.",
+ "eligibility": [
+  "The posting text is unavailable. Open the full listing on jobs.virginia.gov or Virginia Tech's careers site to confirm minimum and preferred qualifications before applying.",
+  "Check whether a bachelor's degree or a set number of years of program management experience is required.",
+  "Confirm salary, telework, and work schedule. None of these are stated, and the role is listed as on-site in Arlington.",
+  "Virginia Tech positions usually require a background check. Confirm the requirement and any work-authorization terms in the listing."
+ ],
+ "keywords": [
+  "Program Manager",
+  "Workforce Development",
+  "program management",
+  "stakeholder engagement",
+  "partnerships",
+  "outreach",
+  "training programs",
+  "grant management",
+  "budget",
+  "reporting",
+  "program evaluation",
+  "community partners",
+  "compliance",
+  "Virginia Tech"
+ ],
+ "strategy": [
+  "Get the full posting first. Then mirror its exact qualification wording in your resume and cover letter, because Virginia Tech screeners compare applications against the listed qualifications.",
+  "Frame your IEM work around program delivery for government clients: coordinating stakeholders, meeting deliverables and deadlines, and supporting preparedness or recovery programs. Use only duties you actually performed.",
+  "Highlight your relationship-building and public-facing strengths as partnership and outreach experience with employers, agencies, and community groups.",
+  "Show policy knowledge relevant to workforce programs, such as WIOA, federal and state grant funding, and Virginia's workforce priorities, so your policy background reads as directly useful.",
+  "The closing date isn't stated and the position may close once filled, so apply quickly with a tailored resume and a cover letter. State resumes are not limited to two pages, but keep yours focused.",
+  "Plan for the commute from Manassas to Arlington, and ask about telework at the interview stage."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of] emergency management/preparedness projects for [number/type of] government clients at IEM, managing [deliverables/timelines] across [number] stakeholders.",
+  "Built and maintained relationships with [agency/community partners], supporting [outreach/training/recovery activity] that reached [number/audience].",
+  "Tracked [budget/schedule/metrics] and prepared [reports/briefings] for [client or leadership], ensuring [compliance or deadline outcome]."
+ ],
+ "interview_questions": [
+  "Tell us about a program or project you managed from start to finish. What were the results?",
+  "How would you build partnerships with employers and community organizations for a workforce program?",
+  "How does your emergency management consulting experience transfer to workforce development?",
+  "How do you measure whether a program is succeeding, and what do you do when it isn't?"
+ ],
+ "watch_outs": [
+  "There is no description, salary, or closing date, so you can't assess the real requirements or pay until you see the full listing.",
+  "Your background may lack direct workforce development or formal program management experience, which a Program Manager title often requires.",
+  "The role is on-site in Arlington, which can mean a long commute from Manassas."
+ ],
+ "job_id": "virginia:program-manager-workforce-development-arlington-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

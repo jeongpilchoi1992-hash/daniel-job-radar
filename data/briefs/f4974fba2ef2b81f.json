@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Executive running ATF's three forensic labs, fire research lab, quality office, and forensic auditing unit from Beltsville, Maryland.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires proven executive leadership of multi-site accredited forensic laboratories, forensic research, and investigative support programs. Daniel's emergency-management consulting experience at IEM and policy knowledge do not match the Mandatory Technical Qualifications, which are effectively pass/fail. Daniel should not invest heavily here and should target entry and mid-level roles instead.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals), but the job is SES and veterans' preference does not apply.",
+  "You must show all five ECQs and all three MTQs within a resume of two pages or less. Resumes over two pages are ineligible, and separate narratives are not accepted.",
+  "MTQ1 requires leading multi-site forensic lab systems or large technical enterprises under accreditation frameworks such as ISO/IEC 17025.",
+  "You need a Top Secret security investigation, a drug screening, and an OGE 278 financial disclosure.",
+  "You must show progressively responsible senior executive-level leadership experience by the closing date of November 4, 2026."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Mandatory Technical Qualifications",
+  "ISO/IEC 17025",
+  "multi-site forensic laboratory systems",
+  "method validation",
+  "technology assessment",
+  "forensic financial auditing",
+  "investigative support programs",
+  "budget formulation",
+  "allocation of human and material resources",
+  "liaison",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "Rule of Law"
+ ],
+ "strategy": [
+  "Be honest with yourself: without executive leadership of forensic labs or law-enforcement technical programs, the rating panel will likely screen you out at the MTQs.",
+  "Spend your effort instead on GS-7 to GS-11 public-facing roles, such as FEMA, DHS, DOJ program analyst, and public affairs jobs, or on Virginia and Prince William County emergency management positions.",
+  "If you apply anyway, use one concise two-page resume that maps your IEM work to each ECQ and MTQ, citing scope, budget, staff, and results only where they are true.",
+  "Use ECQ1 language (rule of law, American system of government) to showcase your policy knowledge, since it is your strongest match.",
+  "Use this posting as a long-term model of the SES competencies you will need to build over a federal career."
+ ],
+ "resume_bullets": [
+  "[Title], IEM, [dates], [hours/week]: Supported [government client] on [disaster recovery/preparedness program] by coordinating [number] stakeholders across [agencies/jurisdictions].",
+  "Managed [budget/resources of $X] for [project], applying [process or technology improvement] to achieve [verifiable result].",
+  "Served as liaison between [client agency] and [partners such as local officials or the public], producing [reports/briefings] delivered [on time/at a frequency]."
+ ],
+ "interview_questions": [
+  "Describe how you led a multi-site laboratory or technical enterprise through ISO/IEC 17025 accreditation.",
+  "How have you validated new forensic methods or integrated AI or data analytics into a law-enforcement environment?",
+  "Tell us about cutting costs or reallocating resources while maintaining quality standards.",
+  "How have you held staff accountable while leading an organization through change?"
+ ],
+ "watch_outs": [
+  "The MTQs require specialized forensic and law-enforcement executive experience that Daniel's background does not show.",
+  "The job is on-site in Beltsville, MD with no telework, which means a long commute from Manassas.",
+  "The position requires a Top Secret investigation, OGE 278 financial disclosure, and a possible one-year probationary period.",
+  "A resume over two pages, or separate ECQ narratives, will be rejected automatically."
+ ],
+ "job_id": "usajobs:887705000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:08-04:00"
+}

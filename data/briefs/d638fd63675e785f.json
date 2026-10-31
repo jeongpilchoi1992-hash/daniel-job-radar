@@ -1,0 +1,57 @@
+{
+ "one_liner": "Mid-level federal buyer at the National Gallery of Art: planning, negotiating, modifying and closing out supply, service, IT and construction contracts.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a technical GS-1102 role requiring a year of hands-on contracting experience (price/cost analysis, proposal review, FAR-based procurement decisions) at the GS-09 or GS-11 equivalent level. Nothing on file shows Daniel did contracting work at IEM, and Daniel's strengths in policy, relationships and public engagement don't substitute for it. It becomes realistic only if Daniel's IEM role involved proposals, pricing, or contract administration on government contracts.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status or veterans' preference needed.",
+  "Basic education requirement: a bachelor's degree in any field, or 24 semester hours in business, accounting, law, contracts, economics, or related fields.",
+  "One year of specialized experience at the GS-09 level (for GS-11) or GS-11 level (for GS-12): administering contracts, price/cost analysis, reviewing vendor proposals, and applying statutory and regulatory requirements.",
+  "You must hold FAC-C (Professional) or DAWIA certification, or be able to earn it within 12 months of appointment, and state your level and source on the resume.",
+  "Pass a background investigation; this is a probationary appointment."
+ ],
+ "keywords": [
+  "contract modifications",
+  "termination settlement",
+  "equitable adjustments",
+  "price/cost analysis",
+  "soundness of proposals",
+  "statutory/regulatory requirements",
+  "acquisition plans",
+  "Statement of Work",
+  "source selection strategy",
+  "pre-award/post-award",
+  "contract type",
+  "technical evaluation team",
+  "contractor claims",
+  "Contracting Officer determinations",
+  "FAC-C"
+ ],
+ "strategy": [
+  "First, decide honestly whether your IEM job involved contracts. Examples include writing or pricing proposals for government RFPs, tracking task orders or modifications, managing subcontractors, or working with FEMA or state procurement rules. If it did not, skip this posting and target GS-0301 program analyst, emergency management, or public affairs roles instead.",
+  "If it did, build the IEM entry around the exact specialized-experience elements. Use the posting's own phrases, such as price/cost analysis, reviewing proposals, and applying FAR and 2 CFR 200 requirements, and include month/year dates and hours per week.",
+  "Show the 'other side of the table' experience clearly. Say plainly that you reviewed or prepared proposals, budgets, and cost justifications under federal contracts or grants, and name the contract types involved (e.g., T&M, FFP, IDIQ).",
+  "Address FAC-C on the resume, for example: 'FAC-C (Professional): eligible to obtain within 12 months.' Consider starting free FAI/DAU courses now and listing them.",
+  "Preview the questionnaire and claim expert levels only where your resume backs them up, because an SME will review your application. Keep everything within two pages.",
+  "Apply between Oct 30 and Nov 13, 2026, and upload your transcripts to prove the education requirement."
+ ],
+ "resume_bullets": [
+  "Prepared cost and price proposals for [number] government client solicitations in [disaster recovery/preparedness], analyzing labor rates and [other cost elements] to comply with [FAR/2 CFR 200] requirements.",
+  "Supported administration of [contract type] contracts valued at [$ amount] with [client agency], tracking modifications, deliverables, and invoices and resolving [issues] with client contracting officers.",
+  "Developed Microsoft Office briefings and materials for [pre-award/post-award meetings or kickoffs] with [audience], summarizing [scope/schedule/cost] for decision-makers."
+ ],
+ "interview_questions": [
+  "Walk us through how you would perform a price or cost analysis on a vendor proposal.",
+  "How would you handle a contractor's request for an equitable adjustment after a scope change?",
+  "Describe how you would advise a program office that wants a sole-source award.",
+  "Tell us about a time you explained complex regulatory requirements to a non-expert audience."
+ ],
+ "watch_outs": [
+  "The specialized experience requirement is strict and technical, and general consulting or policy experience will not qualify.",
+  "FAC-C certification must be earned within 12 months of appointment, which adds a training workload.",
+  "The two-week application window closes November 13, 2026.",
+  "A writing or work sample may be requested from referred candidates."
+ ],
+ "job_id": "usajobs:890989000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

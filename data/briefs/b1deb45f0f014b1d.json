@@ -1,0 +1,48 @@
+{
+ "one_liner": "Not a real single job: an Air Force placeholder announcement pointing applicants to its Direct Hire Job Board for information and arts occupations (e.g., public affairs, writing).",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's policy knowledge, public-facing strengths, and IEM emergency-management consulting could suit Air Force information and arts roles such as public affairs or communications. However, this posting has no duties, qualifications, or location, so fit can only be judged against the specific Direct Hire Job Board listing Daniel applies to. Treat it as a gateway, not a target.",
+ "eligibility": [
+  "Open to the public; the posting describes direct hire as a path for applicants with no prior federal status, so Daniel qualifies on that point.",
+  "Security clearance listed as Not Required here, but individual direct-hire jobs may require one; check each listing.",
+  "Qualifications, specialized experience, and any education requirements are not stated; they are on the linked Direct Hire Job Board for each occupation.",
+  "Grade band NH-1/4 (Acquisition Demo pay) spans $22,584-$164,301; the level you qualify for depends on the specific job's requirements."
+ ],
+ "keywords": [
+  "Direct Hire Authorities",
+  "DHA",
+  "Information and Arts",
+  "Air Force Civilian Service",
+  "Direct Hire Job Board",
+  "public",
+  "Department of the Air Force"
+ ],
+ "strategy": [
+  "Click through to the Air Force Civilian Service Direct Hire Job Board and find specific information and arts openings (e.g., 1035 Public Affairs, 1082 Writing and Editing) near Manassas or in the National Capital Region; apply to those, not just this shell.",
+  "Pull keywords from the actual job listing you choose, since this posting contains almost none; mirror its specialized experience language in a two-page resume.",
+  "Frame your IEM work around what you actually did: e.g., preparing communications, briefings, or plans for government clients, stakeholder coordination, or public outreach during preparedness or recovery efforts.",
+  "Highlight policy fluency as the ability to explain government programs clearly to the public and leadership, which is core to public affairs work.",
+  "For each job, list hours per week and month/year dates, and answer any questionnaire honestly at the level your resume can support line by line.",
+  "The window runs to 2027-03-29, but individual direct-hire jobs fill fast; check the board regularly and set a USAJOBS saved search."
+ ],
+ "resume_bullets": [
+  "Drafted [type of products, e.g., briefings, plans, public messaging] for [number] [federal/state/local] government clients on [emergency preparedness/disaster recovery] programs at IEM, [hours] hrs/week, [MM/YYYY-MM/YYYY].",
+  "Coordinated with [stakeholders, e.g., agency officials, community partners] to [specific task], resulting in [result you can verify].",
+  "Researched and summarized [policy/regulation topic] for [audience], translating complex requirements into [deliverable] used by [user]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you communicated complex information to a nontechnical or public audience.",
+  "How would you handle a sensitive media or public inquiry during an emergency or crisis?",
+  "Describe your experience working with government clients and balancing multiple stakeholders.",
+  "What do you know about the Air Force mission and how would you represent it publicly?"
+ ],
+ "watch_outs": [
+  "This is a placeholder with no real duties or qualifications; applying only here may not get you considered for a specific job.",
+  "Location is negotiable after selection and specific jobs may be outside the DC area; confirm before accepting.",
+  "Promotion potential is listed as none and the pay band is very wide; verify actual grade and salary in the specific listing.",
+  "No telework or remote option, so plan for on-site work."
+ ],
+ "job_id": "usajobs:863071800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

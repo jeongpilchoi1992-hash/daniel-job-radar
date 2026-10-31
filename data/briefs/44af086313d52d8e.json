@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior Executive Service role helping run USDA Farm Service Agency's nationwide network of 51 state and ~2,200 county offices delivering farm and loan programs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES executive job requiring demonstrated senior-level leadership of national agricultural programs, including Farm Bill, Farm Loan, and disaster programs, across a large decentralized field organization. Daniel's consulting background at IEM and strong policy knowledge are relevant to disaster programs and stakeholder engagement, but nothing on file shows executive-level supervision of a large dispersed workforce or agricultural program leadership. A QRB certification would also be required before appointment.",
+ "eligibility": [
+  "Open to the public: hiring paths include public, competitive, excepted, and SES, so no federal status is required.",
+  "Your two-page resume must demonstrate all five Executive Core Qualifications, and a separate narrative is not accepted.",
+  "You must meet the Technical Qualification: senior-level experience leading complex national agricultural programs (Farm Bill, Farm Programs, Farm Loan Programs, disaster and conservation) in a large decentralized field organization.",
+  "Unless you are already SES or SESCDP-certified, the OPM Qualifications Review Board must certify you after selection, followed by a one-year probationary period.",
+  "No security clearance is required."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Farm Bill",
+  "Farm Loan Programs",
+  "disaster and conservation programs",
+  "large, decentralized field organization",
+  "geographically dispersed workforce",
+  "strategic workforce planning",
+  "resource allocation",
+  "senior-level staff supervision",
+  "strategic partnerships",
+  "rural stakeholders",
+  "accountability measures",
+  "operational readiness",
+  "Driving Efficiency",
+  "Rule of Law"
+ ],
+ "strategy": [
+  "Be realistic: apply only if your IEM role included leading teams, budgets, or national-scale federal disaster or agricultural program delivery. Otherwise, target GS-11/12/13 FSA or FEMA program and outreach roles instead.",
+  "If you apply, build the two-page resume around the five ECQs, with one or two quantified bullets each (team size, budget, number of jurisdictions served). Use 11-point font and 0.8-inch margins.",
+  "Frame your IEM work around any USDA or FEMA disaster-recovery programs you supported, stating your client, your scope, and your results, without overstating your title or authority.",
+  "Use your policy expertise for the 'Commitment to the Rule of Law and Principles of the American Founding' ECQ, with concrete examples of applying statutes or regulations.",
+  "Highlight stakeholder work with federal, state, and local agencies and community groups, since this matches both the partnership duty and the TQ.",
+  "Submit before the closing date of November 13, 2026, and make sure every hour-per-week and date detail appears briefly on each job entry."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team at IEM supporting [federal/state client] disaster recovery program across [number] jurisdictions, managing [budget/contract value] and delivering [specific result].",
+  "Interpreted [statute/regulation, e.g., Stafford Act provisions] for [client] officials, producing guidance adopted by [number] offices and reducing [processing time/errors] by [amount].",
+  "Built partnerships with [agencies/community organizations] to assess community needs after [event], informing [recommendation] adopted by [client leadership]."
+ ],
+ "interview_questions": [
+  "Describe a time you led a geographically dispersed team through a major change. How did you hold people accountable?",
+  "How would you ensure consistent delivery of Farm Bill programs across 51 state offices and 2,200 county offices?",
+  "Give an example of cutting waste or improving efficiency through process or technology changes.",
+  "How have you used field feedback to recommend policy changes to senior leadership?"
+ ],
+ "watch_outs": [
+  "The TQ demands specific agricultural program leadership, so applicants without it will likely be rated ineligible.",
+  "SES selection requires OPM QRB certification, which few first-time federal applicants without executive experience pass.",
+  "Content past page two will not be read and may lead to disqualification.",
+  "The position is based in Washington, DC, which means a commute from Manassas, though telework is available."
+ ],
+ "job_id": "usajobs:890625300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

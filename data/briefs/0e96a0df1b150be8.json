@@ -1,0 +1,52 @@
+{
+ "one_liner": "Part-time role at George Mason University's Arlington campus helping plan, set up, and run events; exact duties aren't posted, so confirm them on the listing.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's people skills, comfort with the public, and consulting work on government emergency preparedness may carry over to event logistics and coordination. The role is part-time and appears to be production- and logistics-focused rather than policy-focused, so it fits Daniel's public-policy goals only loosely. With no description, the fit can't be confirmed.",
+ "eligibility": [
+  "Open the full posting to confirm who may apply, required qualifications, and any degree or experience minimums; none are stated in the available facts.",
+  "Confirm the hours, schedule, and pay. Salary isn't listed, and part-time university roles are often hourly and may lack benefits.",
+  "Check whether you'll need to work on-site at the Arlington campus (remote is listed as no) and whether a background check is required."
+ ],
+ "keywords": [
+  "event production",
+  "event coordination",
+  "logistics",
+  "scheduling",
+  "vendor coordination",
+  "audio-visual",
+  "setup and breakdown",
+  "customer service",
+  "stakeholder communication",
+  "on-site support",
+  "event planning",
+  "part-time",
+  "Arlington"
+ ],
+ "strategy": [
+  "Pull the full description from the jobs.virginia.gov or GMU careers page before applying, and mirror its exact wording. The keywords above are guesses based on the title.",
+  "Frame your IEM work around coordination tasks you actually did, such as exercises, meetings, trainings, briefings, or stakeholder sessions. Describe the logistics, scheduling, and attendee management involved.",
+  "Lead with your public-facing, relationship-building strengths and your ability to stay calm when plans change. Emergency-management settings are good evidence of that.",
+  "The posting is listed as open until filled, so apply soon. Virginia state and GMU applications often include supplemental questions, so answer them fully and with specific examples.",
+  "Think about whether part-time work fits your goals. One option is to treat it as a foothold at a public university with policy-oriented events, such as the Schar School in Arlington, while you pursue full-time government roles."
+ ],
+ "resume_bullets": [
+  "Coordinated logistics for [number] [exercises/workshops/meetings] for [government client type] at IEM, managing [scheduling/venues/materials] for [number] participants.",
+  "Served as a point of contact for [stakeholder groups], handling [registration/communications/on-site questions] to keep events running on schedule.",
+  "Supported [setup/AV/agenda preparation] for [event type], working with [vendors/teams] to resolve [type of issue] under tight timelines."
+ ],
+ "interview_questions": [
+  "Tell us about an event or meeting you helped run. What was your role, and what went wrong?",
+  "How do you handle a last-minute change, such as a speaker cancellation or an AV failure?",
+  "What is your availability for evenings and weekends?",
+  "How would you work with faculty, vendors, and guests who have competing priorities?"
+ ],
+ "watch_outs": [
+  "The posting has no description, salary, or schedule. Verify all of these before investing heavily in the application.",
+  "The job is part-time and likely hourly, with possible evening and weekend hours and limited benefits.",
+  "There's no direct policy or government-operations component, so it may only partly advance your career goals.",
+  "Commuting from Manassas to Arlington on-site could be costly relative to part-time pay."
+ ],
+ "job_id": "virginia:part-time-event-production-coordinator-arlington-virginia-united-states-64b778b8-38fe-4561-96d3-416d94645a25",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:52-04:00"
+}

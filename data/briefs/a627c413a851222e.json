@@ -1,0 +1,56 @@
+{
+ "one_liner": "Administrative and mission-support analyst for ICE Health Service Corps' medical air, ground and maritime operations unit, filled only by commissioned U.S. Public Health Service officers.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The duties (travel, property, budget tracking, readiness coordination) overlap with emergency-management consulting work like yours at IEM. However, the posting is open only to USPHS officers and Call to Active Duty candidates, so Daniel cannot apply as a civilian. Becoming a CAD candidate requires a qualifying USPHS-category degree and a separate commissioning process.",
+ "eligibility": [
+  "Open only to current U.S. Public Health Service commissioned officers and Call to Active Duty (CAD) candidates, despite the 'public' hiring path label.",
+  "Requires a qualifying degree for a USPHS officer category plus three years of professional experience relevant to that category.",
+  "Requires at least three years of experience in management, administration or evaluation of programs.",
+  "Must maintain BLS for Healthcare Providers certification (American Heart Association).",
+  "Must be able to attain and maintain a DHS Secret clearance."
+ ],
+ "keywords": [
+  "program analyst",
+  "mission support",
+  "readiness",
+  "CONCUR Travel Coordinator",
+  "TDY",
+  "property",
+  "procurement, inventory, and distribution",
+  "budget request",
+  "data analysis",
+  "program reporting",
+  "policy development",
+  "SharePoint",
+  "Microsoft Project, Visio, Excel",
+  "operational continuity",
+  "stakeholders"
+ ],
+ "strategy": [
+  "Don't spend time applying to this posting. Your civilian application would be screened out because it is USPHS/CAD-only.",
+  "If a USPHS commission interests you, check usphs.gov to see whether your degree fits an officer category, such as Health Services. Then you could pursue CAD separately, a long process with age and medical standards.",
+  "Use this posting as a keyword template for civilian mission-support jobs. Search USAJOBS for open-to-public GS-0343 Program Analyst and GS-0301 Mission Support roles at FEMA, ICE, CBP and DHS that use the same language.",
+  "Frame your IEM work around concrete readiness, logistics, deployment-support, data-tracking and reporting tasks for government clients. List hours per week and keep the resume within two pages.",
+  "Emphasize your relationship-building and stakeholder coordination, which fit the posting's interpersonal and cultural competencies.",
+  "Consider Virginia VDEM or Prince William County / City of Manassas emergency management positions as nearer-term civilian targets."
+ ],
+ "resume_bullets": [
+  "Coordinated [deployment/travel/logistics] support for [number] [staff/responders] on [government client] disaster-recovery projects, tracking [budgets/equipment] in [tool].",
+  "Analyzed [program/expenditure] data and produced [reports/dashboards] in Excel for [client agency], informing [decision or recommendation].",
+  "Served as liaison between [client agency] and [stakeholders/vendors], managing [scheduling/onboarding/document] requirements for [project]."
+ ],
+ "interview_questions": [
+  "Describe a time you handled competing logistics demands when a mission or deployment changed suddenly.",
+  "How have you tracked expenditures or property and used the data to recommend cost-effective purchases?",
+  "Tell us about coordinating across multiple offices or stakeholders to meet a deadline.",
+  "How do you keep current with federal regulations and policies that affect your work?"
+ ],
+ "watch_outs": [
+  "Ineligible as a civilian: the posting is restricted to USPHS officers and CAD candidates.",
+  "Requires a USPHS-category degree and BLS for Healthcare Providers certification.",
+  "Requires a Secret clearance, may cancel leave for missions, and has no promotion potential."
+ ],
+ "job_id": "usajobs:887514900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

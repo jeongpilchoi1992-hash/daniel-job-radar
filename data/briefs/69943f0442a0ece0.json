@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive running VA headquarters' administrative operations: buildings, leases, safety, transportation, mail, warehouses, workers' comp, and transit benefits, through subordinate managers.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires proven executive leadership of a complex organization, plus hands-on oversight of facilities, space and leasing, logistics, and occupational safety programs. Daniel's emergency-management consulting background at IEM and strong civics knowledge touch parts of ECQ 1 and the stakeholder side of the role. Nothing on file shows senior supervisory, budget, or facilities-management leadership, and those are the core requirements.",
+ "eligibility": [
+  "Open to the public and SES candidates (hiring paths: ses, public), so no federal status is needed.",
+  "You must show both Technical Qualifications in your resume: TQ1 (leading a complex, diverse organization with strategic planning, performance measures, and risk and budget management) and TQ2 (facilities and building operations, space management and leasing, logistics, and OSH programs).",
+  "Your resume must show all five ECQs within a strict two-page limit. Resumes over two pages are disqualified, and separate ECQ/TQ narratives are not accepted.",
+  "If selected, your executive qualifications must be certified by OPM's SES Qualifications Review Board, followed by a one-year probationary period.",
+  "No security clearance is required. Education is used only if substituted, and it must come from an accredited institution."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Technical Qualifications",
+  "facilities and building operations",
+  "space management and leasing",
+  "logistics services",
+  "occupational safety and health",
+  "strategic planning",
+  "performance measures",
+  "manage risks within budgetary guidelines",
+  "Continuous Process Improvement",
+  "fiscal responsibility",
+  "cost-benefit analysis",
+  "stakeholders",
+  "employee engagement",
+  "Leading People"
+ ],
+ "strategy": [
+  "Be honest with yourself first: apply only if your IEM role included supervising staff, owning a budget, or running operations. Otherwise, target GS-11/12/13 emergency management, program analyst, or facilities and logistics roles at VA, FEMA, or Virginia VDEM to build toward the SES.",
+  "If you do apply, frame your IEM work around TQ1 and TQ2 language. Examples include leading project teams, managing contract budgets and risk, logistics for disaster recovery operations, and safety or continuity planning for government facilities, but only where it's true.",
+  "Use your policy and civics strength for ECQ 1 (Constitution, federalism, aligning work with presidential and public interests). Use your relationship-building for the stakeholder and executive-relationship performance indicators.",
+  "Write each bullet in a challenge-context-action-result form and include numbers: staff led, dollars managed, and square footage or sites supported. Every ECQ and TQ must be visible within two pages.",
+  "The posting is open October 16–30, 2026. Draft early, keep the resume to two pages, and include hours per week and dates for each job."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team at IEM delivering [disaster recovery/preparedness program] for [government client], managing a [$ amount] budget and tracking [performance measures] to meet contract milestones.",
+  "Coordinated logistics and facility needs for [emergency operation/exercise] across [number] sites, applying [FEMA/OSHA/regulatory framework] in collaboration with [federal/state/local officials].",
+  "Identified [process inefficiency] and implemented [improvement or technology], reducing [cost/time] by [amount] for [client]."
+ ],
+ "interview_questions": [
+  "Describe the largest organization or budget you have led, and how you set priorities and measured performance.",
+  "How would you approach space consolidation or lease decisions for a headquarters building while keeping employees safe and productive?",
+  "Tell us about a time you held someone accountable for poor performance.",
+  "How do you align an organization's work with Administration priorities and the law?"
+ ],
+ "watch_outs": [
+  "SES positions effectively require several years of senior executive leadership, and the QRB will reject candidates without it, so this is a very low-probability application for you.",
+  "The two-page resume limit is enforced with disqualification, and no ECQ narratives are allowed.",
+  "The application window is only two weeks (October 16–30, 2026)."
+ ],
+ "job_id": "usajobs:889061500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

@@ -1,0 +1,57 @@
+{
+ "one_liner": "Team lead for the Capitol Police vehicle fleet: parts warehouses, inventory, EZ Pass/tags/keys/accident programs, Power BI reporting, budget tracking, and training fleet staff.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The posting requires 52 weeks of specialized experience at the CP-7/GS-9 level in fleet operations, warehouse inventory control, fleet records and expenditure reconciliation, and training fleet personnel, with no education substitution. Daniel's known background is emergency-management consulting at IEM, policy knowledge, and people skills, none of which shows hands-on fleet or warehouse work. Unless Daniel's IEM role directly involved fleet, logistics, or inventory management, Daniel is unlikely to pass minimum qualifications.",
+ "eligibility": [
+  "Open to the public; U.S. citizenship required, so no federal status is needed.",
+  "Must show at least 52 weeks of specialized experience equivalent to CP-7/GS-9 covering all four areas: fleet operations analysis, fleet and inventory transactions and reconciliation, warehouse inventory control, and mentoring fleet personnel.",
+  "No education substitution: a degree cannot replace the experience requirement.",
+  "Must pass a full field background investigation and pre-employment evaluation, then complete a one-year probationary period."
+ ],
+ "keywords": [
+  "fleet operations",
+  "inventory management",
+  "inventory control",
+  "storage facility warehouse",
+  "fleet parts",
+  "reconciling accounts and expenditures",
+  "workflow issues",
+  "Microsoft Power BI",
+  "customer satisfaction",
+  "accident management program",
+  "tags and registration",
+  "key management program",
+  "lease purchase of fleet vehicles",
+  "budget development, preparation, and execution",
+  "procurement and payments",
+  "mentoring and/or training"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether your IEM work included fleet, vehicle, equipment, warehouse, or supply logistics, such as disaster-response asset tracking. If it did not, consider skipping this posting rather than overstating experience.",
+  "If you have relevant logistics work, describe each of the four specialized-experience elements explicitly in your two-page resume, with dates, hours per week, and the systems you used.",
+  "Answer the assessment questionnaire truthfully. Only claim 'expert' levels you can back up with a specific resume line, because USCP checks the questionnaire against your resume.",
+  "Address the KSAs in the narrative responses as the posting instructs, using concrete examples tied to fleet, inventory, budget tracking, and team training.",
+  "Apply well before the extended November 5, 2026 deadline, and save copies of all uploaded documents.",
+  "For a better match to Daniel's policy and people strengths, also search USCP and Legislative Branch postings for community outreach, legislative liaison, and emergency-preparedness program roles."
+ ],
+ "resume_bullets": [
+  "Tracked and reconciled [number/type] of [vehicles/equipment/supplies] valued at [$ amount] in [system name] for [client/project], updating records and resolving discrepancies [frequency].",
+  "Analyzed [logistics/fleet/supply] workflow issues for [client] and recommended [specific change], resulting in [actual result, if known].",
+  "Trained and mentored [number] [staff/team members] on [inventory/operational] procedures for [program/deployment] at IEM."
+ ],
+ "interview_questions": [
+  "Describe a time you managed inventory across multiple storage locations. How did you keep records accurate?",
+  "How have you used Power BI or similar tools to report on operations and spending?",
+  "How would you lead and train a team of fleet specialists while making sure project changes stay within the original funding?",
+  "Tell us about a time you gathered customer feedback and implemented an improvement."
+ ],
+ "watch_outs": [
+  "The specialized experience is narrow and technical, and emergency-management consulting alone likely won't qualify.",
+  "The job is fully onsite in Washington, DC, with no telework, which means a daily commute from Manassas.",
+  "A full field background investigation and one-year probation are required.",
+  "Grade CP-08 has no promotion potential beyond 08."
+ ],
+ "job_id": "usajobs:889713100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

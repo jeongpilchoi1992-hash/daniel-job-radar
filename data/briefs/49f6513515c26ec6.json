@@ -1,0 +1,56 @@
+{
+ "one_liner": "Run Joint Commission accreditation readiness and performance-improvement programs for a Navy health clinic at Patuxent River, Maryland, advising clinical leadership on compliance.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The specialized experience requires a year of hospital accreditation work under Joint Commission standards, collaboration with clinical staff, healthcare regulatory compliance, and electronic health record data analysis. Nothing on file shows Daniel has healthcare or accreditation experience. Daniel's IEM consulting background may cover readiness, compliance and briefing skills, but those do not substitute for the hospital-specific requirements, and education cannot substitute either.",
+ "eligibility": [
+  "Open to all U.S. citizens under Direct Hire Authority; no federal status or veterans' preference is needed.",
+  "One year of GS-11-equivalent specialized experience covering all four elements: Joint Commission hospital readiness and accreditation, work with hospital leadership and clinical staff, healthcare regulatory compliance, and EHR data analysis.",
+  "Experience alone qualifies; no education substitution is permitted.",
+  "You must be able to obtain and keep a Secret clearance.",
+  "GS-12 with no promotion potential, located on-site at Patuxent River, MD (telework-eligible, not remote)."
+ ],
+ "keywords": [
+  "The Joint Commission",
+  "accreditation",
+  "readiness",
+  "mock surveys",
+  "compliance checklists",
+  "Performance Improvement (PI)",
+  "Quality Improvement/Process Improvement",
+  "executive summaries",
+  "briefings",
+  "regulatory guidance",
+  "electronic health systems",
+  "identify trends",
+  "operational deficiencies",
+  "Defense Health Agency",
+  "strategic planning"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether any IEM project touched hospitals, healthcare preparedness, or accreditation, such as hospital emergency preparedness or Joint Commission emergency management standards. If not, you likely will not qualify, so put your time into better-matched postings.",
+  "If you did support healthcare clients, describe that work concretely on your two-page resume, mapping one bullet to each of the four specialized-experience elements and giving dates and hours per week.",
+  "Frame consulting work as readiness assessments, compliance reviews, exercises, and after-action reports, and only where accurate, since 'mock surveys' parallel preparedness exercises.",
+  "Answer the questionnaire truthfully. The posting warns that inflated answers lose consideration, and the resume must support every 'expert' rating.",
+  "The window is short (Oct 22–30, 2026), so apply early. Also look for GS-9/11 emergency management or program analyst roles at FEMA, DHS, and Virginia's VDEM that better fit your preparedness and policy strengths."
+ ],
+ "resume_bullets": [
+  "Supported [client type, e.g., hospital/health system] readiness program by conducting [number] compliance assessments against [standard, e.g., Joint Commission Emergency Management chapter], identifying [number] deficiencies and recommending corrective actions ([dates], [hours]/week).",
+  "Designed and facilitated [number] preparedness exercises for [client], analyzing results to identify vulnerabilities and briefing [senior leadership audience] through executive summaries.",
+  "Analyzed [data source/system] data to identify trends in [topic], producing reports that informed [decision or process change]."
+ ],
+ "interview_questions": [
+  "Describe how you prepared an organization for a Joint Commission survey or similar accreditation review.",
+  "How would you plan and run a facility-wide mock survey, and how would you get department chiefs to correct findings?",
+  "Give an example of interpreting complex regulatory guidance and turning it into an actionable compliance process.",
+  "Tell us about using health system or operational data to identify a trend and drive an improvement."
+ ],
+ "watch_outs": [
+  "Specialized experience is hospital- and Joint Commission-specific, with no education substitution, so Daniel likely does not qualify without healthcare accreditation work.",
+  "Requires a Secret clearance.",
+  "Patuxent River, MD is a long commute from Manassas (roughly 1.5–2+ hours each way), and the job is telework-eligible but not remote.",
+  "The application window is only 9 days and closes October 30, 2026."
+ ],
+ "job_id": "usajobs:889608700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

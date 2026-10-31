@@ -1,0 +1,54 @@
+{
+ "one_liner": "A George Mason University staff role coordinating research events and keeping facilities running smoothly, likely on the Arlington campus. The posting text is not available.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's people skills and comfort with the public suit an events-coordination role, and consulting work at IEM likely involved logistics, exercises, or stakeholder meetings that transfer well. The facilities-operations side is less proven, and with no description on file, fit can't be confirmed until Daniel reads the full posting.",
+ "eligibility": [
+  "Open the full posting on jobs.virginia.gov or GMU's Jobs site to confirm who may apply, required qualifications, and the salary range. None of these are stated in the data provided.",
+  "Check for any required degree, years of events or facilities experience, or certifications. No degree or license requirement is known yet.",
+  "Expect a criminal background check, which is standard for GMU staff positions.",
+  "Confirm work location (Arlington campus) and whether any telework is allowed. The facts list the job as not remote."
+ ],
+ "keywords": [
+  "research events",
+  "events coordination",
+  "facilities operations",
+  "logistics",
+  "scheduling",
+  "vendor coordination",
+  "space management",
+  "stakeholder engagement",
+  "customer service",
+  "event planning",
+  "budget tracking",
+  "work orders",
+  "faculty and researchers",
+  "university"
+ ],
+ "strategy": [
+  "Get the full description first and mirror its exact duty and qualification language. The keywords above are inferred from the title only.",
+  "Frame IEM experience around concrete logistics, such as coordinating meetings, trainings, exercises, or site visits for government clients, if that was part of your role. State only what you actually did.",
+  "Lead with relationship-building and public-facing strengths, since research events mean hosting faculty, sponsors, and policymakers. Your policy knowledge is a plus for Arlington-based policy research centers.",
+  "Add any facilities-adjacent experience, such as room setup, AV, equipment, safety or continuity planning, or contractor coordination. Emergency-preparedness work can show strength in facility safety planning.",
+  "State resumes aren't limited to two pages, but keep yours tight and fill out every field in the application. Virginia screeners score against the posted KSAs.",
+  "Apply promptly, because 'open until filled' postings can close without notice. Prepare a short cover letter naming the research center if it is identified."
+ ],
+ "resume_bullets": [
+  "Coordinated logistics for [number] [meetings/trainings/exercises] for [government client type] at IEM, managing [venues, vendors, schedules, materials] for up to [number] participants.",
+  "Served as primary point of contact for [stakeholder group], handling [requests/communications] and resolving [issues] to keep [project/event] on schedule.",
+  "Supported [preparedness/continuity] planning by [specific task], including [facility, safety, or space considerations] for [client]."
+ ],
+ "interview_questions": [
+  "Walk us through an event you planned from start to finish. What went wrong, and how did you handle it?",
+  "How would you prioritize competing room, equipment, and event requests from multiple researchers?",
+  "Tell us about a time you worked with vendors or facilities staff to fix a problem quickly.",
+  "How does your emergency management consulting background apply to running a university facility and its events?"
+ ],
+ "watch_outs": [
+  "The posting description, salary, and closing date are all missing, so verify details before investing heavy effort.",
+  "The facilities-operations duties may include evening or weekend event support, physical setup, or on-call work.",
+  "This may be an operations and logistics role rather than a policy career path. Weigh how it advances your goals, though GMU's Arlington policy centers can offer useful networking."
+ ],
+ "job_id": "virginia:research-events-facilities-operations-coordinator-arlington-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:52-04:00"
+}

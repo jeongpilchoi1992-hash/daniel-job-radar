@@ -1,0 +1,57 @@
+{
+ "one_liner": "Manage cost, schedule and contracts for NGA acquisition programs: write RFPs and SOWs, review invoices, oversee contractors, and track budgets in a TS/SCI environment.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's consulting work at IEM for government clients may involve project management, client requirements, and contract deliverables, but this role is heavily acquisition-focused, covering RFPs, statements of work, cost estimates, invoice review, and contract oversight. Daniel's policy knowledge and people skills help with collaboration, but qualification depends on whether Daniel can document hands-on contract, invoice, and budget work. Daniel also needs the required degree, coursework, or about 4 years of related experience.",
+ "eligibility": [
+  "Open to the public, so U.S. citizens without federal status may apply; the position is DCIPS Excepted Service.",
+  "You must be able to obtain and keep a Top Secret/SCI clearance, pass a counterintelligence polygraph and a drug test, and file an annual SF-714 financial disclosure.",
+  "Education or experience: (A) a bachelor's degree in Accounting, Business Administration, Engineering, Finance, Math, Operations Research, Statistics or GIS; (B) 24 semester hours in those fields plus experience totaling 4 years; or (C) 4 years of experience in accounting, cost estimation, project management, requirements definition or a related area.",
+  "Your resume must give specific examples and results for all five Mandatory Qualification Criteria, including RFP/SOW/cost estimate work and invoice review and approval.",
+  "DAWIA certification may be required; new acquisition workforce members get 36 to 60 months after entry to earn it."
+ ],
+ "keywords": [
+  "cost, schedule, and technical performance",
+  "acquisition",
+  "requests for proposals (RFP)",
+  "statement of work",
+  "cost estimates",
+  "reviewing invoices",
+  "allowability",
+  "risk mitigation",
+  "contract oversight",
+  "requirements frequently change",
+  "contractor performance",
+  "resource requirements",
+  "engaging and collaborating across organizations",
+  "planning, executing, and reporting on budgets",
+  "Attention to Detail"
+ ],
+ "strategy": [
+  "Before applying, list exactly what you did at IEM on proposals, SOWs, task orders, deliverables, invoices, budgets, and schedules. If you never touched contracts or invoices, this role is likely out of reach, so consider analyst or coordinator roles instead.",
+  "Write one short resume section for each of the five mandatory criteria and use the posting's exact wording. Examples: 'developed cost estimates for [client] proposal' or 'reviewed [number] monthly invoices for accuracy.'",
+  "Frame emergency-management and disaster-recovery work as project management where requirements change frequently. FEMA-funded recovery projects are a good example, with shifting scopes, deadlines, and compliance rules.",
+  "Show the four competencies: Attention to Detail, Customer Service, Oral Communication and Problem Solving. Use your client-relationship strengths here, but tie them to IT-related or program work as the posting asks.",
+  "Build your resume in the NGA resume builder, keep it to two pages, and include dates and hours per week. Upload a short cover letter and your transcripts if you rely on degree coursework.",
+  "The application window is short, Oct 19 to Oct 31, 2026, and this is a hiring event, so submit early and watch your email for event or interview scheduling."
+ ],
+ "resume_bullets": [
+  "Managed schedule, budget and deliverables for [number] [emergency management/disaster recovery] projects for [government client], tracking costs against a $[amount] budget and reporting status to [client role].",
+  "Helped develop [statements of work/proposals/cost estimates] for [client] by gathering requirements from [stakeholders], contributing to [outcome].",
+  "Reviewed [number] [subcontractor/project] invoices for accuracy and allowability, resolved [type of] discrepancies, and recommended payments under [contract type]."
+ ],
+ "interview_questions": [
+  "Describe a time you developed or contributed to a statement of work or cost estimate. How did you gather customer requirements?",
+  "Tell us about a time you found an error or discrepancy in an invoice or financial report. What did you do?",
+  "How have you managed a project when requirements changed suddenly under a tight deadline?",
+  "How have you held a contractor or team accountable for cost, schedule or performance?"
+ ],
+ "watch_outs": [
+  "The TS/SCI clearance with polygraph can take many months, and financial or foreign-contact issues can derail it.",
+  "The role is acquisition-heavy, and without documented contract, invoice and budget experience Daniel may not pass the mandatory criteria screen.",
+  "The position is on-site only with no telework, and 'Multiple Locations' could include NGA Springfield (VA) or St. Louis, so confirm which location applies.",
+  "The Oct 31 close leaves a short window, and the recruitment incentive requires a service agreement with possible repayment if you leave early."
+ ],
+ "job_id": "usajobs:889210400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

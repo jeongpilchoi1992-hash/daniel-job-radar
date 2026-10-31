@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive Service leader running USDA's Specialty Crops Program: 600 staff, inspection, grading, market news, PACA enforcement, hemp, budgets, and Congress/industry relations.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES position level 2 that requires proven executive leadership of large, geographically dispersed organizations and specific food and agricultural program experience (TQ 1). Nothing on file shows Daniel has executive-level management or agriculture-sector experience. Daniel's policy knowledge and stakeholder skills are real assets, but they cannot substitute for the required ECQ/TQ evidence.",
+ "eligibility": [
+  "Open to the public (hiring paths include 'public'), so no federal status is needed, but the posting is SES Career-Reserved.",
+  "You must show all five Executive Core Qualifications and both Technical Qualifications within a two-page resume using 0.8-inch margins and 11-point font. Pages beyond two are not reviewed or may be disqualified.",
+  "TQ 1 requires experience developing and directing programs and policies for the food and agricultural industries.",
+  "A Secret clearance is required, and selectees must be certified by OPM's SES Qualifications Review Board before appointment, followed by a one-year probationary period."
+ ],
+ "keywords": [
+  "Executive Core Qualifications",
+  "Technical Qualifications",
+  "Specialty Crops",
+  "food and agricultural industries",
+  "geographically dispersed organization",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results",
+  "Merit and Competence",
+  "Commitment to the Rule of Law",
+  "Fiscal Responsibility",
+  "stakeholders",
+  "members of Congress",
+  "interagency",
+  "user fee"
+ ],
+ "strategy": [
+  "Be honest with yourself: apply only if your IEM role involved executive leadership, such as directing large teams, budgets, or programs, plus some agriculture or food-sector work. Otherwise, save the effort for GS-9 to GS-13 policy, emergency management, or legislative affairs roles, including USDA ones.",
+  "If you do apply, organize the two-page resume so each ECQ and TQ is visibly evidenced, for example with short bracketed labels like [ECQ 2: Driving Efficiency]. List dates, hours per week, team size, and budget for each job.",
+  "Frame IEM work as program management for government clients, such as disaster recovery or USDA disaster programs if applicable. Quantify scope: [staff led], [dollars managed], [jurisdictions served].",
+  "Use your strong civics knowledge to address ECQ 1 (American system of government, rule of law) with concrete examples, not general statements.",
+  "Submit before the November 15, 2026 close. Do not attach separate ECQ/TQ narratives, because the process is resume-only.",
+  "Consider USDA AMS or FSA positions at a lower grade as a realistic stepping stone toward this kind of role."
+ ],
+ "resume_bullets": [
+  "Managed [program/contract name] for [government client], directing [number] staff across [number] locations and overseeing a [$ amount] budget; achieved [result]. [ECQ 4/TQ 2]",
+  "Advised [federal/state/local officials] on [policy or recovery program], coordinating with [interagency partners/legislative staff] to deliver [outcome]. [ECQ 1]",
+  "Redesigned [process] for [client], cutting [cost/time] by [amount] through [technology/process change]. [ECQ 2]"
+ ],
+ "interview_questions": [
+  "Describe a time you led a large, geographically dispersed workforce through organizational change and held people accountable.",
+  "How would you balance user-fee funded and appropriated programs while cutting wasteful spending?",
+  "How would you represent the program before members of Congress and national trade groups on a contentious marketing order or PACA issue?",
+  "What experience do you have shaping policy for the food and agricultural industries?"
+ ],
+ "watch_outs": [
+  "SES positions effectively require years of senior executive experience. Without it, the application will likely be rated ineligible.",
+  "Agriculture-specific experience (TQ 1) is required, and nothing on file shows you have it.",
+  "A Secret clearance and QRB certification are required, and the strict two-page format with 0.8-inch margins and 11-point font is enforced."
+ ],
+ "job_id": "usajobs:888951800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

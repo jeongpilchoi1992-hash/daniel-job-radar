@@ -1,0 +1,54 @@
+{
+ "one_liner": "Entry-level grocery store job at a military base commissary: stocking shelves, running checkout, helping shoppers, and doing basic inventory paperwork.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel qualifies easily: one year of general clerical, office, or other responsible work, such as the IEM consulting job, meets the GS-4 bar, and the posting uses Direct Hire. Daniel's people skills fit the customer service work, but this is a physical retail job with no promotion potential and no use of Daniel's policy or emergency-management background. It works only as a quick foot in the federal door, not as a career match.",
+ "eligibility": [
+  "Open to the public (also federal transition and military spouses), so no prior federal status is needed.",
+  "Minimum qualification is one year of progressively responsible clerical, office, or other work, OR two full years of post-high-school education (transcripts required if used), OR a combination.",
+  "You must attest that you can stand, stoop, kneel, bend, and climb for long periods and lift up to 40 lbs independently.",
+  "Security clearance is listed as 'Other', so expect a background check or base-access screening; confirm the details in the full posting.",
+  "Positions are at multiple locations; confirm a commissary near Manassas (e.g., Fort Belvoir, Quantico, Fort Myer) is actually hiring."
+ ],
+ "keywords": [
+  "Customer Service",
+  "Electronic Checkout System",
+  "Store Operations",
+  "Safety & Housekeeping",
+  "Clerical & Administrative",
+  "Communications",
+  "stocking grocery and produce items",
+  "Computer Assisted Ordering (CAO)",
+  "maintain stock levels",
+  "gathering inventory data",
+  "reconcile invoices",
+  "submit requisitions",
+  "assisting customers",
+  "security, safety, and sanitation"
+ ],
+ "strategy": [
+  "Apply within 14 days of the May 1, 2026 open date (by about May 15) to make the initial cut-off; later applications are considered only if more vacancies come in.",
+  "Frame the IEM role around its clerical and administrative tasks, such as documents, tracking data, coordination, and client communication, so it clearly shows one year of general experience with dates and hours per week.",
+  "Add any past retail, food service, warehouse, or volunteer experience, because the posting credits unpaid work and it directly matches the competencies.",
+  "Answer the questionnaire honestly but fully, and make sure each 'expert' claim is backed by a line on your two-page resume.",
+  "Pick specific commissary locations near Manassas in the application, and keep applying to policy, emergency-management, and legislative roles that better match your goals."
+ ],
+ "resume_bullets": [
+  "Assisted [number] government clients and stakeholders by answering questions, resolving issues, and following up promptly while working at IEM [dates, hours/week].",
+  "Prepared and maintained [type of documents, e.g., reports or trackers] and gathered data to support [project/purpose], ensuring accuracy and deadlines were met.",
+  "[If applicable] Stocked merchandise, operated a cash register, and maintained safe, clean work areas at [employer], serving about [number] customers per shift."
+ ],
+ "interview_questions": [
+  "Tell me about a time you helped a frustrated customer or member of the public.",
+  "How would you handle a cash drawer that doesn't balance at the end of your shift?",
+  "Are you comfortable lifting up to 40 pounds, working in refrigerated areas, and working occasional overtime?",
+  "Why do you want to work at a military commissary?"
+ ],
+ "watch_outs": [
+  "Promotion potential is 'None', and the pay is $17.82–$25.95 per hour, well below what your consulting background could command.",
+  "The work is physically demanding: cold rooms, wet floors, heavy lifting, and minor injuries are noted.",
+  "There is no telework, and you may need base-access or background screening; schedules may include weekends."
+ ],
+ "job_id": "usajobs:867188100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

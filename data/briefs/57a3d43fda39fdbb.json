@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior Pentagon analyst overseeing DoD maritime munitions acquisition programs: cost, schedule, risk, budget reviews, and congressional/GAO responses.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires a year of GS-13-equivalent experience directing acquisition oversight for major defense or weapons programs, plus SCI clearance eligibility. Daniel's emergency-management consulting and policy knowledge help with the congressional and legislative-review duties, but nothing on file shows defense acquisition or weapons-program experience. The posting will reject applicants who do not clearly document all three specialized experience elements.",
+ "eligibility": [
+  "Open to the public (U.S. citizens) under Direct Hire Authority; no federal status needed, but veterans' preference is applied as a positive factor.",
+  "One year of specialized experience equivalent to GS-13 covering: end-to-end acquisition oversight of a major defense portfolio, weapons systems, or critical technology programs; evaluating acquisition strategies, baselines, and milestone documentation; and leading cross-functional teams across military service staffs and oversight bodies.",
+  "Must be able to obtain and keep a Sensitive Compartmented Information (SCI) clearance.",
+  "Education cannot substitute for experience, and qualifications must be met by the November 4, 2026 closing date.",
+  "Resume limited to two pages, with months and hours per week listed for each job."
+ ],
+ "keywords": [
+  "acquisition oversight",
+  "life cycle management",
+  "acquisition strategies",
+  "acquisition program baselines",
+  "milestone documentation",
+  "programmatic risks",
+  "cost and schedule estimates",
+  "technical risk",
+  "industrial base",
+  "Program and Budget Reviews",
+  "Congressional reporting requirements",
+  "Defense Authorization and Appropriations acts",
+  "GAO findings and recommendations",
+  "congressional inquiries or testimony",
+  "military service staffs"
+ ],
+ "strategy": [
+  "Before applying, honestly check whether any IEM work involved federal acquisition, contract or program oversight, cost/schedule tracking, or DoD clients; if none did, treat this as a stretch and put more effort into better-matched roles.",
+  "If you supported FEMA or DoD programs at IEM, describe them in acquisition terms: program baselines, cost and schedule risk, milestone reviews, and coordination with agency leadership and oversight bodies.",
+  "Lead with legislative work you can document, such as tracking appropriations or authorization language, preparing responses to audits (GAO/OIG), or drafting congressional or oversight materials.",
+  "Within the two-page limit, address each of the three specialized-experience elements explicitly, with dates and hours per week, because HR screens only for minimum qualifications.",
+  "The application window is only six days (Oct 30–Nov 4, 2026), so finish the resume beforehand and apply early. This is a standing public notice, so you can reapply once you have stronger experience.",
+  "Consider entry points that fit you better, such as lower-band AcqDemo or GS-11/12 program analyst roles, FEMA, or DoD legislative affairs positions."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] [program name] valued at [$X], tracking cost, schedule, and performance against [baseline/milestones] and flagging [type of risks] to [leadership level].",
+  "Analyzed [federal legislation/appropriations provisions] affecting [program area] and prepared [briefings/options papers] for [client officials].",
+  "Coordinated [number] cross-functional stakeholders from [agencies/offices] to [outcome], [X] hours/week, [month/year]–[month/year]."
+ ],
+ "interview_questions": [
+  "Describe a time you identified an unrealistic cost or schedule estimate on a program, and what you recommended.",
+  "How would you review the NDAA and appropriations acts for provisions affecting a munitions portfolio?",
+  "How do you get military service staff to comply with OSD guidance when you have no direct authority over them?",
+  "Walk us through how you would prepare a DoD response to a GAO finding."
+ ],
+ "watch_outs": [
+  "The specialized experience requires defense acquisition or weapons-program oversight, which Daniel's known background does not show; the resume may be screened out as not qualified.",
+  "SCI clearance is required, and the investigation is lengthy.",
+  "The position is on-site at the Pentagon with no telework, which means a daily commute from Manassas.",
+  "The six-day open window is very short."
+ ],
+ "job_id": "usajobs:890937600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

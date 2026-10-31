@@ -1,0 +1,56 @@
+{
+ "one_liner": "Oversee and evaluate VA health care contractor performance: build KPIs, run quality reviews, analyze data, and recommend corrective actions for VHA leadership in DC or Lakewood, CO.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's IEM consulting work for government clients may involve program analysis, reporting, and stakeholder coordination, and Daniel's policy knowledge and people skills match the interpersonal competencies. However, GS-12 requires one year of GS-11-equivalent specialized experience that the posting frames around healthcare program performance, contractor oversight, and quality data analysis. Emergency-management consulting will only qualify if Daniel can document substantial analytical, performance-measurement, and compliance work, ideally with a health or medical angle.",
+ "eligibility": [
+  "Open to all U.S. citizens (public hiring path); no federal status needed.",
+  "One year of specialized experience equivalent to GS-11: analyzing healthcare program/contractor performance, quality and compliance data, regulations, and reporting to management. No education substitution at GS-12.",
+  "Resume must list job title, duties, month/year start and end dates, and hours per week for every job.",
+  "Must pass an online competency assessment cut score, plus a background investigation, REAL ID-compliant identification, flu vaccination, and a 1-year probationary period.",
+  "Must live within, or relocate to, commuting distance of Washington, DC or Lakewood, CO. Manassas to DC is commutable."
+ ],
+ "keywords": [
+  "program performance",
+  "contractor performance",
+  "oversight",
+  "performance and quality reviews",
+  "key performance indicators (KPIs)",
+  "root cause analysis",
+  "corrective actions",
+  "Lean Six Sigma",
+  "Continuous Process Improvement (CPI)",
+  "Quality Assurance and Surveillance Plan (QASP)",
+  "qualitative and quantitative data",
+  "validate data",
+  "dashboards",
+  "standard operating procedures (SOPs)",
+  "compliance"
+ ],
+ "strategy": [
+  "Frame your IEM role around analysis and oversight. Describe any work evaluating program or grant performance, tracking compliance with FEMA or federal requirements, building metrics, and briefing government clients. Only include what you actually did.",
+  "Highlight any health-related emergency work you did, such as public health preparedness, hospital or medical surge planning, or COVID-era support. The specialized experience examples repeatedly say \"healthcare.\"",
+  "Keep the resume to two pages. Put month/year dates and hours per week first in each job entry, and mirror the specialized experience language closely.",
+  "Answer the questionnaire honestly at the level your resume supports. The posting warns that overstating your experience can get you removed, and HR will check the questionnaire against your resume.",
+  "Prepare for the online competency assessment, which covers judgment, interpersonal skills, and reasoning. Set aside uninterrupted time, because failing the cut score or skipping it ends your candidacy.",
+  "The posting is open only October 23–30, 2026, so apply early in that window. Select Washington, DC as your duty location, and have your resume finished before it opens."
+ ],
+ "resume_bullets": [
+  "Evaluated [program/contract name] performance for [government client] against [requirements/metrics], identifying [number/type] deficiencies and recommending corrective actions adopted by [whom].",
+  "Developed [KPIs/dashboards/tracking tools] in [Excel/Power BI/etc.] to monitor [compliance/quality/progress], validating data from [sources] for [frequency] leadership reports.",
+  "Researched and interpreted [Stafford Act/FEMA/HHS/other] regulations and policies to assess impact on [program], producing [reports/briefings/SOPs] for [audience]."
+ ],
+ "interview_questions": [
+  "Describe a time you evaluated a contractor's or program's performance and recommended corrective action. What happened afterward?",
+  "How have you developed performance measures or KPIs, and how did you make sure the data was accurate?",
+  "Tell us about using root cause analysis or a process improvement method to solve a recurring problem.",
+  "How would you handle a contractor or stakeholder who disagrees with your oversight findings?"
+ ],
+ "watch_outs": [
+  "The application window is only one week (October 23–30, 2026), so missing it means waiting for the next posting.",
+  "Qualifying is a real risk: without one documented year of GS-11-level analytical work with a healthcare or contractor-oversight focus, you may be rated ineligible. Consider applying to GS-9/11 analyst roles in parallel.",
+  "The job is on-site, with ad-hoc telework only, and the posting is unclear about where the DC office is. There is no promotion potential beyond GS-12, and the job requires some travel."
+ ],
+ "job_id": "usajobs:890070700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

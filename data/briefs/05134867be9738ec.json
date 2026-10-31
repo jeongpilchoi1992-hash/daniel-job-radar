@@ -1,0 +1,53 @@
+{
+ "one_liner": "A project or program manager role at Virginia Tech (a state university), rank/level set by experience, based in Arlington or Blacksburg; duties not described.",
+ "fit_rating": "Stretch",
+ "fit_summary": "With no description, fit is hard to judge. Daniel's consulting work at IEM on government emergency management and recovery projects could translate to project/program coordination, and Arlington is commutable from Manassas. Daniel's people and policy strengths help, but the actual focus (research, IT, outreach, etc.) is unknown and could make this a weak match.",
+ "eligibility": [
+  "Open the full posting on Virginia Tech's careers site (jobs.vt.edu) to confirm duties, required qualifications and education. None are stated here.",
+  "\"Open Rank\" means the level (e.g., associate, senior) depends on experience. Check the minimum years of project management experience for each rank.",
+  "Confirm whether the role is based in Arlington or Blacksburg and whether you can choose. Blacksburg is about 4 hours from Manassas.",
+  "Check for any required degree or certification (e.g., PMP). Neither is stated in the facts provided."
+ ],
+ "keywords": [
+  "Project Manager",
+  "Program Manager",
+  "Virginia Tech",
+  "project management",
+  "program management",
+  "stakeholder",
+  "coordination",
+  "budget",
+  "schedule",
+  "deliverables",
+  "reporting",
+  "Commonwealth of Virginia",
+  "Arlington"
+ ],
+ "strategy": [
+  "Find the full announcement on Virginia Tech's site before applying; tailor your resume only after reading the real duties and minimum qualifications.",
+  "Frame your IEM experience around project work: government clients served, deliverables, deadlines, team coordination and client communication. Use your actual title and duties.",
+  "Emphasize relationship-building with government stakeholders and your policy knowledge, which suits university programs that interface with federal or state agencies (common at the Arlington campus).",
+  "State government/university resumes aren't held to the federal two-page rule, but keep yours to 1-2 pages focused on project outcomes.",
+  "Apply soon. \"Open until filled\" postings can close without notice once a strong pool exists.",
+  "Prepare a cover letter connecting your consulting background to the program's mission once known."
+ ],
+ "resume_bullets": [
+  "Coordinated [number] [type] projects for [government client type] at IEM, managing schedules, deliverables and client communication to meet [deadline/requirement].",
+  "Served as liaison between [client agency/stakeholders] and project teams, facilitating [meetings/workshops] for [number] participants on [emergency management/recovery topic].",
+  "Tracked [budget/tasks/milestones] using [tool] and produced [weekly/monthly] status reports for [audience]."
+ ],
+ "interview_questions": [
+  "Describe a project you managed from start to finish. How did you handle scope, schedule and stakeholders?",
+  "How have you kept a project on track when priorities or client needs changed?",
+  "Tell us about a time you built a working relationship with a difficult stakeholder.",
+  "Why do you want to work in a university setting, and what interests you about this program?"
+ ],
+ "watch_outs": [
+  "No job description, salary or qualifications are provided. You must review the full posting before investing effort.",
+  "The Blacksburg location would require relocation or a very long commute from Manassas. Confirm that Arlington is an option.",
+  "Rank and pay depend on experience, and senior ranks may require years of formal PM experience or a PMP."
+ ],
+ "job_id": "virginia:open-rank-project-program-manager-arlington-virginia-united-states-blacksburg",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

@@ -1,0 +1,57 @@
+{
+ "one_liner": "A Navy headquarters budget analyst job: building, justifying and tracking budgets, reconciling accounts and strengthening internal controls for the CNO's office.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role needs at least one year of hands-on federal-style budget and financial analysis at the GS-11 or GS-12 level, such as reconciliations, status-of-funds reporting and budget estimates. Nothing on file shows that Daniel has done financial management work. Daniel's policy knowledge and people skills are real strengths, but they are not the specialized experience being screened. If Daniel's IEM role involved grant, cost or budget tracking for disaster programs, the fit improves, so Daniel should confirm that before applying.",
+ "eligibility": [
+  "The posting is open to the public under Direct Hire Authority, so no federal status or veterans' preference is needed.",
+  "GS-12 requires one year of specialized experience equivalent to GS-11, such as account reconciliations, cost and schedule financial performance tracking, and interpreting financial policy. GS-13 requires one year equivalent to GS-12, such as allocating budget resources, status-of-funds metrics and complex budget estimates.",
+  "Education cannot be substituted for experience, so a degree alone will not qualify you.",
+  "A Secret security clearance is required, so expect a background investigation.",
+  "This is a flyer, not a USAJOBS application. Follow the 'How to Apply' instructions in the flyer exactly, and note that no Notice of Results letter will be sent."
+ ],
+ "keywords": [
+  "budget formulation",
+  "justification",
+  "execution",
+  "financial management analysis",
+  "internal controls",
+  "audit risk",
+  "fiscal stewardship",
+  "monthly reconciliations",
+  "status of funds",
+  "financial reporting",
+  "budget estimates",
+  "financial plans",
+  "cost and schedule",
+  "interpret budgetary policies",
+  "corrective actions"
+ ],
+ "strategy": [
+  "Before applying, list any IEM work that touched money, such as FEMA Public Assistance or grant cost tracking, project budgets, invoice reconciliation, or burn-rate reports. Apply only if you can honestly document about a year of it.",
+  "If you qualify, target GS-12 rather than GS-13. The GS-12 is the developmental level and has the lower specialized-experience bar.",
+  "Keep the resume to two pages. For each job, list start and end dates (month/year) and hours per week, and state the financial duties first using the posting's exact phrases.",
+  "Frame emergency-management consulting around federal funding rules, for example interpreting Stafford Act or 2 CFR 200 cost requirements. Mention policy and stakeholder skills only as supporting points.",
+  "The window is only October 26–30, 2026. Have your resume ready beforehand and submit by the flyer's method on day one.",
+  "If you lack the financial experience, use this posting as a target. Look for GS-9/11 budget or program analyst roles, or FEMA and Virginia VDEM emergency management jobs, where your background fits better."
+ ],
+ "resume_bullets": [
+  "Tracked [obligations/expenditures] against [cost and schedule baselines] for [client/program, $amount] disaster recovery projects, recommending [adjustments] to leadership [frequency].",
+  "Conducted [monthly] reconciliations of [grant/project accounts] for [government client], identifying [number/type] discrepancies and coordinating corrective actions with [stakeholders].",
+  "Interpreted [FEMA/2 CFR 200/client] financial policy requirements to [develop cost estimates/justifications] for [number] [project worksheets/funding requests]."
+ ],
+ "interview_questions": [
+  "Describe a time you found a discrepancy in financial data. How did you resolve it?",
+  "Walk us through how you would build or justify a budget estimate for a program requirement.",
+  "How do you stay compliant with changing financial regulations or audit requirements?",
+  "How would you explain a funding shortfall to senior leaders who are not financial specialists?"
+ ],
+ "watch_outs": [
+  "The application window is very short (October 26–30, 2026), and this is a flyer for anticipated vacancies that may never be filled.",
+  "Without documented budget or accounting experience at the GS-11 level, you will likely be rated not qualified. Inflated claims can also make you ineligible.",
+  "The Secret clearance requirement can delay your start date.",
+  "The job is on-site at the Washington Navy Yard with only partial telework, which means a long commute from Manassas."
+ ],
+ "job_id": "usajobs:889951000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

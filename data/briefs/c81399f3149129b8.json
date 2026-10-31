@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior information security manager at the Missile Defense Agency, running agency-wide classified information protection, self-inspections, and security incident inquiries under DoDM 5200.01.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires a year of GS-11-equivalent experience in at least 3 of 5 specialized classified information security areas, such as marking, self-inspections, and incident inquiries. Nothing on file shows Daniel doing information security work at IEM, and emergency management consulting is a different field. Daniel's policy knowledge and relationship skills help only with the stakeholder coordination element.",
+ "eligibility": [
+  "Open to the public, veterans, and military spouses (hiring paths: public, vet, mspouse), so you do not need federal status.",
+  "You must show one year of specialized experience at the NH-02/GS-11 level in at least 3 of the 5 listed areas, and education cannot substitute.",
+  "The position requires Sensitive Compartmented Information (SCI) eligibility, which means a Top Secret-level background investigation.",
+  "The posting opens 2026-10-23 and closes 2026-11-02, a short window under AcqDemo Direct Hiring Authority."
+ ],
+ "keywords": [
+  "DoDM 5200.01",
+  "information security program reviews",
+  "self-inspections",
+  "representative sampling",
+  "derivative classification",
+  "portion markings",
+  "classified national security information",
+  "safeguarding",
+  "security inquiries",
+  "damage assessments",
+  "corrective action plans",
+  "unauthorized disclosures",
+  "IT data spills",
+  "security policy",
+  "government and contractor personnel"
+ ],
+ "strategy": [
+  "Apply only if your IEM work involved handling classified material, serving as a security manager or custodian, or doing compliance reviews. Without at least 3 of the 5 specialized areas, you will be rated not qualified.",
+  "If you did hold a clearance or work with classified or controlled information at IEM, describe it concretely using the posting's terms, such as marking, storage, transmission, destruction, and inquiries.",
+  "Frame any IEM compliance or assessment work as program reviews: planning reviews, finding vulnerabilities, reporting metrics, and driving corrective actions. Do this only where it is accurate.",
+  "Present client coordination with federal agencies and contractors as stakeholder coordination and team leadership, with dates and hours per week, on a two-page resume.",
+  "A better near-term path is entry-level security assistant or emergency management roles at GS-9 or GS-11, which would build toward this job."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team of [government/contractor] staff conducting [compliance reviews/assessments] for [client agency], identifying [type] vulnerabilities and tracking corrective action plans to closure.",
+  "Coordinated [program/process] across [agencies/partners], briefing [senior officials] on [topic] and resolving conflicting [policy/guidance] issues.",
+  "Served as [security role, if any] responsible for safeguarding and accountability of [classified/controlled] information per [DoDM 5200.01 or other policy]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would plan an agency-wide information security self-inspection.",
+  "Describe a security incident or violation you investigated and the corrective actions that followed.",
+  "How do you resolve a derivative marking discrepancy when source guidance conflicts?",
+  "How have you led mixed government and contractor teams across multiple organizations?"
+ ],
+ "watch_outs": [
+  "The specialized experience in classified information security appears to be a major gap based on what is on file.",
+  "SCI eligibility is required, which brings a lengthy background investigation.",
+  "The application window is only about 10 days.",
+  "Promotion potential is none, and the job is not remote."
+ ],
+ "job_id": "usajobs:889992100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

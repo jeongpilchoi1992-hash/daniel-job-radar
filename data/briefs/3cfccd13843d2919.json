@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior IRS analyst who shapes and measures the user experience of IRS online tools, using UX design, digital analytics and stakeholder work with senior leaders.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-14 role requires a year of GS-13-level specialized experience in user-centered design, UI prototyping and digital analytics, and nothing on file shows Daniel has done that work. Daniel's policy knowledge, stakeholder skills and briefing ability match parts of the posting, but they don't cover the core technical UX requirements. Apply only if your IEM work truly included senior-level digital product, UX or analytics responsibilities.",
+ "eligibility": [
+  "Open to the public and to CTAP/ICTAP federal transition candidates, so no prior federal status is needed. U.S. citizenship and proof are required.",
+  "You need 1 year of specialized experience equivalent to GS-13: user-centered design, UI designs/prototypes across web platforms, digital product usage studies, and applying policy to online applications.",
+  "No degree, license or clearance is required. You must pass prior employment/tax checks and fingerprinting, and males born after 1959 must be registered with Selective Service.",
+  "Your resume must show dates (month/day/year) and hours per week for each job, and it must fit the two-page USAJOBS limit."
+ ],
+ "keywords": [
+  "user experience",
+  "user-centered design",
+  "digital analytics",
+  "user requirements",
+  "prototypes",
+  "user interface designs",
+  "digital product delivery",
+  "stakeholders",
+  "user needs statements",
+  "iterative design",
+  "statutory, regulatory and policy requirements",
+  "briefings",
+  "executive leadership",
+  "customer experience",
+  "workload management"
+ ],
+ "strategy": [
+  "Before you apply, check honestly whether any IEM work involved designing, testing or analyzing digital tools for government clients (portals, dashboards, public-facing preparedness sites). If it didn't, skip this posting and target GS-9 to GS-12 program or policy analyst roles.",
+  "If you did have relevant work, frame IEM as client-facing government consulting. Describe specific projects where you gathered user or stakeholder requirements, ran usage studies, or advised client leadership on digital products, using the posting's exact wording.",
+  "Lead with your strengths that map to the posting: briefing senior officials, building consensus among multiple stakeholders, and turning regulations or policy into recommendations.",
+  "Answer the questionnaire truthfully. The posting warns that overstating your experience can remove you, and claiming 'expert' UX levels without resume support will fail HR review.",
+  "The posting is open only Oct 30 to Nov 5, 2026. Have a tailored two-page resume ready before it opens."
+ ],
+ "resume_bullets": [
+  "Gathered requirements from [number] stakeholders at [government client] to define user needs for [digital tool/portal], producing [deliverable] adopted by [office].",
+  "Analyzed [usage data/survey results] for [client's online product] and briefed [senior officials] on recommended changes, resulting in [result, if known].",
+  "Reviewed [federal/state regulations, e.g., Stafford Act/FEMA guidance] to prepare recommendations on [application or process] for [client], [hours/week], [dates]."
+ ],
+ "interview_questions": [
+  "Describe a time you used data or user research to recommend a change to a digital product. What happened?",
+  "How have you built consensus among senior officials with competing priorities?",
+  "How would you balance statutory or policy requirements against a simpler taxpayer experience online?",
+  "Tell us about a briefing you gave to executive leadership on a complex issue."
+ ],
+ "watch_outs": [
+  "The application window is very short, Oct 30 to Nov 5, 2026.",
+  "GS-14 technical UX and analytics requirements are likely unmet based on what's known about Daniel's background.",
+  "There's no promotion potential, and the role requires a government travel card for occasional travel.",
+  "Location is listed only as 'Multiple Locations' and the job is not remote, so confirm a Northern Virginia or DC-area duty station is available."
+ ],
+ "job_id": "usajobs:890991400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

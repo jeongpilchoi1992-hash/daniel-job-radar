@@ -1,0 +1,55 @@
+{
+ "one_liner": "Likely a staff role at George Mason University coordinating graduate program operations such as admissions, advising, curriculum, academic policy, and student records.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The posting has no description, so fit can't be judged precisely. Daniel's people skills, policy knowledge, and consulting coordination experience at IEM transfer to student-facing and policy-administration work. However, 'Senior' graduate academic affairs roles usually expect prior higher-education administration experience, which Daniel isn't known to have.",
+ "eligibility": [
+  "Open the full posting at the URL to confirm minimum qualifications; none are stated here.",
+  "Check whether a bachelor's or master's degree is required, which is common for senior academic affairs roles.",
+  "Confirm whether the role is classified staff or an at-will GMU administrative position, and whether a background check is required.",
+  "Confirm the salary range, telework policy, and closing date, since none are listed."
+ ],
+ "keywords": [
+  "graduate",
+  "academic affairs",
+  "coordinator",
+  "George Mason University",
+  "student services",
+  "academic policy",
+  "advising",
+  "admissions",
+  "enrollment",
+  "records",
+  "compliance",
+  "program coordination",
+  "stakeholder communication",
+  "customer service",
+  "data reporting"
+ ],
+ "strategy": [
+  "Before writing anything, pull the full description from jobs.virginia.gov or GMU's jobs site (jobs.gmu.edu). Mirror its exact duty and qualification language, since the keywords here are inferred from the title.",
+  "Frame the IEM work as program coordination for government clients, using whatever you actually did: managing deliverables, tracking deadlines, interpreting policy and regulations, and communicating with stakeholders.",
+  "Emphasize policy interpretation and rule-following, which map to academic policy and compliance. Also highlight public-facing communication, which maps to advising students and faculty.",
+  "Virginia state applications allow longer resumes than federal ones. Still, keep yours targeted, and answer any supplemental questions with specific examples.",
+  "Apply promptly because the posting is open until filled. Write a cover letter explaining your interest in higher education and in Mason specifically.",
+  "Commuting from Manassas to Fairfax is reasonable; confirm the hybrid options."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of project/deliverable] for [number] government clients at IEM, tracking [timelines/requirements] to deliver [outcome] on schedule.",
+  "Interpreted [federal/state regulations or program guidance] and translated requirements into clear guidance for [audience], supporting [result].",
+  "Served as primary point of contact for [stakeholder group], managing [volume] inquiries and building working relationships across [agencies/teams]."
+ ],
+ "interview_questions": [
+  "How would you handle a graduate student upset about a policy decision you must enforce?",
+  "Describe a time you managed many deadlines or processes at once.",
+  "How have you interpreted and applied complex policies or regulations?",
+  "Why do you want to work in higher education administration?"
+ ],
+ "watch_outs": [
+  "There is no description, salary, or closing date, so verify everything at the source before investing time.",
+  "'Senior' suggests prior higher-education experience may be expected, which you may lack.",
+  "This role is off-track from Daniel's stated policy and government goals. It is a state job, but academic rather than policy work."
+ ],
+ "job_id": "virginia:senior-graduate-academic-affairs-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

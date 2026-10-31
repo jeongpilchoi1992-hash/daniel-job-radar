@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior manager running the application-to-closeout process for CHIPS Act grants and investments at NIST, setting policies, controls, and supervising staff.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a senior ZA-4 role (GS-14/15 equivalent pay) that demands knowledge of federal grant regulations, award lifecycle management, internal controls, and supervising staff. Daniel's IEM consulting background may touch federal disaster grants (e.g., FEMA Public Assistance or HMGP), and Daniel's policy knowledge and stakeholder skills are relevant, but without documented grants-management and supervisory experience at a senior level this is a reach.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status needed, and veterans' preference does not apply under the CHIPS hiring authority.",
+  "Requires eligibility for a Sensitive Compartmented Information (SCI) clearance, which means a thorough background investigation.",
+  "No formal specialized-experience grade ladder is listed, but the qualifications expect demonstrated knowledge of federal grant regulations and policies and the ability to lead programs and staff.",
+  "No degree or license is stated in the posting; confirm on the full USAJOBS announcement."
+ ],
+ "keywords": [
+  "award lifecycle",
+  "federal grant regulations and policies",
+  "financial assistance",
+  "policies, procedures, and performance measures",
+  "internal controls",
+  "compliance and audit readiness",
+  "quality control reviews",
+  "operational and programmatic analyses",
+  "stewardship of federal resources",
+  "interpret and apply complex regulations",
+  "plan, assign, and review work",
+  "stakeholders",
+  "scalable solutions",
+  "customer service",
+  "CHIPS"
+ ],
+ "strategy": [
+  "Frame your IEM work in grants terms if accurate: name any federal programs you supported (e.g., FEMA Public Assistance, Hazard Mitigation, CDBG-DR), and use words like award lifecycle, eligibility review, compliance, closeout, and 2 CFR 200 (Uniform Guidance) only if you actually used them.",
+  "Highlight any leadership: leading teams, assigning work, reviewing deliverables, or training client staff, since the role includes supervising staff.",
+  "Keep the resume to two pages with month/year dates and hours per week for each job, and put the posting's keywords in your top bullets.",
+  "Write a short cover letter (it is optional but reviewed) linking your policy knowledge and stakeholder relationship skills to CHIPS program stewardship and audit readiness.",
+  "Apply between October 9 and October 30, 2026; because applicants are not rated or ranked and no notices are sent, also apply to lower-graded NIST/Commerce or FEMA grants specialist roles in parallel.",
+  "Consider this a stretch and target grants management specialist (GS-1109) or program analyst roles at GS-11/12 as more realistic entry points."
+ ],
+ "resume_bullets": [
+  "Supported [client agency] administration of [federal grant program] by reviewing [number] applications/project worksheets for eligibility and compliance with [regulation, e.g., 2 CFR 200], contributing to [result].",
+  "Developed [procedures/checklists/QC process] for [award/disaster recovery program], improving [timeliness/accuracy metric] across [scope].",
+  "Served as primary liaison to [number/type of stakeholders, e.g., state and local officials], resolving [issue type] and briefing [leadership level] on program performance."
+ ],
+ "interview_questions": [
+  "Walk us through how you have managed or supported a federal financial assistance award from application through closeout.",
+  "How would you design internal controls to prepare a new grant program for an audit?",
+  "Describe a time you had to interpret a complex regulation and defend your recommendation to leadership.",
+  "How do you plan, assign, and review work for a team under tight deadlines?"
+ ],
+ "watch_outs": [
+  "Senior-level expectations: without direct federal grants and supervisory experience, selection odds are low.",
+  "SCI clearance required; the investigation is lengthy and examines finances, foreign contacts, and conduct.",
+  "No referral or selection notifications will be sent, so track the announcement status yourself.",
+  "Short window: October 9-30, 2026."
+ ],
+ "job_id": "usajobs:888224600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:00-04:00"
+}

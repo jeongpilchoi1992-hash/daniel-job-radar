@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior Executive deputy running a 76-person Army G-8 directorate that builds the Army's multi-year budget program (POM/PPBE) across personnel, training, installations, logistics and IT.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a Senior Executive Service job that requires proven executive leadership of large organizations plus deep expertise leading Army or DoD programming (POM/PPBE). Nothing on file shows Daniel has led O-6-level divisions, managed large budgets, or worked in defense programming. Daniel's policy knowledge and consulting background are real assets, but they do not meet the ECQ and MTQ bar here.",
+ "eligibility": [
+  "Open to the public and requires U.S. citizenship, so Daniel can apply without federal status or veterans' preference.",
+  "You must show all five Executive Core Qualifications and the MTQ, which is leading programming for a large, complex portfolio by aligning financial resources with Army strategic priorities. Both must appear within a strict two-page resume.",
+  "You must be able to obtain and keep a Top Secret clearance, and you must complete a background investigation and drug testing.",
+  "If selected, you must pass OPM's QRB structured interview on the ECQs. You must also file an OGE-278e financial disclosure and sign an SES mobility agreement."
+ ],
+ "keywords": [
+  "Planning, Programming, Budgeting, and Execution (PPBE)",
+  "Program Objective Memorandum (POM)",
+  "programming process",
+  "aligning financial resources",
+  "strategic objectives",
+  "Congressional budget processes",
+  "Office of Management and Budget (OMB)",
+  "force generation",
+  "training and exercises",
+  "installations",
+  "logistics",
+  "enterprise information technology",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results"
+ ],
+ "strategy": [
+  "Be honest with yourself before investing time: apply only if your IEM role actually involved leading teams and managing major budgets or program portfolios. Otherwise, treat this posting as a map of the SES skill set to grow toward.",
+  "If you do apply, translate your IEM work into MTQ terms. Name the government clients, the size of the funding streams or programs you supported (for example disaster recovery grants or preparedness exercises), and how you aligned resources to client priorities.",
+  "Address each ECQ explicitly with short accomplishment bullets. ECQ 1 is a natural place to show your knowledge of the American system of government and Congress.",
+  "Follow the formatting rules exactly: two pages, a sans-serif font, 0.5-inch margins and 10-point body text. A third page means automatic disqualification.",
+  "Submit well before the November 11, 2026 deadline. Better-matched targets for building toward this kind of role are GS-11/12/13 program analyst, budget analyst, or legislative affairs roles in Army, FEMA, or DHS, or a Virginia VDEM position."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team at IEM supporting [government client] on [disaster recovery/preparedness program], managing [$ amount] in resources and delivering [result].",
+  "Aligned [program/grant] funding of [$ amount] with [client]'s strategic priorities by [action], reducing [cost/time] by [measured result].",
+  "Briefed [senior officials/legislative staff] on [policy or budget issue], producing [decision or outcome]."
+ ],
+ "interview_questions": [
+  "Describe a time you led the programming or budget process for a large, complex portfolio under fiscal uncertainty.",
+  "How have you held senior subordinates accountable while leading an organization through change?",
+  "Give an example of cutting waste or improving efficiency through process or technology changes.",
+  "How do you engage OMB, congressional staff, or other senior stakeholders to defend resource decisions?"
+ ],
+ "watch_outs": [
+  "This is an SES role, so the panel expects years of executive leadership and PPBE expertise. Daniel's known background is far below that bar.",
+  "A Top Secret clearance is required, along with background vetting.",
+  "The SES mobility agreement means you could be reassigned to other locations, and the job involves short-notice travel.",
+  "Any resume over two pages is immediately ineligible."
+ ],
+ "job_id": "usajobs:890660700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

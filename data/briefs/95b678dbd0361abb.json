@@ -1,0 +1,56 @@
+{
+ "one_liner": "Contracting Officer's Representative-style analyst at Walter Reed who oversees service contracts end to end: planning, funding checks, invoice review, deliverable acceptance, and COR files.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's relationship skills and IEM consulting background on government contracts are relevant to the liaison side of this role. However, the GS-11 specialized experience requires a year of hands-on acquisition work: writing PWS/SOWs, market research, and tracking contract and funding data. Unless Daniel's IEM duties included that kind of contract-side work, qualifying will be hard.",
+ "eligibility": [
+  "Open to all U.S. citizens under Direct Hire; no federal status or veterans' preference needed.",
+  "One year of specialized experience equivalent to GS-09 is required. It must include acquisition planning and administration of services contracts, developing PWS/SOW and market research, managing contract, funding, and deliverable data in automated systems, and preparing reports for management and contracting personnel.",
+  "Alternatively, you can qualify with a Ph.D. or 3 full years of graduate study in a related field such as business or acquisition management (transcripts required), or with a qualifying combination of graduate education and experience.",
+  "No security clearance is required, and there is no promotion potential beyond GS-11."
+ ],
+ "keywords": [
+  "acquisition planning",
+  "contract lifecycle",
+  "performance work statements",
+  "statements of work",
+  "market research",
+  "COR files",
+  "contract administration",
+  "burn rates",
+  "inspection and acceptance",
+  "contractor deliverables",
+  "obligated funds",
+  "technical point of contact",
+  "contract closeout",
+  "personal and non-personal services contracts",
+  "briefings and recommendations"
+ ],
+ "strategy": [
+  "Before applying, inventory exactly what you did at IEM on the contract side. Note any work on task orders, deliverable tracking, invoicing, client funding, or proposal and SOW drafting, since that is the only path to qualifying.",
+  "Describe consulting work from the contractor side as experience with government contract requirements. Examples include delivering against a SOW, tracking hours and burn against budget, and preparing deliverables for government acceptance.",
+  "Mirror the specialized experience sentence item by item in one or two IEM entries. Keep within the two-page limit by listing dates, hours per week, and title briefly.",
+  "Answer the questionnaire honestly at the level your resume supports, because the posting warns that inflated answers cost consideration.",
+  "The window is only 2026-10-27 to 2026-11-03, so have your resume finished before it opens and apply early. Direct Hire can move fast.",
+  "If you lack contract-side experience, consider DAU's free CON courses or entry-level acquisition roles (GS-7/9 Contract Specialist or Pathways) as a stepping stone."
+ ],
+ "resume_bullets": [
+  "Supported [number] government client contracts/task orders valued at [$ amount] in emergency management and disaster recovery, tracking deliverables, schedules, and [funding/hours] in [system] to keep performance within scope.",
+  "Drafted [SOW/PWS sections, proposal technical volumes, or market research] for [client agency] procurements, translating program needs into measurable requirements and deliverables.",
+  "Served as primary point of contact between [client agency] and project staff, resolving [type] operational issues and preparing [weekly/monthly] status reports and briefings for management."
+ ],
+ "interview_questions": [
+  "Describe your experience with the contract lifecycle, from requirements development through closeout.",
+  "How would you handle a contractor asking you to approve extra work not in the PWS?",
+  "How do you verify invoices and burn rates against actual performance?",
+  "Tell us about a time you resolved a conflict between a customer and a contractor."
+ ],
+ "watch_outs": [
+  "The specialized experience is technical acquisition work, not general management or policy, so a weak contract background will likely be screened out.",
+  "The application window is just one week, from 2026-10-27 to 2026-11-03.",
+  "The job is fully on-site in Bethesda with no telework, which means a long daily commute from Manassas.",
+  "The position has no promotion potential above GS-11."
+ ],
+ "job_id": "usajobs:890000900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

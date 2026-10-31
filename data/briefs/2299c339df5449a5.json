@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior analyst at the USPS Inspector General studying postal finances, operations and parcel-market trends, then briefing executives and managing research contracts and budgets.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a GS-14-equivalent role demanding financial modeling of financial statements and regulatory filings, plus at least 3 years of market or business analysis producing public-facing reports. Daniel's policy knowledge, communication skills and IEM consulting background help with briefing, stakeholder engagement and possibly SOW and contractor work. Nothing on file shows financial modeling, postal or parcel expertise, or senior-level analytical leadership, and every evaluation factor is pass/fail.",
+ "eligibility": [
+  "Open to the public, so U.S. citizens without federal status may apply; no veterans' preference is needed.",
+  "Bachelor's degree from an accredited institution in a relevant field (business administration, finance, economics, public policy, or data analysis) is mandatory; confirm your degree and field.",
+  "At least 3 years of professional experience planning and conducting market or business analysis, using quantitative and qualitative methods, to develop public-facing reports.",
+  "You must demonstrate each of the 5 evaluation factors in narrative responses; a zero on any one, or a 'See resume' answer, disqualifies you.",
+  "Security clearance is listed as 'Other'; expect a background investigation, and verify details on the full USAJOBS announcement."
+ ],
+ "keywords": [
+  "financial modeling/analysis",
+  "financial statements",
+  "regulatory filings",
+  "Postal Regulatory Commission (PRC)",
+  "market or business analysis",
+  "quantitative and qualitative methods",
+  "data visualization",
+  "dashboards",
+  "executive-level presentations",
+  "strategic issue briefs",
+  "macroeconomic forces",
+  "policy shifts",
+  "emerging risks",
+  "Statement of Work (SOW)",
+  "project budgets"
+ ],
+ "strategy": [
+  "Before applying, honestly check the two hard gates: an accredited bachelor's degree in a relevant field and 3+ years of market or business analysis producing public-facing reports. If you can't document both, consider this posting a pass and target GS-9 to GS-12 analyst or program roles.",
+  "Frame your IEM work around analytical deliverables only if they're accurate. Examples include reports or after-action analyses you researched and wrote for government clients, data you analyzed, and briefings you gave, with dates and hours per week for each role.",
+  "Write a separate narrative for each of the 5 evaluation factors with a concrete example; your policy expertise fits the 'policy shifts' factor. Be candid but specific on financial modeling, and never write 'See resume'.",
+  "Tie emergency management to postal relevance (supply-chain disruption, operational risk, continuity) to show 'interest in' postal and regulated industries. Read recent USPS financial reports and PRC filings so you can speak to them credibly.",
+  "Keep the resume to two pages or it will be rejected. Mirror the posting's keywords, and highlight any SOW drafting, contractor oversight or budget tracking from consulting.",
+  "Submit by 11:59 PM EST on November 12, 2026, attaching transcripts if requested, and answer every questionnaire item truthfully."
+ ],
+ "resume_bullets": [
+  "Researched and authored [number] [report type, e.g., preparedness assessments] for [government client type], combining [quantitative data source] with stakeholder interviews to identify [risk/trend]; findings were [published/briefed to whom].",
+  "Built [tool, e.g., Excel model or Tableau/Power BI dashboard] analyzing [budget/cost/operational data] for [client/program], enabling [decision-maker] to [action].",
+  "Briefed [audience, e.g., state and local emergency management officials] on [policy or operational issue], translating complex [regulatory/financial] information into [format] recommendations."
+ ],
+ "interview_questions": [
+  "Walk us through how you'd analyze USPS financial statements to assess long-term financial sustainability.",
+  "Describe an analytical project you independently planned and completed from scoping to final deliverable.",
+  "How would a major policy or market shift, such as parcel competition or rule changes, affect USPS operations and finances?",
+  "Tell us about a time you presented complex findings to senior leaders or external stakeholders."
+ ],
+ "watch_outs": [
+  "Senior GS-14-level role; without proven financial modeling or a relevant degree, you're likely to be screened out.",
+  "Every evaluation factor is pass/fail, so one weak narrative ends the application.",
+  "Resumes over two pages are automatically disqualified.",
+  "AI tools are banned during interviews, so prepare to answer independently."
+ ],
+ "job_id": "usajobs:890452600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

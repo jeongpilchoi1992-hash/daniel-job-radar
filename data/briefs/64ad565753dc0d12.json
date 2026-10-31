@@ -1,0 +1,55 @@
+{
+ "one_liner": "Supervisory Navy role leading acquisition strategy, plans, and DoD 5000 documentation for the Conventional Prompt Strike hypersonic weapons program office.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires at least one year of GS-13-equivalent experience applying DoD 5000 acquisition management to Major Defense Acquisition Programs, plus supervisory acquisition expertise. Nothing on file shows defense acquisition experience; IEM consulting and policy knowledge are relevant to emergency management, not weapons-system acquisition. Unless your IEM work involved DoD acquisition documentation, you are unlikely to qualify.",
+ "eligibility": [
+  "Open to the public, but this is a flyer for anticipated vacancies; applications go through the separate 'How to Apply' instructions, not this posting.",
+  "Specialized experience: one year at NH-03/GS-13 level using Navy/DoD acquisition principles (DoD 5000) to plan and manage documents for Major Defense Acquisition Programs.",
+  "Security clearance: Sensitive Compartmented Information (SCI) access required.",
+  "Program Management Series 0340 qualification standards apply; resume limited to 2 pages."
+ ],
+ "keywords": [
+  "acquisition management",
+  "DoD 5000",
+  "Major Defense Acquisition Programs",
+  "acquisition strategy",
+  "acquisition plan",
+  "acquisition reviews",
+  "program analysis",
+  "strategy and planning",
+  "brief leadership",
+  "contract and budget implications",
+  "supervision",
+  "internal and external stakeholders",
+  "subject matter expertise",
+  "Navy processes",
+  "Program Management"
+ ],
+ "strategy": [
+  "Before investing time, honestly check whether any IEM work involved DoD acquisition documents, MDAP support, or federal contract/budget analysis; if not, skip this posting.",
+  "If you have relevant experience, state it explicitly with DoD 5000 terms, dates, hours per week, and GS-13-level complexity in a two-page resume.",
+  "Frame IEM client work around planning, stakeholder coordination, and leadership briefings only where accurate, and never inflate; the posting warns inflated qualifications lead to disqualification.",
+  "Follow the flyer's 'How to Apply' directions exactly, since applications are not accepted through the flyer itself, and act between Oct 28 and Nov 10, 2026.",
+  "Better targets: FEMA (Reservist/CORE, GS-0089 emergency management), Virginia VDEM, Prince William County or Fairfax OEM, and congressional or state legislative staff roles that use your policy and people skills."
+ ],
+ "resume_bullets": [
+  "Supported [government client] [program/acquisition] efforts at IEM, developing [strategy/plan documents] for [review/milestone], [hours]/week, [dates].",
+  "Briefed [client leadership level] on [contract, budget, or requirements] implications for [program], coordinating [number] internal and external stakeholders.",
+  "Led/supervised [number] staff producing [deliverables] on [timeline], ensuring compliance with [federal regulation/framework]."
+ ],
+ "interview_questions": [
+  "Walk us through how you developed an acquisition strategy for a program under DoD 5000.",
+  "How would you prepare leadership for a milestone acquisition review with budget shortfalls?",
+  "Describe how you have supervised a team producing time-sensitive documents for external stakeholders.",
+  "How do you resolve conflicts between program requirements and contract or budget constraints?"
+ ],
+ "watch_outs": [
+  "Requires specific DoD 5000/MDAP acquisition experience your background does not show.",
+  "SCI clearance required; obtaining it takes time and eligibility is not guaranteed.",
+  "Notice-of-vacancy flyer only; there may be no actual hires and no result letters.",
+  "Supervisory NH-4 senior role; little room to grow into qualifications on the job."
+ ],
+ "job_id": "usajobs:890405800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

@@ -1,0 +1,56 @@
+{
+ "one_liner": "Analyze CMS survey and program data (e.g., beneficiary satisfaction with Medicare/Medicaid plans) using statistics, then turn findings into reports and briefings.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The GS-12 requires a year of GS-11-equivalent experience covering all three elements: Medicare or Medicaid operations/policy work, statistical impact studies, and research-based regulations, briefings or reports. Daniel's emergency-management consulting at IEM and policy knowledge don't obviously cover Medicare/Medicaid or statistical methods, and education cannot substitute. Apply only if Daniel's actual IEM duties truly involved Medicare/Medicaid analysis and quantitative work.",
+ "eligibility": [
+  "Open to the public (Delegated Examining, competitive); no federal status, clearance, or veterans' preference needed.",
+  "Specialized experience: 52 weeks at GS-11 level including ALL three: Medicare/Medicaid operations or policy development; statistical studies of health care operations/policy impact; and research-based communication materials (regulations, briefing documents, reports). No education substitution.",
+  "Education (GS-0101 basic requirement): degree in a behavioral or social science or related discipline, an equivalent combination, or four years of appropriate experience. Transcripts are required at application.",
+  "All qualifications must be met by the 2026-11-06 closing date; an online assessment is also required."
+ ],
+ "keywords": [
+  "Social Science Research Analyst",
+  "policy and program analyses",
+  "Medicare",
+  "Medicaid",
+  "health care operations",
+  "policy development",
+  "statistical methodologies",
+  "survey data",
+  "case mix adjustments",
+  "market research",
+  "data limitations",
+  "sampling errors",
+  "briefing documents",
+  "reports",
+  "beneficiary programs"
+ ],
+ "strategy": [
+  "First, honestly check whether your IEM work involved Medicare/Medicaid programs, such as health care disaster recovery or CMS emergency-preparedness rules. If it didn't, skip this posting and target GS-9/11 policy, program analyst (0343), or emergency management (0089) roles instead.",
+  "If you apply, write a separate bullet for each of the three required elements, using the posting's exact terms and your own concrete details. Copying the announcement text gets you rated ineligible.",
+  "Keep the resume to two pages, and list start/end dates (month/year) and hours per week for each job so HR can count 52 weeks.",
+  "Upload transcripts showing your social science major or coursework. If your degree is in political science or public policy, name it explicitly.",
+  "Answer the questionnaire truthfully, because overstated answers are checked against your resume and can remove you. Prepare for the online competency assessment, which covers areas like Attention to Detail and Reading Comprehension.",
+  "The window runs only 2026-10-28 to 2026-11-06, so have your resume and transcripts ready before it opens."
+ ],
+ "resume_bullets": [
+  "Conducted [type of] policy and program analyses of [Medicare/Medicaid or health program] for [client agency], using [statistical method/tool] to assess the impact of [policy/operation] on [population].",
+  "Analyzed [survey/program] data for [project], identifying data limitations, biases, and sampling errors and presenting findings in [number] briefing documents/reports for [audience].",
+  "Drafted [regulatory comments/briefings/reports] translating research on [topic] into recommendations adopted by [client], [hours/week], [dates]."
+ ],
+ "interview_questions": [
+  "Describe a study you designed using statistical methods to evaluate a health policy or program. What were the limitations?",
+  "How would you explain survey case-mix adjustment results to non-technical CMS leadership?",
+  "Tell us about a time you found inconsistencies or bias in a dataset and how you handled it.",
+  "What do you know about Medicare Advantage or Medicaid managed care plan quality measurement?"
+ ],
+ "watch_outs": [
+  "Likely does not qualify: Medicare/Medicaid and statistical analysis experience are both mandatory, and education cannot substitute.",
+  "The 10-day application window is short, and transcripts are required at application.",
+  "Location is listed as 'Multiple Locations,' so confirm whether a Northern Virginia-commutable site (e.g., the DC area) is included versus CMS headquarters in Baltimore; telework is allowed but the job is not remote.",
+  "Promotion potential is capped at GS-12."
+ ],
+ "job_id": "usajobs:890508500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

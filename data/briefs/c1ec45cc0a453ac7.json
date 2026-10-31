@@ -1,0 +1,55 @@
+{
+ "one_liner": "Executive who runs the SEC Division of Examinations' risk-analytics and monitoring office, setting risk-based exam strategy for broker-dealers, investment advisers and other registrants.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a senior executive-level SEC role that requires a full year of GS-14-equivalent experience examining or overseeing securities firms. Nothing on file shows securities-industry, audit or financial-regulatory experience. Daniel's emergency-management consulting and policy knowledge do not match this specialized experience, so an application would very likely be screened out at minimum qualifications.",
+ "eligibility": [
+  "Open to the public, so U.S. citizens without federal status may apply.",
+  "Requires at least one full year of specialized experience equivalent to GS-14/SK-14: examining, auditing or reviewing broker-dealers, investment advisers, investment companies, transfer agents or SROs, or managing teams that do so.",
+  "Requires a Top Secret security clearance; confirm whether you must already hold it or can be investigated after selection.",
+  "Must be in one of the listed SEC offices, with Washington, DC the nearest to Manassas; telework is not available."
+ ],
+ "keywords": [
+  "risk-based",
+  "risk analytics",
+  "incident response",
+  "financial intelligence",
+  "emerging risk",
+  "large firm monitoring",
+  "examinations, audits, or reviews",
+  "broker-dealers",
+  "investment advisers",
+  "self-regulatory organizations",
+  "compliance",
+  "governance",
+  "strategic planning",
+  "information sharing",
+  "Building Coalitions"
+ ],
+ "strategy": [
+  "Be honest with yourself about the securities-examination requirement. Without documented experience examining or assessing registered securities firms, you are better off skipping this posting than spending effort on it.",
+  "If you apply anyway, frame any IEM work only where it is truly accurate, for example risk assessment, incident response coordination or governance support for government clients. Do not imply securities-regulatory experience you do not have.",
+  "Use the posting's dates (October 23 to November 6, 2026) as a benchmark, and redirect your energy to emergency-management and policy roles at GS-9 to GS-12. Good targets are FEMA, DHS, Virginia VDEM, and Prince William County or City of Manassas emergency management.",
+  "For any federal application, keep the resume to two pages. List dates, hours per week and specialized experience concisely, using the posting's exact wording.",
+  "Note this posting's process for future senior roles: there is no Accomplishment Record at application, but if you are found qualified you get only 3 business days to submit 300-word narratives. Draft STAR examples in advance."
+ ],
+ "resume_bullets": [
+  "Supported [government client] during [disaster/recovery program] at IEM by [coordinating/analyzing/briefing] [specific task], resulting in [verifiable outcome].",
+  "Built working relationships with [number/type of stakeholders, e.g., state and local officials] to share information and resolve [issue] during [project], as [your title], [hours] hrs/week, [dates].",
+  "Assessed [type of risk or program data] for [client] and presented findings to [audience], informing [decision or plan]."
+ ],
+ "interview_questions": [
+  "Describe a time you led a team conducting examinations or reviews of securities firms. How did you set priorities based on risk?",
+  "How would you integrate risk analytics into national exam planning across program areas?",
+  "Tell us about building a coalition with external regulators or SROs during a significant market event.",
+  "How have you aligned limited resources with competing organizational priorities?"
+ ],
+ "watch_outs": [
+  "The specialized experience requirement for securities examination or oversight at the GS-14 level is almost certainly unmet, so you would likely be rated ineligible.",
+  "A Top Secret clearance is required.",
+  "The job is on-site only, with no telework, which would mean a daily commute to the DC office.",
+  "If you are found qualified, you have only 3 business days to submit the Accomplishment Record."
+ ],
+ "job_id": "usajobs:890145100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

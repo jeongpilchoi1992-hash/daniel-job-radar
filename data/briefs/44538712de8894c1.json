@@ -1,0 +1,51 @@
+{
+ "one_liner": "Policy staffer in Senator Chris Murphy's DC office who tracks legislation, briefs the Senator, drafts materials, and meets with constituents and advocacy groups on an assigned issue portfolio.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel's strong command of U.S. politics and policy, ease with people, and consulting work at IEM on emergency management for government clients map well to a Senate policy role. The posting text gives no portfolio, duties, or requirements, so the fit can't be confirmed until Daniel reviews the full listing. Senate LA roles are competitive and often favor prior Hill experience.",
+ "eligibility": [
+  "Senate offices are not part of the competitive federal service, so USAJOBS status, grades, and veterans' preference rules do not apply. Anyone may generally apply, which helps Daniel.",
+  "The posting text does not state the issue portfolio, required experience, education, or salary. Open the full listing at the URL to confirm these before applying.",
+  "Check for any Connecticut-ties preference, which is common in Senate personal offices. Daniel lives in Manassas, so note any connection to Connecticut if one exists.",
+  "There is no stated closing date (open until filled), so apply promptly."
+ ],
+ "keywords": [
+  "Legislative Assistant",
+  "U.S. Senate",
+  "Senator Christopher Murphy",
+  "legislation",
+  "policy",
+  "constituents",
+  "stakeholders",
+  "briefing memos",
+  "emergency management",
+  "disaster recovery",
+  "preparedness",
+  "government clients"
+ ],
+ "strategy": [
+  "Read the full posting at the Senate Employment Office URL and identify the issue portfolio. Mirror its exact language, since the provided text is only one line.",
+  "Frame the IEM role around policy-relevant work: federal and state program knowledge (e.g., FEMA, Stafford Act, recovery funding), client briefings, and writing. Fill in your actual title and duties.",
+  "Senate offices don't use the two-page USAJOBS format, but a tight one-page resume plus a cover letter is standard. Include a short writing sample, such as a policy memo, if requested or if you have one.",
+  "Research Senator Murphy's committee assignments, signature issues, and recent bills. In your cover letter, show why you want this office specifically.",
+  "Use networking: reach out to Hill contacts, alumni, or Murphy staff on LinkedIn. Also consider applying to Legislative Correspondent roles, which are a common Hill entry point."
+ ],
+ "resume_bullets": [
+  "Supported [government client type] on [emergency management/disaster recovery program] at IEM, analyzing [federal regulations/funding requirements] and briefing [stakeholders] on [outcome].",
+  "Drafted [number] [memos/reports/presentations] translating complex [policy/program] requirements into clear guidance for [state/local/federal] officials.",
+  "Built working relationships with [agencies/community groups/officials] to coordinate [preparedness/recovery activity], resulting in [result you can verify]."
+ ],
+ "interview_questions": [
+  "Which of Senator Murphy's priorities interests you most, and how would you advance it?",
+  "Walk us through how you would brief the Senator on a bill in two minutes.",
+  "How would you handle a frustrated constituent or advocacy group meeting?",
+  "Tell us about policy writing you've done under tight deadlines."
+ ],
+ "watch_outs": [
+  "The posting gives no duties, salary, or requirements. Verify the full listing and confirm it is still open, since it is open until filled.",
+  "LA roles typically expect prior Hill or policy experience. Daniel may face competition from internal Legislative Correspondent promotions.",
+  "Hill jobs involve long, unpredictable hours, and Senate offices are at-will employers. The commute from Manassas to the Capitol is long."
+ ],
+ "job_id": "senate:legislative-assistant-washington-district-of-columbia-1241",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

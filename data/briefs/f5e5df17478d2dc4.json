@@ -1,0 +1,57 @@
+{
+ "one_liner": "Entry-to-mid financial administrator at the Naval Research Lab tracking research funding, reconciling expenditures, and coordinating with scientists and sponsors on budget deadlines.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's consulting work at IEM for government clients and strong communication skills fit the generalized experience (analysis, planning, written and oral communication), and the NO-2 band is open to the public. However, this is a budget and accounting-support job, and nothing on file shows financial reconciliation or funds-tracking experience, so Daniel must document any budget, invoicing, or grant-tracking work at IEM to compete.",
+ "eligibility": [
+  "This is a public notice flyer for the DHA for STRL Mission Support, not a direct application. You must follow the separate 'How to Apply' instructions, and there may be no actual vacancies.",
+  "Open to the public (U.S. citizens). No federal status is required.",
+  "You need at least one year of generalized experience equivalent to GS-4/NO-01 (analyzing problems, planning and organizing work, communicating effectively), or a 4-year course of study leading to a bachelor's degree.",
+  "You must be able to obtain and maintain a Secret security clearance.",
+  "Your resume must be no more than 2 pages."
+ ],
+ "keywords": [
+  "financial plans",
+  "program performance",
+  "resource allocation",
+  "reconcile expenditures",
+  "resolve discrepancies",
+  "cost redistribution",
+  "unallocated costs",
+  "funding documents",
+  "Job Order Numbers (JONs)",
+  "Principal Investigators",
+  "expenditure plan",
+  "obligated",
+  "fiscal year",
+  "planning and organizing work",
+  "communicating effectively orally and in writing"
+ ],
+ "strategy": [
+  "Find the actual 'How to Apply' instructions linked from the flyer (often a DHA email or portal) and submit between Oct 26 and Nov 9, 2026. Applications sent through the flyer itself are not accepted.",
+  "Frame your IEM role around any money-related duties: tracking task-order or project budgets, reconciling hours or invoices, managing deliverable deadlines, or supporting FEMA/grant recovery funding documentation. Only include what you actually did.",
+  "Write separate short bullets that map to the three generalized criteria (analyze problems, plan and organize, communicate orally and in writing). Screeners check for each one explicitly.",
+  "Emphasize your stakeholder skills as 'contacts with internal and external program participants.' Resolving discrepancies with scientists and sponsors is relationship work, which plays to your strengths.",
+  "If you have a bachelor's degree, list it with your degree, school, and date, and attach a transcript if requested, since education alone can qualify you at this level.",
+  "Keep each job entry to dates, hours per week, title, and 3-5 tight bullets so the resume fits on 2 pages."
+ ],
+ "resume_bullets": [
+  "Tracked [number] [project/task order] budgets totaling $[amount] for [government client] at IEM, comparing spending to plan and flagging [variances/late funding] to project leads.",
+  "Reconciled [invoices/labor charges/expenditure reports] each [frequency], identifying and resolving [number/type] discrepancies through coordination with [client staff/internal finance].",
+  "Prepared [memos/reports/briefings] on [disaster recovery/preparedness funding topic] for [audience], organizing [number] deliverables against [deadline/period of performance]."
+ ],
+ "interview_questions": [
+  "Tell me about a time you found a discrepancy in financial or project data. How did you trace and resolve it?",
+  "How would you handle funding that arrives late in the fiscal year and may not be obligated before it expires?",
+  "How do you prioritize competing deadlines from multiple researchers or sponsors?",
+  "Describe how you communicate a budget problem to someone who is not a finance specialist."
+ ],
+ "watch_outs": [
+  "This is a flyer for anticipated vacancies, so you may never hear back. Keep applying to other jobs.",
+  "The duties are financial and detail-heavy, which may not match your interest in policy and public-facing work. The salary may also start near the bottom of the band, and there is no promotion potential.",
+  "A Secret clearance is required, which means a background investigation before or after you start.",
+  "The job is in DC at NRL, which is a significant commute from Manassas. Telework is available, but the position is not remote."
+ ],
+ "job_id": "usajobs:889742300",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

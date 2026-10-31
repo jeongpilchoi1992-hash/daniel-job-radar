@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior TSA contract specialist (GS-14 equivalent) in Springfield who plans major acquisitions, runs contract administration, interprets procurement policy and mentors junior contracting staff.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a senior 1102 contracting role. It requires four years of contracting experience, one year directing full contract administration (modifications, claims, contractor performance appraisals), a bachelor's degree with 24 business-related semester hours, and FAC-C (Professional) certification. Daniel's file shows emergency-management consulting and policy strengths, but nothing confirming hands-on contracting experience, the required coursework, or FAC-C. Unless Daniel has those, Daniel will likely be rated ineligible.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority, so no federal status or veterans' preference is needed.",
+  "You need one year of specialized experience at SV-I/GS-13 level covering all four areas: full-range contract administration, interpreting complex contracting policy, major acquisition planning, and mentoring others in contract execution. You also need four years of progressively responsible contracting experience.",
+  "You need a bachelor's degree that includes at least 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, management or similar fields, and you must submit transcripts by the closing date.",
+  "FAC-C (Professional) certification or equivalent must be verified.",
+  "You must obtain a Secret clearance and a favorable background investigation, file a financial disclosure, be a U.S. citizen, and be registered with Selective Service."
+ ],
+ "keywords": [
+  "contract administration",
+  "contract modifications",
+  "negotiating contract changes",
+  "exercising contract options",
+  "contractor delays",
+  "contractor performance appraisals",
+  "subcontractor surveillance",
+  "disposition of claims",
+  "major acquisitions",
+  "acquisition program",
+  "contracting and acquisition policies",
+  "COR performance",
+  "FAC-C",
+  "compliance reviews",
+  "mentoring/coaching"
+ ],
+ "strategy": [
+  "Before applying, check yourself honestly against all four specialized-experience elements and the FAC-C and coursework requirements. If any one is missing, skip this posting rather than overstate, because overstating can get you removed from consideration.",
+  "If your IEM role involved contract work for government clients (proposal pricing, task order management, modifications, subcontractor oversight), describe it in the posting's exact language with month/year dates and 40 hours per week, all within the two-page limit.",
+  "Since the notice reposts quarterly, treat it as a long-term target if you're not ready. Consider entry-level 1102 roles (GS-7/9 or pathways), FAC-C training through FAI, and filling coursework gaps to build toward this level.",
+  "Answer the questionnaire honestly (preview it at the posted link) and get ready for the USA Hire assessments, which have a cut score; play to your strengths in interpersonal skills, negotiating and customer service.",
+  "Gather transcripts and your FAC-C certificate before the window opens, and submit by November 5, 2026."
+ ],
+ "resume_bullets": [
+  "Managed contract administration for [number] [contract type] contracts valued at [$amount] for [government client], issuing [number] modifications and resolving [type of] contractor delays.",
+  "Interpreted [FAR/agency] contracting policies to resolve [specific issue] on [program], recommending [approach] adopted by [client/leadership].",
+  "Mentored [number] junior staff on contract execution and administration, including [specific tasks such as subcontractor surveillance or performance appraisals]."
+ ],
+ "interview_questions": [
+  "Walk us through how you handled a contract claim or dispute from start to finish.",
+  "How have you planned a major acquisition so it met timeliness and functionality needs?",
+  "Tell us about a time you interpreted an ambiguous contracting policy and developed a new approach.",
+  "How do you coach less-experienced specialists or CORs to improve their performance?"
+ ],
+ "watch_outs": [
+  "The specialized experience, degree coursework and FAC-C requirements are strict, and nothing on file confirms Daniel meets them.",
+  "The role requires a Secret clearance and financial disclosure.",
+  "Each application window is short (October 22 to November 5, 2026), though the notice reposts quarterly."
+ ],
+ "job_id": "usajobs:889907200",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

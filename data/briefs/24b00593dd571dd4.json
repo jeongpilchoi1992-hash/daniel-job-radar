@@ -1,0 +1,57 @@
+{
+ "one_liner": "Senior Executive Service job leading ACF's entire grants management office: grants policy, oversight of risk and audit resolution, grants systems, and the staff who run them.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES role that requires executive-level leadership of a large, complex federal grants portfolio and organization. Daniel's IEM consulting work and policy knowledge are relevant context, especially if it touched FEMA or disaster-recovery grants, but nothing on file shows executive leadership of a grants organization. The Executive Resources Board will likely screen Daniel out unless that IEM role involved senior management of grants programs and staff.",
+ "eligibility": [
+  "Open to the public, so federal status is not required, but this is a Senior Executive Service career appointment.",
+  "Your two-page resume must show all five Executive Core Qualifications and all three Technical Qualifications. Separate narratives are not accepted.",
+  "TQ 1-3 require demonstrated executive-level experience in federal grants management policy, grants operations and organizational leadership, and principal advisory and stakeholder work.",
+  "If selected, your qualifications must be certified by OPM's SES Qualifications Review Board, and you then serve a one-year probationary period.",
+  "No education requirement and no clearance required."
+ ],
+ "keywords": [
+  "grants management",
+  "risk-based approaches",
+  "internal controls",
+  "audit resolution",
+  "corrective actions",
+  "program integrity",
+  "grants systems",
+  "strategic planning",
+  "performance management",
+  "business process improvement",
+  "organizational change",
+  "principal advisor",
+  "federal, state, and local partners",
+  "stewardship and accountability",
+  "cut wasteful spending"
+ ],
+ "strategy": [
+  "Before investing time, decide honestly whether your IEM role included supervising staff and owning grants-related outcomes such as FEMA Public Assistance or HMGP administration, compliance, or closeout. If not, treat this as a long shot and target GS-11 to GS-13 grants management specialist or emergency-management program roles instead.",
+  "If you apply, map every bullet to a named TQ or ECQ and use the posting's exact language (risk-based, internal controls, audit resolution, driving efficiency) within the two-page limit.",
+  "Frame the consulting work as delivered outcomes for government clients: the portfolio dollar value, team size led, process improvements, and audit or compliance findings resolved.",
+  "Use your policy and relationship strengths as evidence for TQ 3 and ECQ 1: advising senior officials and representing positions to federal, state, and local stakeholders.",
+  "For each job, list dates, hours per week, and a title that accurately reflects your level.",
+  "Apply between October 20 and November 3, 2026, and do not wait for the final day."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team supporting [client agency]'s administration of $[amount] in [FEMA PA/HMGP/other] grants, applying risk-based reviews that [result] by [metric].",
+  "Advised [title of senior official] on [grants compliance/recovery policy issue], developing corrective actions that resolved [number] audit findings by [date].",
+  "Redesigned [grants process or system] for [client], cutting processing time from [X] to [Y] days and [specific efficiency outcome]."
+ ],
+ "interview_questions": [
+  "Describe how you led a large grants organization through significant change, and how you held people accountable.",
+  "How have you applied risk-based approaches and internal controls to prevent improper payments or waste?",
+  "Walk us through an audit resolution or corrective action plan you oversaw from finding to closure.",
+  "How would you advise ACF leadership on a proposed regulation that affects grantees nationwide?"
+ ],
+ "watch_outs": [
+  "SES positions almost always require years of senior leadership. Without clear executive-level grants experience, you will likely be rated ineligible.",
+  "Anything beyond page 2 of your resume will not be reviewed, and an over-length resume may be disqualified.",
+  "Even after selection, OPM QRB certification is required, followed by a one-year probationary period.",
+  "The job is located in Washington, DC with telework but is not remote, so expect a commute from Manassas."
+ ],
+ "job_id": "usajobs:889081000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

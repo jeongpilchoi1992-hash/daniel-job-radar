@@ -1,0 +1,145 @@
+{
+  "home": {
+    "label": "Manassas, VA",
+    "lat": 38.7509,
+    "lon": -77.4753
+  },
+  "radius_miles": 50,
+  "usajobs": {
+    "location": "Manassas, Virginia",
+    "radius_miles": 50,
+    "include_remote": true
+  },
+  "virginia": {
+    "cities": [
+      "Alexandria",
+      "Arlington",
+      "Berryville",
+      "Caroline",
+      "Centreville",
+      "Chantilly",
+      "Culpeper",
+      "Culpeper County",
+      "Dumfries",
+      "Fairfax",
+      "Fairfax County",
+      "Falls Church",
+      "Fauquier County",
+      "Frederick County",
+      "Fredericksburg",
+      "Front Royal",
+      "King George",
+      "Leesburg",
+      "Locust Grove",
+      "Loudoun County",
+      "Madison",
+      "Manassas",
+      "Manassas Park",
+      "Marshall",
+      "Orange",
+      "Orange County",
+      "Prince William",
+      "Rappahannock",
+      "Snell",
+      "Spotsylvania",
+      "Spotsylvania Courthouse",
+      "Stafford",
+      "Stafford County",
+      "Stephens City",
+      "Sterling, VA",
+      "Warren County",
+      "Warrenton",
+      "Washington",
+      "Winchester",
+      "Woodbridge",
+      "Woodbridge, Virginia",
+      "Woodford",
+      "Remote"
+    ],
+    "delay_seconds": 65,
+    "blocked_wait_seconds": 330,
+    "blocked_retries": 2,
+    "max_pages": 20,
+    "budget_minutes": 30
+  },
+  "neogov_agencies": [
+    {
+      "slug": "fairfaxcounty",
+      "name": "Fairfax County Government",
+      "level": "Local",
+      "default_location": "Fairfax, VA"
+    },
+    {
+      "slug": "pwcgov",
+      "name": "Prince William County Government",
+      "level": "Local",
+      "default_location": "Prince William County, VA"
+    },
+    {
+      "slug": "manassas",
+      "name": "City of Manassas",
+      "level": "Local",
+      "default_location": "Manassas, VA"
+    },
+    {
+      "slug": "alexandria",
+      "name": "City of Alexandria",
+      "level": "Local",
+      "default_location": "Alexandria, VA"
+    },
+    {
+      "slug": "loudoun",
+      "name": "Loudoun County Government",
+      "level": "Local",
+      "default_location": "Leesburg, VA"
+    },
+    {
+      "slug": "stafford",
+      "name": "Stafford County",
+      "level": "Local",
+      "default_location": "Stafford, VA"
+    },
+    {
+      "slug": "fairfaxva",
+      "name": "City of Fairfax",
+      "level": "Local",
+      "default_location": "Fairfax, VA"
+    },
+    {
+      "slug": "leesburgva",
+      "name": "Town of Leesburg",
+      "level": "Local",
+      "default_location": "Leesburg, VA"
+    },
+    {
+      "slug": "vienna",
+      "name": "Town of Vienna",
+      "level": "Local",
+      "default_location": "Vienna, VA"
+    },
+    {
+      "slug": "culpeper",
+      "name": "Culpeper County",
+      "level": "Local",
+      "default_location": "Culpeper, VA"
+    },
+    {
+      "slug": "frontroyalva",
+      "name": "Town of Front Royal",
+      "level": "Local",
+      "default_location": "Front Royal, VA"
+    },
+    {
+      "slug": "fcva",
+      "name": "Frederick County, VA",
+      "level": "Local",
+      "default_location": "Winchester, VA"
+    },
+    {
+      "slug": "fairfaxwater",
+      "name": "Fairfax Water",
+      "level": "Local",
+      "default_location": "Fairfax, VA"
+    }
+  ]
+}

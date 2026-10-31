@@ -1,0 +1,56 @@
+{
+ "one_liner": "Entry-level commissary grocery worker on military bases: stocking shelves, running checkout, helping customers, and tracking inventory for the Defense Commissary Agency.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel easily meets the GS-4 general experience bar, and the strong customer-service and people skills fit the competencies well. The job itself is physical retail work with no promotion potential, far from Daniel's policy and emergency-management interests, so it works mainly as a federal foot in the door rather than a career match.",
+ "eligibility": [
+  "Open to the public (hiring paths include public, military spouse, and federal transition), so no federal status is needed.",
+  "Must have 1 year of progressively responsible clerical, office, or other general experience, OR 2 full years of education above high school (transcripts required), OR a combination.",
+  "Must attest to the physical requirements: standing, stooping, and climbing for long periods, and lifting up to 40 pounds alone.",
+  "Your resume must state Full Time, 40 hours per week, or Part-Time with hours for each job, or it may be ruled incomplete.",
+  "Security clearance is listed as 'Other,' so expect a background check; work is on military installations at multiple locations."
+ ],
+ "keywords": [
+  "Customer Service",
+  "Clerical & Administrative",
+  "Communications",
+  "Electronic Checkout System",
+  "Safety & Housekeeping",
+  "Store Operations",
+  "stock levels",
+  "inventory data",
+  "reconcile invoices",
+  "submit requisitions",
+  "assisting customers",
+  "security, safety, and sanitation",
+  "work independently or as part of a team",
+  "maintain documents"
+ ],
+ "strategy": [
+  "Apply within 14 days of the May 1, 2026 opening (by about May 15) to make the initial cut-off. Later applications are considered only if more vacancies come in.",
+  "Before applying, confirm which commissary locations you can choose, such as Fort Belvoir, Quantico, or Fort Myer, which are near Manassas.",
+  "Frame your IEM work in terms of the listed competencies: client and public communication, tracking documents and data, administrative tasks, and following safety procedures. Use only the duties you actually performed.",
+  "Keep the resume to two pages and list dates, hours per week, and duties for each job. Rewrite the duties in your own words, because copying the announcement can make you ineligible.",
+  "Answer the questionnaire honestly at the highest level your resume supports, since overstating can lead to disqualification. Leave off any photo, social media links, or personal details.",
+  "If you have a college degree, upload unofficial transcripts as backup qualification evidence."
+ ],
+ "resume_bullets": [
+  "Served as primary point of contact for [number/type] government clients at IEM, answering questions and resolving issues on [emergency management/recovery topic] in a team environment ([hours] per week).",
+  "Maintained and reconciled [documents/records/data, e.g., tracking logs, invoices, requests] using [system/tool], ensuring accuracy for [purpose].",
+  "Supported [preparedness/safety activity] by following and communicating [safety/security procedures], working [independently/as part of a team of X]."
+ ],
+ "interview_questions": [
+  "Tell us about a time you handled a difficult or upset customer.",
+  "How would you balance stocking duties with helping customers who need assistance?",
+  "Describe your experience handling money, records, or inventory accurately.",
+  "Why do you want to work at a commissary, given your consulting background?"
+ ],
+ "watch_outs": [
+  "Pay is low ($17.82–$25.95/hour) and the job has no promotion potential, so it is mainly a way into federal service, not a policy role.",
+  "The work is physically demanding retail with temperature changes, and schedules may include occasional overtime.",
+  "Because this is an open-continuous announcement, applying after the first 14 days lowers your chances.",
+  "Applicants with veterans' and military spouse preference are referred first, which can push non-preference applicants down the list."
+ ],
+ "job_id": "usajobs:867123000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:09-04:00"
+}

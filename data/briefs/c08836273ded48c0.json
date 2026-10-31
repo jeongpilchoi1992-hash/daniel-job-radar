@@ -1,0 +1,55 @@
+{
+ "one_liner": "Contracts manager and management analyst for a Marine Corps information operations center, running acquisition packages, overseeing contracts as COR, and advising leadership on resources.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-13 role requires a year of GS-12-equivalent experience in acquisition and procurement support, organizational process analysis, and resource advising. Daniel's IEM consulting background may touch government contracts, but nothing on file shows hands-on PWS, IGCE, COR, or procurement work at that level. The SCI clearance requirement adds another hurdle.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status needed.",
+  "At least one year of specialized experience equivalent to GS-12 in all three areas: improving organizational structures and processes, advising leadership on financial, manpower and material resources, and technical support for acquisition and procurement activities.",
+  "You must be able to obtain and keep a Sensitive Compartmented Information (SCI) clearance, which requires a Top Secret-level investigation.",
+  "You must pass the USA Hire assessment cut score; skipping it or scoring below it disqualifies you."
+ ],
+ "keywords": [
+  "Contracting Officer's Representative (COR)",
+  "acquisition planning",
+  "Performance Work Statement (PWS)",
+  "Independent Government Cost Estimate (IGCE)",
+  "market research",
+  "sole-source justification",
+  "source selection plan",
+  "Quality Assurance Surveillance Plan (QASP)",
+  "contract administration",
+  "deliverables",
+  "Federal acquisition laws, regulations, policies",
+  "organizational structures, processes, and procedures",
+  "financial, manpower, and material resources",
+  "compliance reviews",
+  "annual procurement plan"
+ ],
+ "strategy": [
+  "Before investing time, list honestly what you did at IEM involving government contracts: proposals, task orders, deliverables tracking, client funding, or process improvement. If none of it touches acquisition, apply to GS-9/11 management or program analyst roles instead.",
+  "If you did support contract work, frame it from the government side. Describe managing deliverables against a statement of work, tracking contract funding, writing cost estimates, and briefing client leadership on resources.",
+  "Map each of the three specialized-experience elements to a short, dated bullet on a two-page resume. Include start and end dates, hours per week, and the posting's exact terms.",
+  "The posting window is October 29 to November 2, 2026, only about five days. Have your two-page resume ready in advance, and finish USA Hire right away when the link arrives.",
+  "Answer the assessment truthfully. Overclaiming 'expert' acquisition experience you can't document in the resume can be caught in the Structured Resume Review."
+ ],
+ "resume_bullets": [
+  "Managed [number] deliverables under a [client agency] contract valued at [$ amount], tracking performance against the statement of work and resolving issues with client stakeholders.",
+  "Analyzed [client/program] processes and recommended [specific change] to leadership, improving [metric] by [result].",
+  "Drafted [cost estimates/market research/scopes of work] supporting [type of procurement] for [government client], coordinating with [contracting staff/program leads]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would build an acquisition package, including PWS, IGCE and QASP, for a new services requirement.",
+  "Describe a time a contractor was underperforming. How did you document it and drive corrective action?",
+  "How have you advised leadership on reallocating funds, staff or materials to meet mission priorities?",
+  "Tell us about a time you improved an organizational process or procedure. What was the measurable result?"
+ ],
+ "watch_outs": [
+  "The application window is extremely short, about five days.",
+  "An SCI clearance is required. The investigation is lengthy, and the offer may be contingent on it.",
+  "The acquisition specialty is a hard requirement. Without demonstrable COR or procurement experience at the GS-12 level, you will likely be rated ineligible.",
+  "Veterans' preference applies under category rating, so preference-eligible applicants are listed first within each category."
+ ],
+ "job_id": "usajobs:890607500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

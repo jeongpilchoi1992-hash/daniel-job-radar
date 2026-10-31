@@ -1,0 +1,55 @@
+{
+ "one_liner": "Licensed clinician who runs court-ordered domestic violence intervention groups and manages a caseload of offenders for DC's federal supervision agency.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This role requires a current independent clinical license (LICSW, LPC, LMFT or comparable) plus GS-11-level experience facilitating domestic violence or cognitive-behavioral interventions for high-risk offenders. Nothing on file suggests Daniel has either, and emergency-management consulting and policy knowledge do not substitute. Daniel should not apply unless Daniel already holds such a license and has that clinical experience.",
+ "eligibility": [
+  "Open to the public, but also to federal transition and veteran hiring paths, so no federal status is needed.",
+  "A current, unrestricted independent practice license (LISW, LICSW, LPC, LMFT or comparable) is mandatory, and a copy must be uploaded or you lose consideration.",
+  "You need one year of specialized experience equivalent to GS-11: facilitating evidence-based DV or cognitive-behavioral interventions for high-risk offenders, managing complex DV cases with advanced risk assessments, and collaborating with interdisciplinary teams.",
+  "Basic entry requires a behavioral or social science degree (or 24 semester hours), or equivalent experience or a combination. Transcripts are required for any claimed education.",
+  "You must pass the USA Hire assessments at or above the cut score."
+ ],
+ "keywords": [
+  "Domestic Violence Intervention Program",
+  "cognitive-behavioral interventions",
+  "evidence-based practice",
+  "high-risk offenders",
+  "risk and needs assessments",
+  "caseload",
+  "victim safety",
+  "Community Supervision Officers",
+  "fidelity to the intervention model",
+  "co-occurring issues",
+  "interdisciplinary teams",
+  "quality-assurance reviews",
+  "phase assessments",
+  "case record reviews",
+  "recidivism"
+ ],
+ "strategy": [
+  "First confirm whether you hold a current independent clinical license. If you do not, skip this posting, because the license requirement is pass/fail.",
+  "If you are interested in CSOSA, look instead for non-clinical roles such as program analyst, community outreach, or public affairs. Your policy knowledge and public-facing skills fit those better.",
+  "If you do qualify, mirror the specialized experience language on your two-page resume. List dates, hours per week, and specific DV or CBT group facilitation and risk-assessment work.",
+  "Answer the questionnaire honestly. Overstating qualifications can remove you from consideration, and the license and transcripts will be checked.",
+  "Upload the license copy and transcripts before the November 13, 2026 closing date, and set aside uninterrupted time for the USA Hire assessments."
+ ],
+ "resume_bullets": [
+  "Facilitated [number] weekly [DV/CBT curriculum] group sessions for [population] while maintaining fidelity to the intervention model; [hours/week].",
+  "Conducted [risk assessment tool] assessments for a caseload of [number] participants and recommended [intervention or supervision decisions] to [partners].",
+  "Coordinated with [probation officers/courts/victim advocates] to address [co-occurring issues] and improve program outcomes such as [result, if documented]."
+ ],
+ "interview_questions": [
+  "How do you respond when a participant minimizes or denies abusive behavior in group?",
+  "Walk us through how you prioritize victim safety when a participant misses sessions.",
+  "Describe a complex DV case where your risk assessment changed the supervision or intervention plan.",
+  "How do you maintain curriculum fidelity while adapting for participants with substance use or mental health issues?"
+ ],
+ "watch_outs": [
+  "The mandatory clinical license almost certainly disqualifies you based on your known background.",
+  "The specialized experience must be clinical DV or offender intervention work. Emergency-management consulting will not count.",
+  "Missing transcripts or a missing license copy results in automatic loss of consideration."
+ ],
+ "job_id": "usajobs:889437000",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:05-04:00"
+}

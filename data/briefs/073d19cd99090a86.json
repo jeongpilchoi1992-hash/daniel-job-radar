@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior contracting job at the Pentagon's AI office: planning, negotiating, and overseeing contracts and Other Transaction Agreements for defense AI and data programs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a GS-12/13-equivalent 1102 contracting role that requires a year of experience performing Contracting Officer/Agreements Officer functions plus IT/AI acquisition, IP, cybersecurity, and SCRM knowledge. Nothing on file shows Daniel has done contracting work, and Daniel's policy and people strengths are not what this posting screens for. It is only worth applying if Daniel's IEM role actually involved government contract management, proposals, or procurement.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority; veterans' preference does not apply.",
+  "Basic education requirement: a bachelor's degree plus 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, industrial management, marketing, quantitative methods, or organization and management. Transcripts are required.",
+  "Specialized experience: one year at the NH-2/GS-11 level performing Contracting Officer/Agreements Officer functions and applying IT/AI acquisition, IP, cybersecurity, and SCRM knowledge.",
+  "Security clearance: Sensitive Compartmented Information (SCI), which requires a Top Secret-level investigation.",
+  "All requirements must be met by the November 4, 2026 closing date, on a resume of two pages or fewer that lists months and hours per week."
+ ],
+ "keywords": [
+  "acquisition strategies",
+  "Other Transaction Agreements (OTAs)",
+  "Agreements Officer",
+  "Contracting Officer Representative (COR)",
+  "market research",
+  "solicitation",
+  "evaluation",
+  "negotiations",
+  "contract administration",
+  "contractor performance",
+  "cost, schedule, and technical milestones",
+  "requirements packages",
+  "statements of objectives",
+  "supply-chain risk management (SCRM)",
+  "software and artificial intelligence (AI) acquisition"
+ ],
+ "strategy": [
+  "Before applying, confirm two things: that your transcript shows 24 semester hours in the listed business-related fields, and that your IEM work included real contracting tasks. If either answer is no, skip this posting.",
+  "If you supported FEMA or state contracts at IEM, describe that work concretely. Examples include task order management, deliverable and schedule tracking, cost reporting, proposal or pricing work, and requirements documents.",
+  "Use the posting's exact phrases, but only where they are true. Do not claim Contracting Officer or warrant authority you did not hold, because the questionnaire answers will be checked against your resume.",
+  "Keep the resume to two pages, listing months/years and hours per week for each job, and upload your transcripts.",
+  "A better use of your effort may be GS-7/9 1102 trainee roles, such as DoD intern or Pathways contracting positions, and FEMA or Virginia VDEM program and policy roles that match your emergency-management and public-facing strengths."
+ ],
+ "resume_bullets": [
+  "Monitored contractor deliverables, schedule, and cost for [number] [FEMA/state] emergency management task orders valued at [$ amount], reporting status to [client role] [frequency].",
+  "Drafted [statements of work/requirements documents/proposal sections] for [client/program], coordinating with [number] stakeholders to define scope and evaluation criteria.",
+  "Performed [market research/vendor analysis] for [project], informing [decision or outcome you can verify]."
+ ],
+ "interview_questions": [
+  "Walk us through a contract or agreement you managed from requirement to closeout.",
+  "When would you use an Other Transaction Agreement instead of a FAR-based contract?",
+  "How would you address intellectual property and data rights when acquiring AI software?",
+  "Describe how you handled a contractor that was missing schedule or cost targets."
+ ],
+ "watch_outs": [
+  "The posting requires Contracting Officer/Agreements Officer-level experience, which Daniel's known background does not show.",
+  "The degree and 24-semester-hour coursework requirement is mandatory, and transcripts must be submitted.",
+  "SCI clearance eligibility is required.",
+  "This is a public notice that may not result in a selection, and the application window is short (October 26 to November 4, 2026)."
+ ],
+ "job_id": "usajobs:890271100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:04-04:00"
+}

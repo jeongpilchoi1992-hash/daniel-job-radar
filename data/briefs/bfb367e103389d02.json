@@ -1,0 +1,57 @@
+{
+ "one_liner": "Entry-to-mid level intelligence analyst at NGA who uses GIS and satellite/aerial imagery to spot patterns and produce maps and reports for military and policymakers.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is a technical GEOINT role requiring hands-on GIS and imagery-analysis experience plus either a GIS/geography/remote-sensing/data degree, 24 semester hours in those fields, or 4 years of GEOINT intelligence work. Nothing on file shows Daniel has those skills or coursework, though IEM work may have included GIS mapping for disaster response. Daniel's policy knowledge and people skills match only the communication criterion and the desirable items.",
+ "eligibility": [
+  "Open to the public (U.S. citizens); no federal status needed. This is a DCIPS Excepted Service position.",
+  "Education: a bachelor's in Cartography, Computer Science, GIS, Geography, Remote Sensing, Data Analytics or a related field; or 24 semester hours of such coursework plus GEOINT-related experience totaling 4 years; or 4 years of GEOINT intelligence experience.",
+  "Must meet all six Mandatory Qualification Criteria (GIS analysis, imagery interpretation, imagery source selection, products, communication) with specific examples and results.",
+  "Must obtain a Top Secret/SCI clearance and pass a counterintelligence polygraph and drug test.",
+  "Physical: distinguish principal colors and shades, with near visual acuity of 20/20 (corrected is fine)."
+ ],
+ "keywords": [
+  "geospatial techniques",
+  "GIS platform",
+  "analytical conclusions",
+  "patterns and trends",
+  "imagery",
+  "identify, characterize, and/or describe activities, objects, or features",
+  "imagery sources for exploitation and analysis",
+  "routine and non-routine products",
+  "maps, data, reports, models",
+  "quality standards",
+  "audiences of various technical capabilities",
+  "multi-INT research",
+  "intelligence databases",
+  "coordinating interdependent tasks",
+  "gathering data from multiple sources"
+ ],
+ "strategy": [
+  "Before applying, check honestly whether you used GIS (ArcGIS, QGIS) or imagery at IEM, such as damage assessments, flood or hazard maps, or recovery planning. If you did not, this role will likely screen you out.",
+  "If you did, write one bullet per mandatory criterion using its exact wording. Name the tool, the imagery type (e.g., post-disaster aerial or satellite), the product, and the result.",
+  "Check transcripts for qualifying coursework (geography, GIS, data analytics, CS) and count semester hours against the 24-hour option. Include your degree field and hours on the resume.",
+  "Use the NGA resume builder, keep it to 2 pages, and include dates and hours per week. Add a short optional cover letter tying emergency-management analysis to the GEOINT mission.",
+  "Apply between Oct 19 and Oct 31, 2026, and expect a long TS/SCI and polygraph process.",
+  "If you are not qualified now, consider an online GIS certificate or courses, and target policy, outreach or legislative-affairs roles that fit your strengths better."
+ ],
+ "resume_bullets": [
+  "Applied geospatial techniques in [GIS platform] to analyze [hazard/damage/population data] for [government client], drawing analytical conclusions that informed [decision or plan] ([hours/week], [dates]).",
+  "Used [satellite/aerial] imagery to identify and characterize [damaged structures/flooded areas/features] across [area], producing [number] maps and reports that met [client/quality] standards.",
+  "Briefed [audience, e.g., state/local emergency managers] on analytic findings, translating technical results for audiences of various technical capabilities and supporting [outcome]."
+ ],
+ "interview_questions": [
+  "Walk us through a time you used GIS to reach an analytical conclusion in a non-routine situation.",
+  "How do you choose which imagery source to use for a given question, and what are its limitations?",
+  "Describe a product you created that had to meet strict quality standards and a deadline.",
+  "How would you explain a complex geospatial finding to a senior policymaker with no technical background?"
+ ],
+ "watch_outs": [
+  "Technical qualifications (GIS, imagery analysis, plus education or 4 years of GEOINT experience) are likely a hard barrier for Daniel as currently known.",
+  "Requires a TS/SCI clearance, a CI polygraph, a drug test and annual financial disclosure, so expect months of processing.",
+  "No telework or remote work. Location is listed as multiple sites, so confirm whether a NoVA-area site (e.g., Springfield) is offered.",
+  "The application window is short (Oct 19–31, 2026), and the NGA resume builder has a 2-page limit."
+ ],
+ "job_id": "usajobs:889028100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

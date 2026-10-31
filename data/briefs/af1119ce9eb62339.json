@@ -1,0 +1,56 @@
+{
+ "one_liner": "Caseworker for Prince William County's Housing Choice Voucher (Section 8) program: determine eligibility, calculate household income and rent, and manage a participant caseload.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The posting asks for a background in determining HCV (Section 8) eligibility and doing income and rent calculations, and nothing on file shows Daniel has done that. Daniel's people skills, public-facing strengths and IEM work on government disaster recovery programs, which can involve housing assistance and applicant eligibility, give a plausible bridge. The local Manassas location is a plus.",
+ "eligibility": [
+  "Confirm the minimum qualifications in the full posting (education and years of experience); the excerpt cuts off before listing them.",
+  "Experience determining eligibility for the Housing Choice Voucher Program (formerly Section 8) is described as the core background sought. Check whether it is required or preferred.",
+  "Check for any required HUD/HCV certification (e.g., Nan McKay or HCV Specialist) or a requirement to obtain one after hire.",
+  "Open to the public as a county job, with no federal status or clearance indicated. Expect a background check, and verify both in the full posting."
+ ],
+ "keywords": [
+  "Housing Choice Voucher Program",
+  "HCV",
+  "Section 8",
+  "determining program eligibility",
+  "eligibility",
+  "case load",
+  "household income/assets",
+  "allowable expenses",
+  "family size",
+  "allowable rent amounts",
+  "landlords",
+  "team environment",
+  "independently",
+  "multi-tasking",
+  "problem-solving",
+  "organized"
+ ],
+ "strategy": [
+  "Apply before November 3, 2026. Read the full posting on governmentjobs.com for minimum qualifications, salary and any supplemental questions, because the excerpt is truncated.",
+  "Frame your IEM work around any eligibility review, applicant intake, documentation verification, or federally funded assistance programs (e.g., FEMA Individual Assistance or disaster housing recovery) you actually supported.",
+  "Emphasize detail-oriented calculation and compliance tasks: reviewing financial documents, applying federal program rules, and maintaining case files or trackers.",
+  "Highlight your strength with the public and in building relationships as a fit for working with HCV participants and landlords, including difficult conversations about eligibility or rent.",
+  "Answer supplemental questions honestly and specifically. If you lack HCV experience, describe transferable eligibility and casework experience rather than claiming direct experience.",
+  "Consider taking a short HUD HCV eligibility or rent calculation course, and mention it as training to show initiative."
+ ],
+ "resume_bullets": [
+  "Supported [government client/program] at IEM by reviewing [number] applicant files for eligibility under [federal program rules], verifying income and household documentation.",
+  "Served as point of contact for [type of stakeholders, e.g., disaster survivors, local officials], resolving [number/type] of inquiries and explaining program requirements in plain language.",
+  "Maintained [tracker/case management system] for [number] cases, ensuring accurate records and on-time completion of [deliverables/reviews]."
+ ],
+ "interview_questions": [
+  "Walk us through how you would determine a household's annual income and eligibility for a voucher.",
+  "Describe a time you had to tell someone they did not qualify for assistance. How did you handle it?",
+  "How do you manage a large caseload with competing deadlines while keeping calculations accurate?",
+  "Tell us about your experience applying federal program regulations at IEM."
+ ],
+ "watch_outs": [
+  "The posting seeks an HCV eligibility background you may not have, so expect strong competition from experienced housing specialists.",
+  "The salary and full qualifications are not shown in the excerpt, so confirm the pay range and minimum requirements before investing heavily.",
+  "This is detail-heavy compliance and math work rather than policy work, so make sure it fits your interest in politics and public policy."
+ ],
+ "job_id": "neogov:pwcgov:5522800",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

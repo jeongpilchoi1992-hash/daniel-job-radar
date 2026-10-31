@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Treasury analyst who helps federal and state agencies join and expand the Treasury Offset Program, which collects delinquent debts by offsetting government payments.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's relationship-building, public policy knowledge and government-client consulting at IEM fit the stakeholder and legislative-proposal parts of this role. However, GS-13 requires a year of GS-12-level experience in debt management, collection, payment or similar financial management, plus formal or end-to-end testing, and nothing on file shows that. Unless Daniel's IEM work involved disaster-recovery financial or payment processes and system testing at a senior level, Daniel likely will not qualify.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals) and to CTAP/ICTAP-eligible federal employees; no federal status is required.",
+  "You need one year of specialized experience equivalent to GS-12 in all three areas: debt management, debt collection, payment or similar financial management; formal or end-to-end testing for new programs or systems; and multi-source analysis leading to process recommendations.",
+  "No clearance or degree is required, but you must pass the USA Hire online assessment cut score and reach a rating of 95 to be referred.",
+  "Probationary period, PIV identity check and a government travel card are required; Selective Service registration applies to men born after 1959."
+ ],
+ "keywords": [
+  "debt management",
+  "debt collection",
+  "Treasury Offset Program",
+  "end-to-end testing",
+  "implementation of new or enhanced programs",
+  "stakeholders",
+  "state agencies",
+  "federal agencies",
+  "administrative offset",
+  "analyzing information from multiple sources",
+  "evaluate program effectiveness",
+  "recommend improvements",
+  "reengineer processes",
+  "develop and propose legislation",
+  "business processes"
+ ],
+ "strategy": [
+  "Before writing anything, preview the questionnaire (link in the posting) and compare it to your actual IEM duties. Only apply if you can honestly claim the payment/financial-management and testing experience.",
+  "If IEM work involved FEMA Public Assistance, grant reimbursement, disaster-recovery payment processing, or recoupment of improper payments, describe it explicitly as payment or financial management work, with month/day/year dates and hours per week.",
+  "Describe any user acceptance testing, system rollouts or process implementations you supported using the phrases \"end-to-end testing\" and \"implementation of new or enhanced programs.\"",
+  "Keep the resume to two pages, and put the three specialized-experience elements in your top IEM bullets. Highlight state and federal stakeholder coordination and any policy or legislative analysis.",
+  "The window is only Oct 30 to Nov 5, 2026, and the USA Hire assessment follows soon after submission, so have the resume ready and set aside uninterrupted time for the test.",
+  "If you don't qualify, target GS-9/11 Treasury, FEMA or state Department of Emergency Management roles, or legislative staff jobs that fit your background better."
+ ],
+ "resume_bullets": [
+  "Analyzed [disaster recovery payment/reimbursement] data from [number] sources for [client agency], identifying [issue] and recommending process changes adopted by [stakeholder]. ([month/day/year]–[month/day/year], [hours]/week)",
+  "Conducted end-to-end testing of [system/process name] before rollout to [number] state and local users, documenting [number] defects and validating fixes with [team/client].",
+  "Served as primary liaison to [federal/state agencies], explaining [program] requirements and resolving stakeholder issues to support implementation of [program]."
+ ],
+ "interview_questions": [
+  "Describe a time you led testing for a new system or business process. What did you test, and how did you handle defects?",
+  "How would you explain the Treasury Offset Program's requirements to a state agency that is hesitant to participate?",
+  "Tell us about analysis you did that led to a process or policy recommendation. What happened?",
+  "What experience do you have with debt collection, payments or financial management processes?"
+ ],
+ "watch_outs": [
+  "The specialized experience is very specific: emergency-management consulting without financial/payment and testing work will likely be rated ineligible.",
+  "The application window is about one week (closes Nov 5, 2026).",
+  "High referral cut score (95), a mandatory USA Hire assessment, and veterans' preference ranking reduce your odds.",
+  "Location is listed as \"Multiple Locations\" and telework is allowed, but the job is not remote; confirm a duty station is commutable from Manassas."
+ ],
+ "job_id": "usajobs:890941500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:03-04:00"
+}

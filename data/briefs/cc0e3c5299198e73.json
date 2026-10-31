@@ -1,0 +1,55 @@
+{
+ "one_liner": "Senior executive-level director at FTA leading nationwide oversight of transit agencies' compliance with ADA, Title VI, and Disadvantaged Business Enterprise rules, supervising staff and budgets.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This GS-15 role requires a year of GS-14-equivalent experience that specifically includes applying or overseeing ADA requirements in public transit, plus directing major programs and supervising staff. Daniel's policy knowledge, stakeholder skills, and IEM emergency-management consulting are relevant to communication and government programs, but nothing on file shows public transit ADA work or senior supervisory experience. Unless Daniel's IEM role included transit ADA compliance at a senior level, Daniel is unlikely to pass the Phase I resume screen.",
+ "eligibility": [
+  "Open to the public (U.S. citizens/nationals) under Direct Hire Authority; no federal status or veterans' preference needed.",
+  "Must have one year of specialized experience equivalent to GS-14 that includes ADA application or oversight within public transit; this is mandatory, not a preference.",
+  "Same year must include executive-level briefings and stakeholder communication, plus managing/directing major programs and using data to defend decisions.",
+  "Background investigation required (no clearance), Selective Service registration if applicable, and a government travel card for job travel.",
+  "All qualifications must be met by the 11/02/2026 closing date; only two resume pages are reviewed."
+ ],
+ "keywords": [
+  "Americans with Disabilities Act",
+  "public transit",
+  "program oversight",
+  "Title VI",
+  "Disadvantaged Business Enterprise",
+  "recipients of federal transit funding",
+  "data-driven decision making",
+  "briefings to executive leaders",
+  "stakeholder collaboration",
+  "strategic planning",
+  "managing and directing major programs",
+  "contractor performance",
+  "evaluating employee performance",
+  "office budgets",
+  "regulatory risks"
+ ],
+ "strategy": [
+  "First, honestly check whether any work at IEM touched public transit, ADA accessibility, or Title VI/civil-rights compliance; if not, consider skipping this posting and targeting GS-11/12 emergency management or program analyst roles where you qualify.",
+  "If you do qualify, put the ADA-in-public-transit experience in the first bullets of your IEM entry with dates (MM/YYYY), hours per week, and scope, since only two pages are read and HR will not infer.",
+  "Frame IEM consulting as program management for government clients: name client types, program size, deliverables, and any staff or subcontractors you directed, using [brackets] facts only you can supply.",
+  "Write questionnaire narratives in paragraphs that begin with exact title, organization, dates, full/part-time status, and weekly hours, matching your resume word-for-word to survive HR cross-checks.",
+  "Preview the questions on USAJOBS early and answer only levels you can document; the window is short (opens 10/22/2026, closes 11/02/2026 at 11:59 PM ET)."
+ ],
+ "resume_bullets": [
+  "Advised [client agency type] on accessibility and ADA compliance for [program/transit system], reviewing [number] plans and recommending corrective actions adopted by [result].",
+  "Briefed [executive audience, e.g., state emergency management director] on [topic] using data analysis of [dataset], supporting decisions on [$ amount/scope] in program funding.",
+  "Led a team of [number] staff/subcontractors delivering [program name] for [government client], managing a [$ amount] budget and tracking contractor performance against [metrics]."
+ ],
+ "interview_questions": [
+  "Describe a time you assessed a public transit agency's ADA compliance and how you resolved findings.",
+  "How have you used data to defend a controversial program decision to senior leadership?",
+  "How do you plan, assign, and evaluate the work of a supervisory team spread across locations?",
+  "How would you prioritize oversight of ADA, Title VI, and DBE programs with limited resources?"
+ ],
+ "watch_outs": [
+  "The ADA-in-public-transit specialized experience is a hard requirement; general emergency management or policy knowledge will not substitute.",
+  "GS-15 implies extensive senior supervisory experience; without it you will likely be rated ineligible in Phase I.",
+  "Very short 12-day open period, a likely writing sample, travel, and a one-year probationary plus supervisory probation period."
+ ],
+ "job_id": "usajobs:889855100",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

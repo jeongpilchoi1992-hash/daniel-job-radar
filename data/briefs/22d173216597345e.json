@@ -1,0 +1,55 @@
+{
+ "one_liner": "An Air Force 'pointer' announcement advertising Direct Hire Authority openings in the Social Science (0101) series; actual jobs are listed on the Air Force Civilian Service Direct Hire Job Board.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's policy knowledge and IEM emergency-management consulting could fit 0101 Social Science work, but this posting has no duties, grade, or qualifications of its own. Fit depends entirely on the specific job you find on the Direct Hire Job Board. GS-0101 roles usually require a social science degree or a mix of related coursework and experience, which is not yet confirmed for Daniel.",
+ "eligibility": [
+  "Open to the public (hiring path 'public'); Direct Hire means no federal status or veterans' preference is needed.",
+  "The 0101 series typically requires a degree in behavioral or social science, or a combination of related coursework and experience; confirm Daniel's degree against the specific job's qualifications.",
+  "Specialized experience at the next-lower grade will be set by the specific direct hire job, not this pointer posting; confirm the grade and requirements there.",
+  "Security clearance is listed as Not Required here, but individual Air Force jobs may require one; check each listing."
+ ],
+ "keywords": [
+  "Social Science",
+  "Direct Hire Authorities",
+  "DHA",
+  "Department of the Air Force",
+  "Air Force Civilian Service",
+  "emergency management",
+  "disaster recovery",
+  "preparedness",
+  "public policy",
+  "research",
+  "analysis",
+  "stakeholder engagement",
+  "government clients",
+  "program evaluation"
+ ],
+ "strategy": [
+  "Treat this as a gateway: follow the 'click here' link to the Air Force Civilian Service Direct Hire Job Board and apply to the specific Social Science listings. Read each listing's duties, grade, and qualifications before tailoring.",
+  "Frame your IEM experience around research, analysis, policy, and planning for government emergency-management and recovery clients. State your actual title, hours per week, and dates exactly, and do not overstate your duties.",
+  "Target grades realistically (likely GS-7 to GS-11, depending on your degree and IEM experience). Write one specialized-experience sentence per job that mirrors that job's language.",
+  "Keep your resume to two pages under the OPM rule. Upload transcripts if you are qualifying on education, since 0101 often needs coursework proof.",
+  "Answer any self-assessment questionnaire honestly at the highest level your resume supports, and make sure each 'expert' answer is backed by a resume bullet.",
+  "Because this announcement stays open until 2027-03-30, the Air Force may pull applicants periodically, so apply early. Also check whether the location is in the DC region, since it is negotiable after selection."
+ ],
+ "resume_bullets": [
+  "[Title], IEM, [MM/YYYY–MM/YYYY], [hours]/week: Researched and analyzed [policy/program topic] for [federal/state/local client] emergency management programs, producing [deliverable type] used for [purpose].",
+  "Coordinated with [number/type] government stakeholders to gather data and requirements for [disaster recovery/preparedness project], presenting findings to [audience].",
+  "Drafted [reports/briefings/plans] interpreting [legislation/regulations, e.g., Stafford Act] to support [client decision or program], delivered by [timeframe]."
+ ],
+ "interview_questions": [
+  "Describe a research or analysis project you led from question to recommendation.",
+  "How have you translated complex policy or data for non-specialist leaders?",
+  "Tell us about working with multiple government stakeholders who had competing priorities.",
+  "How would your emergency-management consulting experience apply to Air Force social science work?"
+ ],
+ "watch_outs": [
+  "This is a pointer posting with no real duties or qualifications; applying here alone may not get you considered, so apply on the Direct Hire Job Board.",
+  "Social Science (0101) usually has a positive education requirement; confirm your degree or coursework qualifies.",
+  "Location is negotiable after selection and there is no telework, so you could be offered a duty station outside Northern Virginia.",
+  "The promotion potential shown as 'None' and the GS-1/15 range are placeholders; check the actual grade and career ladder on each job."
+ ],
+ "job_id": "usajobs:863240700",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

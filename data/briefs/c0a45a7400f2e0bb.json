@@ -1,0 +1,55 @@
+{
+ "one_liner": "A staff role at George Mason University advising doctoral students on program requirements and progress, and coordinating student-success support and events.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's people skills, relationship-building, and comfort with the public suit a student-facing coordinator role, and policy knowledge could help with Schar School or similar PhD programs. However, academic advising roles usually favor higher-education or student-services experience and often a master's degree, which aren't on file for Daniel. The posting text is unavailable, so the actual requirements must be confirmed.",
+ "eligibility": [
+  "Read the full posting at the jobs.virginia.gov link (or GMU's careers site) because no description, qualifications, or salary were provided here.",
+  "Check whether a bachelor's or master's degree, possibly in a related field, is required or preferred, since advising roles commonly set one.",
+  "Confirm the position type (classified, administrative/professional faculty, or wage) and whether a background check is required.",
+  "On-site work in Fairfax is indicated (not remote), which is a manageable commute from Manassas, but confirm any telework policy."
+ ],
+ "keywords": [
+  "academic advising",
+  "student success",
+  "PhD students",
+  "doctoral program",
+  "graduate students",
+  "program requirements",
+  "degree progress",
+  "retention",
+  "advising",
+  "coordination",
+  "student support services",
+  "outreach",
+  "events",
+  "communication",
+  "higher education"
+ ],
+ "strategy": [
+  "Pull the full posting first and mirror its exact qualification language; the keywords listed here are inferred from the title only.",
+  "Frame your IEM work around coordination, stakeholder communication, tracking deliverables and deadlines, and guiding clients through complex requirements, which parallel tracking students through degree milestones.",
+  "Highlight relationship-building and public-facing strengths with concrete examples of supporting or advising people one-on-one.",
+  "Write a short cover letter connecting your policy expertise and interest in public service to supporting doctoral students, especially if the role sits in a policy or government program.",
+  "Apply quickly since the role is open until filled; GMU uses its own applicant system, so a Virginia-style resume can exceed two pages, but keep it focused.",
+  "Ask whether experience can substitute for education if the degree requirement is unclear."
+ ],
+ "resume_bullets": [
+  "Coordinated [type of project/deliverable] for [government client type] at IEM, tracking [number] milestones and deadlines to keep work on schedule.",
+  "Served as point of contact for [number/type of stakeholders], explaining [requirements/processes] clearly and resolving questions within [timeframe].",
+  "Organized [meetings/trainings/workshops] for [audience and size], handling logistics, communication, and follow-up."
+ ],
+ "interview_questions": [
+  "How would you help a doctoral student who is falling behind on milestones and seems disengaged?",
+  "Tell us about a time you explained complex rules or requirements to someone who was frustrated.",
+  "How do you keep track of many people or projects with different deadlines?",
+  "Why do you want to work in higher education and student support?"
+ ],
+ "watch_outs": [
+  "No posting description was available, so the degree requirement, salary, and duties are unverified; confirm before investing much time.",
+  "Advising roles often require a master's degree or higher-ed experience, which may screen you out.",
+  "This is a university staff role, not a policy or emergency-management job, so consider whether it advances your government-career goals."
+ ],
+ "job_id": "virginia:phd-academic-advisor-and-student-success-coordinator-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}

@@ -1,0 +1,52 @@
+{
+ "one_liner": "Back-office revenue analyst for the County's behavioral health agency, handling provider credentialing, client financial assessments, self-pay billing, and debt recovery.",
+ "fit_rating": "Stretch",
+ "fit_summary": "This is a healthcare revenue-cycle and credentialing role, and nothing on file shows Daniel has billing, insurance, Medicaid, or credentialing experience. Daniel's consulting work at IEM likely brought exposure to government compliance, documentation, and possibly disaster-recovery funding. That is adjacent experience, but the posting asks for high-level analytical work in a specialized area.",
+ "eligibility": [
+  "Confirm the minimum qualifications in the full posting. The excerpt is truncated and does not list required education or years of experience.",
+  "Check whether experience in healthcare revenue cycle, billing, or credentialing is required or only preferred.",
+  "Check for any background check or driver's license requirements in the full posting. The excerpt states no residency or status limits, and the job is open to the public as a local government role.",
+  "Application window: opens 2026-10-17 and closes 2026-11-05."
+ ],
+ "keywords": [
+  "revenue management",
+  "revenue cycle integrity",
+  "clinical compliance",
+  "provider credentialing",
+  "financial assessments",
+  "self-pay accounts receivable",
+  "revenue recovery",
+  "state debt collections",
+  "behavioral health",
+  "analytical",
+  "detail-oriented",
+  "Community Services"
+ ],
+ "strategy": [
+  "Read the full posting for the minimum and preferred qualifications before applying. Answer every supplemental question honestly, because local HR screens heavily on those answers.",
+  "Frame your IEM work around the transferable parts you actually did. Examples could include compliance documentation, cost or eligibility reviews, reimbursement or grant-recovery support, data analysis, or audit-ready recordkeeping.",
+  "Highlight your accuracy, spreadsheet and data skills, and work with government clients and the public. Self-pay accounts and financial assessments involve explaining financial matters to residents.",
+  "Use your cover letter to show interest in public behavioral health and your understanding of how Medicaid and state funding affect county services.",
+  "Submit well before November 5. Governmentjobs.com postings may close early or be reviewed in batches.",
+  "If this role is out of reach, look at other Prince William County openings that use your emergency management background, such as the Office of Emergency Management or community engagement roles."
+ ],
+ "resume_bullets": [
+  "Analyzed [type of data, e.g., cost documentation or eligibility records] for [government client] disaster recovery programs, ensuring compliance with [federal/state requirement].",
+  "Reviewed and reconciled [number] [applications/claims/records] for accuracy and completeness, supporting [reimbursement/recovery outcome].",
+  "Served as primary liaison with [client agency/stakeholders], resolving [type of issues] and explaining program requirements to [audience]."
+ ],
+ "interview_questions": [
+  "Describe a time you found and corrected an error in financial or compliance records.",
+  "How would you explain a fee assessment or balance owed to a client who is upset or in crisis?",
+  "What do you know about provider credentialing or the revenue cycle in behavioral health?",
+  "How do you prioritize a large volume of detailed work with deadlines?"
+ ],
+ "watch_outs": [
+  "The role likely favors candidates with healthcare billing, Medicaid, or credentialing experience, so you may be screened out without it.",
+  "The work is mostly desk-based and analytical, with less public interaction and policy work than you prefer.",
+  "Telework is not stated, so confirm it if it matters to you."
+ ],
+ "job_id": "neogov:pwcgov:5525537",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:02-04:00"
+}

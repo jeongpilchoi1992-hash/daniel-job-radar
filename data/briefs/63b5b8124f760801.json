@@ -1,0 +1,56 @@
+{
+ "one_liner": "Support contracting staff at OSD's research and engineering office by reviewing funding packages, OTAs, interagency agreements, and contracted-services spend data.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The job requires one year of GS-11-level specialized experience applying contracting laws, budget and financial processes, and contract or agreement administration. Daniel's IEM consulting work with government clients and strong policy knowledge are relevant only if Daniel handled contracts, task orders, funding, or grant agreements directly, which is not on file. The SCI clearance requirement adds another hurdle.",
+ "eligibility": [
+  "Open to the public under Direct Hire Authority; veterans' preference does not apply.",
+  "One year of specialized experience equivalent to NH-2/GS-11 in contracting law, budgetary and financial processes, procurement and non-procurement instruments, and program evaluation. Education cannot substitute.",
+  "Requires the ability to obtain and hold a Sensitive Compartmented Information (SCI) clearance.",
+  "All qualifications must be met by the closing date and shown on a resume of no more than two pages, with months and hours per week for each job."
+ ],
+ "keywords": [
+  "contracting laws, principles, and regulations",
+  "Other Transaction Authorities (OTAs)",
+  "interagency agreements",
+  "acquisition-of-service actions",
+  "funding-data packages",
+  "incremental funding actions",
+  "budgetary and financial processes",
+  "procurement and non-procurement",
+  "acquisition instruments",
+  "cost analysis",
+  "contract and agreement administration",
+  "monitoring the performance of long-term contracts",
+  "program evaluation",
+  "spend data for contracted services",
+  "small business initiatives"
+ ],
+ "strategy": [
+  "Apply immediately: the notice is open only from October 30 to November 3, 2026, and direct-hire notices can close early.",
+  "Frame your IEM role around any contract-side work you actually did, such as task-order deliverables, CLIN or budget tracking, FEMA Public Assistance or HMGP grant agreements, cost reimbursement, or invoice review. Use the posting's terms, and do not claim work you did not do.",
+  "Present disaster-recovery grant work under the posting's 'non-procurement' and 'agreements with multiple participants' language. Federal grants and cooperative agreements fit those terms.",
+  "Use your policy knowledge to show you can research 'emerging acquisition policies, statutory updates,' such as FAR overhaul changes or OTA authority, but keep it secondary to the hands-on experience.",
+  "Keep the resume to two pages, and list month/year dates and hours per week for each job. Put the specialized experience in the top bullets of the IEM entry.",
+  "If you lack a full year of contracting or financial work, consider GS-7/9 contract specialist (1102) roles or Pathways programs, and still apply here."
+ ],
+ "resume_bullets": [
+  "Reviewed [number] [task orders/grant agreements] for [client agency] to verify funding, period of performance, and compliance with [FAR/2 CFR 200], and resolved documentation deficiencies before submission.",
+  "Compiled and analyzed [spend/cost] data for [program] totaling $[amount], and identified [trend or cost driver] to support [client decision].",
+  "Monitored contractor or subrecipient performance on [multi-party agreement] by tracking [deliverables/milestones] and briefing [audience] on risks and corrective actions."
+ ],
+ "interview_questions": [
+  "Describe your experience reviewing a funding package or contract modification. What errors did you look for?",
+  "How does an Other Transaction agreement differ from a FAR-based contract, and when would you use one?",
+  "Tell us about a time you analyzed spending or cost data and recommended an efficiency.",
+  "How do you stay current on acquisition policy and statutory changes, and how would you brief leadership on one?"
+ ],
+ "watch_outs": [
+  "The notice is open only five days, from October 30 to November 3, 2026.",
+  "The SCI clearance means a lengthy background investigation before you can start.",
+  "This is a public notice for a pool and may not lead to a selection, so keep applying elsewhere.",
+  "The specialized experience bar is high, and you will be removed if contracting and financial duties and their duration are not clear on your resume."
+ ],
+ "job_id": "usajobs:890899600",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

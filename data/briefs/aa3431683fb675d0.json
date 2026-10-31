@@ -1,0 +1,56 @@
+{
+ "one_liner": "Senior Executive Service director running DOE's National Training Center, which trains DOE/NNSA staff in nuclear security, safety, and protective-force skills (including live-fire ranges).",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES job requiring proven executive leadership plus specific technical qualifications in managing DOE safety and security training programs and specialized facilities such as live-fire ranges. Nothing on file shows Daniel has senior executive experience, DOE training program management, or infrastructure oversight. Daniel's policy knowledge helps with ECQ 1, but it cannot carry the TQs or the other ECQs.",
+ "eligibility": [
+  "Open to the public (U.S. citizens or nationals); no federal status is required.",
+  "Your 2-page resume must show both TQs: DOE safety/security Training Program Management and Advanced Training Infrastructure Management (live-fire range, integrated training complex, remote training).",
+  "Your 2-page resume must also show all five ECQs; separate narratives are not accepted, and OPM's QRB must certify you before appointment.",
+  "You must obtain and keep a Q Access Authorization (a DOE clearance), and a pre-employment drug test and OGE-278 financial disclosure may also apply.",
+  "No education requirement."
+ ],
+ "keywords": [
+  "Training Program Management",
+  "Advanced Training Infrastructure Management",
+  "safety and security training programs",
+  "functional area standards",
+  "job analyses",
+  "systematic evaluation",
+  "curricula",
+  "course design and delivery",
+  "live-fire range",
+  "remote training capabilities",
+  "Strategic Partnerships",
+  "mission readiness",
+  "Driving Efficiency",
+  "Leading People",
+  "Achieving Results"
+ ],
+ "strategy": [
+  "Decide honestly whether you have led a training or readiness program with budget and staff authority. If not, skip this posting and target GS-9/11/12 emergency management, preparedness, or training specialist roles at FEMA, DOE, or NoVA localities.",
+  "If you apply, frame your IEM work around any training and exercise design, preparedness curricula, or client program leadership you actually did. Cite standards you used, such as HSEEP, NIMS, or job/task analyses.",
+  "Use posting language for each TQ and ECQ, and put concrete scale on the page: budget dollars, staff led, courses delivered, and participants trained.",
+  "Use your knowledge of the American system of government for ECQ 1, tied to specific work examples rather than general statements.",
+  "Keep the resume to exactly 2 pages with dates and hours per week. Submit between Oct 26 and Nov 9, 2026, ideally a few days before the close."
+ ],
+ "resume_bullets": [
+  "Led design and delivery of [number] [emergency preparedness/exercise] training courses for [government client], aligned to [HSEEP/NIMS/job analysis], reaching [number] participants.",
+  "Managed [budget amount] and [number]-person team on [IEM project], delivering [specific outcome] on schedule for [agency].",
+  "Built partnerships with [federal/state/local officials] to coordinate [program], resulting in [documented result]."
+ ],
+ "interview_questions": [
+  "Describe a time you redesigned a training curriculum based on assessment findings or systemic trends.",
+  "How would you align NTC training resources with changing DOE and NNSA national security priorities while cutting waste?",
+  "Tell us about leading an organization through change and holding staff accountable.",
+  "How have you managed specialized facilities, contracts, or infrastructure?"
+ ],
+ "watch_outs": [
+  "SES-level role: without executive and DOE training-infrastructure experience, you are very unlikely to be rated Highly Qualified.",
+  "Requires a Q clearance, plus a drug test and OGE-278 financial disclosure.",
+  "Anything beyond page 2 of the resume is ignored and may disqualify you.",
+  "The location is listed only as multiple locations, though the NTC is based in Albuquerque, NM, so relocation from Manassas may be required."
+ ],
+ "job_id": "usajobs:890202400",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:06-04:00"
+}

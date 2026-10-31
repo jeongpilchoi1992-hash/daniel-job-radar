@@ -1,0 +1,54 @@
+{
+ "one_liner": "Senior Executive Service leader at VA's Veterans Health Administration who directs enterprise-wide health care transformation, process improvement, and legislative implementation programs.",
+ "fit_rating": "Long shot",
+ "fit_summary": "This is an SES role requiring demonstrated executive leadership and specific experience leading enterprise transformation in a complex health care organization (TQ1). Nothing on file shows Daniel has health care leadership, supervisory, or budget-owning executive experience. Daniel's policy knowledge fits ECQ 1, but the TQ and the Leading People and Driving Efficiency ECQs are likely unmet, and OPM's QRB must certify any non-SES selectee.",
+ "eligibility": [
+  "Open to the public and to current SES members (hiring paths: ses, public); no federal status is required.",
+  "TQ1: demonstrated experience leading enterprise transformation in a complex health care organization, including program management, systems redesign, change management and implementation of legislative requirements.",
+  "All five ECQs must be evidenced within a resume of no more than 2 pages; longer resumes are disqualified, and separate ECQ/TQ narratives are not accepted.",
+  "Non-SES selectees must pass OPM QRB certification and then serve a one-year probationary period; no clearance is required."
+ ],
+ "keywords": [
+  "enterprise transformation",
+  "process improvement",
+  "program management",
+  "systems redesign",
+  "organizational change management",
+  "legislative implementation",
+  "healthcare systems engineering",
+  "system-wide project deployment",
+  "Fiscal Responsibility",
+  "cost-benefit analysis",
+  "Managing Resources",
+  "Leveraging Technology",
+  "Accountability",
+  "Strategic Thinking",
+  "stakeholders"
+ ],
+ "strategy": [
+  "Be honest with yourself first: apply only if your IEM work included leading large, multi-site programs with staff, budget and executive decision authority. If it did not, use this posting as a model for GS-12/13 VHA program analyst or emergency management specialist roles instead.",
+  "If you apply, frame your IEM experience as leading or managing government transformation and implementation programs (for example, rolling out disaster recovery programs under federal statutes), using your actual title, team size and budget.",
+  "Map each ECQ to at least one concise accomplishment using challenge-action-result logic within the 2-page limit. ECQ 1 can draw on your policy and government knowledge, and ECQ 4 needs real supervisory examples.",
+  "Show any health care connection explicitly, such as hospital preparedness, public health emergency, or medical surge work for clients. Without one, TQ1 will likely not be met.",
+  "Apply between Oct 29 and Nov 12, 2026, and submit early. List dates and hours per week for each job, and check that the PDF is exactly 2 pages or fewer."
+ ],
+ "resume_bullets": [
+  "Led [number]-person team managing a [$amount] [program name] for [government client], implementing requirements of [statute/regulation] across [number] jurisdictions and achieving [actual result].",
+  "Redesigned [process] for [client] using [data/tool], reducing [metric] from [baseline] to [result] and gaining adoption by [stakeholder groups].",
+  "Advised [client executive title] on [policy/legislative] changes, translating new requirements into [plans/procedures] deployed to [number] sites by [date]."
+ ],
+ "interview_questions": [
+  "Describe a time you led a large-scale organizational change across multiple sites. How did you overcome resistance?",
+  "How would you implement a new congressional mandate across VISNs and medical facilities with limited resources?",
+  "Give an example of cutting costs or reallocating resources using cost-benefit analysis.",
+  "How have you held a subordinate accountable for poor performance?"
+ ],
+ "watch_outs": [
+  "TQ1 requires complex health care organization leadership, which is not shown in your background on file.",
+  "SES ECQs demand proven executive and supervisory results, and the QRB rejects candidates lacking them.",
+  "There is no telework, and location is negotiable after selection, so relocation from Manassas may be required."
+ ],
+ "job_id": "usajobs:890706900",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:07-04:00"
+}

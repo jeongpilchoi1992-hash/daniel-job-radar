@@ -1,0 +1,56 @@
+{
+ "one_liner": "A senior management analyst for the National Guard Bureau in Arlington, studying programs, processes and policy and advising leadership on improvements, within a Non-Appropriated Fund (NAF) system.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's policy knowledge and consulting work with government clients fit the duties well: analyzing programs, interpreting laws and regulations, and advising senior staff. However, the posting requires a BA/BS in business, accounting, or finance plus at least 3 years working in a Non-Appropriated Funds operation, and nothing on file shows Daniel has either. Unless both are met, Daniel will likely be screened out.",
+ "eligibility": [
+  "Open to the public (no federal status needed), but NAF priority goes first to business-based-action, current/former NAF, and certain veteran applicants.",
+  "Degree requirement: BA/BS in business, accounting, or finance. Confirm Daniel's degree field matches exactly.",
+  "Experience requirement: at least 3 years working in a Non-Appropriated Funds operation or organization. IEM consulting work does not count unless it was inside a NAF activity.",
+  "No security clearance required; Arlington duty station with telework eligibility, no remote option.",
+  "Resume limited to two pages, and references with full contact information are recommended."
+ ],
+ "keywords": [
+  "management and program analyst",
+  "subject matter expertise",
+  "recommendations to senior staff",
+  "management concepts, principles, and practices",
+  "planning, execution, and review",
+  "initiatives and programs",
+  "work processes, methods, and procedures",
+  "best practices",
+  "recommend improvement",
+  "public laws",
+  "Directives and Instructions",
+  "regulations, policies, and procedures",
+  "development of policy",
+  "Non-Appropriated Funds",
+  "Global Enterprise"
+ ],
+ "strategy": [
+  "First verify the hard requirements honestly: business/accounting/finance degree and 3+ years of NAF experience. If either is missing, treat this as a skip and look for GS-0343 management analyst or program analyst roles open to the public, such as FEMA or DHS postings.",
+  "If you do qualify, frame your IEM role as program and process analysis for government clients. Name the specific emergency management programs, regulations (for example the Stafford Act or FEMA policy), and recommendations you delivered.",
+  "Show your policy expertise by citing specific public laws, directives, or regulations you evaluated, and explain how you aligned programs to them.",
+  "For each job, list dates, hours per week, and title, and keep the whole resume within two pages. Put the references with full contact details on the resume as the posting recommends.",
+  "Answer the questionnaire only at levels your resume clearly supports, since HR will cross-check and overstating can cost you consideration.",
+  "Apply between Oct 21 and Nov 23, 2026, and submit transcripts showing your degree major."
+ ],
+ "resume_bullets": [
+  "Analyzed [client agency]'s [program/process, e.g., disaster recovery grant workflow] and recommended [specific improvement] to senior [client] leadership, resulting in [outcome, if documented].",
+  "Evaluated [public laws/regulations/policies, e.g., Stafford Act provisions] to align [program] procedures with mission requirements for [number] government clients.",
+  "Developed [policy guidance/SOPs/briefings] on [topic] and presented findings and best practices to [audience] at IEM, [hours/week], [dates]."
+ ],
+ "interview_questions": [
+  "Describe a time you analyzed an organization's work processes and recommended an improvement leadership adopted.",
+  "How have you used laws, regulations, or directives to evaluate whether a program aligned with its mission?",
+  "What experience do you have with Non-Appropriated Fund operations and their financial or business rules?",
+  "How would you advise senior command when your analysis conflicts with current practice?"
+ ],
+ "watch_outs": [
+  "The degree field (business, accounting, or finance) and the 3 years of NAF experience appear mandatory and likely disqualify Daniel unless already met.",
+  "NAF priority categories favor current or former NAF employees and veterans, which limits outside applicants.",
+  "There is no promotion potential and incentives will not be paid."
+ ],
+ "job_id": "usajobs:889577500",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:01-04:00"
+}

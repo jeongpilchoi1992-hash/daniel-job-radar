@@ -1,0 +1,55 @@
+{
+ "one_liner": "Mid-level manager at George Mason University overseeing the university's policy library and its enterprise risk management program across departments.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Your IEM consulting work in emergency management and preparedness overlaps with risk assessment and continuity planning, and your policy knowledge and relationship skills suit a role that coordinates stakeholders across a university. However, the title points to a manager-level job that likely expects direct experience with enterprise risk management frameworks and writing or administering institutional policy. Without the full description, the fit can't be confirmed.",
+ "eligibility": [
+  "The posting text is unavailable, so open the full listing on jobs.virginia.gov or GMU's careers site to confirm the minimum qualifications.",
+  "As a manager role, it likely requires several years of related experience and possibly supervisory or program-management experience. Verify this before applying.",
+  "Check whether a bachelor's or advanced degree is required or preferred, and whether certifications such as ARM or a compliance credential are listed.",
+  "State university jobs are generally open to the public, with no federal status needed. Expect a background check and possibly work authorization verification."
+ ],
+ "keywords": [
+  "university policy",
+  "enterprise risk management",
+  "risk assessment",
+  "policy development",
+  "policy review",
+  "compliance",
+  "stakeholder engagement",
+  "risk register",
+  "mitigation",
+  "business continuity",
+  "governance",
+  "higher education",
+  "cross-functional coordination",
+  "emergency preparedness",
+  "reporting to leadership"
+ ],
+ "strategy": [
+  "Get the full posting first. Without it, the keywords here are inferred from the title, so replace them with the exact qualification language once you have it.",
+  "Frame your IEM work as risk identification, mitigation planning, and preparedness for government clients, and describe the specific deliverables you produced, such as plans, assessments, or after-action reports.",
+  "Emphasize any policy writing, regulatory or compliance review, or work that involved translating guidance (for example, FEMA or state requirements) into procedures.",
+  "Highlight facilitation and relationship-building with multiple client stakeholders, since policy and ERM roles depend on getting departments to cooperate.",
+  "Apply soon, because 'open until filled' postings can close without notice. Tailor your cover letter to GMU's size and decentralized structure.",
+  "State applications don't have the federal two-page limit, but keep your resume concise. Fill out every field in the state application rather than writing 'see resume.'"
+ ],
+ "resume_bullets": [
+  "Supported [government client type] in identifying and prioritizing [hazards/risks] through [risk assessment/THIRA/plan reviews], producing [deliverable] used by [audience].",
+  "Drafted or revised [number] [plans/procedures/policy documents] to align client operations with [federal/state guidance], coordinating reviews with [stakeholder groups].",
+  "Facilitated [workshops/exercises/meetings] with [number] participants from [agencies/departments] to build consensus on [preparedness or mitigation priorities]."
+ ],
+ "interview_questions": [
+  "How would you build or improve an enterprise risk register for a large, decentralized university?",
+  "Describe a time you got reluctant stakeholders to adopt a new policy or procedure.",
+  "How did your emergency management consulting experience prepare you for enterprise-wide risk work?",
+  "How would you manage a policy lifecycle, including drafting, review, approval, publication, and periodic review?"
+ ],
+ "watch_outs": [
+  "No description, salary, or qualifications are available, so the fit and keywords are provisional until you read the actual posting.",
+  "This is a manager-level title and may require more ERM, compliance, or higher-education experience than you currently have.",
+  "The Manassas to Fairfax commute is manageable but can be long at peak hours, and telework status is not stated."
+ ],
+ "job_id": "virginia:manager-university-policy-and-enterprise-risk-fairfax-virginia-united-states",
+ "model": "claude-opus-5-5",
+ "generated_at": "2026-10-30T15:51-04:00"
+}
