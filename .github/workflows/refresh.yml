@@ -75,6 +75,10 @@ jobs:
           mkdir -p _site
           cp -r index.html assets data _site/
           touch _site/.nojekyll
+          # Give the scripts and styles a new address whenever they change, so a browser never pairs a new page
+          # with code it cached from the old one.
+          version=$(cat assets/*.js assets/*.css | sha256sum | cut -c1-10)
+          sed -i -E "s/\.(js|css)\?v=[A-Za-z0-9]+/.\1?v=${version}/g" _site/index.html
 
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'

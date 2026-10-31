@@ -7,15 +7,15 @@
   <meta name="description" content="Government jobs near Manassas, VA for Daniel, and global finance openings for J.P., refreshed twice a day from public job sources.">
   <meta name="robots" content="noindex">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%231f5eff'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='white' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='white'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css?v=2">
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="brand">
+      <a class="brand" id="brand" href="./" title="Refresh the lists">
         <span class="brand-mark" aria-hidden="true"></span>
         <span class="brand-name">Job Radar</span>
-      </div>
+      </a>
       <nav class="tabs" role="tablist" aria-label="Job lists">
         <button class="tab" role="tab" id="tab-daniel" aria-controls="panel-daniel" aria-selected="true" data-tab="daniel">Daniel <span class="tab-sub">Public service</span></button>
         <button class="tab" role="tab" id="tab-jp" aria-controls="panel-jp" aria-selected="false" data-tab="jp">J.P. <span class="tab-sub">Global finance</span></button>
@@ -40,7 +40,7 @@
           <input id="q" type="search" placeholder="Search title, agency, keyword…" autocomplete="off">
         </label>
         <div class="filter-row">
-          <label class="field"><span>Level</span>
+          <label class="field wide"><span>Level</span>
             <select id="level">
               <option value="">All levels</option>
               <option value="Federal">Federal</option>
@@ -50,12 +50,40 @@
               <option value="ai">Found by AI search</option>
             </select>
           </label>
-          <label class="field"><span>Distance</span>
+          <label class="field"><span>Distance from Manassas</span>
             <select id="distance">
+              <option value="5">Within 5 mi</option>
+              <option value="10">Within 10 mi</option>
               <option value="15">Within 15 mi</option>
               <option value="25">Within 25 mi</option>
               <option value="35">Within 35 mi</option>
               <option value="50" selected>Within 50 mi</option>
+            </select>
+          </label>
+          <label class="field"><span>Pay</span>
+            <select id="pay" title="A job counts when the top of its pay range reaches the amount (hourly pay × 2,080 hours)">
+              <option value="">Any pay</option>
+              <option value="50000">$50k+ a year</option>
+              <option value="75000">$75k+ a year</option>
+              <option value="100000">$100k+ a year</option>
+              <option value="125000">$125k+ a year</option>
+              <option value="150000">$150k+ a year</option>
+            </select>
+          </label>
+          <label class="field wide"><span>Deadline</span>
+            <select id="deadline">
+              <option value="">Any deadline</option>
+              <option value="7">Within 7 days</option>
+              <option value="30">Within 30 days</option>
+              <option value="none">Open until filled</option>
+            </select>
+          </label>
+          <label class="field"><span>Posted</span>
+            <select id="posted">
+              <option value="">Any time</option>
+              <option value="2">Last 2 days</option>
+              <option value="7">Last 7 days</option>
+              <option value="30">Last 30 days</option>
             </select>
           </label>
           <label class="field"><span>Sort</span>
@@ -67,17 +95,24 @@
               <option value="near">Nearest</option>
             </select>
           </label>
+        </div>
+        <div class="filter-row">
           <label class="toggle"><input type="checkbox" id="public" checked><span>Open to the public</span></label>
+          <label class="toggle"><input type="checkbox" id="telework"><span>Telework or remote</span></label>
           <label class="toggle"><input type="checkbox" id="briefed"><span>Has AI brief</span></label>
+          <button class="reset" type="button" data-reset="daniel">Reset filters</button>
         </div>
         <div class="chips" id="topics" aria-label="Topics"></div>
       </div>
 
       <div class="layout">
         <div>
-          <p class="count" id="daniel-count" aria-live="polite"></p>
+          <div class="list-head" id="daniel-top">
+            <p class="count" id="daniel-count" aria-live="polite" tabindex="-1"></p>
+            <label class="per-page">Show <select data-per-page><option>30</option><option>50</option><option>100</option></select> per page</label>
+          </div>
           <ol class="jobs" id="daniel-jobs"></ol>
-          <button class="more" id="daniel-more" hidden>Show more</button>
+          <nav class="pager" id="daniel-pager" aria-label="Pages of Daniel's jobs"></nav>
         </div>
         <aside class="side">
           <section class="card side-card">
@@ -109,11 +144,61 @@
       </div>
       <div class="layout">
         <div>
-          <div class="filters compact">
+          <div class="filters compact" id="jp-filters">
             <label class="search"><span class="sr-only">Search</span><input id="jp-q" type="search" placeholder="Search title, employer, location…" autocomplete="off"></label>
+            <div class="filter-row">
+              <label class="field wide"><span>Region</span>
+                <select id="jp-region">
+                  <option value="">All regions</option>
+                  <option value="korea">Seoul &amp; Korea</option>
+                  <option value="hk">Hong Kong</option>
+                  <option value="sg">Singapore</option>
+                  <option value="dc">Washington DC area</option>
+                  <option value="ny">New York area</option>
+                  <option value="us">Elsewhere in the U.S.</option>
+                  <option value="other">Other or several places</option>
+                </select>
+              </label>
+              <label class="field wide"><span>Source</span>
+                <select id="jp-source">
+                  <option value="">All sources</option>
+                  <option value="ai">AI picks with brief</option>
+                  <option value="board">Employer job boards</option>
+                </select>
+              </label>
+              <label class="field wide"><span>Deadline</span>
+                <select id="jp-deadline">
+                  <option value="">Any deadline</option>
+                  <option value="7">Within 7 days</option>
+                  <option value="30">Within 30 days</option>
+                  <option value="none">Open until filled</option>
+                </select>
+              </label>
+              <label class="field"><span>Posted</span>
+                <select id="jp-posted">
+                  <option value="">Any time</option>
+                  <option value="2">Last 2 days</option>
+                  <option value="7">Last 7 days</option>
+                  <option value="30">Last 30 days</option>
+                </select>
+              </label>
+              <label class="field"><span>Sort</span>
+                <select id="jp-sort">
+                  <option value="match">Best fit</option>
+                  <option value="new">Newest</option>
+                  <option value="closing">Closing soon</option>
+                </select>
+              </label>
+              <button class="reset" type="button" data-reset="jp">Reset filters</button>
+            </div>
             <div class="chips" id="jp-segments" aria-label="Segments"></div>
           </div>
+          <div class="list-head" id="jp-top">
+            <p class="count" id="jp-count" aria-live="polite" tabindex="-1"></p>
+            <label class="per-page">Show <select data-per-page><option>30</option><option>50</option><option>100</option></select> per page</label>
+          </div>
           <ol class="jobs" id="jp-jobs"></ol>
+          <nav class="pager" id="jp-pager" aria-label="Pages of J.P.'s openings"></nav>
         </div>
         <aside class="side">
           <section class="card side-card">
@@ -147,6 +232,7 @@
     <p>Built for Daniel and J.P. Not affiliated with any employer or agency. AI briefs can be wrong, so always confirm eligibility and deadlines on the official posting. <span id="ai-note"></span></p>
   </footer>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=2"></script>
+  <script src="assets/flyers.js?v=2"></script>
 </body>
 </html>
