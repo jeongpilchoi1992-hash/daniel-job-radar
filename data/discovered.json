@@ -57,7 +57,8 @@
     "topics": [
      "Communications & Outreach",
      "Elections & Civic"
-    ]
+    ],
+    "distance_mi": null
    },
    {
     "id": "ai:daniel:514ffcfdad09f068",
@@ -114,7 +115,8 @@
     "topics": [
      "Emergency Management",
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": null
    },
    {
     "id": "ai:daniel:be2f1880cef83f89",
@@ -170,7 +172,8 @@
     "dead_runs": 0,
     "topics": [
      "Policy & Legislative"
-    ]
+    ],
+    "distance_mi": null
    },
    {
     "id": "ai:daniel:b0b7a82b7196c2a0",
@@ -226,7 +229,8 @@
     "topics": [
      "Policy & Legislative",
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": 26.0
    },
    {
     "id": "ai:daniel:d7e500d01abc3129",
@@ -278,7 +282,8 @@
     "dead_runs": 0,
     "topics": [
      "Policy & Legislative"
-    ]
+    ],
+    "distance_mi": 26.0
    },
    {
     "id": "ai:daniel:7116328a64a8c7f3",
@@ -335,7 +340,8 @@
     "dead_runs": 0,
     "topics": [
      "Policy & Legislative"
-    ]
+    ],
+    "distance_mi": 26.0
    },
    {
     "id": "ai:daniel:a42d7c78a80374be",
@@ -395,7 +401,8 @@
      "Policy & Legislative",
      "Emergency Management",
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": 26.0
    },
    {
     "id": "ai:daniel:0e8860c9b7d9dbd0",
@@ -451,7 +458,8 @@
     "topics": [
      "Policy & Legislative",
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": 11.2
    },
    {
     "id": "ai:daniel:78545b7e7495611a",
@@ -508,7 +516,8 @@
     "dead_runs": 0,
     "topics": [
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": 26.0
    },
    {
     "id": "ai:daniel:c8f14d1e69bd5c06",
@@ -564,7 +573,8 @@
     "dead_runs": 0,
     "topics": [
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": 26.0
    },
    {
     "id": "ai:daniel:25ce43dfe605085f",
@@ -619,7 +629,8 @@
     "topics": [
      "Emergency Management",
      "Communications & Outreach"
-    ]
+    ],
+    "distance_mi": 26.0
    }
   ],
   "last_run": "2026-10-30",
@@ -676,7 +687,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Investment bank – Korea institutional coverage (Hong Kong)",
-    "unverified_runs": 5,
+    "unverified_runs": 6,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -731,7 +742,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hanwha)",
-    "unverified_runs": 5,
+    "unverified_runs": 6,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -948,7 +959,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client coverage",
-    "unverified_runs": 1,
+    "unverified_runs": 2,
     "verified_on": "2026-10-30",
     "check": "HTTP 502",
     "dead_runs": 0
@@ -1058,7 +1069,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Insurer – alternative investments (Seoul)",
-    "unverified_runs": 5,
+    "unverified_runs": 6,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -1163,7 +1174,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client service",
-    "unverified_runs": 5,
+    "unverified_runs": 6,
     "check": "HTTP 403",
     "dead_runs": 0
    },
