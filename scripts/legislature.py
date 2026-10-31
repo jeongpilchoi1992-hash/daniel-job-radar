@@ -15,7 +15,7 @@ from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 
 from boards import posting_key
-from common import PartialResult, salary_range, shorten, strip_html
+from common import PartialResult, parse_date, salary_range, shorten, strip_html
 from places import haversine_miles, lookup
 
 LISTED: dict[str, set[str]] = {}
@@ -164,7 +164,9 @@ def fetch_house(session, home, radius: int) -> list[dict]:
                 places = req.get("locations") or []
                 where = [", ".join(x for x in [p.get("city"), p.get("state")] if x) for p in places]
                 location = next((w for w in where if lookup(w)), where[0] if where else "Washington, DC")
-                posted = (req.get("postingEffectiveDate") or "")[:10] or None
+                # The House feed gives "10/30/2026"; every other source stores YYYY-MM-DD.
+                posted_on = parse_date(req.get("postingEffectiveDate"))
+                posted = posted_on.isoformat() if posted_on else None
                 job = _job("house", org, req.get("displayJobTitle") or "", location, url, home, radius,
                            posted=posted, summary=shorten(strip_html(req.get("externalDescription") or ""), 420))
                 if job:

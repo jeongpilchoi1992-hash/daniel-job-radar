@@ -7,6 +7,15 @@ A two-tab job board published with GitHub Pages and refreshed twice a day by Git
 
 Closed postings drop off automatically, and every job links to the page where it is posted.
 
+## Using the site
+
+- Daniel's tab filters by level, distance from Manassas, pay, deadline, posting date, telework, and topic. J.P.'s tab filters by region, source (AI picks or employer job boards), deadline, posting date, and segment. **Reset filters** puts a tab back to its starting view.
+- Pay uses the top of each job's range and counts hourly pay as 2,080 hours a year. Posting dates come from the source; Workday job boards only say "Posted 3 Days Ago", so those are counted back from the day the board was read. Some sources give no posting date (Virginia state and Senate listings), so a job from them counts as posted on the day it first appeared here, unless it was already listed the first time the site read that source. Jobs these filters cannot judge are left out, and the count line says how many.
+- Every job shows its deadline on a line of its own, or "Open until filled" when the posting gives none. County boards round their deadlines ("Closes in 1 week" means 7 to 13 days), so those jobs show a date range, and the deadline filter and warnings use its first day.
+- Deadlines for J.P.'s roles in Seoul, Hong Kong and Singapore follow local time there; everything else follows Eastern time.
+- Lists come in pages of 30, 50 or 100 jobs, and the browser remembers the choice.
+- Clicking "Job Radar" reloads the page with the latest data. Holding the mouse over it sends a few small ships flying out of the radar (original drawings in `assets/flyers.js`); they stay away on touch screens and when the device asks for reduced motion.
+
 ## Where the jobs come from
 
 | Source | What it covers | How |

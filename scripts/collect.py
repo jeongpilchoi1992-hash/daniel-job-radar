@@ -228,6 +228,20 @@ def collect_boards(session, boards: list[dict], jp_entry: dict, previous: list[d
     return sorted(out.values(), key=lambda j: -j["match"]["score"]), live, seen
 
 
+def first_days(previous, jobs: list[dict], key: str) -> dict[str, str]:
+    """The first day each source was read, kept from run to run. With it the site can tell a posting that
+    appeared later (so the day it was first seen is about when it was posted) from one that was already listed
+    when the source was first read."""
+    iso = re.compile(r"\d{4}-\d{2}-\d{2}")
+    days = {k: v for k, v in (previous if isinstance(previous, dict) else {}).items()
+            if isinstance(k, str) and isinstance(v, str) and iso.fullmatch(v)}
+    for job in jobs:
+        source, seen = job.get("source"), job.get(key)
+        if isinstance(source, str) and isinstance(seen, str) and iso.fullmatch(seen) and seen < days.get(source, "9999"):
+            days[source] = seen
+    return dict(sorted(days.items()))
+
+
 def drop_ai_duplicates(jobs: list[dict], ai_found: list[dict], log) -> list[dict]:
     """Show a posting once: the AI-found copy (with its brief) wins over the same posting from a daily source."""
     # Hosts are compared without ports: the USAJOBS feed links www.usajobs.gov:443.
@@ -294,9 +308,17 @@ def main() -> int:
     # ---- Write the site data
     discovered_daniel = discovered_doc["daniel"]["jobs"]
     discovered_jp = discovered_doc["jp"]["jobs"]
+    home = (settings["home"]["lat"], settings["home"]["lon"])
     for job in discovered_daniel:
         # The same topic tags as the daily jobs, so the site's topic filters include AI-found postings.
         job["topics"] = tags_for(f"{job.get('title', '')} {job.get('summary', '')}", [])
+        # Miles from home when the location names one known place, so the distance filter covers them too.
+        # Unknown or several places ("Washington, DC or Member district offices") stay None and show at every
+        # distance.
+        location = job.get("location") or ""
+        several = re.search(r"\bor\b|district offices?|various|multiple", location, re.I)
+        where = None if several else lookup(location)
+        job["distance_mi"] = round(haversine_miles(home, where), 1) if where else None
     jobs.sort(key=lambda j: (-j["match"]["score"], j.get("closes") or "9999"))
     now = datetime.now(ET).isoformat(timespec="minutes")
     doc = {
@@ -308,12 +330,14 @@ def main() -> int:
             "radius_miles": settings.get("radius_miles", 50),
             "sources": statuses,
             "jobs": jobs,
+            "since": first_days(previous_doc.get("daniel", {}).get("since"), jobs, "first_seen"),
             "discovered": discovered_daniel,
             "discovery_last_run": discovered_doc["daniel"].get("last_run"),
         },
         "jp": {
             "discovered": discovered_jp,
             "board_jobs": board_jobs,
+            "since": first_days(previous_doc.get("jp", {}).get("since"), board_jobs, "found_on"),
             "boards": len(boards),
             "discovery_last_run": discovered_doc["jp"].get("last_run"),
         },

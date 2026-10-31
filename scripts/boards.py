@@ -130,8 +130,10 @@ def _smartrecruiters(session, board: dict, employer: str) -> tuple[list[dict], b
         for j in content:
             loc = j.get("location") or {}
             url = f"https://jobs.smartrecruiters.com/{board['company']}/{j.get('id')}"
-            out[url] = _job(board, employer, j.get("name"), ", ".join(x for x in [loc.get("city"), loc.get("country")] if x), url,
-                            (j.get("releasedDate") or "")[:10], "")
+            # The API gives the country as a lower-case code ("us", "kr"); the site reads upper-case codes.
+            where = [loc.get("city"), loc.get("region"), str(loc.get("country") or "").upper()]
+            out[url] = _job(board, employer, j.get("name"), ", ".join(str(x) for x in where if x), url,
+                            str(j.get("releasedDate") or "")[:10], "")
         if not content or offset + 100 >= total:
             break
     return list(out.values()), len(out) >= total
@@ -142,9 +144,10 @@ def _fetch_simple(session, board: dict, employer: str) -> list[dict]:
     if kind == "greenhouse":
         resp = session.get(f"https://boards-api.greenhouse.io/v1/boards/{board['token']}/jobs", params={"content": "true"}, timeout=60)
         resp.raise_for_status()
+        # first_published is the day the posting went up; updated_at changes with every edit, so it is not used.
         return [
             _job(board, employer, j.get("title"), (j.get("location") or {}).get("name"), j.get("absolute_url"),
-                 (j.get("updated_at") or "")[:10], strip_html(j.get("content") or ""))
+                 str(j.get("first_published") or "")[:10], strip_html(j.get("content") or ""))
             for j in resp.json().get("jobs", [])
         ]
     if kind == "lever":
