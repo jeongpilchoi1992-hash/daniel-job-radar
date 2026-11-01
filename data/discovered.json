@@ -51,7 +51,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -109,7 +109,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -167,7 +167,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -223,7 +223,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -277,7 +277,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -335,7 +335,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -394,7 +394,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -452,7 +452,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -511,7 +511,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -568,7 +568,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -623,7 +623,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -687,7 +687,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Investment bank – Korea institutional coverage (Hong Kong)",
-    "unverified_runs": 8,
+    "unverified_runs": 9,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -742,7 +742,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hanwha)",
-    "unverified_runs": 8,
+    "unverified_runs": 9,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -797,7 +797,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (CJ)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -851,7 +851,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (SK)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -906,7 +906,7 @@
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hyundai)",
     "unverified_runs": 0,
     "check": "link checked",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "dead_runs": 0
    },
    {
@@ -960,7 +960,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client coverage",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1017,7 +1017,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Global alternative asset manager – Seoul (fundraising/IR)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1069,7 +1069,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Insurer – alternative investments (Seoul)",
-    "unverified_runs": 8,
+    "unverified_runs": 9,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -1123,7 +1123,7 @@
     "employer_type": "Global asset manager – Korea institutional coverage",
     "unverified_runs": 0,
     "check": "link checked",
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "dead_runs": 0
    },
    {
@@ -1174,7 +1174,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client service",
-    "unverified_runs": 8,
+    "unverified_runs": 9,
     "check": "HTTP 403",
     "dead_runs": 0
    },
@@ -1230,7 +1230,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean company (Hanwha)",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1283,7 +1283,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Financial data firm – Korea/North Asia coverage",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1335,7 +1335,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Global infrastructure principal investing – Asia",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1391,7 +1391,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Korean sovereign wealth fund – U.S. office",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1448,7 +1448,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IFC",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1504,7 +1504,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1557,7 +1557,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1611,7 +1611,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Korea-based international climate fund",
     "unverified_runs": 0,
-    "verified_on": "2026-10-31",
+    "verified_on": "2026-11-01",
     "check": "link checked",
     "dead_runs": 0
    }
