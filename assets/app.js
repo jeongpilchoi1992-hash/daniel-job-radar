@@ -11,6 +11,8 @@
     topics: new Set(),
     jpSegments: new Set(),
     briefs: new Map(),
+    profile: null,
+    sub: "jobs",
     daniel: [],
     jp: [],
   };
@@ -312,7 +314,7 @@
     }
     // Each part is drawn on its own, so a problem in one cannot leave the others (or the #jp link) undone.
     if (location.hash.replace("#", "") === "jp") selectTab("jp");
-    for (const draw of [buildTopicChips, buildJpChips, renderDaniel, renderJp, renderSources, writeAiNote]) {
+    for (const draw of [renderProfile, buildTopicChips, buildJpChips, renderDaniel, renderJp, renderSources, writeAiNote]) {
       try {
         draw();
       } catch (err) {
@@ -344,6 +346,10 @@
     for (const key of ["categories", "keywords_auto"]) if (job[key] != null) job[key] = asList(job[key]);
     const match = job.match && typeof job.match === "object" ? job.match : {};
     job.match = { ...match, score: asNumber(match.score), tags: asList(match.tags) };
+    const fit = job.resume && typeof job.resume === "object" ? job.resume : null;
+    job.resume = fit && FIT_RANK[asText(fit.level)] != null
+      ? { score: asNumber(fit.score), level: asText(fit.level), angles: asList(fit.angles), gaps: asList(fit.gaps), flags: asList(fit.flags) }
+      : null;
   }
   function annotate(job, read) {
     try {
@@ -361,6 +367,7 @@
     if (!data.daniel || typeof data.daniel !== "object") data.daniel = {};
     if (!data.jp || typeof data.jp !== "object") data.jp = {};
     const starts = sourceStarts(data);
+    state.profile = readProfile(data.daniel.profile);
     const ai = records(data.daniel.discovered).map((j) => ({
       ...j,
       aiFound: true,
@@ -394,6 +401,84 @@
       });
   }
   const danielJobs = () => state.daniel.filter(stillOpen);
+
+  // ---------- Daniel's resume
+
+  // Resume-fit levels from the collector (scripts/scoring.py), weakest first.
+  const FIT_RANK = { Stretch: 0, Possible: 1, Good: 2, Strong: 3 };
+  const FIT_VERDICT = {
+    Strong: "The posting centers on work already on his resume. Apply, and lead with the lines below.",
+    Good: "Much of the posting matches his resume. Lead with the lines below and cover the gaps in the notes.",
+    Possible: "Some of the posting matches his resume. Worth applying if the work appeals; show, in his own words, how his work meets each part of the specialized experience.",
+    Stretch: "Little of the posting matches his resume, or a requirement stands in the way. Apply only if he has experience the resume doesn't show yet.",
+  };
+  const obj = (v) => (v && typeof v === "object" && !Array.isArray(v) ? v : {});
+  // The resume profile the collector writes into jobs.json (no contact details). Anything malformed is dropped.
+  function readProfile(raw) {
+    const p = obj(raw);
+    const angles = {};
+    for (const [id, a] of Object.entries(obj(p.angles))) {
+      const label = asText(a?.label);
+      if (label) angles[id] = { label, cite: asText(a.cite), keywords: asList(a.keywords) };
+    }
+    const gaps = {};
+    for (const [id, g] of Object.entries(obj(p.gaps))) if (asText(g?.tip)) gaps[id] = { label: asText(g.label), tip: asText(g.tip) };
+    const flags = {};
+    for (const [id, text] of Object.entries(obj(p.flags))) if (asText(text)) flags[id] = asText(text);
+    const escapeRe = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    // A claim matches at the start of a word: "vaccin" fits "vaccination", but "ics" does not fit "logistics".
+    const claims = asList(p.claims).map((c) => new RegExp("(^|[^a-z])" + escapeRe(c.toLowerCase())));
+    // Phrases that contain a claim but mean something else ("False Claims Act", "exercise of options").
+    const notClaims = asList(p.not_claims).flatMap((s) => {
+      try {
+        return [new RegExp(s, "i")];
+      } catch {
+        return [];
+      }
+    });
+    return { summary: asText(p.summary), facts: asList(p.facts), angles, gaps, flags, claims, notClaims };
+  }
+  // ICS-200 and above, also in lists such as "ICS 100/200/700" or "IS-100, 200 and 700" (he lists IS-100 only).
+  const ICS_ADVANCED = /\b(?:(?:ics|nims)[- ]?|is-)(?:\d{3,4}\s*(?:[,/&]|and|-|through|to)\s*(?:is-|ics-?\s?)?)*?[234]00\b/i;
+  // Whether a posting keyword is something his resume backs up.
+  const onResume = (keyword) =>
+    !!state.profile &&
+    !ICS_ADVANCED.test(keyword) &&
+    !state.profile.notClaims.some((re) => re.test(keyword)) &&
+    state.profile.claims.some((re) => re.test(keyword.toLowerCase()));
+  const fitOf = (job) => (job.resume ? FIT_RANK[job.resume.level] : -1);
+
+  function renderProfile() {
+    const p = state.profile;
+    if (!p) return;
+    if (p.summary) $("#daniel-profile").textContent = p.summary;
+    $("#daniel-facts").innerHTML = p.facts.map((f) => `<li>${esc(f)}</li>`).join("");
+    const strengths = ["exercises", "logistics", "public_health", "fema_grants", "rural_health", "proposals", "project_ops", "intake"];
+    $("#daniel-keywords").innerHTML = strengths
+      .map((id) => p.angles[id])
+      .filter(Boolean)
+      .map((a) => `<span title="${esc(a.cite)}">${esc(a.label)}</span>`)
+      .join("");
+  }
+
+  // "How his resume fits" at the top of every Daniel brief: the resume lines to lead with, keywords he can use,
+  // and notes on gaps, grade and eligibility.
+  function resumeSection(job) {
+    const fit = job.resume;
+    const p = state.profile;
+    if (!fit || !p) return "";
+    const angles = fit.angles.map((id) => p.angles[id]).filter(Boolean);
+    const cites = angles.slice(0, 3).map((a) => `<li><b>${esc(a.label)}.</b> ${esc(a.cite)}</li>`).join("");
+    const words = [...new Set(angles.slice(0, 3).flatMap((a) => a.keywords))].slice(0, 12);
+    const notes = [...fit.gaps.map((id) => p.gaps[id]?.tip), ...fit.flags.map((id) => p.flags[id])].filter(Boolean);
+    const level = fit.level.toLowerCase();
+    return `<section class="resume-fit" aria-label="How his resume fits">
+        <div class="fit fit-${esc(level)}"><b>${esc(fit.level)} resume fit${fit.score != null ? ` · ${esc(fit.score)}/100` : ""}</b><span>${esc(FIT_VERDICT[fit.level] || "")}</span></div>
+        ${cites ? `<h3>Lead with these resume lines</h3><ul class="cites">${cites}</ul>` : ""}
+        ${words.length ? `<h3>Resume words that fit this job</h3>${kwBox(words)}` : ""}
+        ${notes.length ? `<h3>Before he applies</h3>${list(notes)}` : ""}
+      </section>`;
+  }
   const jpJobs = () => state.jp.filter(stillOpen);
 
   // Pay and posting date are checked last. A job that lists no pay (or no posting date) cannot be judged by that
@@ -435,7 +520,9 @@
     const onlyPublic = $("#public").checked;
     const onlyTelework = $("#telework").checked;
     const onlyBrief = $("#briefed").checked;
+    const minFit = $("#fit").value ? FIT_RANK[$("#fit").value] : -1;
     const jobs = all.filter((j) => {
+      if (minFit >= 0 && fitOf(j) < minFit) return false;
       if (level === "ai" ? !j.aiFound : level && j.level !== level) return false;
       if (onlyPublic && j.open_to_public === false) return false;
       if (onlyTelework && !(j.remote || j.telework)) return false;
@@ -448,6 +535,7 @@
     });
     const by = {
       match: (a, b) => (b.match?.score || 0) - (a.match?.score || 0) || closeKey(a).localeCompare(closeKey(b)),
+      fit: (a, b) => (b.resume?.score ?? -1) - (a.resume?.score ?? -1) || (b.match?.score || 0) - (a.match?.score || 0),
       closing: (a, b) => closeKey(a).localeCompare(closeKey(b)),
       new: (a, b) => newKey(b).localeCompare(newKey(a)),
       pay: (a, b) => b._yearly - a._yearly,
@@ -461,9 +549,9 @@
     const today = todayISO();
     $("#daniel-stats").innerHTML = [
       [all.length, "open jobs"],
+      [all.filter((j) => fitOf(j) >= FIT_RANK.Good).length, "strong or good resume fit"],
       [all.filter(isNew).length, "new in last 2 days"],
       [all.filter((j) => j._window && daysBetween(today, j._window.from) <= 7).length, "closing within 7 days"],
-      [all.filter((j) => j.brief || j.aiFound).length, "with AI brief"],
     ]
       .map(([n, l]) => `<div class="stat"><b>${num(n)}</b><span>${l}</span></div>`)
       .join("");
@@ -552,7 +640,9 @@
 
   function danielCard(job) {
     const where = job.remote ? "Remote" : job.distance_mi != null ? `${job.location} · ${job.distance_mi} mi` : job.location;
+    const fit = job.resume;
     const badges = [
+      fit ? `<span class="badge fit-${esc(fit.level.toLowerCase())}" title="How well his resume answers this posting${fit.score != null ? ` (${fit.score}/100)` : ""}">Resume: ${esc(fit.level)}</span>` : "",
       isNew(job) ? `<span class="badge new">New</span>` : "",
       job.aiFound ? `<span class="badge ok">Found by AI search</span>` : `<span class="badge">${esc(job.level)}</span>`,
       job.open_to_public === false ? `<span class="badge bad" title="${esc(job.who_may_apply)}">Not open to the public</span>` : "",
@@ -562,6 +652,7 @@
     ].join("");
     const meta = [where, job.grade, pay(job), job.schedule].filter(Boolean).map((m) => `<span>${esc(m)}</span>`).join("");
     const hasBrief = job.brief || job.aiFound;
+    const leads = fit && state.profile ? fit.angles.slice(0, 3).map((id) => state.profile.angles[id]?.label).filter(Boolean) : [];
     return `<li class="job">
       <div class="job-head">
         <div>
@@ -573,9 +664,10 @@
       ${deadline(job)}
       <div class="meta">${meta}</div>
       <div class="badges">${badges}</div>
+      ${leads.length ? `<p class="lead"><span>Lead with</span>${leads.map((l) => `<b>${esc(l)}</b>`).join("")}</p>` : ""}
       ${job.summary ? `<p class="summary">${esc(job.summary)}</p>` : ""}
       <div class="actions">
-        <button class="btn ${hasBrief ? "primary" : "ai"}" data-brief="${esc(job.id)}">${hasBrief ? "AI brief: strategy & keywords" : "Quick keywords + ask Claude"}</button>
+        <button class="btn ${hasBrief ? "primary" : "ai"}" data-brief="${esc(job.id)}">${hasBrief ? "Resume fit + AI brief" : "Resume fit + keywords"}</button>
         <a class="btn" href="${esc(safeUrl(job.apply_url || job.url))}" target="_blank" rel="noopener">Apply / view posting ↗</a>
       </div>
     </li>`;
@@ -697,18 +789,34 @@
   // ---------- Brief dialog
 
   function askClaudeUrl(job, who) {
+    const resume = state.profile?.summary;
+    const leads = (job.resume?.angles || []).map((id) => state.profile?.angles[id]?.cite).filter(Boolean).slice(0, 3);
     const profile =
       who === "jp"
         ? "J.P., a Korean national with 6+ years in capital markets (cross-border investments, fund of funds, subsidiary oversight; passed Level II of the CFA Program)"
-        : "Daniel, who lives in Manassas VA, recently worked at an emergency-management consulting firm (IEM), knows U.S. politics very well, and wants a government job";
+        : resume
+          ? `Daniel, who wants a government job. About him: ${resume}${leads.length ? ` Most relevant resume lines for this posting: ${leads.join(" ")}` : ""}`
+          : "Daniel, who lives in Manassas VA, recently worked at an emergency-management consulting firm (IEM), knows U.S. politics very well, and wants a government job";
     const win = job._window;
     const closes = !win ? "not stated" : win.from === win.to ? win.to : `between ${win.from} and ${win.to}`;
-    const prompt = `Help ${profile} apply to this job. Read the posting, then give: eligibility checks, 10-15 resume keywords from the posting, a tailored application strategy, and likely interview questions.\n\nJob: ${job.title}\nEmployer: ${job.org}\nLocation: ${job.location || ""}\nCloses: ${closes}\nPosting: ${job.url}`;
+    const ask =
+      who === "jp"
+        ? " apply to this job. Read the posting, then give: eligibility checks, 10-15 resume keywords from the posting, a tailored application strategy, and likely interview questions."
+        : "\n\nHelp him apply to this job. Read the posting, then give: eligibility checks against his resume, 10-15 resume keywords from the posting (marking the ones his resume already backs up), tailored resume bullets from his real experience, an application strategy, and likely interview questions.";
+    const prompt = `Help ${profile}${ask}\n\nJob: ${job.title}\nEmployer: ${job.org}\nLocation: ${job.location || ""}\nCloses: ${closes}\nPosting: ${job.url}`;
     return "https://claude.ai/new?q=" + encodeURIComponent(prompt);
   }
 
   const list = (items) => (asList(items).length ? `<ul>${asList(items).map((i) => `<li>${esc(i)}</li>`).join("")}</ul>` : "<p>None noted.</p>");
   const kwBox = (items) => `<div class="kwbox">${asList(items).map((k) => `<span>${esc(k)}</span>`).join("")}</div>`;
+  // Posting keywords, with the ones his resume already backs up marked.
+  const postingKw = (items, who) => {
+    const words = asList(items);
+    if (who !== "daniel" || !state.profile) return kwBox(words);
+    const have = words.filter(onResume);
+    return `<div class="kwbox">${words.map((k) => (onResume(k) ? `<span class="have" title="Already on his resume">✓ ${esc(k)}</span>` : `<span class="add" title="Use only if true">${esc(k)}</span>`)).join("")}</div>
+      ${words.length ? `<p class="kw-legend">${have.length ? `✓ ${have.length} of ${words.length} ${have.length === 1 ? "is" : "are"} already on his resume.` : "None are on his resume word for word yet."} Add the others only where they are true.</p>` : ""}`;
+  };
 
   async function openBrief(id, tabRef) {
     const pool = tabRef === "jp" ? jpJobs() : danielJobs();
@@ -728,20 +836,32 @@
     if (!$("#brief").open) $("#brief").showModal();
 
     let keywords = [];
+    const fitPart = who === "daniel" ? resumeSection(job) : "";
+    const revised = (b) => (b && isoDate(b.resume_revision) ? ` Lines that guessed at his background were updated to match his resume on ${esc(fmtDate(isoDate(b.resume_revision)))}.` : "");
+    // Revised briefs carry real lines from his resume; unrevised ones carry fill-in templates, and "Not eligible" ones none.
+    const bulletPart = (b) => {
+      const items = asList(b.resume_bullets);
+      if (!items.length) return "";
+      return isoDate(b.resume_revision)
+        ? `<h3>Resume bullets for this posting</h3>${list(items)}`
+        : `<h3>Resume bullets to adapt</h3><ul class="bullet-tpl">${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    };
     if (job.aiFound || (who === "jp" && !job.from_board)) {
       const b = job.brief || {};
       keywords = asList(b.keywords);
       const foot = footer(keywords);
       body.innerHTML = `${head}
-        <div class="fit"><b>Fit ${esc(job.match?.score ?? "")}/100</b><span>${esc(b.fit_summary || job.summary || "")}</span></div>
+        ${fitPart}
+        ${fitPart ? `<h3 class="part">AI brief from the launch search</h3>` : ""}
+        <div class="fit"><b>${who === "daniel" ? "Overall match" : "Fit"} ${esc(job.match?.score ?? "")}/100</b><span>${esc(b.fit_summary || job.summary || "")}</span></div>
         ${job.work_authorization ? `<h3>Work authorization</h3><p>${esc(job.work_authorization)}</p>` : ""}
-        <h3>Resume keywords</h3>${kwBox(keywords)}
+        <h3>Posting keywords</h3>${postingKw(keywords, who)}
         <h3>Application strategy</h3>${list(b.strategy)}
         <h3>Watch-outs</h3>${list(b.watch_outs)}
-        ${b.evidence ? `<p class="note">Posting check: “${esc(b.evidence)}”. ${isoDate(job.verified_on) ? "Link re-checked " + esc(fmtDate(isoDate(job.verified_on))) + "." : ""}</p>` : ""}
+        ${b.evidence ? `<p class="note">Posting check: “${esc(b.evidence)}”. ${isoDate(job.verified_on) ? "Link re-checked " + esc(fmtDate(isoDate(job.verified_on))) + "." : ""}${revised(job)}</p>` : ""}
         ${foot}`;
     } else if (job.brief) {
-      body.innerHTML = `${head}<p class="note">Loading AI brief…</p>`;
+      body.innerHTML = `${head}${fitPart}<p class="note">Loading AI brief…</p>`;
       let b = state.briefs.get(job.brief);
       if (!b) {
         try {
@@ -754,31 +874,34 @@
         if (seq !== state.briefSeq || !$("#brief").open) return;
       }
       if (!b) {
-        body.innerHTML = `${head}<p class="note">Could not load the brief. Try again after the next refresh.</p>${footer([])}`;
+        body.innerHTML = `${head}${fitPart}<p class="note">Could not load the AI brief. Try again after the next refresh.</p>${footer([])}`;
         return;
       }
       keywords = asList(b.keywords);
       const foot = footer(keywords);
       body.innerHTML = `${head}
+        ${fitPart}
+        ${fitPart ? `<h3 class="part">AI brief from the posting</h3>` : ""}
         <p class="oneliner">${esc(b.one_liner)}</p>
-        <div class="fit"><b>${esc(b.fit_rating)} fit</b><span>${esc(b.fit_summary)}</span></div>
+        <div class="fit"><b>${esc(/fit|eligib|skip/i.test(asText(b.fit_rating)) ? b.fit_rating : `${asText(b.fit_rating)} fit`)}</b><span>${esc(b.fit_summary)}</span></div>
         <h3>Check eligibility first</h3>${list(b.eligibility)}
-        <h3>Resume keywords</h3>${kwBox(keywords)}
+        <h3>Posting keywords</h3>${postingKw(keywords, who)}
         <h3>Application strategy</h3>${list(b.strategy)}
-        <h3>Resume bullets to adapt</h3><ul class="bullet-tpl">${asList(b.resume_bullets).map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+        ${bulletPart(b)}
         <h3>Likely interview questions</h3>${list(b.interview_questions)}
         <h3>Watch-outs</h3>${list(b.watch_outs)}
-        <p class="note">Generated by ${esc(b.model)} on ${esc(fmtDate(isoDate(b.generated_at)))} from the posting text. Verify details on the official announcement.</p>
+        <p class="note">Generated by ${esc(b.model)} on ${esc(fmtDate(isoDate(b.generated_at)))} from the posting text.${revised(b)} Verify details on the official announcement.</p>
         ${foot}`;
     } else {
       keywords = asList(job.keywords_auto);
       const foot = footer(keywords);
       const note = job.from_board
         ? `This role was picked up from ${esc(job.org || "the employer")}'s own job board, which is checked every day. “Ask Claude a follow-up” opens Claude with the posting ready for a tailored brief.`
-        : "Pre-written AI briefs cover the strongest matches from the launch-day AI run. For this job, “Ask Claude a follow-up” opens Claude with the posting ready for an instant brief.";
+        : "Pre-written AI briefs cover the strongest matches from the launch-day AI run. For this job, “Ask Claude a follow-up” opens Claude with the posting and his resume summary ready for an instant brief.";
       body.innerHTML = `${head}
+        ${fitPart}
         <p class="oneliner">${esc(job.summary || "")}</p>
-        ${keywords.length || !job.from_board ? `<h3>Keywords spotted in this posting</h3>${keywords.length ? kwBox(keywords) : "<p>No standard keywords found in the listing text.</p>"}` : ""}
+        ${keywords.length || !job.from_board ? `<h3>Keywords spotted in this posting</h3>${keywords.length ? postingKw(keywords, who) : "<p>No standard keywords found in the listing text.</p>"}` : ""}
         <p class="note">${note}</p>
         ${foot}`;
     }
@@ -796,14 +919,27 @@
 
   // ---------- tabs and events
 
+  // The address remembers the open tab: "#jp", "#resume" (Daniel's resume page) or nothing (Daniel's jobs).
+  const viewHash = () => (state.tab === "jp" ? "#jp" : state.sub === "resume" ? "#resume" : "");
+  function syncAddress() {
+    history.replaceState(null, "", viewHash() || location.pathname + location.search);
+    // A Ctrl- or middle-click on "Job Radar" then opens the same view.
+    $("#brand").setAttribute("href", "./" + viewHash());
+  }
   function selectTab(tab) {
     state.tab = tab;
     for (const btn of document.querySelectorAll(".tab")) btn.setAttribute("aria-selected", String(btn.dataset.tab === tab));
     $("#panel-daniel").hidden = tab !== "daniel";
     $("#panel-jp").hidden = tab !== "jp";
-    history.replaceState(null, "", tab === "jp" ? "#jp" : "#");
-    // A Ctrl- or middle-click on "Job Radar" then opens the same tab.
-    $("#brand").setAttribute("href", tab === "jp" ? "./#jp" : "./");
+    syncAddress();
+  }
+  // Daniel's tab has two pages: the job list and his resume with tips.
+  function selectSub(sub) {
+    state.sub = sub;
+    for (const btn of document.querySelectorAll(".subtab")) btn.setAttribute("aria-selected", String(btn.dataset.subtab === sub));
+    $("#daniel-jobs-view").hidden = sub !== "jobs";
+    $("#daniel-resume-view").hidden = sub !== "resume";
+    syncAddress();
   }
 
   const RENDER = { daniel: () => renderDaniel(), jp: () => renderJp() };
@@ -825,6 +961,14 @@
   document.addEventListener("click", (e) => {
     const tab = e.target.closest(".tab");
     if (tab) return selectTab(tab.dataset.tab);
+    const sub = e.target.closest("[data-subtab]");
+    if (sub) {
+      if (state.tab !== "daniel") selectTab("daniel");
+      selectSub(sub.dataset.subtab);
+      // A link from inside a page (not the page buttons) brings the new page's top into view.
+      if (!sub.classList.contains("subtab")) document.querySelector(".subtabs").scrollIntoView({ block: "start" });
+      return;
+    }
     const brief = e.target.closest("[data-brief]");
     if (brief) return openBrief(brief.dataset.brief, brief.dataset.tabref);
     const pager = e.target.closest("[data-pager]");
@@ -922,5 +1066,7 @@
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";
   resetControls("daniel");
   resetControls("jp");
+  // The resume page needs no job data, so it opens straight away.
+  if (location.hash === "#resume") selectSub("resume");
   load();
 })();
