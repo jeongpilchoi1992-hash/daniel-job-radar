@@ -25,7 +25,8 @@ from boards import board_id, fetch_board, infer_focus, posting_key, relevant, to
 from legislature import LISTED, fetch_dc_council, fetch_house, fetch_senate  # noqa: E402
 from linkcheck import refresh as refresh_links  # noqa: E402
 from places import haversine_miles, lookup  # noqa: E402
-from scoring import keywords_in, score_job, tags_for  # noqa: E402
+from daniel_profile import LEVELS, public_profile  # noqa: E402
+from scoring import blended_score, fit_level, keywords_in, resume_fit, score_job, tags_for  # noqa: E402
 from sources import NeogovGate, fetch_neogov, fetch_usajobs, fetch_virginia  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,6 +67,88 @@ def brief_path(briefs_dir: Path, job_id: str) -> Path:
 def still_open(job: dict, today: date) -> bool:
     closes = parse_date(job.get("closes"))
     return closes is None or closes >= today
+
+
+def import_postings(entry: dict, postings: list[dict], today: date, log) -> None:
+    """Add hand-checked postings from config/daniel_postings.json to the AI-found list, once each.
+
+    They are re-checked and retired like the launch search's postings. An id is remembered after its first import,
+    so a posting removed as closed does not come back on the next run."""
+    imported = set(entry.get("imported") or [])
+    present = {j.get("id") for j in entry.get("jobs", [])}
+    for posting in postings:
+        if not isinstance(posting, dict) or not posting.get("url") or not posting.get("title"):
+            continue
+        posting_id = posting.get("id") or f"ai:daniel:{job_key(posting['url'])}"
+        if posting_id in imported or posting_id in present:
+            imported.add(posting_id)
+            continue
+        closes = parse_date(posting.get("closes"))
+        if closes and closes < today:
+            imported.add(posting_id)
+            continue
+        job = {"source": "ai:daniel", "apply_url": posting["url"], "posted": None, "closes": None, "salary_text": "",
+               "match": {"score": posting.get("score", 50), "tags": [posting.get("level", "")]}, **posting}
+        job.update(id=posting_id, found_on=posting.get("found_on") or today.isoformat(), unverified_runs=0, dead_runs=0)
+        job.pop("score", None)
+        entry.setdefault("jobs", []).append(job)
+        imported.add(posting_id)
+        log(f"[import] added {job['title'][:70]!r} ({(job.get('org') or '')[:40]})")
+    entry["imported"] = sorted(imported)
+
+
+def revise(record: dict, changes: dict) -> None:
+    """Apply one revision: a whole field, or numbered items of a list field ({"2": "new text", "4": null})."""
+    for field, value in changes.items():
+        current = record.get(field)
+        numbered = isinstance(value, dict) and bool(value) and all(k == "+" or str(k).isdigit() for k in value)
+        if isinstance(value, dict) and (isinstance(current, list) or (current is None and numbered)):
+            items = list(current or [])
+            for index in sorted((int(i) for i in value if str(i).isdigit()), reverse=True):
+                if 0 <= index < len(items):
+                    if value[str(index)] is None:
+                        del items[index]
+                    else:
+                        items[index] = value[str(index)]
+            for extra in value.get("+", []) if isinstance(value.get("+"), list) else []:
+                items.append(extra)
+            record[field] = items
+        elif isinstance(value, dict) and isinstance(current, dict):
+            revise(current, value)
+        else:
+            record[field] = value
+
+
+def apply_brief_revisions(briefs_dir: Path, discovered: list[dict], revisions: dict, log) -> None:
+    """Bring launch briefs in line with Daniel's resume (config/brief_revisions.json), once per revision version.
+
+    The launch briefs were written before the resume was on file, so some guessed at his degree or duties; the
+    revisions replace those lines. A brief already at this version is left alone, so list edits never apply twice."""
+    version = revisions.get("version")
+    if not version:
+        return
+    done = 0
+    for key, changes in (revisions.get("briefs") or {}).items():
+        path = briefs_dir / f"{key}.json"
+        if not path.exists():
+            continue
+        brief = load_json(path, {})
+        if brief.get("resume_revision") == version:
+            continue
+        revise(brief, changes)
+        brief["resume_revision"] = version
+        path.write_text(json.dumps(brief, ensure_ascii=False, indent=1) + "\n")
+        done += 1
+    by_id = {j.get("id"): j for j in discovered}
+    for job_id, changes in (revisions.get("discovered") or {}).items():
+        job = by_id.get(job_id)
+        if not job or job.get("resume_revision") == version:
+            continue
+        revise(job, changes)
+        job["resume_revision"] = version
+        done += 1
+    if done:
+        log(f"[revise] updated {done} briefs to match Daniel's resume ({version})")
 
 
 def collect_daniel(session, settings: dict, today: date, previous: dict[str, dict], learned_agencies: list[dict]) -> tuple[list[dict], list[dict], dict[str, str]]:
@@ -136,11 +219,73 @@ def collect_daniel(session, settings: dict, today: date, previous: dict[str, dic
         statuses.append(status)
 
     for job in jobs.values():
-        text = " ".join([job.get("title", ""), job.get("summary", ""), details.get(job["id"], "")])
-        job["match"] = {"score": score_job(job), "tags": tags_for(f"{job.get('title', '')} {job.get('summary', '')}", job.get("series") or [])}
-        if job["id"] in details:
-            job["keywords_auto"] = keywords_in(text)
+        rate_daniel_job(job, details.get(job["id"]))
     return list(jobs.values()), statuses, details
+
+
+# USAJOBS text comes in "Label:" blocks. The labels ("Travel:", "Security clearance:", "How you will be evaluated:")
+# and the yes/no fields are on every federal posting, so they are not words the posting chose.
+_FIELD_BLOCKS = re.compile(r"(?m)^(Telework eligible|Remote|Promotion potential|Travel|Hiring paths):\n.*$")
+_LABEL_LINES = re.compile(r"(?m)^[A-Z][A-Za-z ]{2,40}:$")
+
+
+def posting_words(detail: str) -> str:
+    return _LABEL_LINES.sub("", _FIELD_BLOCKS.sub("", detail))
+
+
+def rate_daniel_job(job: dict, detail: str | None) -> None:
+    """Score a daily-source job against Daniel's resume. A job kept from an earlier run (its source failed this
+    time) keeps the fit worked out from its full posting text; one without a stored fit is scored from its title,
+    summary and the keywords found last time."""
+    known = " ".join(job.get("keywords_auto") or [])
+    text = " ".join([job.get("summary", ""), posting_words(detail) if detail is not None else known])
+    if detail is None and isinstance(job.get("resume"), dict) and isinstance(job["resume"].get("score"), int):
+        fit = job["resume"]
+        fit["level"] = fit_level(fit["score"])
+    else:
+        fit = resume_fit(job, text)
+    job["resume"] = fit
+    job["match"] = {
+        "score": blended_score(score_job(job), fit),
+        "tags": tags_for(f"{job.get('title', '')} {job.get('summary', '')}", job.get("series") or []),
+    }
+    if detail is not None:
+        job["keywords_auto"] = keywords_in(" ".join([job.get("title", ""), text]))
+
+
+def mark_not_eligible(job: dict) -> None:
+    """The brief read the whole posting and found a requirement he can't meet, so the resume fit says so too."""
+    fit = job.get("resume")
+    if not isinstance(fit, dict):
+        return
+    fit["score"] = min(fit.get("score", 0), LEVELS[-2][0] - 1)
+    fit["level"] = fit_level(fit["score"])
+    fit.setdefault("flags", [])
+    if "brief_not_eligible" not in fit["flags"]:
+        fit["flags"].insert(0, "brief_not_eligible")
+    job.setdefault("match", {})["score"] = blended_score(score_job(job), fit)
+
+
+# An AI-found posting's summary mixes what the job is with how Daniel fits it ("His work helping counties ..."). The
+# sentences about him quote his resume, so they are left out before the posting is matched against that resume.
+_ABOUT_HIM = re.compile(r"[^.!?]*\b(?:daniel|daniel's|his|he|him)\b[^.!?]*[.!?]?", re.I)
+
+
+def posting_summary(job: dict) -> str:
+    text = re.sub(r"\bU\.S\.", "US", str(job.get("summary") or ""))
+    return _ABOUT_HIM.sub(" ", text)
+
+
+def rate_ai_job(job: dict) -> None:
+    """AI-found postings keep the launch search's own score as the "what Daniel wants" half of the match."""
+    brief = job.get("brief") if isinstance(job.get("brief"), dict) else {}
+    keywords = " ".join(str(k) for k in brief.get("keywords") or [])
+    text = " ".join([posting_summary(job), keywords, str(brief.get("evidence") or "")])
+    fit = resume_fit(job, text)
+    match = job.setdefault("match", {})
+    match.setdefault("ai", match.get("score") or 0)
+    match["score"] = blended_score(match["ai"], fit)
+    job["resume"] = fit
 
 
 def learn_sources(discovered_doc: dict, settings: dict, log) -> list[dict]:
@@ -272,6 +417,7 @@ def main() -> int:
     discovered_doc = load_json(DATA / "discovered.json", {})
     for name in ("daniel", "jp"):
         discovered_doc.setdefault(name, {"jobs": [], "last_run": None})
+    import_postings(discovered_doc["daniel"], load_json(CONFIG / "daniel_postings.json", []), today, log)
 
     jobs, statuses, _ = collect_daniel(session, settings, today, previous, discovered_doc["daniel"].get("neogov_agencies", []))
 
@@ -287,6 +433,7 @@ def main() -> int:
 
     # ---- Remove briefs for jobs that are gone. Briefs came from the one-time launch build and cannot be made
     # again, so one whose job drops out of the list is kept until its deadline passes or BRIEF_GRACE_DAYS go by.
+    apply_brief_revisions(briefs_dir, discovered_doc["daniel"]["jobs"], load_json(CONFIG / "brief_revisions.json", {}), log)
     ledger = load_json(DATA / "briefs_seen.json", {})
     for job in jobs:
         if brief_path(briefs_dir, job["id"]).exists():
@@ -303,6 +450,8 @@ def main() -> int:
     (DATA / "briefs_seen.json").write_text(json.dumps(ledger, indent=0) + "\n")
     for job in jobs:
         job["brief"] = job_key(job["id"]) if brief_path(briefs_dir, job["id"]).exists() else None
+        if job["brief"] and load_json(brief_path(briefs_dir, job["id"]), {}).get("fit_rating") == "Not eligible":
+            mark_not_eligible(job)
     log(f"[cleanup] removed {removed} briefs for closed jobs")
 
     # ---- Write the site data
@@ -310,8 +459,9 @@ def main() -> int:
     discovered_jp = discovered_doc["jp"]["jobs"]
     home = (settings["home"]["lat"], settings["home"]["lon"])
     for job in discovered_daniel:
-        # The same topic tags as the daily jobs, so the site's topic filters include AI-found postings.
-        job["topics"] = tags_for(f"{job.get('title', '')} {job.get('summary', '')}", [])
+        # The same topic tags and resume fit as the daily jobs, so the site's filters include AI-found postings.
+        job["topics"] = tags_for(f"{job.get('title') or ''} {job.get('summary') or ''}", [])
+        rate_ai_job(job)
         # Miles from home when the location names one known place, so the distance filter covers them too.
         # Unknown or several places ("Washington, DC or Member district offices") stay None and show at every
         # distance.
@@ -328,6 +478,7 @@ def main() -> int:
         "daniel": {
             "home": settings["home"],
             "radius_miles": settings.get("radius_miles", 50),
+            "profile": public_profile(),
             "sources": statuses,
             "jobs": jobs,
             "since": first_days(previous_doc.get("daniel", {}).get("since"), jobs, "first_seen"),

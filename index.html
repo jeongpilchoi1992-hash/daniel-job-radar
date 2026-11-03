@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Job Radar</title>
-  <meta name="description" content="Government jobs near Manassas, VA for Daniel, and global finance openings for J.P., refreshed twice a day from public job sources.">
+  <meta name="description" content="Government jobs near Manassas, VA matched to Daniel's resume, an improved resume to download, and global finance openings for J.P., refreshed twice a day from public job sources.">
   <meta name="robots" content="noindex">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%231f5eff'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='white' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/style.css?v=2">
@@ -28,18 +28,32 @@
     <!-- Daniel -->
     <section id="panel-daniel" class="panel" role="tabpanel" aria-labelledby="tab-daniel">
       <div class="hero hero-daniel">
-        <h1>Government jobs Daniel can apply to</h1>
-        <p class="lede">Federal, Virginia state, and local government openings within commuting distance of Manassas, VA. The list refreshes twice a day and closed postings drop off automatically. The strongest matches come with an AI application brief; for any other job, one click opens Claude with the posting ready.</p>
+        <h1>Government jobs that fit Daniel's resume</h1>
+        <p class="lede">Federal, Virginia state, and local government openings within commuting distance of Manassas, VA, ranked against his 2026 resume: emergency management, public health response, FEMA exercises, logistics and policy. Every job shows which resume lines to lead with and what to add first. The list refreshes twice a day and closed postings drop off automatically.</p>
         <div class="stats" id="daniel-stats"></div>
         <span class="photo-credit">Photo: J.P. Choi</span>
       </div>
 
+      <nav class="subtabs" role="tablist" aria-label="Daniel's pages">
+        <button class="subtab" role="tab" id="sub-jobs" aria-controls="daniel-jobs-view" aria-selected="true" data-subtab="jobs">Jobs</button>
+        <button class="subtab" role="tab" id="sub-resume" aria-controls="daniel-resume-view" aria-selected="false" data-subtab="resume">Resume &amp; tips <span class="subtab-note">Word download</span></button>
+      </nav>
+
+      <div id="daniel-jobs-view" role="tabpanel" aria-labelledby="sub-jobs">
       <div class="filters" id="daniel-filters">
         <label class="search">
           <span class="sr-only">Search jobs</span>
           <input id="q" type="search" placeholder="Search title, agency, keyword…" autocomplete="off">
         </label>
         <div class="filter-row">
+          <label class="field wide"><span>Resume fit</span>
+            <select id="fit" title="How well his resume answers each posting">
+              <option value="">Any fit</option>
+              <option value="Strong">Strong only</option>
+              <option value="Good">Good or better</option>
+              <option value="Possible">Possible or better</option>
+            </select>
+          </label>
           <label class="field wide"><span>Level</span>
             <select id="level">
               <option value="">All levels</option>
@@ -89,6 +103,7 @@
           <label class="field"><span>Sort</span>
             <select id="sort">
               <option value="match">Best match</option>
+              <option value="fit">Resume fit</option>
               <option value="closing">Closing soon</option>
               <option value="new">Newest</option>
               <option value="pay">Highest pay</option>
@@ -116,21 +131,105 @@
         </div>
         <aside class="side">
           <section class="card side-card">
+            <h2>Matched to his resume</h2>
+            <p class="profile-line" id="daniel-profile">Emergency management and public health operations professional, about seven years at IEM supporting FEMA, state agencies and local governments. M.A., Global Affairs, George Mason University.</p>
+            <ul class="facts" id="daniel-facts"></ul>
+            <div class="kw" id="daniel-keywords"></div>
+            <p class="fine"><button class="linkish" type="button" data-subtab="resume">Improved resume and tips &rarr;</button></p>
+          </section>
+          <section class="card side-card">
             <h2>Smart moves right now</h2>
             <ul class="tips">
               <li><strong>Congress is about to hire.</strong> After the Nov 3 election, new House and Senate offices staff up from mid-November through January. Watch the <a href="https://www.house.gov/employment/positions-with-members-and-committees" target="_blank" rel="noopener">House employment bulletin</a> and the <a href="https://www.senate.gov/employment/po/positions.htm" target="_blank" rel="noopener">Senate bulletin</a>.</li>
-              <li><strong>Federal resumes: two pages max.</strong> USAJOBS has enforced a two-page limit since Sept 27, 2025. Mirror each posting's specialized-experience wording. <a href="https://help.usajobs.gov/faq/application/documents/resume/page-limit" target="_blank" rel="noopener">USAJOBS guidance</a></li>
-              <li><strong>Turn IEM experience into an edge.</strong> Emergency management, FEMA program, and grants language (Stafford Act, Public Assistance, mitigation, recovery) matches many federal, state and county roles.</li>
-              <li><strong>Free credentials.</strong> FEMA's <a href="https://training.fema.gov/is/" target="_blank" rel="noopener">Independent Study courses</a> (IS-100, IS-200, IS-700, IS-800) are free and show up as keywords in emergency-management postings.</li>
-              <li><strong>Laid-off worker services.</strong> <a href="https://virginiaworks.gov/im-a-job-seeker" target="_blank" rel="noopener">Virginia Works</a> offers free career coaching and may fund training for dislocated workers.</li>
+              <li><strong>Lead with public health response.</strong> Health departments, healthcare coalitions and HHS preparedness offices hire for the work on his resume: mass vaccination sites, medical supply logistics and outbreak meetings. Use the Public Health topic below.</li>
+              <li><strong>The Rural Health Transformation Program is a rare talking point.</strong> CMS awarded $50 billion to all 50 states in December 2025, and states are now staffing up to carry it out. His year of tracking state progress fits state health agencies, CMS and rural health groups. <a href="https://shvs.org/resources/from-planning-to-action-tracking-which-state-agencies-are-leading-rhtp-implementation/" target="_blank" rel="noopener">Which state agencies lead it</a></li>
+              <li><strong>Federal resumes: two pages max.</strong> USAJOBS has enforced a two-page limit since Sept 27, 2025. Use the posting's key terms where they are true, but describe his work in his own words: agencies such as HHS give pasted announcement text no credit. <a href="https://help.usajobs.gov/faq/application/documents/resume/page-limit" target="_blank" rel="noopener">USAJOBS guidance</a></li>
+              <li><strong>Close the training gaps for free.</strong> Postings often ask for IS-200 beyond his IS-100, and HSEEP for exercise jobs. Both are FEMA courses: <a href="https://training.fema.gov/is/" target="_blank" rel="noopener">Independent Study</a> online, and the HSEEP course (K0146) through the Emergency Management Institute, which needs a sponsoring agency's signature and the State Training Officer's approval.</li>
+              <li><strong>Local volunteering reads well.</strong> The <a href="https://www.vdh.virginia.gov/princewilliammrc/" target="_blank" rel="noopener">Greater Prince William Medical Reserve Corps</a> and the county's <a href="https://pwcva.gov/department/office-emergency-management/get-involved" target="_blank" rel="noopener">emergency management volunteer programs</a> add current, local preparedness work to the resume.</li>
+              <li><strong>Free job-seeker services.</strong> <a href="https://virginiaworks.gov/im-a-job-seeker" target="_blank" rel="noopener">Virginia Works</a> offers free career coaching, and its dislocated-worker program may fund training if his IEM job ended in a layoff.</li>
+            </ul>
+          </section>
+          <section class="card side-card">
+            <h2>Search these directly</h2>
+            <ul class="links">
+              <li><a href="https://www.usajobs.gov/search/results/?k=emergency%20management&amp;l=Manassas%2C%20Virginia" target="_blank" rel="noopener">USAJOBS: emergency management near Manassas</a></li>
+              <li><a href="https://jobs.iaem.org/jobs" target="_blank" rel="noopener">IAEM job board (emergency management)</a></li>
+              <li><a href="https://govphcareers.astho.org/jobs/" target="_blank" rel="noopener">Government public health careers (ASTHO)</a></li>
+              <li><a href="https://www.nvers.org/careers" target="_blank" rel="noopener">Northern Virginia Emergency Response System</a></li>
+              <li><a href="https://recruiting.paylocity.com/recruiting/jobs/All/f10f407c-5d30-4557-bf2a-0055971a1946/Metropolitan-Washington-Council-of-Governments" target="_blank" rel="noopener">Metropolitan Washington Council of Governments</a></li>
+              <li><a href="https://careers.dc.gov" target="_blank" rel="noopener">DC Government careers</a> (includes HSEMA and DC Health)</li>
             </ul>
           </section>
           <section class="card side-card">
             <h2>Sources</h2>
             <ul class="sources" id="daniel-sources"></ul>
-            <p class="fine">Also worth a weekly look: <a href="https://careers.dc.gov" target="_blank" rel="noopener">DC Government careers</a> (not scraped: their system blocks automated access) and <a href="https://virginiageneralassembly.gov" target="_blank" rel="noopener">Virginia General Assembly</a> session jobs.</p>
+            <p class="fine">DC Government careers is not scraped (its system blocks automated access), and <a href="https://virginiageneralassembly.gov" target="_blank" rel="noopener">Virginia General Assembly</a> session jobs are worth a weekly look.</p>
           </section>
         </aside>
+      </div>
+      </div>
+
+      <div id="daniel-resume-view" role="tabpanel" aria-labelledby="sub-resume" hidden>
+        <!-- resume page: built by tools/resume/build.js -->
+        <div class="resume-grid">
+          <div class="resume-view">
+            <section class="card resume-card">
+              <h2>An improved resume, ready to download</h2>
+              <p>The 2026 resume, reorganized around the jobs this site finds: strongest work first, grouped under clear headings, typos and filler removed, and the keywords postings use. Yellow highlights mark placeholders and facts to confirm before sending.</p>
+              <div class="downloads">
+                <a class="btn primary" href="assets/resume/Daniel_Marfurt-Levy_Resume_2026.docx" download>Improved resume <small>Word, 2 pages</small></a>
+                <a class="btn" href="assets/resume/Daniel_Resume_Notes_and_Tips.docx" download>Notes and tips <small>Word</small></a>
+              </div>
+              <p class="fine">This site is public, so the download leaves out his phone, email and street address. Add them at the top before sending.</p>
+              <details class="preview">
+                <summary>Preview the improved resume</summary>
+                <div class="paper" aria-label="Preview of the improved resume">
+      <h4>Daniel Marfurt-Levy</h4>
+      <p class="contact">Manassas, VA | <mark>[Phone]</mark> | <mark>[Email]</mark> | <mark>[LinkedIn URL]</mark></p>
+      <p><b>Emergency Management  |  Public Health Response  |  Logistics  |  Exercises  |  FEMA Programs</b></p>
+      <h5>Professional summary</h5><p>Emergency management and public health operations professional with seven years at IEM supporting FEMA, state agencies, and local governments. Oversaw multi-state logistics for COVID-19 mass vaccination and monoclonal antibody sites, facilitated tabletop exercises and FEMA full-scale exercises, and researched and wrote proposals for multimillion-dollar government contracts. Works independently, writes clearly, and builds working relationships at every level of government. M.A. in Global Affairs; former AmeriCorps VISTA with Habitat for Humanity.</p>
+      <h5>Core skills</h5><p><b>Emergency management:</b> exercise facilitation (full-scale, tabletop), Simulation Cell, after-action reports, NIMS/ICS, emergency planning</p><p><b>Public health response:</b> mass vaccination and monoclonal antibody sites, mpox response support, healthcare preparedness</p><p><b>Operations and logistics:</b> multi-state procurement, inventory tracking, vendor relationships, site stand-up, onboarding</p><p><b>Analysis and writing:</b> research, Excel pivot tables, proposals (SAM.gov, GovWin), meeting minutes, client documents</p><p><b>Tools:</b> Microsoft Office Suite, Certify, GovWin, SAM.gov, Claude, Microsoft Copilot</p>
+      <h5>Experience</h5><p class="role"><span>IEM International</span><span>June 2019 – August 2026</span></p><p class="sub">Project Operations Specialist (Sep 2024 – Aug 2026)  ·  Operations Specialist (Jun 2021 – Aug 2024)  ·  Associate Assistant (Jun 2019 – Jun 2021)</p><h6>Public health response and logistics</h6><ul><li>Oversaw logistics for COVID-19 mass vaccination and monoclonal antibody sites in Texas, Nevada, Virginia, and Florida at the same time (2021–2022), procuring and tracking medical supplies across six states.</li><li>As part of the logistics team, supported multi-state procurement and distribution of medical supplies, equipment, and vaccines for mass care sites that administered more than <mark>1.3 million</mark> vaccinations and 87,000+ monoclonal antibody infusions.</li><li>Built Excel pivot-table reports on spending and order status, and set up relationships with medical supply, truck rental, and other vendors to keep sites stocked.</li><li>Helped stand up new mass care sites and served as on-site assistant to project managers.</li><li>Took minutes at a state public health agency's weekly meetings during the mpox response (Dec 2022 – Mar 2023).</li></ul><h6>Exercises and emergency planning</h6><ul><li>Facilitated full-scale and tabletop exercises for federal, state, and private-sector clients, in person and virtually (2022–2024).</li><li>Led a Simulation Cell (SimCell) unit at FEMA full-scale exercises two years in a row and delivered detailed notes used to write the after-action reports.</li><li>Brought emergency management best practices into a large travel company's emergency forms and kept minutes at its weekly meetings (Feb – Aug 2024).</li><li>Took part in public health seminars on response and recovery roles (2022–2024) and attended the American Public Health Association and National Healthcare Coalition Preparedness conferences (2022).</li></ul><h6>FEMA programs, grants, and recovery</h6><ul><li>Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).</li><li>Helped counties update their applications for COVID-19 emergency grants at the start of the pandemic (2020).</li><li>Led a five-person intake center for ReBuild NC after Hurricane Matthew, answering homeowners' application questions (2019).</li><li>Aligned training goals between Emergency Management Institute courses and FEMA field guide training manuals (<mark>Oct 2018 – Jun 2019</mark>).</li></ul><h6>Business development and policy research</h6><ul><li>Identified multimillion-dollar contract opportunities in GovWin, <mark>BidPro</mark>, SAM.gov, and the <mark>DHS Acquisition Planning Forecast System (APFS)</mark>, and led proposal writing (2019–2024).</li><li>Tracked state implementation of the Rural Health Transformation Program from November 2025, identifying which states were executing well and which were struggling.</li><li>Provided scholarly research that helped a state public health agency's analysts review trauma-incident training recertification (<mark>2018</mark>).</li></ul><h6>Office operations (2019–2024)</h6><ul><li>Handled office manager duties: office security, first-line IT troubleshooting with IT support, deliveries, and conference supplies; assisted with employee onboarding and offboarding.</li><li>Answered employee travel-expense questions in Certify and booked flights for corporate-level staff.</li></ul><p class="role"><span>Support Services Specialist | National Language Service Corps</span><span>April 2018 – June 2018</span></p><ul><li>Contacted and screened translator volunteers for Department of Defense (DoD) language requests: vetted resumes, offered assignments to registered volunteers, conducted 10 scripted interviews, and reported results to the manager.</li></ul><p class="role"><span>EDI Claims Specialist | CorVel</span><span>October 2017 – February 2018</span></p><ul><li>Processed hundreds of workers' compensation claims a day for California and Virginia, completing forms from PDF documentation and recording the compensation awarded to each claimant.</li><li>Supported teammates after finishing assigned work.</li></ul>
+      <h5>Community service</h5><p class="role"><span>AmeriCorps VISTA | Habitat for Humanity, <mark>[Affiliate, City, State]</mark></span><span><mark>[Month Year – Month Year]</mark></span></p><ul><li><mark>[Add one or two results: volunteers recruited, families served, funds raised, or programs started.]</mark></li></ul>
+      <h5>Education</h5><p class="role"><span>Master of Arts, Global Affairs | George Mason University</span><span>May 2016</span></p><p>Coursework: Economic Globalization and Development; Global Trade Relations; The New Cuba: Foreign Investment; Regional Ethnography of the Middle East; Social Movements and Human Rights; Gender and Violence</p><p class="role"><span><mark>[Bachelor's degree, major]</mark> | <mark>[College or university]</mark></span><span><mark>[Year]</mark></span></p>
+      <h5>Certifications and training</h5><ul><li>EMI Professional Development Series Certificate, FEMA Emergency Management Institute</li><li>FEMA Independent Study: IS-100 (Incident Command System), IS-120 (Introduction to Exercises), IS-700 (National Incident Management System), IS-800 (National Response Framework), IS-2500 (National Prevention Framework), IS-2600 (National Protection Framework); full list on request</li><li>Lean Six Sigma Yellow Belt</li></ul>
+    </div>
+              </details>
+            </section>
+            <section class="card resume-card check">
+              <h3>Check these before sending</h3>
+              <ol><li><b>1.3 million vaccinations.</b> The PDF says “over 1.3 vaccines administered”. The edit assumes 1.3 million; replace it with the real number.</li><li><b>Dates before IEM.</b> Two IEM bullets are dated 2018 (the EMI and FEMA training work from Oct 2018, and the state health agency research), but IEM starts in June 2019. Either the IEM start date is earlier, for example an internship, or those items belong to another role. Federal HR specialists check dates closely.</li><li><b>Tool names.</b> “DHS APHS” was changed to the DHS Acquisition Planning Forecast System (APFS), and “BidPro” was kept. Correct either if the real name differs.</li><li><b>AmeriCorps VISTA.</b> It appears only in the old summary. Add the dates, the Habitat for Humanity affiliate and city, and one or two results.</li><li><b>Bachelor's degree.</b> Many postings screen for a bachelor's degree. List the school, major and year under the M.A.</li><li><b>Project roles.</b> The old summary says he worked as a deputy project manager, planner, logistics specialist, research and development specialist and data analyst, but no bullet says where. If these were formal titles on IEM projects, add each one to the matching bullet or heading with its dates, because federal screeners only credit titles they can see.</li><li><b>Contact line.</b> The download on this site has placeholders for phone, email and LinkedIn because the site is public. Fill them in before sending.</li></ol>
+            </section>
+            <section class="card resume-card">
+              <h2>What would make it stronger</h2>
+              <div class="tip-groups">
+                <div class="tip-group"><h3>Numbers to add</h3><ul><li>Exercises: how many he facilitated, how many agencies and players took part, and the size of the SimCell team he led.</li><li>COVID-19 logistics: the number of sites, the dollar value of supplies tracked, and how many vendors he worked with.</li><li>FEMA Public Assistance: how many employees the onboarding work covered; county grants: how many counties he helped.</li><li>Proposals: how many bids he worked on, their total value, and any wins.</li><li>For federal applications, hours per week and month/year dates for every job, plus each employer's city and state.</li></ul></div><div class="tip-group"><h3>Activities worth adding</h3><ul><li>Greater Prince William Medical Reserve Corps (Virginia Department of Health): current, local public health preparedness work.</li><li>Prince William County Office of Emergency Management volunteer programs (see its Get Involved page).</li><li>Officer of election in Prince William County or Manassas: civic work that puts his politics knowledge on paper.</li><li>Civic association or advocacy volunteering, plus campaign or party work for Hill, General Assembly or council jobs only. Politics is a strength that doesn't appear on the resume yet.</li><li>Memberships and conferences: IAEM or the Virginia Emergency Management Association, alongside the APHA and NHCPC conferences he already lists.</li></ul></div><div class="tip-group"><h3>Skills and training next</h3><ul><li>FEMA IS-200 (Basic Incident Command System for Initial Response): free online and often required with IS-100, 700 and 800.</li><li>List the Professional Development Series courses by number (IS-230, 235, 240, 241, 242, 244 and IS-120): screeners search for them.</li><li>HSEEP training (FEMA course K0146) for exercise jobs. It needs a sponsoring agency's signature and the State Training Officer's approval, so ask VDEM, a local emergency office or his MRC unit once he volunteers there. ICS-300 and 400 come through VDEM or a local office when a seat opens.</li><li>Software he has really used beyond Office: WebEOC, SharePoint, Smartsheet, Power BI or a GIS tool. Name them only if true.</li><li>Any Public Trust or security clearance from FEMA contract work, with the year. Say so if none.</li><li>Any language besides English, with the level.</li></ul></div><div class="tip-group"><h3>Tailoring for each application</h3><ul><li>Keep this version as the master. For each posting, answer each part of its specialized-experience sentence with his own work, in his own words, and use its keywords only where true. Don't paste the announcement's text: agencies such as HHS give pasted text no credit.</li><li>USAJOBS takes two pages at most. Cut the office operations and claims bullets first when space runs short.</li><li>For public health jobs, lead with the COVID-19 and mpox work; for emergency management jobs, lead with exercises and FEMA programs.</li><li>Prepare a two-minute answer on the Rural Health Transformation Program: which states are doing well, which are struggling, and why. Few candidates can give one.</li></ul></div>
+              </div>
+            </section>
+            <section class="card resume-card">
+              <h2>What changed from the PDF</h2>
+              <ul class="changes"><li><span class="was">“Daniel provides value by performing tasks independently…” (third person, one long paragraph)</span><span class="now">A five-line professional summary in resume voice that opens with the jobs he is going after</span></li><li><span class="was">Fourteen IEM bullets in no order, some in third person (“he participated”)</span><span class="now">Grouped under five headings (public health response, exercises, FEMA programs, business development, office operations), strongest work first</span></li><li><span class="was">“IEM International | June 2019 – Present”</span><span class="now">“June 2019 – August 2026”, so the dates match his last title</span></li><li><span class="was">“over 1.3 vaccines administered”</span><span class="now">“more than 1.3 million vaccinations” (highlighted to confirm)</span></li><li><span class="was">“lead writing solicitations”</span><span class="now">“led proposal writing”: agencies write solicitations, and contractors answer them</span></li><li><span class="was">“DHS APHS”</span><span class="now">“DHS Acquisition Planning Forecast System (APFS)” (highlighted to confirm)</span></li><li><span class="was">“Diagnosed basic IT tasks based on IT support recommendations”</span><span class="now">“first-line IT troubleshooting with IT support”</span></li><li><span class="was">“a highly renown transportation company”, “analysists”, “Entailed calling…”</span><span class="now">Typos and filler removed throughout</span></li><li><span class="was">“LLM User- Claude/Co-Pilot”</span><span class="now">“Tools: … Claude, Microsoft Copilot”</span></li><li><span class="was">“FEMA Emergency Management Courses- 100, 120, 700, 800, 2500, 2600”</span><span class="now">Each IS course named, so screeners and keyword filters recognize them</span></li><li><span class="was">Skills list of five general items</span><span class="now">A core skills block in the words postings use (exercises, logistics, public health, proposals)</span></li><li><span class="was">Street address in the header</span><span class="now">City and state only, plus placeholders for phone, email and LinkedIn</span></li></ul>
+            </section>
+          </div>
+          <aside class="side">
+            <section class="card side-card">
+              <h2>How the job list uses this resume</h2>
+              <p class="profile-line">Every job is matched against the strengths on the resume. Its card shows a resume fit (Strong, Good, Possible or Stretch) and the resume lines to lead with, and its brief adds the gaps to close first, such as IS-200, HSEEP, or a clearance.</p>
+              <p class="fine"><button class="linkish" type="button" data-subtab="jobs">Back to the jobs &rarr;</button></p>
+            </section>
+            <section class="card side-card">
+              <h2>Lead with, by job type</h2>
+              <ul class="tips">
+                <li><strong>Emergency management:</strong> Tabletop and FEMA full-scale exercises, leading a SimCell unit, after-action notes, FEMA Public Assistance onboarding.</li>
+                <li><strong>Public health preparedness:</strong> COVID-19 vaccination and monoclonal antibody sites, mpox response meetings, the APHA and healthcare coalition conferences.</li>
+                <li><strong>Logistics and procurement:</strong> six-state medical supply purchasing and tracking, vendor relationships, pivot-table spending reports.</li>
+                <li><strong>Policy and legislative:</strong> Rural Health Transformation Program tracking, the M.A. in Global Affairs, and his political knowledge (add it to the resume).</li>
+                <li><strong>Program analyst and operations:</strong> on-site support to project managers, standing up new mass care sites, onboarding data for FEMA decision makers, Lean Six Sigma (add the deputy project manager role once he confirms where and when).</li>
+              </ul>
+            </section>
+          </aside>
+        </div>
+        <!-- end of resume page -->
       </div>
     </section>
 
