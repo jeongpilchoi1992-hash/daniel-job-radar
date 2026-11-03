@@ -52,7 +52,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -127,7 +127,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -200,7 +200,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -274,7 +274,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -346,7 +346,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -420,7 +420,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -495,7 +495,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -569,7 +569,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -641,7 +641,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -711,7 +711,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -781,7 +781,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -811,114 +811,6 @@
  },
  "jp": {
   "jobs": [
-   {
-    "id": "ai:jp:10e5d45a3f1964bd",
-    "source": "ai:jp",
-    "level": "Hong Kong / Singapore",
-    "title": "Equity Sales (Korean Speaking)",
-    "org": "Robert Walters (for a leading foreign investment banking group)",
-    "location": "Hong Kong",
-    "url": "https://www.robertwalters.com.hk/financialservices/jobs/investmentmanagement/1909853-equity-sales-korean-speaking.html",
-    "apply_url": "https://www.robertwalters.com.hk/financialservices/jobs/investmentmanagement/1909853-equity-sales-korean-speaking.html",
-    "posted": null,
-    "closes": "2026-11-02",
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "A foreign investment banking group is hiring a Korean-speaking equity salesperson in Hong Kong as part of an expansion. The job covers Korean asset managers, hedge funds and pension funds. J.P.'s native Korean and English, J.P. Morgan Seoul work for offshore institutions and daily FICC/equity market briefings are relevant. However, J.P. has never worked in front-office equity sales, so this is a stretch.",
-    "match": {
-     "score": 35,
-     "tags": [
-      "Hong Kong / Singapore"
-     ]
-    },
-    "brief": {
-     "fit_summary": "A foreign investment banking group is hiring a Korean-speaking equity salesperson in Hong Kong as part of an expansion. The job covers Korean asset managers, hedge funds and pension funds. J.P.'s native Korean and English, J.P. Morgan Seoul work for offshore institutions and daily FICC/equity market briefings are relevant. However, J.P. has never worked in front-office equity sales, so this is a stretch.",
-     "keywords": [
-      "Korean-speaking Equity Sales",
-      "institutional investors in Korea",
-      "asset managers, hedge funds, and pension funds",
-      "market updates",
-      "investment ideas",
-      "trade recommendations",
-      "corporate access events",
-      "roadshows",
-      "native or near-native proficiency in Korean",
-      "institutional client coverage"
-     ],
-     "strategy": [
-      "Present the daily FICC and equity briefings at VI Asset Management, and the market articles at JoongAng Daily, as experience producing market updates and investment ideas.",
-      "Use the J.P. Morgan Seoul settlement and securities-lending work for offshore institutions to show J.P. knows how trades are executed and how Korean market access works.",
-      "List the Korean institutional relationships J.P. built at Hanwha and Hana Securities.",
-      "Ask Robert Walters who the client bank is and whether the job requires an existing book of client relationships."
-     ],
-     "watch_outs": [
-      "J.P. hasn't worked in equity sales, and the posting asks for proven institutional client coverage. That is the main gap.",
-      "This is a recruiter (agency) posting, so the employer's name isn't given and there's no posting date. Confirm with Robert Walters that the job is still open.",
-      "A Hong Kong licence from the Securities and Futures Commission (SFC) will be needed, along with a work visa sponsored by the employer."
-     ],
-     "evidence": "Recruiter page loaded: 'looking for a Korean-speaking Equity Sales as part of their new expansion'"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Investment bank – Korea institutional coverage (Hong Kong)",
-    "unverified_runs": 13,
-    "check": "HTTP 403",
-    "dead_runs": 0
-   },
-   {
-    "id": "ai:jp:43a3f813616b46e2",
-    "source": "ai:jp",
-    "level": "Korean company in the U.S.",
-    "title": "Sr. Analyst, Project Finance",
-    "org": "Hanwha Q CELLS America (Qcells)",
-    "location": "Teaneck, NJ, United States",
-    "url": "https://careers.qcells.com/jobs/17669713-sr-analyst-project-finance",
-    "apply_url": "https://careers.qcells.com/jobs/17669713-sr-analyst-project-finance",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated (Qcells USA has filed H-1B petitions for Financial and Investment Analyst roles, according to MyVisaJobs data)",
-    "summary": "This is a transaction-focused senior analyst role in Qcells' Distributed Energy capital function, covering Portfolio Transactions, Capital Markets and Capital Strategy. It asks for 2–5 years of transaction-oriented or corporate finance experience, and J.P. has more than that. J.P.'s Hanwha group background and deal work at Hana Securities (the US$21M RCPS investment in Wedbush, the US$25M private debt fund commitment, the KRW 160B loan asset transfer) fit well. The gap is renewable energy project finance modeling, which J.P. has not done.",
-    "match": {
-     "score": 45,
-     "tags": [
-      "Korean company in the U.S."
-     ]
-    },
-    "brief": {
-     "fit_summary": "This is a transaction-focused senior analyst role in Qcells' Distributed Energy capital function, covering Portfolio Transactions, Capital Markets and Capital Strategy. It asks for 2–5 years of transaction-oriented or corporate finance experience, and J.P. has more than that. J.P.'s Hanwha group background and deal work at Hana Securities (the US$21M RCPS investment in Wedbush, the US$25M private debt fund commitment, the KRW 160B loan asset transfer) fit well. The gap is renewable energy project finance modeling, which J.P. has not done.",
-     "keywords": [
-      "project finance",
-      "Portfolio Transactions",
-      "Capital Markets",
-      "Capital Strategy",
-      "capital formation",
-      "strategic finance",
-      "renewable energy transactions",
-      "corporate finance",
-      "private equity",
-      "transaction-oriented",
-      "analytical capabilities",
-      "attention to detail"
-     ],
-     "strategy": [
-      "Put Hanwha Investment & Securities at the top of the resume and ask for an internal referral through Hanwha group contacts. Qcells is a Hanwha Solutions company, so group ties can carry weight.",
-      "Present the Hana Securities deals as capital formation and transaction execution: RCPS structuring, the fund commitment, the co-investment fund and the loan asset transfer.",
-      "Before interviews, learn the basics of tax equity, residential solar ABS and portfolio financing, and build a simple solar project cash-flow model to show you can learn the modeling.",
-      "Raise visa needs early. Ask whether HQ can arrange an L-1 transfer, or whether the company would file an H-1B or treaty-based petition."
-     ],
-     "watch_outs": [
-      "The posting does not mention visa sponsorship, and the cap-subject H-1B lottery is uncertain. A route through Hanwha group (L-1 after a year at a Hanwha affiliate) may be more realistic.",
-      "J.P. has no direct project finance or renewable energy experience, and the bachelor's degree is in Political Science & Philosophy, not finance.",
-      "The page does not show a posting date. Confirm the role is still open before putting time into a tailored application."
-     ],
-     "evidence": "Qcells is seeking a Senior Analyst, Project Finance to support the Distributed Energy capital function"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "U.S. subsidiary of Korean conglomerate (Hanwha)",
-    "unverified_runs": 13,
-    "check": "HTTP 403",
-    "dead_runs": 0
-   },
    {
     "id": "ai:jp:e826420d4dd33c0a",
     "source": "ai:jp",
@@ -970,7 +862,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (CJ)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1024,7 +916,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (SK)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1079,7 +971,7 @@
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hyundai)",
     "unverified_runs": 0,
     "check": "link checked",
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "dead_runs": 0
    },
    {
@@ -1133,7 +1025,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client coverage",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1190,60 +1082,8 @@
     "found_on": "2026-10-30",
     "employer_type": "Global alternative asset manager – Seoul (fundraising/IR)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
-    "dead_runs": 0
-   },
-   {
-    "id": "ai:jp:563a1894bf6b959f",
-    "source": "ai:jp",
-    "level": "Seoul / Korea",
-    "title": "Senior Alternative Investment Analyst",
-    "org": "AIA Korea",
-    "location": "Seoul, South Korea (AIA Tower)",
-    "url": "https://aia.wd3.myworkdayjobs.com/zh-CN/External/job/Seoul-KR-AIA-Korea/Senior-Alternative-Investment-Analyst_JR-62599",
-    "apply_url": "https://aia.wd3.myworkdayjobs.com/zh-CN/External/job/Seoul-KR-AIA-Korea/Senior-Alternative-Investment-Analyst_JR-62599",
-    "posted": null,
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated (Seoul role)",
-    "summary": "This insurer-side role evaluates and monitors private equity and private credit fund investments and handles reporting and risk review. That lines up closely with J.P.'s fund-of-funds monitoring and performance attribution at VI Asset Management and the private-fund commitments at Hana Securities.",
-    "match": {
-     "score": 55,
-     "tags": [
-      "Seoul / Korea"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This insurer-side role evaluates and monitors private equity and private credit fund investments and handles reporting and risk review. That lines up closely with J.P.'s fund-of-funds monitoring and performance attribution at VI Asset Management and the private-fund commitments at Hana Securities.",
-     "keywords": [
-      "Alternative Investment",
-      "PE(Private equity)",
-      "PC(Private credit)",
-      "monitor performance and risk",
-      "fundamental research",
-      "Report on invested alternative assets",
-      "Risk review",
-      "due diligence",
-      "insurance asset management",
-      "investment decisions"
-     ],
-     "strategy": [
-      "Lead with the VI Asset Management sub-fund monitoring, performance attribution and due-diligence work.",
-      "Quantify the Hana private-markets deals: US$25M private debt fund commitment and US$16M co-investment fund.",
-      "Mention the Hanwha IFRS and quarterly FS review work, which matters for insurer reporting under K-ICS/IFRS 17.",
-      "Show how J.P. automated reporting (Excel, PowerShell, Claude API) as a way to make alternative-asset reporting more efficient."
-     ],
-     "watch_outs": [
-      "Search results showed this posting as about 11 months old, so it may already be filled. Verify before investing time.",
-      "An insurer may prefer someone with K-ICS capital-charge experience."
-     ],
-     "evidence": "Assess and evaluate Alternative Investment products such as PE(Private equity), PC(Private credit)"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Insurer – alternative investments (Seoul)",
-    "unverified_runs": 13,
-    "check": "HTTP 403",
     "dead_runs": 0
    },
    {
@@ -1296,59 +1136,7 @@
     "employer_type": "Global asset manager – Korea institutional coverage",
     "unverified_runs": 0,
     "check": "link checked",
-    "verified_on": "2026-11-02",
-    "dead_runs": 0
-   },
-   {
-    "id": "ai:jp:dc526508bae7d584",
-    "source": "ai:jp",
-    "level": "Hong Kong / Singapore",
-    "title": "Manager, Client Services (Korean Speaking) - HSBC Global Asset Management",
-    "org": "HSBC Global Asset Management",
-    "location": "Central, Hong Kong",
-    "url": "https://mycareer.hsbc.com/en_GB/external/PipelineDetail/Manager-Client-Services-Korean-Speaking-HSBC-Global-Asset-Management/250257",
-    "apply_url": "https://mycareer.hsbc.com/en_GB/external/PipelineDetail/Manager-Client-Services-Korean-Speaking-HSBC-Global-Asset-Management/250257",
-    "posted": "2024-11-18",
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated (Hong Kong role; a Korean national would need an HK employment visa sponsored by the employer)",
-    "summary": "This role provides client service and sales support to HSBC Asset Management's Korean institutional clients and works with institutional sales. J.P.'s bilingual skills and fund-of-funds knowledge fit, but the posting was created in November 2024 and appears on a talent pipeline page, so there may be no live opening.",
-    "match": {
-     "score": 30,
-     "tags": [
-      "Hong Kong / Singapore"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This role provides client service and sales support to HSBC Asset Management's Korean institutional clients and works with institutional sales. J.P.'s bilingual skills and fund-of-funds knowledge fit, but the posting was created in November 2024 and appears on a talent pipeline page, so there may be no live opening.",
-     "keywords": [
-      "Client Services",
-      "sales support",
-      "client experience",
-      "institutional sales",
-      "client enquiries",
-      "pension and retirement",
-      "client relationships",
-      "Korean speaking",
-      "prospective clients",
-      "Asset and Wealth Management"
-     ],
-     "strategy": [
-      "Register on the pipeline anyway so recruiters can find J.P. when an opening comes up.",
-      "Stress the fund-of-funds and settlement experience as preparation for client servicing.",
-      "Show bilingual reporting quality with writing samples."
-     ],
-     "watch_outs": [
-      "The pipeline page was created 2024-11-18, so it may not be an active opening.",
-      "This is more client service than investment work.",
-      "Hong Kong visa sponsorship is not mentioned."
-     ],
-     "evidence": "Manager, Client Services (Korean Speaking) - HSBC Global Asset Management"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Global asset manager – Korea client service",
-    "unverified_runs": 13,
-    "check": "HTTP 403",
+    "verified_on": "2026-11-03",
     "dead_runs": 0
    },
    {
@@ -1403,7 +1191,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean company (Hanwha)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1456,7 +1244,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Financial data firm – Korea/North Asia coverage",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1507,7 +1295,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global infrastructure principal investing – Asia",
-    "unverified_runs": 3,
+    "unverified_runs": 4,
     "verified_on": "2026-11-01",
     "check": "HTTP 403",
     "dead_runs": 0
@@ -1564,7 +1352,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Korean sovereign wealth fund – U.S. office",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1621,7 +1409,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IFC",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1677,7 +1465,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1730,7 +1518,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1784,7 +1572,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Korea-based international climate fund",
     "unverified_runs": 0,
-    "verified_on": "2026-11-02",
+    "verified_on": "2026-11-03",
     "check": "link checked",
     "dead_runs": 0
    }
