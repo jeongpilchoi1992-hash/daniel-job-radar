@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior VA contracting officer who buys supplies and services under the FAR, negotiates and administers contracts, and mentors other Contract Specialists, working on site.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-13 1102 job requires 4 years of contracting experience, 1 year at GS-12 level doing technical contract reviews, a bachelor's degree with 24 semester hours in business-related fields, and a contracting warrant within about 6 months. Daniel's IEM consulting background and policy knowledge don't show hands-on federal procurement work on file, so this only works if Daniel's IEM role actually involved contract management, proposals, pricing, or audits at a senior level.",
+ "fit_summary": "This GS-13 1102 job requires four years of contracting, a year at GS-12 level doing technical contract reviews, 24 business-related semester hours and a contracting warrant within about six months. Daniel's proposal and purchasing work at IEM was contractor-side, so this is out of reach.",
  "eligibility": [
   "Open to the public (U.S. citizens) and to displaced federal employees under CTAP/ICTAP; no federal status is needed.",
   "1102 basic requirements: at least 4 years of contracting or related experience, plus a 4-year bachelor's course of study that included at least 24 semester hours in accounting, business, finance, law, contracts, purchasing, economics, industrial management, marketing, quantitative methods, or organization and management.",
@@ -27,7 +27,7 @@
   "eCMS"
  ],
  "strategy": [
-  "Before applying, honestly inventory whether at least 4 years of your work, including IEM, involved contracting or related duties and whether one year matched the GS-12 examples; if not, aim for GS-1102-07/09 trainee or Acquisition Intern roles instead.",
+  "His resume doesn't show four years of contracting or a year at GS-12 level, so aim for GS-1102-07/09 trainee or acquisition intern roles instead.",
   "Check your transcript for the 24 semester hours in the listed business fields and upload it, since a missing transcript can disqualify you.",
   "If IEM work involved government contracts, frame it from the contractor side: proposal pricing, reviewing SOWs and deliverables against contract terms, task order management, compliance reporting, and audit responses, using the posting's wording.",
   "On your two-page resume, list your title, month/year dates, and hours per week for every job, and give the specialized experience in short, specific bullets.",
@@ -35,9 +35,8 @@
   "This is an open continuous announcement: the first referral cutoff is September 8, 2026, and later cutoffs come every two weeks through March 1, 2027, so apply early once your materials are accurate."
  ],
  "resume_bullets": [
-  "Reviewed [number] [federal/state/local] contract task orders and statements of work valued at [$amount] for compliance with [FAR/contract terms], identifying [issues] and recommending [corrective actions].",
-  "Coordinated responses to [internal/external] audits and reviews of [program/contract] for [government client], preparing [reports/documentation] used by [audience] to [outcome].",
-  "Analyzed [cost/pricing or performance] data across [number] [contracts/projects], identified [trend], and prepared reports with action plans to meet [performance measures]."
+  "Read federal solicitations in SAM.gov, GovWin and BidPro and led proposal writing (2019–2024).",
+  "Procured supplies for COVID-19 sites in six states and tracked spending in pivot-table reports (2021–2022)."
  ],
  "interview_questions": [
   "Walk us through how you would choose between simplified acquisition, sealed bidding, and negotiation for a given requirement.",
@@ -53,5 +52,6 @@
  ],
  "job_id": "usajobs:882892900",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,10 +1,10 @@
 {
  "one_liner": "Senior lead running the Senate Sergeant at Arms program that assesses and installs security systems at senators' homes, managing vendors, budgets, contracts and staff.",
  "fit_rating": "Long shot",
- "fit_summary": "This role wants an expert in physical or residential security program management with 5-10 years of relevant experience, budgeting skills and the ability to become a Contracting Officer Representative. Daniel's IEM consulting background in emergency management and strong relationship and policy skills are adjacent, but there is no record of physical security, protective operations or multi-year program leadership. It is worth applying only if Daniel's IEM work involved managing government projects, budgets or vendors over several years.",
+ "fit_summary": "This role wants an expert in physical or residential security program management with 5 to 10 years of experience, budgeting skills and the ability to become a Contracting Officer's Representative. Daniel's security work is office security at IEM, and his program work is logistics and exercises, not protective operations or multi-year program leadership, so it's a long shot.",
  "eligibility": [
   "Open to the public (Legislative Branch, not competitive service), so no federal status or veterans' preference is needed.",
-  "Experience requirement depends on education: 10 years with a high school diploma, 8-10 years with an associate's degree, or 5-8 years with a bachelor's degree. Daniel's education and years of experience are not on file, so confirm you meet the tier for your degree.",
+  "The experience requirement depends on education: 5 to 8 years with a bachelor's degree. Daniel has seven years at IEM and an M.A., but the years have to be security program experience, which his resume doesn't show.",
   "You must obtain and maintain a Top Secret clearance, which requires U.S. citizenship.",
   "You must be able to obtain and maintain Contracting Officer Representative (COR) Level I/II certification.",
   "You must apply through the Senate Career Page (https://sen.gov/1VNZQ), not only USAJOBS, by 11:59pm EST on November 10, 2026."
@@ -30,14 +30,13 @@
   "Follow the sen.gov link and read the complete announcement there, since the USAJOBS text is a summary. Submit through the Senate portal well before the 11:59pm EST cutoff on November 10, 2026.",
   "Frame your IEM experience around program and project management for government clients: budgets, schedules, risk, vendor and stakeholder coordination, and preparedness or risk assessments. Tie disaster preparedness and risk work to 'risk management' and 'security assessments' only where that is accurate.",
   "Show your years of relevant experience clearly with dates so the panel can verify you meet the education and experience tier. Keep it concise, ideally two pages to stay consistent with federal norms.",
-  "Highlight writing: executive summaries, analytic reports and briefings for senior officials. Have a writing sample ready, since a skills assessment may be given.",
-  "Use your relationship skills as evidence of 'customer-focused solutions' and of working with Senate staff and external stakeholders. Show tact and discretion with sensitive information.",
+  "Highlight his writing (proposals, meeting minutes, after-action notes) and have a writing sample ready, since a skills assessment may be given.",
+  "Use his vendor and client coordination as evidence of 'customer-focused solutions', and show tact and discretion with sensitive information.",
   "If you lack physical security credentials, consider starting CPTED or physical security survey training and list it as in progress. Also apply to more entry-level Sergeant at Arms or Capitol Police support roles in parallel."
  ],
  "resume_bullets": [
-  "Managed [number] emergency management/preparedness projects for [government client] with a combined budget of [$X], tracking schedule, risk and deliverables in [tool].",
-  "Coordinated [number] vendors and stakeholders across [agencies/jurisdictions] to deliver [project/assessment] on [time/budget outcome].",
-  "Wrote [number] executive summaries and analytic reports on [risk/threat/preparedness topic] for [senior official audience]."
+  "Prioritized office security as part of office manager duties at IEM (2019–2024).",
+  "Set up relationships with medical supply, truck rental and other vendors for COVID-19 sites (2021–2022)."
  ],
  "interview_questions": [
   "Describe a program you led from initiation to completion. How did you manage budget, schedule and risk?",
@@ -53,5 +52,6 @@
  ],
  "job_id": "usajobs:890553700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

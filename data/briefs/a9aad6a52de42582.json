@@ -1,7 +1,7 @@
 {
  "one_liner": "Policy staffer in Senator Ted Cruz's DC office who tracks legislation, drafts memos, meets with constituents and stakeholders, and advises the Senator on assigned issues.",
- "fit_rating": "Good",
- "fit_summary": "Your deep knowledge of U.S. politics and policy and your relationship-building skills match what Senate Legislative Assistant roles typically require. Your IEM experience with government emergency-management clients could support a homeland security, disaster, or appropriations portfolio. The posting text is nearly empty, so the issue area, salary, and requirements are unknown, and Senate offices weigh political alignment and state ties heavily.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's politics knowledge and his FEMA, public health and Rural Health Transformation Program work could support a homeland security, disaster or health portfolio. Senate LA roles usually go to people with Hill experience, which his resume doesn't show, and the posting is nearly empty, so the issue area, salary and requirements are unknown; personal offices also weigh political alignment and state ties heavily.",
  "eligibility": [
   "The posting states no eligibility rules, education requirements, or salary; open the full listing at the URL and confirm them before applying.",
   "Senate personal offices are not covered by OPM/USAJOBS rules, so no federal status, time-in-grade, or specialized-experience grade test applies; the two-page USAJOBS limit does not strictly apply either.",
@@ -34,9 +34,9 @@
   "Use networking: reach out to Texas-connected Hill staffers and alumni groups, since referrals carry significant weight in Senate hiring."
  ],
  "resume_bullets": [
-  "Supported [government client type] on [emergency management/disaster recovery program] at IEM, analyzing [federal policy/regulation, e.g., Stafford Act or FEMA guidance] and producing [memos/reports] for [audience].",
-  "Briefed [state/local officials or client leadership] on [topic], translating complex [policy/program] requirements into actionable recommendations for [number] stakeholders.",
-  "Built relationships with [agencies/community groups] to coordinate [preparedness/recovery activity], serving as primary point of contact for [scope]."
+  "Oversaw COVID-19 logistics in Texas, Nevada, Virginia and Florida at the same time (2021–2022), procuring and tracking supplies across six states.",
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, identifying which states were executing well and which were struggling.",
+  "Researched federal opportunities in SAM.gov, GovWin and the DHS acquisition forecast, and led proposal writing (2019–2024)."
  ],
  "interview_questions": [
   "Why do you want to work for Senator Cruz specifically, and which of the Senator's priorities resonate with you?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "senate:legislative-assistant-washington-district-of-columbia-1257",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

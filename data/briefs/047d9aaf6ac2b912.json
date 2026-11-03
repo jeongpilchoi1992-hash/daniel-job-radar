@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior federal contracting officer-track role at NTSB: planning, soliciting, negotiating, awarding and administering contracts under the FAR for the agency's Acquisition Division.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-14 1102 job requires at least 4 years of contracting experience, 1 year at the GS-13 level running the full contract lifecycle, 24 semester hours in business-related fields, and FAC-C Professional or equivalent. Your IEM consulting background is on the vendor/program side of emergency management, and nothing on file shows contracting-officer-type work. Unless you personally ran procurements, cost/price analysis and negotiations, you likely won't be rated eligible.",
+ "fit_summary": "This GS-14 1102 job requires at least four years of contracting experience, a year at GS-13 running the full contract lifecycle, 24 semester hours in business fields, and FAC-C Professional. Daniel's procurement and proposal work at IEM was on the contractor side (buying medical supplies, writing bids), not contracting-officer work, so he won't meet the minimum qualifications.",
  "eligibility": [
   "Open to the public via Direct Hire (also fed-transition); no federal status or veterans' preference needed.",
   "Basic requirement: at least 4 years in contracting or related positions, including 1 year of specialized experience equivalent to GS-13 (full lifecycle contracting, expert guidance, policy interpretation, contractor evaluations).",
@@ -28,16 +28,15 @@
  ],
  "strategy": [
   "First audit honestly: list every IEM task where you planned, priced, negotiated or administered contracts or subcontracts. If the total is not 4+ years, with 1 year at an expert level, skip this one and target GS-1102 trainee/GS-7-9 roles or emergency-management/program analyst jobs instead.",
-  "If you did handle IEM proposals, pricing or subcontract management, frame that work as contracting: proposal development, cost/price analysis, subcontract administration, FAR/2 CFR 200 compliance for FEMA-funded work, and negotiations with government clients.",
+  "If he applies, frame his proposal work as contracting knowledge: researching opportunities on SAM.gov, GovWin and DHS forecasts, reading solicitations and leading proposal writing (2019 to 2024), plus purchasing medical supplies for vaccination sites. Say plainly that it was contractor-side.",
   "Pull your transcript now and count the semester hours in the qualifying fields. Upload it, because the posting will mark you ineligible without it.",
   "Fit everything into the two-page resume limit: state dates, hours per week, and the specialized-experience language plainly. HR says it 'will not make assumptions.'",
   "Answer the questionnaire truthfully, since overstating can remove you. Plan to complete USA Hire within 48 hours after the November 2, 2026 close.",
-  "Consider a longer-term path: entry-level 1102 roles, such as agency acquisition intern programs or Pathways-style openings, would let you earn FAC-C and use your people and negotiation skills."
+  "Consider a longer-term path: entry-level 1102 roles open to all U.S. citizens, such as agency acquisition intern or contract specialist trainee postings, would let him earn FAC-C and build on his vendor and proposal work."
  ],
  "resume_bullets": [
-  "Supported [number] government client engagements valued at [$ amount] on emergency management contracts at IEM, preparing [proposal/pricing/SOW] documentation in compliance with [FAR/2 CFR 200] requirements.",
-  "Performed cost/price analysis for [type of actions], reconciling [labor rates/ODCs] for [number] proposals over [time period], [hours/week].",
-  "Negotiated [scope/terms/modifications] with [client or subcontractor] representatives and managed contract administration and closeout tasks for [number] task orders."
+  "Found multimillion-dollar opportunities in SAM.gov, GovWin, BidPro and the DHS acquisition forecast, and led proposal writing (2019–2024).",
+  "As part of the logistics team, procured medical supplies, equipment and vaccines for COVID-19 sites in six states and set up vendor relationships (2021–2022)."
  ],
  "interview_questions": [
   "Walk us through how you'd plan an acquisition from market research to award, including when a JOFOC is needed.",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:889222600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

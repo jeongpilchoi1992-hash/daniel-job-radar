@@ -1,10 +1,10 @@
 {
  "one_liner": "Part-time, grant-funded city social services job doing community outreach on substance-use prevention and recovery resources, plus case coordination and service planning.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's outreach skills, comfort with the public, policy knowledge, and Manassas residency fit the outreach and community-event side well. The case-management duties (writing service plans, presenting cases to funding teams) usually call for human services education or casework experience, which isn't on file, and a Specialist II title suggests some prior experience is expected.",
+ "fit_summary": "Daniel's ease with the public, his Manassas residency and his public health response work (vaccination sites, mpox response meetings) fit the outreach and community-event side. The case-management duties (writing service plans, presenting cases to funding teams) usually call for human services education or casework, which his resume doesn't show, and a Specialist II title suggests prior casework.",
  "eligibility": [
   "The minimum qualifications are cut off in the posting text. Read the full posting for required education (often a degree in social work, human services, or a related field) and years of experience.",
-  "Specialist II level may require prior family services or case management experience. Confirm whether consulting or emergency-management work counts.",
+  "Specialist II may require prior family services or case management experience. Ask whether his ReBuild NC intake-center lead role (2019) or public health response work counts.",
   "Expect background checks, possibly including a Virginia Child Protective Services registry check and a driver's license requirement. Verify these in the full posting.",
   "No federal status, veterans' preference, or clearance is indicated. This is open local government hiring through GovernmentJobs."
  ],
@@ -32,9 +32,9 @@
   "Consider brief harm reduction training (for example, naloxone/REVIVE! training through Virginia) to show interest in the subject area."
  ],
  "resume_bullets": [
-  "Conducted outreach to [number/type] community members and stakeholders on [disaster recovery/preparedness] resources for [client agency] at IEM, connecting them to [programs/services].",
-  "Interpreted [federal/state program regulations, e.g., FEMA guidance] to help [clients/agency staff] determine eligibility for [services], supporting [outcome].",
-  "Coordinated and scheduled [meetings/briefings] with [teams/agencies] and presented [findings/cases/recommendations] to [audience] to decide on [next steps/funding]."
+  "Led a five-person intake center for ReBuild NC after Hurricane Matthew, answering homeowners' questions about recovery program applications (2019).",
+  "Supported public health response at COVID-19 vaccination and monoclonal antibody sites (2021–2022) and at a state health agency's mpox response meetings (2022–2023).",
+  "Took part in public health seminars on response and recovery roles (2022–2024)."
  ],
  "interview_questions": [
   "How would you approach someone who is actively using substances and is reluctant to engage with services?",
@@ -50,5 +50,6 @@
  ],
  "job_id": "neogov:manassas:5450896",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "A program management role at George Mason University (a Virginia state agency) overseeing federally funded or federal-facing programs; exact duties are not stated in the listing.",
  "fit_rating": "Good",
- "fit_summary": "Daniel's consulting work at IEM for government clients and strong grasp of federal policy likely fit a role managing federal programs, and Fairfax is a short commute from Manassas. The posting has no description, so the rating depends on confirming whether the job centers on grants and compliance, federal relations, or research administration.",
+ "fit_summary": "Daniel's federal program work at IEM (FEMA Public Assistance onboarding, county COVID-19 grant applications, FEMA exercises, proposals for federal contracts) fits a role managing federal programs, and Fairfax is a short commute from Manassas. The posting has no description, so confirm whether the job centers on grants and compliance, federal relations or research administration.",
  "eligibility": [
   "Open the full posting on jobs.virginia.gov or GMU's jobs site (jobs.gmu.edu) to confirm minimum qualifications; none are listed in the summary provided.",
   "Check whether a bachelor's or advanced degree, or a set number of years of program management experience, is required.",
@@ -34,9 +34,9 @@
   "Search LinkedIn or the GMU website to identify the hiring office, such as Government Relations, the Office of Sponsored Programs, or a specific center, and tailor your materials to it."
  ],
  "resume_bullets": [
-  "Coordinated [type of project] for [federal/state/local government client] at IEM, managing [number] deliverables on schedule within a [$ amount/timeframe] contract.",
-  "Built working relationships with [client agency staff/stakeholders] to [gather requirements/resolve issues/brief leadership], supporting [emergency management, recovery or preparedness] programs.",
-  "Tracked and reported [program metrics/compliance items/budget data] for [program name], producing [reports/briefings] for [audience] every [frequency]."
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Helped counties update their applications for COVID-19 emergency grants (2020), and researched multimillion-dollar federal opportunities in SAM.gov and GovWin (2019–2024).",
+  "Oversaw logistics for COVID-19 vaccination and monoclonal antibody sites in four states at once, with pivot-table reports on spending and order status (2021–2022)."
  ],
  "interview_questions": [
   "Tell us about a program or project you managed from start to finish. How did you keep it on schedule and within budget?",
@@ -51,5 +51,6 @@
  ],
  "job_id": "virginia:program-manager-federal-programs-fairfax-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

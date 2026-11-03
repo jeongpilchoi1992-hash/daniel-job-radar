@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Forest Service manager running the national wildland fire danger rating program, its science, analytical tools and interagency coordination across all U.S. wildland fire agencies.",
- "fit_rating": "Long shot",
- "fit_summary": "This is a technical wildland fire science position that requires a biological sciences, agriculture, natural resources or chemistry degree (or 24 qualifying semester hours plus equivalent experience), prior wildland firefighting experience, and a year of GW-11/12-level fire management work. Daniel's emergency management consulting and policy strengths match the interagency coordination duties, but nothing on file shows the degree, the fire line experience or the fuels/prescribed fire work. Without those, the resume will likely be screened out at the minimum qualifications review.",
+ "fit_rating": "Not eligible",
+ "fit_summary": "This wildland fire science position requires a biological sciences, natural resources or chemistry degree (or 24 qualifying semester hours), prior wildland firefighting experience and a year of GW-11/12 fire management work. Daniel's degree is in Global Affairs and his resume has no fire line experience, so he would be screened out.",
  "eligibility": [
   "Open to the public (direct hire); U.S. citizen or national, and males born after 12/31/1959 must be registered with Selective Service. No status or clearance is required.",
   "Basic education requirement: a degree in biological sciences, agriculture, natural resource management, chemistry or a related field, or 24 semester hours in those fields plus equivalent experience. Transcripts must be submitted.",
@@ -26,18 +26,10 @@
   "smoke management"
  ],
  "strategy": [
-  "Before investing time, confirm you have the qualifying degree or 24 semester hours and documented wildland firefighting experience (for example, a red card or fire crew season). If you don't, skip this one; it cannot be qualified on consulting experience alone.",
-  "If you do qualify, frame your IEM work around interagency coordination, preparedness planning and stakeholder facilitation with federal, state, tribal and local clients. Use concrete project names, dates and hours per week.",
-  "Keep the resume to two pages, with each job showing dates, hours per week and a short specialized experience statement that mirrors the GW-11/12 examples. Use the posting's exact fire terms only where they are true.",
-  "Under direct hire there is no score, so the resume review is the whole test. Answer the questionnaire honestly, because inflated claims trigger ineligibility.",
-  "Upload transcripts and any fire qualification records before the November 9, 2026 closing date. Email Nicholas Skowronski early to ask whether non-firefighting emergency management experience has ever been credited.",
-  "Use this posting to build your search list for FEMA, DHS or state VDEM emergency management and program analyst roles, which fit your IEM background far better."
+  "Skip this one: the degree field and firefighting experience are hard requirements.",
+  "Focus the search on FEMA, DHS or Virginia VDEM emergency management and program analyst roles, which fit his IEM background far better."
  ],
- "resume_bullets": [
-  "Coordinated [type of plan/project] for [number] federal, state and local government clients at IEM, facilitating agreement among [stakeholder groups] on [issue such as resource allocation or recovery priorities].",
-  "Built and maintained working relationships with [agencies/tribal/local partners] to support [preparedness/recovery program], [hours per week], [dates].",
-  "Analyzed [hazard/risk/funding data] using [tools, e.g., GIS] to inform [client] planning decisions, resulting in [result you can verify]."
- ],
+ "resume_bullets": [],
  "interview_questions": [
   "Describe your wildland fire experience and the fire qualifications you hold.",
   "How would you build consensus among federal, state and tribal partners on a contentious fire danger or funding issue?",
@@ -45,11 +37,11 @@
   "Walk us through how you would guide field units on collecting and evaluating fire danger and weather data."
  ],
  "watch_outs": [
-  "Hard requirements: a qualifying science degree (or 24 semester hours) and prior wildland firefighting experience, neither of which is on file for Daniel.",
-  "The posting notes a drug-testing designated position, possible physical or medical exams, possible remote or volatile locations, and a 1-year probationary period with written certification required.",
-  "The application window is short: October 26 to November 9, 2026."
+  "Hard requirements: a qualifying science degree (or 24 semester hours) and prior wildland firefighting experience; his resume shows neither.",
+  "The posting notes a drug-testing designated position, possible physical or medical exams, possible remote or volatile locations, and a 1-year probationary period with written certification required."
  ],
  "job_id": "usajobs:890184800",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

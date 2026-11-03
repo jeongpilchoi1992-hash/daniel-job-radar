@@ -1,7 +1,7 @@
 {
  "one_liner": "A DoD analyst who plans and oversees IT contracts for DMDC, acting as Contracting Officer's Representative and handling acquisition documents, milestones, and budgets.",
  "fit_rating": "Long shot",
- "fit_summary": "This role requires a year of specialized IT acquisition experience at the GS-11 level or higher, such as drafting SOWs, market research, and cost estimates, supporting pre- and post-award contract functions, and tracking IT budgets. Daniel's IEM consulting background in emergency management may involve government contracts, but nothing on file shows hands-on acquisition or contract management work. Daniel's policy knowledge and people skills are not what this position screens for.",
+ "fit_summary": "This role requires a year of GS-11-level IT acquisition work: drafting statements of work, market research and cost estimates, supporting pre- and post-award contract functions and tracking IT budgets. Daniel's market research and proposal work at IEM was contractor-side and not IT acquisition, so he likely won't qualify.",
  "eligibility": [
   "Open to the public (U.S. citizens) and military spouses under Direct Hire Authority, so no federal status is needed and traditional rating and ranking does not apply.",
   "GS-12 requires one year of specialized experience equivalent to GS-11 in IT acquisition planning, pre-/post-award contract support, acquisition documents (market research, SOWs, cost estimates), milestone tracking, and IT budget execution.",
@@ -27,17 +27,15 @@
   "closeout"
  ],
  "strategy": [
-  "Before applying, check honestly whether your IEM work included real contract tasks such as proposal pricing, SOW/PWS input, deliverable tracking against task orders, invoicing, or budget burn reports. Apply only if you can document about a year of such work at a GS-11-equivalent level.",
-  "If you have that experience, apply at GS-12 only and mirror the posting's wording in your bullets, for example 'tracked contract-specific acquisition milestone plans' and 'supported post-award contract management.'",
-  "Frame contractor-side work accurately. For example, write that you supported government client task orders, prepared cost estimates for proposals, or tracked deliverables for a [agency] contract, and note any IT or systems components.",
+  "Apply only if he can document about a year of contract tasks at GS-11 level; his contractor-side proposal work and spending reports are the closest, and HR may not count them.",
+  "Describe contractor-side work accurately: market research on SAM.gov, GovWin and DHS forecasts, and leading proposal writing for federal contracts (2019 to 2024). His resume doesn't show cost estimates or task-order tracking, so claim them only if he did them.",
   "Stay within the two-page limit by listing exact dates, hours per week, and title for each job, and by keeping emergency-management content that isn't about acquisition to one line.",
   "The posting is open until 2026-11-15, but direct-hire postings can close early or pull applicants in batches, so apply early. Meanwhile, consider taking a free FAI/DAU COR course (CLC 106) to build credibility.",
   "If you don't qualify, focus instead on GS-0301/0343 emergency-management or policy roles at FEMA, Virginia VDEM, or Prince William County emergency management, which match your background much better."
  ],
  "resume_bullets": [
-  "Supported [government client] [contract/task order type] by tracking deliverables and milestone schedules for [number] work streams, reporting status to [client/program manager] [frequency]; [hours/week].",
-  "Drafted [market research/SOW/cost estimate sections] for [number] proposals or task orders valued at [$ amount], coordinating with [technical/finance staff].",
-  "Monitored contract budget execution for [program], preparing [monthly] burn-rate reports and flagging variances of [amount/%] to leadership."
+  "Procured and tracked medical supplies for COVID-19 sites, with pivot-table reports on spending and order status (2021–2022).",
+  "Found federal opportunities in SAM.gov and GovWin and led proposal writing (2019–2024)."
  ],
  "interview_questions": [
   "Walk us through your experience with pre-award acquisition documents such as SOWs, PWS, or IGCEs.",
@@ -52,5 +50,6 @@
  ],
  "job_id": "usajobs:868120600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

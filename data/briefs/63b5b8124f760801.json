@@ -1,7 +1,7 @@
 {
  "one_liner": "Support contracting staff at OSD's research and engineering office by reviewing funding packages, OTAs, interagency agreements, and contracted-services spend data.",
- "fit_rating": "Stretch",
- "fit_summary": "The job requires one year of GS-11-level specialized experience applying contracting laws, budget and financial processes, and contract or agreement administration. Daniel's IEM consulting work with government clients and strong policy knowledge are relevant only if Daniel handled contracts, task orders, funding, or grant agreements directly, which is not on file. The SCI clearance requirement adds another hurdle.",
+ "fit_rating": "Long shot",
+ "fit_summary": "The job requires a year of GS-11-level experience applying contracting laws, budget and financial processes, and contract or agreement administration, plus SCI eligibility. Daniel's closest work is contractor-side proposals, medical-supply purchasing and county grant applications at IEM, which falls short of the GS-11 bar, and his resume lists no clearance.",
  "eligibility": [
   "Open to the public under Direct Hire Authority; veterans' preference does not apply.",
   "One year of specialized experience equivalent to NH-2/GS-11 in contracting law, budgetary and financial processes, procurement and non-procurement instruments, and program evaluation. Education cannot substitute.",
@@ -31,12 +31,11 @@
   "Present disaster-recovery grant work under the posting's 'non-procurement' and 'agreements with multiple participants' language. Federal grants and cooperative agreements fit those terms.",
   "Use your policy knowledge to show you can research 'emerging acquisition policies, statutory updates,' such as FAR overhaul changes or OTA authority, but keep it secondary to the hands-on experience.",
   "Keep the resume to two pages, and list month/year dates and hours per week for each job. Put the specialized experience in the top bullets of the IEM entry.",
-  "If you lack a full year of contracting or financial work, consider GS-7/9 contract specialist (1102) roles or Pathways programs, and still apply here."
+  "If he lacks a full year of contracting or financial work, consider GS-7/9 contract specialist (1102) roles open to the public, and still apply here."
  ],
  "resume_bullets": [
-  "Reviewed [number] [task orders/grant agreements] for [client agency] to verify funding, period of performance, and compliance with [FAR/2 CFR 200], and resolved documentation deficiencies before submission.",
-  "Compiled and analyzed [spend/cost] data for [program] totaling $[amount], and identified [trend or cost driver] to support [client decision].",
-  "Monitored contractor or subrecipient performance on [multi-party agreement] by tracking [deliverables/milestones] and briefing [audience] on risks and corrective actions."
+  "Built Excel pivot-table reports on spending and order status for multi-state COVID-19 purchasing (2021–2022).",
+  "Found federal opportunities in SAM.gov, GovWin and the DHS acquisition forecast (2019–2024)."
  ],
  "interview_questions": [
   "Describe your experience reviewing a funding package or contract modification. What errors did you look for?",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:890899600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

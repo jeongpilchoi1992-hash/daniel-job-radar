@@ -1,7 +1,7 @@
 {
  "one_liner": "Peer support role at Fairfax County's 16-bed crisis stabilization unit, helping adults in psychiatric or substance-use crisis by drawing on your own lived recovery experience.",
  "fit_rating": "Long shot",
- "fit_summary": "Peer Recovery Specialist roles in Virginia are built around personal lived experience with mental health or substance use recovery and usually require (or soon require) state peer certification. Daniel's people skills and emergency-management consulting background are relevant to 'crisis' only in name. This is clinical-adjacent direct care, not disaster or policy work, so it fits only if Daniel has lived recovery experience and wants this path.",
+ "fit_summary": "Peer recovery roles in Virginia are built on personal lived experience with mental health or substance use recovery and usually require state peer certification. This is direct care, not disaster or policy work, and his public health response background fits 'crisis' only in name, so it suits him only if he has lived recovery experience and wants this path.",
  "eligibility": [
   "Lived experience: peer recovery roles typically require personal lived experience with mental health and/or substance use recovery. Confirm this in the full posting, which is truncated here.",
   "Certification: Virginia peer roles commonly require DBHDS Peer Recovery Specialist training and registration or certification (CPRS) through the Virginia Board of Counseling, sometimes within a set time after hire. Verify the full minimum qualifications.",
@@ -33,9 +33,8 @@
   "If this isn't a fit, look instead at Fairfax County's Office of Emergency Management or CSB administrative and policy roles, which match your background better."
  ],
  "resume_bullets": [
-  "Coordinated with [number/type of] government client stakeholders on [emergency management/recovery project] at IEM, keeping communication clear during [time-sensitive situation].",
-  "Built working relationships with [community groups/agency staff] to [goal], supporting [number] people or partners over [timeframe].",
-  "Completed [peer recovery/crisis/Mental Health First Aid training] in [year]; [certification status]."
+  "Led a five-person intake center for ReBuild NC after Hurricane Matthew, answering homeowners' questions (2019).",
+  "Took part in public health seminars on response and recovery roles (2022–2024)."
  ],
  "interview_questions": [
   "How would you use your own recovery story to engage someone in crisis, while keeping appropriate boundaries?",
@@ -50,5 +49,6 @@
  ],
  "job_id": "neogov:fairfaxcounty:5521061",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

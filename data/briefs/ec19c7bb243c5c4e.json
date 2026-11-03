@@ -1,7 +1,7 @@
 {
  "one_liner": "A court reporter who takes down House floor debates, hearings and markups word-for-word at high speed and produces edited official transcripts.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a skilled stenography job that requires extensive experience reporting multi-voice hearings at very high speeds, and NCRA or state certification is strongly preferred. Nothing on file shows Daniel has machine-shorthand training or court-reporting experience. Daniel's knowledge of Congress and politics is a real plus, but it cannot substitute for the core stenographic skill.",
+ "fit_summary": "This skilled stenography job requires extensive experience reporting multi-voice hearings at very high speeds, and NCRA or state certification is strongly preferred. Daniel's resume has no court-reporting or machine-shorthand training (his meeting minutes are a different skill), so skip it.",
  "eligibility": [
   "Open to the public (hiring path: public), so no prior federal status is needed.",
   "Requires extensive knowledge and experience in reporting, plus the ability to report multi-voice hearings at very high speeds.",
@@ -27,17 +27,12 @@
   "confidentiality"
  ],
  "strategy": [
-  "Be honest with yourself first: apply only if you actually have stenographic or voice-writing skills at professional speed. Otherwise, treat this as a signal of a possible long-term path (court-reporting school plus NCRA RPR), not a current target.",
-  "If you have reporting skills, list your certification, your certified speed in words per minute, and any realtime capability at the top of a two-page resume, with hours per week for each job.",
-  "Frame your IEM work around transcription-adjacent tasks you really did, such as documenting government meetings, drafting after-action reports or minutes, editing deliverables to a style guide, and handling sensitive client information.",
-  "Highlight your command of House procedure and the legislative process (for example markups, amendments, motions, and the Congressional Record), which the posting calls expert knowledge.",
-  "Prepare for the structured interview with STAR examples showing tact with varied personalities, working under pressure, and long or irregular hours.",
-  "The posting closes 2027-01-01, but House offices often review applications as they arrive, so apply early and note any prior clearance eligibility."
+  "Skip this one: it requires stenographic or voice-writing skills at professional speed, and his meeting minutes are a different skill.",
+  "Look instead at House or Senate staff roles such as staff assistant or legislative correspondent, which suit his close interest in politics and policy."
  ],
  "resume_bullets": [
-  "Reported/transcribed [number] [type of proceedings] at [speed] wpm with [accuracy %], delivering edited transcripts within [turnaround time].",
-  "At IEM, documented [meetings/exercises] for [government client], producing [minutes/after-action reports] edited to [style guide] under [deadline].",
-  "Handled [sensitive/confidential] client materials in accordance with [policy/clearance level], maintaining [result you can verify]."
+  "Took minutes at a large travel company's weekly meetings (Feb – Aug 2024) and at a state public health agency's mpox response meetings (Dec 2022 – Mar 2023).",
+  "Delivered detailed notes used to write after-action reports for FEMA full-scale exercises."
  ],
  "interview_questions": [
   "What certification and realtime speed do you hold, and how do you handle multi-voice crosstalk in a hearing?",
@@ -46,12 +41,13 @@
   "How do you protect classified or confidential material in your work?"
  ],
  "watch_outs": [
-  "The core requirement is high-speed verbatim reporting, a specialized skill Daniel is not known to have.",
+  "The core requirement is high-speed verbatim reporting, a specialized skill his resume doesn't show.",
   "A Top Secret clearance and random drug testing are required.",
   "The role requires long hours, nights, and weekends, with no telework, plus a commute from Manassas to the Capitol.",
   "NCRA or state certification is strongly preferred, and acquiring one takes years of training."
  ],
  "job_id": "usajobs:889710900",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

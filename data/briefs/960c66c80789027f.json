@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Treasury analyst who helps federal and state agencies join and expand the Treasury Offset Program, which collects delinquent debts by offsetting government payments.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's relationship-building, public policy knowledge and government-client consulting at IEM fit the stakeholder and legislative-proposal parts of this role. However, GS-13 requires a year of GS-12-level experience in debt management, collection, payment or similar financial management, plus formal or end-to-end testing, and nothing on file shows that. Unless Daniel's IEM work involved disaster-recovery financial or payment processes and system testing at a senior level, Daniel likely will not qualify.",
+ "fit_summary": "GS-13 requires a year at GS-12 level in debt management, collection, payment or similar financial management, plus end-to-end testing. Daniel's resume has no financial operations or system testing work, so he likely won't qualify.",
  "eligibility": [
   "Open to the public (U.S. citizens or nationals) and to CTAP/ICTAP-eligible federal employees; no federal status is required.",
   "You need one year of specialized experience equivalent to GS-12 in all three areas: debt management, debt collection, payment or similar financial management; formal or end-to-end testing for new programs or systems; and multi-source analysis leading to process recommendations.",
@@ -34,9 +34,8 @@
   "If you don't qualify, target GS-9/11 Treasury, FEMA or state Department of Emergency Management roles, or legislative staff jobs that fit your background better."
  ],
  "resume_bullets": [
-  "Analyzed [disaster recovery payment/reimbursement] data from [number] sources for [client agency], identifying [issue] and recommending process changes adopted by [stakeholder]. ([month/day/year]–[month/day/year], [hours]/week)",
-  "Conducted end-to-end testing of [system/process name] before rollout to [number] state and local users, documenting [number] defects and validating fixes with [team/client].",
-  "Served as primary liaison to [federal/state agencies], explaining [program] requirements and resolving stakeholder issues to support implementation of [program]."
+  "Helped counties update their applications for COVID-19 emergency grants (2020).",
+  "Processed hundreds of workers' compensation claims a day at CorVel (2017–2018)."
  ],
  "interview_questions": [
   "Describe a time you led testing for a new system or business process. What did you test, and how did you handle defects?",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:890941500",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

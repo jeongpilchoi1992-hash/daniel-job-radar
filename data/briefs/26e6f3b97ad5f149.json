@@ -1,10 +1,10 @@
 {
  "one_liner": "CIA analyst who studies foreign militaries' forces, weapons, doctrine and plans, then writes and briefs assessments for senior U.S. policymakers and military leaders.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's policy knowledge, political savvy and comfort briefing people match the CIA's desire for strong verbal presentation and policy-focused analysis, and IEM work for government clients may show research and writing. However, the role centers on foreign military analysis, and the posting lists specific degree fields (e.g., Political Science, International Relations, National Security) that Daniel must confirm holding. Daniel would also need to pass a CIA background investigation and qualify for an SCI clearance.",
+ "fit_summary": "Daniel's M.A. in Global Affairs is close to the listed International Relations field, and his research and writing fit policy-focused analysis. The role centers on foreign military analysis, which his resume doesn't cover, and it needs a CIA background investigation and SCI eligibility.",
  "eligibility": [
   "Open to the public (fed-competitive, fed-excepted, public paths); no prior federal status required, but U.S. citizenship is mandatory.",
-  "Bachelor's or master's degree in Military History, National Security, International Relations, Defense Studies, Political Science, or War Studies; 3.0 GPA preferred. Confirm your degree field matches.",
+  "Bachelor's or master's in Military History, National Security, International Relations, Defense Studies, Political Science or War Studies; 3.0 GPA preferred. His M.A. in Global Affairs is closest to International Relations; ask the recruiter whether it counts.",
   "Must pass a CIA background investigation, including polygraph and medical screening, and qualify for a Top Secret/SCI clearance.",
   "Grade (GS-8 to GS-15) depends on education and experience; apply through cia.gov/careers as directed in the posting."
  ],
@@ -27,16 +27,16 @@
  ],
  "strategy": [
   "Apply through the CIA careers site linked in the posting and follow its application instructions; begin early, since the window runs from September 1, 2026 to January 31, 2027 and CIA processing can take a year or more.",
-  "Present the IEM work as analytic and writing experience for government clients. Name the [reports, assessments, briefings] you produced, who used them, and any links to [DoD/DHS/FEMA/National Guard] coordination, without overstating military content.",
-  "Lead with your degree and any coursework or papers on international relations, national security or military history. Include GPA if it is 3.0 or higher.",
-  "Highlight your briefing and public-facing communication strengths, since the duties stress briefing senior policymakers and military leaders.",
+  "Present the IEM work as analytic and writing experience for government clients: exercise notes used for FEMA after-action reports, research for a state agency's training review, and the Rural Health Transformation Program tracking, without overstating military content.",
+  "Lead with the M.A. in Global Affairs (George Mason, 2016) and its coursework (economic globalization, global trade relations, Middle East ethnography). Include GPA if it is 3.0 or higher.",
+  "The duties stress briefing senior policymakers and military leaders. His resume shows no briefing yet, so point to his written products (exercise notes for FEMA after-action reports, meeting minutes, proposals) and be ready to show briefing skill in the interview.",
   "Prepare for a timed writing sample or analytic exercise by practicing short, bottom-line-up-front assessments on foreign military topics.",
   "Stay truthful and consistent in the SF-86 and polygraph. Avoid publicly discussing your application, and limit social media exposure of it."
  ],
  "resume_bullets": [
-  "Researched and drafted [number] [assessments/reports] on [topic, e.g., preparedness gaps] for [government client], delivering clear, concise written analysis to [senior officials].",
-  "Briefed [audience, e.g., state/federal emergency management leaders] on [subject], translating complex data into actionable recommendations for decision-makers.",
-  "Collaborated with a [size] multi-agency team to [develop dataset/plan/tool] supporting [client mission], improving [result to fill in]."
+  "Provided scholarly research that helped a state public health agency's analysts review trauma-incident training recertification.",
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, judging which states were executing well and which were struggling.",
+  "Studied economic globalization, global trade and the Middle East for an M.A. in Global Affairs (George Mason, 2016)."
  ],
  "interview_questions": [
   "Walk us through a complex issue you analyzed and how you reached your bottom-line judgment.",
@@ -45,12 +45,13 @@
   "Tell us about a time you had to write something clear and concise on a tight deadline."
  ],
  "watch_outs": [
-  "The degree field is required, so this may be a non-starter if your degree is outside the listed disciplines.",
+  "The degree field is required; if Global Affairs isn't accepted as International Relations, this is a non-starter.",
   "The clearance process (SCI, polygraph) is lengthy and intrusive, and an offer is conditional on passing it.",
   "The job is in-office in DC with no telework, which means a daily commute from Manassas.",
   "The role is foreign-military focused rather than domestic policy or public-facing, which may suit your people-oriented strengths less than legislative or emergency-management roles would."
  ],
  "job_id": "usajobs:851639900",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

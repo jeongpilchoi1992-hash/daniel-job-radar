@@ -1,7 +1,7 @@
 {
  "one_liner": "A uniformed U.S. Public Health Service officer job overseeing ICE Health Service Corps medical staffing contracts as Program Manager and Contracting Officer's Representative.",
- "fit_rating": "Long shot",
- "fit_summary": "This posting is open only to current commissioned USPHS officers, and Daniel is not one, so Daniel cannot be considered. Even setting that aside, it requires an advanced degree, a USPHS category qualifying degree, COR Level I certification, and federal healthcare contract management experience, none of which are on file.",
+ "fit_rating": "Not eligible",
+ "fit_summary": "Only current commissioned USPHS officers can apply, so Daniel cannot be considered. It also requires a degree that qualifies for a USPHS category, COR Level I certification and federal healthcare contract management, none of which are on his resume.",
  "eligibility": [
   "Only current USPHS commissioned officers may apply; Call to Active Duty (CAD) candidates are excluded, and the 'public' hiring-path label does not override this.",
   "Requires a qualifying degree for the officer's category plus an advanced degree (e.g., MPH, M.A., M.S.) from an accredited institution.",
@@ -33,11 +33,7 @@
   "Consider earning FAC-COR Level I through the free FAI training, which is often open to the public, and look at entry-level acquisition roles (GS-1102) to build toward jobs like this one.",
   "If you ever pursue USPHS commissioning, know that it requires a qualifying health-profession degree; with a policy background, that is likely not a practical route."
  ],
- "resume_bullets": [
-  "Supported [government client] emergency management contracts at IEM by preparing [deliverables/reports] and tracking milestones against the [Statement of Work/PWS] for [X] stakeholders.",
-  "Coordinated meetings between [federal/state/local agency] officials and project teams to resolve [issue type], keeping [project] on schedule and within its [$ budget].",
-  "Analyzed [performance data/metrics] for [program] and recommended process improvements adopted by [client/team]."
- ],
+ "resume_bullets": [],
  "interview_questions": [
   "Describe how you have monitored contractor performance and handled a deficiency.",
   "How would you review an invoice for accuracy against contract terms and the FAR?",
@@ -51,5 +47,6 @@
  ],
  "job_id": "usajobs:887468200",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

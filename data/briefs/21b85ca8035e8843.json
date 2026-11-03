@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Executive at the Pentagon who leads the Defense Department budget for contingency operations, disaster assistance (including FEMA mission assignments), and international security cooperation programs.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a Senior Executive Service job that requires proven senior-level leadership and expertise in military program budgeting, including defending budgets before OMB and congressional committees. Daniel's emergency-management consulting at IEM and strong grasp of U.S. government and policy touch the disaster-assistance and ECQ 1 themes. But nothing on file shows executive leadership, supervision, or federal budget formulation experience, which the TQs and ECQs demand.",
+ "fit_summary": "This SES job requires senior leadership and military program budgeting, including defending budgets before OMB and Congress. Daniel's disaster assistance and policy background touches the theme, but his resume shows no executive leadership or federal budget formulation, so skip it.",
  "eligibility": [
   "Open to the public, including U.S. citizens without federal status, but this is a career SES position: you must show all five ECQs and both TQs within a strict two-page resume.",
   "TQ 1 requires senior-level experience applying budget policy to complex military programs and defending budget solutions before OMB and congressional committees.",
@@ -26,16 +26,12 @@
   "Strategic Thinking"
  ],
  "strategy": [
-  "Be realistic and don't sink major effort here unless your IEM role involved leading budgets or staff at a senior level. GS-11 to GS-14 budget analyst or FEMA program roles are far better entry points.",
-  "If you apply, frame your IEM work around FEMA Public Assistance, mission assignments, cost tracking, or reimbursement only if you actually did that work. Use the posting's exact terms (disaster assistance, reimbursement, interagency).",
-  "Weave ECQ evidence into the two-page resume, since separate narratives are rejected. For each ECQ, give one or two bullets with scope, dollars, and results, and use ECQ 1 to show your knowledge of the Constitution, separation of powers, and the federal budget process.",
-  "Keep the resume to two pages, with month/year dates and hours per week for each job. Anything over two pages is disqualified.",
-  "Submit before 11:59 PM Eastern on 11/06/2026, and save the posting for future reference. The window is only two weeks."
+  "Skip this one: his resume shows no senior budget or staff leadership.",
+  "GS-9 to GS-12 budget analyst or FEMA program roles are far better entry points."
  ],
  "resume_bullets": [
-  "Supported [client agency, e.g., FEMA/state emergency management] disaster recovery program at IEM, tracking [$amount] in [Public Assistance/reimbursement] costs across [number] projects and reporting results to [senior official].",
-  "Analyzed [budget/cost data] using [tool] to identify [issue], recommending changes adopted by [client], which [result, e.g., reduced processing time by X%].",
-  "Briefed [audience, e.g., state officials/legislative staff] on [policy or funding issue], translating complex federal rules into actionable guidance for [number] stakeholders."
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Helped counties update their applications for COVID-19 emergency grants (2020)."
  ],
  "interview_questions": [
   "Describe a time you developed and defended a budget position before OMB, Congress, or senior leadership.",
@@ -46,10 +42,10 @@
  "watch_outs": [
   "SES-level requirements (executive leadership plus military budget defense before OMB and Congress) likely exceed your documented experience.",
   "TS/SCI clearance, FM Level 3 certification, and QRB certification add hurdles and time.",
-  "The two-page resume limit is strictly enforced, and over-length resumes are disqualified.",
-  "The application window runs only 10/23 to 11/06/2026."
+  "The two-page resume limit is strictly enforced, and over-length resumes are disqualified."
  ],
  "job_id": "usajobs:889778300",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

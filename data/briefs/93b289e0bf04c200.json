@@ -1,13 +1,13 @@
 {
  "one_liner": "Senior supervisor running a Defense Department weapons/systems acquisition program office at the Pentagon, managing staff and briefing senior military leaders.",
  "fit_rating": "Long shot",
- "fit_summary": "This NH-4 role requires a year of experience equivalent to GS-13 directing multi-disciplined military, civilian and contractor staff on acquisition programs, plus supervising at least 25% of the time. Daniel's IEM consulting background and policy knowledge are relevant to government work, but nothing on file shows DoD acquisition program management or supervisory experience at that level. Unless Daniel's IEM role involved leading teams on federal contracts, this is likely out of reach now.",
+ "fit_summary": "This NH-4 role requires a year at GS-13 level directing military, civilian and contractor staff on acquisition programs, with supervision at least a quarter of the time. Daniel's resume shows contractor-side proposals and logistics at IEM, not DoD acquisition program management, and his supervision is a five-person intake team, so skip it.",
  "eligibility": [
-  "Open to the public under Direct Hire Authority, so no federal status or veterans' preference is needed; check the 'Learn more about this agency' section for the eligibilities actually being considered.",
+  "Open to the public under Direct Hire Authority, so no federal status or veterans' preference is needed.",
   "One year of specialized experience equivalent to NH-03/GS-13 directing military, civilian and contractor staff, briefing acquisition program status, and advising contractors on requirements and policy.",
   "Must meet the OPM 1101 General Business and Industry basic qualification standard.",
-  "The security clearance is listed as 'Other'; confirm in the full announcement what investigation or clearance applies, since a Pentagon acquisition role likely needs one.",
-  "Supervisory duties of at least 25% of the time; DoD acquisition workforce certification may also be expected, so verify in the full announcement."
+  "The security clearance is listed as 'Other'; a Pentagon acquisition role likely needs an investigation or clearance.",
+  "Supervisory duties of at least 25% of the time; DoD acquisition workforce certification may also be expected."
  ],
  "keywords": [
   "acquisition program",
@@ -27,16 +27,12 @@
   "systems acquisition process"
  ],
  "strategy": [
-  "Before applying, confirm whether your IEM role involved leading people, managing contract deliverables, budgets or schedules, or briefing government clients; if it did not, treat this as a target for later and apply now to GS-9 to GS-12 program analyst or emergency management specialist roles.",
-  "If you did lead teams at IEM, frame that work as program management in support of government-funded efforts: staff you directed, schedules you set, client briefings you gave, and how you coordinated with contracting officers or government COR/PMs.",
-  "Mirror the specialized experience language in your resume using the posting's own words, and state the hours per week and start/end dates (month/year) for each job. Keep it within the two-page USAJOBS limit.",
-  "Answer the questionnaire honestly at the level your resume proves; the posting warns that answers not supported by your documents result in 'not qualified.'",
-  "The window runs from July 30 to November 27, 2026, but direct-hire postings can close early or use cutoffs, so submit early and include any transcripts or certifications."
+  "Skip this one: it requires a year of GS-13-level experience directing staff on DoD acquisition programs, and his IEM work was contractor-side proposals and logistics, not acquisition program management.",
+  "GS-9 to GS-12 program analyst or emergency management specialist roles fit his resume now."
  ],
  "resume_bullets": [
-  "Led a team of [number] [analysts/planners/contractor staff] supporting [government client] on [program name], setting priorities and preparing schedules to deliver [deliverable] within [budget/timeframe].",
-  "Briefed [senior client officials, e.g., state emergency management director/FEMA leadership] on program status, issues, and recommended solutions for [program], resulting in [decision/outcome].",
-  "Coordinated with the government contracting officer/COR on [scope changes/deliverables/budget] for a [$ amount] [contract type], ensuring compliance with [requirements/policy]."
+  "Found federal opportunities in SAM.gov, GovWin and the DHS acquisition forecast, and led proposal writing (2019–2024).",
+  "Served as on-site assistant to project managers at COVID-19 mass care sites (2021–2022)."
  ],
  "interview_questions": [
   "Describe a time you directed a mixed team of government and contractor staff toward a program milestone.",
@@ -46,10 +42,11 @@
  ],
  "watch_outs": [
   "Experience mismatch: this role requires GS-13-level acquisition and supervisory experience, and rating uses cut points with a Best Qualified group, so marginal applicants are unlikely to be referred.",
-  "A clearance or investigation is likely needed and acquisition certification may be expected; verify both before spending significant time on this application.",
+  "A clearance or investigation is likely needed, and acquisition certification may be expected.",
   "No promotion potential beyond NH-4, and occasional travel is listed."
  ],
  "job_id": "usajobs:878580000",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:08-04:00"
+ "generated_at": "2026-10-30T15:08-04:00",
+ "resume_revision": "2026-11-02"
 }

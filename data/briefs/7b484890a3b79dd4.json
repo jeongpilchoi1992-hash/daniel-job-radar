@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior administrative and management services expert for ICE Homeland Security Investigations offices, running office operations, studying program changes, and advising managers.",
  "fit_rating": "Stretch",
- "fit_summary": "The job is open to the public through Direct Hire, and your government-client consulting at IEM and your policy knowledge are relevant. GS-13, though, requires one year of GS-12-equivalent experience covering all three specialized areas: managing office administrative services, evaluating administrative programs for efficiency, and advising managers on complex issues. Unless your IEM role clearly included senior-level work like that, you may not qualify at this grade.",
+ "fit_summary": "The job is open to the public through Direct Hire. GS-13 requires a year of GS-12-level experience in all three areas: managing office administrative services, evaluating administrative programs for efficiency, and advising managers on complex issues. Daniel handled office manager duties at IEM (security, IT triage, travel support, help with onboarding and offboarding) and holds a Lean Six Sigma Yellow Belt, but at a support level rather than GS-12 program management, so GS-13 is a reach.",
  "eligibility": [
   "Open to the public (U.S. citizens) and to federal transition (CTAP/ICTAP) candidates; no federal status is needed, and veterans' preference does not apply under Direct Hire.",
   "You need at least one year of specialized experience at the GS-12 equivalent that includes all three listed areas: managing administrative and management services, evaluating administrative programs and systems, and giving authoritative advice to supervisors and managers.",
@@ -35,9 +35,9 @@
   "Include relevant volunteer or civic work, such as campaign or community roles, since it counts and can strengthen your stakeholder and advising experience."
  ],
  "resume_bullets": [
-  "Managed [administrative/operational functions, e.g., scheduling, procurement tracking, reporting] for a [size]-person [project/office] supporting [government client], working [hours] per week.",
-  "Evaluated [client program/process] and recommended [specific change], which led to [result you can verify].",
-  "Advised [client managers/officials] on [complex or sensitive issue, e.g., disaster recovery policy or compliance], producing [briefings/memos] used for [decision]."
+  "Handled office manager duties at IEM (2019–2024): office security, first-line IT troubleshooting, deliveries and conference supplies, and help with onboarding and offboarding.",
+  "Answered employee travel-expense questions in Certify and booked flights for corporate-level staff.",
+  "Built Excel pivot-table reports on spending and order status for multi-state COVID-19 operations (2021–2022)."
  ],
  "interview_questions": [
   "Tell us about a time you evaluated an administrative process and improved its efficiency.",
@@ -52,5 +52,6 @@
  ],
  "job_id": "usajobs:891013400",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

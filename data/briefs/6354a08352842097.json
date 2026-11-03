@@ -1,7 +1,7 @@
 {
  "one_liner": "A George Mason University staff role recruiting prospective graduate students through outreach, info sessions, events, and applicant follow-up.",
  "fit_rating": "Good",
- "fit_summary": "Daniel's outgoing, relationship-building style and comfort with the public match the core of a recruitment coordinator role, and consulting work for government clients shows professional client-facing experience. The posting has no description, so it's unclear whether GMU wants prior higher-ed admissions or CRM experience, which Daniel may lack. It's also a university staff job rather than a policy or emergency-management role, so Daniel should weigh how well it fits a government career goal.",
+ "fit_summary": "Daniel's recruiting work at the National Language Service Corps (screening resumes, matching volunteers to DoD requests, scripted interviews in 2018), his ease with the public and his own George Mason M.A. fit a graduate recruitment coordinator. The posting has no description, so it's unclear whether GMU wants prior admissions or CRM experience, and it's a university staff job rather than emergency management or policy.",
  "eligibility": [
   "The full posting text isn't available; open the jobs.virginia.gov link or GMU's careers site (jobs.gmu.edu) to confirm the minimum qualifications.",
   "Check whether a bachelor's degree is required, which is typical for university recruitment coordinator roles.",
@@ -34,9 +34,9 @@
   "State-system and university applications don't fall under the federal two-page rule, but keep the resume tight anyway, around 1-2 pages."
  ],
  "resume_bullets": [
-  "Coordinated [number] meetings, workshops, or trainings for [government client type] stakeholders at IEM, managing logistics, invitations, and follow-up communications.",
-  "Built and maintained working relationships with [number] client contacts across [agencies or jurisdictions], serving as a point of contact for [type of requests].",
-  "Tracked [deliverables, contacts, or data] using [tool, e.g., Excel or SharePoint] to keep [project] on schedule."
+  "Contacted and screened translator volunteers for Department of Defense language requests at the National Language Service Corps: vetted resumes, offered assignments to registered volunteers and conducted 10 scripted interviews (2018).",
+  "Answered applicants' questions at a five-person intake center for ReBuild NC after Hurricane Matthew (2019).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, in person and virtually (2022–2024)."
  ],
  "interview_questions": [
   "Why do you want to work in graduate recruitment at George Mason?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "virginia:graduate-recruitment-coordinator-fairfax-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

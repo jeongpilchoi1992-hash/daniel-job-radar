@@ -1,7 +1,7 @@
 {
  "one_liner": "Budget and financial analyst for the Chief of Naval Operations' office, tracking program spending, analyzing variances, and briefing senior Navy leaders on budget execution.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a specialized budget/financial management role, and qualifying at GS-12 requires a year of experience doing budget execution review, internal controls, and funds-use advice at roughly GS-11 level. Daniel's IEM consulting background could count only if the work involved disaster-grant financials, cost tracking, or budget analysis, and nothing on file shows that yet. Daniel's policy knowledge and people skills are real strengths, but they don't substitute for the required financial experience.",
+ "fit_summary": "Qualifying at GS-12 requires a year of GS-11-level budget execution review, internal controls and funds-use advice. Daniel's closest work is spending and order-status reports for vaccination-site purchases at IEM, which is cost tracking rather than budget execution, so he likely won't qualify.",
  "eligibility": [
   "Open to the public under Direct Hire Authority, so no federal status is needed, but this is a flyer only: you must follow its separate 'How to Apply' instructions, and there may be no actual vacancies.",
   "GS-12 requires one year of specialized experience equivalent to GS-11, including execution review and analysis of programs, briefing senior managers on program variances, and helping with internal controls and use of funds.",
@@ -26,17 +26,15 @@
   "operating and support programs"
  ],
  "strategy": [
-  "Before applying, honestly inventory your IEM work for any budget, cost, grant (e.g., FEMA Public Assistance/HMGP), reimbursement, or spend-tracking duties; if there were none, put your effort into better-fitting roles.",
-  "If you did financial work at IEM, describe it in the posting's language: execution review, variance analysis, recommendations to fix variances, and internal controls over use of funds.",
+  "His closest duties are spend tracking (Excel spending and order-status reports for vaccination-site purchases) and county COVID-19 grant applications; that is unlikely to count as budget execution review, so put most effort into better-fitting roles.",
   "State dates, hours per week, and the level of responsibility for each role, and keep it within 2 pages, because HR qualifies you on the resume alone.",
   "Target GS-12 rather than GS-13 unless you have clearly served as a senior budget liaison.",
   "Act quickly: the flyer window runs Oct 28 to Nov 4, 2026, and you must follow the separate How to Apply directions exactly.",
   "As a better-matched alternative, look at GS-0301 emergency management or program analyst roles, FEMA positions, Virginia VDEM jobs, or legislative staff jobs that use your policy and relationship strengths."
  ],
  "resume_bullets": [
-  "Analyzed [budget/grant] execution for [client agency] disaster recovery programs totaling $[amount], identifying [number] variances and recommending corrective actions to [audience].",
-  "Prepared briefings for [senior client officials] on program execution status, cost drivers, and options to [result you can document].",
-  "Supported internal controls for [federal grant/reimbursement] funds by [specific task, e.g., reviewing cost documentation against 2 CFR 200], ensuring [outcome]."
+  "Tracked orders and spending in Excel pivot-table reports for multi-state COVID-19 purchasing (2021–2022).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020)."
  ],
  "interview_questions": [
   "Walk us through how you have tracked budget execution and handled a significant variance.",
@@ -51,5 +49,6 @@
  ],
  "job_id": "usajobs:890396300",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

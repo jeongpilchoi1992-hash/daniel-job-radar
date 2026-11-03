@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Executive Service job leading ACF's entire grants management office: grants policy, oversight of risk and audit resolution, grants systems, and the staff who run them.",
  "fit_rating": "Long shot",
- "fit_summary": "This is an SES role that requires executive-level leadership of a large, complex federal grants portfolio and organization. Daniel's IEM consulting work and policy knowledge are relevant context, especially if it touched FEMA or disaster-recovery grants, but nothing on file shows executive leadership of a grants organization. The Executive Resources Board will likely screen Daniel out unless that IEM role involved senior management of grants programs and staff.",
+ "fit_summary": "This SES role requires executive leadership of a large federal grants portfolio. Daniel's grant experience (county COVID-19 grant applications, FEMA Public Assistance onboarding) is relevant context but far from executive level, so skip it.",
  "eligibility": [
   "Open to the public, so federal status is not required, but this is a Senior Executive Service career appointment.",
   "Your two-page resume must show all five Executive Core Qualifications and all three Technical Qualifications. Separate narratives are not accepted.",
@@ -27,17 +27,12 @@
   "cut wasteful spending"
  ],
  "strategy": [
-  "Before investing time, decide honestly whether your IEM role included supervising staff and owning grants-related outcomes such as FEMA Public Assistance or HMGP administration, compliance, or closeout. If not, treat this as a long shot and target GS-11 to GS-13 grants management specialist or emergency-management program roles instead.",
-  "If you apply, map every bullet to a named TQ or ECQ and use the posting's exact language (risk-based, internal controls, audit resolution, driving efficiency) within the two-page limit.",
-  "Frame the consulting work as delivered outcomes for government clients: the portfolio dollar value, team size led, process improvements, and audit or compliance findings resolved.",
-  "Use your policy and relationship strengths as evidence for TQ 3 and ECQ 1: advising senior officials and representing positions to federal, state, and local stakeholders.",
-  "For each job, list dates, hours per week, and a title that accurately reflects your level.",
-  "Apply between October 20 and November 3, 2026, and do not wait for the final day."
+  "Skip this one: this SES role requires executive leadership of a large federal grants portfolio, and his grant work (county COVID-19 grant applications, FEMA Public Assistance onboarding) is far from that level.",
+  "Target GS-9 to GS-12 grants management specialist or emergency management program roles, where the county grant and FEMA Public Assistance work counts."
  ],
  "resume_bullets": [
-  "Led [number]-person team supporting [client agency]'s administration of $[amount] in [FEMA PA/HMGP/other] grants, applying risk-based reviews that [result] by [metric].",
-  "Advised [title of senior official] on [grants compliance/recovery policy issue], developing corrective actions that resolved [number] audit findings by [date].",
-  "Redesigned [grants process or system] for [client], cutting processing time from [X] to [Y] days and [specific efficiency outcome]."
+  "Helped counties update their applications for COVID-19 emergency grants (2020).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets (2019–2020)."
  ],
  "interview_questions": [
   "Describe how you led a large grants organization through significant change, and how you held people accountable.",
@@ -53,5 +48,6 @@
  ],
  "job_id": "usajobs:889081000",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

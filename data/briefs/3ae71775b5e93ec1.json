@@ -1,7 +1,7 @@
 {
  "one_liner": "Stockroom and inventory job for the Capitol Visitor Center gift shops: counting, ordering, and moving merchandise, packing online orders, and covering the sales floor.",
- "fit_rating": "Long shot",
- "fit_summary": "The posting requires 52 weeks of specialized experience in warehousing, maintaining a stockroom, managing inventory and space allocation, and completing electronic inventory paperwork. Nothing on file shows Daniel has done that work, and consulting on emergency management does not equal it unless the IEM role included real supply, logistics, or property accountability tasks. Daniel's people skills and policy knowledge would help on the customer-service side, but they are not what screeners will qualify on.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The posting asks for 52 weeks of warehouse and stockroom work: managing inventory and space and completing electronic inventory paperwork. Daniel's closest experience is procuring and tracking medical supplies for vaccination sites in six states (2021 to 2022) and building order-status reports, which is inventory tracking from a distance rather than running a stockroom. GS-6 is also well below his level.",
  "eligibility": [
   "Open to the public (hiring path: public); you must be a U.S. citizen, which Daniel is presumed to be.",
   "You need at least 52 weeks of specialized experience equivalent to GS-05: warehousing and maintaining a stockroom, managing inventory including space allocation, and accurately completing electronic inventory paperwork.",
@@ -26,7 +26,7 @@
   "customer service"
  ],
  "strategy": [
-  "First check honestly whether your IEM work, or any earlier retail, warehouse, or event job, included 12 months of hands-on inventory, supply, or stockroom duties; if not, this posting will likely screen you out.",
+  "If he applies, describe the supply tracking in the posting's words (inventory records, receiving, order status, accountability) with month/year dates and hours per week, so HR can count it toward the 52 weeks.",
   "If IEM involved disaster logistics, such as tracking commodities, staging supplies, maintaining equipment or property inventories, or using tracking databases, describe it in the posting's own terms: accountable property, reconcile, requisitions, space allocation.",
   "Use the USAJOBS preview of the questionnaire, and rate yourself 'expert' only where your two-page resume shows specific inventory examples; HR checks your answers against your resume.",
   "Keep the resume to two pages, with dates, hours per week, and title for each job, and put the specialized experience bullets at the top of the relevant job.",
@@ -34,9 +34,9 @@
   "Since your real strengths are policy and public engagement, also watch for AOC/CVC Visitor Services jobs, congressional office jobs, and FEMA or Virginia VDEM emergency management roles, which fit you better."
  ],
  "resume_bullets": [
-  "Tracked and reconciled [number] items of [supplies/equipment/commodities] using [system/spreadsheet], performing [weekly/monthly] counts and correcting discrepancies in electronic records.",
-  "Coordinated requisition and replenishment of [materials] for [project/event/disaster operation], maintaining stock at [levels] and organizing storage space in [location/warehouse].",
-  "Documented overages, shortages, and damaged items in [system], and prepared transfer and accountability records for [number] shipments."
+  "Procured and tracked medical supplies for sites in six states, keeping order-status reports current (2021–2022).",
+  "Handled deliveries and conference supplies as part of office manager duties at IEM (2019–2024).",
+  "Processed hundreds of workers' compensation claims a day at CorVel, completing forms from PDF documentation (2017–2018)."
  ],
  "interview_questions": [
   "Describe a time you found a discrepancy between a physical count and inventory records. How did you resolve it?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "usajobs:891114300",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:52-04:00"
+ "generated_at": "2026-10-30T15:52-04:00",
+ "resume_revision": "2026-11-02"
 }

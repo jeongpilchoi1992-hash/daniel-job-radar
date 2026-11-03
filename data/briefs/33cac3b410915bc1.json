@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior GS-15 analyst in USPTO's CFO office leading financial-management performance studies, data analytics, process governance and briefings for top leadership.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-15 role requires one full year of GS-14-equivalent experience in financial-management decision support, large cross-functional project management, and data analytics briefing senior leaders. Daniel's known strengths are in politics, policy, relationships, and emergency-management consulting at IEM, and nothing on file shows senior-level financial-management or data-analytics work. Unless the IEM role involved leading budget, performance, or analytics work at a very senior level, Daniel likely won't meet the specialized experience bar.",
+ "fit_summary": "This GS-15 role requires a year at GS-14 level in financial-management decision support, large cross-functional projects and analytics briefings for senior leaders. Daniel's analysis work (Excel spending reports, FEMA onboarding data) is at a much smaller scale, so skip it.",
  "eligibility": [
   "Open to the public (U.S. citizens) and the fed-transition path, so no prior federal status is required.",
   "One full year (52 weeks) of specialized experience equivalent to GS-14 in financial-management operational research/decision support, large-project management, and data management/analytics.",
@@ -28,16 +28,12 @@
   "briefings"
  ],
  "strategy": [
-  "Before applying, honestly check your IEM work against each of the three specialized-experience paragraphs. If you can't point to a year of senior-level financial or analytics leadership, apply instead to GS-9 through GS-12 Management and Program Analyst roles, where your background fits better.",
-  "If you do apply, frame your IEM work in financial and performance terms. Examples include grant or disaster-recovery funding analysis, program performance metrics for government clients, and briefings to senior officials, but only if you actually did them.",
-  "Preview the questionnaire (link in the posting) and answer honestly. The posting warns that overstated answers can be rescored or disqualify you, and expert-level claims will be checked against your resume.",
-  "Keep the resume to two pages. For each job, list dates, hours per week, and duties phrased using the posting's specialized-experience language.",
-  "Prepare seriously for USA Hire, since falling below the cut score ends your candidacy. Mark the November 13, 2026 close date and submit several days early."
+  "Skip this one: his resume shows no senior financial or analytics leadership.",
+  "GS-9 to GS-12 management and program analyst roles fit his background better."
  ],
  "resume_bullets": [
-  "Led [number]-person cross-functional team at IEM to [develop/improve] [process or plan] for [government client], applying project management principles to deliver [result] by [date].",
-  "Analyzed [dataset/program funding of $X] using [tools] and briefed [senior client officials] through issue papers and data visualizations, informing decisions on [topic].",
-  "Developed performance measures to evaluate program effectiveness for [disaster recovery/preparedness program], resulting in [outcome]."
+  "Built Excel pivot-table reports on spending and order status for multi-state COVID-19 operations (2021–2022).",
+  "Completed Lean Six Sigma Yellow Belt training."
  ],
  "interview_questions": [
   "Describe a time you used data analysis to change a senior leader's decision on a financial or program issue.",
@@ -48,10 +44,10 @@
  "watch_outs": [
   "The GS-15 specialized-experience bar is very high and education can't substitute, so Daniel is likely not to qualify.",
   "The role is heavily on-site, with only 52 telework hours per year, which means commuting from Manassas to Alexandria.",
-  "USA Hire has a hard cut score, so failing or skipping it ends your consideration.",
-  "The posting is open only from October 30 to November 13, 2026, so you'll have just two weeks to apply."
+  "USA Hire has a hard cut score, so failing or skipping it ends your consideration."
  ],
  "job_id": "usajobs:890986500",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Entry-level Air Force PALACE Acquire intern helping run base prevention programs on suicide, sexual assault, family violence and alcohol misuse, with a path to GS-11.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's people skills, public-facing ease and emergency-management consulting background map well to the relationship-building, planning and readiness parts of this role. The hard parts are the behavioral or social science basic requirement and the one year of GS-5-level specialized experience in client interviewing, needs assessment and counseling, which IEM consulting work may not clearly show. A social science degree, such as political science, could help if it counts as \"related,\" but HR decides that from transcripts.",
+ "fit_summary": "This PALACE Acquire intern role is open to the public, and GS-7 can be met with a year of graduate study, which his M.A. covers. The hard part is the behavioral or social science basic requirement: his M.A. in Global Affairs includes regional ethnography, social movements and human rights, and gender and violence coursework, which may count as related, but HR decides from transcripts. His resume shows public health response rather than prevention programming, and the job may mean relocating to an Air Force base.",
  "eligibility": [
   "Basic requirement: a behavioral or social science degree (or related discipline), or a qualifying combination of education and experience, or four years of experience showing equivalent knowledge.",
   "GS-7 level: 1 year of graduate study, a bachelor's degree with Superior Academic Achievement, or 1 year of specialized experience equivalent to GS-5 (client interviewing, needs assessment, counseling on work/life, crisis or readiness issues).",
@@ -27,17 +27,17 @@
   "suicide prevention"
  ],
  "strategy": [
-  "Frame your IEM work around the preparedness and readiness duties you actually performed, such as needs assessments, stakeholder or community interviews, recovery assistance and planning, and use the posting's own language.",
+  "Frame the IEM work around readiness duties he actually did: public health response for state agencies, exercise facilitation, and the ReBuild NC intake center that helped homeowners navigate recovery applications.",
   "List each job with start and end dates (month/year) and hours per week, and include any volunteer or part-time work involving counseling, crisis support, outreach or helping people navigate services. The posting explicitly credits these.",
-  "Upload transcripts for any degree you hold. If your degree is political science or public policy, show the social and behavioral science coursework you took, such as sociology, psychology or research methods.",
+  "Upload his George Mason transcript and point to the social science courses (regional ethnography, social movements and human rights, gender and violence).",
   "Prepare for HireVue: practice recorded STAR answers and cognitive-style assessments, since the evaluation competencies include Communication, Problem Solving, Planning and Prioritization, and Conscientiousness.",
   "Keep the resume to two pages and lead with your most relevant experience. Answer the questionnaire honestly at the level your resume can prove.",
   "The announcement is open continuously until 2027-09-30, but apply early, because rolling announcements often pull candidates in batches."
  ],
  "resume_bullets": [
-  "Conducted [number] interviews and needs assessments with [government clients/community members] to identify [preparedness/recovery] concerns and recommend [referral options/resources].",
-  "Supported planning and implementation of [preparedness/recovery program] for [client], tracking [data/trends] and drafting [plans/briefings] for [audience] ([hours] hrs/week).",
-  "Built working relationships with [officials/program representatives] across [number] agencies, coordinating [outreach/training events] for [number] participants."
+  "Took part in public health seminars on response and recovery roles (2022–2024) and attended the APHA and National Healthcare Coalition Preparedness conferences (2022).",
+  "Conducted 10 scripted interviews and screened resumes for the National Language Service Corps (2018).",
+  "Supported COVID-19 vaccination and monoclonal antibody sites (2021–2022) and a state health agency's mpox response (2022–2023)."
  ],
  "interview_questions": [
   "Tell us about a time you interviewed someone who was reluctant to admit a problem existed. How did you identify their needs and what referral or next step did you suggest?",
@@ -53,5 +53,6 @@
  ],
  "job_id": "usajobs:886896100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "A George Mason University staff role likely focused on university policy administration and risk management; exact duties are not stated in the posting data provided.",
  "fit_rating": "Good",
- "fit_summary": "Daniel's consulting work at IEM on emergency management and preparedness for government clients aligns with the 'risk' side of the title, and strong public-policy knowledge fits the 'policy' side. The rating is tentative because no job description, qualifications, or salary were available, so confirm duties on the full posting before investing heavily.",
+ "fit_summary": "Daniel's emergency planning, exercise and emergency-forms work at IEM fits the risk side of the title, and his policy research (Rural Health Transformation Program tracking) fits the policy side. The rating is tentative because no job description, qualifications or salary were available.",
  "eligibility": [
   "Open the full posting at jobs.virginia.gov or GMU's jobs site to confirm minimum and preferred qualifications, since none were provided here.",
   "Check for any degree or certification requirement (e.g., risk management credentials such as ARM or CPCU, or a bachelor's degree), which would need flagging.",
@@ -26,7 +26,7 @@
   "business continuity"
  ],
  "strategy": [
-  "Pull the full description first and mirror its exact duty language; the keywords above are inferred from the title and should be replaced with the posting's own terms.",
+  "Pull the full description first and use its duty terms where they are true; the keywords above are inferred from the title and should be replaced with the posting's own terms.",
   "Frame IEM experience around risk identification, preparedness planning, and supporting government clients, using your actual title and duties rather than general firm descriptions.",
   "Emphasize policy skills such as researching, drafting, interpreting, or explaining rules and procedures, and tie your public-policy knowledge to institutional policy work.",
   "Highlight relationship-building with campus-like stakeholders (departments, leadership, outside agencies), since university risk and policy roles depend on cross-office coordination.",
@@ -34,9 +34,9 @@
   "Apply quickly because the closing date is 'open until filled,' and include a short cover letter connecting emergency-management consulting to institutional risk."
  ],
  "resume_bullets": [
-  "Supported [government client type] in [preparedness/recovery/risk assessment] projects at IEM, [specific task you performed] to help clients [outcome or deliverable, e.g., meet FEMA requirements].",
-  "Researched and summarized [policies, regulations, or guidance] for [audience], producing [number/type of deliverables] used to [purpose].",
-  "Coordinated with [number/types of stakeholders] to [plan, train, or respond], maintaining relationships that [result you can verify]."
+  "Brought emergency management best practices into a large travel company's emergency forms and kept minutes at its weekly meetings (Feb – Aug 2024).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, and led a Simulation Cell unit at FEMA full-scale exercises two years in a row (2022–2024).",
+  "Aligned training goals between Emergency Management Institute courses and FEMA field guide training manuals."
  ],
  "interview_questions": [
   "Tell us about your work at IEM and how it relates to managing institutional risk.",
@@ -46,10 +46,11 @@
  ],
  "watch_outs": [
   "No description, salary, or qualifications were available, so the fit and keywords are inferred from the title only.",
-  "The role may require insurance, claims, or enterprise risk experience, or a certification you may not have; check before applying.",
+  "The role may require insurance, claims or enterprise risk experience or a certification; his claims work at CorVel (2017 to 2018) is the closest, and he holds no risk certification.",
   "With no closing date, the posting could close without notice once enough applicants are received."
  ],
  "job_id": "virginia:policy-and-risk-specialist-fairfax-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

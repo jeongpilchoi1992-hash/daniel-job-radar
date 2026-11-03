@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior staffer in a U.S. Senate personal office who advises Senator Cortez Masto on economic issues and drafts or tracks related legislation.",
  "fit_rating": "Stretch",
- "fit_summary": "Your strong grasp of U.S. politics and policy, your relationship-building skills, and your government-facing consulting at IEM all suit a Senate office. However, a $95K-$115K economic policy advisor role usually expects direct Hill experience and economic policy depth, and nothing on file shows either. Disaster recovery funding, FEMA programs, and economic resilience work at IEM could be a bridge if it applies to your actual duties.",
+ "fit_summary": "Daniel's grasp of U.S. politics and policy and his M.A. coursework in economic globalization and global trade suit a Senate office, but a $95K to $115K economic policy advisor role usually expects Hill experience and economic policy depth, which his resume doesn't show. His FEMA program, county COVID-19 grant and Rural Health Transformation Program work could bridge to disaster recovery or rural economic issues if the portfolio includes them.",
  "eligibility": [
   "The posting text is only one line, so open the full listing at the URL and confirm required qualifications, experience level, and application instructions before applying.",
   "Senate offices are not covered by USAJOBS rules: no specialized-experience grade, time-in-grade, or status requirement, and the two-page federal resume rule does not apply. Still keep the resume to one or two pages, as Hill norms prefer.",
@@ -33,9 +33,9 @@
   "Apply promptly, because 'open until filled' Hill postings often close as soon as a strong candidate emerges."
  ],
  "resume_bullets": [
-  "Supported [government client type] on [disaster recovery/preparedness program], analyzing [federal funding streams/policy requirements] to help deliver [outcome or deliverable].",
-  "Prepared [briefing memos/reports/presentations] for [audience, e.g., state and local officials] on [topic], translating complex federal requirements into clear recommendations.",
-  "Built working relationships with [number/type of stakeholders] across [agencies/jurisdictions] to coordinate [project or effort]."
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, identifying which states were executing well and which were struggling.",
+  "Studied economic globalization and global trade relations for an M.A. in Global Affairs (George Mason, 2016).",
+  "Oversaw COVID-19 logistics in Nevada, Texas, Virginia and Florida at the same time (2021–2022), procuring and tracking supplies across six states."
  ],
  "interview_questions": [
   "What economic issues matter most to Nevada right now, and how would you advise the Senator on one of them?",
@@ -50,5 +50,6 @@
  ],
  "job_id": "senate:economic-policy-advisor-washington-district-of-columbia-1268",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

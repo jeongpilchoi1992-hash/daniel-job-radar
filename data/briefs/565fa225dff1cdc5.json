@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior manager running facilities, construction, maintenance budgets, and animal habitat/exhibit projects at the Smithsonian's National Zoo and Conservation Biology Institute.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-15 role requires a year of GS-14-equivalent experience managing facilities, construction, and exhibition projects specifically in a zoo, aquarium, museum, animal-care, or research facility, including animal habitat and animal welfare work. Nothing on file shows Daniel has that background; emergency-management consulting and policy knowledge do not substitute for it. Unless your IEM work involved directly managing construction or capital projects at such facilities, you are unlikely to pass minimum qualifications.",
+ "fit_summary": "This GS-15 role requires a year at GS-14 level managing facilities, construction and exhibition projects in a zoo, museum or research facility, including animal habitat work. Daniel's resume has none of this, so skip it.",
  "eligibility": [
   "Open to the public (U.S. citizens); no federal status required.",
   "One year of specialized experience at the GS-14 level managing facilities, construction, renovation, and exhibition projects in a zoo, aquarium, museum, animal-care, or research facility, including animal habitat or exhibition projects and coordination affecting animal welfare, safety, and environmental systems.",
@@ -26,17 +26,12 @@
   "long-range planning"
  ],
  "strategy": [
-  "Before investing time, honestly check whether any of your IEM work involved managing construction, renovation, or facility projects at a zoo, museum, aquarium, or research facility; if not, skip this posting.",
-  "If you apply anyway, describe actual duties in your own words, because the posting says copying announcement language makes you ineligible.",
-  "Keep the resume to two pages and list dates, hours per week, and title for each job so HR can credit time at the GS-14 level.",
-  "Answer the questionnaire strictly to match your resume; inflated self-ratings will be lowered after comparison with your resume.",
-  "Use this posting as a benchmark and redirect your search to emergency management (e.g., FEMA program specialist, GS-0089/0301 at GS-9 to GS-12), Virginia VDEM, Prince William County OEM, or legislative staff roles that fit your consulting and policy strengths.",
-  "Apply between October 23 and November 6, 2026, and preview the questions on USAJOBS first."
+  "Skip this one: his resume shows no construction, renovation or facility project management.",
+  "Redirect the search to emergency management, such as FEMA program specialist roles (GS-0089 or GS-0301) at GS-9 to GS-12, Virginia VDEM or Prince William County OEM, or to legislative staff roles that fit his consulting and policy strengths."
  ],
  "resume_bullets": [
-  "Managed [describe facility or capital project] for [client/facility type], overseeing a [$ amount] budget and coordinating [number] contractors and staff from design through completion ([hours/week], [dates]).",
-  "Developed [continuity, facility safety, or emergency plan] for [government client], coordinating [stakeholders] to address [life-safety/environmental systems] risks, resulting in [result].",
-  "Supervised or led [number] team members on [project], assigning work and adjusting priorities to meet [deadline or milestone]."
+  "Handled office manager duties at IEM with a focus on office security, deliveries and conference supplies (2019–2024).",
+  "Helped stand up new COVID-19 mass care sites (2021–2022)."
  ],
  "interview_questions": [
   "Describe a capital construction or renovation project you managed from planning through completion, including budget and schedule.",
@@ -47,10 +42,10 @@
  "watch_outs": [
   "Highly specialized qualification requirement (zoo/museum/animal-care facility projects) that Daniel's known background likely does not meet.",
   "GS-15 requires experience equivalent to GS-14, a senior level for someone without documented facilities management leadership.",
-  "Short two-week window (October 23 to November 6, 2026), and copying posting language triggers ineligibility.",
-  "Duties center on construction and facilities rather than the public engagement and policy work Daniel is strongest in."
+  "Duties center on construction and facilities rather than the emergency management and policy work that fits Daniel best."
  ],
  "job_id": "usajobs:890025300",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

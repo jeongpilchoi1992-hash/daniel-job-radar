@@ -1,7 +1,7 @@
 {
  "one_liner": "CIA field officer who runs covert paramilitary and intelligence operations overseas in dangerous environments; built for former special operations or combat aviation veterans.",
- "fit_rating": "Long shot",
- "fit_summary": "This posting has a hard minimum qualification of active-duty service in Special Operations, Combat Arms, or Aviation career fields, and nothing on file shows Daniel has military service. Daniel's emergency-management consulting, policy knowledge, and people skills are real strengths, but they do not substitute for the required military background. Unless Daniel has qualifying service not on file, Daniel should not apply here and should target other CIA or national-security roles instead.",
+ "fit_rating": "Not eligible",
+ "fit_summary": "This posting requires active-duty service in Special Operations, Combat Arms or Aviation, and Daniel's resume shows no military service, so he cannot qualify. CIA analytic or support roles are the better route if the agency interests him.",
  "eligibility": [
   "Required: prior active duty in the U.S. Armed Forces in Special Operations, Combat Arms, or Aviation/aviation-related specialties. This is a minimum qualification, not a preference.",
   "Bachelor's degree from an accredited institution (or within one year of earning one); a 3.0+ GPA is preferred.",
@@ -27,18 +27,11 @@
   "team"
  ],
  "strategy": [
-  "First confirm honestly whether you have any qualifying active-duty service. If you don't, skip this posting, because applications without it will not pass screening.",
-  "Redirect to CIA Directorate of Operations roles with no military requirement, such as Operations Officer or Collection Management Officer, or to analyst roles. Your policy expertise and relationship-building skills fit those far better.",
-  "Also consider FEMA, DHS, and Virginia Department of Emergency Management positions, where IEM consulting experience maps directly onto the specialized experience.",
-  "For any CIA application, apply through cia.gov/careers and start early, because CIA processing and clearance can take a year or more.",
-  "Keep your resume to two pages and frame the IEM work around client-facing government projects, operational planning, and decision-making under time pressure, with dates and hours per week stated.",
-  "Do not post about the application publicly, and keep finances and history clean ahead of the background investigation."
+  "Skip this one: the military service requirement is a hard screen.",
+  "If the CIA interests him, look at its analytic or support roles, or Directorate of Operations roles with no military requirement such as Collection Management Officer, where his policy knowledge fits far better.",
+  "Look at FEMA, DHS and Virginia Department of Emergency Management positions, where his IEM emergency management work fits directly."
  ],
- "resume_bullets": [
-  "Supported [government client type] emergency management and disaster recovery programs at IEM as [title], coordinating [number] stakeholders across [agencies] to [specific outcome].",
-  "Prepared [briefings/plans/reports] on [preparedness or recovery topic] for [audience], translating policy requirements into actionable guidance under [deadline] timelines.",
-  "Built working relationships with [federal/state/local officials], resolving [issue type] and maintaining client satisfaction on [contract/project]."
- ],
+ "resume_bullets": [],
  "interview_questions": [
   "Describe a time you made a critical decision under time pressure with incomplete information.",
   "How have you built trust quickly with someone whose goals differed from yours?",
@@ -53,5 +46,6 @@
  ],
  "job_id": "usajobs:756773100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

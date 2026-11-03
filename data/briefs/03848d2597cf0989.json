@@ -1,7 +1,7 @@
 {
  "one_liner": "Manage Loudoun County's security program within its Office of Emergency Management, Safety and Security, overseeing budget, compliance, records, and stakeholder outreach.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's work at IEM on emergency management and preparedness for government clients is relevant to this office, and Daniel's communication and relationship skills match the stakeholder and community outreach duties. However, the title points to physical or facility security program management, and nothing on file shows direct security, budget, or supervisory experience, so this is a stretch unless Daniel's IEM role touched security, risk, or program management.",
+ "fit_summary": "Daniel's emergency management and preparedness work for government clients is relevant to this office, and he handled office security and helped with onboarding and offboarding at IEM (2019–2024). The title points to physical or facility security program management with budget and supervisory duties, which his resume shows only at a small scale (office security, a five-person intake team), so it stays a stretch.",
  "eligibility": [
   "Local government role: no federal status, veterans' preference, or time-in-grade needed; check the full posting for any citizenship or residency rule.",
   "Read the full posting for minimum education and years of experience, which are cut off in the excerpt; manager-level county jobs often require a bachelor's degree plus several years of related experience.",
@@ -35,9 +35,9 @@
   "Submit well before November 12, 2026. Your Manassas location is a reasonable commute to Leesburg, so mention local familiarity in a cover letter."
  ],
  "resume_bullets": [
-  "Supported [client type, e.g., county/state emergency management agency] on [preparedness/recovery program] at IEM, coordinating with [number/type] of stakeholders to deliver [deliverable] on schedule.",
-  "Tracked [budget/grant amount or task order] and ensured compliance with [FEMA/regulatory requirement or policy], maintaining program records for [audit/reporting purpose].",
-  "Briefed [audience, e.g., officials/community groups] on [program/plan], building relationships that resulted in [outcome you can verify]."
+  "Handled office manager duties at IEM with a focus on office security and deliveries, and assisted with onboarding and offboarding (2019–2024).",
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024)."
  ],
  "interview_questions": [
   "Describe your experience developing or managing a security program, including assessing risks to facilities or staff.",
@@ -53,5 +53,6 @@
  ],
  "job_id": "neogov:loudoun:5534342",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

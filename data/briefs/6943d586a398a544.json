@@ -1,7 +1,7 @@
 {
  "one_liner": "Manage Loudoun County's review of legislative land development applications (rezonings, special exceptions) and coordinate with applicants, stakeholders, and decision-makers.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's policy knowledge, public-facing skills, and IEM government-client consulting fit the stakeholder and legislative-process side of this role. However, it is a professional planning position that likely expects land use planning education or experience, which Daniel's known background does not show. The posting text is brief, so the full qualifications on the county site will decide how big the gap is.",
+ "fit_summary": "Daniel's politics knowledge and his work with county governments at IEM (helping counties update COVID-19 grant applications) fit the legislative-process side of this role. It is a professional planning job that likely expects land use planning education or experience, which his resume doesn't show, so the full qualifications on the county site will decide how big the gap is.",
  "eligibility": [
   "Open to the public (local government): no federal status, clearance, or veterans' preference issue is stated in the posting.",
   "Check the full posting for minimum qualifications; planner roles at this salary often require a degree in planning or a related field plus several years of land use experience.",
@@ -30,9 +30,9 @@
   "If you lack planning credentials, also apply to Planner I/II or planning technician roles in Loudoun, Prince William, or Fairfax as an entry path."
  ],
  "resume_bullets": [
-  "Coordinated [type of project/deliverable] for [government client] with [number] stakeholders, managing review timelines and [outcome].",
-  "Briefed [audience, e.g., county officials or agency staff] on [preparedness/recovery policy topic], translating complex requirements into clear recommendations.",
-  "Managed [number] concurrent [plans/applications/reports] in a fast-paced environment, meeting [deadline or quality standard]."
+  "Helped counties update their applications for COVID-19 emergency grants (2020).",
+  "Led a five-person intake center for ReBuild NC after Hurricane Matthew, answering homeowners' application questions (2019).",
+  "Researched multimillion-dollar opportunities in SAM.gov and GovWin and led proposal writing (2019–2024)."
  ],
  "interview_questions": [
   "Walk us through how you would manage a rezoning application from submission to Board of Supervisors hearing.",
@@ -41,12 +41,13 @@
   "What land use issues do you see facing Loudoun County right now?"
  ],
  "watch_outs": [
-  "You may not meet the minimum qualifications if a planning degree or substantial land use experience is required.",
+  "He may not meet the minimum qualifications if a planning degree or land use experience is required; his degree is in Global Affairs and his resume has no planning work.",
   "The closing date is not stated, so the posting could close without notice.",
   "The role includes leading teams, and the posting does not say whether prior supervisory or planning leadership experience is expected.",
   "The salary range is wide, so a newcomer to planning should expect an offer near the bottom."
  ],
  "job_id": "neogov:loudoun:5484921",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,10 +1,10 @@
 {
  "one_liner": "CIA intelligence analyst who researches foreign governments' politics and stability and writes and briefs assessments for U.S. policymakers.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's strong knowledge of politics and public policy, writing for government clients at IEM, and comfort presenting are relevant, but the role centers on foreign politics and regional expertise, not U.S. domestic policy or emergency management. The posting also lists a bachelor's or master's in International Affairs or Political Science with at least a 3.0 GPA, which Daniel's file does not confirm.",
+ "fit_summary": "Daniel's politics knowledge, research and writing are relevant, and his M.A. in Global Affairs is close to the International Affairs degree the posting lists, with Middle East ethnography and global trade coursework. The role centers on foreign politics and regional expertise, while his work since 2019 has been domestic emergency management and public health, and it needs a 3.0 GPA and a CIA investigation with polygraph.",
  "eligibility": [
   "Open to the public; U.S. citizenship is required, so no federal status is needed.",
-  "Education: bachelor's or master's degree in International Affairs or Political Science with at least a 3.0 GPA on a 4-point scale. Confirm your major and GPA.",
+  "Education: a bachelor's or master's in International Affairs or Political Science with at least a 3.0 GPA. His M.A. in Global Affairs is the closest match; confirm the GPA and ask whether Global Affairs counts as International Affairs.",
   "You must pass CIA's background investigation, including polygraph and medical screening, and obtain a Top Secret-level clearance after the offer even though the listing says clearance is 'Not Required' to apply.",
   "Apply through cia.gov/careers, which the posting points to, not a standard USAJOBS questionnaire. Grade (GS-8 to GS-15) depends on your education and experience."
  ],
@@ -34,9 +34,9 @@
   "Avoid political advocacy in your materials. Present your political knowledge as objective, nonpartisan analysis."
  ],
  "resume_bullets": [
-  "Researched and synthesized [type of data/sources] on [hazard, recovery, or policy issue] for [government client], producing [number] written assessments for [audience, e.g., state emergency management officials].",
-  "Briefed [audience] on [topic], translating complex [policy/risk] information into clear recommendations that informed [decision or plan].",
-  "Collaborated with [number]-person cross-functional team and [agency] stakeholders to deliver [product] under [deadline/constraint]."
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, judging which states were executing well and which were struggling.",
+  "Studied social movements and human rights, the Middle East and economic globalization for an M.A. in Global Affairs (George Mason, 2016).",
+  "Provided scholarly research that helped a state public health agency's analysts review trauma-incident training recertification."
  ],
  "interview_questions": [
   "Walk us through how you would assess the political stability of a foreign country you follow.",
@@ -45,12 +45,13 @@
   "Why intelligence analysis, and why this region or issue?"
  ],
  "watch_outs": [
-  "The degree field (International Affairs or Political Science) and 3.0 GPA may be hard requirements, so verify before investing time.",
+  "The degree field (International Affairs or Political Science) and 3.0 GPA may be hard requirements; ask whether Global Affairs counts and confirm his GPA.",
   "The lengthy security process requires full honesty about drug use, finances, foreign contacts, and online activity.",
   "The job is fully on-site with no telework and has a long commute from Manassas, plus possible foreign travel.",
   "Your domestic-politics strength needs a foreign or international angle to be competitive."
  ],
  "job_id": "usajobs:851633800",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

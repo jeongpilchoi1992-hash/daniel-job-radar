@@ -1,10 +1,10 @@
 {
  "one_liner": "Action officer at HQ Marine Corps (Quantico) managing taskers, correspondence, briefings, records compliance and POM/planning analysis for the Marine and Family Programs Division.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's government-client consulting at IEM, policy knowledge and people skills map well to tasker coordination, briefings and stakeholder communication. However, the posting asks for five years of experience plus comprehensive knowledge of Marine Corps structure, the Marine Corps Planning Process, POM and naval correspondence standards, and nothing on file shows military or DoD background. Those are the gaps Daniel would need to close.",
+ "fit_summary": "Daniel's coordination and meeting-minutes work at IEM (a travel company's weekly meetings, mpox response meetings, on-site support to project managers) maps to tasker coordination and briefings. The posting asks for five years of experience plus knowledge of Marine Corps structure, the Marine Corps Planning Process, POM and naval correspondence, and his resume shows no military service; his closest DoD tie is vetting translator volunteers for DoD language requests at the National Language Service Corps (2018).",
  "eligibility": [
   "Open to the public; this is a nonappropriated fund (NAF) MCCS position, not competitive-service, so no federal status or veterans' preference is needed.",
-  "Five years of experience in the occupation is required; relevant education may substitute. Confirm Daniel's total years and degree.",
+  "Five years of experience in the occupation is required, and relevant education may substitute. He has seven years at IEM (2019 to 2026) plus an M.A.; HR decides how much of that counts as five years in the occupation, so lay out the years clearly. The Marine Corps knowledge is the gap.",
   "No security clearance is required, but expect a background check typical of DoD installation jobs.",
   "On-site at Quantico with no telework. Occasional travel and lifting up to 20 lbs."
  ],
@@ -28,14 +28,14 @@
  "strategy": [
   "Frame your IEM work as action-officer-style support to government clients: tracking deliverables and deadlines, coordinating across agencies, drafting reports and briefings for officials. Describe only duties you actually did.",
   "State dates, hours per week and total years plainly, and show that your experience adds up to five years. Cite education if it helps substitute for experience.",
-  "Emphasize writing and briefing senior officials, records and data handling, and program assessment. Mirror the posting's terms, such as taskers, point papers and coordination.",
+  "Emphasize the writing and records work he has done: minutes for weekly meetings, notes for FEMA after-action reports, and spreadsheets for FEMA Public Assistance onboarding. Use the posting's terms, such as taskers, point papers and coordination, only where they fit.",
   "Address the Marine Corps gap honestly. Note any DoD or military-family client work, and study MCPP, the POM cycle and SECNAV M-5216.5 (naval correspondence) before interviews.",
   "Keep the resume to two pages even though this is a NAF job, and apply before November 12, 2026. Quantico is a short commute from Manassas, which is worth noting as a local candidate."
  ],
  "resume_bullets": [
-  "Coordinated [number] client deliverables/tasks for [federal/state/local agency] emergency management programs, tracking deadlines and follow-up to ensure [on-time/accurate] responses.",
-  "Drafted [reports/briefings/point papers] for [senior officials/agency leadership] on [disaster recovery/preparedness topic], synthesizing input from [number] subject matter experts.",
-  "Analyzed [program/plan/data] against [guidance/model], identifying [resource or compliance issues] and recommending [action]."
+  "Kept minutes at a large travel company's weekly meetings (Feb – Aug 2024) and at a state public health agency's weekly mpox response meetings (Dec 2022 – Mar 2023).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Delivered detailed notes used to write the after-action reports for FEMA full-scale exercises."
  ],
  "interview_questions": [
   "Describe how you would track and route multiple short-suspense taskers across several branches at once.",
@@ -50,5 +50,6 @@
  ],
  "job_id": "usajobs:890894200",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

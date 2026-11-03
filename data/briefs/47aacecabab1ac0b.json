@@ -1,7 +1,7 @@
 {
  "one_liner": "A year-long Air Force 'pointer' posting advertising Direct Hire Authority clerical and office-support jobs; the real vacancies are on the Air Force Civilian Service Direct Hire Job Board.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's consulting work with government clients and strong people skills fit office-support work, and the public hiring path suits someone with no federal status. However, this posting describes no specific duties, grade, location, or qualifications, and GS-1 through GS-9 clerical work may underuse Daniel's policy knowledge and emergency-management background. Treat it as a doorway to find specific Air Force direct-hire openings, not as a target job in itself.",
+ "fit_summary": "This is a pointer to the Air Force Direct Hire Job Board with no duties or grade. Daniel's office manager duties at IEM (office security, travel-expense support, first-line IT troubleshooting, help with onboarding and offboarding) fit office-support work, and the public hiring path suits someone without federal status, but most clerical grades underuse his emergency management and logistics background. Look on the board for GS-7 to GS-9 administrative or program support openings.",
  "eligibility": [
   "Open to the public; no prior federal status is required, and the summary says this posting is for applicants with no prior federal status under Direct Hire Authority.",
   "Security clearance: Not Required per the posting, though individual positions may still need a background investigation.",
@@ -27,13 +27,13 @@
   "Frame your IEM work in administrative terms: coordinating with government clients, preparing documents, tracking deliverables, and supporting meetings, using only duties you actually performed.",
   "Keep the resume to two pages; for each job list start/end dates (month/year), hours per week, and concise bullets mirroring the specific vacancy's wording.",
   "Since this is direct hire, there's typically no category rating or veterans' preference ranking, so meet minimum qualifications clearly and apply early; the posting runs to 2027-03-29, but referrals may happen in batches.",
-  "Aim for the highest grade you can document (likely GS-5 to GS-7 depending on your degree and experience); a bachelor's degree can qualify for GS-5, and superior academic achievement or one year of graduate study may support GS-7.",
+  "Aim for the highest grade he can document: seven years at IEM and an M.A. support GS-7 to GS-9 in administrative series such as 0301 or 0343, while clerical series rarely credit graduate study above GS-5.",
   "In parallel, apply to policy, emergency management (0089), and program analyst roles that better match your background, using this as a backup entry path."
  ],
  "resume_bullets": [
-  "Coordinated [type of documents/deliverables] for [number] government clients at IEM, tracking deadlines and maintaining files in [system/tool], [hours] hours per week.",
-  "Served as point of contact for [stakeholders, e.g., state/local emergency management staff], answering inquiries and scheduling [meetings/trainings] for [number] participants.",
-  "Prepared [reports/briefings/correspondence] on [disaster recovery/preparedness topic] for [audience], ensuring accuracy and timely delivery."
+  "Handled office manager duties at IEM (2019–2024): office security, first-line IT troubleshooting, deliveries and conference supplies, and help with onboarding and offboarding.",
+  "Answered employee travel-expense questions in Certify and booked flights for corporate-level staff.",
+  "Processed hundreds of workers' compensation claims a day at CorVel, completing forms from PDF documentation (2017–2018)."
  ],
  "interview_questions": [
   "Tell us about a time you managed competing deadlines for multiple people or clients.",
@@ -49,5 +49,6 @@
  ],
  "job_id": "usajobs:863258700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

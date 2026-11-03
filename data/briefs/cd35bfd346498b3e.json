@@ -1,10 +1,10 @@
 {
  "one_liner": "A senior management analyst for the National Guard Bureau in Arlington, studying programs, processes and policy and advising leadership on improvements, within a Non-Appropriated Fund (NAF) system.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's policy knowledge and consulting work with government clients fit the duties well: analyzing programs, interpreting laws and regulations, and advising senior staff. However, the posting requires a BA/BS in business, accounting, or finance plus at least 3 years working in a Non-Appropriated Funds operation, and nothing on file shows Daniel has either. Unless both are met, Daniel will likely be screened out.",
+ "fit_summary": "The posting requires a BA/BS in business, accounting or finance plus at least three years in a Non-Appropriated Funds operation. Daniel's graduate degree is in Global Affairs and his resume shows no NAF work, so he would likely be screened out.",
  "eligibility": [
   "Open to the public (no federal status needed), but NAF priority goes first to business-based-action, current/former NAF, and certain veteran applicants.",
-  "Degree requirement: BA/BS in business, accounting, or finance. Confirm Daniel's degree field matches exactly.",
+  "Degree requirement: BA/BS in business, accounting or finance. His M.A. is in Global Affairs; check whether his bachelor's major fits.",
   "Experience requirement: at least 3 years working in a Non-Appropriated Funds operation or organization. IEM consulting work does not count unless it was inside a NAF activity.",
   "No security clearance required; Arlington duty station with telework eligibility, no remote option.",
   "Resume limited to two pages, and references with full contact information are recommended."
@@ -35,9 +35,8 @@
   "Apply between Oct 21 and Nov 23, 2026, and submit transcripts showing your degree major."
  ],
  "resume_bullets": [
-  "Analyzed [client agency]'s [program/process, e.g., disaster recovery grant workflow] and recommended [specific improvement] to senior [client] leadership, resulting in [outcome, if documented].",
-  "Evaluated [public laws/regulations/policies, e.g., Stafford Act provisions] to align [program] procedures with mission requirements for [number] government clients.",
-  "Developed [policy guidance/SOPs/briefings] on [topic] and presented findings and best practices to [audience] at IEM, [hours/week], [dates]."
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Completed Lean Six Sigma Yellow Belt training."
  ],
  "interview_questions": [
   "Describe a time you analyzed an organization's work processes and recommended an improvement leadership adopted.",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:889577500",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior executive deputy running the federal judiciary's congressional relations office: advising leadership, managing attorneys, and working Hill staff, hearings, and legislation.",
- "fit_rating": "Long shot",
- "fit_summary": "This is an executive-level attorney role that requires a J.D., active bar membership, at least 4 years of post-J.D. experience, and a year at the GS-15-equivalent level. Nothing on file shows Daniel has a law degree, bar admission, or senior congressional experience. Daniel's political and policy knowledge and relationship skills fit the work, but they cannot substitute for these hard requirements.",
+ "fit_rating": "Not eligible",
+ "fit_summary": "This executive-level attorney role requires a J.D., active bar membership, at least four years of post-J.D. experience and a year at the GS-15-equivalent level. Daniel's degree is an M.A. in Global Affairs, so he does not meet the legal requirements, however well his politics knowledge fits the work.",
  "eligibility": [
   "Open to the public (hiring paths include public, competitive, excepted, and SES), so no prior federal status is needed.",
   "Mandatory J.D. from an ABA-accredited law school, plus active bar membership in good standing. You must list the school, the bar state(s), and dates on your resume.",
@@ -27,17 +27,10 @@
   "Political Savvy"
  ],
  "strategy": [
-  "Confirm before investing time whether you have a J.D. and active bar membership. If you do not, skip this posting, because applying without them guarantees disqualification.",
-  "If you are not an attorney, target lower-level roles: Hill staff positions (legislative correspondent or assistant), Virginia General Assembly or local legislative liaison jobs, or federal Congressional/Legislative Affairs Specialist postings at GS-9 to GS-12. Look for postings that require no law degree.",
-  "Frame your IEM work around government-client interaction, such as [briefings, policy analysis, stakeholder coordination for state/federal emergency management clients]. That experience feeds future legislative affairs applications.",
-  "If you do qualify, write the MTQ and all five ECQ narratives in CCAR format (Challenge, Context, Action, Result) with specific congressional examples. Keep the resume to two pages, with dates and hours per week.",
-  "The posting is open until 2027-08-12, but applications may be reviewed in batches, so apply early if eligible."
+  "Skip this one: the J.D. and bar membership are absolute requirements.",
+  "Target lower-level roles that require no law degree: Hill staff positions (legislative correspondent or assistant), Virginia General Assembly or local legislative liaison jobs, or federal Congressional or Legislative Affairs Specialist postings at GS-9 to GS-12."
  ],
- "resume_bullets": [
-  "Analyzed [federal/state legislation or policy] affecting [IEM client] and briefed [executive-level audience] on implications, supporting [decision/outcome].",
-  "Coordinated with [number] government stakeholders, including [agency/legislative offices], to [deliver preparedness or recovery project], serving as primary point of contact for [scope].",
-  "Drafted [memos/reports/correspondence] for [client leadership] on [topic], reviewed and adopted for [purpose]."
- ],
+ "resume_bullets": [],
  "interview_questions": [
   "Describe a time you prepared a witness or principal for congressional testimony. What was your process?",
   "How would you build relationships with Judiciary Committee staff on both sides of the aisle?",
@@ -45,12 +38,12 @@
   "How do you supervise and develop attorneys while managing competing congressional deadlines?"
  ],
  "watch_outs": [
-  "The J.D., active bar membership, and 4 years of post-J.D. experience are absolute requirements, and nothing on file shows Daniel meets them.",
+  "The J.D., active bar membership and four years of post-J.D. experience are absolute requirements, and his resume has none of them.",
   "GS-15-equivalent specialized experience and five mandatory ECQ narratives make this a senior executive competition.",
-  "Missing or incomplete narratives or bar details count as an incomplete application.",
   "The commute from Manassas to DC is long; telework is available but the job is not remote."
  ],
  "job_id": "usajobs:877660400",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

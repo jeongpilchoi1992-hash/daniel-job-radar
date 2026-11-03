@@ -1,7 +1,7 @@
 {
  "one_liner": "Back-office federal grants work at CMS: reviewing applications, checking compliance with grant rules, monitoring awards, and advising program staff on grants policy.",
  "fit_rating": "Stretch",
- "fit_summary": "This is a Delegated Examining (public) announcement, so Daniel can apply without federal status. The catch is that qualification hinges on a year of specific grants experience: finding deficiencies in grant applications, researching grant regulations, and monitoring grants or cooperative agreements. Daniel's IEM work may qualify if it involved FEMA or HUD grant programs (for example Public Assistance, Hazard Mitigation, or CDBG-DR), but that is unconfirmed, and Daniel's policy knowledge and people skills alone won't meet the bar.",
+ "fit_summary": "This public announcement lets Daniel apply without federal status. Qualifying hinges on a year of grants work: finding deficiencies in grant applications, researching grant regulations and monitoring grants or cooperative agreements. His closest work is helping counties update their COVID-19 emergency grant applications (2020), which covers application work but not award monitoring, so aim for GS-9 only and expect even that to be a stretch.",
  "eligibility": [
   "Open to the public (U.S. citizens) under Delegated Examining Authority; no federal status, clearance, or veterans' preference needed.",
   "GS-09: one year (52 weeks) of GS-07-equivalent experience covering all three items: identifying deficiencies in grant documentation, researching grants regulations and policies, and monitoring grants or cooperative agreements. A related master's degree can substitute, with transcripts.",
@@ -26,7 +26,7 @@
   "Attention to Detail"
  ],
  "strategy": [
-  "First confirm what you actually did at IEM. If you supported FEMA PA/HMGP, CDBG-DR, or similar federal grant programs, describe that work in grants terms: reviewing applicant project documentation, checking eligibility against 2 CFR 200 or the Stafford Act, tracking subrecipient compliance, and helping applicants fix deficiencies.",
+  "Describe the grant-related work in the posting's terms: helping counties update their COVID-19 emergency grant applications (2020) and supporting FEMA Public Assistance onboarding and data (2019 to 2020). Use compliance terms such as 2 CFR 200 or subrecipient monitoring only if he worked with them.",
   "Apply at GS-09 unless you can document a full year of GS-09-level budget analysis and policy guidance to awardees. Select both grades only if each one is honestly supported.",
   "Keep the resume to two pages, and list month/year dates and hours per week for each job. Write all three GS-09 specialized-experience elements in your own words with concrete examples, because the posting warns that copied text gets an ineligible rating.",
   "Answer the questionnaire honestly at the level your resume backs up. Every 'expert' answer needs a matching resume bullet, or you risk being removed from consideration.",
@@ -34,9 +34,9 @@
   "The window runs to 2027-02-01, but announcements like this can pull candidate lists early, so apply soon after it opens on 2026-07-31."
  ],
  "resume_bullets": [
-  "Reviewed [number] [grant program, e.g., FEMA Public Assistance] applications and project worksheets for [client], identifying documentation deficiencies and working with applicants to resolve them before submission.",
-  "Researched [regulations, e.g., 2 CFR 200 / Stafford Act / program guidance] to determine eligibility and allowable costs, and briefed [audience] on the findings.",
-  "Monitored [number] subrecipient awards totaling [$amount], tracking [milestones/reporting/closeout] and flagging compliance issues to [client program office]."
+  "Helped counties update their applications for COVID-19 emergency grants at the start of the pandemic (2020).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Led a five-person intake center for ReBuild NC after Hurricane Matthew, answering homeowners' questions about recovery program applications (2019)."
  ],
  "interview_questions": [
   "Tell us about a time you found a deficiency in an application or proposal. How did you handle it with the applicant?",
@@ -51,5 +51,6 @@
  ],
  "job_id": "usajobs:878750700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:09-04:00"
+ "generated_at": "2026-10-30T15:09-04:00",
+ "resume_revision": "2026-11-02"
 }

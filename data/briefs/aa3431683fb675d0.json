@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Executive Service director running DOE's National Training Center, which trains DOE/NNSA staff in nuclear security, safety, and protective-force skills (including live-fire ranges).",
  "fit_rating": "Long shot",
- "fit_summary": "This is an SES job requiring proven executive leadership plus specific technical qualifications in managing DOE safety and security training programs and specialized facilities such as live-fire ranges. Nothing on file shows Daniel has senior executive experience, DOE training program management, or infrastructure oversight. Daniel's policy knowledge helps with ECQ 1, but it cannot carry the TQs or the other ECQs.",
+ "fit_summary": "This SES job requires executive leadership plus technical qualifications in managing DOE safety and security training programs and specialized facilities such as live-fire ranges. Daniel aligned EMI course goals with FEMA field manuals and facilitated exercises, but his resume shows no executive or training program management, so skip it.",
  "eligibility": [
   "Open to the public (U.S. citizens or nationals); no federal status is required.",
   "Your 2-page resume must show both TQs: DOE safety/security Training Program Management and Advanced Training Infrastructure Management (live-fire range, integrated training complex, remote training).",
@@ -27,16 +27,12 @@
   "Achieving Results"
  ],
  "strategy": [
-  "Decide honestly whether you have led a training or readiness program with budget and staff authority. If not, skip this posting and target GS-9/11/12 emergency management, preparedness, or training specialist roles at FEMA, DOE, or NoVA localities.",
-  "If you apply, frame your IEM work around any training and exercise design, preparedness curricula, or client program leadership you actually did. Cite standards you used, such as HSEEP, NIMS, or job/task analyses.",
-  "Use posting language for each TQ and ECQ, and put concrete scale on the page: budget dollars, staff led, courses delivered, and participants trained.",
-  "Use your knowledge of the American system of government for ECQ 1, tied to specific work examples rather than general statements.",
-  "Keep the resume to exactly 2 pages with dates and hours per week. Submit between Oct 26 and Nov 9, 2026, ideally a few days before the close."
+  "Skip this one: his resume shows EMI course alignment and exercise facilitation, but no executive leadership or training program management, which this SES role requires.",
+  "GS-9/11/12 emergency management, exercise or training specialist roles at FEMA, DOE or Northern Virginia localities fit his resume."
  ],
  "resume_bullets": [
-  "Led design and delivery of [number] [emergency preparedness/exercise] training courses for [government client], aligned to [HSEEP/NIMS/job analysis], reaching [number] participants.",
-  "Managed [budget amount] and [number]-person team on [IEM project], delivering [specific outcome] on schedule for [agency].",
-  "Built partnerships with [federal/state/local officials] to coordinate [program], resulting in [documented result]."
+  "Aligned training goals between Emergency Management Institute courses and FEMA field guide training manuals.",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024)."
  ],
  "interview_questions": [
   "Describe a time you redesigned a training curriculum based on assessment findings or systemic trends.",
@@ -46,11 +42,11 @@
  ],
  "watch_outs": [
   "SES-level role: without executive and DOE training-infrastructure experience, you are very unlikely to be rated Highly Qualified.",
-  "Requires a Q clearance, plus a drug test and OGE-278 financial disclosure.",
-  "Anything beyond page 2 of the resume is ignored and may disqualify you.",
+  "Requires a Q clearance, and a drug test and OGE-278 financial disclosure may also apply.",
   "The location is listed only as multiple locations, though the NTC is based in Albuquerque, NM, so relocation from Manassas may be required."
  ],
  "job_id": "usajobs:890202400",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

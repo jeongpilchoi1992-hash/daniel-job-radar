@@ -1,7 +1,7 @@
 {
  "one_liner": "A part-time role at George Mason University helping run hiring searches: posting jobs, screening applicants, scheduling interviews and coordinating with search committees.",
  "fit_rating": "Good",
- "fit_summary": "Daniel's outgoing, relationship-building style and comfort with the public suit a recruiting and coordination role, and consulting work at IEM likely involved client coordination and deadlines. The posting has no description, so the fit can't be judged against stated qualifications, and a part-time university HR role is only loosely tied to Daniel's policy interests.",
+ "fit_summary": "Daniel's recruiting work at the National Language Service Corps (screening resumes, matching candidates to requests, scripted interviews) and his help with onboarding and offboarding at IEM fit a recruiting coordinator role well. The posting has no description, and a part-time university HR job is only a small step toward his goal of a government career.",
  "eligibility": [
   "Open to the public as a Virginia state (university) position; no federal status, clearance or veterans' preference is indicated, but confirm on the full posting.",
   "No education, license or experience requirements are listed here, so read the full posting on jobs.virginia.gov or GMU's careers site before applying.",
@@ -23,7 +23,7 @@
   "communication"
  ],
  "strategy": [
-  "Pull the full position description (GMU often posts it at jobs.gmu.edu) before writing anything, and mirror its exact duty and qualification language, because the summary here has no description.",
+  "Pull the full position description (GMU often posts it at jobs.gmu.edu) before writing anything, and use its duty and qualification terms where they are true, because the summary here has no description.",
   "Describe your IEM experience by the coordination tasks you actually did, such as scheduling, stakeholder outreach, managing deadlines or supporting government clients, and use recruiting-adjacent wording like 'coordinated' and 'communicated with stakeholders.'",
   "Lead with your people skills: building relationships, representing an organization to the public, and keeping several parties informed during a process.",
   "Write a brief cover letter explaining why you want this role. Present it as an entry point into Virginia public-sector work and campus engagement, and note that you live nearby in Manassas.",
@@ -31,9 +31,9 @@
   "Use Virginia state resume norms rather than the federal two-page format, though a concise one-to-two-page resume still works well."
  ],
  "resume_bullets": [
-  "Coordinated [type of project/deliverable] for [government client type] at IEM, managing schedules and communications among [number] stakeholders to meet [deadline/milestone].",
-  "Served as point of contact for [clients/partners/public], responding to [volume] inquiries and maintaining relationships that supported [outcome you can verify].",
-  "Tracked [documents/tasks/applicants] using [tool, e.g., Excel/SharePoint], keeping records accurate and confidential for [team/process]."
+  "Screened resumes, matched registered volunteers to Department of Defense language requests and conducted 10 scripted interviews for the National Language Service Corps (2018).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets (2019–2020) and assisted with employee onboarding and offboarding at IEM (2019–2024).",
+  "Booked flights for corporate-level staff and answered travel-expense questions in Certify."
  ],
  "interview_questions": [
   "How would you manage several faculty or staff searches at once with competing deadlines?",
@@ -48,5 +48,6 @@
  ],
  "job_id": "virginia:part-time-recruiter-search-coordinator-fairfax-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

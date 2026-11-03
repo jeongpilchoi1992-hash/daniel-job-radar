@@ -1,7 +1,7 @@
 {
  "one_liner": "Analyst supporting Fairfax County's Ready Region Capital Area early childhood initiative: quality assurance, data management, research and policy development for Virginia's unified early childhood system.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's policy knowledge, government-client consulting at IEM, and relationship skills fit the analytic, policy and partner-facing parts of this role. The posting is aimed at early childhood professionals, and Daniel has no known early childhood, school readiness or quality assurance background, so this is a stretch unless the IEM work involved data analysis, program monitoring or human services.",
+ "fit_summary": "Daniel's reporting work at IEM (Excel pivot-table reports on spending and order status, data analysis on FEMA Public Assistance onboarding) and his work with government clients fit the analytic and partner-facing parts of this role. The posting is aimed at early childhood professionals, and his resume has no early childhood, school readiness or quality-assurance monitoring work, so it stays a stretch.",
  "eligibility": [
   "Open to the public as a Fairfax County local government job; no federal status or clearance is mentioned in the excerpt, but confirm the full posting's minimum qualifications (education and years of experience) for Management Analyst II.",
   "Check the full posting for any required degree field or early childhood experience, since the excerpt targets 'early childhood professional[s]'.",
@@ -23,7 +23,7 @@
   "operations"
  ],
  "strategy": [
-  "Read the full posting's minimum qualifications and preferred qualifications before applying, because the excerpt cuts off. Mirror those exact phrases in your application.",
+  "Read the full posting's minimum qualifications and preferred qualifications before applying, because the excerpt cuts off. Use those terms in the application where they are true.",
   "Frame IEM work as program and policy analysis for government clients. Use whatever you actually did, such as data collection, compliance or quality reviews, reports, and stakeholder coordination, and name the client types (state or local agencies).",
   "Show genuine interest in early childhood policy. Briefly learn Virginia's Unified Early Childhood System, Ready Regions and VQB5 quality measurement, and reference them accurately in your supplemental answers.",
   "Answer every supplemental question fully with concrete examples, because county HR often screens on those responses. Don't write 'see resume'.",
@@ -31,9 +31,9 @@
   "Submit well before the November 12, 2026 close, and keep in mind that Manassas to Fairfax is a manageable commute."
  ],
  "resume_bullets": [
-  "Analyzed [type of data, e.g., program or recovery data] for [number/type] government clients at IEM, producing [reports/dashboards] used to [decision or outcome you can verify].",
-  "Conducted quality assurance reviews of [deliverables/program documentation] against [federal/state requirements], identifying [issues] and recommending corrective actions adopted by [client].",
-  "Coordinated with [number] state and local stakeholders to [plan/implement/assess] [program or initiative], facilitating [meetings/trainings] and tracking progress toward [goals]."
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, identifying which states were executing well and which were struggling.",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Built Excel pivot-table reports on spending and order status for multi-state COVID-19 operations (2021–2022)."
  ],
  "interview_questions": [
   "Why are you interested in early childhood and school readiness, given your emergency management background?",
@@ -48,5 +48,6 @@
  ],
  "job_id": "neogov:fairfaxcounty:5521309",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Team lead for the Capitol Police vehicle fleet: parts warehouses, inventory, EZ Pass/tags/keys/accident programs, Power BI reporting, budget tracking, and training fleet staff.",
- "fit_rating": "Long shot",
- "fit_summary": "The posting requires 52 weeks of specialized experience at the CP-7/GS-9 level in fleet operations, warehouse inventory control, fleet records and expenditure reconciliation, and training fleet personnel, with no education substitution. Daniel's known background is emergency-management consulting at IEM, policy knowledge, and people skills, none of which shows hands-on fleet or warehouse work. Unless Daniel's IEM role directly involved fleet, logistics, or inventory management, Daniel is unlikely to pass minimum qualifications.",
+ "fit_rating": "Stretch",
+ "fit_summary": "The posting asks for a year at CP-7/GS-9 level in fleet operations, warehouse inventory control, fleet records and expenditure reconciliation, and training fleet staff. Daniel's COVID-19 logistics work covers supply tracking, pivot-table expenditure reports and truck rental vendors, but not running a vehicle fleet or training fleet staff, so it depends on how much of that he can document.",
  "eligibility": [
   "Open to the public; U.S. citizenship required, so no federal status is needed.",
   "Must show at least 52 weeks of specialized experience equivalent to CP-7/GS-9 covering all four areas: fleet operations analysis, fleet and inventory transactions and reconciliation, warehouse inventory control, and mentoring fleet personnel.",
@@ -27,17 +27,17 @@
   "mentoring and/or training"
  ],
  "strategy": [
-  "Before applying, honestly check whether your IEM work included fleet, vehicle, equipment, warehouse, or supply logistics, such as disaster-response asset tracking. If it did not, consider skipping this posting rather than overstating experience.",
-  "If you have relevant logistics work, describe each of the four specialized-experience elements explicitly in your two-page resume, with dates, hours per week, and the systems you used.",
+  "Write the four specialized-experience elements into the resume only where they're true: the six-state supply and inventory tracking, the pivot-table expenditure reports and the truck rental vendor relationships fit; reconciliation, fleet management and staff training count only if he did them.",
+  "Describe each element explicitly with dates, hours per week and the systems he used (such as Excel pivot tables).",
   "Answer the assessment questionnaire truthfully. Only claim 'expert' levels you can back up with a specific resume line, because USCP checks the questionnaire against your resume.",
   "Address the KSAs in the narrative responses as the posting instructs, using concrete examples tied to fleet, inventory, budget tracking, and team training.",
   "Apply well before the extended November 5, 2026 deadline, and save copies of all uploaded documents.",
   "For a better match to Daniel's policy and people strengths, also search USCP and Legislative Branch postings for community outreach, legislative liaison, and emergency-preparedness program roles."
  ],
  "resume_bullets": [
-  "Tracked and reconciled [number/type] of [vehicles/equipment/supplies] valued at [$ amount] in [system name] for [client/project], updating records and resolving discrepancies [frequency].",
-  "Analyzed [logistics/fleet/supply] workflow issues for [client] and recommended [specific change], resulting in [actual result, if known].",
-  "Trained and mentored [number] [staff/team members] on [inventory/operational] procedures for [program/deployment] at IEM."
+  "Procured and tracked medical supplies for sites in six states, and set up truck rental and other vendor relationships (2021–2022).",
+  "Built Excel pivot-table reports on spending and order status for the logistics team.",
+  "Handled deliveries, conference supplies and office security at IEM (2019–2024)."
  ],
  "interview_questions": [
   "Describe a time you managed inventory across multiple storage locations. How did you keep records accurate?",
@@ -53,5 +53,6 @@
  ],
  "job_id": "usajobs:889713100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:09-04:00"
+ "generated_at": "2026-10-30T15:09-04:00",
+ "resume_revision": "2026-11-02"
 }

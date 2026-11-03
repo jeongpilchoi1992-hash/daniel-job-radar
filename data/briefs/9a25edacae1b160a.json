@@ -1,13 +1,13 @@
 {
  "one_liner": "Senior DoD IT program manager at DMDC who runs multi-year IT programs and writes IT policy, strategic plans and investment/performance management guidance.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's policy knowledge, people skills and emergency-management consulting background are real assets, but this GS-13 2210 role requires a year of GS-12-level IT program management experience, including IT investment/portfolio management and use of specific DoD systems. Unless Daniel's IEM work was substantially IT program or IT policy work, Daniel likely won't meet the minimum qualifications, and education can't substitute.",
+ "fit_summary": "This GS-13 2210 role requires a year of GS-12-level IT program management, including IT investment and portfolio management and specific DoD systems. Daniel's IT work is first-line troubleshooting at IEM, so he won't meet the minimum qualifications, and education can't substitute.",
  "eligibility": [
   "Open to the public and military spouses under DoD Direct Hire Authority, so no federal status or veterans' preference is needed, and there is no rating-and-ranking.",
   "You need one year of specialized experience equivalent to GS-12 covering IT laws and policy, IT life-cycle, investment and performance management, program controls, and DoD systems (Integrated Business Framework, DITPR, Data Center Inventory Management).",
   "You must meet the 2210 Individual Occupational Requirement: IT-related experience showing Attention to Detail, Customer Service, Oral Communication and Problem Solving.",
   "The position requires a Secret security clearance, and education cannot substitute for experience at GS-13.",
-  "Location is listed as multiple locations, with telework allowed but not remote work. Confirm a site near Manassas (likely the Mark Center area) before applying."
+  "Location is listed as multiple locations, with telework allowed but not remote work."
  ],
  "keywords": [
   "IT life-cycle management",
@@ -27,17 +27,12 @@
   "DoD Information Technology Portfolio Repository"
  ],
  "strategy": [
-  "Before applying, check honestly whether your IEM work included IT program, system or data-platform management for at least a year at a senior level. If not, target 0301 or 0343 policy and emergency-management roles instead.",
-  "If you did manage IT-related work at IEM, such as grant or recovery management systems, data dashboards or software rollouts for government clients, frame that experience in the posting's terms: requirements, roadmap, project controls, investment and performance management.",
-  "Within the two-page limit, give each IEM entry start/end dates (month/year), hours per week, and three or four bullets that use the posting's language verbatim.",
-  "Show each of the four 2210 competencies with an IT-related example, for instance a client briefing on system status for Oral Communication.",
-  "State any experience with federal IT policy (FITARA, OMB A-130, CPIC) only if you actually have it; do not claim DoD system experience you lack.",
-  "The posting is open until November 15, 2026, but direct hire often fills early, so apply promptly."
+  "Skip this one: it requires a year of GS-12-level IT program management, including IT investment and portfolio management, and his IT work is first-line troubleshooting at IEM.",
+  "GS-0301 or GS-0343 program and emergency management roles fit his resume."
  ],
  "resume_bullets": [
-  "Managed [IT system/platform] for [government client] over [duration], gathering and prioritizing requirements from [number] stakeholders and maintaining the program roadmap and project controls.",
-  "Developed time-phased action plans and delivered status reports and briefings to [client leadership level] on [IT program], tracking cost, schedule and performance against [metrics].",
-  "Drafted [policy/guidance/SOP] governing [IT or data activity] for [client], aligning with [applicable federal regulation]."
+  "Handled first-line IT troubleshooting with IT support at IEM (2019–2024).",
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "Describe a multi-year IT program you led from requirements through execution. How did you control scope, schedule and cost?",
@@ -48,10 +43,10 @@
  "watch_outs": [
   "The specialized experience is highly IT- and DoD-specific; without it, your application will likely be screened out at minimum qualifications.",
   "You must be able to obtain and keep a Secret clearance.",
-  "Promotion potential is None, and remote work is not allowed, so you'd commute partly from Manassas.",
-  "Direct hire announcements can close or fill early despite the listed closing date."
+  "There is no promotion potential, and remote work is not allowed, so he would need to work on site at least part of the time."
  ],
  "job_id": "usajobs:868121200",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

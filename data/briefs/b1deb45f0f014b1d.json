@@ -1,7 +1,7 @@
 {
  "one_liner": "Not a real single job: an Air Force placeholder announcement pointing applicants to its Direct Hire Job Board for information and arts occupations (e.g., public affairs, writing).",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's policy knowledge, public-facing strengths, and IEM emergency-management consulting could suit Air Force information and arts roles such as public affairs or communications. However, this posting has no duties, qualifications, or location, so fit can only be judged against the specific Direct Hire Job Board listing Daniel applies to. Treat it as a gateway, not a target.",
+ "fit_summary": "This is a pointer to the Air Force Direct Hire Job Board with no duties, qualifications or location. Daniel's writing (proposals, meeting minutes, client documents) could suit public affairs or communications roles listed there, but fit depends on the specific opening.",
  "eligibility": [
   "Open to the public; the posting describes direct hire as a path for applicants with no prior federal status, so Daniel qualifies on that point.",
   "Security clearance listed as Not Required here, but individual direct-hire jobs may require one; check each listing.",
@@ -26,9 +26,9 @@
   "The window runs to 2027-03-29, but individual direct-hire jobs fill fast; check the board regularly and set a USAJOBS saved search."
  ],
  "resume_bullets": [
-  "Drafted [type of products, e.g., briefings, plans, public messaging] for [number] [federal/state/local] government clients on [emergency preparedness/disaster recovery] programs at IEM, [hours] hrs/week, [MM/YYYY-MM/YYYY].",
-  "Coordinated with [stakeholders, e.g., agency officials, community partners] to [specific task], resulting in [result you can verify].",
-  "Researched and summarized [policy/regulation topic] for [audience], translating complex requirements into [deliverable] used by [user]."
+  "Led proposal writing for multimillion-dollar government bids (2019–2024).",
+  "Took minutes at a large travel company's weekly meetings (2024) and at a state public health agency's mpox response meetings (2022–2023).",
+  "Delivered detailed notes used to write after-action reports for FEMA full-scale exercises."
  ],
  "interview_questions": [
   "Tell us about a time you communicated complex information to a nontechnical or public audience.",
@@ -44,5 +44,6 @@
  ],
  "job_id": "usajobs:863071800",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

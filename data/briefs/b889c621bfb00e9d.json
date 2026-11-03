@@ -1,7 +1,7 @@
 {
  "one_liner": "Collect, check and summarize company questionnaire and import data for USITC trade-injury investigations, working with economists, attorneys and auditors in DC.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's people skills, policy knowledge and government-client consulting at IEM match the posting's emphasis on interpersonal skills and dealing with officials and counsel. However, GS-11 requires one year of GS-9-level specialized experience in trade, economic or financial data studies, or a Ph.D./3 years of graduate study in a related field, and nothing on file shows trade data or trade-remedy law work. Apply only if your IEM role involved substantial survey design, quantitative analysis and briefing on findings.",
+ "fit_summary": "GS-11 requires a year of GS-9-level experience in trade, economic or financial data studies, or a Ph.D. or three years of graduate study. Daniel's M.A. coursework in global trade relations and economic globalization is relevant, but one master's doesn't meet the GS-11 education substitute, and his resume shows no trade data work.",
  "eligibility": [
   "Open to the public (hiring paths include public, vets and fed-transition), so no federal status is needed.",
   "Basic requirement: related graduate and undergraduate education (economics, business, international trade/relations, etc.), OR experience showing knowledge of goods production in trade, trade competitiveness factors, trade data methods, and U.S. trade laws.",
@@ -27,17 +27,12 @@
   "team environment"
  ],
  "strategy": [
-  "Before applying, confirm honestly whether your IEM work includes 12 months of data studies, surveys, analysis and briefings. If it does not, skip this posting or target GS-7/GS-9 trade, program or policy analyst roles instead.",
-  "Frame IEM work in analytic terms if accurate: for example, designing data calls or surveys for government clients, compiling and validating data, analyzing it in Excel, and briefing client managers on findings.",
-  "Within the two-page limit, list title, dates, hours per week, and 4-5 bullets that mirror the four specialized-experience elements word for word where truthful.",
-  "On the questionnaire, rate yourself only at levels your resume supports, since inflated answers can lead to adjustment or exclusion. Block time for the USA Hire assessment, which is required.",
-  "If relevant, include your transcripts to show any economics, international relations or business coursework. Apply well before November 9, 2026; the window is only about 11 days.",
-  "Prepare a short writing sample on a trade or policy topic, because the hiring manager may request a writing assessment."
+  "Skip this one: GS-11 requires a year of GS-9-level trade or economic data work or three years of graduate study, and he has one master's and no trade data work.",
+  "Watch for a GS-9 version of this role, where his master's may qualify on education, and look at GS-7/9 program or management analyst roles."
  ],
  "resume_bullets": [
-  "Designed and distributed [number] data-collection questionnaires to [type of stakeholders] for [client/project], then followed up with respondents to resolve incomplete or inconsistent responses.",
-  "Compiled and analyzed [type of data] from primary and secondary sources using [Excel/tool], producing [report/dashboard] that summarized findings for [client agency] leadership.",
-  "Briefed [audience, e.g., client program managers] on study findings and recommendations as a member of a [size]-person research team, [result if known]."
+  "Studied global trade relations and economic globalization for an M.A. in Global Affairs (George Mason, 2016).",
+  "Processed hundreds of workers' compensation claims a day at CorVel, completing forms from PDF documentation (2017–2018)."
  ],
  "interview_questions": [
   "Tell us about a time you collected data from outside parties who were slow or reluctant to respond. How did you get complete, accurate information?",
@@ -47,11 +42,11 @@
  ],
  "watch_outs": [
   "The GS-11 qualification bar is high. Without demonstrable trade or economic data experience or a related Ph.D./graduate education, you will likely be rated ineligible.",
-  "Knowledge of U.S. trade laws and microeconomic concepts is a rated competency, and the policy knowledge on file is not specifically trade-focused.",
-  "A Secret clearance is required. The position is in-office in DC with telework, which means a Manassas commute on non-telework days.",
-  "The application window is short (October 29 to November 9, 2026) and requires the separate USA Hire assessment."
+  "Knowledge of U.S. trade laws and microeconomic concepts is a rated competency; his policy work is in public health, though his M.A. included global trade coursework.",
+  "A Secret clearance is required. The position is in-office in DC with telework, which means a Manassas commute on non-telework days."
  ],
  "job_id": "usajobs:890864100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

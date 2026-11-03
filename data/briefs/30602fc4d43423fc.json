@@ -1,9 +1,9 @@
 {
  "one_liner": "Senior supervisor at DFC leading a team that screens overseas investment projects for environmental and social risks, setting policy and briefing leadership and outside stakeholders.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-15 role requires one year of GS-14-equivalent experience overseeing environmental and social (E&S) risk management across many projects, building E&S policy, and supervising a team. Daniel's emergency-management consulting at IEM and policy and people skills help with stakeholder engagement, but nothing on file shows E&S due diligence or supervisory experience at that level. Unless Daniel's IEM work involved leading environmental or social risk reviews and managing staff, this is unlikely to clear the qualifications screen.",
+ "fit_summary": "This GS-15 role requires a year at GS-14 level overseeing environmental and social risk across many projects, building E&S policy and supervising a team. Daniel's M.A. in Global Affairs touches development (economic globalization, human rights), but his resume shows no E&S due diligence or supervision at that level, so skip it.",
  "eligibility": [
-  "Open to the public (U.S. citizens); a parallel Merit Promotion announcement (27-ODP-ST-13098029-BN) exists for status candidates, but Daniel without federal status should use this public one.",
+  "Open to the public (U.S. citizens); a parallel Merit Promotion announcement (27-ODP-ST-13098029-BN) exists for status candidates, while this public one covers applicants without federal status, like Daniel.",
   "One year of specialized experience equivalent to GS-14 covering ALL four areas: overseeing E&S risk management across a wide range of projects, briefing leadership or external stakeholders on E&S analysis, collaborating on E&S policies and methodologies, and supervising a team.",
   "Education cannot substitute at GS-15; experience alone counts, though volunteer experience is credited.",
   "Secret security clearance required (obtainable after selection, but expect a background investigation).",
@@ -27,16 +27,12 @@
   "Decisiveness"
  ],
  "strategy": [
-  "Before applying, honestly check whether your IEM work covered all four specialized-experience elements; if it lacks E&S risk oversight or supervision, consider lower-graded emergency management, FEMA, or policy roles instead.",
-  "If you did assess project risks, such as hazard mitigation, environmental and historic preservation (EHP) reviews, or social and community impacts in disaster recovery, describe that work using the posting's E&S language. Only claim it if it is accurate.",
-  "Address each of the four required elements explicitly within your two-page resume. List start and end dates (month/year) and hours per week for each job, and state any team size you supervised.",
-  "Preview the questionnaire at apply.usastaffing.gov/ViewQuestionnaire/13098028 and answer conservatively. Every 'expert' rating must be backed by your resume, because overstating can get you removed.",
-  "The window is only October 28 to November 5, 2026, so prepare your resume in advance and submit several days early."
+  "Skip this one: it needs a year at GS-14 level overseeing environmental and social risk across many projects and supervising a team, and his resume shows neither at that level.",
+  "GS-9 to GS-11 international program roles use his global affairs degree at a realistic level."
  ],
  "resume_bullets": [
-  "Supervised a team of [number] [titles] reviewing [number] [type of projects] for [environmental/social/hazard] risks, ensuring compliance with [specific standards, e.g., FEMA EHP, NEPA, IFC Performance Standards].",
-  "Briefed [client agency leadership/external stakeholders] on [risk assessment findings/policy recommendations] for [program], leading to [actual decision or outcome].",
-  "Collaborated with [teams/agencies] to develop and disseminate [new/revised procedure or methodology] for [risk management process], adopted by [who/how many users]."
+  "Studied economic globalization and development, global trade and foreign investment for an M.A. in Global Affairs (George Mason, 2016).",
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "Describe how you led a team through a complex risk assessment of a project with significant environmental or social concerns.",
@@ -45,11 +41,12 @@
   "How do you hold team members accountable while supporting their professional development?"
  ],
  "watch_outs": [
-  "The required specialized experience is narrow and highly technical (E&S due diligence at a GS-15 level), and Daniel's known background does not clearly match it.",
-  "Supervisory experience is mandatory; without documented people-management experience you will not qualify.",
-  "Requires a Secret clearance. The application window is short (closes Nov 5, 2026), and the role is in-office in DC with telework, so expect a commute from Manassas."
+  "The required specialized experience is narrow and highly technical (E&S due diligence at the GS-14 level), and Daniel's known background does not clearly match it.",
+  "Supervisory experience at the GS-14 level is mandatory, and his only documented supervision is a five-person intake center in 2019.",
+  "Requires a Secret clearance, and the role is in-office in DC with telework."
  ],
  "job_id": "usajobs:890421500",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

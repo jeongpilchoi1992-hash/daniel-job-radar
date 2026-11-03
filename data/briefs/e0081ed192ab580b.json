@@ -1,7 +1,7 @@
 {
  "one_liner": "A senior supervisory health-administration role at ICE's Health Service Corps, overseeing detention health operations, accreditation compliance and contracts, filled only by commissioned USPHS officers.",
- "fit_rating": "Long shot",
- "fit_summary": "This billet is open only to current U.S. Public Health Service commissioned officers at the O-6 level, and Call to Active Duty candidates are excluded, so Daniel is not eligible as a civilian. It also requires five years each of leadership, program management and personnel management as a uniformed service officer, plus correctional health experience. Daniel's emergency-management consulting background touches on the COOP and emergency response duties, but it cannot overcome the eligibility barrier.",
+ "fit_rating": "Not eligible",
+ "fit_summary": "This billet is open only to current U.S. Public Health Service commissioned officers at the O-6 level, and Call to Active Duty candidates are excluded, so Daniel is not eligible as a civilian. It also requires years of uniformed leadership and correctional health experience.",
  "eligibility": [
   "Only current USPHS commissioned officers may apply; USPHS Call to Active Duty candidates are not eligible, and civilians cannot apply despite the 'public' hiring path tag.",
   "The billet is O-6 (CC-6), and it requires five years each of leadership, program/services management and personnel management experience as a uniformed service officer.",
@@ -33,11 +33,7 @@
   "Describe your IEM work in terms of client agencies supported, preparedness or recovery deliverables, and hours per week, filling in only facts you can verify.",
   "Consider earning a FAC-COR Level I certification and completing FEMA IS-100/200/700/800 courses. Both are low-cost credentials that match the keywords in this posting."
  ],
- "resume_bullets": [
-  "Supported [client agency] [preparedness/recovery] program at IEM, coordinating [number] stakeholders and preparing [Sit Reps/status reports] for [audience]; [hours] hrs/week, [dates].",
-  "Contributed to [COOP/emergency operations plan] development for [client], reviewing [policies/procedures] for compliance with [standard] and recommending [changes].",
-  "Served as liaison between [client] and [vendors/partners], tracking [deliverables/invoices] against [contract requirements] to resolve [issue type]."
- ],
+ "resume_bullets": [],
  "interview_questions": [
   "Describe a time you ensured a program complied with complex policies or accreditation standards.",
   "How have you supported continuity of operations or emergency response planning?",
@@ -52,5 +48,6 @@
  ],
  "job_id": "usajobs:887342700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

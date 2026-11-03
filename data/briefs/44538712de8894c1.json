@@ -1,7 +1,7 @@
 {
  "one_liner": "Policy staffer in Senator Chris Murphy's DC office who tracks legislation, briefs the Senator, drafts materials, and meets with constituents and advocacy groups on an assigned issue portfolio.",
- "fit_rating": "Good",
- "fit_summary": "Daniel's strong command of U.S. politics and policy, ease with people, and consulting work at IEM on emergency management for government clients map well to a Senate policy role. The posting text gives no portfolio, duties, or requirements, so the fit can't be confirmed until Daniel reviews the full listing. Senate LA roles are competitive and often favor prior Hill experience.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's command of U.S. politics and his policy research (tracking states' Rural Health Transformation Program rollout since November 2025) fit a Senate policy role, and his proposal and meeting-minutes writing shows he can draft. The posting gives no portfolio or duties, and Senate LA roles usually go to people with Hill experience, which his resume doesn't show; Legislative Correspondent roles are the usual first step.",
  "eligibility": [
   "Senate offices are not part of the competitive federal service, so USAJOBS status, grades, and veterans' preference rules do not apply. Anyone may generally apply, which helps Daniel.",
   "The posting text does not state the issue portfolio, required experience, education, or salary. Open the full listing at the URL to confirm these before applying.",
@@ -23,16 +23,16 @@
   "government clients"
  ],
  "strategy": [
-  "Read the full posting at the Senate Employment Office URL and identify the issue portfolio. Mirror its exact language, since the provided text is only one line.",
-  "Frame the IEM role around policy-relevant work: federal and state program knowledge (e.g., FEMA, Stafford Act, recovery funding), client briefings, and writing. Fill in your actual title and duties.",
-  "Senate offices don't use the two-page USAJOBS format, but a tight one-page resume plus a cover letter is standard. Include a short writing sample, such as a policy memo, if requested or if you have one.",
+  "Read the full posting at the Senate Employment Office URL and identify the issue portfolio. Use its key terms where they are true, since the provided text is only one line.",
+  "Frame his IEM work around policy-relevant knowledge: FEMA programs (Public Assistance, full-scale exercises), county COVID-19 emergency grant applications, state public health response, and the Rural Health Transformation Program tracking, which fits a health or homeland security portfolio.",
+  "Senate offices don't use the two-page USAJOBS format; a tight one-page resume plus a cover letter is standard. Include a short writing sample if asked: a two-page memo on how states are rolling out the Rural Health Transformation Program would show his policy writing.",
   "Research Senator Murphy's committee assignments, signature issues, and recent bills. In your cover letter, show why you want this office specifically.",
   "Use networking: reach out to Hill contacts, alumni, or Murphy staff on LinkedIn. Also consider applying to Legislative Correspondent roles, which are a common Hill entry point."
  ],
  "resume_bullets": [
-  "Supported [government client type] on [emergency management/disaster recovery program] at IEM, analyzing [federal regulations/funding requirements] and briefing [stakeholders] on [outcome].",
-  "Drafted [number] [memos/reports/presentations] translating complex [policy/program] requirements into clear guidance for [state/local/federal] officials.",
-  "Built working relationships with [agencies/community groups/officials] to coordinate [preparedness/recovery activity], resulting in [result you can verify]."
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, identifying which states were executing well and which were struggling.",
+  "Researched federal opportunities in SAM.gov, GovWin and the DHS acquisition forecast, and led proposal writing for multimillion-dollar bids (2019–2024).",
+  "Took minutes at a state public health agency's weekly mpox response meetings (Dec 2022 – Mar 2023)."
  ],
  "interview_questions": [
   "Which of Senator Murphy's priorities interests you most, and how would you advance it?",
@@ -47,5 +47,6 @@
  ],
  "job_id": "senate:legislative-assistant-washington-district-of-columbia-1241",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

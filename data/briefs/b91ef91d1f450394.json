@@ -1,7 +1,7 @@
 {
  "one_liner": "Media relations and communications specialist at CBP headquarters: handling press inquiries, writing releases and statements, planning media events, and advising field offices on public affairs.",
- "fit_rating": "Stretch",
- "fit_summary": "Daniel's people skills, policy knowledge, and government-client consulting at IEM fit public affairs work well, but GS-12 requires one year of specialized experience managing media and public communications, writing press releases and advisories, and advising staff on media coverage. Unless Daniel's IEM role, or prior or volunteer work such as campaigns or advocacy, included real media relations and communications products, Daniel will likely be found ineligible. If Daniel does have that experience, this becomes a Good fit.",
+ "fit_rating": "Long shot",
+ "fit_summary": "GS-12 requires a year of specialized experience managing media and public communications, writing press releases and advisories, and advising staff on media coverage. Daniel's resume shows writing (proposals, meeting minutes, client documents) but no media relations, so he would likely be found ineligible unless he has campaign, advocacy or volunteer communications work to add.",
  "eligibility": [
   "Open to the public (U.S. citizens); no federal status needed. The fed-transition path is for CTAP/ICTAP eligibles, and Daniel does not qualify for that path.",
   "One year of specialized experience equivalent to GS-11: managing media and public communications, developing press releases and media advisories, advising field offices and staff on media coverage, and planning communication strategies. The resume must state this explicitly.",
@@ -27,7 +27,7 @@
   "public feedback"
  ],
  "strategy": [
-  "Before investing time, honestly check whether Daniel has a full year (stated as total hours per week) of media and public communications work. If not, target GS-9/11 public affairs or communications roles, or Virginia state and local PIO roles, instead.",
+  "If he has no media work, target GS-9/11 public affairs roles or Virginia state and local public information jobs, where his emergency management background is a plus.",
   "Frame the IEM experience around any public information or communications tasks you actually did for government clients, such as emergency public messaging, preparedness outreach, stakeholder briefings, or communication plans. Use the posting's exact wording.",
   "Keep the resume to two pages. Each job should list dates, hours per week, and a tight specialized-experience section that mirrors the four duty statements in the posting.",
   "Preview the questionnaire at the posted link before applying, and answer 'expert' only where your resume shows evidence to back it up. Overstating can remove you from consideration.",
@@ -35,9 +35,8 @@
   "Include campaign, legislative, or volunteer communications work if you have it, since volunteer experience counts."
  ],
  "resume_bullets": [
-  "Drafted [number] [news releases/media advisories/public statements] on [emergency management/disaster recovery topic] for [government client], coordinating review with [stakeholders] under [deadline/sensitivity constraints].",
-  "Developed and implemented communication plans for [program/event], tracking [metric, e.g., media pickups or engagement] to measure communication performance and adjust messaging.",
-  "Advised [client field staff/officials] on responding to [media/public/stakeholder inquiries] during [disaster or exercise], and prepared [talking points/Q&A] to ensure accurate representation."
+  "Led proposal writing for multimillion-dollar government bids (2019–2024).",
+  "Took minutes at a large travel company's weekly meetings (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "Tell us about a time you handled a sensitive or controversial media inquiry. How did you protect information that couldn't be released?",
@@ -53,5 +52,6 @@
  ],
  "job_id": "usajobs:890286900",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:00-04:00"
+ "generated_at": "2026-10-30T15:00-04:00",
+ "resume_revision": "2026-11-02"
 }

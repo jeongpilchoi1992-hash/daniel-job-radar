@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Executive running a small nuclear-safety agency's risk management, internal controls, FOIA/Privacy, records, audit, security, COOP and facilities programs.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a Senior Executive Service job that requires progressively responsible executive leadership, typically at GS-15 or equivalent, including managing through subordinate supervisors and mastery of federal agency risk strategies. Daniel's IEM consulting background in emergency management and strong policy knowledge touch on COOP and ECQ 1, but nothing on file shows executive-level supervision or federal risk-program leadership. Unless Daniel has held a senior leadership role not on file, this posting is not realistic now.",
+ "fit_summary": "This SES job requires executive leadership, including managing through subordinate supervisors, and mastery of federal risk strategies. Daniel's emergency planning and exercise work touches continuity, but his resume shows no executive supervision or risk-program leadership, so skip it.",
  "eligibility": [
   "Open to the public (hiring paths include public and SES), so status is not required, but U.S. citizenship is.",
   "Basic SES requirement: progressively responsible executive and supervisory experience, ideally managing employees through subordinate supervisors, typically at GS-14/15 or private-sector equivalent.",
@@ -27,16 +27,12 @@
   "subordinate supervisors"
  ],
  "strategy": [
-  "Be honest about whether you have supervised supervisors and managed budgets. If not, skip this posting and target GS-11/12/13 roles in risk, COOP, emergency management or FOIA/privacy at agencies like FEMA, DHS or DOE.",
-  "Treat this posting as a map of where a career can go. Note the ECQs and TQs now and start building documented leadership, budget and federal-compliance results.",
-  "If you do apply, frame IEM work in federal terms: specific client agencies, COOP or preparedness plans, risk assessments, and team size and contract value. Fit each ECQ and TQ into two pages with dates and hours per week.",
-  "Answer the self-assessment questionnaire truthfully. Claiming expert-level SES experience you lack will be caught at resume review or by the QRB.",
-  "Allow time for the USA Hire competency assessment, and submit well before the November 27, 2026 close (Thanksgiving week)."
+  "Skip this one: this SES job requires executive leadership through subordinate supervisors and mastery of federal risk strategies, and his resume shows no executive supervision or risk-program leadership.",
+  "GS-11/12 emergency management or continuity roles at FEMA, DHS or DOE fit his resume."
  ],
  "resume_bullets": [
-  "Supported [client agency] continuity of operations (COOP) and preparedness planning at IEM, developing [plans/assessments] covering [scope] and coordinating with [number] stakeholders.",
-  "Conducted [risk/hazard] assessments for [government client], identifying [number] vulnerabilities and recommending corrective actions adopted by [office].",
-  "Led a team of [number] on [project], managing a [$ amount] budget and delivering [result] [ahead of schedule/under budget]."
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024).",
+  "Prioritized office security as part of office manager duties at IEM (2019–2024)."
  ],
  "interview_questions": [
   "Describe how you built an enterprise-wide risk assessment and set risk tolerances at a federal agency.",
@@ -46,10 +42,10 @@
  ],
  "watch_outs": [
   "SES-level executive and supervisory experience is mandatory, and TQ 1 specifically requires experience at a federal agency. Your known background likely does not meet this.",
-  "A Q clearance, continuous vetting and public financial disclosure are required.",
-  "Applications close November 27, 2026 and require a USA Hire assessment, so do not wait until the last minute."
+  "A Q clearance, continuous vetting and public financial disclosure are required."
  ],
  "job_id": "usajobs:890618000",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

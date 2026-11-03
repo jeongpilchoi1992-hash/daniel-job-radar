@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior executive (SNIS) deputy running budget, contracts, HR, data governance and compliance for the National Counterterrorism Center in McLean.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a senior-executive role requiring demonstrated mastery of five ECQs plus the IC senior officer qualification, enterprise-scale resource management, and expert knowledge of IC missions and NCTC data-sharing agreements. Daniel's emergency-management consulting background and strong policy and relationship skills are relevant in spirit, but nothing on file shows executive leadership, budget authority, or intelligence community experience at this level. Daniel should apply only if the IEM role involved substantial staff, budget, and federal program leadership.",
+ "fit_summary": "This senior-level role requires mastery of the five ECQs, the IC senior officer qualification, enterprise resource management and expert knowledge of IC missions. Daniel's resume shows no executive leadership, budget authority or intelligence community experience, so skip it.",
  "eligibility": [
   "Open to the public (U.S. citizens 18+); no federal status required, but you must show all five ECQs and the ICSOCQ in a resume of no more than two pages, or be disqualified.",
   "Bachelor's degree required (do not submit transcripts).",
@@ -27,16 +27,12 @@
   "personnel management, retention, and development"
  ],
  "strategy": [
-  "Before investing time, honestly check whether your IEM work included supervising staff, managing budgets or contracts, and leading federal programs; without those, this SL-level role is unlikely to be reachable.",
-  "If you apply, organize the two-page resume so each ECQ and the ICSOCQ is clearly evidenced, ideally with short labeled examples, plus dates and hours per week for each job.",
-  "Frame IEM work as federal program implementation and cross-agency coordination for government clients, such as FEMA or state partners if accurate, and emphasize any contract, budget, or compliance responsibilities.",
-  "Use your policy knowledge for ECQ 1 and the Constitution essay, citing a concrete example. Write all four essays yourself, since the posting requires an AI-free certification.",
-  "Apply well before the November 12, 2026 close, attach only the listed required documents, and use this posting to identify ODNI/IC or FEMA GS-11 to GS-13 roles that fit better now."
+  "Skip this one: this senior-level role requires executive leadership, enterprise resource management and expert knowledge of intelligence community missions, and his resume shows no executive leadership, budget authority or intelligence community experience.",
+  "Look instead for FEMA, DHS or intelligence community roles at GS-9 to GS-12, such as emergency management, continuity or program analyst positions."
  ],
  "resume_bullets": [
-  "Coordinated [type of disaster recovery/preparedness program] for [government client] across [number] agencies and stakeholders, delivering [deliverable] on [timeline/budget].",
-  "Managed [scope: $ amount/number of staff/contract] including planning, tracking and reporting, resulting in [verifiable outcome].",
-  "Drafted [briefings/reports/policy analyses] for [senior audience], translating complex requirements into recommendations adopted by [client/leadership]."
+  "Handled office manager duties at IEM: office security, first-line IT troubleshooting and help with onboarding and offboarding (2019–2024).",
+  "Found federal contract opportunities and led proposal writing (2019–2024)."
  ],
  "interview_questions": [
   "Describe a time you led a team through ambiguous requirements with multiple dependencies and high risk. What was the outcome?",
@@ -47,10 +43,10 @@
  "watch_outs": [
   "This is an executive-level position. Lacking documented senior leadership, budget, and IC experience makes selection very unlikely.",
   "A TS/SCI clearance with polygraph is required, and the process can take many months.",
-  "The role is fully on-site in McLean with no telework, and a two-page resume limit is strictly enforced with disqualification for violations.",
-  "Short application window: October 28 to November 12, 2026."
+  "The role is fully on-site in McLean with no telework."
  ],
  "job_id": "usajobs:890251800",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

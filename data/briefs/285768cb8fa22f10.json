@@ -1,7 +1,7 @@
 {
  "one_liner": "A Virginia Tech staff role in Arlington managing workforce development programs: likely training partnerships, participant outreach, budgets, and reporting. Confirm details in the full posting.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's consulting work with government clients at IEM, public policy knowledge, and people skills fit the stakeholder and partnership side of a workforce development program. No duties are listed, and workforce development and program management experience are not on file, so the fit can't be confirmed until Daniel reads the full posting.",
+ "fit_summary": "Daniel's project operations work at IEM, his onboarding and training-alignment experience, and his work with government clients fit the partnership side of a workforce program. No duties are listed, so check the posting before applying.",
  "eligibility": [
   "The posting text is unavailable. Open the full listing on jobs.virginia.gov or Virginia Tech's careers site to confirm minimum and preferred qualifications before applying.",
   "Check whether a bachelor's degree or a set number of years of program management experience is required.",
@@ -25,17 +25,17 @@
   "Virginia Tech"
  ],
  "strategy": [
-  "Get the full posting first. Then mirror its exact qualification wording in your resume and cover letter, because Virginia Tech screeners compare applications against the listed qualifications.",
+  "Get the full posting first. Then use its qualification terms in the resume and cover letter where they are true, because Virginia Tech screeners compare applications against the listed qualifications.",
   "Frame your IEM work around program delivery for government clients: coordinating stakeholders, meeting deliverables and deadlines, and supporting preparedness or recovery programs. Use only duties you actually performed.",
-  "Highlight your relationship-building and public-facing strengths as partnership and outreach experience with employers, agencies, and community groups.",
+  "Highlight your relationship-building and public-facing strengths as a base for building partnerships with employers, agencies, and community groups, and back them with documented work such as helping counties update COVID-19 emergency grant applications and facilitating exercises for federal, state and private-sector clients.",
   "Show policy knowledge relevant to workforce programs, such as WIOA, federal and state grant funding, and Virginia's workforce priorities, so your policy background reads as directly useful.",
   "The closing date isn't stated and the position may close once filled, so apply quickly with a tailored resume and a cover letter. State resumes are not limited to two pages, but keep yours focused.",
   "Plan for the commute from Manassas to Arlington, and ask about telework at the interview stage."
  ],
  "resume_bullets": [
-  "Coordinated [type of] emergency management/preparedness projects for [number/type of] government clients at IEM, managing [deliverables/timelines] across [number] stakeholders.",
-  "Built and maintained relationships with [agency/community partners], supporting [outreach/training/recovery activity] that reached [number/audience].",
-  "Tracked [budget/schedule/metrics] and prepared [reports/briefings] for [client or leadership], ensuring [compliance or deadline outcome]."
+  "Recruited, screened and interviewed volunteers for the National Language Service Corps, matching people to Department of Defense requests (2018).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Aligned training goals between Emergency Management Institute courses and FEMA field guide training manuals."
  ],
  "interview_questions": [
   "Tell us about a program or project you managed from start to finish. What were the results?",
@@ -45,10 +45,11 @@
  ],
  "watch_outs": [
   "There is no description, salary, or closing date, so you can't assess the real requirements or pay until you see the full listing.",
-  "Your background may lack direct workforce development or formal program management experience, which a Program Manager title often requires.",
+  "His resume shows no workforce development work or formal program management title, which a Program Manager role often requires.",
   "The role is on-site in Arlington, which can mean a long commute from Manassas."
  ],
  "job_id": "virginia:program-manager-workforce-development-arlington-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

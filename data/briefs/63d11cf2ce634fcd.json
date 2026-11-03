@@ -1,7 +1,7 @@
 {
  "one_liner": "Manage policy work at George Mason's National Security Institute in Arlington, likely research, events, and engagement with policymakers on national security issues.",
  "fit_rating": "Good",
- "fit_summary": "Daniel's deep knowledge of U.S. politics and policy, strong relationship skills, and IEM consulting background in emergency management and preparedness (a homeland-security-adjacent field) line up well with a policy manager role at a national security think tank. The full posting text is not available, so required experience level, degree, and any national security subject-matter depth are unknown and could make this a stretch.",
+ "fit_summary": "Daniel's politics knowledge, his George Mason M.A. in Global Affairs and his homeland-security-adjacent work at IEM (FEMA exercises, emergency planning, proposals for opportunities in DHS forecasts) line up with a policy manager role at George Mason's National Security Institute. The full posting isn't available, so the required experience and national security depth are unknown and could make this a stretch.",
  "eligibility": [
   "Open the full posting on jobs.virginia.gov or GMU's jobs site; no duties, qualifications, or applicant restrictions were provided here.",
   "Check whether a bachelor's or advanced degree (e.g., in public policy, law, or international affairs) is required or preferred.",
@@ -27,16 +27,16 @@
  ],
  "strategy": [
   "Get the full posting first and replace these generic keywords with the exact phrases it uses; this is a state university job, so a tailored resume and cover letter matter more than a two-page federal format.",
-  "Frame your IEM experience around government clients, preparedness, and resilience as homeland security work, and describe your actual duties (analysis, client relations, writing, coordination) once confirmed.",
+  "Frame his IEM work as homeland security: FEMA full-scale exercises and the Simulation Cell unit he led, emergency planning for public and private clients, and proposals found in DHS acquisition forecasts. Add the Rural Health Transformation Program tracking as policy analysis.",
   "Lead with your policy and political knowledge: show you can track legislation, brief stakeholders, and translate policy for different audiences.",
-  "Highlight relationship-building and public-facing skills, such as convening events, managing partners, and engaging officials, which are core to a think-tank policy manager.",
+  "Highlight the partner work he can document, such as facilitating exercises for federal, state and private-sector clients and helping counties update COVID-19 grant applications, since partner engagement is core to a think-tank policy manager.",
   "Write a cover letter that names specific national security policy issues you follow and why NSI's work interests you.",
   "Apply promptly since the closing date is open until filled or not stated; GMU positions can close without notice."
  ],
  "resume_bullets": [
-  "Supported [government client type] on [preparedness/recovery project] at IEM, [your specific role, e.g., drafting analyses or coordinating stakeholders] for [scope/number] of [agencies/jurisdictions].",
-  "Built and maintained relationships with [federal/state/local officials or partners], coordinating [meetings/briefings/deliverables] that [result you can verify].",
-  "Researched and summarized [policy topic or legislation] for [audience], producing [memos/briefings/reports] used to [purpose]."
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, identifying which states were executing well and which were struggling.",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients and led a Simulation Cell unit at FEMA full-scale exercises two years in a row (2022–2024).",
+  "Researched multimillion-dollar federal opportunities in SAM.gov, GovWin and the DHS acquisition forecast, and led proposal writing (2019–2024)."
  ],
  "interview_questions": [
   "What national security policy issue matters most right now, and how would you build programming or analysis around it?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "virginia:public-policy-manager-national-security-institute-arlington-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

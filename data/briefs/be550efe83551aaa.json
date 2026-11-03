@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior protocol officer at Fort Meade planning secure VIP visits, meetings, and events for a cyber command, and drafting command protocol guidance.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's people skills, policy knowledge, and emergency-management consulting background are relevant, but this GG-13 requires one full year of specialized protocol experience: planning senior-leader events, researching partner customs, and advising protocol staff. It also requires an SCI clearance. Unless Daniel's IEM work included senior-level event and visit planning, Daniel likely won't meet the specialized experience bar.",
+ "fit_summary": "This GG-13 requires a year of protocol experience (planning senior-leader events, researching partner customs, advising protocol staff) plus SCI eligibility. Daniel's event work is conference supplies and site stand-up at IEM, not senior-leader protocol, and his resume lists no clearance, so he likely won't qualify.",
  "eligibility": [
   "Open to the public, but you must select an employment authority category and upload proof documents for it.",
   "One year of specialized experience in protocol work: planning senior-leadership events and conferences, briefing on partner customs and risks, researching protocol rules, and advising protocol staff.",
@@ -27,7 +27,7 @@
   "SMEs"
  ],
  "strategy": [
-  "Honestly inventory your IEM work for any time spent planning senior-official meetings, exercises, or conferences, and count the months; you need 12 months matching the four specialized-experience elements.",
+  "Count the months he spent on event-style work at IEM (facilitating full-scale and tabletop exercises, conference supplies, weekly meeting minutes); it is unlikely to add up to 12 months of protocol work matching all four elements.",
   "Frame IEM work in protocol terms where it is accurate: coordinating government-client leadership visits, preparing agendas and briefing materials, and coordinating with partner agencies on requirements.",
   "Because CES is exempt from the two-page cap, use a detailed resume with dates, hours per week, and explicit examples for each of the four specialized-experience elements.",
   "Answer the questionnaire truthfully, since inflated self-ratings can cost you consideration; support every 'expert' answer with resume evidence.",
@@ -35,9 +35,8 @@
   "If you don't qualify, use this posting as a target and pursue GS-9/11 protocol, events, or legislative/intergovernmental affairs roles to build qualifying experience."
  ],
  "resume_bullets": [
-  "Planned and coordinated [number] meetings/conferences for [senior government client officials] at IEM, assessing [venue, staffing, logistics] resource requirements; [hours/week, dates].",
-  "Prepared agendas, action plans, and briefing materials for [client/partner agency] leadership visits, gathering inputs from technical SMEs on [topic].",
-  "Researched [partner agency/jurisdiction] requirements and customs and briefed [team size] colleagues on expectations and risks before [engagement/exercise]."
+  "Booked flights for corporate-level staff and handled conference supplies at IEM (2019–2024).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024)."
  ],
  "interview_questions": [
   "Walk us through a high-level visit or event you planned from start to finish. What resources did you identify and what went wrong?",
@@ -47,11 +46,12 @@
  ],
  "watch_outs": [
   "Requires an SCI clearance, which means a lengthy investigation and possible delays before you start.",
-  "Specialized protocol experience is mandatory with no education substitute, which is a major gap unless your IEM duties match.",
+  "Specialized protocol experience is mandatory with no education substitute, and his resume doesn't show it.",
   "On-site only at Fort Meade, MD, with no telework; the commute from Manassas is long.",
   "Very short one-week application window."
  ],
  "job_id": "usajobs:890383700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:08-04:00"
+ "generated_at": "2026-10-30T15:08-04:00",
+ "resume_revision": "2026-11-02"
 }

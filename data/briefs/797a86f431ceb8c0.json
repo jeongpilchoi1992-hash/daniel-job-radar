@@ -1,7 +1,7 @@
 {
  "one_liner": "Supervise the Capitol Police logistics team that handles supplies, equipment, inventory, moving, special-event support and emergency logistics so officers can do their law-enforcement jobs.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's IEM consulting background in emergency management and preparedness touches the emergency-operations side of this job, and Daniel's interest in the legislative branch and skill with people fit the agency. However, the job requires 52 weeks of specialized experience at the GS-11/12 equivalent, and that experience must cover hands-on logistics program work like storing and issuing commodities and equipment, forecasting resources, and supervising or training logistics staff. Nothing on file shows that depth of logistics or supervisory experience, so Daniel should apply only if the IEM work truly included it.",
+ "fit_summary": "Daniel's logistics work is real: procuring and tracking medical supplies for vaccination sites in six states (2021 to 2022), vendor relationships and helping stand up sites, plus emergency planning and exercises. The job requires 52 weeks at GS-11/12 level covering storing and issuing commodities, forecasting resources and supervising logistics staff, and his resume shows no warehouse operations or supervision beyond a five-person intake team, so it stays a long shot.",
  "eligibility": [
   "Open to the public; U.S. citizenship required, and no federal status or veterans' preference is needed.",
   "CP-10 requires 52 weeks of experience equivalent to GS-11 covering logistics policy, overseeing storage, issue and disposal of commodities and equipment (including arms, ammunition and explosives), resource forecasting, and training logistics specialists.",
@@ -34,9 +34,8 @@
   "Apply for CP-10 only unless you can document GS-12-level program leadership, and submit before November 5, 2026, with any required documents attached."
  ],
  "resume_bullets": [
-  "Forecasted and allocated [type of resources, e.g., commodities, generators, staff] for [client agency] during [disaster or exercise], coordinating with [number] partner organizations to meet [operational need].",
-  "Drafted [number] standard operating procedures and planning documents on [logistics or emergency operations topic] for [client], adopted by [office or level].",
-  "Led and trained [number] [staff or contractor] personnel on [process] supporting [mission], and briefed [senior leadership level] on readiness gaps and recommendations."
+  "Oversaw logistics for COVID-19 mass care sites in four states at once, procuring and tracking medical supplies across six states (2021–2022).",
+  "Handled deliveries and conference supplies for IEM's office (2019–2024)."
  ],
  "interview_questions": [
   "Describe a time you forecasted and allocated logistical resources for a major event or emergency. How did you set priorities?",
@@ -51,5 +50,6 @@
  ],
  "job_id": "usajobs:889832600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:09-04:00"
+ "generated_at": "2026-10-30T15:09-04:00",
+ "resume_revision": "2026-11-02"
 }

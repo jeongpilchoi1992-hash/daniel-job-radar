@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior manager of PBGC's federal contracting team, leading contract specialists and advising executives on complex acquisitions worth over $300 million.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-15 role requires a year of GS-14-equivalent experience leading procurement professionals, at least 4 years in contracting, 24 semester hours in business-related fields, and mandatory 1102 training. Daniel's known background is emergency-management consulting at IEM plus policy knowledge and people skills, not hands-on contract formation, so you would almost certainly not meet minimum qualifications. Under direct hire, qualifications are the only screen.",
+ "fit_summary": "This GS-15 role needs a year leading procurement staff at GS-14 level, four years of contracting, 24 business semester hours and 1102 training. Daniel's proposal and purchasing work at IEM was contractor-side, so he won't meet the minimums.",
  "eligibility": [
   "Open to the public under Direct Hire Authority; veterans' preference does not apply, and no federal status is needed.",
   "One year of specialized experience at or equivalent to GS-14 leading procurement professionals and overseeing complex pre-award and contract formation work (acquisition strategy, source selection, cost/price analysis, negotiations, awards).",
@@ -27,16 +27,13 @@
   "customer service"
  ],
  "strategy": [
-  "Be honest about whether your IEM work included leading federal contract pre-award activity, such as writing proposals against RFPs, pricing, or negotiating. Supporting a contractor's bids is not the same as government-side contract formation, so do not overstate it.",
-  "If you lack 4+ years of contracting and supervisory experience at the GS-14 level, skip this posting. Target entry-level GS-1102 contract specialist trainee or Acquisition Career intern roles (GS-5/7/9) instead, which build toward jobs like this.",
-  "Separately pursue roles that match your strengths: FEMA and state VDEM emergency-management or program specialist positions, legislative or constituent-services staff jobs, and Prince William County or City of Manassas public-facing roles.",
-  "If you apply anyway, check that your degree coursework totals 24 semester hours in the listed fields and upload transcripts. On a two-page resume, list hours per week, dates, and contract dollar values for each relevant job.",
-  "Apply on the day the posting opens (October 14, 2026), because it closes after the first 100 applications."
+  "Skip it: writing bids for a contractor isn't government-side contract formation, and direct hire screens strictly on qualifications.",
+  "Target entry-level GS-1102 contract specialist roles open to the public (GS-5/7/9), which build toward jobs like this.",
+  "Outside contracting, FEMA and Virginia VDEM emergency management or program specialist positions, legislative or constituent-services staff jobs, and Prince William County or City of Manassas government roles suit his background."
  ],
  "resume_bullets": [
-  "Supported [proposal/contract] activities for [number] government emergency-management engagements valued at [$ amount], including [pricing inputs/compliance reviews/requirement analysis] ([hours]/week, [dates]).",
-  "Coordinated with [federal/state/local] client stakeholders to clarify [scope of work/deliverables] for [program name], resolving [issue] to keep [contract/task order] on schedule.",
-  "Led or mentored [number] team members on [task], setting priorities and reviewing work quality for [client/project]."
+  "Found multimillion-dollar opportunities in SAM.gov, GovWin and BidPro, and led proposal writing (2019–2024).",
+  "Procured supplies and set up vendor relationships for COVID-19 sites in six states (2021–2022)."
  ],
  "interview_questions": [
   "Describe how you developed an acquisition strategy and selected a contract type for a complex, high-dollar requirement.",
@@ -45,12 +42,12 @@
   "Tell us about a time you persuaded senior stakeholders to accept a novel acquisition approach."
  ],
  "watch_outs": [
-  "The posting may close early after 100 applications, so the 3-week window could shrink to days.",
   "The degree and 24-semester-hour education requirement is strict; a waiver is solely at the senior procurement executive's discretion and unlikely for an outside applicant.",
   "Contractor-side consulting experience generally does not count as government-side contract formation and supervision at the GS-14 level.",
   "The position is Washington, DC based with telework but not remote, so expect a commute from Manassas."
  ],
  "job_id": "usajobs:888799500",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

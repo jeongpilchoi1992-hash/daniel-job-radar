@@ -1,7 +1,7 @@
 {
  "one_liner": "Not a specific job: an Air Force placeholder listing that points public applicants to its Direct Hire Authority job board, where actual openings are posted.",
  "fit_rating": "Stretch",
- "fit_summary": "The listing has no real duties, qualifications or grade, so there is nothing concrete to match Daniel against. The upside is that Direct Hire Authority is open to the public with no federal status needed. Daniel's IEM emergency-management consulting and people skills could fit Air Force administrative, program or emergency-management roles, but only once a specific opening is found on the job board.",
+ "fit_summary": "This is a pointer to the Air Force Direct Hire Job Board with no duties or grade. Direct Hire is open to the public, and Daniel's operations, logistics and exercise work at IEM could fit Air Force administrative, program or emergency management openings, but only once a specific opening is found on the board.",
  "eligibility": [
   "Hiring path is listed as 'public', so U.S. citizens with no prior federal status, like Daniel, may apply.",
   "No security clearance is required for this listing, but individual Direct Hire jobs may require one; check each real posting.",
@@ -26,9 +26,9 @@
   "If you apply to this placeholder at all, keep a two-page federal resume ready and saved in USAJOBS. Also set saved searches, because Direct Hire jobs can open and fill quickly."
  ],
  "resume_bullets": [
-  "Supported [government client] emergency management and disaster recovery efforts as [title] at IEM, [hours] hrs/week, coordinating [function, e.g., recovery grant processing] for [number] [stakeholders/applicants].",
-  "Built working relationships with [federal/state/local] officials and community stakeholders to [specific outcome], communicating program requirements and policy in plain language.",
-  "Prepared [reports/briefings/plans] on [preparedness/recovery topic] for [audience], applying knowledge of [relevant law or policy, e.g., Stafford Act/FEMA guidance] where it applies."
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, and led a Simulation Cell unit at FEMA full-scale exercises two years in a row (2022–2024).",
+  "Oversaw logistics for COVID-19 mass vaccination and monoclonal antibody sites in four states at once, procuring and tracking supplies across six states (2021–2022).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020)."
  ],
  "interview_questions": [
   "Tell us about your role at IEM and how it supported government clients.",
@@ -43,5 +43,6 @@
  ],
  "job_id": "usajobs:863041400",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

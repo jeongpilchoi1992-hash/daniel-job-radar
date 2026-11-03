@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior federal buyer at CMS who writes solicitations, analyzes contractor prices, negotiates and administers health-program contracts under the FAR.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-13 job requires 4 years of contracting experience, including a year doing cost/price analysis, negotiation strategy and preparing contract documents at a GS-12 level. It also requires a bachelor's degree with 24 business-related semester hours and agency-mandated contracting training (FAC-C/DAU-type). Daniel's known IEM consulting work on emergency management and policy knowledge don't show that background, so Daniel likely won't qualify unless the IEM role actually involved hands-on government contracting.",
+ "fit_summary": "This GS-13 job requires four years of contracting, including a year of cost and price analysis, negotiation strategy and contract documents at GS-12 level, plus 24 business-related semester hours and FAC-C training. Daniel's proposal and purchasing work at IEM was contractor-side, so he likely won't qualify.",
  "eligibility": [
   "Open to the public and to federal transition (fed-transition) applicants; no status or clearance required.",
   "At least 52 weeks of specialized experience equivalent to GS-12 covering all three areas: cost and price analysis, negotiation strategies, and preparing all contract documents.",
@@ -35,9 +35,8 @@
   "The posting is open until 2027-01-15, but submit early, then complete the online assessment promptly and upload transcripts."
  ],
  "resume_bullets": [
-  "Analyzed [number] cost proposals/cost breakdowns for [type of government client] contracts valued at [$ amount], assessing labor rates and other direct costs for reasonableness against [FAR/client requirements].",
-  "Developed negotiation positions and led discussions with [government client/subcontractors] on [scope/price/terms], resulting in [documented outcome].",
-  "Drafted [statements of work, solicitation sections, modifications, task orders] for [emergency management/disaster recovery] programs, ensuring compliance with [FAR clauses/client policies]."
+  "Found multimillion-dollar opportunities in SAM.gov, GovWin and BidPro, and led proposal writing (2019–2024).",
+  "Procured medical supplies and set up vendor relationships for COVID-19 sites in six states (2021–2022)."
  ],
  "interview_questions": [
   "Walk us through how you perform a cost/price analysis and determine that a price is fair and reasonable.",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:876499100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

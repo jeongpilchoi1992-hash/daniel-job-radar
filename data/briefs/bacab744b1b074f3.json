@@ -1,7 +1,7 @@
 {
  "one_liner": "Mid-level manager at George Mason University overseeing the university's policy library and its enterprise risk management program across departments.",
  "fit_rating": "Stretch",
- "fit_summary": "Your IEM consulting work in emergency management and preparedness overlaps with risk assessment and continuity planning, and your policy knowledge and relationship skills suit a role that coordinates stakeholders across a university. However, the title points to a manager-level job that likely expects direct experience with enterprise risk management frameworks and writing or administering institutional policy. Without the full description, the fit can't be confirmed.",
+ "fit_summary": "Daniel's emergency planning and exercise work at IEM overlaps with risk assessment and continuity planning, and his emergency forms work for a travel company (2024) is close to institutional policy. The title points to a manager-level job that likely expects enterprise risk frameworks and policy administration, which his resume doesn't show, so check the full description.",
  "eligibility": [
   "The posting text is unavailable, so open the full listing on jobs.virginia.gov or GMU's careers site to confirm the minimum qualifications.",
   "As a manager role, it likely requires several years of related experience and possibly supervisory or program-management experience. Verify this before applying.",
@@ -34,9 +34,9 @@
   "State applications don't have the federal two-page limit, but keep your resume concise. Fill out every field in the state application rather than writing 'see resume.'"
  ],
  "resume_bullets": [
-  "Supported [government client type] in identifying and prioritizing [hazards/risks] through [risk assessment/THIRA/plan reviews], producing [deliverable] used by [audience].",
-  "Drafted or revised [number] [plans/procedures/policy documents] to align client operations with [federal/state guidance], coordinating reviews with [stakeholder groups].",
-  "Facilitated [workshops/exercises/meetings] with [number] participants from [agencies/departments] to build consensus on [preparedness or mitigation priorities]."
+  "Brought emergency management best practices into a large travel company's emergency forms and kept minutes at its weekly meetings (Feb – Aug 2024).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024).",
+  "Completed the FEMA Emergency Management Institute's Professional Development Series and Lean Six Sigma Yellow Belt training."
  ],
  "interview_questions": [
   "How would you build or improve an enterprise risk register for a large, decentralized university?",
@@ -51,5 +51,6 @@
  ],
  "job_id": "virginia:manager-university-policy-and-enterprise-risk-fairfax-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

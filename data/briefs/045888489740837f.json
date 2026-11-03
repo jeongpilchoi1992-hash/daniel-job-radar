@@ -1,7 +1,7 @@
 {
  "one_liner": "Run an Air Force base's sexual assault prevention and response program: track cases, train responders and personnel, coordinate victim support, and advise the Wing Commander.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's people skills, policy knowledge, and emergency-management consulting background are relevant to coordination and training, but the posting requires a behavioral/social science basic requirement and a year of GS-09-level specialized experience in victim advocacy, social services, or sexual assault prevention/response. Nothing on file shows that experience, so Daniel likely won't qualify unless there is unlisted advocacy, crisis, or social-science background.",
+ "fit_summary": "The posting needs a behavioral or social science education basis, which his M.A. in Global Affairs may meet, plus a year of GS-9-level experience in victim advocacy, social services, or sexual assault prevention and response. His resume has none of that specialized experience, and his emergency management and public health work doesn't substitute.",
  "eligibility": [
   "Open to the public (hiring path: public); U.S. citizenship expected, with no federal status required.",
   "Basic requirement: a behavioral or social science degree (or related field), an equivalent education/experience combination, or four years of experience showing equivalent knowledge; transcripts required if education is used.",
@@ -27,17 +27,16 @@
   "effective working relationships"
  ],
  "strategy": [
-  "Before applying, honestly check whether you have any victim-advocacy, crisis-line, social-services, or survivor-support work, paid or volunteer; the posting credits volunteer and part-time experience if hours per week are listed.",
-  "If your degree is political science or another social science, upload transcripts to meet the basic requirement, and confirm the major counts as 'behavioral or social science or related.'",
+  "His resume shows no victim-advocacy, crisis-line or social-services work. Apply only if he has such experience, paid or volunteer, that isn't on the resume yet; the posting credits volunteer hours when they are listed.",
+  "Upload his George Mason transcript: an M.A. in Global Affairs should count toward the 'behavioral or social science or related' requirement, but compare the coursework with the posting's list.",
   "Frame your IEM work around program coordination, training delivery, stakeholder and interagency coordination, and support for affected populations, using your actual title and duties; avoid claiming victim-advocacy expertise you don't have.",
   "Answer the questionnaire conservatively: every 'expert' rating must be backed by a resume bullet, or you'll be rated not qualified.",
   "Keep the resume to two pages, with month/year dates and hours per week for each role, and mirror the KSA wording; the posting closes 2026-12-18 but may pull applicant lists early, so apply soon.",
   "Use this as a learning target: a role such as SAPR victim advocate (GS-09) or volunteer advocacy work with a local Northern Virginia crisis center could build qualifying experience; meanwhile, prioritize emergency-management or legislative roles that fit you better."
  ],
  "resume_bullets": [
-  "Coordinated [type of] preparedness/recovery training for [number] [government client staff/first responders] at [client], updating materials to reflect [policy/program changes].",
-  "Served as liaison among [agencies, e.g., state EM, law enforcement, local officials] to establish [protocols/notification procedures] for [program], working [hours] per week.",
-  "Supported [population, e.g., disaster survivors] by [assessing needs/connecting to services] through [program], assisting [number] individuals over [period]."
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024).",
+  "Took part in public health seminars on response and recovery roles (2022–2024)."
  ],
  "interview_questions": [
   "Describe how you would respond in the first hours after being notified of a sexual assault report, including restricted versus unrestricted reporting.",
@@ -53,5 +52,6 @@
  ],
  "job_id": "usajobs:852969100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

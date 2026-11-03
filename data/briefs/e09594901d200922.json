@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior staff officer at DIA headquarters who advises agency leadership, briefs senior audiences, and coordinates strategy and messaging across the organization.",
  "fit_rating": "Long shot",
- "fit_summary": "Daniel's people skills, policy knowledge, and consulting work for government clients line up with the briefing, partnership, and advisory themes. However, GG-14 is a senior grade that typically expects years of senior-level staff or advisory experience, plus the ability to obtain a TS/SCI clearance. Nothing on file shows Daniel has either yet.",
+ "fit_summary": "GG-14 is a senior grade that expects a year of GG-13-level staff or advisory work plus the ability to obtain a TS/SCI clearance. Daniel's resume shows support-level operations and no clearance, so he is unlikely to qualify.",
  "eligibility": [
   "Open to the public (hiring paths include public, veterans, federal excepted service, and National Guard), and all applicants must be U.S. citizens.",
   "Requires eligibility for a Sensitive Compartmented Information (SCI) clearance, a security investigation, and a drug test.",
@@ -26,15 +26,14 @@
  ],
  "strategy": [
   "Apply through DIA's online application system, not just USAJOBS. Find the posting by title and Job Opening ID, and read the full duties and qualifications before writing anything.",
-  "Mirror the five assessment factors directly. For each one, give a concrete IEM example, such as advising government clients, briefing officials on preparedness or recovery, or coordinating with client leadership.",
+  "Answer the five assessment factors one by one, each with a concrete IEM example, such as facilitating exercises for federal, state and private-sector clients, helping counties update COVID-19 grant applications, or organizing FEMA Public Assistance onboarding data for decision makers.",
   "Frame your IEM work in terms of client-facing advisory roles, stakeholder management, and briefing products, using only duties you actually performed. Note full-time hours and dates.",
   "Keep the resume to two pages, and quantify the scope of your audiences and clients (agency level, size, seniority) where accurate.",
   "Submit before November 6, 2026. Because GG-14 is a reach, also apply to DIA or other intelligence community staff roles at GG-11/12/13 that list the same assessment factors."
  ],
  "resume_bullets": [
-  "Advised [client agency/office] leadership on [emergency management/recovery topic], providing substantive guidance that informed [decision or plan]; [MM/YYYY–MM/YYYY, 40 hrs/wk].",
-  "Prepared and delivered [number] briefings to [audience type and size] on complex topics including [topic], tailoring content to [technical/executive] audiences.",
-  "Built collaborative partnerships with [number] [federal/state/local] stakeholders to coordinate [project/initiative], resulting in [factual outcome]."
+  "Kept minutes at a large travel company's weekly meetings (Feb – Aug 2024).",
+  "Led a Simulation Cell unit at FEMA full-scale exercises two years in a row."
  ],
  "interview_questions": [
   "Tell us about a time you briefed senior leaders on a controversial or complex topic. How did you tailor the message?",
@@ -44,11 +43,12 @@
  ],
  "watch_outs": [
   "You need to be able to obtain an SCI clearance, and the investigation can take many months; the posting also requires a drug test.",
-  "GG-14 is a senior grade, so without senior-level staff or advisory experience you may not qualify; confirm the specialized experience requirement on DIA's site.",
+  "GG-14 is a senior grade, and his resume shows no senior-level staff or advisory experience.",
   "There is no telework or remote option, so you would commute full-time from Manassas to Washington, DC.",
   "The application window is short, running only October 23 to November 6, 2026."
  ],
  "job_id": "usajobs:890242400",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

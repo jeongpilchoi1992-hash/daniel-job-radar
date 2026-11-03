@@ -1,7 +1,7 @@
 {
  "one_liner": "Navy civilian analyst at the Washington Navy Yard tracking cost, schedule and performance of submarine construction, maintenance or modernization programs and briefing senior leaders.",
  "fit_rating": "Long shot",
- "fit_summary": "The specialized experience requirement is narrow: one year of GS-11-level program analysis specifically for submarine construction, maintenance or modernization programs. Daniel's IEM consulting background in emergency management, policy knowledge and relationship skills match the stakeholder, reporting and briefing duties. Nothing on file shows submarine or naval acquisition experience, though, so Daniel likely would not be rated qualified. The SCI clearance requirement is a second major hurdle.",
+ "fit_summary": "The specialized experience is narrow: a year of GS-11-level program analysis for submarine construction, maintenance or modernization, plus SCI eligibility. Daniel's resume shows no naval or defense acquisition program work and no clearance, so he likely would not be rated qualified.",
  "eligibility": [
   "Open to the public, so no federal status is needed. However, this is a public notice flyer, not a live vacancy: you must follow its separate 'How to Apply' directions, and positions may never be filled.",
   "You need one year of specialized experience at the NH-02/GS-11 level conducting program analysis on submarine construction, maintenance or modernization programs. This can be federal, private-sector or public-sector experience.",
@@ -29,14 +29,13 @@
   "First, ask yourself honestly whether any IEM work touched Navy, shipyard, submarine or defense acquisition programs. If none did, treat this as a low-odds application and prioritize program analyst postings at FEMA, DHS, or Virginia VDEM that value emergency-management analysis.",
   "If you do apply, read the flyer's 'How to Apply' section closely, since applications are not accepted through the flyer itself. Submit between Oct 27 and Nov 16, 2026.",
   "Frame your IEM work in program-analysis terms: analyzing program cost, schedule and performance; evaluating effectiveness and compliance; and producing reports and briefings for government clients. List hours per week and dates for each job.",
-  "Use the posting's exact phrases, such as 'program analysis,' 'evaluation methodology' and 'brief senior leadership.' Keep the resume to two tight pages.",
-  "If you hold any existing clearance, state the level and status at the top of your resume, because SCI eligibility is a major filter.",
+  "Use the posting's key terms, such as 'program analysis' and 'evaluation methodology', where they truly describe his work, and keep the resume to two tight pages.",
+  "His resume lists no clearance; if he has ever held one, state the level and status at the top.",
   "Set up USAJOBS saved searches for 'Program Analyst' and 'Emergency Management Specialist' at GS-9/11 in the DC region. That way you can apply where your background fits directly."
  ],
  "resume_bullets": [
-  "Analyzed [cost/schedule/performance data] for [government client] [disaster recovery/preparedness] program totaling [$ amount], identifying [issues] and recommending resolutions adopted by [stakeholder].",
-  "Prepared and delivered [number] briefings and reports to [senior client officials], synthesizing financial, contractual and programmatic information into actionable recommendations.",
-  "Led [review/study] evaluating program compliance with [FEMA/federal regulations, e.g., Stafford Act/2 CFR 200], coordinating with [number] internal and external stakeholders."
+  "Tracked spending and order status in Excel pivot-table reports (2021–2022).",
+  "Delivered detailed notes used to write after-action reports for FEMA full-scale exercises."
  ],
  "interview_questions": [
   "Describe a time you analyzed a program's cost, schedule or performance problem and recommended a resolution.",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:890277500",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "A standing Library of Congress resume database for applicants with certified severe disabilities, used to fill jobs noncompetitively in any series or grade over two years.",
  "fit_rating": "Long shot",
- "fit_summary": "This program is open only to applicants who can submit a certification of a severe disability, and nothing on file indicates Daniel has one. If Daniel does qualify, the fit is good: the Library's Congressional Liaison, Social Science Analyst, Public Affairs and Program Analyst roles match Daniel's policy knowledge, people skills and IEM government-client experience.",
+ "fit_summary": "This program is open only to applicants who can submit a certification of a severe disability, and his resume doesn't indicate one. If he does qualify, the Library's program analyst, public affairs and social science roles fit his research, writing and M.A.",
  "eligibility": [
   "Limited to applicants with a targeted or severe disability, documented by a certificate from a State Vocational Rehabilitation Office, a college disability or career services office, or the VA.",
   "The disability certification must be dated within 3 years of the closing date (Nov 25, 2026) and submitted with the application, or the application will not be considered.",
@@ -33,9 +33,8 @@
   "Apply early rather than near the November 2026 close, since lists can be pulled at any time."
  ],
  "resume_bullets": [
-  "Served as [title] at IEM, supporting [federal/state/local agency] clients on [emergency management/disaster recovery program], coordinating with [number/type] of stakeholders ([hours] hrs/week).",
-  "Researched and analyzed [policy/regulation/program topic] and produced [briefs/reports] used by [client or leadership] to [decision or action].",
-  "Built working relationships with [elected officials/agency staff/public groups] by [method], resulting in [outcome you can verify]."
+  "Oversaw COVID-19 logistics in four states at once, procuring and tracking supplies across six states (2021–2022).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024)."
  ],
  "interview_questions": [
   "Describe a time you explained a complex policy issue to a non-expert audience.",
@@ -51,5 +50,6 @@
  ],
  "job_id": "usajobs:850999700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

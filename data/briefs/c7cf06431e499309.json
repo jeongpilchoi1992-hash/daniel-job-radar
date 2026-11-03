@@ -1,7 +1,7 @@
 {
  "one_liner": "Communications role in the Senate Sergeant at Arms office, likely coordinating media access, credentialing, or press relations; the posting text gives almost no detail.",
- "fit_rating": "Good",
- "fit_summary": "Daniel's political and policy knowledge, ease with people, and consulting work for government clients at IEM suit a Senate media-facing role. The posting text is nearly empty, so the fit can't be confirmed until you read the full announcement at the URL. Senate jobs are not competitive-service, so having no federal status is not a barrier.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's politics knowledge and ease with people suit a Senate media-facing role, and Senate jobs don't require federal status. His resume shows writing and coordination but no media relations or Hill experience, and the posting text is nearly empty; the same job is listed separately with a bachelor's degree requirement, which his degrees cover.",
  "eligibility": [
   "The posting text here does not state who may apply, so open the full announcement at careers.employment.senate.gov and confirm any citizenship or other requirements.",
   "Grade, salary, and specific experience requirements are not stated here; check the full posting for minimum qualifications such as years of media or communications experience.",
@@ -29,9 +29,9 @@
   "The job is open until filled, so apply quickly; Senate postings often close without notice once enough applicants are in."
  ],
  "resume_bullets": [
-  "Coordinated communications with [number/type of] government clients on emergency management and preparedness projects at IEM, preparing [briefings/materials] for [audience].",
-  "Built working relationships with [federal/state/local] stakeholders to [deliver outcome], supporting [project name or scope].",
-  "Drafted [press materials/public messaging/reports] on [topic] for [audience], meeting [deadline or volume]."
+  "Led proposal writing for multimillion-dollar government bids (2019–2024).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024).",
+  "Took minutes at a large travel company's weekly meetings (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "How would you handle a reporter's request for access or information during a fast-moving security situation on the Capitol campus?",
@@ -46,5 +46,6 @@
  ],
  "job_id": "senate:media-relations-coordinator-770-washington-district-of-columbia-1267",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:52-04:00"
+ "generated_at": "2026-10-30T15:52-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Staff role at George Mason University coordinating the Bachelor's/Accelerated Master's program: advising students, processing admissions and progression, and liaising with departments.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's people skills, public-facing ease, and coordination experience at IEM transfer well to a student-facing coordinator role. However, this is higher-education academic administration rather than policy or emergency management. No posting description is available to confirm the requirements, so the fit is uncertain and the role is somewhat off Daniel's stated government-career path.",
+ "fit_summary": "Daniel's coordination work at IEM and his own George Mason graduate degree carry over to a student-facing coordinator role, but this is academic administration rather than emergency management or policy, and no posting text is available to check the requirements.",
  "eligibility": [
   "The posting text is unavailable, so open the jobs.virginia.gov/GMU listing and confirm the minimum qualifications before applying.",
   "Check for a degree requirement; academic coordinator roles commonly require a bachelor's degree, and some prefer a master's or higher-ed advising experience.",
@@ -34,9 +34,9 @@
   "The role is open until filled, so apply quickly."
  ],
  "resume_bullets": [
-  "Coordinated [type of project/deliverable] for [number] government clients at IEM, managing schedules and communications among [stakeholder groups].",
-  "Tracked [records/data/tasks] using [tool], ensuring accurate and timely completion of [deliverable] by [deadline].",
-  "Served as a point of contact for [audience], answering questions about [program/policy/process] and resolving [type of issue]."
+  "Answered applicants' questions at a five-person intake center for ReBuild NC after Hurricane Matthew (2019).",
+  "Screened resumes and conducted 10 scripted interviews for the National Language Service Corps (2018).",
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020)."
  ],
  "interview_questions": [
   "How would you explain accelerated master's program requirements to an undergraduate student who is unsure whether to apply?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "virginia:bachelor-s-accelerated-master-s-bam-academic-coordinator-fairfax-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

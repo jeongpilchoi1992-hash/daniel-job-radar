@@ -1,10 +1,10 @@
 {
  "one_liner": "Air Force direct-hire pool for violence prevention staff at bases and headquarters: running training, programs, and evaluation aimed at harassment, assault, suicide, and other harm.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's people skills, policy knowledge, and government-client consulting at IEM fit the outreach, coordination, and compliance side of this work. However, every grade asks for experience specifically in violence prevention or in behavioral, social science, or public health practice, and that is not on file. The 0101 basic requirement also hinges on a social or behavioral science degree, coursework, or equivalent experience, which Daniel must verify.",
+ "fit_summary": "Every grade asks for experience in violence prevention or in behavioral, social science or public health practice. Daniel's public health response work (vaccination sites, mpox response meetings) is public health practice, though not prevention programming, and his M.A. in Global Affairs includes social science coursework that may meet the 0101 basic requirement, so GS-9 is the target.",
  "eligibility": [
   "Open to the public (U.S. citizens); no federal status or veterans' preference needed, and no clearance required.",
-  "Basic 0101 requirement: a degree in behavioral or social science or a related field, or a qualifying combination of education and experience (both require transcripts), or 4 years of experience equivalent to a major. Check whether your degree (e.g., political science) qualifies.",
+  "Basic 0101 requirement: a degree in behavioral or social science or a related field, or qualifying coursework (transcripts required). His M.A. in Global Affairs (regional ethnography, social movements and human rights, gender and violence) may count; ask HR.",
   "GS-9 requires 1 year of specialized experience at GS-7 level (violence prevention, behavioral/social science or public health duties) or 2 years of graduate education. GS-11 and up require progressively more prevention and training-design experience.",
   "Transcripts must be uploaded with the application if education is used to qualify.",
   "Duty location is an Air or Space Force installation (Multiple Locations) with no telework, so confirm which sites are actually hiring."
@@ -27,17 +27,17 @@
   "evaluated"
  ],
  "strategy": [
-  "Apply at GS-9 (possibly GS-11 if your IEM role was senior). Use public-health language to frame IEM work as preparedness, community resilience, and risk assessment: identifying community risk and protective factors, then planning programs for them.",
+  "Apply at GS-9. Use public health language to frame the IEM work: preparedness for state health agencies, community vaccination operations and risk-focused exercises.",
   "Emphasize any training, exercise design, workshop facilitation, or stakeholder coordination at IEM, since training design and coordination with installation partners map directly to KSAs 3 and 4.",
-  "Name your degree and any social science, psychology, sociology, or public health coursework, and upload transcripts. If the degree is political science, attach transcripts anyway and argue the related-discipline route.",
+  "Name his M.A. in Global Affairs and its social science coursework (regional ethnography, social movements and human rights, gender and violence), upload transcripts and argue the related-discipline route.",
   "Keep the resume to two pages. For each role, list start/end month and year, hours per week, and one or two bullets that mirror the specialized experience wording.",
   "Answer the questionnaire honestly at the level your resume proves; inflated answers the resume doesn't support lead to a 'not qualified' rating.",
   "The announcement stays open until 2026-12-18 and referrals may be pulled periodically, so apply early and reapply or update if your resume changes."
  ],
  "resume_bullets": [
-  "Supported [government client] preparedness program by assessing community risk factors and vulnerable populations across [scope], informing [plan/initiative] in line with [FEMA/state guidance].",
-  "Designed and facilitated [number] trainings/exercises for [audience, size] on [topic], and evaluated effectiveness through [after-action reports/surveys].",
-  "Coordinated with [number] federal, state, and local stakeholders to keep [program] in compliance with [regulations/policies], and briefed [leadership level] orally and in writing."
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, in person and virtually (2022–2024).",
+  "Took part in public health seminars on response and recovery roles (2022–2024).",
+  "Supported COVID-19 vaccination and monoclonal antibody sites (2021–2022) and a state health agency's mpox response (2022–2023)."
  ],
  "interview_questions": [
   "Tell us about a time you designed or delivered training to a group and how you measured whether it worked.",
@@ -46,12 +46,13 @@
   "How do you make sure a program is implemented as designed and complies with policy?"
  ],
  "watch_outs": [
-  "Experience specific to violence prevention or public health is the core qualifier, and it is not in your known background, so you may be rated not qualified without it.",
+  "Violence prevention experience is the core qualifier and is not on his resume; his public health response work counts only if HR accepts it as public health practice, so he may still be rated not qualified.",
   "Degree/0101 basic requirement: a non-social-science degree with no qualifying coursework could disqualify you.",
   "Duty is on an installation in 'Multiple Locations' with no telework, so relocation or a long commute from Manassas may be required.",
   "This is a broad standing pool (direct hire authority covering many titles), so hearing back can be slow or uneven; keep applying to other jobs in parallel."
  ],
  "job_id": "usajobs:852814800",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

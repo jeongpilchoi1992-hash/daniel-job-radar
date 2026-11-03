@@ -1,7 +1,7 @@
 {
  "one_liner": "Entry-to-mid-level administrative support role at ICE handling budget, procurement, HR, property, space, travel, vendors, and fleet management for an office, with promotion potential to GS-12.",
  "fit_rating": "Good",
- "fit_summary": "This is a Direct Hire, public-open announcement with no clearance requirement, and Arlington is commutable from Manassas, so Daniel can realistically compete. Consulting work at IEM for government clients likely maps to the GS-7 or GS-9 specialized-experience duties (applying procedures, working with varied contacts, verifying facts, ensuring compliance), and Daniel's interpersonal strengths fit the customer-service competencies. The gap is hands-on administrative operations like budget, procurement, property, and fleet, which Daniel would need to document from actual IEM duties.",
+ "fit_summary": "This Direct Hire, public announcement has no clearance requirement, and Arlington is commutable from Manassas, so Daniel can realistically compete. His IEM work maps to the GS-7 or GS-9 specialized experience (applying procedures, working with varied contacts, verifying facts, ensuring compliance), and he did hands-on administrative operations there: purchasing and tracking supplies, vendor relationships, spending reports, office security, travel support and help with onboarding. GS-9 is the level to aim for.",
  "eligibility": [
   "Open to the public (U.S. citizens) under OPM Direct Hire Authority; veterans' preference and category rating do not apply, and no federal status is needed.",
   "GS-07 requires one year of specialized experience equivalent to GS-05 showing at least 3 of the 4 listed duties, or one full year of graduate education, or a combination.",
@@ -31,13 +31,13 @@
   "Frame your IEM role around what you actually did, such as tracking deliverables, reconciling data or invoices, applying FEMA or program guidance, coordinating with government clients and vendors, and supporting reports, and then mirror the specialized-experience duty language in your own words without copy-pasting.",
   "Write the IEM entry so at least three GS-9 duties are clearly visible as separate bullets, and include start and end dates (month/year) and hours per week to establish one full year.",
   "Keep the resume to two pages, put IEM first with the most detail, and condense older or unrelated roles to a line or two.",
-  "If you have graduate coursework, upload unofficial transcripts so HR can apply the education or combination route.",
+  "Upload his George Mason transcript: a master's can meet GS-9 on education where the posting allows it.",
   "Answer the questionnaire honestly and choose an expert level only where a resume bullet backs it up, then set aside quiet time for the online competency assessment."
  ],
  "resume_bullets": [
-  "Applied [FEMA Public Assistance / program] regulations and procedures to review [number] [project files/applications] for [government client], ensuring compliance and flagging discrepancies for correction.",
-  "Reconciled [budget/invoice/data] discrepancies across [number] sources for [client/project], verifying facts and recommending corrections to [project manager/client lead] that [result, if known].",
-  "Served as primary point of contact with [client agency staff/vendors/stakeholders], exchanging information and resolving [type] issues to keep [deliverable/project] on schedule."
+  "Handled office manager duties at IEM (2019–2024): office security, first-line IT troubleshooting, deliveries and conference supplies, and help with onboarding and offboarding.",
+  "Answered employee travel-expense questions in Certify and booked flights for corporate-level staff.",
+  "Procured and tracked medical supplies for sites in six states, and set up relationships with medical supply and truck rental vendors (2021–2022)."
  ],
  "interview_questions": [
   "Tell us about a time you found an inconsistency in data or records. How did you resolve it?",
@@ -53,5 +53,6 @@
  ],
  "job_id": "usajobs:890994700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:05-04:00"
+ "generated_at": "2026-10-30T15:05-04:00",
+ "resume_revision": "2026-11-02"
 }

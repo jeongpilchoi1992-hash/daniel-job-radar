@@ -1,7 +1,7 @@
 {
  "one_liner": "Buy classified and unclassified IT services for DISA as a federal contracting officer's specialist: plan acquisitions, issue solicitations, evaluate proposals, negotiate, award and administer contracts.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a technical GS-1102 contracting job that requires at least a year of hands-on procurement work (pre-/post-award actions, cost/price analysis, or writing PWS/acquisition plans), plus a bachelor's degree and SCI eligibility. Daniel's IEM consulting and policy knowledge help with the client-advisor side, but unless Daniel actually did proposal pricing, contract administration, or procurement documentation at IEM, the specialized experience requirement likely isn't met. Any real proposal, pricing, or contract-management work at IEM is the only path to qualifying, most plausibly at GS-11.",
+ "fit_summary": "This GS-1102 job requires a year of hands-on procurement (pre- and post-award actions, cost or price analysis, writing performance work statements or acquisition plans), a bachelor's degree and SCI eligibility. Daniel's contractor-side proposal writing and medical-supply purchasing at IEM are his only path to qualifying, most plausibly at GS-11, and HR may not count them.",
  "eligibility": [
   "Open to the public under DoD Direct Hire Authority (5 USC 9905); no status needed, and veterans' preference does not apply.",
   "Bachelor's degree from an accredited institution is mandatory, and you must upload transcripts with the application or you are disqualified.",
@@ -27,17 +27,16 @@
   "information technology services"
  ],
  "strategy": [
-  "Apply at GS-11 only. Daniel likely lacks the independent award authority needed for GS-12 or GS-13.",
+  "If he applies, apply at GS-11 only; GS-12 and 13 need independent federal contracting experience his resume doesn't show.",
   "Inventory IEM work honestly for anything contract-related: proposal pricing, labor-category costing, task order management, invoicing and deliverable tracking, subcontractor oversight, or drafting SOW/PWS language for government clients. Describe that work in the posting's terms.",
   "State the specialized experience inside the resume body, as the posting requires. Keep it within two pages, with dates, hours per week, and the GS-09-level procurement duties stated plainly.",
   "Present the client-facing consulting work as 'business advisor to mission partners' and the government-client work as familiarity with the Federal acquisition lifecycle. Do not claim warrants or awards Daniel didn't make.",
   "Upload college transcripts with the application. The posting closes 12/2/2026, and direct-hire announcements can close early or cut off at an applicant cap, so apply early.",
-  "If Daniel doesn't qualify, look for GS-1102 trainee or intern programs (DoD acquisition development programs, DAU-linked entry roles) at GS-7/9, or for 0301/0089 emergency-management roles that match the IEM background better."
+  "If GS-11 is out of reach, look for GS-1102 trainee or intern programs at GS-7/9, or for emergency management and logistics roles that match his IEM work better."
  ],
  "resume_bullets": [
-  "Supported [number] [federal/state/local] government contracts valued at [$amount] at IEM, tracking deliverables, invoices, and modifications for post-award contract administration [hours/week].",
-  "Developed cost proposals and labor-category pricing for [number] responses to government solicitations, performing price analysis to [describe outcome you can document].",
-  "Drafted [SOW/PWS/market research] sections for [client] [type of project] requirements, coordinating with program staff on acquisition planning and schedules."
+  "Found multimillion-dollar opportunities in SAM.gov, GovWin, BidPro and the DHS acquisition forecast, and led proposal writing (2019–2024).",
+  "Tracked orders and spending in Excel pivot-table reports (2021–2022)."
  ],
  "interview_questions": [
   "Walk us through how you would determine whether a proposed price is fair and reasonable.",
@@ -53,5 +52,6 @@
  ],
  "job_id": "usajobs:883196200",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:08-04:00"
+ "generated_at": "2026-10-30T15:08-04:00",
+ "resume_revision": "2026-11-02"
 }

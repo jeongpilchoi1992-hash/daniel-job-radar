@@ -1,7 +1,7 @@
 {
  "one_liner": "Fundraiser for the National Gallery of Art who cultivates and solicits foundation and corporate donors, writes proposals, and project-manages exhibition fundraising and grants.",
  "fit_rating": "Stretch",
- "fit_summary": "Your relationship-building, public-facing strengths and government-client consulting at IEM line up with the cultivation and stakeholder-management side of this role. However, the specialized experience requires documented fundraising or business development results, proposal preparation, donor solicitation AND managing a corporate prospect/donor portfolio. You qualify only if your IEM work (for example, business development, capture, or proposal writing) or volunteer fundraising can honestly show all three.",
+ "fit_summary": "The specialized experience requires documented fundraising or business development results, proposal preparation, donor solicitation and managing a corporate prospect portfolio. Daniel's business development at IEM covers part of it (finding multimillion-dollar contract opportunities in GovWin, SAM.gov and DHS forecasts and leading proposal writing, 2019 to 2024), but his resume shows no donor solicitation or portfolio management, so it stays a stretch.",
  "eligibility": [
   "Open to the public: U.S. citizens may apply, and no federal status is required.",
   "You need one year of specialized experience equivalent to GS-09 in fundraising or business development with documented results. It must include preparing proposals, soliciting new or existing donors, AND managing portfolio(s) of corporate prospects or donors to meet fundraising goals.",
@@ -26,17 +26,17 @@
   "Influencing/Negotiating"
  ],
  "strategy": [
-  "Before applying, confirm your IEM role involved business development: writing or contributing to proposals for government contracts, pursuing new clients, or managing a client or pipeline portfolio. If it did, frame it as revenue generation with dollar figures and win rates.",
-  "Use the posting's exact language in your resume: 'prepared proposals,' 'solicited new and existing clients/donors,' and 'managed a portfolio of [X] prospects to achieve [goal].' HR cannot assume equivalence.",
+  "Frame the IEM business development as revenue work, with the number of bids, their total value and any wins if he can confirm them. Add any fundraising he did as an AmeriCorps VISTA with Habitat for Humanity.",
+  "Use the posting's language where it is true: 'prepared proposals' fits his IEM proposal leadership, but 'solicited donors' and 'managed a portfolio of prospects' need real examples, such as any fundraising he did as an AmeriCorps VISTA, if true. HR cannot assume equivalence.",
   "Add any volunteer fundraising, such as campaign finance calls, nonprofit galas, or political or community donor outreach, with month/year dates and hours per week. The posting explicitly credits volunteer work.",
   "Keep the resume to two pages. List dates and hours per week for each role, and place the specialized-experience evidence in the first bullets of each job.",
   "Preview the questionnaire, and answer 'expert' only where your resume shows proof. Overstating can remove you from consideration.",
   "Apply between Oct 28 and Nov 11, 2026. Have a writing sample ready, such as a proposal excerpt or donor letter, because referred candidates may be asked for one."
  ],
  "resume_bullets": [
-  "Prepared and submitted [number] proposals to [government/foundation/corporate] clients totaling $[amount], securing $[amount] in awards ([month/year–month/year], [hours]/week).",
-  "Managed a portfolio of [number] client/prospect relationships, developing outreach strategies and soliciting new and existing partners to reach a $[goal] revenue target; achieved [result].",
-  "Coordinated cross-functional teams of [roles] to deliver [project] on schedule, tracking milestones and stakeholder communications in [tool/CRM]."
+  "Led proposal writing for multimillion-dollar government bids after finding the opportunities in SAM.gov, GovWin and BidPro (2019–2024).",
+  "Worked with FEMA, state agencies, local governments and a large travel company across seven years at IEM (2019–2026).",
+  "Served as an AmeriCorps VISTA with Habitat for Humanity."
  ],
  "interview_questions": [
   "Walk us through a time you identified, cultivated, and closed a new funder or client. What was the result?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "usajobs:890489600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:08-04:00"
+ "generated_at": "2026-10-30T15:08-04:00",
+ "resume_revision": "2026-11-02"
 }

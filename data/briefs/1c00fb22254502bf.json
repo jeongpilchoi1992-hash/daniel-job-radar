@@ -1,9 +1,9 @@
 {
  "one_liner": "Senior DoD IT program manager at DMDC leading identity management and infrastructure modernization portfolios, including acquisition strategy, budgets, risk, and senior-executive advising.",
  "fit_rating": "Long shot",
- "fit_summary": "This role requires a year of specialized experience at the GS-12 equivalent managing IT programs, which means project plans, performance metrics, cost/schedule/performance risk, and IT business cases. Daniel's IEM consulting background in emergency management and strong stakeholder skills are relevant to program work, but nothing on file shows IT program or acquisition experience. Daniel would likely be screened out unless the IEM work involved managing technology projects or systems.",
+ "fit_summary": "This role needs a year at GS-12 level managing IT programs (plans, metrics, cost and schedule risk, IT business cases). Daniel's project operations at IEM had no IT program component, so he'd likely be screened out.",
  "eligibility": [
-  "Open to the public and to military spouses, so Daniel can apply with no federal status.",
+  "Open to the public and to military spouses, so federal status is not required.",
   "Requires one year of specialized experience equivalent to GS-12 (for GS-13) or GS-13 (for GS-14) in IT program management, and education cannot substitute.",
   "You must be able to obtain and keep a Secret security clearance.",
   "You must meet DAWIA Level III certification in the Information Technology career field within 24 months of appointment."
@@ -26,16 +26,12 @@
   "Identity Management"
  ],
  "strategy": [
-  "Before applying, confirm honestly whether your IEM work included managing projects with IT, data, or system components, such as grants-management platforms or recovery tracking systems. If it did not, skip this posting and target GS-0301/0340 emergency management or program analyst roles at GS-9 to GS-11.",
-  "If you qualify, describe the IEM work in the posting's terms: project plans, performance metrics, risk to cost/schedule/performance, and business cases, each with dates and hours per week.",
-  "Fit everything within the two-page USAJOBS limit, putting the most recent 12+ months of qualifying experience first and stating the specialized experience directly.",
-  "Highlight work advising government clients and senior officials, which maps to the stakeholder and consensus-building language.",
-  "The posting closes 2026-11-15 but may close early or have cutoffs, so apply early."
+  "Skip this one: it requires a year at GS-12 level managing IT programs, education cannot substitute for it, and his resume shows no IT program management.",
+  "Put the effort into GS-0301 program, GS-0343 management and program analyst, and GS-0089 emergency management roles at GS-9 to GS-12, where his IEM work fits."
  ],
  "resume_bullets": [
-  "Managed [number] concurrent projects for [government client] supporting [system/technology], developing project plans, tracking performance metrics, and delivering status updates to [audience].",
-  "Analyzed program requirements and identified risks to cost, schedule, and performance for [project], recommending mitigations that [result you can verify].",
-  "Briefed [senior officials/client executives] on [topic], building consensus on program objectives across [number] stakeholder groups."
+  "Served as on-site assistant to project managers at COVID-19 mass care sites and oversaw logistics in four states at once (2021–2022).",
+  "Handled first-line IT troubleshooting with IT support and helped with employee onboarding at IEM (2019–2024)."
  ],
  "interview_questions": [
   "Describe an IT project you managed from planning through delivery. How did you track cost, schedule, and performance?",
@@ -50,5 +46,6 @@
  ],
  "job_id": "usajobs:868115100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:00-04:00"
+ "generated_at": "2026-10-30T15:00-04:00",
+ "resume_revision": "2026-11-02"
 }

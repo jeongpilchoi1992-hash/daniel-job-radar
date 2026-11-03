@@ -1,7 +1,7 @@
 {
  "one_liner": "Federal contract specialist at CMS who writes solicitations, negotiates contracts, analyzes prices and administers awards under the FAR for HHS programs.",
  "fit_rating": "Stretch",
- "fit_summary": "This GS-11 role requires one year of GS-09-level experience preparing acquisition documents (solicitations, market research, J&As, awards) and reviewing them for regulatory compliance. Daniel's work at IEM may have touched government contracts or proposals, but unless that experience involved real procurement document preparation and review, Daniel likely won't qualify. The negotiation and relationship skills fit well, but they can't substitute for the specialized experience.",
+ "fit_summary": "This GS-11 role requires a year of GS-9-level experience preparing acquisition documents (solicitations, market research, justifications, awards) and reviewing them for compliance. Daniel's closest work is the contractor side: researching opportunities in SAM.gov, GovWin and DHS forecasts, leading proposal writing (2019 to 2024) and buying medical supplies for vaccination sites. That shows he knows how solicitations work, but HR may not count proposal work as preparing acquisition documents.",
  "eligibility": [
   "Open to the public (hiring paths: public and federal transition), so no federal status is needed; no clearance is required.",
   "You need at least 52 weeks of specialized experience equivalent to GS-09: preparing acquisition documents AND reviewing them for compliance with terms or regulations. Alternatively, a Ph.D., LL.M., or 3 years of graduate study in a listed field can substitute.",
@@ -26,17 +26,17 @@
   "Influencing/Negotiating"
  ],
  "strategy": [
-  "Before applying, write down exactly what you did at IEM involving contracts: proposals, task orders, subcontracts, compliance reviews, or invoicing against federal or FEMA awards. Apply only if you can honestly document a year of preparing AND reviewing acquisition documents.",
-  "Frame consulting work from the contractor side using acquisition language. Examples: responding to RFPs, analyzing solicitations and statements of work, building cost or price proposals, and checking deliverables against contract terms. Include hours per week and dates for each role.",
+  "List exactly what his proposal work involved, such as reading solicitations and leading proposal writing; add technical volumes, pricing input or compliance checklists only if he did them, since his resume doesn't show them. Apply at GS-11 only if he can document a year of preparing and reviewing documents like these.",
+  "Frame his proposal work from the contractor side using acquisition language: responding to RFPs and reading solicitations and statements of work. Add cost or price proposals or checks of deliverables against contract terms only if he did them. Include hours per week and dates for each role.",
   "Use the two-page limit for specifics, not copied posting text. The announcement explicitly says copy-pasting gets you rated ineligible, so describe your actual tasks in your own words.",
   "Answer the questionnaire honestly at the level your resume supports, because an SME may verify your responses. Upload your transcripts, and prepare for the competency assessment (reading comprehension, reasoning).",
-  "If you don't qualify at GS-11, look for GS-1102-07/09 or Pathways/developmental acquisition intern postings. Those fit your degree and people skills and lead to the same career, with promotion potential here up to GS-12.",
+  "If GS-11 is out of reach, look for GS-1102-07/09 or developmental acquisition postings, and ask HR whether his Global Affairs M.A. (with economics and trade coursework) counts as related graduate education for GS-9.",
   "The posting is open until January 15, 2027, but apply early, since long-open announcements may pull candidates periodically."
  ],
  "resume_bullets": [
-  "Prepared [cost/technical proposal sections] in response to [number] federal and state solicitations for [emergency management/disaster recovery] services. Analyzed the SOW, evaluation criteria, and FAR clauses to ensure compliance ([hours/week], [dates]).",
-  "Reviewed [task orders/subcontracts/invoices] against contract terms and conditions for [client agency/program], identifying [issues] and coordinating corrections with [client contracting staff/program managers].",
-  "Negotiated [scope/pricing/schedule] with [stakeholders] on [project], resolving resistance and documenting agreements to support [award/modification]."
+  "Read and answered federal and state solicitations: found multimillion-dollar opportunities in SAM.gov, GovWin and BidPro and led proposal writing (2019–2024).",
+  "As part of the logistics team, procured medical supplies, equipment and vaccines for COVID-19 sites in six states and set up vendor relationships (2021–2022).",
+  "Tracked orders and spending in Excel pivot-table reports for the logistics team."
  ],
  "interview_questions": [
   "Describe a time you prepared or reviewed a contract or solicitation document. What regulations or terms did you check against?",
@@ -52,5 +52,6 @@
  ],
  "job_id": "usajobs:876500300",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

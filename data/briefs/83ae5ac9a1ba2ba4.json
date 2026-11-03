@@ -1,7 +1,7 @@
 {
  "one_liner": "Manage part of the compliance program for Loudoun County's behavioral health department, likely covering regulatory, licensing and documentation compliance for mental health, substance use and developmental services.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's consulting work for government clients and strong policy knowledge are relevant to regulatory and program-management work. However, this compliance manager role in a behavioral health department likely expects direct experience with healthcare or human-services compliance, such as Virginia DBHDS licensing, Medicaid billing or HIPAA, which Daniel's known background does not show. The posting text is very thin, so the full job description should be checked before deciding.",
+ "fit_summary": "This compliance manager role in a behavioral health department likely expects healthcare or human-services compliance (DBHDS licensing, Medicaid billing, HIPAA), which Daniel's resume doesn't show. His Lean Six Sigma Yellow Belt and claims processing at CorVel are adjacent, and the posting text is thin, so check the full description before deciding.",
  "eligibility": [
   "Minimum qualifications (education and years of experience) are not in the text provided; check the full posting on governmentjobs.com before applying.",
   "Find out whether the role requires prior compliance, audit or behavioral-health experience, or a related degree or certification (for example CHC). Treat this as a likely hurdle until confirmed.",
@@ -29,9 +29,9 @@
   "If the role clearly requires behavioral-health compliance experience you lack, consider applying anyway while also targeting Loudoun's emergency management or policy analyst roles, which are a closer match."
  ],
  "resume_bullets": [
-  "Interpreted and applied [federal/state regulations, e.g., FEMA Public Assistance rules] for [number] government client projects, ensuring documentation met [audit/grant] requirements.",
-  "Coordinated with [client agencies/stakeholders] to track compliance with [contract/grant] deliverables, identifying [issues] and recommending corrective actions that [result].",
-  "Developed and delivered [trainings/briefings] on [policy or procedure topic] to [audience and size], improving [measurable outcome]."
+  "Supported a state public health agency's mpox response by taking minutes at its weekly response meetings (Dec 2022 – Mar 2023).",
+  "Provided scholarly research that helped a state public health agency's analysts review trauma-incident training recertification.",
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "Describe a time you found a compliance gap or documentation error. What did you do?",
@@ -47,5 +47,6 @@
  ],
  "job_id": "neogov:loudoun:5534493",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:03-04:00"
+ "generated_at": "2026-10-30T15:03-04:00",
+ "resume_revision": "2026-11-02"
 }

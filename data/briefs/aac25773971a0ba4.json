@@ -1,7 +1,7 @@
 {
  "one_liner": "Not a real job: an Air Force placeholder announcement pointing you to its Direct Hire Job Board, where actual Business and Industry (1100-series) openings are posted.",
  "fit_rating": "Stretch",
- "fit_summary": "This listing has no duties, grade-specific qualifications, or evaluation criteria, so fit can't be judged and applying here likely won't produce a referral. Daniel's IEM consulting background in emergency management and government clients could suit some 1100-series roles like contracting, program analysis, or industrial property work. That depends entirely on the specific Direct Hire Job Board posting Daniel targets.",
+ "fit_summary": "This listing has no duties or grade-specific qualifications, so it's a pointer to the Air Force Direct Hire Job Board. Daniel's proposal and procurement work at IEM could suit some 1100-series openings there, such as contracting trainee or industrial property roles, depending on the specific posting.",
  "eligibility": [
   "Hiring path is listed as 'public,' and Direct Hire Authority is described as open to applicants with no prior federal status, so no status or veterans' preference is needed.",
   "Security clearance is listed as 'Not Required' here, but individual Direct Hire Job Board postings may differ; check each one.",
@@ -20,16 +20,16 @@
  ],
  "strategy": [
   "Treat this as a signpost: open the Direct Hire Job Board link and find a specific Business and Industry posting with a clear grade, duties, and location near Manassas (for example, Pentagon or Joint Base Andrews).",
-  "Before applying, confirm your IEM title, dates, hours per week, and duties so you can match them to the target posting's specialized experience at the next-lower grade.",
+  "Before applying to a specific opening, match his IEM titles and dates (Associate Assistant 2019 to 2021, Operations Specialist 2021 to 2024, Project Operations Specialist 2024 to 2026) and hours per week to its specialized experience at the next-lower grade.",
   "Frame the IEM work as government-client program support: contract deliverables, stakeholder coordination with federal, state, or local agencies, and disaster recovery or preparedness planning, whichever you actually did.",
-  "Keep the resume to two pages and mirror the exact specialized-experience and duty language from the target posting.",
+  "Keep the resume to two pages and answer the target posting's specialized-experience and duty statements in his own words.",
   "Answer any questionnaire honestly at the highest level you can back up with a specific resume line, since direct hire still screens on minimum qualifications.",
   "This announcement stays open until 2027-03-30, but individual board postings may close fast or cap applicants, so apply soon after finding a match."
  ],
  "resume_bullets": [
-  "Supported [federal/state/local client agency] on [emergency management/disaster recovery program] as [title] at IEM, [dates], [hours]/week, coordinating [deliverables/tasks] with [number] stakeholders.",
-  "Analyzed [program data/costs/requirements] for [client] and prepared [reports/briefings] used to [decision or outcome you can verify].",
-  "Served as liaison between [client officials/public/vendors] and project team, resolving [type of issue] and maintaining [schedule/budget/compliance] for [project]."
+  "Found multimillion-dollar opportunities in SAM.gov, GovWin, BidPro and the DHS acquisition forecast, and led proposal writing (2019–2024).",
+  "As part of the logistics team, procured and tracked medical supplies, equipment and vaccines across six states, with pivot-table reports on spending (2021–2022).",
+  "Served as on-site assistant to project managers at COVID-19 mass care sites (2021–2022)."
  ],
  "interview_questions": [
   "Tell us about your work at IEM and how it relates to supporting a government program.",
@@ -44,5 +44,6 @@
  ],
  "job_id": "usajobs:863317800",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:08-04:00"
+ "generated_at": "2026-10-30T15:08-04:00",
+ "resume_revision": "2026-11-02"
 }

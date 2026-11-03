@@ -1,7 +1,7 @@
 {
  "one_liner": "A George Mason University staff role coordinating research events and keeping facilities running smoothly, likely on the Arlington campus. The posting text is not available.",
  "fit_rating": "Good",
- "fit_summary": "Daniel's people skills and comfort with the public suit an events-coordination role, and consulting work at IEM likely involved logistics, exercises, or stakeholder meetings that transfer well. The facilities-operations side is less proven, and with no description on file, fit can't be confirmed until Daniel reads the full posting.",
+ "fit_summary": "Daniel's events and operations work fits well: he handled conference supplies, deliveries and office manager duties at IEM (2019 to 2024), helped stand up mass vaccination sites, and attended APHA and preparedness conferences. The facilities-operations side is less proven, and with no description on file, confirm the fit in the full posting.",
  "eligibility": [
   "Open the full posting on jobs.virginia.gov or GMU's Jobs site to confirm who may apply, required qualifications, and the salary range. None of these are stated in the data provided.",
   "Check for any required degree, years of events or facilities experience, or certifications. No degree or license requirement is known yet.",
@@ -25,7 +25,7 @@
   "university"
  ],
  "strategy": [
-  "Get the full description first and mirror its exact duty and qualification language. The keywords above are inferred from the title only.",
+  "Get the full description first and use its duty and qualification terms where they are true. The keywords above are inferred from the title only.",
   "Frame IEM experience around concrete logistics, such as coordinating meetings, trainings, exercises, or site visits for government clients, if that was part of your role. State only what you actually did.",
   "Lead with relationship-building and public-facing strengths, since research events mean hosting faculty, sponsors, and policymakers. Your policy knowledge is a plus for Arlington-based policy research centers.",
   "Add any facilities-adjacent experience, such as room setup, AV, equipment, safety or continuity planning, or contractor coordination. Emergency-preparedness work can show strength in facility safety planning.",
@@ -33,9 +33,9 @@
   "Apply promptly, because 'open until filled' postings can close without notice. Prepare a short cover letter naming the research center if it is identified."
  ],
  "resume_bullets": [
-  "Coordinated logistics for [number] [meetings/trainings/exercises] for [government client type] at IEM, managing [venues, vendors, schedules, materials] for up to [number] participants.",
-  "Served as primary point of contact for [stakeholder group], handling [requests/communications] and resolving [issues] to keep [project/event] on schedule.",
-  "Supported [preparedness/continuity] planning by [specific task], including [facility, safety, or space considerations] for [client]."
+  "Handled office manager duties at IEM (2019–2024): office security, first-line IT troubleshooting with IT support, deliveries and conference supplies, and help with onboarding and offboarding.",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, in person and virtually (2022–2024).",
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "Walk us through an event you planned from start to finish. What went wrong, and how did you handle it?",
@@ -50,5 +50,6 @@
  ],
  "job_id": "virginia:research-events-facilities-operations-coordinator-arlington-virginia-united-states",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:52-04:00"
+ "generated_at": "2026-10-30T15:52-04:00",
+ "resume_revision": "2026-11-02"
 }

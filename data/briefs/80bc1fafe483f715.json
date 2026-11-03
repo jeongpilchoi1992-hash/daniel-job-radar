@@ -1,7 +1,7 @@
 {
  "one_liner": "Run U.S. Cyber Command's internal publications and policy program: review draft instructions, train staff, track updates, and support legal discovery processes.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's policy knowledge and people skills suit the training, coordination, and stakeholder parts of this job. The core requirement, though, is one year of specialized experience managing a publications or directives program and reviewing issuances for compliance, and nothing on file shows that yet. A Top Secret clearance requirement adds another hurdle.",
+ "fit_summary": "Daniel's document work (minutes for a large travel company's weekly meetings and a state public health agency's mpox response meetings, emergency forms for the travel company, aligning EMI courses with FEMA field manuals) touches this job's review side. The core requirement is a year managing a publications or directives program and reviewing issuances for compliance, which his resume doesn't show, and a Top Secret clearance adds a hurdle.",
  "eligibility": [
   "Who may apply lists 'public', but the text says only applicants meeting specific employment authority categories qualify, with proof documents; confirm which category Daniel fits as a U.S. citizen with no prior federal service.",
   "One year of specialized experience is required: analyzing publications, policies, and directives for compliance, managing a publications program, coordinating reviews, and developing SOPs.",
@@ -29,15 +29,15 @@
  "strategy": [
   "Apply in the narrow window, October 29 to November 5, 2026. Build the resume in advance and upload the full version under 'Other Documents', since the two-page limit is waived here.",
   "Frame the IEM work around any document tasks you actually did. Examples include reviewing or drafting emergency plans, SOPs, guidance, or after-action reports for compliance with FEMA or client policy, and managing document version control or libraries.",
-  "Mirror the specialized-experience language closely. Give a separate bullet each for reviewing documents for accuracy and compliance, maintaining current publications, coordinating stakeholder reviews, and building SOPs, with dates and hours per week.",
-  "Highlight your training and outreach strengths, since the job includes training action officers and conducting staff visits.",
+  "Use the specialized-experience terms only where they are true, and give a separate bullet, with dates and hours per week, for each document task he can show, such as aligning EMI training goals with FEMA field manuals and building emergency management best practices into the travel company's emergency forms. Do not claim publications maintenance, stakeholder reviews or SOP building he has not done.",
+  "The job includes training action officers and conducting staff visits; point to his facilitation of full-scale and tabletop exercises for federal, state and private-sector clients as the closest match.",
   "Answer the questionnaire honestly, rating yourself 'expert' only where the resume backs it up. The posting warns that inflated qualifications cost consideration.",
   "Gather proof-of-eligibility documents for your employment authority category before the job opens."
  ],
  "resume_bullets": [
-  "Reviewed and edited [number] [emergency operations plans/SOPs/guidance documents] for [client] against [FEMA/state/client] requirements for accuracy, completeness, and compliance; [hours/week], [dates].",
-  "Maintained [document library/repository] of [number] plans and policies, tracking revision cycles to keep publications current and accessible to [audience].",
-  "Coordinated document reviews with [number] stakeholders across [agencies/offices] and trained [number] staff on [process/SOP], resulting in [result, if known]."
+  "Brought emergency management best practices into a large travel company's emergency forms (Feb – Aug 2024).",
+  "Aligned training goals between Emergency Management Institute courses and FEMA field guide training manuals.",
+  "Delivered detailed notes used to write the after-action reports for FEMA full-scale exercises."
  ],
  "interview_questions": [
   "Describe a time you reviewed a policy or procedural document for compliance. What did you find, and how did you resolve it?",
@@ -46,12 +46,13 @@
   "Tell us about developing or improving an SOP."
  ],
  "watch_outs": [
-  "The specialized experience is very specific to publications and directives management; if IEM work did not involve that, Daniel may be rated ineligible.",
+  "The specialized experience is specific to publications and directives management, and his resume doesn't show it, so an ineligible rating is likely.",
   "Top Secret clearance and Fort Meade location: about an hour or more from Manassas each way, with telework only partial.",
   "The posting says 'public' but limits applicants to employment authority categories, so verify eligibility before investing time.",
   "The application window is only one week."
  ],
  "job_id": "usajobs:890226100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Executive running CISA Central, the agency's 24/7 watch-and-warning hub that coordinates threat information and incident response for cyber and physical infrastructure.",
  "fit_rating": "Long shot",
- "fit_summary": "This is a Senior Executive Service job that requires proven executive leadership: leading people, managing budgets, and running acquisition and human capital programs at major scale. Daniel's emergency-management consulting background at IEM and strong relationship skills touch TQ 1 and parts of the mission. Nothing on file, however, shows the executive-level budget, supervisory, or cyber operations experience that the ECQs and TQ 2 demand. Treat this as a target for later in Daniel's career, not a realistic application now.",
+ "fit_summary": "This SES job requires executive leadership of people, budgets, acquisition and human capital programs at scale, plus cyber operations. Daniel's exercise and emergency planning work touches the mission, but his resume shows no executive or cyber experience, so skip it.",
  "eligibility": [
   "Open to the public (hiring paths include 'public'), so you do not need federal status, and veterans' preference does not apply to SES.",
   "You must show all five Executive Core Qualifications (ECQs) and both Technical Qualifications (TQs) inside a resume of no more than 2 pages. Separate narratives are not accepted.",
@@ -27,16 +27,12 @@
   "Achieving Results"
  ],
  "strategy": [
-  "Be realistic. Without executive supervisory and budget authority, the QRB will likely not certify you, so consider GS-11 to GS-13 CISA or FEMA roles (operations, stakeholder engagement, preparedness) as stepping stones.",
-  "If you still apply, frame your IEM work by its government clients, disaster response and preparedness projects, and any team leadership, budget, or contract management. State only your real duties and scope.",
-  "Use the posting's ECQ and TQ language, such as 'Leading People' and 'budget formulation', as resume subheadings or bolded phrases. Back each one with a concrete example in context-action-result form.",
-  "Your policy knowledge supports ECQ 1 (Commitment to the Rule of Law), and your relationship-building supports TQ 1. Show both with specific stakeholder or official-facing examples.",
-  "Keep the resume to exactly 2 pages, with dates, hours per week, and titles. Review the OPM sample resume referenced in the posting (pages 16-17). Submit before November 5, 2026."
+  "Skip this one: this SES job requires executive leadership of people, budgets, acquisition and human capital programs at scale, plus cyber operations, and his resume shows no executive or cyber experience.",
+  "Put the effort into GS-9 to GS-12 CISA or FEMA roles in operations or preparedness, where his exercise and emergency management work fits."
  ],
  "resume_bullets": [
-  "Supported [client agency] disaster recovery/preparedness program at IEM as [title], coordinating with [number/type] state, local, and federal officials to [specific outcome].",
-  "Managed [budget/contract amount] for [project], tracking costs and deliverables to [result, e.g., delivered on schedule], demonstrating resource stewardship.",
-  "Briefed [senior leadership/government officials] on [emergency management topic], producing [number] products that informed [decision or plan]."
+  "Led a Simulation Cell unit at FEMA full-scale exercises two years in a row.",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024)."
  ],
  "interview_questions": [
   "Describe a time you led a team through change and held people accountable for results.",
@@ -47,9 +43,10 @@
  "watch_outs": [
   "This is an SES executive role, and your known experience likely falls well short of the ECQ and TQ requirements.",
   "It requires SCI clearance eligibility and may be designated essential personnel (reporting during closures and continuity events).",
-  "The application window is short (Oct 23 to Nov 5, 2026). The posting says Washington, DC, but the duty location is Arlington, VA, a manageable commute from Manassas."
+  "The posting says Washington, DC, but the duty location is Arlington, VA."
  ],
  "job_id": "usajobs:889987100",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

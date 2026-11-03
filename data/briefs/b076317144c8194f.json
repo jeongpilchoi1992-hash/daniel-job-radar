@@ -1,7 +1,7 @@
 {
  "one_liner": "Open-continuous Air Force public notice filling violence-prevention workforce roles (strategy, communications, program analysis, resilience leadership) at GS-9 to GS-15 in multiple locations.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's policy knowledge, people skills and IEM consulting background fit the strategy, communications and relationship-building parts of these roles. However, every grade's specialized experience centers on violence prevention and behavioral, social science or public health practice, which Daniel's known background does not clearly show. GS-9 is the realistic target, and only if the IEM work can be honestly tied to prevention, resilience or public health programs, or if Daniel holds a qualifying graduate degree.",
+ "fit_summary": "Every grade's specialized experience centers on violence prevention and behavioral, social science or public health practice. Daniel's public health response work (vaccination sites, mpox response, preparedness seminars) is public health practice but not prevention programming, so GS-9 is the realistic target; related graduate study may count there, and his M.A. includes social science coursework, so ask whether it qualifies.",
  "eligibility": [
   "Hiring path is listed as 'public,' so U.S. citizens without prior federal service may apply.",
   "GS-9 requires one year of specialized experience equivalent to GS-07 (violence prevention; behavioral, social science or public health duties). The alternative is 2 years of graduate education, with transcripts submitted.",
@@ -27,17 +27,17 @@
   "effective working relationships"
  ],
  "strategy": [
-  "Target GS-9 and possibly GS-11. Do not self-rate into GS-13 and above unless you have supervised staff on prevention programs.",
+  "Target GS-9, where his M.A. may stand in for experience. Don't self-rate into GS-11 or above unless he has a year of violence-prevention program work at the next-lower grade.",
   "Frame the IEM work around preparedness, community resilience, risk assessment and stakeholder outreach, linking it to prevention and resilience only where truthful. Spell out your actual title, dates, hours per week and duties.",
-  "Lead with policy analysis, briefing officials and relationship-building, which map to KSA 2 (laws and regulations) and KSA 4 (tact and diplomacy with high-level officials).",
+  "Lead with his Rural Health Transformation Program tracking for KSA 2 (laws and regulations) and his exercise facilitation for federal, state and private-sector clients for KSA 4 (tact and diplomacy with high-level officials).",
   "Add any volunteer, campaign, crisis-line or community work involving suicide, substance abuse or violence prevention. The posting explicitly credits volunteer experience.",
   "Answer the questionnaire conservatively, because answers are checked against the resume and unsupported answers lead to 'not qualified.' Keep the resume to two pages.",
   "The notice is open until December 2026, but announcements like this are often reviewed in batches. Apply early and upload transcripts if a graduate degree applies."
  ],
  "resume_bullets": [
-  "Analyzed [federal/state/local] policies and regulations on [preparedness/public safety topic] for [client type] at IEM, producing [number] briefings and recommendations for [audience/officials].",
-  "Assessed program needs and evaluated status of [program name] for [government client], recommending improvements adopted as [outcome] ([hours/week], [dates]).",
-  "Built and maintained working relationships with [number/type] of stakeholders, including [agency officials/community groups], to coordinate [outreach/training/planning effort]."
+  "Took part in public health seminars on response and recovery roles (2022–2024) and attended the APHA and National Healthcare Coalition Preparedness conferences (2022).",
+  "Supported COVID-19 vaccination and monoclonal antibody sites (2021–2022) and a state health agency's mpox response (2022–2023).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients (2022–2024)."
  ],
  "interview_questions": [
   "Describe your experience with prevention of interpersonal or self-directed violence, such as suicide, sexual assault or substance abuse.",
@@ -52,5 +52,6 @@
  ],
  "job_id": "usajobs:852980600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }

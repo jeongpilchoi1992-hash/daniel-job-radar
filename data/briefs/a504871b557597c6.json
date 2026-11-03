@@ -1,10 +1,10 @@
 {
  "one_liner": "Senior program manager at the Senate Sergeant at Arms running the program that provides home security systems for U.S. Senators, likely including vendor and stakeholder coordination.",
- "fit_rating": "Stretch",
- "fit_summary": "Daniel's emergency-management consulting at IEM, policy knowledge, and relationship skills fit the protective, high-touch Senate setting well. However, a 'Senior' program manager title usually expects several years of directly managing security or technology programs, and Daniel's exact IEM role is unknown. The posting text gives almost no detail, so the fit can't be confirmed until you read the full announcement.",
+ "fit_rating": "Long shot",
+ "fit_summary": "Daniel's emergency planning and office security work at IEM touch the protective setting, but a senior program manager in residential security usually needs several years of directly managing security or technology programs, which his resume doesn't show. The same job is listed separately with a 5 to 8 year experience requirement for bachelor's holders.",
  "eligibility": [
   "Who may apply is not stated in the text provided; Senate SAA jobs are legislative-branch hires outside USAJOBS and OPM rules, so check the full posting on the Senate employment site.",
-  "Required years of program management experience and any security-systems background are not stated; confirm the minimum qualifications before applying.",
+  "Required years and any security-systems background aren't stated here; the other listing for this job asks for 5 to 8 years with a bachelor's degree.",
   "A background investigation or security clearance is likely for an SAA security program; verify what the posting requires.",
   "Education or certification requirements (e.g., a bachelor's degree or PMP) are not stated; check the full announcement."
  ],
@@ -24,9 +24,8 @@
   "The closing date is open until filled or not stated, so apply promptly; Senate postings can close without notice once enough applicants are in."
  ],
  "resume_bullets": [
-  "Managed [number] [emergency management/preparedness] projects for [federal/state/local] government clients at IEM, coordinating schedules, budgets of [$amount], and deliverables across [number] stakeholders.",
-  "Served as primary client liaison to [agency/official type], resolving issues and briefing leadership on [topic], resulting in [actual outcome].",
-  "Coordinated vendors and contractors for [project], tracking performance against [metrics/contract requirements] and [result]."
+  "Prioritized office security as part of office manager duties at IEM (2019–2024).",
+  "Worked with medical supply, truck rental and other vendors for COVID-19 sites (2021–2022)."
  ],
  "interview_questions": [
   "Describe a program you managed end to end: scope, budget, vendors, and how you measured success.",
@@ -42,5 +41,6 @@
  ],
  "job_id": "senate:senior-program-manager-residential-security-system-program-5454-washington-district-of-columbia-1273",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:51-04:00"
+ "generated_at": "2026-10-30T15:51-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Senior Air Force headquarters analyst at the Pentagon managing manpower studies, resource allocation and PPBES-linked budget and program evaluation work.",
  "fit_rating": "Long shot",
- "fit_summary": "This GS-13 role requires a year of GS-12-equivalent experience in financial management policy, manpower requirements and PPBES, which goes well beyond what is on file for you. Your IEM consulting work for government clients and your policy knowledge help, but unless that work involved budget, manpower or resource-allocation analysis at a senior level, you are unlikely to clear the specialized experience screen.",
+ "fit_summary": "This GS-13 role requires a year of GS-12-level experience in financial management policy, manpower requirements and PPBES. Daniel's resume shows logistics, exercise and proposal work, not budget or manpower analysis, so he is unlikely to clear the specialized experience screen.",
  "eligibility": [
   "The hiring path is listed as public, so U.S. citizens without federal status may apply.",
   "You need one year of specialized experience equivalent to GS-12 in developing and implementing management policy and tools to educate, train and build awareness of financial management workforce products and services.",
@@ -34,9 +34,8 @@
   "As a more realistic path, target GS-9/11 0343 Program Analyst or FEMA and Virginia VDEM emergency-management analyst roles, where your IEM background maps directly."
  ],
  "resume_bullets": [
-  "Analyzed [type of program/funding data] for [government client] to support allocation of [$ amount/resources], and prepared briefings and reports for [audience]. ([X] hrs/week)",
-  "Developed [guidance/training materials/tools] to educate [number/type of stakeholders] on [financial or program management process], ensuring compliance with [regulation, e.g., Stafford Act/2 CFR 200].",
-  "Served as liaison between [client agency offices] and [technical teams] to coordinate [project], tracking milestones and staffing needs across [scope]."
+  "Helped sequence onboarding for FEMA Public Assistance employees by organizing spreadsheets and analyzing the data for decision makers (2019–2020).",
+  "Built Excel pivot-table reports on spending for multi-state COVID-19 purchasing (2021–2022)."
  ],
  "interview_questions": [
   "Describe how you have conducted a manpower or staffing study and what methodology you used.",
@@ -52,5 +51,6 @@
  ],
  "job_id": "usajobs:890410900",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:01-04:00"
+ "generated_at": "2026-10-30T15:01-04:00",
+ "resume_revision": "2026-11-02"
 }

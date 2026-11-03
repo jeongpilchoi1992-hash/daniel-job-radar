@@ -1,13 +1,13 @@
 {
  "one_liner": "Senior Executive Service job running VA's HR and Administration business operations: budget, acquisition, human capital planning, risk management and strategic performance.",
  "fit_rating": "Long shot",
- "fit_summary": "This is an SES role that requires proven executive leadership of budget, acquisition, HR and risk programs across a large organization, plus OPM Qualifications Review Board certification. Nothing on file shows Daniel has supervised staff, owned a budget, or led enterprise-level operations, so the TQs and ECQs (especially Leading People and Driving Efficiency) would be very hard to document. Daniel's policy knowledge does fit ECQ 1, and the IEM work fits continuity and planning, but that is not enough on its own.",
+ "fit_summary": "This SES role requires executive leadership of budget, acquisition, HR and risk programs across a large organization, plus OPM Qualifications Review Board certification. Daniel's resume shows no staff supervision beyond a five-person intake team and no budget ownership, so skip it.",
  "eligibility": [
   "Open to the public and to SES members (hiring paths: ses, public), so no federal status is required, but you must show all five ECQs and both TQs within a two-page resume.",
   "Resumes over 2 pages are disqualified, and separate ECQ/TQ narratives are not accepted.",
   "If selected, your executive qualifications must be certified by OPM's SES Qualifications Review Board before appointment, followed by a one-year probationary period.",
-  "The security clearance is listed as 'Other'. Confirm the background investigation requirements with the agency.",
-  "The window is short: October 21 to November 4, 2026."
+  "The security clearance is listed as 'Other', so the background investigation requirement is not specified.",
+  "The posting is open October 21 to November 4, 2026."
  ],
  "keywords": [
   "Executive Core Qualifications",
@@ -27,16 +27,12 @@
   "cost-benefit analysis"
  ],
  "strategy": [
-  "First, decide honestly whether you have led people, budgets, and large programs at an executive level. If you have not, put your energy into GS-12/13 VA or FEMA planning, continuity, or management analyst roles that match your IEM background.",
-  "If you apply, describe your IEM work in the client's terms. Name the government clients, the size of the programs (dollars, staff, jurisdictions), and your own decision-making role. Do not just describe the projects.",
-  "Make sure each ECQ and TQ shows up in compact accomplishment bullets that use challenge-action-result. ECQ 1 is your strongest area, so point to concrete work interpreting federal law, policy, or federalism (for example, Stafford Act or state-federal coordination) rather than general interest in politics.",
-  "Include hours per week, dates, and any supervisory or budget authority for each job, using the posting's exact keywords.",
-  "Attach the required documents early and submit well before November 4, since the window is only two weeks."
+  "Skip this one: this SES role requires executive leadership of budget, acquisition, HR and risk programs across a large organization, and his resume shows no supervision beyond a five-person intake team and no budget ownership.",
+  "GS-9 to GS-12 planning, continuity or management analyst roles at VA or FEMA fit his IEM background."
  ],
  "resume_bullets": [
-  "Led [number]-person team supporting [government client] continuity of operations / business continuity planning, delivering [plan or product] that [result] within a [$ amount] contract budget.",
-  "Managed budget formulation and execution and contract deliverables for a [$ amount] [disaster recovery/preparedness] portfolio, using cost-benefit analysis to [specific efficiency result].",
-  "Advised [agency/officials] on [federal policy or statute, e.g., Stafford Act requirements], aligning program operations with federal, state, and local responsibilities under [specific effort]."
+  "Handled office manager duties at IEM: office security, travel, and help with onboarding and offboarding (2019–2024).",
+  "Completed Lean Six Sigma Yellow Belt training."
  ],
  "interview_questions": [
   "Describe a time you led an organization through major change. How did you handle resistance and accountability?",
@@ -46,11 +42,10 @@
  ],
  "watch_outs": [
   "SES positions usually require many years of senior supervisory and budget leadership. Without that, your application is very unlikely to pass the QRB.",
-  "There is a strict two-page limit, and missing ECQ/TQ evidence means disqualification.",
-  "The application window is only two weeks, closing November 4, 2026.",
-  "The clearance requirement is listed as 'Other' and is unclear, so confirm what investigation is needed."
+  "There is a strict two-page limit, and missing ECQ/TQ evidence means disqualification."
  ],
  "job_id": "usajobs:889627700",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:04-04:00"
+ "generated_at": "2026-10-30T15:04-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Entry-level grocery store job at a military base commissary: stocking shelves, running checkout, helping customers, and doing basic inventory and ordering paperwork.",
- "fit_rating": "Long shot",
- "fit_summary": "Daniel likely meets the minimum general-experience bar, and Daniel's people skills fit the customer-service side. But this GS-4 retail role with no promotion potential uses almost none of Daniel's policy knowledge or emergency-management consulting background. Treat it only as a federal foot-in-the-door option, not a career-aligned target.",
+ "fit_rating": "Good",
+ "fit_summary": "Daniel clears the GS-4 experience bar easily, but this retail role with no promotion potential uses none of his emergency management, logistics or public health experience and pays far below his level. Treat it only as a last-resort way into federal service.",
  "eligibility": [
   "Open to the public (also military spouses and federal transition candidates), so no prior federal status is needed.",
   "Qualify with 1 year of progressively responsible clerical, office, or other general work, OR two full years of education above high school (transcripts required), OR a combination of the two.",
@@ -27,16 +27,15 @@
  ],
  "strategy": [
   "Before applying, decide whether this fits your goals. Your energy is probably better spent on GS-7/9 program analyst, FEMA, or legislative roles, plus state and local emergency-management jobs.",
-  "If you apply, submit within 14 days of the May 1, 2026 open date (by about May 15). That initial cut-off fills the first vacancies, and later applicants are only considered if new vacancies arrive.",
+  "If he applies, note that the first cut-off (about May 15, 2026) has passed, so later applicants are considered only as new vacancies open.",
   "Frame your IEM work around client communication, document preparation, and administrative tracking, so it maps to the Clerical & Administrative, Communications, and Customer Service competencies. Describe what you actually did.",
-  "List hours per week (e.g., 'Full Time' or '40 hours per week') for every job. The posting says missing hours can make your resume incomplete, so keep it within two pages.",
+  "List hours per week (e.g., 'Full Time' or '40 hours per week') for every job, because the posting says missing hours can make a resume incomplete. Keep it within two pages.",
   "Answer the questionnaire honestly. Overstating checkout or retail experience you lack is grounds for an ineligible rating, and you must be able to back every answer up on your resume.",
   "Do not copy announcement text verbatim, and leave off photos, social media links, and personal data such as age."
  ],
  "resume_bullets": [
-  "[Title], IEM, [MM/YYYY–MM/YYYY], [40] hrs/week: Communicated with [government client/public stakeholder] contacts to answer questions and resolve requests on [disaster recovery/preparedness program].",
-  "Prepared and maintained [reports/tracking logs/invoices] for [number] client deliverables, ensuring accurate records and on-time submission.",
-  "Supported [event/field operation/outreach] serving [number] members of the public, following safety and security procedures."
+  "Procured and tracked medical supplies for sites in six states (2021–2022).",
+  "Served the public at a five-person intake center for ReBuild NC after Hurricane Matthew (2019)."
  ],
  "interview_questions": [
   "Tell us about a time you helped a frustrated customer or member of the public.",
@@ -51,5 +50,6 @@
  ],
  "job_id": "usajobs:867126000",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:08-04:00"
+ "generated_at": "2026-10-30T15:08-04:00",
+ "resume_revision": "2026-11-02"
 }

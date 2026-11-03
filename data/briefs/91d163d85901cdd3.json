@@ -1,10 +1,10 @@
 {
  "one_liner": "Staff a Senate press gallery: credential reporters, track floor votes and legislation, brief journalists, and run media logistics for hearings and major Capitol events.",
- "fit_rating": "Good",
- "fit_summary": "Daniel's deep knowledge of Congress and public policy, plus a people-oriented style, matches the core of this job: briefing reporters and explaining floor and committee activity. Emergency-management consulting at IEM can show high-pressure coordination and work with government stakeholders. The gaps are direct media relations and Hill experience, which you should address openly with any press, outreach, or event work you have.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel's knowledge of Congress and his people-oriented style fit the core of this job: briefing reporters and explaining floor and committee activity. His resume shows writing and coordination under pressure (vaccination-site logistics, leading the exercise SimCell, meeting minutes), but no media relations or Hill experience, so lead with any press, outreach or event work he has.",
  "eligibility": [
   "Open to the public, so no federal status or veterans' preference is needed. This is a Legislative Branch (Senate Sergeant at Arms) job, and you apply through the Senate Career Page (sen.gov/1VNZQ), not USAJOBS.",
-  "A bachelor's degree is required. Confirm you hold one and list it clearly.",
+  "A bachelor's degree is required. His M.A. (George Mason, 2016) implies one; list both degrees.",
   "At least two years of relevant experience is required. Show how your IEM role and any other work count toward it.",
   "No security clearance is required. Senate employment typically includes background checks, so expect one.",
   "Applications close at 11:59pm EST on November 5, 2026, and late applications are not accepted."
@@ -34,9 +34,9 @@
   "Use your cover letter, if accepted, to highlight event logistics and public-facing work. Also state that you are willing to work long hours, nights, weekends, and during shutdowns."
  ],
  "resume_bullets": [
-  "Coordinated [type of event/exercise] logistics for [number] participants from [federal/state/local agencies] at IEM, managing [seating/access/security/scheduling] under [timeline/pressure].",
-  "Briefed [audience, e.g., government clients/officials] on [policy/program topic], producing [number] written summaries or reports used for [decision/purpose].",
-  "Maintained [database/tracking system] of [records type] for [project/client], ensuring accurate, timely documentation across [number] [entries/deliverables]."
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, in person and virtually (2022–2024).",
+  "Handled conference supplies, deliveries and office security for IEM's office (2019–2024).",
+  "Took minutes at a large travel company's weekly meetings (Feb – Aug 2024)."
  ],
  "interview_questions": [
   "Walk us through how a bill moves from committee to final Senate passage, including how floor time is scheduled.",
@@ -52,5 +52,6 @@
  ],
  "job_id": "usajobs:889976600",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:00-04:00"
+ "generated_at": "2026-10-30T15:00-04:00",
+ "resume_revision": "2026-11-02"
 }

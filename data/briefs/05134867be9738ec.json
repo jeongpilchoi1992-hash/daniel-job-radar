@@ -1,7 +1,7 @@
 {
  "one_liner": "A project or program manager role at Virginia Tech (a state university), rank/level set by experience, based in Arlington or Blacksburg; duties not described.",
  "fit_rating": "Stretch",
- "fit_summary": "With no description, fit is hard to judge. Daniel's consulting work at IEM on government emergency management and recovery projects could translate to project/program coordination, and Arlington is commutable from Manassas. Daniel's people and policy strengths help, but the actual focus (research, IT, outreach, etc.) is unknown and could make this a weak match.",
+ "fit_summary": "With no description, fit is hard to judge. Daniel's project operations work at IEM (logistics and on-site support to project managers at multi-state COVID-19 sites, FEMA exercises) translates to project and program coordination, and Arlington is commutable from Manassas. The unit's focus is unknown and could make this a weak match.",
  "eligibility": [
   "Open the full posting on Virginia Tech's careers site (jobs.vt.edu) to confirm duties, required qualifications and education. None are stated here.",
   "\"Open Rank\" means the level (e.g., associate, senior) depends on experience. Check the minimum years of project management experience for each rank.",
@@ -32,9 +32,9 @@
   "Prepare a cover letter connecting your consulting background to the program's mission once known."
  ],
  "resume_bullets": [
-  "Coordinated [number] [type] projects for [government client type] at IEM, managing schedules, deliverables and client communication to meet [deadline/requirement].",
-  "Served as liaison between [client agency/stakeholders] and project teams, facilitating [meetings/workshops] for [number] participants on [emergency management/recovery topic].",
-  "Tracked [budget/tasks/milestones] using [tool] and produced [weekly/monthly] status reports for [audience]."
+  "Served as on-site assistant to project managers and helped stand up new COVID-19 mass care sites while overseeing logistics in four states at once (2021–2022).",
+  "Built Excel pivot-table reports on spending and order status for the multi-state logistics team.",
+  "Led proposal writing for multimillion-dollar government bids (2019–2024)."
  ],
  "interview_questions": [
   "Describe a project you managed from start to finish. How did you handle scope, schedule and stakeholders?",
@@ -49,5 +49,6 @@
  ],
  "job_id": "virginia:open-rank-project-program-manager-arlington-virginia-united-states-blacksburg",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:06-04:00"
+ "generated_at": "2026-10-30T15:06-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,10 +1,10 @@
 {
  "one_liner": "A CIA Directorate of Analysis officer who researches foreign developments and writes objective assessments for U.S. policymakers; applications go through cia.gov/careers, not USAJOBS.",
  "fit_rating": "Stretch",
- "fit_summary": "Daniel's strong command of politics and policy, communication skills, and government-client consulting at IEM fit the analyst attributes, especially the Politics or Leadership specialties. However, the posting centers on foreign affairs and U.S. strategic priorities, while Daniel's known strengths are domestic politics and emergency management. Daniel also must meet a bachelor's degree with a 3.0 GPA requirement and pass a lengthy TS/SCI background investigation, including a polygraph that is standard for CIA.",
+ "fit_summary": "Daniel's research and writing (proposals, tracking states' Rural Health Transformation Program rollout, research for a state agency's training review) and his M.A. in Global Affairs fit the analyst attributes, and his coursework (Middle East ethnography, global trade, economic globalization) gives him a foreign-affairs footing. His IEM work has been domestic emergency management and public health (his closest national-security tie is screening translator volunteers for DoD language requests at the National Language Service Corps in 2018), and the job requires a 3.0 GPA and a TS/SCI investigation with polygraph, which takes many months.",
  "eligibility": [
   "Open to the public (competitive and excepted paths listed); U.S. citizenship is required.",
-  "Bachelor's degree from an accredited institution with at least a 3.0 GPA on a 4.0 scale. Confirm Daniel's degree and GPA before applying.",
+  "Bachelor's degree with at least a 3.0 GPA. His M.A. (George Mason, 2016) covers the degree; confirm his GPA meets 3.0.",
   "Must be able to obtain a Sensitive Compartmented Information (SCI) clearance through a full background investigation.",
   "Must show an understanding of foreign affairs and U.S. strategic priorities; this is a stated minimum qualification.",
   "On-site work in the Washington, DC area: not telework-eligible and not remote."
@@ -35,9 +35,9 @@
   "In parallel, apply to emergency-management roles at FEMA, the Virginia Department of Emergency Management (VDEM), and Prince William County, which are a stronger near-term fit."
  ],
  "resume_bullets": [
-  "Researched and analyzed [type of information, e.g., hazard data or policy documents] for [government client type], producing [number] written [reports/briefings] that informed [decision or plan].",
-  "Briefed [audience, e.g., state and local officials] on [topic], translating complex [technical/policy] findings into clear recommendations under [deadline/time constraint].",
-  "Coordinated with [number] stakeholders across [agencies/jurisdictions] to gather information and reconcile conflicting inputs for [project], [result you can verify]."
+  "Tracked state implementation of the Rural Health Transformation Program from November 2025, judging which states were executing well and which were struggling.",
+  "Provided scholarly research that helped a state public health agency's analysts review trauma-incident training recertification.",
+  "Studied economic globalization, global trade relations and Middle East ethnography for an M.A. in Global Affairs (George Mason, 2016)."
  ],
  "interview_questions": [
   "Walk us through how you would assess a foreign leader's likely response to a new U.S. policy.",
@@ -53,5 +53,6 @@
  ],
  "job_id": "usajobs:851782400",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:07-04:00"
+ "generated_at": "2026-10-30T15:07-04:00",
+ "resume_revision": "2026-11-02"
 }

@@ -1,7 +1,7 @@
 {
  "one_liner": "Run day-to-day communications and public engagement for the City of Manassas, coordinating projects across departments, bilingual content, and a small team of coordinators.",
- "fit_rating": "Good",
- "fit_summary": "Daniel lives in Manassas, knows public policy well, and is strong with people and the public, which suits a city public affairs role. The IEM consulting work can likely be framed as government-facing coordination and preparedness communication. The gaps are documented communications production, bilingual/translation workflow management, and supervising staff, which the posting stresses for a senior-level role.",
+ "fit_rating": "Stretch",
+ "fit_summary": "Daniel lives in Manassas and is strong with the public, and his preparedness work at IEM (exercises, emergency forms, mpox and vaccination-site support) can be framed as government-facing coordination and preparedness communication. This senior role stresses communications production, translation workflow management and staff supervision; his resume shows no communications production or translation management, and his only supervision is leading the five-person ReBuild NC intake center, so it's a stretch for now.",
  "eligibility": [
   "The posting text shown does not list who may apply, so read the full governmentjobs.com listing; local government roles are generally open to the public with no federal status required.",
   "Minimum education and experience requirements are cut off in the excerpt; confirm the required degree (often communications, journalism or public administration) and years of experience before applying.",
@@ -28,13 +28,13 @@
   "Frame the IEM work around communicating with government clients and the public, such as preparedness messaging, stakeholder coordination, and multi-party project timelines, using only duties Daniel actually performed.",
   "Lead with your Manassas residency and community ties, and show you know City priorities by reviewing the City Manager's strategic plan and recent city news before writing the cover letter.",
   "Build a short portfolio (press releases, social posts, briefings, newsletters, or plans you wrote) because public affairs hiring managers usually ask for writing samples.",
-  "If you have any Spanish or other language ability, or have worked with translators, say so plainly; if not, show how you would manage translation vendors and quality-check content.",
+  "His resume lists no second language, but at the National Language Service Corps (2018) he vetted translator volunteers and matched them to DoD language requests; lead with that, and show how he would manage translation vendors, drawing on the vendor relationships he set up for vaccination sites.",
   "Answer every supplemental question in full with specific examples; local HR often scores those answers and does not infer them from the resume."
  ],
  "resume_bullets": [
-  "Coordinated [type of communication product or outreach effort] for [government client/agency] on [emergency management or preparedness topic], delivering [number] deliverables on schedule across [number] stakeholder groups.",
-  "Managed workflows for [project name], tracking planning, scheduling, and reviews among [number] team members and client offices to ensure consistent, on-brand messaging by [deadline].",
-  "Engaged [audience: residents, officials, community partners] through [meetings/events/briefings], building relationships that [specific outcome you can verify]."
+  "Led a five-person intake center for ReBuild NC after Hurricane Matthew, answering homeowners' questions about the recovery program (2019).",
+  "Led proposal writing for multimillion-dollar government bids (2019–2024).",
+  "Facilitated full-scale and tabletop exercises for federal, state and private-sector clients, in person and virtually (2022–2024)."
  ],
  "interview_questions": [
   "Tell us about a time you turned a complex policy or program into clear communication for the public.",
@@ -43,12 +43,13 @@
   "How would you guide and support junior coordinators while managing your own projects?"
  ],
  "watch_outs": [
-  "This is a senior role with supervisory duties, and Daniel's direct communications and supervisory experience is not documented, so be ready to show concrete examples.",
+  "This is a senior role with supervisory duties; his only documented supervision is the five-person ReBuild NC intake center (2019), and his resume shows no communications production work, so be ready to show concrete examples.",
   "The posting may close at any time once it opens, so have your resume and samples ready before 2026-09-30.",
   "The actual hiring range tops out at $113,172.80, not the $144,040 listed maximum, so set salary expectations accordingly.",
   "Bilingual skills may be required or strongly preferred; confirm in the full posting."
  ],
  "job_id": "neogov:manassas:5487355",
  "model": "claude-opus-5-5",
- "generated_at": "2026-10-30T15:02-04:00"
+ "generated_at": "2026-10-30T15:02-04:00",
+ "resume_revision": "2026-11-02"
 }
