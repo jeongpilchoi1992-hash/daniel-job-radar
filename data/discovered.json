@@ -52,7 +52,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -127,7 +127,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -200,7 +200,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -274,7 +274,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -346,7 +346,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -420,7 +420,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -495,7 +495,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -569,7 +569,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -642,8 +642,8 @@
     "found_on": "2026-10-30",
     "unverified_runs": 0,
     "verified_on": "2026-11-07",
-    "check": "listed on the employer's job board",
-    "dead_runs": 0,
+    "check": "may have closed: no longer listed on the employer's job board",
+    "dead_runs": 1,
     "topics": [
      "Communications & Outreach"
     ],
@@ -711,7 +711,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0,
     "topics": [
@@ -781,7 +781,7 @@
     },
     "found_on": "2026-10-30",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0,
     "topics": [
@@ -862,7 +862,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (CJ)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -916,7 +916,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean conglomerate (SK)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -971,7 +971,7 @@
     "employer_type": "U.S. subsidiary of Korean conglomerate (Hyundai)",
     "unverified_runs": 0,
     "check": "link checked",
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "dead_runs": 0
    },
    {
@@ -1025,7 +1025,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Global asset manager – Korea client coverage",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1082,7 +1082,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Global alternative asset manager – Seoul (fundraising/IR)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1136,7 +1136,7 @@
     "employer_type": "Global asset manager – Korea institutional coverage",
     "unverified_runs": 0,
     "check": "link checked",
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "dead_runs": 0
    },
    {
@@ -1191,7 +1191,7 @@
     "found_on": "2026-10-30",
     "employer_type": "U.S. subsidiary of Korean company (Hanwha)",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1244,60 +1244,8 @@
     "found_on": "2026-10-30",
     "employer_type": "Financial data firm – Korea/North Asia coverage",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
-    "dead_runs": 0
-   },
-   {
-    "id": "ai:jp:7d8f538924df31a9",
-    "source": "ai:jp",
-    "level": "Hong Kong / Singapore",
-    "title": "Associate Director, Macquarie Capital Infra Principal",
-    "org": "Macquarie Group",
-    "location": "Hong Kong / Singapore",
-    "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail/Associate-Director-Macquarie-Capital-Infra-Principal/23870",
-    "apply_url": "https://recruitment.macquarie.com/en_US/careers/JobDetail/Associate-Director-Macquarie-Capital-Infra-Principal/23870",
-    "posted": "2026-10-26",
-    "closes": null,
-    "salary_text": "",
-    "work_authorization": "Not stated",
-    "summary": "This Asia principal-investing role puts Macquarie's balance sheet into infrastructure and energy, covering origination, structuring, due diligence and modeling. J.P.'s strategic investment and co-investment deals are relevant, but the posting asks for 7-12 years of infrastructure principal investing.",
-    "match": {
-     "score": 15,
-     "tags": [
-      "Hong Kong / Singapore"
-     ]
-    },
-    "brief": {
-     "fit_summary": "This Asia principal-investing role puts Macquarie's balance sheet into infrastructure and energy, covering origination, structuring, due diligence and modeling. J.P.'s strategic investment and co-investment deals are relevant, but the posting asks for 7-12 years of infrastructure principal investing.",
-     "keywords": [
-      "principal investing",
-      "infrastructure",
-      "energy",
-      "origination",
-      "transaction structuring",
-      "financial due diligence",
-      "financial modelling",
-      "debt and equity financing",
-      "valuation",
-      "Asia Pacific"
-     ],
-     "strategy": [
-      "Apply only if J.P. can show strong modeling. Lead with the Wedbush RCPS structuring and the KRW 160B loan asset transfer.",
-      "Present Korea deal-flow knowledge as a way to cover the Korean market.",
-      "Ask about Senior Analyst/Associate openings on the same team instead."
-     ],
-     "watch_outs": [
-      "J.P. has much less experience than required and no infrastructure experience. This is a long shot.",
-      "J.P. would need a Hong Kong or Singapore work visa."
-     ],
-     "evidence": "Associate Director, Macquarie Capital Infra Principal ... Date 26-Oct-2026"
-    },
-    "found_on": "2026-10-30",
-    "employer_type": "Global infrastructure principal investing – Asia",
-    "unverified_runs": 13,
-    "verified_on": "2026-11-01",
-    "check": "HTTP 403",
     "dead_runs": 0
    },
    {
@@ -1352,7 +1300,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Korean sovereign wealth fund – U.S. office",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1409,7 +1357,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IFC",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0
    },
@@ -1465,7 +1413,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1518,7 +1466,7 @@
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "listed on the employer's job board",
     "dead_runs": 0
    },
@@ -1572,7 +1520,7 @@
     "found_on": "2026-10-30",
     "employer_type": "Korea-based international climate fund",
     "unverified_runs": 0,
-    "verified_on": "2026-11-07",
+    "verified_on": "2026-11-08",
     "check": "link checked",
     "dead_runs": 0
    }
