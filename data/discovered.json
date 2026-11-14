@@ -419,9 +419,9 @@
      "evidence": "Opening Date: October 29, 2026 Closing Date: November 30, 2026"
     },
     "found_on": "2026-10-30",
-    "unverified_runs": 0,
+    "unverified_runs": 1,
     "verified_on": "2026-11-13",
-    "check": "link checked",
+    "check": "HTTP 403",
     "dead_runs": 0,
     "topics": [
      "Policy & Legislative"
@@ -709,9 +709,9 @@
      "evidence": "The Senate Sergeant at Arms Talent Network is a resume bank that helps us match qualified job seekers to current and future job openings."
     },
     "found_on": "2026-10-30",
-    "unverified_runs": 0,
+    "unverified_runs": 1,
     "verified_on": "2026-11-13",
-    "check": "listed on the employer's job board",
+    "check": "HTTP 403",
     "dead_runs": 0,
     "topics": [
      "Emergency Management",
@@ -1010,9 +1010,9 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global alternative asset manager – Seoul (fundraising/IR)",
-    "unverified_runs": 0,
+    "unverified_runs": 1,
     "verified_on": "2026-11-13",
-    "check": "listed on the employer's job board",
+    "check": "HTTP 521",
     "dead_runs": 0
    },
    {
@@ -1341,9 +1341,9 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
-    "unverified_runs": 0,
+    "unverified_runs": 1,
     "verified_on": "2026-11-13",
-    "check": "listed on the employer's job board",
+    "check": "HTTP 521",
     "dead_runs": 0
    },
    {
@@ -1394,9 +1394,9 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
-    "unverified_runs": 0,
+    "unverified_runs": 1,
     "verified_on": "2026-11-13",
-    "check": "listed on the employer's job board",
+    "check": "HTTP 521",
     "dead_runs": 0
    },
    {
@@ -1450,8 +1450,8 @@
     "employer_type": "Korea-based international climate fund",
     "unverified_runs": 0,
     "verified_on": "2026-11-13",
-    "check": "link checked",
-    "dead_runs": 0
+    "check": "may have closed: HTTP 404",
+    "dead_runs": 1
    }
   ],
   "last_run": "2026-10-30",
