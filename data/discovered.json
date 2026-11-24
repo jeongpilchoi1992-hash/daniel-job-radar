@@ -1010,7 +1010,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Global alternative asset manager – Seoul (fundraising/IR)",
-    "unverified_runs": 3,
+    "unverified_runs": 4,
     "verified_on": "2026-11-22",
     "check": "HTTP 429",
     "dead_runs": 0
@@ -1172,9 +1172,9 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "Financial data firm – Korea/North Asia coverage",
-    "unverified_runs": 5,
-    "verified_on": "2026-11-21",
-    "check": "HTTP 429",
+    "unverified_runs": 0,
+    "verified_on": "2026-11-24",
+    "check": "listed on the employer's job board",
     "dead_runs": 0
    },
    {
@@ -1341,7 +1341,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
-    "unverified_runs": 5,
+    "unverified_runs": 6,
     "verified_on": "2026-11-21",
     "check": "HTTP 429",
     "dead_runs": 0
@@ -1394,7 +1394,7 @@
     },
     "found_on": "2026-10-30",
     "employer_type": "International organization – IMF",
-    "unverified_runs": 4,
+    "unverified_runs": 5,
     "verified_on": "2026-11-21",
     "check": "HTTP 429",
     "dead_runs": 0
